@@ -44,7 +44,7 @@ class ReminderWorker(context: Context, params: WorkerParameters) : CoroutineWork
             .build()
         try {
             NotificationManagerCompat.from(applicationContext).notify(1001, notification)
-        } catch (_: SecurityException) {
+        } catch (e: SecurityException) {
             // Permission was removed by the user; nothing to do.
         }
         return Result.success()

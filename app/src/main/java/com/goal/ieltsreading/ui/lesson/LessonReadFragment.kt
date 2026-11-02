@@ -5,8 +5,10 @@ import android.text.method.LinkMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import com.goal.ieltsreading.R
 import com.goal.ieltsreading.data.db.LessonEntity
 import com.goal.ieltsreading.data.db.VocabEntity
 import com.goal.ieltsreading.databinding.FragmentLessonReadBinding
@@ -15,7 +17,6 @@ import com.goal.ieltsreading.ui.common.WordHighlighter
 import com.goal.ieltsreading.ui.common.paragraphs
 import com.goal.ieltsreading.ui.common.visibleIf
 import com.goal.ieltsreading.ui.vocab.WordSheet
-import com.google.android.material.color.MaterialColors
 
 /** Step 3: read the passage. Key words are tappable; Gujarati can be shown under each paragraph. */
 class LessonReadFragment : Fragment() {
@@ -41,11 +42,11 @@ class LessonReadFragment : Fragment() {
         val lesson: LessonEntity = viewModel.lesson.value ?: return
         val words: List<VocabEntity> = viewModel.words.value.orEmpty()
         val showGu = binding.switchTranslation.isChecked
-        val color = MaterialColors.getColor(binding.root, com.google.android.material.R.attr.colorPrimary)
+        val color = ContextCompat.getColor(requireContext(), R.color.brand_primary)
 
         binding.textPassageTitle.text = lesson.passageTitle
         val wordCount = lesson.passage.split(Regex("\\s+")).count { it.isNotBlank() }
-        binding.textWordCount.text = getString(com.goal.ieltsreading.R.string.word_count_format, wordCount)
+        binding.textWordCount.text = getString(R.string.word_count_format, wordCount)
 
         val en = lesson.passage.paragraphs()
         val gu = lesson.passageGu.paragraphs()
