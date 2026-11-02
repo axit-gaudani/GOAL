@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Partner message: white bubble on the left -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="start"
-    android:layout_marginTop="8dp"
-    android:layout_marginEnd="48dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginEnd="64dp"
     android:background="@drawable/bg_bubble_partner"
     android:orientation="vertical"
     android:paddingHorizontal="14dp"
@@ -12,14 +13,16 @@
 
     <TextView
         android:id="@+id/textEn"
+        style="@style/G4.Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/Text.Body" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/textGu"
+        style="@style/G4.Text.Gu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/Text.Gujarati"
-        android:textSize="14sp" />
+        android:layout_marginTop="4dp"
+        android:textSize="13sp" />
 </LinearLayout>

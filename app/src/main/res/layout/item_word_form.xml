@@ -1,33 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="6dp"
-    android:background="@drawable/bg_gujarati"
-    android:gravity="center_vertical"
-    android:minHeight="52dp"
-    android:orientation="horizontal"
-    android:paddingHorizontal="14dp"
-    android:paddingVertical="8dp">
+<!-- One word-family form (VERB / NOUN / ADJECTIVE). Colours are set in code: blue, amber, teal. -->
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/brand_primary_container"
+    app:cardCornerRadius="14dp">
 
-    <TextView
-        android:id="@+id/textPos"
-        android:layout_width="96dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
-        android:textColor="@color/text_secondary" />
+        android:orientation="vertical"
+        android:padding="10dp">
 
-    <TextView
-        android:id="@+id/textForm"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textAppearance="@style/Text.Subtitle"
-        android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textPos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="@color/brand_on_primary_container"
+            android:textSize="11sp" />
 
-    <TextView
-        android:id="@+id/textGu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="@style/Text.Gujarati" />
-</LinearLayout>
+        <TextView
+            android:id="@+id/textForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:textColor="@color/brand_on_primary_container"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textGu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/gujarati_text"
+            android:textSize="12sp" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

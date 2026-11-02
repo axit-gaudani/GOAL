@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Learner message: blue bubble on the right, with "Clear" under it -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="end"
-    android:layout_marginStart="48dp"
-    android:layout_marginTop="8dp"
+    android:layout_marginStart="64dp"
+    android:layout_marginTop="12dp"
     android:background="@drawable/bg_bubble_you"
     android:orientation="vertical"
     android:paddingHorizontal="14dp"
@@ -14,13 +16,18 @@
         android:id="@+id/textEn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
-        android:textColor="@color/white" />
+        android:textColor="@color/g4_on_color"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/textStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
-        android:textColor="@color/white" />
+        android:layout_marginTop="4dp"
+        android:alpha="0.9"
+        android:drawablePadding="4dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/g4_on_color"
+        android:textSize="12sp"
+        app:drawableTint="@color/g4_on_color" />
 </LinearLayout>

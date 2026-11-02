@@ -2,4 +2,5 @@
 <resources>
     <dimen name="g4_grid_gap">10dp</dimen>
     <dimen name="g4_screen_side">20dp</dimen>
+    <dimen name="g4_pack_gap">8dp</dimen>
 </resources>

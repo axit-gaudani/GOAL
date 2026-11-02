@@ -8,6 +8,7 @@ import android.view.inputmethod.EditorInfo
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.NavOptions
 import androidx.navigation.fragment.findNavController
 import com.goal.ieltsreading.R
 import com.goal.ieltsreading.databinding.FragmentSpellingBinding
@@ -42,6 +43,12 @@ class SpellingFragment : Fragment() {
         }
         binding.btnAgain.setOnClickListener { shownPosition = -1; viewModel.restart() }
         binding.btnDone.setOnClickListener { findNavController().navigateUp() }
+        binding.btnModeMatch.setOnClickListener {
+            findNavController().navigate(
+                R.id.matchGameFragment, null,
+                NavOptions.Builder().setPopUpTo(R.id.spellingFragment, true).build()
+            )
+        }
 
         viewModel.state.observe(viewLifecycleOwner) { s ->
             binding.groupGame.visibleIf(!s.finished && s.word != null)
@@ -62,14 +69,17 @@ class SpellingFragment : Fragment() {
             binding.inputAnswer.isEnabled = !s.checked
             binding.cardFeedback.visibleIf(s.checked)
             if (s.checked) {
-                binding.textFeedback.setText(if (s.correct) R.string.feedback_correct else R.string.feedback_wrong)
+                binding.textFeedback.setText(if (s.correct) R.string.g4_feedback_correct else R.string.g4_feedback_wrong)
                 binding.textFeedback.setTextColor(
-                    ContextCompat.getColor(requireContext(), if (s.correct) R.color.success else R.color.error)
+                    ContextCompat.getColor(requireContext(), if (s.correct) R.color.g4_green_text else R.color.g4_red_text)
+                )
+                binding.cardFeedback.setCardBackgroundColor(
+                    ContextCompat.getColor(requireContext(), if (s.correct) R.color.g4_green_soft else R.color.g4_red_soft)
                 )
                 binding.textCorrectWord.text = w.word
                 binding.textExample.text = w.example
             }
-            binding.btnAction.setText(if (s.checked) R.string.btn_next_question else R.string.btn_check)
+            binding.btnAction.setText(if (s.checked) R.string.btn_next_question else R.string.g4_btn_check)
         }
     }
 

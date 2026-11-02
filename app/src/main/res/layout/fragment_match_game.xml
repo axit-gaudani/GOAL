@@ -8,49 +8,97 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="@dimen/screen_padding">
+        android:paddingHorizontal="@dimen/g4_screen_side"
+        android:paddingTop="4dp"
+        android:paddingBottom="24dp">
 
-        <TextView
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progressMatch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/match_title"
-            android:textAppearance="@style/Text.Title" />
+            app:indicatorColor="@color/brand_tertiary"
+            app:trackColor="@color/track"
+            app:trackCornerRadius="4dp"
+            app:trackThickness="8dp" />
 
-        <TextView
+        <!-- Game switcher pills -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/match_title_gu"
-            android:textAppearance="@style/Text.Gujarati" />
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnModeMatch"
+                style="@style/G4.Button.Flat"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:insetTop="6dp"
+                android:insetBottom="6dp"
+                android:minWidth="0dp"
+                android:paddingHorizontal="12dp"
+                android:text="@string/game_match"
+                android:textColor="@color/g4_on_color"
+                android:textSize="13sp"
+                app:backgroundTint="@color/brand_primary"
+                app:cornerRadius="100dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnModeSpelling"
+                style="@style/G4.Button.Flat"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/inter_semibold"
+                android:insetTop="6dp"
+                android:insetBottom="6dp"
+                android:minWidth="0dp"
+                android:paddingHorizontal="12dp"
+                android:text="@string/game_spelling"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                app:backgroundTint="@color/surface"
+                app:cornerRadius="100dp" />
+        </LinearLayout>
 
         <TextView
-            android:id="@+id/textStatus"
+            style="@style/G4.Text.Instruction"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
-            android:textAppearance="@style/Text.Secondary" />
+            android:layout_marginTop="8dp"
+            android:text="@string/match_title" />
+
+        <TextView
+            style="@style/G4.Text.Gu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/match_title_gu" />
 
         <TextView
             android:id="@+id/textEmpty"
+            style="@style/G4.Text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:gravity="center"
             android:text="@string/game_needs_words"
-            android:visibility="gone"
-            android:textAppearance="@style/Text.Body" />
+            android:textSize="16sp"
+            android:visibility="gone" />
 
+        <!-- Two columns of tiles: English | Gujarati -->
         <LinearLayout
             android:id="@+id/columns"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:id="@+id/leftColumn"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="6dp"
+                android:layout_marginEnd="5dp"
                 android:layout_weight="1"
                 android:orientation="vertical" />
 
@@ -58,31 +106,37 @@
                 android:id="@+id/rightColumn"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="6dp"
+                android:layout_marginStart="5dp"
                 android:layout_weight="1"
                 android:orientation="vertical" />
         </LinearLayout>
 
+        <!-- Last matched word -->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardLast"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp">
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="18dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
-                android:padding="12dp">
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="12dp">
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnPlayLast"
-                    style="@style/Widget.Material3.Button.IconButton.Filled"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
+                    style="@style/G4.Button.Circle"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
                     android:contentDescription="@string/cd_play"
-                    app:icon="@drawable/ic_volume" />
+                    app:backgroundTint="@color/g4_teal"
+                    app:icon="@drawable/ic_g4_speaker"
+                    app:iconSize="20dp"
+                    app:iconTint="@color/g4_on_color" />
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -93,19 +147,45 @@
 
                     <TextView
                         android:id="@+id/textLast"
+                        style="@style/G4.Text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textAppearance="@style/Text.Subtitle"
-                        android:textStyle="bold" />
+                        android:fontFamily="@font/inter_bold"
+                        android:textSize="15sp" />
 
                     <TextView
                         android:id="@+id/textLastExample"
+                        style="@style/G4.Text.Caption"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="@style/Text.Secondary" />
+                        android:layout_height="wrap_content" />
                 </LinearLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
+
+        <!-- "3 of 5 pairs matched"   "No mistakes" -->
+        <LinearLayout
+            android:id="@+id/rowStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textStatus"
+                style="@style/G4.Text.Caption"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textMistakes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_bold"
+                android:textColor="@color/g4_green"
+                android:textSize="14sp" />
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/groupFinished"
@@ -117,25 +197,29 @@
 
             <TextView
                 android:id="@+id/textFinished"
+                style="@style/G4.Text.Instruction"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textAppearance="@style/Text.Title" />
+                android:gravity="center" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnAgain"
+                style="@style/G4.Button.Big"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="14dp"
                 android:text="@string/btn_play_again" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnDone"
-                style="@style/Widget.App.Button.Tonal"
+                style="@style/G4.Button.Big"
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:layout_marginTop="8dp"
-                android:text="@string/btn_done" />
+                android:layout_height="52dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/btn_done"
+                android:textColor="@color/brand_on_primary_container"
+                android:textSize="16sp"
+                app:backgroundTint="@color/brand_primary_container" />
         </LinearLayout>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

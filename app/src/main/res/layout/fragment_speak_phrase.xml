@@ -10,19 +10,22 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <!-- Progress row (the toolbar already has the back arrow, so the close button stays hidden) -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
+            android:minHeight="32dp"
             android:orientation="horizontal"
-            android:paddingHorizontal="8dp">
+            android:paddingHorizontal="@dimen/g4_screen_side">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnClose"
                 style="@style/Widget.Material3.Button.IconButton"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
                 android:contentDescription="@string/cd_close"
+                android:visibility="gone"
                 app:icon="@drawable/ic_close" />
 
             <com.google.android.material.progressindicator.LinearProgressIndicator
@@ -37,11 +40,12 @@
 
             <TextView
                 android:id="@+id/textCounter"
-                android:layout_width="56dp"
+                style="@style/G4.Text.Caption"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
                 android:gravity="end"
-                android:paddingEnd="8dp"
-                android:textAppearance="@style/Text.Secondary" />
+                android:minWidth="40dp" />
         </LinearLayout>
 
         <androidx.core.widget.NestedScrollView
@@ -53,186 +57,276 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="@dimen/screen_padding">
+                android:paddingHorizontal="@dimen/g4_screen_side"
+                android:paddingTop="14dp"
+                android:paddingBottom="8dp">
 
                 <TextView
                     android:id="@+id/textUnit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_bold"
                     android:textAllCaps="true"
-                    android:textAppearance="@style/Text.Label"
-                    android:textColor="@color/brand_tertiary" />
+                    android:textColor="@color/g4_teal_label"
+                    android:textSize="13sp" />
 
                 <TextView
+                    style="@style/G4.Text.Instruction"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/listen_then_say"
-                    android:textAppearance="@style/Text.Title" />
+                    android:layout_marginTop="2dp"
+                    android:text="@string/g4_listen_then_say" />
 
+                <TextView
+                    style="@style/G4.Text.Gu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/g4_listen_then_say_gu" />
+
+                <!-- Phrase card -->
                 <com.google.android.material.card.MaterialCardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp">
+                    android:layout_marginTop="14dp"
+                    app:cardCornerRadius="24dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:padding="18dp">
+                        android:padding="20dp">
 
                         <TextView
                             android:id="@+id/textPhrase"
+                            style="@style/G4.Text"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
-                            android:textColor="@color/text_primary" />
+                            android:fontFamily="@font/inter_extrabold"
+                            android:lineSpacingExtra="8dp"
+                            android:textSize="26sp" />
 
                         <TextView
                             android:id="@+id/textPron"
+                            style="@style/G4.Text.Caption"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="6dp"
-                            android:textAppearance="@style/Text.Secondary" />
+                            android:layout_marginTop="10dp"
+                            android:textSize="15sp" />
 
                         <TextView
                             android:id="@+id/textGu"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:textAppearance="@style/Text.Gujarati" />
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/inter_semibold"
+                            android:textColor="@color/gujarati_text"
+                            android:textSize="17sp" />
 
                         <TextView
+                            style="@style/G4.Text.Caption"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="@string/stress_hint"
-                            android:textAppearance="@style/Text.Secondary" />
+                            android:layout_marginTop="10dp"
+                            android:text="@string/stress_hint" />
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
 
+                <!-- Teacher · Slow · My voice -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginTop="14dp"
                     android:orientation="horizontal">
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnTeacher"
-                        style="@style/Widget.App.Button.Tonal"
+                        style="@style/G4.Button.Flat"
                         android:layout_width="0dp"
                         android:layout_height="52dp"
-                        android:layout_marginEnd="4dp"
-                        android:layout_weight="1"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1.2"
+                        android:paddingHorizontal="8dp"
                         android:text="@string/btn_teacher"
-                        app:icon="@drawable/ic_volume" />
+                        android:textColor="@color/g4_teal_text"
+                        app:backgroundTint="@color/g4_teal_soft"
+                        app:icon="@drawable/ic_g4_speaker"
+                        app:iconGravity="textStart"
+                        app:iconPadding="6dp"
+                        app:iconSize="18dp"
+                        app:iconTint="@color/g4_teal_text" />
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnSlow"
-                        style="@style/Widget.App.Button.Tonal"
+                        style="@style/G4.Button.Flat"
                         android:layout_width="0dp"
                         android:layout_height="52dp"
-                        android:layout_marginHorizontal="4dp"
+                        android:layout_marginHorizontal="5dp"
                         android:layout_weight="1"
-                        android:text="@string/btn_slow" />
+                        android:paddingHorizontal="6dp"
+                        android:text="@string/btn_slow"
+                        android:textColor="@color/g4_teal_text"
+                        app:backgroundTint="@color/g4_teal_soft" />
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnMyVoice"
-                        style="@style/Widget.App.Button.Tonal"
+                        style="@style/G4.Button.Flat"
                         android:layout_width="0dp"
                         android:layout_height="52dp"
-                        android:layout_marginStart="4dp"
-                        android:layout_weight="1"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1.2"
                         android:enabled="false"
+                        android:paddingHorizontal="8dp"
                         android:text="@string/btn_my_voice"
-                        app:icon="@drawable/ic_play" />
+                        android:textColor="@color/g4_amber_text"
+                        app:backgroundTint="@color/g4_amber_soft"
+                        app:icon="@drawable/ic_g4_play_solid"
+                        app:iconGravity="textStart"
+                        app:iconPadding="6dp"
+                        app:iconSize="18dp"
+                        app:iconTint="@color/g4_amber_text" />
                 </LinearLayout>
 
                 <TextView
                     android:id="@+id/textNoCheck"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:background="@drawable/bg_gujarati"
-                    android:padding="12dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/g4_bg_variant_16"
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="12dp"
                     android:text="@string/no_speech_check"
-                    android:textAppearance="@style/Text.Secondary" />
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp" />
 
+                <!-- What the phone heard -->
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/cardHeard"
-                    style="@style/Widget.App.Card.Tinted"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp">
+                    android:layout_marginTop="14dp"
+                    app:cardBackgroundColor="@color/g4_green_soft"
+                    app:cardCornerRadius="18dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:padding="14dp">
+                        android:paddingHorizontal="14dp"
+                        android:paddingVertical="12dp">
 
-                        <TextView
-                            android:id="@+id/textHeardTitle"
-                            android:layout_width="wrap_content"
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
-                            android:textStyle="bold" />
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textHeardLabel"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:text="@string/g4_we_heard"
+                                android:textColor="@color/g4_green_text"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:id="@+id/textHeardTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/inter_bold"
+                                android:textSize="13sp" />
+                        </LinearLayout>
 
                         <TextView
                             android:id="@+id/textHeard"
+                            style="@style/G4.Text"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
-                            android:textAppearance="@style/Text.Reading" />
+                            android:textSize="16sp" />
 
                         <TextView
                             android:id="@+id/textHeardCount"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textAppearance="@style/Text.Secondary" />
+                            android:layout_marginTop="4dp"
+                            android:textColor="@color/g4_green_text"
+                            android:textSize="14sp" />
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
 
+        <!-- Big red record button with a soft halo, then Say & check + Next -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
             android:orientation="vertical"
-            android:padding="@dimen/screen_padding">
+            android:paddingHorizontal="@dimen/g4_screen_side"
+            android:paddingTop="8dp"
+            android:paddingBottom="24dp">
+
+            <FrameLayout
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:background="@drawable/g4_bg_circle_halo">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnRecord"
+                    style="@style/G4.Button.Circle"
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/btn_record"
+                    app:backgroundTint="@color/g4_record"
+                    app:icon="@drawable/ic_g4_mic"
+                    app:iconSize="36dp"
+                    app:iconTint="@color/g4_on_color" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textRecordHint"
+                style="@style/G4.Text.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/g4_tap_to_record"
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
                 android:orientation="horizontal">
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnRecord"
-                    style="@style/Widget.App.Button.Tonal"
+                    android:id="@+id/btnCheck"
+                    style="@style/G4.Button.Flat"
                     android:layout_width="0dp"
-                    android:layout_height="60dp"
-                    android:layout_marginEnd="6dp"
+                    android:layout_height="52dp"
+                    android:layout_marginEnd="10dp"
                     android:layout_weight="1"
-                    android:text="@string/btn_record"
-                    app:icon="@drawable/ic_mic" />
+                    android:text="@string/btn_say_check"
+                    android:textColor="@color/g4_record"
+                    android:textSize="16sp"
+                    app:backgroundTint="@color/g4_record_halo"
+                    app:icon="@drawable/ic_g4_mic"
+                    app:iconGravity="textStart"
+                    app:iconPadding="6dp"
+                    app:iconSize="20dp"
+                    app:iconTint="@color/g4_record" />
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnCheck"
+                    android:id="@+id/btnNext"
+                    style="@style/G4.Button.Flat"
                     android:layout_width="0dp"
-                    android:layout_height="60dp"
-                    android:layout_marginStart="6dp"
+                    android:layout_height="52dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/error"
-                    android:text="@string/btn_say_check"
-                    app:icon="@drawable/ic_mic" />
+                    android:text="@string/btn_next_phrase"
+                    android:textSize="16sp" />
             </LinearLayout>
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnNext"
-                style="@style/Widget.App.Button.Outlined"
-                android:layout_width="match_parent"
-                android:layout_height="52dp"
-                android:layout_marginTop="8dp"
-                android:text="@string/btn_next_phrase" />
         </LinearLayout>
     </LinearLayout>
 
@@ -249,24 +343,28 @@
         <ImageView
             android:layout_width="72dp"
             android:layout_height="72dp"
+            android:background="@drawable/g4_bg_circle_green"
             android:contentDescription="@null"
-            android:src="@drawable/ic_check_circle"
-            app:tint="@color/success" />
+            android:padding="18dp"
+            android:src="@drawable/ic_g4_check"
+            app:tint="@color/g4_on_color" />
 
         <TextView
             android:id="@+id/textFinished"
+            style="@style/G4.Text.Instruction"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:gravity="center"
-            android:textAppearance="@style/Text.Title" />
+            android:gravity="center" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnToChat"
+            style="@style/G4.Button.Big"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_marginTop="24dp"
             android:text="@string/btn_to_conversation"
-            app:icon="@drawable/ic_chat" />
+            app:icon="@drawable/ic_chat"
+            app:iconGravity="textStart" />
     </LinearLayout>
 </FrameLayout>

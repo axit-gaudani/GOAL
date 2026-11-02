@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -11,6 +12,7 @@ import androidx.navigation.fragment.findNavController
 import com.goal.ieltsreading.R
 import com.goal.ieltsreading.databinding.FragmentSpeakHubBinding
 import com.goal.ieltsreading.databinding.ItemSpeakUnitBinding
+import com.goal.ieltsreading.ui.common.G4Ui
 import com.goal.ieltsreading.ui.common.speak
 import com.goal.ieltsreading.ui.common.visibleIf
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
@@ -37,6 +39,12 @@ class SpeakHubFragment : Fragment() {
                 binding.textPhraseGu.text = phrase.gu
                 binding.textPhrasePron.text = phrase.pronGu
                 binding.btnPhraseListen.setOnClickListener { speak(phrase.en) }
+                // "Say it" opens the phrase step of the unit this phrase comes from
+                val home = s.units.firstOrNull { it.unlocked && phrase in it.unit.phrases }
+                binding.btnPhraseSay.visibleIf(home != null)
+                binding.btnPhraseSay.setOnClickListener {
+                    if (home != null) findNavController().navigate(R.id.speakPhraseFragment, bundleOf("unitId" to home.unit.id))
+                }
             }
 
             binding.unitsContainer.removeAllViews()
@@ -52,14 +60,19 @@ class SpeakHubFragment : Fragment() {
                     p != null -> getString(R.string.speak_progress_format, p.phrasesClear, u.unit.phrases.size)
                     else -> getString(R.string.status_ready)
                 }
+                val ctx = requireContext()
+                val current = u.unlocked && !u.completed
                 item.textNumber.setBackgroundResource(
                     when {
-                        u.completed -> R.drawable.bg_circle_success
-                        u.unlocked -> R.drawable.bg_circle_primary
-                        else -> R.drawable.bg_circle_soft
+                        u.completed -> R.drawable.g4_bg_circle_green
+                        u.unlocked -> R.drawable.g4_bg_circle_teal
+                        else -> R.drawable.g4_bg_circle_white
                     }
                 )
-                item.root.alpha = if (u.unlocked) 1f else 0.55f
+                item.textNumber.setTextColor(ContextCompat.getColor(ctx, if (u.unlocked) R.color.g4_on_color else R.color.text_secondary))
+                item.root.setCardBackgroundColor(ContextCompat.getColor(ctx, if (u.unlocked) R.color.surface else R.color.surface_variant))
+                item.root.strokeWidth = if (current) G4Ui.dp(ctx, 2f) else 0
+                item.root.alpha = if (u.unlocked) 1f else 0.8f
                 item.root.setOnClickListener {
                     if (!u.unlocked) {
                         Snackbar.make(binding.root, R.string.speak_unit_locked, Snackbar.LENGTH_LONG).show()

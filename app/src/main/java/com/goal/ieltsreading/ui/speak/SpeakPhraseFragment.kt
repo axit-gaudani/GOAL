@@ -106,16 +106,21 @@ class SpeakPhraseFragment : Fragment() {
             if (shownIndex != s.index) {
                 shownIndex = s.index
                 recorder?.clear()
-                binding.btnMyVoice.isEnabled = false
+                setMyVoiceEnabled(false)
                 speak(s.phrase.en)
             }
 
             val m = s.match
             binding.cardHeard.visibleIf(m != null)
             if (m != null) {
+                val ctx = requireContext()
                 binding.textHeardTitle.setText(if (m.clear) R.string.speech_clear else R.string.speech_try_again)
-                binding.textHeardTitle.setTextColor(
-                    ContextCompat.getColor(requireContext(), if (m.clear) R.color.success else R.color.error)
+                val tone = ContextCompat.getColor(ctx, if (m.clear) R.color.g4_green_text else R.color.g4_amber_text)
+                binding.textHeardTitle.setTextColor(tone)
+                binding.textHeardLabel.setTextColor(tone)
+                binding.textHeardCount.setTextColor(tone)
+                binding.cardHeard.setCardBackgroundColor(
+                    ContextCompat.getColor(ctx, if (m.clear) R.color.g4_green_soft else R.color.g4_amber_soft)
                 )
                 binding.textHeard.text = heardText(m.words)
                 binding.textHeardCount.text = getString(R.string.speech_words_clear, m.matched, m.total)
@@ -145,7 +150,7 @@ class SpeakPhraseFragment : Fragment() {
     /** Words that were not heard get a yellow background. */
     private fun heardText(words: List<Pair<String, Boolean>>): CharSequence {
         val sb = SpannableStringBuilder()
-        val missing = ContextCompat.getColor(requireContext(), R.color.brand_secondary_container)
+        val missing = ContextCompat.getColor(requireContext(), R.color.g4_amber_soft)
         words.forEachIndexed { i, (word, ok) ->
             if (i > 0) sb.append(" ")
             val start = sb.length
@@ -161,16 +166,26 @@ class SpeakPhraseFragment : Fragment() {
             stopRecording()
             viewModel.onRecorded()
         } else if (r.start()) {
-            binding.btnRecord.setText(R.string.btn_stop_recording)
-            binding.btnRecord.setIconResource(R.drawable.ic_stop)
+            binding.btnRecord.setIconResource(R.drawable.ic_g4_stop_solid)
+            binding.btnRecord.contentDescription = getString(R.string.btn_stop_recording)
+            binding.textRecordHint.setText(R.string.g4_tap_to_stop)
         }
     }
 
     private fun stopRecording() {
         recorder?.stop()
-        _binding?.btnRecord?.setText(R.string.btn_record)
-        _binding?.btnRecord?.setIconResource(R.drawable.ic_mic)
-        _binding?.btnMyVoice?.isEnabled = recorder?.hasRecording == true
+        val b = _binding ?: return
+        b.btnRecord.setIconResource(R.drawable.ic_g4_mic)
+        b.btnRecord.contentDescription = getString(R.string.btn_record)
+        b.textRecordHint.setText(R.string.g4_tap_to_record)
+        setMyVoiceEnabled(recorder?.hasRecording == true)
+    }
+
+    /** "My voice" is a flat amber button, so it is also faded while there is nothing to play. */
+    private fun setMyVoiceEnabled(enabled: Boolean) {
+        val b = _binding ?: return
+        b.btnMyVoice.isEnabled = enabled
+        b.btnMyVoice.alpha = if (enabled) 1f else 0.5f
     }
 
     override fun onPause() {
