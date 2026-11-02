@@ -145,8 +145,6 @@ class SentenceRoundFragment : Fragment() {
         if (s.checked) {
             val ok = s.correct
             binding.bottomPanel.setBackgroundColor(G4Ui.color(ctx, if (ok) R.color.g4_green_soft else R.color.g4_red_soft))
-            binding.bottomPanel.setPadding(binding.bottomPanel.paddingLeft, G4Ui.dp(ctx, 8f),
-                binding.bottomPanel.paddingRight, binding.bottomPanel.paddingBottom)
             binding.iconFeedback.setBackgroundResource(if (ok) R.drawable.g4_bg_circle_green else R.drawable.g4_bg_circle_red)
             binding.iconFeedback.setImageResource(if (ok) R.drawable.ic_g4_check else R.drawable.ic_g4_close)
             binding.textFeedbackTitle.setText(if (ok) R.string.g4_feedback_correct else R.string.g4_feedback_wrong)
@@ -164,7 +162,7 @@ class SentenceRoundFragment : Fragment() {
             }
         } else {
             binding.bottomPanel.background = null
-            binding.btnAction.backgroundTintList = ContextCompat.getColorStateList(ctx, R.color.brand_primary)
+            binding.btnAction.backgroundTintList = ContextCompat.getColorStateList(ctx, R.color.g4_btn_primary)
         }
         binding.btnAction.setText(
             when {

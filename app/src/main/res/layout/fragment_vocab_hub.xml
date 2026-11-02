@@ -8,14 +8,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="@dimen/screen_padding">
+        android:paddingHorizontal="@dimen/g4_screen_side"
+        android:paddingTop="2dp"
+        android:paddingBottom="20dp">
 
+        <!-- The toolbar shows "Vocabulary builder"; the Gujarati line sits under it -->
         <TextView
+            style="@style/G4.Text.Gu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/vocab_hub_subtitle"
-            android:textAppearance="@style/Text.Gujarati" />
+            android:text="@string/g4_vocab_hub_sub" />
 
+        <!-- Words counter -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,12 +31,6 @@
                 android:orientation="vertical"
                 android:padding="16dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/words_you_know"
-                    android:textAppearance="@style/Text.Label" />
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -40,19 +38,44 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        style="@style/G4.Text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="@string/g4_words_you_know"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/G4.Text.Caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/g4_band7_needs" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:baselineAligned="true"
+                    android:orientation="horizontal">
+
+                    <TextView
                         android:id="@+id/textKnown"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textAppearance="@style/TextAppearance.Material3.DisplaySmall"
+                        android:fontFamily="@font/inter_extrabold"
+                        android:includeFontPadding="false"
                         android:textColor="@color/brand_primary"
-                        android:textStyle="bold" />
+                        android:textSize="32sp" />
 
                     <TextView
                         android:id="@+id/textMastered"
+                        style="@style/G4.Text.Caption"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:textAppearance="@style/Text.Secondary" />
+                        android:layout_marginStart="6dp"
+                        android:textSize="15sp" />
                 </LinearLayout>
 
                 <com.google.android.material.progressindicator.LinearProgressIndicator
@@ -61,19 +84,27 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:max="100"
+                    app:indicatorColor="@color/brand_primary"
                     app:trackColor="@color/track"
                     app:trackCornerRadius="5dp"
                     app:trackThickness="10dp" />
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:text="@string/word_level_marks"
-                    android:textAppearance="@style/Text.Secondary" />
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView style="@style/G4.Text.Caption" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="start" android:text="@string/g4_mark_a1" android:textSize="11sp" />
+                    <TextView style="@style/G4.Text.Caption" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="@string/g4_mark_a2" android:textSize="11sp" />
+                    <TextView style="@style/G4.Text.Caption" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="@string/g4_mark_b1" android:textSize="11sp" />
+                    <TextView style="@style/G4.Text.Caption" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="@string/g4_mark_b2" android:textSize="11sp" />
+                    <TextView style="@style/G4.Text.Caption" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="end" android:text="@string/g4_mark_c1" android:textSize="11sp" />
+                </LinearLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
+        <!-- New words · Review · Word games -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -82,18 +113,48 @@
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardNew"
-                style="@style/Widget.App.Card.Tinted"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_marginEnd="6dp"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:focusable="true">
+                android:focusable="true"
+                app:cardBackgroundColor="@color/g4_hero"
+                app:cardCornerRadius="18dp">
 
-                <LinearLayout style="@style/HubTile">
-                    <TextView android:id="@+id/textNewCount" style="@style/HubTile.Value" />
-                    <TextView style="@style/HubTile.Title" android:text="@string/new_words" />
-                    <TextView android:id="@+id/textCurrentPack" style="@style/HubTile.Sub" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="12dp">
+
+                    <TextView
+                        android:id="@+id/textNewCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_extrabold"
+                        android:textColor="@color/g4_on_color"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="@string/new_words"
+                        android:textColor="@color/g4_on_color"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/textCurrentPack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:alpha="0.9"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:textColor="@color/g4_on_color"
+                        android:textSize="12sp" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -101,89 +162,138 @@
                 android:id="@+id/cardReview"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_marginStart="6dp"
+                android:layout_marginHorizontal="8dp"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:focusable="true">
+                android:focusable="true"
+                app:cardBackgroundColor="@color/g4_amber_soft"
+                app:cardCornerRadius="18dp">
 
-                <LinearLayout style="@style/HubTile">
-                    <TextView android:id="@+id/textDueCount" style="@style/HubTile.Value" android:textColor="@color/brand_secondary" />
-                    <TextView style="@style/HubTile.Title" android:text="@string/review_words" />
-                    <TextView style="@style/HubTile.Sub" android:text="@string/review_words_gu" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="12dp">
+
+                    <TextView
+                        android:id="@+id/textDueCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_extrabold"
+                        android:textColor="@color/g4_amber_text"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="@string/review_words"
+                        android:textColor="@color/g4_amber_text"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/review_words_gu"
+                        android:textColor="@color/g4_amber_text"
+                        android:textSize="12sp" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:orientation="horizontal">
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardMatch"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_marginEnd="6dp"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:focusable="true">
+                android:focusable="true"
+                app:cardBackgroundColor="@color/g4_teal_soft"
+                app:cardCornerRadius="18dp">
 
-                <LinearLayout style="@style/HubTile">
-                    <TextView style="@style/HubTile.Title" android:text="@string/game_match" />
-                    <TextView style="@style/HubTile.Sub" android:text="@string/game_match_gu" />
-                </LinearLayout>
-            </com.google.android.material.card.MaterialCardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="12dp">
 
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cardSpelling"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="6dp"
-                android:layout_weight="1"
-                android:clickable="true"
-                android:focusable="true">
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="1dp"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_g4_play_solid"
+                        app:tint="@color/g4_teal_text" />
 
-                <LinearLayout style="@style/HubTile">
-                    <TextView style="@style/HubTile.Title" android:text="@string/game_spelling" />
-                    <TextView style="@style/HubTile.Sub" android:text="@string/game_spelling_gu" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="@string/g4_word_games"
+                        android:textColor="@color/g4_teal_text"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/g4_word_games_gu"
+                        android:textColor="@color/g4_teal_text"
+                        android:textSize="12sp" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
 
+        <!-- Topic packs -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:gravity="center_vertical"
+            android:layout_marginTop="14dp"
+            android:baselineAligned="true"
             android:orientation="horizontal">
 
             <TextView
+                style="@style/G4.Text.Section"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/topic_packs"
-                android:textAppearance="@style/Text.Subtitle"
-                android:textStyle="bold" />
+                android:text="@string/topic_packs" />
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnAllWords"
-                style="@style/Widget.App.Button.Text"
+            <TextView
+                style="@style/G4.Text.Caption"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/all_my_words" />
+                android:text="@string/g4_ielts_marked" />
         </LinearLayout>
 
         <TextView
+            style="@style/G4.Text.Caption"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
             android:text="@string/topic_packs_hint"
-            android:textAppearance="@style/Text.Secondary" />
+            android:textSize="12sp" />
 
+        <!-- Packs in 2 columns (built in code) -->
         <LinearLayout
             android:id="@+id/packsGrid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAllWords"
+            style="@style/Widget.App.Button.Tonal"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="14dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/all_my_words"
+            android:textSize="15sp" />
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

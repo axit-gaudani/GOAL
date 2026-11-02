@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
@@ -44,7 +45,14 @@ class QuizResultFragment : Fragment() {
                 else -> R.string.result_try_again
             }
         )
-        binding.textMessage.setText(if (passed) R.string.result_passed_msg else R.string.result_try_again_msg)
+        binding.textMessage.text =
+            if (passed) getString(R.string.g2_result_passed_gu)
+            else getString(R.string.g2_result_try_again_gu, LearningRepository.PASS_PERCENT)
+        // Ring: green when passed, amber when not yet.
+        binding.progressScore.setIndicatorColor(
+            ContextCompat.getColor(requireContext(), if (passed) R.color.g2_correct else R.color.brand_secondary)
+        )
+        binding.textStatCorrect.text = getString(R.string.g2_done_of_total, correct, total)
 
         val popToLevel = NavOptions.Builder().setPopUpTo(R.id.quizResultFragment, true).build()
         binding.btnRetry.setOnClickListener {
@@ -52,13 +60,27 @@ class QuizResultFragment : Fragment() {
         }
         binding.btnBack.setOnClickListener { findNavController().navigateUp() }
         binding.btnNextLesson.visibleIf(false)
+        binding.cardUnlocked.visibleIf(false)
+
+        // Stats the app really has: words taught in this lesson and the best score so far.
+        viewLifecycleOwner.lifecycleScope.launch {
+            val repo = app.repository
+            val wordCount = repo.vocabulary(lessonId).size
+            val best = repo.lessonProgress(lessonId)?.bestScore
+            val b = _binding ?: return@launch
+            b.textStatNewWords.text = wordCount.toString()
+            b.tileNewWords.visibleIf(wordCount > 0)
+            b.textStatBest.text = getString(R.string.percent_format, best ?: percent)
+            b.tileBest.visibleIf(best != null)
+        }
 
         if (passed) {
             viewLifecycleOwner.lifecycleScope.launch {
                 val next = app.repository.lessonAfter(lessonId) ?: return@launch
                 val b = _binding ?: return@launch
                 b.btnNextLesson.visibleIf(true)
-                b.btnNextLesson.text = getString(R.string.btn_next_lesson_format, next.lesson.title)
+                b.cardUnlocked.visibleIf(true)
+                b.textUnlocked.text = getString(R.string.g2_unlocked_format, next.lesson.title)
                 b.btnNextLesson.setOnClickListener {
                     findNavController().navigate(R.id.lessonFragment, bundleOf("lessonId" to next.lesson.id), popToLevel)
                 }

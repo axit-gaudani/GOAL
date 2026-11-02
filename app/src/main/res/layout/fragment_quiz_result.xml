@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Lesson result as in the LessonResult artboard: score ring (percent + "6 / 7 correct"), title,
+     Gujarati line, three stat tiles, "Unlocked" card and the buttons at the bottom. -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -10,58 +12,165 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:paddingHorizontal="24dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp">
 
         <FrameLayout
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:layout_marginTop="16dp">
+            android:layout_width="180dp"
+            android:layout_height="180dp">
 
             <com.google.android.material.progressindicator.CircularProgressIndicator
                 android:id="@+id/progressScore"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:max="100"
-                app:indicatorSize="160dp"
+                app:indicatorColor="@color/g2_correct"
+                app:indicatorSize="180dp"
                 app:trackColor="@color/track"
-                app:trackCornerRadius="8dp"
-                app:trackThickness="14dp" />
+                app:trackThickness="16dp" />
 
-            <TextView
-                android:id="@+id/textPercent"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textAppearance="@style/TextAppearance.Material3.DisplaySmall"
-                android:textColor="@color/text_primary"
-                android:textStyle="bold" />
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textPercent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_extrabold"
+                    android:textColor="@color/text_primary"
+                    android:textSize="44sp" />
+
+                <TextView
+                    android:id="@+id/textScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp" />
+            </LinearLayout>
         </FrameLayout>
 
         <TextView
             android:id="@+id/textTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:gravity="center"
             android:textColor="@color/text_primary"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textScore"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:textAppearance="@style/Text.Subtitle" />
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/textMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/inter_semibold"
+            android:gravity="center"
+            android:textColor="@color/gujarati_text"
+            android:textSize="18sp" />
+
+        <!-- Stat tiles: correct answers, new words in this lesson, best score -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/tileCorrect"
+                style="@style/G2.StatTile">
+
+                <TextView
+                    android:id="@+id/textStatCorrect"
+                    style="@style/G2.StatTile.Value"
+                    android:textColor="@color/g2_amber_text" />
+
+                <TextView
+                    style="@style/G2.StatTile.Label"
+                    android:text="@string/g2_stat_correct" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tileNewWords"
+                style="@style/G2.StatTile"
+                android:layout_marginStart="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textStatNewWords"
+                    style="@style/G2.StatTile.Value"
+                    android:textColor="@color/brand_primary" />
+
+                <TextView
+                    style="@style/G2.StatTile.Label"
+                    android:text="@string/g2_stat_new_words" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tileBest"
+                style="@style/G2.StatTile"
+                android:layout_marginStart="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textStatBest"
+                    style="@style/G2.StatTile.Value"
+                    android:textColor="@color/g2_teal_value" />
+
+                <TextView
+                    style="@style/G2.StatTile.Label"
+                    android:text="@string/g2_stat_best" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Next lesson unlocked -->
+        <LinearLayout
+            android:id="@+id/cardUnlocked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="@drawable/bg_gujarati"
-            android:gravity="center"
-            android:padding="16dp"
-            android:textAppearance="@style/Text.Body" />
+            android:background="@drawable/bg_g2_unlocked"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="14dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_g2_lock_open"
+                app:tint="@color/brand_on_primary_container" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textUnlocked"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_bold"
+                    android:textColor="@color/brand_on_primary_container"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/g2_unlocked_gu"
+                    android:textColor="@color/gujarati_text"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
 
         <Space
             android:layout_width="match_parent"
@@ -71,23 +180,25 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnNextLesson"
+            style="@style/Widget.G2.Button.Big"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:layout_marginTop="16dp" />
+            android:layout_marginTop="16dp"
+            android:text="@string/g2_btn_next_lesson" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnRetry"
-            style="@style/Widget.App.Button.Tonal"
+            style="@style/Widget.G2.Button.White"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:layout_marginTop="8dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
             android:text="@string/btn_retry_lesson" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnBack"
             style="@style/Widget.App.Button.Text"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="48dp"
             android:layout_marginTop="4dp"
             android:text="@string/btn_back_to_level" />
     </LinearLayout>
