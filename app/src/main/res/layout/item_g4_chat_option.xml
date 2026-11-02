@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Answer choice in the conversation: white, rounded, left-aligned -->
+<com.google.android.material.button.MaterialButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.App.Button.Outlined"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:fontFamily="@font/inter_semibold"
+    android:gravity="start|center_vertical"
+    android:insetTop="0dp"
+    android:insetBottom="0dp"
+    android:minHeight="52dp"
+    android:paddingHorizontal="14dp"
+    android:paddingVertical="8dp"
+    android:textAlignment="viewStart"
+    android:textColor="@color/text_primary"
+    android:textSize="15sp"
+    app:backgroundTint="@color/surface"
+    app:cornerRadius="16dp"
+    app:strokeColor="@color/option_stroke"
+    app:strokeWidth="1.5dp" />

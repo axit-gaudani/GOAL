@@ -59,7 +59,8 @@ class MatchGameFragment : Fragment() {
             val last = s.lastMatched
             binding.cardLast.visibleIf(last != null)
             if (last != null) {
-                binding.textLast.text = getString(R.string.match_last_format, last.word, last.meaningGu)
+                val head = if (last.pronunciationGu.isNotBlank()) "${last.word} · ${last.pronunciationGu}" else last.word
+                binding.textLast.text = getString(R.string.match_last_format, head, last.meaningGu)
                 binding.textLastExample.text = last.example
                 binding.btnPlayLast.setOnClickListener { speak(last.word) }
                 if (spokenId != last.id) {

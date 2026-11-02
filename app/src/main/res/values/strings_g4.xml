@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sentence practice -->
+    <string name="g4_sentence_hub_sub">વાક્યોનો રોજનો અભ્યાસ</string>
+    <string name="g4_to_repeat_format">%d to repeat</string>
+    <string name="g4_round_title">10 sentences · 5 min</string>
+    <string name="g4_round_mix_format">%1$d new + %2$d you missed before</string>
+    <string name="g4_round_all_new">10 new sentences for your level</string>
+    <string name="g4_grammar_patterns">Your grammar patterns</string>
+    <string name="g4_weakest_first">weakest first</string>
+    <string name="g4_label_gujarati">GUJARATI</string>
+    <string name="g4_label_your_answer">YOUR ANSWER</string>
+    <string name="g4_label_your_english">YOUR ENGLISH</string>
+    <string name="g4_label_what_you_heard">WHAT YOU HEARD</string>
+    <string name="g4_btn_check">Check · તપાસો</string>
+    <string name="g4_feedback_correct">Correct! · સાચું!</string>
+    <string name="g4_feedback_wrong">Not quite · ખોટું</string>
+    <string name="g4_cd_play_sentence">Play sentence</string>
+    <string name="g4_score_format">%1$d / %2$d</string>
+    <string name="g4_time_format">%1$d:%2$02d</string>
+    <string name="g4_round_complete">Round complete!</string>
+    <string name="g4_round_complete_gu">આજના વાક્યો પૂરા થયા</string>
+    <string name="g4_stat_minutes">minutes</string>
+    <string name="g4_stat_correct">correct</string>
+    <string name="g4_stat_streak">streak</string>
+    <plurals name="g4_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="g4_sentences">
+        <item quantity="one">%d sentence</item>
+        <item quantity="other">%d sentences</item>
+    </plurals>
+
+    <!-- Vocabulary -->
+    <string name="g4_vocab_hub_sub">રોજ નવા શબ્દો · શબ્દભંડોળ વધારો</string>
+    <string name="g4_words_you_know">Words you know</string>
+    <string name="g4_band7_needs">Band 7 needs ~4,000</string>
+    <string name="g4_words_mastered_format">words · %d mastered</string>
+    <string name="g4_mark_a1">A1 500</string>
+    <string name="g4_mark_a2">A2 1,000</string>
+    <string name="g4_mark_b1">B1 2,000</string>
+    <string name="g4_mark_b2">B2 3,000</string>
+    <string name="g4_mark_c1">C1 4,000</string>
+    <string name="g4_word_games">Word games</string>
+    <string name="g4_word_games_gu">રમત</string>
+    <string name="g4_ielts_marked">IELTS topics marked</string>
+    <string name="g4_pack_sub_format">%1$s · %2$d/%3$d words</string>
+    <string name="g4_pairs_matched_format">%1$d of %2$d pairs matched</string>
+    <string name="g4_no_mistakes">No mistakes</string>
+    <plurals name="g4_mistakes">
+        <item quantity="one">%d mistake</item>
+        <item quantity="other">%d mistakes</item>
+    </plurals>
+    <string name="g4_label_your_spelling">YOUR SPELLING</string>
+    <string name="g4_pack_word_counter">%1$s · new word %2$d of %3$d</string>
+
+    <!-- Speaking -->
+    <string name="g4_speak_hub_sub">રોજિંદું અંગ્રેજી બોલતા શીખો</string>
+    <string name="g4_listen_then_say">Listen, then say it</string>
+    <string name="g4_listen_then_say_gu">સાંભળો, પછી તમે બોલો</string>
+    <string name="g4_we_heard">WE HEARD</string>
+    <string name="g4_tap_to_record">Tap to record · દબાવીને બોલો</string>
+    <string name="g4_tap_to_stop">Tap to stop · ફરી દબાવો</string>
+    <string name="g4_talk_with_format">Talk with %s</string>
+    <string name="g4_choose_and_say">Choose an answer and say it · જવાબ પસંદ કરી બોલો</string>
+    <string name="g4_clear">Clear</string>
+
+    <!-- ABC -->
+    <string name="g4_abc_sub">અંગ્રેજી મૂળાક્ષરો</string>
+    <string name="g4_letter_name">LETTER NAME · નામ</string>
+    <string name="g4_letter_big_format">%1$s%2$s</string>
+    <string name="g4_listen_gu">Listen · સાંભળો</string>
+    <string name="g4_next_letter">Next letter · આગળ</string>
+</resources>

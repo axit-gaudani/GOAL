@@ -1,49 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Example word for the letter: soft grey box, word in blue, Gujarati under it, play circle at the end -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="8dp"
-    android:background="@drawable/bg_gujarati"
+    android:background="@drawable/g4_bg_variant_18"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
     android:gravity="center_vertical"
     android:minHeight="56dp"
     android:orientation="horizontal"
-    android:paddingHorizontal="14dp"
-    android:paddingVertical="8dp">
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="12dp">
 
-    <TextView
-        android:id="@+id/textWord"
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
-        android:textColor="@color/brand_primary"
-        android:textStyle="bold" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="end"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textPron"
+            android:id="@+id/textWord"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/Text.Secondary" />
+            android:fontFamily="@font/inter_bold"
+            android:textColor="@color/brand_primary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textPron"
+            style="@style/G4.Text.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/textGu"
+            style="@style/G4.Text.Gu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/Text.Gujarati" />
+            android:layout_marginTop="2dp" />
     </LinearLayout>
 
     <ImageView
-        android:layout_width="24dp"
-        android:layout_height="24dp"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
         android:layout_marginStart="12dp"
+        android:background="@drawable/g4_bg_circle_white"
         android:contentDescription="@string/cd_play"
-        android:src="@drawable/ic_volume"
-        app:tint="@color/brand_tertiary" />
+        android:padding="12dp"
+        android:src="@drawable/ic_g4_speaker"
+        app:tint="@color/g4_teal_text" />
 </LinearLayout>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Learner message: blue bubble on the right, with "Clear" under it -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="end"
@@ -28,6 +27,5 @@
         android:drawablePadding="4dp"
         android:gravity="center_vertical"
         android:textColor="@color/g4_on_color"
-        android:textSize="12sp"
-        app:drawableTint="@color/g4_on_color" />
+        android:textSize="12sp" />
 </LinearLayout>

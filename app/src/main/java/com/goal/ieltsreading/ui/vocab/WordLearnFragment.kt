@@ -98,7 +98,7 @@ class WordLearnFragment : Fragment() {
                     item.root.setCardBackgroundColor(ContextCompat.getColor(requireContext(), bg))
                     item.textPos.setTextColor(fgColor)
                     item.textForm.setTextColor(fgColor)
-                    if (col > 0) item.textGu.setTextColor(fgColor)
+                    if (fg != R.color.brand_on_primary_container) item.textGu.setTextColor(fgColor)
                     item.textPos.text = f.pos.uppercase()
                     item.textForm.text = f.word
                     item.textGu.text = f.gu

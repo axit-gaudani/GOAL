@@ -8,28 +8,58 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="@dimen/screen_padding">
+        android:paddingHorizontal="@dimen/g4_screen_side"
+        android:paddingTop="14dp"
+        android:paddingBottom="24dp">
 
+        <!-- "English alphabet" + "9 / 26" pill -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/G4.Text.Gu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/g4_abc_sub"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textPosition"
+                style="@style/G4.Text.Pill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="6dp"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- Current letter -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="24dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
-                android:padding="16dp">
+                android:padding="18dp">
 
                 <TextView
                     android:id="@+id/textBigLetter"
-                    android:layout_width="112dp"
-                    android:layout_height="112dp"
+                    android:layout_width="104dp"
+                    android:layout_height="104dp"
                     android:background="@drawable/bg_letter_big"
+                    android:fontFamily="@font/inter_extrabold"
                     android:gravity="center"
-                    android:textColor="@color/white"
-                    android:textSize="48sp"
-                    android:textStyle="bold" />
+                    android:textColor="@color/g4_on_color"
+                    android:textSize="52sp" />
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -39,38 +69,37 @@
                     android:orientation="vertical">
 
                     <TextView
+                        style="@style/G4.Text.Overline"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/letter_name"
-                        android:textAppearance="@style/Text.Label" />
+                        android:text="@string/g4_letter_name"
+                        android:textSize="13sp" />
 
                     <TextView
                         android:id="@+id/textName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/inter_extrabold"
                         android:textColor="@color/gujarati_text"
-                        android:textStyle="bold" />
+                        android:textSize="26sp" />
 
                     <TextView
+                        style="@style/G4.Text.Overline"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="6dp"
                         android:text="@string/letter_sound"
-                        android:textAppearance="@style/Text.Label" />
+                        android:textSize="13sp" />
 
                     <TextView
                         android:id="@+id/textSound"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textAppearance="@style/Text.Gujarati" />
-
-                    <TextView
-                        android:id="@+id/textPosition"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:textAppearance="@style/Text.Secondary" />
+                        android:fontFamily="@font/inter_bold"
+                        android:textColor="@color/gujarati_text"
+                        android:textSize="18sp" />
                 </LinearLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -78,44 +107,47 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="14dp"
             android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnListen"
+                style="@style/G4.Button.Flat"
                 android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_marginEnd="4dp"
+                android:layout_height="52dp"
+                android:layout_marginEnd="5dp"
                 android:layout_weight="1"
-                android:text="@string/btn_listen"
-                app:icon="@drawable/ic_volume" />
+                android:text="@string/g4_listen_gu"
+                android:textColor="@color/g4_on_color"
+                android:textSize="16sp"
+                app:backgroundTint="@color/g4_teal"
+                app:icon="@drawable/ic_g4_speaker"
+                app:iconGravity="textStart"
+                app:iconSize="20dp"
+                app:iconTint="@color/g4_on_color" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnSlow"
-                style="@style/Widget.App.Button.Tonal"
+                style="@style/G4.Button.Flat"
                 android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_marginHorizontal="4dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="5dp"
                 android:layout_weight="1"
-                android:text="@string/btn_slow" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnNextLetter"
-                style="@style/Widget.App.Button.Tonal"
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_marginStart="4dp"
-                android:layout_weight="1"
-                android:text="@string/btn_next_letter" />
+                android:text="@string/btn_slow"
+                android:textColor="@color/brand_on_primary_container"
+                android:textSize="16sp"
+                app:backgroundTint="@color/brand_primary_container" />
         </LinearLayout>
 
+        <!-- Example words for this letter -->
         <TextView
+            style="@style/G4.Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/inter_bold"
             android:text="@string/letter_words"
-            android:textAppearance="@style/Text.Subtitle"
-            android:textStyle="bold" />
+            android:textSize="15sp" />
 
         <LinearLayout
             android:id="@+id/wordsContainer"
@@ -124,18 +156,29 @@
             android:orientation="vertical" />
 
         <TextView
+            style="@style/G4.Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/inter_bold"
             android:text="@string/all_letters_tap"
-            android:textAppearance="@style/Text.Subtitle"
-            android:textStyle="bold" />
+            android:textSize="15sp" />
 
+        <!-- 5 letters per row: done = soft green, current = blue border, others white -->
         <GridLayout
             android:id="@+id/lettersGrid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="-4dp"
             android:layout_marginTop="6dp"
             android:columnCount="5" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNextLetter"
+            style="@style/G4.Button.Big"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/g4_next_letter" />
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

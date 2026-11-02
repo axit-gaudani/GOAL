@@ -4,6 +4,8 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
+import androidx.core.graphics.drawable.DrawableCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
@@ -11,6 +13,7 @@ import com.goal.ieltsreading.R
 import com.goal.ieltsreading.databinding.FragmentSpeakChatBinding
 import com.goal.ieltsreading.databinding.ItemChatPartnerBinding
 import com.goal.ieltsreading.databinding.ItemChatYouBinding
+import com.goal.ieltsreading.ui.common.G4Ui
 import com.goal.ieltsreading.ui.common.StudyTimeTracker
 import com.goal.ieltsreading.ui.common.app
 import com.goal.ieltsreading.ui.common.speak
@@ -66,7 +69,7 @@ class SpeakChatFragment : Fragment() {
     }
 
     private fun render(s: ChatState) {
-        binding.textPartner.text = s.partnerName
+        binding.textPartner.text = getString(R.string.g4_talk_with_format, s.partnerName)
         binding.textAvatar.text = s.partnerName.take(1)
         binding.textTitle.text = s.title
 
@@ -85,7 +88,14 @@ class SpeakChatFragment : Fragment() {
                     val item = ItemChatYouBinding.inflate(layoutInflater, binding.chatContainer, false)
                     item.textEn.text = line.en
                     item.textStatus.visibleIf(line.clear != null)
-                    item.textStatus.setText(if (line.clear == true) R.string.speech_clear_short else R.string.speech_try_next_time)
+                    item.textStatus.setText(if (line.clear == true) R.string.g4_clear else R.string.speech_try_next_time)
+                    val tick = if (line.clear == true) ContextCompat.getDrawable(requireContext(), R.drawable.ic_g4_check)?.mutate() else null
+                    tick?.let {
+                        val size = G4Ui.dp(requireContext(), 14f)
+                        it.setBounds(0, 0, size, size)
+                        DrawableCompat.setTint(it, ContextCompat.getColor(requireContext(), R.color.g4_on_color))
+                    }
+                    item.textStatus.setCompoundDrawablesRelative(tick, null, null, null)
                     binding.chatContainer.addView(item.root)
                 }
             }
@@ -96,7 +106,7 @@ class SpeakChatFragment : Fragment() {
         binding.optionsContainer.visibleIf(s.options.isNotEmpty())
         binding.optionsContainer.removeAllViews()
         for (o in s.options) {
-            val button = layoutInflater.inflate(R.layout.view_option_button, binding.optionsContainer, false) as MaterialButton
+            val button = layoutInflater.inflate(R.layout.item_g4_chat_option, binding.optionsContainer, false) as MaterialButton
             button.text = if (showGujarati) "${o.en}\n${o.gu}" else o.en
             button.setOnClickListener { viewModel.pick(o) }
             binding.optionsContainer.addView(button)
@@ -111,6 +121,7 @@ class SpeakChatFragment : Fragment() {
         }
         binding.groupControls.visibleIf(!s.finished)
         binding.btnSpeak.isEnabled = picked != null
+        binding.btnSpeak.alpha = if (picked != null) 1f else 0.5f
         binding.groupFinished.visibleIf(s.finished)
     }
 
