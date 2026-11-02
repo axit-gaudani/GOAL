@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="g1_amber_text">#FFD58A</color>
+    <color name="g1_amber_icon">#FBBF24</color>
+    <color name="g1_teal_soft">#123F39</color>
+    <color name="g1_teal_icon">#4FD1BD</color>
+    <color name="g1_teal_text">#9BE7DA</color>
+    <color name="g1_green_soft">#123D24</color>
+    <color name="g1_green_text">#86EFAC</color>
+    <color name="g1_on_brand">#0A1B3F</color>
+    <color name="g1_on_brand_soft">#2E0A1B3F</color>
+    <color name="g1_ring_track">#400A1B3F</color>
+</resources>

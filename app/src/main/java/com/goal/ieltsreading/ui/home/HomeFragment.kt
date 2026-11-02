@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.goal.ieltsreading.R
+import com.goal.ieltsreading.data.content.ContentSeeder
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.goal.ieltsreading.databinding.FragmentHomeBinding
 import com.goal.ieltsreading.ui.common.speak
@@ -31,7 +32,11 @@ class HomeFragment : Fragment() {
         binding.btnSettings.setOnClickListener { findNavController().navigate(R.id.settingsFragment) }
 
         binding.cardLearningPath.setOnClickListener { findNavController().navigate(R.id.levelsFragment) }
-        binding.btnReview.setOnClickListener { findNavController().navigate(R.id.flashcardFragment) }
+        binding.cardReview.setOnClickListener { findNavController().navigate(R.id.flashcardFragment) }
+        // "Practise sounds" opens Level −1 (ABC: letters and sounds).
+        binding.cardSounds.setOnClickListener {
+            findNavController().navigate(R.id.levelDetailFragment, bundleOf("levelId" to ContentSeeder.ABC_LEVEL_ID))
+        }
         binding.cardTests.setOnClickListener { findNavController().navigate(R.id.testsFragment) }
         binding.cardSentences.setOnClickListener { findNavController().navigate(R.id.sentenceHubFragment) }
         // Speak is a bottom tab, so switch tabs instead of opening it on top of Home.
@@ -47,23 +52,22 @@ class HomeFragment : Fragment() {
             val goalPercent = if (t.goalMinutes == 0) 0 else (t.minutesToday * 100 / t.goalMinutes).coerceAtMost(100)
             binding.progressGoal.setProgressCompat(goalPercent, true)
             binding.textGoalPercent.text = getString(R.string.percent_format, goalPercent)
-            binding.textGoalMinutes.text = getString(R.string.goal_minutes_format, t.minutesToday, t.goalMinutes)
-            binding.textGoalStatus.text = getString(
-                if (goalPercent >= 100) R.string.goal_done else R.string.goal_keep_going
-            )
-            binding.textStreak.text = getString(R.string.streak_format, t.streak)
-            binding.textTodayStats.text = getString(R.string.today_stats_format, t.lessonsToday, t.wordsToday)
+            binding.textGoalMinutes.text = getString(R.string.g1_goal_minutes_format, t.minutesToday, t.goalMinutes)
+            binding.textStreak.text = getString(R.string.g1_streak_format, t.streak)
 
             // Continue learning
             val next = s.nextLesson
             if (next != null) {
-                binding.textNextLevel.text = s.nextLessonLevelTitle
+                binding.textNextLevel.text = if (s.nextLessonLevelTitle.isBlank())
+                    getString(R.string.g1_continue_label)
+                else getString(R.string.g1_continue_level_format, s.nextLessonLevelTitle)
                 binding.textNextTitle.text = next.lesson.title
                 binding.textNextTitleGu.text = next.lesson.titleGu
-                binding.textNextMeta.text = getString(R.string.lesson_meta_format, next.lesson.skill, next.lesson.minutes)
-                binding.btnContinue.text = getString(
+                binding.textNextTitleGu.visibleIf(next.lesson.titleGu.isNotBlank())
+                val action = getString(
                     if ((next.progress?.attempts ?: 0) > 0) R.string.btn_try_again else R.string.btn_start_lesson
                 )
+                binding.btnContinue.text = getString(R.string.g1_btn_with_minutes, action, next.lesson.minutes)
                 binding.btnContinue.setOnClickListener {
                     findNavController().navigate(R.id.lessonFragment, bundleOf("lessonId" to next.lesson.id))
                 }
@@ -71,28 +75,31 @@ class HomeFragment : Fragment() {
                 binding.textNextLevel.text = getString(R.string.course_complete_title)
                 binding.textNextTitle.text = getString(R.string.course_complete_text)
                 binding.textNextTitleGu.text = ""
-                binding.textNextMeta.text = ""
+                binding.textNextTitleGu.visibleIf(false)
                 binding.btnContinue.text = getString(R.string.btn_take_test)
                 binding.btnContinue.setOnClickListener { findNavController().navigate(R.id.testsFragment) }
             }
             binding.progressCourse.setProgressCompat(s.coursePercent, true)
-            binding.textCoursePercent.text = getString(R.string.course_progress_format, s.coursePercent)
+            binding.textCoursePercent.text = getString(R.string.g1_course_percent_format, s.coursePercent)
 
             binding.textSentencesSub.text = if (s.dueSentences > 0)
                 getString(R.string.sentences_due_format, s.dueSentences) else getString(R.string.sentences_card_sub)
 
             // Vocabulary review
-            binding.textDueWords.text = resources.getQuantityString(R.plurals.due_words, s.dueWords, s.dueWords)
-            binding.btnReview.isEnabled = s.dueWords > 0
+            binding.textDueWords.text = if (s.dueWords > 0)
+                resources.getQuantityString(R.plurals.g1_words_to_review, s.dueWords, s.dueWords)
+            else getString(R.string.g1_no_words_to_review)
+            binding.cardReview.isEnabled = s.dueWords > 0
+            binding.cardReview.alpha = if (s.dueWords > 0) 1f else 0.6f
 
             // Word of the day
             val w = s.wordOfDay
             binding.cardWordOfDay.visibleIf(w != null)
             if (w != null) {
                 binding.textWodWord.text = w.word
-                binding.textWodPos.text = w.pos
+                binding.textWodPron.text = s.wordOfDayPronGu
+                binding.textWodPron.visibleIf(s.wordOfDayPronGu.isNotBlank())
                 binding.textWodMeaning.text = w.meaningGu
-                binding.textWodExample.text = w.example
                 binding.btnWodPlay.setOnClickListener { speak(w.word) }
                 binding.cardWordOfDay.setOnClickListener {
                     WordSheet.newInstance(w.id, w.word, w.pos, w.meaningGu, w.meaningEn, w.example, w.exampleGu)

@@ -8,7 +8,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="@dimen/screen_padding">
+        android:paddingHorizontal="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="16dp">
 
         <!-- Greeting + settings (the top bar is hidden on Home, as in the design) -->
         <LinearLayout
@@ -34,9 +36,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="2dp"
-                    android:text="@string/home_subtitle"
-                    android:textAppearance="@style/Text.Gujarati"
+                    android:text="@string/g1_home_subtitle"
+                    android:textColor="@color/gujarati_text"
                     android:textSize="15sp" />
             </LinearLayout>
 
@@ -45,231 +46,189 @@
                 style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
+                android:layout_marginStart="12dp"
                 android:contentDescription="@string/action_settings"
                 app:backgroundTint="@color/surface"
-                app:icon="@drawable/ic_settings"
+                app:cornerRadius="14dp"
+                app:icon="@drawable/ic_g1_sliders"
+                app:iconSize="22dp"
                 app:iconTint="@color/text_primary" />
         </LinearLayout>
 
-        <!-- Daily goal -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/bg_header"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:padding="20dp">
-
-            <FrameLayout
-                android:layout_width="88dp"
-                android:layout_height="88dp">
-
-                <com.google.android.material.progressindicator.CircularProgressIndicator
-                    android:id="@+id/progressGoal"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:max="100"
-                    app:indicatorColor="@color/white"
-                    app:indicatorSize="88dp"
-                    app:trackColor="#40FFFFFF"
-                    app:trackCornerRadius="6dp"
-                    app:trackThickness="8dp" />
-
-                <TextView
-                    android:id="@+id/textGoalPercent"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
-                    android:textColor="@color/white"
-                    android:textStyle="bold" />
-            </FrameLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/daily_goal"
-                    android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
-                    android:textColor="@color/white" />
-
-                <TextView
-                    android:id="@+id/textGoalMinutes"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
-                    android:textColor="@color/white"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textGoalStatus"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="@style/TextAppearance.Material3.BodySmall"
-                    android:textColor="@color/white" />
-
-                <TextView
-                    android:id="@+id/textStreak"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:background="@drawable/bg_pill_amber"
-                    android:paddingHorizontal="10dp"
-                    android:paddingVertical="4dp"
-                    android:fontFamily="@font/inter_bold"
-                    android:textColor="#6B4500"
-                    android:textSize="13sp" />
-            </LinearLayout>
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/textTodayStats"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:gravity="center"
-            android:textAppearance="@style/Text.Secondary" />
-
-        <!-- Continue learning -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/continue_learning"
-            android:textAppearance="@style/Text.Subtitle"
-            android:textStyle="bold" />
-
+        <!-- Daily goal: ring left, texts right, amber streak pill -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="20dp">
-
-                <TextView
-                    android:id="@+id/textNextLevel"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="@style/Text.Label" />
-
-                <TextView
-                    android:id="@+id/textNextTitle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="6dp"
-                    android:textAppearance="@style/Text.Title" />
-
-                <TextView
-                    android:id="@+id/textNextTitleGu"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="@style/Text.Gujarati" />
-
-                <TextView
-                    android:id="@+id/textNextMeta"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:textAppearance="@style/Text.Secondary" />
-
-                <com.google.android.material.progressindicator.LinearProgressIndicator
-                    android:id="@+id/progressCourse"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:max="100"
-                    app:trackColor="@color/track"
-                    app:trackCornerRadius="4dp"
-                    app:trackThickness="8dp" />
-
-                <TextView
-                    android:id="@+id/textCoursePercent"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:textAppearance="@style/Text.Secondary" />
-
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnContinue"
-                    android:layout_width="match_parent"
-                    android:layout_height="56dp"
-                    android:layout_marginTop="12dp"
-                    app:icon="@drawable/ic_play"
-                    app:iconGravity="textStart" />
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
-
-        <!-- Vocabulary review -->
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/card_gap">
+            android:layout_marginTop="14dp"
+            app:cardBackgroundColor="@color/brand_primary"
+            app:cardCornerRadius="24dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
-                android:padding="16dp">
+                android:padding="18dp">
 
-                <ImageView
-                    android:layout_width="44dp"
-                    android:layout_height="44dp"
-                    android:background="@drawable/bg_circle_soft"
-                    android:contentDescription="@null"
-                    android:padding="10dp"
-                    android:src="@drawable/ic_translate"
-                    app:tint="@color/brand_primary" />
+                <FrameLayout
+                    android:layout_width="86dp"
+                    android:layout_height="86dp">
+
+                    <com.google.android.material.progressindicator.CircularProgressIndicator
+                        android:id="@+id/progressGoal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:max="100"
+                        app:indicatorColor="@color/g1_on_brand"
+                        app:indicatorSize="86dp"
+                        app:trackColor="@color/g1_ring_track"
+                        app:trackThickness="9dp" />
+
+                    <TextView
+                        android:id="@+id/textGoalPercent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/inter_extrabold"
+                        android:textColor="@color/g1_on_brand"
+                        android:textSize="20sp" />
+                </FrameLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="16dp"
                     android:layout_weight="1"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/vocab_review"
-                        android:textAppearance="@style/Text.Subtitle" />
+                        android:alpha="0.9"
+                        android:fontFamily="@font/inter_semibold"
+                        android:text="@string/daily_goal"
+                        android:textColor="@color/g1_on_brand"
+                        android:textSize="13sp" />
 
                     <TextView
-                        android:id="@+id/textDueWords"
+                        android:id="@+id/textGoalMinutes"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textAppearance="@style/Text.Secondary" />
-                </LinearLayout>
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/inter_extrabold"
+                        android:textColor="@color/g1_on_brand"
+                        android:textSize="22sp" />
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnReview"
-                    style="@style/Widget.App.Button.Tonal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/btn_review" />
+                    <TextView
+                        android:id="@+id/textStreak"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/bg_pill_amber"
+                        android:drawablePadding="6dp"
+                        app:drawableTint="@color/g1_amber_text"
+                        android:fontFamily="@font/inter_bold"
+                        android:gravity="center_vertical"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:textColor="@color/g1_amber_text"
+                        android:textSize="13sp"
+                        app:drawableStartCompat="@drawable/ic_g1_flame" />
+                </LinearLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- Daily practice: sentences and speaking -->
+        <!-- Continue learning -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="22dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="18dp">
+
+                <TextView
+                    android:id="@+id/textNextLevel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_bold"
+                    android:textColor="@color/brand_primary"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textNextTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/inter_extrabold"
+                    android:lineSpacingExtra="1sp"
+                    android:textColor="@color/text_primary"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/textNextTitleGu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/gujarati_text"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.progressindicator.LinearProgressIndicator
+                        android:id="@+id/progressCourse"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:max="100"
+                        app:indicatorColor="@color/brand_primary"
+                        app:trackColor="@color/track"
+                        app:trackCornerRadius="4dp"
+                        app:trackThickness="8dp" />
+
+                    <TextView
+                        android:id="@+id/textCoursePercent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnContinue"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="10dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    app:cornerRadius="16dp"
+                    app:icon="@drawable/ic_g1_play_solid"
+                    app:iconGravity="textStart"
+                    app:iconPadding="8dp"
+                    app:iconSize="18dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Review + sounds -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/card_gap"
+            android:layout_marginTop="14dp"
             android:orientation="horizontal">
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cardSentences"
+                android:id="@+id/cardReview"
+                style="@style/g1_TileCard"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="6dp"
@@ -277,20 +236,20 @@
                 android:clickable="true"
                 android:focusable="true">
 
-                <LinearLayout style="@style/HubTile">
+                <LinearLayout style="@style/g1_TileBody">
                     <ImageView
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
-                        android:contentDescription="@null"
-                        android:src="@drawable/ic_article"
-                        app:tint="@color/brand_primary" />
-                    <TextView style="@style/HubTile.Title" android:layout_marginTop="6dp" android:text="@string/title_sentence_practice" />
-                    <TextView android:id="@+id/textSentencesSub" style="@style/HubTile.Sub" />
+                        style="@style/g1_IconBox38"
+                        android:backgroundTint="@color/brand_secondary_container"
+                        android:src="@drawable/ic_g1_cards"
+                        app:tint="@color/g1_amber_icon" />
+                    <TextView android:id="@+id/textDueWords" style="@style/g1_TileTitle" />
+                    <TextView style="@style/g1_TileSub" android:text="@string/g1_review_sub" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cardSpeaking"
+                android:id="@+id/cardSounds"
+                style="@style/g1_TileCard"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="6dp"
@@ -298,15 +257,64 @@
                 android:clickable="true"
                 android:focusable="true">
 
-                <LinearLayout style="@style/HubTile">
+                <LinearLayout style="@style/g1_TileBody">
                     <ImageView
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
-                        android:contentDescription="@null"
+                        style="@style/g1_IconBox38"
+                        android:backgroundTint="@color/g1_teal_soft"
+                        android:src="@drawable/ic_g1_volume"
+                        app:tint="@color/g1_teal_icon" />
+                    <TextView style="@style/g1_TileTitle" android:text="@string/g1_practise_sounds" />
+                    <TextView style="@style/g1_TileSub" android:text="@string/g1_practise_sounds_sub" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <!-- Daily practice: sentences and speaking -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardSentences"
+                style="@style/g1_TileCard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true">
+
+                <LinearLayout style="@style/g1_TileBody">
+                    <ImageView
+                        style="@style/g1_IconBox38"
+                        android:backgroundTint="@color/brand_primary_container"
+                        android:src="@drawable/ic_article"
+                        app:tint="@color/brand_primary" />
+                    <TextView style="@style/g1_TileTitle" android:text="@string/title_sentence_practice" />
+                    <TextView android:id="@+id/textSentencesSub" style="@style/g1_TileSub" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardSpeaking"
+                style="@style/g1_TileCard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true">
+
+                <LinearLayout style="@style/g1_TileBody">
+                    <ImageView
+                        style="@style/g1_IconBox38"
+                        android:backgroundTint="@color/g1_green_soft"
                         android:src="@drawable/ic_mic"
-                        app:tint="@color/brand_tertiary" />
-                    <TextView style="@style/HubTile.Title" android:layout_marginTop="6dp" android:text="@string/title_speaking" />
-                    <TextView style="@style/HubTile.Sub" android:text="@string/speaking_card_sub" />
+                        app:tint="@color/g1_green_text" />
+                    <TextView style="@style/g1_TileTitle" android:text="@string/title_speaking" />
+                    <TextView style="@style/g1_TileSub" android:text="@string/speaking_card_sub" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
@@ -314,45 +322,68 @@
         <!-- Word of the day -->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardWordOfDay"
-            style="@style/Widget.App.Card.Tinted"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/card_gap">
+            android:layout_marginTop="14dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="@color/brand_primary_container"
+            app:cardCornerRadius="22dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="20dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/word_of_day"
-                    android:textAppearance="@style/Text.Label" />
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="18dp"
+                android:paddingVertical="16dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="6dp"
-                    android:baselineAligned="true"
-                    android:orientation="horizontal">
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textWodWord"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="@string/g1_word_of_day"
                         android:textColor="@color/brand_on_primary_container"
-                        android:textStyle="bold" />
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:baselineAligned="true"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textWodWord"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/inter_extrabold"
+                            android:textColor="@color/brand_on_primary_container"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textWodPron"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="6dp"
+                            android:textColor="@color/gujarati_text"
+                            android:textSize="16sp" />
+                    </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textWodPos"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/textWodMeaning"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:textAppearance="@style/Text.Secondary"
-                        android:textStyle="italic" />
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/inter_semibold"
+                        android:textColor="@color/gujarati_text"
+                        android:textSize="17sp" />
                 </LinearLayout>
 
                 <com.google.android.material.button.MaterialButton
@@ -360,25 +391,13 @@
                     style="@style/Widget.Material3.Button.IconButton.Filled"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="-52dp"
+                    android:layout_marginStart="12dp"
                     android:contentDescription="@string/cd_play"
-                    app:icon="@drawable/ic_volume" />
-
-                <TextView
-                    android:id="@+id/textWodMeaning"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
-                    android:textColor="@color/gujarati_text" />
-
-                <TextView
-                    android:id="@+id/textWodExample"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="6dp"
-                    android:textAppearance="@style/Text.Body"
-                    android:textStyle="italic" />
+                    app:backgroundTint="@color/brand_primary"
+                    app:cornerRadius="24dp"
+                    app:icon="@drawable/ic_g1_volume"
+                    app:iconSize="22dp"
+                    app:iconTint="@color/g1_on_brand" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -386,76 +405,54 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/card_gap"
+            android:layout_marginTop="14dp"
             android:orientation="horizontal">
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardLearningPath"
+                style="@style/g1_TileCard"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="6dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
-
+                <LinearLayout style="@style/g1_TileBody">
                     <ImageView
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
-                        android:contentDescription="@null"
+                        style="@style/g1_IconBox38"
+                        android:backgroundTint="@color/g1_teal_soft"
                         android:src="@drawable/ic_school"
-                        app:tint="@color/brand_tertiary" />
-
+                        app:tint="@color/g1_teal_icon" />
+                    <TextView style="@style/g1_TileTitle" android:text="@string/learning_path" />
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="@string/learning_path"
-                        android:textAppearance="@style/Text.Subtitle" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        style="@style/g1_TileSub"
                         android:text="@string/learning_path_text"
-                        android:textAppearance="@style/Text.Secondary" />
+                        android:textColor="@color/text_secondary" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardTests"
+                style="@style/g1_TileCard"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="6dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
-
+                <LinearLayout style="@style/g1_TileBody">
                     <ImageView
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
-                        android:contentDescription="@null"
-                        android:src="@drawable/ic_timer"
-                        app:tint="@color/brand_secondary" />
-
+                        style="@style/g1_IconBox38"
+                        android:backgroundTint="@color/brand_secondary_container"
+                        android:src="@drawable/ic_g1_timer"
+                        app:tint="@color/g1_amber_icon" />
+                    <TextView style="@style/g1_TileTitle" android:text="@string/practice_tests_card" />
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="@string/practice_tests_card"
-                        android:textAppearance="@style/Text.Subtitle" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        style="@style/g1_TileSub"
                         android:text="@string/practice_tests_card_text"
-                        android:textAppearance="@style/Text.Secondary" />
+                        android:textColor="@color/text_secondary" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>

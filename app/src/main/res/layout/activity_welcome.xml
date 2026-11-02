@@ -1,141 +1,380 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<!-- Two-step onboarding: step 1 = Welcome (Main artboard), step 2 = "How much English do you know?" (Placement artboard). -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?android:attr/colorBackground"
-    android:fillViewport="true"
     android:fitsSystemWindows="true">
 
-    <LinearLayout
+    <!-- ===================== Step 1: Welcome ===================== -->
+    <ScrollView
+        android:id="@+id/stepWelcome"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="24dp">
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_header"
             android:orientation="vertical"
-            android:padding="24dp">
+            android:paddingHorizontal="20dp"
+            android:paddingTop="24dp"
+            android:paddingBottom="28dp">
 
-            <ImageView
-                android:layout_width="56dp"
-                android:layout_height="56dp"
-                android:contentDescription="@null"
-                android:src="@drawable/ic_book"
-                app:tint="@color/white" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/welcome_title"
-                android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:text="@string/welcome_title_gu"
-                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
-                android:textColor="@color/white" />
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/welcome_text"
-            android:textAppearance="@style/Text.Body" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/welcome_text_gu"
-            android:textAppearance="@style/Text.Gujarati" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/bg_gujarati"
-            android:padding="12dp"
-            android:text="@string/welcome_path"
-            android:textAppearance="@style/Text.Label" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:hint="@string/welcome_name_hint">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/inputName"
+            <!-- Blue header card -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName|textCapWords"
-                android:maxLines="1" />
-        </com.google.android.material.textfield.TextInputLayout>
+                android:background="@drawable/g1_bg_header_card"
+                android:orientation="vertical"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="28dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/welcome_goal"
-            android:textAppearance="@style/Text.Subtitle" />
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/g1_bg_round16"
+                    android:backgroundTint="@color/g1_on_brand_soft"
+                    android:contentDescription="@null"
+                    android:padding="13dp"
+                    android:src="@drawable/ic_g1_book"
+                    app:tint="@color/g1_on_brand" />
 
-        <include
-            android:id="@+id/goalChips"
-            layout="@layout/view_goal_chips" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/inter_extrabold"
+                    android:lineSpacingExtra="6sp"
+                    android:text="@string/g1_welcome_title"
+                    android:textColor="@color/g1_on_brand"
+                    android:textSize="28sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/welcome_start_where"
-            android:textAppearance="@style/Text.Subtitle" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="@string/g1_welcome_title_gu"
+                    android:textColor="@color/g1_on_brand"
+                    android:textSize="18sp" />
 
-        <RadioGroup
-            android:id="@+id/radioStart"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:alpha="0.92"
+                    android:text="@string/g1_welcome_path"
+                    android:textColor="@color/g1_on_brand"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <!-- Benefits -->
+            <LinearLayout
+                style="@style/g1_BenefitRow"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    style="@style/g1_IconBox40"
+                    android:backgroundTint="@color/brand_primary_container"
+                    android:src="@drawable/ic_g1_volume"
+                    app:tint="@color/brand_primary" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView style="@style/g1_RowTitle" android:text="@string/g1_benefit_hear" />
+                    <TextView style="@style/g1_RowGu" android:text="@string/g1_benefit_hear_gu" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/g1_BenefitRow">
+
+                <ImageView
+                    style="@style/g1_IconBox40"
+                    android:backgroundTint="@color/brand_secondary_container"
+                    android:src="@drawable/ic_g1_translate"
+                    app:tint="@color/g1_amber_icon" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView style="@style/g1_RowTitle" android:text="@string/g1_benefit_gujarati" />
+                    <TextView style="@style/g1_RowGu" android:text="@string/g1_benefit_gujarati_gu" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/g1_BenefitRow">
+
+                <ImageView
+                    style="@style/g1_IconBox40"
+                    android:backgroundTint="@color/g1_teal_soft"
+                    android:src="@drawable/ic_g1_timer"
+                    app:tint="@color/g1_teal_icon" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView style="@style/g1_RowTitle" android:text="@string/g1_benefit_daily" />
+                    <TextView style="@style/g1_RowGu" android:text="@string/g1_benefit_daily_gu" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:minHeight="20dp" />
+
+            <!-- Name -->
+            <TextView
+                android:id="@+id/labelName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_semibold"
+                android:labelFor="@+id/inputName"
+                android:text="@string/g1_name_label"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:boxBackgroundColor="@color/surface"
+                app:boxCornerRadiusBottomEnd="14dp"
+                app:boxCornerRadiusBottomStart="14dp"
+                app:boxCornerRadiusTopEnd="14dp"
+                app:boxCornerRadiusTopStart="14dp"
+                app:boxStrokeColor="@color/brand_primary"
+                app:boxStrokeWidth="1.5dp"
+                app:hintEnabled="false">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputName"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:hint="@string/welcome_name_hint"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName|textCapWords"
+                    android:maxLines="1"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="0dp"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnStart"
+                style="@style/g1_BigButton"
+                android:layout_marginTop="20dp"
+                android:text="@string/g1_btn_start" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- ===================== Step 2: Placement ===================== -->
+    <LinearLayout
+        android:id="@+id/stepPlacement"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- Back arrow + progress -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:checkedButton="@+id/radioAbc">
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="20dp">
 
-            <RadioButton
-                android:id="@+id/radioAbc"
-                style="@style/Widget.App.OptionCard"
-                android:text="@string/start_abc" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBack"
+                style="@style/Widget.Material3.Button.IconButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="-4dp"
+                android:contentDescription="@string/g1_cd_back"
+                app:icon="@drawable/ic_g1_back"
+                app:iconSize="24dp"
+                app:iconTint="@color/text_primary" />
 
-            <RadioButton
-                android:id="@+id/radioKnowAbc"
-                style="@style/Widget.App.OptionCard"
-                android:text="@string/start_know_abc" />
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/progressSteps"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:max="2"
+                android:progress="2"
+                app:indicatorColor="@color/brand_primary"
+                app:trackColor="@color/track"
+                app:trackCornerRadius="4dp"
+                app:trackThickness="8dp" />
 
-            <RadioButton
-                android:id="@+id/radioKnowBasics"
-                style="@style/Widget.App.OptionCard"
-                android:text="@string/start_know_basics" />
-        </RadioGroup>
+            <TextView
+                android:id="@+id/textStep"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp" />
+        </LinearLayout>
 
-        <Space
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:minHeight="24dp" />
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="20dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:accessibilityHeading="true"
+                    android:fontFamily="@font/inter_extrabold"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/g1_placement_title"
+                    android:textColor="@color/text_primary"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="@string/g1_placement_title_gu"
+                    android:textColor="@color/gujarati_text"
+                    android:textSize="18sp" />
+
+                <!-- Option 1: Nothing yet -->
+                <LinearLayout
+                    android:id="@+id/optNothing"
+                    style="@style/g1_OptionCard"
+                    android:layout_marginTop="16dp">
+
+                    <TextView
+                        style="@style/g1_OptionBadge"
+                        android:backgroundTint="@color/brand_primary"
+                        android:text="@string/g1_opt_nothing_badge"
+                        android:textColor="@color/g1_on_brand"
+                        android:textSize="20sp" />
+
+                    <LinearLayout style="@style/g1_OptionTexts">
+                        <TextView style="@style/g1_OptionTitle" android:text="@string/g1_opt_nothing" />
+                        <TextView style="@style/g1_OptionGu" android:text="@string/g1_opt_nothing_gu" />
+                        <TextView style="@style/g1_OptionSub" android:text="@string/g1_opt_nothing_sub" />
+                    </LinearLayout>
+
+                    <ImageView android:id="@+id/checkNothing" style="@style/g1_OptionCheck" />
+                </LinearLayout>
+
+                <!-- Option 2: I know ABC and some words -->
+                <LinearLayout
+                    android:id="@+id/optKnowAbc"
+                    style="@style/g1_OptionCard">
+
+                    <TextView
+                        style="@style/g1_OptionBadge"
+                        android:backgroundTint="@color/brand_primary_container"
+                        android:text="@string/g1_opt_abc_badge"
+                        android:textColor="@color/brand_on_primary_container"
+                        android:textSize="16sp" />
+
+                    <LinearLayout style="@style/g1_OptionTexts">
+                        <TextView style="@style/g1_OptionTitle" android:text="@string/g1_opt_abc" />
+                        <TextView style="@style/g1_OptionGu" android:text="@string/g1_opt_abc_gu" />
+                        <TextView style="@style/g1_OptionSub" android:text="@string/g1_opt_abc_sub" />
+                    </LinearLayout>
+
+                    <ImageView android:id="@+id/checkKnowAbc" style="@style/g1_OptionCheck" />
+                </LinearLayout>
+
+                <!-- Option 3: I can read simple sentences -->
+                <LinearLayout
+                    android:id="@+id/optSentences"
+                    style="@style/g1_OptionCard">
+
+                    <TextView
+                        style="@style/g1_OptionBadge"
+                        android:backgroundTint="@color/brand_secondary_container"
+                        android:text="@string/g1_opt_sentences_badge"
+                        android:textColor="@color/g1_amber_text"
+                        android:textSize="13sp" />
+
+                    <LinearLayout style="@style/g1_OptionTexts">
+                        <TextView style="@style/g1_OptionTitle" android:text="@string/g1_opt_sentences" />
+                        <TextView style="@style/g1_OptionGu" android:text="@string/g1_opt_sentences_gu" />
+                        <TextView style="@style/g1_OptionSub" android:text="@string/g1_opt_sentences_sub" />
+                    </LinearLayout>
+
+                    <ImageView android:id="@+id/checkSentences" style="@style/g1_OptionCheck" />
+                </LinearLayout>
+
+                <!-- Option 4: Not sure (no placement test exists, so it starts from the beginning) -->
+                <LinearLayout
+                    android:id="@+id/optUnsure"
+                    style="@style/g1_OptionCard">
+
+                    <TextView
+                        style="@style/g1_OptionBadge"
+                        android:backgroundTint="@color/g1_teal_soft"
+                        android:text="@string/g1_opt_unsure_badge"
+                        android:textColor="@color/g1_teal_text"
+                        android:textSize="18sp" />
+
+                    <LinearLayout style="@style/g1_OptionTexts">
+                        <TextView style="@style/g1_OptionTitle" android:text="@string/g1_opt_unsure" />
+                        <TextView style="@style/g1_OptionGu" android:text="@string/g1_opt_unsure_gu" />
+                        <TextView style="@style/g1_OptionSub" android:text="@string/g1_opt_unsure_sub" />
+                    </LinearLayout>
+
+                    <ImageView android:id="@+id/checkUnsure" style="@style/g1_OptionCheck" />
+                </LinearLayout>
+
+                <!-- Daily goal -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="@string/g1_daily_goal"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp" />
+
+                <include
+                    android:id="@+id/goalChips"
+                    layout="@layout/view_goal_chips" />
+            </LinearLayout>
+        </ScrollView>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnStart"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="24dp"
-            android:text="@string/btn_start_learning"
-            android:textSize="17sp" />
+            android:id="@+id/btnContinue"
+            style="@style/g1_BigButton"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="28dp"
+            android:text="@string/g1_btn_continue" />
     </LinearLayout>
-</ScrollView>
+</FrameLayout>

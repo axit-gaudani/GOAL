@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings for Welcome, Placement and Home (group g1). -->
+<resources>
+    <!-- Welcome (step 1) -->
+    <string name="g1_welcome_title">Learn English reading from zero</string>
+    <string name="g1_welcome_title_gu">શૂન્યથી અંગ્રેજી વાંચતા શીખો</string>
+    <string name="g1_welcome_path">ABC → words → sentences → IELTS Band 8+</string>
+    <string name="g1_benefit_hear">Hear every word</string>
+    <string name="g1_benefit_hear_gu">દરેક શબ્દ સાંભળો અને બોલો</string>
+    <string name="g1_benefit_gujarati">Gujarati help everywhere</string>
+    <string name="g1_benefit_gujarati_gu">દરેક પાઠ ગુજરાતીમાં સમજાવેલો</string>
+    <string name="g1_benefit_daily">10 minutes a day</string>
+    <string name="g1_benefit_daily_gu">રોજ થોડું, પણ નિયમિત</string>
+    <string name="g1_name_label">Your name · તમારું નામ</string>
+    <string name="g1_btn_start">Start · શરૂ કરો</string>
+
+    <!-- Placement (step 2) -->
+    <string name="g1_cd_back">Back</string>
+    <string name="g1_step_format">%1$d / %2$d</string>
+    <string name="g1_placement_title">How much English do you know?</string>
+    <string name="g1_placement_title_gu">તમને કેટલું અંગ્રેજી આવડે છે?</string>
+    <string name="g1_opt_nothing_badge">Aa</string>
+    <string name="g1_opt_nothing">Nothing yet</string>
+    <string name="g1_opt_nothing_gu">મને કંઈ નથી આવડતું — ABC થી શરૂ</string>
+    <string name="g1_opt_nothing_sub">Start at Level −1 · Letters and sounds</string>
+    <string name="g1_opt_abc_badge">cat</string>
+    <string name="g1_opt_abc">I know ABC and some words</string>
+    <string name="g1_opt_abc_gu">ABC અને થોડા શબ્દો આવડે છે</string>
+    <string name="g1_opt_abc_sub">Start at Level 0 · First sentences</string>
+    <string name="g1_opt_sentences_badge">I am</string>
+    <string name="g1_opt_sentences">I can read simple sentences</string>
+    <string name="g1_opt_sentences_gu">સરળ વાક્યો વાંચી શકું છું</string>
+    <string name="g1_opt_sentences_sub">Start at Level 0 · Skip the ABC, move fast</string>
+    <string name="g1_opt_unsure_badge">\?</string>
+    <string name="g1_opt_unsure">Not sure — start from the beginning</string>
+    <string name="g1_opt_unsure_gu">ખાતરી નથી — શરૂઆતથી શીખો</string>
+    <string name="g1_opt_unsure_sub">Start at Level −1 · You can skip ABC later in Settings</string>
+    <string name="g1_daily_goal">Daily goal · રોજનો લક્ષ્ય</string>
+    <string name="g1_btn_continue">Continue · આગળ</string>
+
+    <!-- Home -->
+    <string name="g1_home_subtitle">ચાલો આજે થોડું વાંચીએ</string>
+    <string name="g1_goal_minutes_format">%1$d / %2$d min</string>
+    <string name="g1_streak_format">%d-day streak</string>
+    <string name="g1_continue_level_format">CONTINUE · %s</string>
+    <string name="g1_continue_label">CONTINUE</string>
+    <string name="g1_course_percent_format">Course %d%%</string>
+    <string name="g1_btn_with_minutes">%1$s · %2$d min</string>
+    <plurals name="g1_words_to_review">
+        <item quantity="one">%d word to review</item>
+        <item quantity="other">%d words to review</item>
+    </plurals>
+    <string name="g1_no_words_to_review">No words to review</string>
+    <string name="g1_review_sub">શબ્દો યાદ કરો</string>
+    <string name="g1_practise_sounds">Practise sounds</string>
+    <string name="g1_practise_sounds_sub">અવાજ સાંભળો</string>
+    <string name="g1_word_of_day">WORD OF THE DAY</string>
+</resources>

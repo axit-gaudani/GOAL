@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Design colours used by Welcome, Placement and Home (group g1). -->
+<resources>
+    <color name="g1_amber_text">#6B4500</color>
+    <color name="g1_amber_icon">#8A5A00</color>
+    <color name="g1_teal_soft">#D7F3EE</color>
+    <color name="g1_teal_icon">#0B7A6C</color>
+    <color name="g1_teal_text">#0B5C52</color>
+    <color name="g1_green_soft">#DCF5E6</color>
+    <color name="g1_green_text">#0F5A2C</color>
+    <color name="g1_on_brand">#FFFFFF</color>
+    <color name="g1_on_brand_soft">#2EFFFFFF</color>
+    <color name="g1_ring_track">#40FFFFFF</color>
+</resources>

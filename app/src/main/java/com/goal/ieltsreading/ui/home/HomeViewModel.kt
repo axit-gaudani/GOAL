@@ -18,6 +18,8 @@ data class HomeState(
     val nextLessonLevelTitle: String,
     val dueWords: Int,
     val wordOfDay: WordWithProgress?,
+    /** How the word of the day sounds, in Gujarati letters (empty when the content has none). */
+    val wordOfDayPronGu: String,
     val coursePercent: Int,
     val dueSentences: Int
 )
@@ -32,6 +34,8 @@ class HomeViewModel(app: Application) : AndroidViewModel(app) {
         val levels = repo.levels()
         val next = repo.nextLesson()
         val level = levels.firstOrNull { it.level.id == next?.lesson?.levelId }
+        val wod = repo.wordOfTheDay()
+        val wodPron = wod?.let { repo.word(it.id)?.pronunciationGu }.orEmpty()
         val total = levels.sumOf { it.totalLessons }
         val done = levels.sumOf { it.completedLessons }
         _state.value = HomeState(
@@ -40,7 +44,8 @@ class HomeViewModel(app: Application) : AndroidViewModel(app) {
             nextLesson = next,
             nextLessonLevelTitle = level?.let { "Level ${it.level.sortOrder} · ${it.level.title}" }.orEmpty(),
             dueWords = repo.dueCount(),
-            wordOfDay = repo.wordOfTheDay(),
+            wordOfDay = wod,
+            wordOfDayPronGu = wodPron,
             coursePercent = if (total == 0) 0 else done * 100 / total,
             dueSentences = repo.dueSentenceCount()
         )
