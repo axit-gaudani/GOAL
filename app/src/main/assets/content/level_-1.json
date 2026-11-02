@@ -1,0 +1,815 @@
+{
+ "id": "L-1",
+ "order": -1,
+ "title": "ABC",
+ "titleGu": "અંગ્રેજી મૂળાક્ષરો",
+ "band": "Start · Letters and sounds",
+ "description": "Start here if you cannot read English letters yet. Learn A to Z, the sounds of letters, and your first words and tiny sentences.",
+ "descriptionGu": "જો તમે હજી અંગ્રેજી અક્ષરો વાંચી શકતા ન હો, તો અહીંથી શરૂ કરો. A થી Z, અક્ષરોના અવાજ, અને પહેલા શબ્દો તથા નાનાં વાક્યો શીખો.",
+ "lessons": [
+  {
+   "id": "L-1-01",
+   "order": 1,
+   "title": "Letters A to M",
+   "titleGu": "અક્ષરો A થી M",
+   "skill": "Reading",
+   "minutes": 12,
+   "explanation": "Welcome! English has 26 letters. We call them the alphabet. Today we learn the first 13 letters: A to M.\n\nEvery letter has two forms:\n• a big (capital) letter: A, B, C\n• a small letter: a, b, c\n\nWe use a capital letter at the start of a sentence and for names, like Ravi. Most words use small letters.\n\nEvery letter also has a name and a sound. The name of B is \"bee\". But in a word, B makes the sound \"b\", like in ball. When we read, we use the sound, not the name.\n\nFive letters are special. They are vowels: A, E, I, O, U. Today you meet A, E and I. Every English word has at least one vowel sound.\n\nSay each letter, its sound and its word aloud: \"A, a, apple\". Go slowly. You are doing great!",
+   "explanationGu": "સ્વાગત છે! આજે આપણે અંગ્રેજી વાંચવાની બિલકુલ પહેલી સીડી ચડીએ છીએ. ચિંતા ન કરશો — ધીમે ધીમે, એક-એક અક્ષર શીખીશું.\n\nઅંગ્રેજીમાં કુલ 26 અક્ષરો છે. આ બધા અક્ષરોને સાથે મળીને \"આલ્ફાબેટ\" (alphabet) કહે છે, જેમ ગુજરાતીમાં \"કક્કો\" અને \"બારાખડી\". આજે આપણે પહેલા 13 અક્ષરો શીખીશું: A થી M.\n\nદરેક અક્ષરનાં બે રૂપ હોય છે:\n• મોટો અક્ષર (capital letter, કૅપિટલ): A, B, C\n• નાનો અક્ષર (small letter, સ્મૉલ): a, b, c\n\nબંનેનો અવાજ એક જ છે, ફક્ત દેખાવ જુદો છે. મોટો અક્ષર વાક્યની શરૂઆતમાં અને નામમાં વપરાય છે, જેમ કે Ravi (રવિ). બાકી મોટા ભાગના શબ્દો નાના અક્ષરોમાં લખાય છે. એટલે નાના અક્ષરો ખાસ ધ્યાનથી ઓળખો. ધ્યાન રાખો: b અને d દેખાવમાં સરખા લાગે છે — b નું પેટ જમણી બાજુ છે, d નું પેટ ડાબી બાજુ છે.\n\nદરેક અક્ષરનું એક \"નામ\" હોય છે અને એક \"અવાજ\" હોય છે. જેમ કે B નું નામ \"બી\" છે, પણ શબ્દમાં તે \"બ\" બોલાય છે: ball = બૉલ (દડો). C નું નામ \"સી\" છે, પણ cat માં તે \"ક\" બોલાય છે: કૅટ (બિલાડી). વાંચતી વખતે આપણે અક્ષરનું નામ નહીં, અવાજ વાપરીએ છીએ. એ જ વાંચવાની ચાવી છે!\n\nપાંચ અક્ષરો ખાસ છે. તેમને સ્વર (vowels, વૉવેલ્સ) કહે છે: A, E, I, O, U. ગુજરાતીના અ, આ, ઇ, એ જેવા સ્વરોની જેમ, દરેક અંગ્રેજી શબ્દમાં ઓછામાં ઓછો એક સ્વરનો અવાજ હોય છે. બાકીના અક્ષરોને વ્યંજન (consonants) કહે છે. આજે તમે A, E અને I ને મળશો; O અને U આગલા પાઠમાં આવશે.\n\nકેવી રીતે શીખવું? દરેક લીટી મોટેથી બોલો: \"A, a — apple\" એટલે \"એ, એ — ઍપલ (સફરજન)\". અક્ષર જુઓ, ચિત્ર મનમાં વિચારો અને શબ્દ બોલો. રોજ થોડું પુનરાવર્તન કરો. તમે ખૂબ સરસ કરી રહ્યા છો!",
+   "examples": [
+    {
+     "en": "A a — apple",
+     "gu": "એ — ઍપલ (સફરજન)"
+    },
+    {
+     "en": "B b — ball",
+     "gu": "બી — બૉલ (દડો)"
+    },
+    {
+     "en": "C c — cat",
+     "gu": "સી — કૅટ (બિલાડી)"
+    },
+    {
+     "en": "E e — egg",
+     "gu": "ઈ — એગ (ઈંડું)"
+    },
+    {
+     "en": "M m — mango",
+     "gu": "એમ — મૅંગો (કેરી)"
+    }
+   ],
+   "passageTitle": "From A to M",
+   "passage": "A a — apple.\nB b — ball.\nC c — cat.\nD d — dog.\nE e — egg.\nF f — fish.\nG g — goat.\nH h — hat.\nI i — ink.\nJ j — jug.\nK k — kite.\nL l — lion.\nM m — mango.",
+   "passageGu": "એ — સફરજન.\nબી — દડો.\nસી — બિલાડી.\nડી — કૂતરો.\nઈ — ઈંડું.\nએફ — માછલી.\nજી — બકરી.\nએચ — ટોપી.\nઆઈ — શાહી.\nજે — જગ.\nકે — પતંગ.\nએલ — સિંહ.\nએમ — કેરી.",
+   "vocabulary": [
+    {
+     "word": "apple",
+     "pos": "noun",
+     "meaningGu": "સફરજન",
+     "meaningEn": "a round red or green fruit",
+     "example": "I eat an apple.",
+     "exampleGu": "હું સફરજન ખાઉં છું."
+    },
+    {
+     "word": "ball",
+     "pos": "noun",
+     "meaningGu": "દડો",
+     "meaningEn": "a round thing we play with",
+     "example": "This is a ball.",
+     "exampleGu": "આ દડો છે."
+    },
+    {
+     "word": "cat",
+     "pos": "noun",
+     "meaningGu": "બિલાડી",
+     "meaningEn": "a small animal that says \"meow\"",
+     "example": "The cat is small.",
+     "exampleGu": "બિલાડી નાની છે."
+    },
+    {
+     "word": "dog",
+     "pos": "noun",
+     "meaningGu": "કૂતરો",
+     "meaningEn": "an animal that says \"woof\"",
+     "example": "My dog is big.",
+     "exampleGu": "મારો કૂતરો મોટો છે."
+    },
+    {
+     "word": "egg",
+     "pos": "noun",
+     "meaningGu": "ઈંડું",
+     "meaningEn": "a round white thing from a hen",
+     "example": "This is an egg.",
+     "exampleGu": "આ ઈંડું છે."
+    },
+    {
+     "word": "fish",
+     "pos": "noun",
+     "meaningGu": "માછલી",
+     "meaningEn": "an animal that lives in water",
+     "example": "The fish is in the water.",
+     "exampleGu": "માછલી પાણીમાં છે."
+    },
+    {
+     "word": "kite",
+     "pos": "noun",
+     "meaningGu": "પતંગ",
+     "meaningEn": "a paper toy that flies in the wind",
+     "example": "I have a kite.",
+     "exampleGu": "મારી પાસે પતંગ છે."
+    },
+    {
+     "word": "mango",
+     "pos": "noun",
+     "meaningGu": "કેરી",
+     "meaningEn": "a sweet yellow fruit",
+     "example": "I like mango.",
+     "exampleGu": "મને કેરી ગમે છે."
+    }
+   ],
+   "questions": [
+    {
+     "type": "MCQ",
+     "prompt": "Which letter comes after B?",
+     "promptGu": "B પછી કયો અક્ષર આવે છે?",
+     "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+     ],
+     "answer": "C",
+     "explanation": "The order is A, B, C. So C comes after B.",
+     "explanationGu": "ક્રમ છે A, B, C. એટલે B પછી C આવે છે."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "Which is the small letter of G?",
+     "promptGu": "G નો નાનો અક્ષર કયો છે?",
+     "options": [
+      "q",
+      "j",
+      "g",
+      "y"
+     ],
+     "answer": "g",
+     "explanation": "Capital G and small g are the same letter. It is in \"goat\".",
+     "explanationGu": "મોટો G અને નાનો g એક જ અક્ષર છે. \"goat\" (બકરી) માં g છે."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "Which word starts with the letter m?",
+     "promptGu": "કયો શબ્દ m અક્ષરથી શરૂ થાય છે?",
+     "options": [
+      "ball",
+      "mango",
+      "egg",
+      "kite"
+     ],
+     "answer": "mango",
+     "explanation": "\"mango\" starts with m: m-a-n-g-o.",
+     "explanationGu": "\"mango\" (કેરી) m થી શરૂ થાય છે: m-a-n-g-o."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "Which of these letters is a vowel?",
+     "promptGu": "આમાંથી કયો અક્ષર સ્વર (vowel) છે?",
+     "options": [
+      "B",
+      "D",
+      "E",
+      "K"
+     ],
+     "answer": "E",
+     "explanation": "The vowels are A, E, I, O, U. E is a vowel.",
+     "explanationGu": "સ્વરો છે A, E, I, O, U. એટલે E સ્વર છે."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "The letter C makes which sound in \"cat\"?",
+     "promptGu": "\"cat\" શબ્દમાં C કયો અવાજ આપે છે?",
+     "options": [
+      "ક",
+      "સ",
+      "ચ",
+      "બ"
+     ],
+     "answer": "ક",
+     "explanation": "The name of C is \"see\", but in \"cat\" it makes the sound \"k\".",
+     "explanationGu": "C નું નામ \"સી\" છે, પણ cat (કૅટ) માં તે \"ક\" અવાજ આપે છે."
+    },
+    {
+     "type": "LISTEN",
+     "prompt": "D",
+     "promptGu": "સાંભળો અને સાચો અક્ષર પસંદ કરો",
+     "options": [
+      "B",
+      "D",
+      "P",
+      "G"
+     ],
+     "answer": "D",
+     "explanation": "You heard the letter D, like in \"dog\".",
+     "explanationGu": "તમે D (ડી) અક્ષર સાંભળ્યો, જેમ dog (કૂતરો) માં."
+    },
+    {
+     "type": "LISTEN",
+     "prompt": "fish",
+     "promptGu": "સાંભળો અને સાચો શબ્દ પસંદ કરો",
+     "options": [
+      "fish",
+      "kite",
+      "jug",
+      "hat"
+     ],
+     "answer": "fish",
+     "explanation": "You heard \"fish\". It starts with f.",
+     "explanationGu": "તમે \"fish\" (ફિશ, માછલી) સાંભળ્યું. તે f થી શરૂ થાય છે."
+    }
+   ]
+  },
+  {
+   "id": "L-1-02",
+   "order": 2,
+   "title": "Letters N to Z",
+   "titleGu": "અક્ષરો N થી Z",
+   "skill": "Reading",
+   "minutes": 12,
+   "explanation": "Well done! Now we learn the last 13 letters: N to Z.\n\nRemember: every letter has a capital form and a small form, like N n, Q q, Z z.\n\nTwo more vowels are here: O and U. Now you know all five vowels: A, E, I, O, U.\n\nSome letters need extra care:\n• Q is almost always with u: queen.\n• X is rarely at the start of a word. We hear it at the end: box, fox.\n• W has a long name: \"double-u\". But its sound is \"w\", like in water.\n\nThe alphabet has a fixed order: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z. This order helps you find words in a dictionary.\n\nSing or say the full alphabet every day. Soon it will be easy!",
+   "explanationGu": "શાબાશ! પહેલા 13 અક્ષરો તમે શીખી લીધા. હવે બાકીના 13 અક્ષરો શીખીએ: N થી Z.\n\nયાદ રાખો: દરેક અક્ષરનાં બે રૂપ છે — મોટો (capital) અને નાનો (small). જેમ કે N n, Q q, Z z. ધ્યાન આપો: p અને q સરખા લાગે છે — p નું પેટ જમણી બાજુ, q નું પેટ ડાબી બાજુ. એ જ રીતે n અને u ઊંધા-સીધા જેવા દેખાય છે.\n\nઆ પાઠમાં બીજા બે સ્વરો (vowels) આવે છે: O અને U. હવે તમે પાંચેય સ્વરો જાણો છો: A, E, I, O, U. આ પાંચ અક્ષરો દરેક શબ્દને \"અવાજ\" આપે છે.\n\nકેટલાક અક્ષરો ખાસ ધ્યાન માગે છે:\n• Q (ક્યૂ): તેની પાછળ લગભગ હંમેશાં u આવે છે અને સાથે \"ક્વ\" બોલાય છે: queen = ક્વીન (રાણી).\n• X (એક્સ): તે શબ્દની શરૂઆતમાં ભાગ્યે જ આવે છે. મોટે ભાગે શબ્દના છેડે \"ક્સ\" તરીકે સંભળાય છે: box = બૉક્સ (ખોખું), fox = ફૉક્સ (શિયાળ).\n• W: તેનું નામ લાંબું છે — \"ડબલ્યુ\" (double-u એટલે બે u). પણ શબ્દમાં તેનો અવાજ ફક્ત \"વ\" છે: water = વૉટર (પાણી).\n• Y (વાય): શબ્દની શરૂઆતમાં \"ય\" બોલાય છે: yak = યૅક.\n• Z (ઝેડ): \"ઝ\" બોલાય છે: zebra = ઝીબ્રા.\n\nઆલ્ફાબેટનો એક નક્કી ક્રમ છે, જેમ કક્કામાં ક, ખ, ગ, ઘ નો ક્રમ છે:\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\nઆ ક્રમ યાદ હોય તો શબ્દકોશ (dictionary) માં શબ્દ શોધવો સહેલો બને છે. M પછી N આવે છે, અને છેલ્લો અક્ષર Z છે.\n\nરોજ આખો આલ્ફાબેટ ગાઓ કે બોલો. થોડા દિવસમાં તે મોઢે થઈ જશે. તમે સરસ પ્રગતિ કરી રહ્યા છો!",
+   "examples": [
+    {
+     "en": "N n — nest",
+     "gu": "એન — નેસ્ટ (માળો)"
+    },
+    {
+     "en": "O o — orange",
+     "gu": "ઓ — ઑરેન્જ (નારંગી)"
+    },
+    {
+     "en": "Q q — queen",
+     "gu": "ક્યૂ — ક્વીન (રાણી)"
+    },
+    {
+     "en": "W w — water",
+     "gu": "ડબલ્યુ — વૉટર (પાણી)"
+    },
+    {
+     "en": "X x — box",
+     "gu": "એક્સ — બૉક્સ (ખોખું)"
+    }
+   ],
+   "passageTitle": "From N to Z",
+   "passage": "N n — nest.\nO o — orange.\nP p — pen.\nQ q — queen.\nR r — rat.\nS s — sun.\nT t — tree.\nU u — umbrella.\nV v — van.\nW w — water.\nX x — box.\nY y — yak.\nZ z — zebra.",
+   "passageGu": "એન — માળો.\nઓ — નારંગી.\nપી — પેન.\nક્યૂ — રાણી.\nઆર — ઉંદર.\nએસ — સૂરજ.\nટી — ઝાડ.\nયૂ — છત્રી.\nવી — વાન.\nડબલ્યુ — પાણી.\nએક્સ — ખોખું.\nવાય — યાક.\nઝેડ — ઝીબ્રા.",
+   "vocabulary": [
+    {
+     "word": "nest",
+     "pos": "noun",
+     "meaningGu": "માળો",
+     "meaningEn": "a home that a bird makes",
+     "example": "The bird is in the nest.",
+     "exampleGu": "પક્ષી માળામાં છે."
+    },
+    {
+     "word": "orange",
+     "pos": "noun",
+     "meaningGu": "નારંગી",
+     "meaningEn": "a round orange fruit",
+     "example": "I eat an orange.",
+     "exampleGu": "હું નારંગી ખાઉં છું."
+    },
+    {
+     "word": "pen",
+     "pos": "noun",
+     "meaningGu": "પેન",
+     "meaningEn": "a thing we write with",
+     "example": "This is my pen.",
+     "exampleGu": "આ મારી પેન છે."
+    },
+    {
+     "word": "queen",
+     "pos": "noun",
+     "meaningGu": "રાણી",
+     "meaningEn": "a woman who rules a country",
+     "example": "The queen is in the house.",
+     "exampleGu": "રાણી ઘરમાં છે."
+    },
+    {
+     "word": "sun",
+     "pos": "noun",
+     "meaningGu": "સૂરજ",
+     "meaningEn": "the big hot light in the sky",
+     "example": "The sun is hot.",
+     "exampleGu": "સૂરજ ગરમ છે."
+    },
+    {
+     "word": "tree",
+     "pos": "noun",
+     "meaningGu": "ઝાડ",
+     "meaningEn": "a tall plant with leaves",
+     "example": "The tree is big.",
+     "exampleGu": "ઝાડ મોટું છે."
+    },
+    {
+     "word": "water",
+     "pos": "noun",
+     "meaningGu": "પાણી",
+     "meaningEn": "the clear drink we need every day",
+     "example": "I drink water.",
+     "exampleGu": "હું પાણી પીઉં છું."
+    },
+    {
+     "word": "box",
+     "pos": "noun",
+     "meaningGu": "ખોખું, ડબ્બો",
+     "meaningEn": "a thing we keep other things in",
+     "example": "The cat is in the box.",
+     "exampleGu": "બિલાડી ખોખામાં છે."
+    }
+   ],
+   "questions": [
+    {
+     "type": "MCQ",
+     "prompt": "Which letter comes after R?",
+     "promptGu": "R પછી કયો અક્ષર આવે છે?",
+     "options": [
+      "Q",
+      "S",
+      "T",
+      "P"
+     ],
+     "answer": "S",
+     "explanation": "The order is Q, R, S. So S comes after R.",
+     "explanationGu": "ક્રમ છે Q, R, S. એટલે R પછી S આવે છે."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "Which letter comes between M and O?",
+     "promptGu": "M અને O ની વચ્ચે કયો અક્ષર આવે છે?",
+     "options": [
+      "N",
+      "P",
+      "L",
+      "U"
+     ],
+     "answer": "N",
+     "explanation": "The order is M, N, O.",
+     "explanationGu": "ક્રમ છે M, N, O. વચ્ચે N આવે છે."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "Which is the small letter of Q?",
+     "promptGu": "Q નો નાનો અક્ષર કયો છે?",
+     "options": [
+      "p",
+      "q",
+      "d",
+      "g"
+     ],
+     "answer": "q",
+     "explanation": "Capital Q and small q are the same letter, like in \"queen\". Do not mix q with p.",
+     "explanationGu": "મોટો Q અને નાનો q એક જ અક્ષર છે, જેમ queen માં. q અને p ને ભેગા ન કરશો."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "Which word starts with the letter t?",
+     "promptGu": "કયો શબ્દ t અક્ષરથી શરૂ થાય છે?",
+     "options": [
+      "sun",
+      "tree",
+      "nest",
+      "van"
+     ],
+     "answer": "tree",
+     "explanation": "\"tree\" starts with t: t-r-e-e.",
+     "explanationGu": "\"tree\" (ટ્રી, ઝાડ) t થી શરૂ થાય છે."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "What is the last letter of the alphabet?",
+     "promptGu": "આલ્ફાબેટનો છેલ્લો અક્ષર કયો છે?",
+     "options": [
+      "X",
+      "Y",
+      "Z",
+      "W"
+     ],
+     "answer": "Z",
+     "explanation": "The alphabet ends with X, Y, Z. Z is the last letter.",
+     "explanationGu": "આલ્ફાબેટ X, Y, Z થી પૂરો થાય છે. છેલ્લો અક્ષર Z છે."
+    },
+    {
+     "type": "LISTEN",
+     "prompt": "W",
+     "promptGu": "સાંભળો અને સાચો અક્ષર પસંદ કરો",
+     "options": [
+      "V",
+      "W",
+      "M",
+      "Y"
+     ],
+     "answer": "W",
+     "explanation": "You heard W, \"double-u\". Its sound is \"w\", like in water.",
+     "explanationGu": "તમે W (ડબલ્યુ) સાંભળ્યો. તેનો અવાજ \"વ\" છે, જેમ water માં."
+    },
+    {
+     "type": "LISTEN",
+     "prompt": "zebra",
+     "promptGu": "સાંભળો અને સાચો શબ્દ પસંદ કરો",
+     "options": [
+      "zebra",
+      "queen",
+      "orange",
+      "umbrella"
+     ],
+     "answer": "zebra",
+     "explanation": "You heard \"zebra\". It starts with z.",
+     "explanationGu": "તમે \"zebra\" (ઝીબ્રા) સાંભળ્યું. તે z થી શરૂ થાય છે."
+    }
+   ]
+  },
+  {
+   "id": "L-1-03",
+   "order": 3,
+   "title": "Sounds and blending: reading short words",
+   "titleGu": "અવાજો જોડીને નાના શબ્દો વાંચીએ",
+   "skill": "Reading",
+   "minutes": 15,
+   "explanation": "Now you can read words! We use the sounds of the letters and join them. This is called blending.\n\n• c - a - t → cat\n• d - o - g → dog\n• s - u - n → sun\n\nSay each sound, then say them faster and faster. The sounds join and make a word.\n\nThe five vowels have short sounds in small words:\n• a as in cat\n• e as in hen\n• i as in pig\n• o as in dog\n• u as in sun\n\nSome letters work in pairs and make one new sound:\n• sh as in ship\n• ch as in chair\n• th as in three\n• ck as in duck\n• ee as in tree\n• oo as in moon\n\nRead the words slowly. Point to each letter with your finger.",
+   "explanationGu": "હવે મજાનો ભાગ આવે છે — તમે શબ્દો વાંચશો! અક્ષરોના નામ નહીં, તેમના અવાજ વાપરીને શબ્દ બને છે. અવાજોને જોડવાને અંગ્રેજીમાં blending (બ્લેન્ડિંગ) કહે છે.\n\nકેવી રીતે જોડવું?\n• c - a - t → \"ક\" + \"ઍ\" + \"ટ\" → કૅટ → cat (બિલાડી)\n• d - o - g → \"ડ\" + \"ઑ\" + \"ગ\" → ડૉગ → dog (કૂતરો)\n• s - u - n → \"સ\" + \"અ\" + \"ન\" → સન → sun (સૂરજ)\n\nપહેલાં દરેક અવાજ ધીમેથી અલગ બોલો. પછી ફરી બોલો, થોડું ઝડપથી. પછી હજી ઝડપથી. અવાજો આપોઆપ ભેગા થઈ શબ્દ બની જશે. જેમ ગુજરાતીમાં ક + મ + ળ = કમળ, તેમ જ!\n\nપાંચ સ્વરો (vowels) નાના શબ્દોમાં \"ટૂંકો\" અવાજ આપે છે:\n• a = ઍ, જેમ cat (કૅટ) માં\n• e = એ, જેમ hen (હેન, મરઘી) માં\n• i = ઇ, જેમ pig (પિગ, ભૂંડ) માં\n• o = ઑ, જેમ dog (ડૉગ) માં\n• u = અ, જેમ sun (સન) માં\nએક જ સ્વર બદલો અને શબ્દ બદલાઈ જાય છે: pan, pen, pin. એટલે સ્વરને ધ્યાનથી જુઓ.\n\nકેટલાક અક્ષરો જોડીમાં આવીને એક નવો જ અવાજ આપે છે:\n• sh = શ, જેમ ship (શિપ, વહાણ)\n• ch = ચ, જેમ chair (ચેર, ખુરશી)\n• th = થ, જેમ three (થ્રી, ત્રણ) — જીભ દાંત વચ્ચે હળવેથી રાખો\n• ck = ક, જેમ duck (ડક, બતક) — ck શબ્દના છેડે આવે છે\n• ee = લાંબો ઈ, જેમ tree (ટ્રી, ઝાડ)\n• oo = લાંબો ઊ, જેમ moon (મૂન, ચંદ્ર)\nઆ જોડીને એક જ અવાજ તરીકે વાંચો: s-h અલગ નહીં, \"શ\" એક સાથે.\n\nવાંચતી વખતે આંગળી દરેક અક્ષર નીચે રાખો, ડાબેથી જમણે. ભૂલ થાય તો કંઈ વાંધો નહીં — ફરી પ્રયત્ન કરો. દરેક વાંચેલો શબ્દ એક જીત છે!",
+   "examples": [
+    {
+     "en": "c - a - t → cat",
+     "gu": "ક + ઍ + ટ → કૅટ (બિલાડી)"
+    },
+    {
+     "en": "h - e - n → hen",
+     "gu": "હ + એ + ન → હેન (મરઘી)"
+    },
+    {
+     "en": "p - i - g → pig",
+     "gu": "પ + ઇ + ગ → પિગ (ભૂંડ)"
+    },
+    {
+     "en": "sh - i - p → ship",
+     "gu": "શ + ઇ + પ → શિપ (વહાણ)"
+    },
+    {
+     "en": "The cat is on the mat.",
+     "gu": "બિલાડી સાદડી પર છે."
+    }
+   ],
+   "passageTitle": "A Cat and a Hat",
+   "passage": "A cat. A hat. A bat.\nThe cat is on the mat.\nA red hen. A big pig.\nThe dog is in the box.\nThe sun is hot.\nA fish and a ship.\nI see a duck and a bee.",
+   "passageGu": "એક બિલાડી. એક ટોપી. એક બૅટ.\nબિલાડી સાદડી પર છે.\nએક લાલ મરઘી. એક મોટું ભૂંડ.\nકૂતરો ખોખામાં છે.\nસૂરજ ગરમ છે.\nએક માછલી અને એક વહાણ.\nમને એક બતક અને એક મધમાખી દેખાય છે.",
+   "vocabulary": [
+    {
+     "word": "cat",
+     "pos": "noun",
+     "meaningGu": "બિલાડી",
+     "meaningEn": "a small animal that says \"meow\"",
+     "example": "The cat is on the mat.",
+     "exampleGu": "બિલાડી સાદડી પર છે."
+    },
+    {
+     "word": "hat",
+     "pos": "noun",
+     "meaningGu": "ટોપી",
+     "meaningEn": "a thing we wear on the head",
+     "example": "My hat is red.",
+     "exampleGu": "મારી ટોપી લાલ છે."
+    },
+    {
+     "word": "mat",
+     "pos": "noun",
+     "meaningGu": "સાદડી, ચટાઈ",
+     "meaningEn": "a small flat thing on the floor",
+     "example": "Sit on the mat.",
+     "exampleGu": "સાદડી પર બેસો."
+    },
+    {
+     "word": "hen",
+     "pos": "noun",
+     "meaningGu": "મરઘી",
+     "meaningEn": "a bird that gives eggs",
+     "example": "The hen is red.",
+     "exampleGu": "મરઘી લાલ છે."
+    },
+    {
+     "word": "pig",
+     "pos": "noun",
+     "meaningGu": "ભૂંડ",
+     "meaningEn": "a fat farm animal",
+     "example": "The pig is big.",
+     "exampleGu": "ભૂંડ મોટું છે."
+    },
+    {
+     "word": "sun",
+     "pos": "noun",
+     "meaningGu": "સૂરજ",
+     "meaningEn": "the big hot light in the sky",
+     "example": "The sun is hot.",
+     "exampleGu": "સૂરજ ગરમ છે."
+    },
+    {
+     "word": "ship",
+     "pos": "noun",
+     "meaningGu": "વહાણ",
+     "meaningEn": "a very big boat",
+     "example": "The ship is big.",
+     "exampleGu": "વહાણ મોટું છે."
+    },
+    {
+     "word": "duck",
+     "pos": "noun",
+     "meaningGu": "બતક",
+     "meaningEn": "a bird that swims and says \"quack\"",
+     "example": "I see a duck.",
+     "exampleGu": "મને એક બતક દેખાય છે."
+    }
+   ],
+   "questions": [
+    {
+     "type": "MCQ",
+     "prompt": "c - a - t makes which word?",
+     "promptGu": "c - a - t જોડતાં કયો શબ્દ બને છે?",
+     "options": [
+      "cat",
+      "cut",
+      "cot",
+      "kit"
+     ],
+     "answer": "cat",
+     "explanation": "\"k\" + \"a\" + \"t\" = cat.",
+     "explanationGu": "\"ક\" + \"ઍ\" + \"ટ\" = cat (કૅટ, બિલાડી)."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "Which word has the \"sh\" sound?",
+     "promptGu": "કયા શબ્દમાં \"sh\" (શ) નો અવાજ છે?",
+     "options": [
+      "chair",
+      "ship",
+      "three",
+      "duck"
+     ],
+     "answer": "ship",
+     "explanation": "s and h together make \"sh\": ship.",
+     "explanationGu": "s અને h સાથે મળીને \"શ\" અવાજ બનાવે છે: ship (શિપ)."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "Which word has the same vowel sound as \"pig\"?",
+     "promptGu": "કયા શબ્દમાં \"pig\" જેવો જ સ્વર-અવાજ છે?",
+     "options": [
+      "pan",
+      "pen",
+      "pin",
+      "pun"
+     ],
+     "answer": "pin",
+     "explanation": "pig and pin both have short i (\"ઇ\").",
+     "explanationGu": "pig અને pin બંનેમાં ટૂંકો i (ઇ) છે."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "Where is the dog?",
+     "promptGu": "કૂતરો ક્યાં છે?",
+     "options": [
+      "on the mat",
+      "in the box",
+      "in the ship",
+      "on the hen"
+     ],
+     "answer": "in the box",
+     "explanation": "The text says: \"The dog is in the box.\"",
+     "explanationGu": "લખાણમાં છે: \"The dog is in the box.\" — કૂતરો ખોખામાં છે."
+    },
+    {
+     "type": "LISTEN",
+     "prompt": "hen",
+     "promptGu": "સાંભળો અને સાચો શબ્દ પસંદ કરો",
+     "options": [
+      "hen",
+      "hat",
+      "pen",
+      "ten"
+     ],
+     "answer": "hen",
+     "explanation": "You heard \"hen\": h - e - n.",
+     "explanationGu": "તમે \"hen\" (હેન, મરઘી) સાંભળ્યું: h - e - n."
+    },
+    {
+     "type": "LISTEN",
+     "prompt": "ship",
+     "promptGu": "સાંભળો અને સાચો શબ્દ પસંદ કરો",
+     "options": [
+      "ship",
+      "chip",
+      "sip",
+      "shop"
+     ],
+     "answer": "ship",
+     "explanation": "You heard \"ship\": sh - i - p.",
+     "explanationGu": "તમે \"ship\" (શિપ, વહાણ) સાંભળ્યું: sh - i - p."
+    },
+    {
+     "type": "LISTEN",
+     "prompt": "The sun is hot.",
+     "promptGu": "સાંભળો અને સાચું વાક્ય પસંદ કરો",
+     "options": [
+      "The sun is hot.",
+      "The cat is hot.",
+      "The sun is big.",
+      "The pig is hot."
+     ],
+     "answer": "The sun is hot.",
+     "explanation": "You heard \"The sun is hot.\"",
+     "explanationGu": "તમે \"The sun is hot.\" (સૂરજ ગરમ છે.) સાંભળ્યું."
+    }
+   ]
+  },
+  {
+   "id": "L-1-04",
+   "order": 4,
+   "title": "First words and tiny sentences",
+   "titleGu": "પહેલા શબ્દો અને નાનાં વાક્યો",
+   "skill": "Vocabulary",
+   "minutes": 15,
+   "explanation": "Some small words come again and again in English. We call them sight words. Learn to know them at one look:\n\n• I, you, he, she, it, we, they\n• is, am, are, a, the, this, my, and, to, in\n\nNow we can make tiny sentences:\n• I am Ravi.\n• This is a pen.\n• She is my sister.\n• It is big.\n• We go to school.\n\nA sentence starts with a capital letter and ends with a full stop (.). The word \"I\" is always a capital letter.\n\nUse \"am\" with I: I am. Use \"is\" with he, she, it and this: She is, it is, this is. Use \"are\" with you, we, they.\n\nRead each sentence two times. You can read English now!",
+   "explanationGu": "અભિનંદન! હવે તમે અક્ષરો અને અવાજો જાણો છો. આજે આપણે અંગ્રેજીના સૌથી વધારે વપરાતા નાના શબ્દો અને પહેલાં નાનાં વાક્યો શીખીશું.\n\nઅંગ્રેજીમાં કેટલાક નાના શબ્દો વારંવાર આવે છે. તેમને sight words (સાઇટ વર્ડ્સ) કહે છે — એટલે કે જોતાં જ ઓળખી જવાના શબ્દો. તેમને અક્ષરો જોડીને વાંચવાની જરૂર નથી, ફોટાની જેમ યાદ રાખો:\n• I (આઈ) = હું\n• you (યૂ) = તમે, તું\n• he (હી) = તે (છોકરો/પુરુષ)\n• she (શી) = તે (છોકરી/સ્ત્રી)\n• it (ઇટ) = તે (વસ્તુ કે પ્રાણી)\n• we (વી) = અમે, આપણે\n• they (ધે) = તેઓ\n• my (માય) = મારું, મારી, મારો\n• this (ધિસ) = આ\n• is / am / are (ઇઝ / ઍમ / આર) = છે / છું / છો, છીએ\n• a (અ) = એક;  the (ધ) = પેલું, તે (ઓળખીતી વસ્તુ માટે)\n• and (ઍન્ડ) = અને;  to (ટુ) = તરફ, -એ;  in (ઇન) = માં\n\nહવે નાનાં વાક્યો બનાવીએ:\n• I am Ravi. = હું રવિ છું.\n• This is a pen. = આ એક પેન છે.\n• She is my sister. = તે મારી બહેન છે.\n• It is big. = તે મોટું છે.\n• We go to school. = અમે શાળાએ જઈએ છીએ.\n\nધ્યાન આપો: ગુજરાતીમાં \"છે\" વાક્યના છેડે આવે છે, પણ અંગ્રેજીમાં is/am/are વચ્ચે આવે છે: \"This is a pen\" = \"આ છે એક પેન\".\n\nત્રણ નાના નિયમ:\n• I સાથે am: I am.\n• he, she, it, this સાથે is: She is, It is, This is.\n• you, we, they સાથે are: You are, We are, They are.\n\nવાક્ય હંમેશાં મોટા અક્ષરથી શરૂ થાય છે અને પૂર્ણવિરામ (.) થી પૂરું થાય છે. \"I\" (હું) હંમેશાં મોટા અક્ષરે જ લખાય છે.\n\nદરેક વાક્ય બે વાર મોટેથી વાંચો. જુઓ — તમે અંગ્રેજી વાંચી રહ્યા છો! ખૂબ ખૂબ અભિનંદન!",
+   "examples": [
+    {
+     "en": "I am Ravi.",
+     "gu": "હું રવિ છું."
+    },
+    {
+     "en": "This is a pen.",
+     "gu": "આ એક પેન છે."
+    },
+    {
+     "en": "She is my sister.",
+     "gu": "તે મારી બહેન છે."
+    },
+    {
+     "en": "It is big.",
+     "gu": "તે મોટું છે."
+    },
+    {
+     "en": "We go to school.",
+     "gu": "અમે શાળાએ જઈએ છીએ."
+    }
+   ],
+   "passageTitle": "I Am Ravi",
+   "passage": "I am Ravi. This is my mother. She is a teacher. This is my dog. It is big.\n\nWe go to school. My bag is in the van. I like my pen and my book.",
+   "passageGu": "હું રવિ છું. આ મારી મમ્મી છે. તે શિક્ષિકા છે. આ મારો કૂતરો છે. તે મોટો છે.\n\nઅમે શાળાએ જઈએ છીએ. મારી બેગ વાનમાં છે. મને મારી પેન અને મારું પુસ્તક ગમે છે.",
+   "vocabulary": [
+    {
+     "word": "I",
+     "pos": "pronoun",
+     "meaningGu": "હું",
+     "meaningEn": "the word for yourself",
+     "example": "I am Ravi.",
+     "exampleGu": "હું રવિ છું."
+    },
+    {
+     "word": "this",
+     "pos": "pronoun",
+     "meaningGu": "આ",
+     "meaningEn": "the thing near you",
+     "example": "This is my book.",
+     "exampleGu": "આ મારું પુસ્તક છે."
+    },
+    {
+     "word": "my",
+     "pos": "determiner",
+     "meaningGu": "મારું, મારી, મારો",
+     "meaningEn": "belongs to me",
+     "example": "This is my pen.",
+     "exampleGu": "આ મારી પેન છે."
+    },
+    {
+     "word": "she",
+     "pos": "pronoun",
+     "meaningGu": "તે (સ્ત્રી/છોકરી)",
+     "meaningEn": "a word for a girl or a woman",
+     "example": "She is my sister.",
+     "exampleGu": "તે મારી બહેન છે."
+    },
+    {
+     "word": "it",
+     "pos": "pronoun",
+     "meaningGu": "તે (વસ્તુ/પ્રાણી)",
+     "meaningEn": "a word for a thing or an animal",
+     "example": "It is a dog.",
+     "exampleGu": "તે કૂતરો છે."
+    },
+    {
+     "word": "we",
+     "pos": "pronoun",
+     "meaningGu": "અમે, આપણે",
+     "meaningEn": "me and other people",
+     "example": "We are friends.",
+     "exampleGu": "અમે મિત્રો છીએ."
+    },
+    {
+     "word": "and",
+     "pos": "conjunction",
+     "meaningGu": "અને",
+     "meaningEn": "a word that joins two things",
+     "example": "I have a pen and a book.",
+     "exampleGu": "મારી પાસે પેન અને પુસ્તક છે."
+    },
+    {
+     "word": "school",
+     "pos": "noun",
+     "meaningGu": "શાળા, નિશાળ",
+     "meaningEn": "a place where children learn",
+     "example": "My school is big.",
+     "exampleGu": "મારી શાળા મોટી છે."
+    }
+   ],
+   "questions": [
+    {
+     "type": "MCQ",
+     "prompt": "Choose the right word: \"___ am Ravi.\"",
+     "promptGu": "સાચો શબ્દ પસંદ કરો: \"___ am Ravi.\"",
+     "options": [
+      "I",
+      "You",
+      "He",
+      "It"
+     ],
+     "answer": "I",
+     "explanation": "We use \"am\" only with \"I\": I am Ravi.",
+     "explanationGu": "\"am\" ફક્ત \"I\" (હું) સાથે આવે છે: I am Ravi. = હું રવિ છું."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "Which word means \"આ\"?",
+     "promptGu": "કયા શબ્દનો અર્થ \"આ\" થાય છે?",
+     "options": [
+      "this",
+      "my",
+      "and",
+      "we"
+     ],
+     "answer": "this",
+     "explanation": "\"this\" means \"આ\": This is my dog.",
+     "explanationGu": "\"this\" નો અર્થ \"આ\": This is my dog. = આ મારો કૂતરો છે."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "What is Ravi's mother?",
+     "promptGu": "રવિની મમ્મી શું કામ કરે છે?",
+     "options": [
+      "a teacher",
+      "a doctor",
+      "a farmer",
+      "a driver"
+     ],
+     "answer": "a teacher",
+     "explanation": "The text says: \"She is a teacher.\"",
+     "explanationGu": "લખાણમાં છે: \"She is a teacher.\" — તે શિક્ષિકા છે."
+    },
+    {
+     "type": "MCQ",
+     "prompt": "Where is Ravi's bag?",
+     "promptGu": "રવિની બેગ ક્યાં છે?",
+     "options": [
+      "in the van",
+      "in the school",
+      "on the mat",
+      "in the box"
+     ],
+     "answer": "in the van",
+     "explanation": "The text says: \"My bag is in the van.\"",
+     "explanationGu": "લખાણમાં છે: \"My bag is in the van.\" — મારી બેગ વાનમાં છે."
+    },
+    {
+     "type": "LISTEN",
+     "prompt": "This is a pen.",
+     "promptGu": "સાંભળો અને સાચું વાક્ય પસંદ કરો",
+     "options": [
+      "This is a pen.",
+      "This is a hen.",
+      "This is my pen.",
+      "This is a pin."
+     ],
+     "answer": "This is a pen.",
+     "explanation": "You heard \"This is a pen.\" Listen for \"a\" and \"pen\".",
+     "explanationGu": "તમે \"This is a pen.\" (આ એક પેન છે.) સાંભળ્યું. \"a\" અને \"pen\" ધ્યાનથી સાંભળો."
+    },
+    {
+     "type": "LISTEN",
+     "prompt": "she",
+     "promptGu": "સાંભળો અને સાચો શબ્દ પસંદ કરો",
+     "options": [
+      "she",
+      "he",
+      "we",
+      "see"
+     ],
+     "answer": "she",
+     "explanation": "You heard \"she\". It starts with the \"sh\" sound.",
+     "explanationGu": "તમે \"she\" (શી, તે સ્ત્રી) સાંભળ્યું. તેમાં \"શ\" નો અવાજ છે."
+    },
+    {
+     "type": "LISTEN",
+     "prompt": "my",
+     "promptGu": "સાંભળો અને સાચો શબ્દ પસંદ કરો",
+     "options": [
+      "my",
+      "me",
+      "I",
+      "it"
+     ],
+     "answer": "my",
+     "explanation": "You heard \"my\" (\"mai\").",
+     "explanationGu": "તમે \"my\" (માય, મારું) સાંભળ્યું."
+    }
+   ]
+  }
+ ]
+}
