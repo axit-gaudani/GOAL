@@ -53,11 +53,16 @@ class VoiceRecorder(private val context: Context) {
     fun play() {
         if (!hasRecording) return
         stopPlayback()
-        player = MediaPlayer().apply {
-            setDataSource(file.absolutePath)
-            setOnCompletionListener { stopPlayback() }
-            prepare()
-            start()
+        val p = MediaPlayer()
+        try {
+            p.setDataSource(file.absolutePath)
+            p.setOnCompletionListener { stopPlayback() }
+            p.prepare()
+            p.start()
+            player = p
+        } catch (e: Exception) {
+            // A broken or empty recording: just don't play it.
+            p.release()
         }
     }
 

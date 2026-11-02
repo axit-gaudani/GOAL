@@ -10,13 +10,16 @@ import java.util.Locale
  */
 class Speaker(context: Context) : TextToSpeech.OnInitListener {
 
-    private val tts = TextToSpeech(context.applicationContext, this)
     private var ready = false
     private var pending: Pair<String, Boolean>? = null
 
     /** False when the phone has no English voice; screens can show a hint. */
     var available = true
         private set
+
+    // Created last: if no speech engine exists, onInit() is called straight away from this
+    // constructor, and the properties above must already be set by then.
+    private val tts = TextToSpeech(context.applicationContext, this)
 
     override fun onInit(status: Int) {
         if (status != TextToSpeech.SUCCESS) {

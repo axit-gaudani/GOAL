@@ -16,6 +16,7 @@ import com.goal.ieltsreading.ui.common.app
 import com.goal.ieltsreading.ui.common.speak
 import com.goal.ieltsreading.ui.common.visibleIf
 import com.google.android.material.button.MaterialButton
+import com.google.android.material.snackbar.Snackbar
 
 /** A short scripted conversation. The partner speaks; the learner picks an answer and says it. */
 class SpeakChatFragment : Fragment() {
@@ -25,7 +26,11 @@ class SpeakChatFragment : Fragment() {
     private val viewModel: SpeakChatViewModel by viewModels()
     private var showGujarati = false
 
-    private val speechInput = SpeechInput(this) { text -> viewModel.answered(text) }
+    private val speechInput = SpeechInput(this) { text ->
+        // Nothing heard (or cancelled): stay on this turn so the learner can try again.
+        if (text != null) viewModel.answered(text)
+        else _binding?.let { Snackbar.make(it.root, R.string.speech_not_heard, Snackbar.LENGTH_SHORT).show() }
+    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         _binding = FragmentSpeakChatBinding.inflate(inflater, container, false)

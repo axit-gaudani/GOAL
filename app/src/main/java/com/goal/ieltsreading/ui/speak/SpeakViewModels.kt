@@ -170,7 +170,7 @@ class SpeakChatViewModel(app: Application, handle: SavedStateHandle) : AndroidVi
             partnerName = repository.partnerName,
             title = unit?.title.orEmpty(),
             lines = lines.toList(),
-            options = if (current?.who == "you" && picked == null) current.options else emptyList(),
+            options = if (current != null && current.who == "you" && picked == null) current.options else emptyList(),
             picked = picked,
             finished = turn >= script.size
         )

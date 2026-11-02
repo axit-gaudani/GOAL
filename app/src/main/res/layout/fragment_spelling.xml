@@ -17,6 +17,7 @@
             android:layout_marginTop="24dp"
             android:gravity="center"
             android:text="@string/game_needs_words"
+            android:visibility="gone"
             android:textAppearance="@style/Text.Body" />
 
         <LinearLayout

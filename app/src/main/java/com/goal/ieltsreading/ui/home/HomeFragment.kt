@@ -14,6 +14,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.fragment.findNavController
 import com.goal.ieltsreading.R
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.goal.ieltsreading.databinding.FragmentHomeBinding
 import com.goal.ieltsreading.ui.common.visibleIf
 import com.goal.ieltsreading.ui.vocab.WordSheet
@@ -45,7 +46,10 @@ class HomeFragment : Fragment() {
         binding.btnReview.setOnClickListener { findNavController().navigate(R.id.flashcardFragment) }
         binding.cardTests.setOnClickListener { findNavController().navigate(R.id.testsFragment) }
         binding.cardSentences.setOnClickListener { findNavController().navigate(R.id.sentenceHubFragment) }
-        binding.cardSpeaking.setOnClickListener { findNavController().navigate(R.id.speakHubFragment) }
+        // Speak is a bottom tab, so switch tabs instead of opening it on top of Home.
+        binding.cardSpeaking.setOnClickListener {
+            requireActivity().findViewById<BottomNavigationView>(R.id.bottom_nav).selectedItemId = R.id.speakHubFragment
+        }
 
         viewModel.state.observe(viewLifecycleOwner) { s ->
             binding.textGreeting.text = greeting(s.userName)
