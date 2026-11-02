@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/screen_padding">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/textBigLetter"
+                    android:layout_width="112dp"
+                    android:layout_height="112dp"
+                    android:background="@drawable/bg_letter_big"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="48sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/letter_name"
+                        android:textAppearance="@style/Text.Label" />
+
+                    <TextView
+                        android:id="@+id/textName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+                        android:textColor="@color/gujarati_text"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/letter_sound"
+                        android:textAppearance="@style/Text.Label" />
+
+                    <TextView
+                        android:id="@+id/textSound"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/Text.Gujarati" />
+
+                    <TextView
+                        android:id="@+id/textPosition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textAppearance="@style/Text.Secondary" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnListen"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:text="@string/btn_listen"
+                app:icon="@drawable/ic_volume" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSlow"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:text="@string/btn_slow" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNextLetter"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:text="@string/btn_next_letter" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/letter_words"
+            android:textAppearance="@style/Text.Subtitle"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/wordsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/all_letters_tap"
+            android:textAppearance="@style/Text.Subtitle"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:id="@+id/lettersGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:columnCount="5" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -6,6 +6,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.viewModelScope
+import com.goal.ieltsreading.data.content.AbcLetter
 import com.goal.ieltsreading.data.db.LessonEntity
 import com.goal.ieltsreading.data.db.VocabEntity
 import com.goal.ieltsreading.ui.common.repository
@@ -23,6 +24,9 @@ class LessonViewModel(app: Application, handle: SavedStateHandle) : AndroidViewM
     val message: LiveData<String?> = _message
 
     val showGujaratiByDefault: Boolean get() = repository.prefs.showGujarati
+
+    /** Letters of an ABC lesson (Level −1); empty for all other lessons. */
+    val letters: List<AbcLetter> = repository.abcLetters(lessonId)
 
     init {
         viewModelScope.launch {

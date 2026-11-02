@@ -151,3 +151,20 @@ data class ConversationTurn(
 )
 
 data class ConversationOption(val en: String = "", val gu: String = "")
+
+// ---------------- Level −1 ABC: assets/content/abc.json (read directly, not stored in Room) ----------------
+
+/** lessons: lesson id (e.g. "L-1-01") → the letters or sound groups taught in that lesson. */
+data class AbcFileJson(val lessons: Map<String, List<AbcLetter>> = emptyMap())
+
+data class AbcLetter(
+    val upper: String = "",
+    val lower: String = "",
+    /** How the letter's name sounds, in Gujarati letters (B → બી). */
+    val nameGu: String = "",
+    /** The sound the letter usually makes, with an example. */
+    val soundGu: String = "",
+    val words: List<AbcWord> = emptyList()
+)
+
+data class AbcWord(val word: String = "", val gu: String = "", val pronGu: String = "")

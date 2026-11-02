@@ -7,6 +7,8 @@ object QuestionType {
     const val TFNG = "TFNG"
     const val YNNG = "YNNG"
     const val FILL = "FILL"
+    /** The app reads the prompt aloud (it stays hidden); the learner picks what they heard. */
+    const val LISTEN = "LISTEN"
 
     val TFNG_OPTIONS = listOf("TRUE", "FALSE", "NOT GIVEN")
     val YNNG_OPTIONS = listOf("YES", "NO", "NOT GIVEN")
@@ -23,6 +25,7 @@ object QuestionType {
         TFNG -> "True / False / Not Given"
         YNNG -> "Yes / No / Not Given"
         FILL -> "Complete the sentence"
+        LISTEN -> "Listen and choose"
         else -> "Choose the correct answer"
     }
 
@@ -30,6 +33,7 @@ object QuestionType {
         TFNG -> "વિધાન લખાણ સાથે મેળ ખાય છે? (TRUE / FALSE / NOT GIVEN)"
         YNNG -> "લેખકના મત સાથે મેળ ખાય છે? (YES / NO / NOT GIVEN)"
         FILL -> "ખાલી જગ્યા લખાણમાંથી શબ્દ લઈને ભરો"
+        LISTEN -> "સાંભળો અને સાચો જવાબ પસંદ કરો"
         else -> "સાચો જવાબ પસંદ કરો"
     }
 }

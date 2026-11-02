@@ -65,6 +65,9 @@ class SettingsFragment : Fragment() {
         binding.switchGujarati.isChecked = prefs.showGujarati
         binding.switchGujarati.setOnCheckedChangeListener { _, c -> prefs.showGujarati = c }
 
+        binding.switchSkipAbc.isChecked = prefs.skipAbc
+        binding.switchSkipAbc.setOnCheckedChangeListener { _, c -> prefs.skipAbc = c }
+
         binding.switchUnlockAll.isChecked = prefs.unlockAll
         binding.switchUnlockAll.setOnCheckedChangeListener { _, c -> prefs.unlockAll = c }
 

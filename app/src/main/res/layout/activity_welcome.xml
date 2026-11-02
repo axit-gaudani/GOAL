@@ -94,18 +94,41 @@
             android:id="@+id/goalChips"
             layout="@layout/view_goal_chips" />
 
-        <com.google.android.material.materialswitch.MaterialSwitch
-            android:id="@+id/switchKnowBasics"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/welcome_know_basics" />
-
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/welcome_start_where"
+            android:textAppearance="@style/Text.Subtitle" />
+
+        <RadioGroup
+            android:id="@+id/radioStart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/welcome_know_basics_gu"
-            android:textAppearance="@style/Text.Secondary" />
+            android:layout_marginTop="4dp"
+            android:checkedButton="@+id/radioAbc">
+
+            <RadioButton
+                android:id="@+id/radioAbc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/start_abc" />
+
+            <RadioButton
+                android:id="@+id/radioKnowAbc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/start_know_abc" />
+
+            <RadioButton
+                android:id="@+id/radioKnowBasics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/start_know_basics" />
+        </RadioGroup>
 
         <Space
             android:layout_width="match_parent"

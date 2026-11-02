@@ -35,25 +35,31 @@ class LessonFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         viewLifecycleOwner.lifecycle.addObserver(StudyTimeTracker(app))
 
+        // ABC lessons get an extra "Letters" step after Learn.
+        val hasLetters = viewModel.letters.isNotEmpty()
+        val pages = if (hasLetters) listOf(Page.LEARN, Page.LETTERS, Page.WORDS, Page.READ)
+        else listOf(Page.LEARN, Page.WORDS, Page.READ)
+        val last = pages.lastIndex
         binding.pager.adapter = object : FragmentStateAdapter(this) {
-            override fun getItemCount() = 3
-            override fun createFragment(position: Int): Fragment = when (position) {
-                0 -> LessonLearnFragment()
-                1 -> LessonWordsFragment()
-                else -> LessonReadFragment()
+            override fun getItemCount() = pages.size
+            override fun createFragment(position: Int): Fragment = when (pages[position]) {
+                Page.LEARN -> LessonLearnFragment()
+                Page.LETTERS -> LessonLettersFragment()
+                Page.WORDS -> LessonWordsFragment()
+                Page.READ -> LessonReadFragment()
             }
         }
-        val titles = listOf(R.string.tab_learn, R.string.tab_words, R.string.tab_read)
+        val titles = pages.map { it.title }
         TabLayoutMediator(binding.tabs, binding.pager) { tab, position -> tab.setText(titles[position]) }.attach()
 
         binding.pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
-                _binding?.btnNext?.setText(if (position < 2) R.string.btn_next_step else R.string.btn_start_practice)
+                _binding?.btnNext?.setText(if (position < last) R.string.btn_next_step else R.string.btn_start_practice)
             }
         })
         binding.btnNext.setOnClickListener {
             val page = binding.pager.currentItem
-            if (page < 2) {
+            if (page < last) {
                 binding.pager.currentItem = page + 1
             } else {
                 findNavController().navigate(R.id.quizFragment, bundleOf("lessonId" to viewModel.lessonId))
@@ -70,4 +76,11 @@ class LessonFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+}
+
+private enum class Page(val title: Int) {
+    LEARN(R.string.tab_learn),
+    LETTERS(R.string.tab_letters),
+    WORDS(R.string.tab_words),
+    READ(R.string.tab_read)
 }

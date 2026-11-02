@@ -17,6 +17,7 @@ import com.goal.ieltsreading.databinding.FragmentQuizBinding
 import com.goal.ieltsreading.domain.QuestionType
 import com.goal.ieltsreading.ui.common.StudyTimeTracker
 import com.goal.ieltsreading.ui.common.app
+import com.goal.ieltsreading.ui.common.speak
 import com.goal.ieltsreading.ui.common.visibleIf
 import com.google.android.material.button.MaterialButton
 
@@ -70,9 +71,15 @@ class QuizFragment : Fragment() {
         binding.textType.text = QuestionType.label(q.type)
         binding.textTypeGu.text = QuestionType.labelGu(q.type)
         binding.textTypeGu.visibleIf(showGu)
+        // LISTEN questions hide the text until the answer is checked; the learner hears it instead.
+        val isListen = q.type == QuestionType.LISTEN
         binding.textPrompt.text = q.prompt
+        binding.textPrompt.visibleIf(!isListen || s.checked)
         binding.textPromptGu.text = q.promptGu
-        binding.textPromptGu.visibleIf(showGu && q.promptGu.isNotBlank())
+        binding.textPromptGu.visibleIf((showGu || isListen) && q.promptGu.isNotBlank())
+        binding.groupListen.visibleIf(isListen)
+        binding.btnListenQuestion.setOnClickListener { speak(q.prompt) }
+        binding.btnListenSlow.setOnClickListener { speak(q.prompt, slow = true) }
         binding.textWordLimit.text = q.wordLimit
         binding.textWordLimit.visibleIf(q.type == QuestionType.FILL && q.wordLimit.isNotBlank())
 
@@ -92,6 +99,7 @@ class QuizFragment : Fragment() {
                 binding.optionsContainer.addView(button)
             }
             binding.scroll.scrollTo(0, 0)
+            if (isListen) speak(q.prompt)
         }
         binding.inputAnswer.isEnabled = !s.checked
         styleOptions(s)

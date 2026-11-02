@@ -1,6 +1,8 @@
 package com.goal.ieltsreading.data.repo
 
 import android.content.Context
+import com.goal.ieltsreading.data.content.AbcFileJson
+import com.goal.ieltsreading.data.content.AbcLetter
 import com.goal.ieltsreading.data.content.ContentSeeder
 import com.goal.ieltsreading.data.content.SpeakingFileJson
 import com.goal.ieltsreading.data.db.SentenceEntity
@@ -64,11 +66,15 @@ class LearningRepository(
         val lessons = content.allLessons()
         val progressMap = progress.lessonProgress().associateBy { it.lessonId }
         val unlockAll = prefs.unlockAll
+        // Learners who already have progress in Level 0+ (from before ABC existed) skip ABC automatically.
+        val skipAbc = prefs.skipAbc || progressMap.keys.any { !it.startsWith("L-1-") }
         var previousCompleted = true
         return lessons.map { lesson ->
             val p = progressMap[lesson.id]
-            val item = LessonItem(lesson, p, unlocked = unlockAll || previousCompleted)
-            previousCompleted = p?.completed == true
+            val isAbc = lesson.levelId == ContentSeeder.ABC_LEVEL_ID
+            val item = LessonItem(lesson, p, unlocked = unlockAll || previousCompleted || (isAbc && skipAbc))
+            // Learners who know the letters may skip the ABC level: it then does not block Level 0.
+            previousCompleted = p?.completed == true || (isAbc && skipAbc && previousCompleted)
             item
         }
     }
@@ -292,7 +298,8 @@ class LearningRepository(
     // ---------------------------------------------------------------- Sentence practice
 
     /** Level used for sentences and word packs: the highest level the learner has opened. */
-    private suspend fun practiceLevel(): Int = if (prefs.unlockAll) 6 else highestUnlockedLevelOrder()
+    private suspend fun practiceLevel(): Int =
+        if (prefs.unlockAll) 6 else highestUnlockedLevelOrder().coerceAtLeast(0)
 
     /**
      * Builds a round of [size] sentences: up to 4 the learner got wrong or that are due again,
@@ -401,6 +408,22 @@ class LearningRepository(
         if (fromDeck.size >= count) return fromDeck
         val packId = currentPack()?.pack?.id ?: return fromDeck
         return (fromDeck + content.packWords(packId).shuffled()).distinctBy { it.id }.take(count)
+    }
+
+    // ---------------------------------------------------------------- Level −1 ABC
+
+    private var abcCache: AbcFileJson? = null
+
+    /** Letters taught in an ABC lesson (empty for every other lesson). Small file, read once. */
+    fun abcLetters(lessonId: String): List<AbcLetter> {
+        val file = abcCache ?: try {
+            context.assets.open("content/abc.json").bufferedReader(Charsets.UTF_8).use {
+                gson.fromJson(it.readText(), AbcFileJson::class.java)
+            }
+        } catch (e: Exception) {
+            AbcFileJson()
+        }.also { abcCache = it }
+        return file.lessons[lessonId].orEmpty()
     }
 
     // ---------------------------------------------------------------- Basic speaking

@@ -88,6 +88,33 @@
                 android:layout_marginTop="4dp"
                 android:textAppearance="@style/Text.Gujarati" />
 
+            <LinearLayout
+                android:id="@+id/groupListen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnListenQuestion"
+                    android:layout_width="0dp"
+                    android:layout_height="64dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_weight="1"
+                    android:text="@string/btn_listen"
+                    app:icon="@drawable/ic_volume" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnListenSlow"
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_width="0dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_weight="1"
+                    android:text="@string/btn_slow" />
+            </LinearLayout>
+
             <TextView
                 android:id="@+id/textWordLimit"
                 android:layout_width="wrap_content"

@@ -28,7 +28,12 @@ class WelcomeActivity : AppCompatActivity() {
                 R.id.chipGoal30 -> 30
                 else -> 15
             }
-            prefs.unlockAll = binding.switchKnowBasics.isChecked
+            // Where the learner starts: ABC (Level −1), Level 0, or every level open.
+            when (binding.radioStart.checkedRadioButtonId) {
+                R.id.radioKnowAbc -> { prefs.skipAbc = true; prefs.unlockAll = false }
+                R.id.radioKnowBasics -> { prefs.skipAbc = true; prefs.unlockAll = true }
+                else -> { prefs.skipAbc = false; prefs.unlockAll = false }
+            }
             prefs.onboarded = true
             startActivity(Intent(this, MainActivity::class.java))
             finish()

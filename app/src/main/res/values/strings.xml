@@ -344,4 +344,20 @@
     <string name="speech_clear_short">✓ Clear</string>
     <string name="speech_try_next_time">Practise this one again</string>
     <string name="conversation_done">Conversation complete! 🎉</string>
+
+    <!-- Level −1 ABC -->
+    <string name="tab_letters">ABC</string>
+    <string name="abc_short">ABC</string>
+    <string name="letter_pair_format">%1$s %2$s</string>
+    <string name="letter_name">NAME · નામ</string>
+    <string name="letter_sound">SOUND · અવાજ</string>
+    <string name="letter_words">Words · શબ્દો (tap to hear)</string>
+    <string name="all_letters_tap">All letters · બધા અક્ષરો</string>
+    <string name="btn_next_letter">Next ›</string>
+    <string name="welcome_start_where">Where do you start? · ક્યાંથી શરૂ કરશો?</string>
+    <string name="start_abc">Start from ABC · મને અંગ્રેજી અક્ષરો નથી આવડતા</string>
+    <string name="start_know_abc">I know ABC · અક્ષરો આવડે છે, Level 0 થી શરૂ</string>
+    <string name="start_know_basics">I know basic English · બધા લેવલ ખોલો</string>
+    <string name="setting_skip_abc">I already know ABC</string>
+    <string name="setting_skip_abc_desc">Level −1 (letters and sounds) stays open but does not block Level 0.</string>
 </resources>

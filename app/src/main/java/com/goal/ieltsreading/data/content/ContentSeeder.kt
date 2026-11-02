@@ -26,10 +26,12 @@ class ContentSeeder(
 ) {
     companion object {
         /** Increase this number every time you edit the JSON content. */
-        const val CONTENT_VERSION = 2
+        const val CONTENT_VERSION = 3
         private const val CONTENT_DIR = "content"
         const val TEST_LEVEL_ID = "TEST"
         const val PACK_LEVEL_ID = "PACK"
+        /** Level −1: letters and sounds for learners who start from zero. */
+        const val ABC_LEVEL_ID = "L-1"
     }
 
     private val gson = Gson()

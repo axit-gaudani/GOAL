@@ -1,0 +1,676 @@
+{
+ "lessons": {
+  "L-1-01": [
+   {
+    "upper": "A",
+    "lower": "a",
+    "nameGu": "એ",
+    "soundGu": "ઍ (જેમ apple માં)",
+    "words": [
+     {
+      "word": "apple",
+      "gu": "સફરજન",
+      "pronGu": "ઍપલ"
+     },
+     {
+      "word": "ant",
+      "gu": "કીડી",
+      "pronGu": "ઍન્ટ"
+     }
+    ]
+   },
+   {
+    "upper": "B",
+    "lower": "b",
+    "nameGu": "બી",
+    "soundGu": "બ (જેમ ball માં)",
+    "words": [
+     {
+      "word": "ball",
+      "gu": "દડો",
+      "pronGu": "બૉલ"
+     },
+     {
+      "word": "bag",
+      "gu": "થેલી, બૅગ",
+      "pronGu": "બૅગ"
+     }
+    ]
+   },
+   {
+    "upper": "C",
+    "lower": "c",
+    "nameGu": "સી",
+    "soundGu": "ક (જેમ cat માં)",
+    "words": [
+     {
+      "word": "cat",
+      "gu": "બિલાડી",
+      "pronGu": "કૅટ"
+     },
+     {
+      "word": "cup",
+      "gu": "પ્યાલો, કપ",
+      "pronGu": "કપ"
+     }
+    ]
+   },
+   {
+    "upper": "D",
+    "lower": "d",
+    "nameGu": "ડી",
+    "soundGu": "ડ (જેમ dog માં)",
+    "words": [
+     {
+      "word": "dog",
+      "gu": "કૂતરો",
+      "pronGu": "ડૉગ"
+     },
+     {
+      "word": "doll",
+      "gu": "ઢીંગલી",
+      "pronGu": "ડૉલ"
+     }
+    ]
+   },
+   {
+    "upper": "E",
+    "lower": "e",
+    "nameGu": "ઈ",
+    "soundGu": "એ (જેમ egg માં)",
+    "words": [
+     {
+      "word": "egg",
+      "gu": "ઈંડું",
+      "pronGu": "એગ"
+     },
+     {
+      "word": "elephant",
+      "gu": "હાથી",
+      "pronGu": "એલિફન્ટ"
+     }
+    ]
+   },
+   {
+    "upper": "F",
+    "lower": "f",
+    "nameGu": "એફ",
+    "soundGu": "ફ (જેમ fish માં)",
+    "words": [
+     {
+      "word": "fish",
+      "gu": "માછલી",
+      "pronGu": "ફિશ"
+     },
+     {
+      "word": "fan",
+      "gu": "પંખો",
+      "pronGu": "ફૅન"
+     }
+    ]
+   },
+   {
+    "upper": "G",
+    "lower": "g",
+    "nameGu": "જી",
+    "soundGu": "ગ (જેમ goat માં)",
+    "words": [
+     {
+      "word": "goat",
+      "gu": "બકરી",
+      "pronGu": "ગોટ"
+     },
+     {
+      "word": "girl",
+      "gu": "છોકરી",
+      "pronGu": "ગર્લ"
+     }
+    ]
+   },
+   {
+    "upper": "H",
+    "lower": "h",
+    "nameGu": "એચ",
+    "soundGu": "હ (જેમ hat માં)",
+    "words": [
+     {
+      "word": "hat",
+      "gu": "ટોપી",
+      "pronGu": "હૅટ"
+     },
+     {
+      "word": "hand",
+      "gu": "હાથ",
+      "pronGu": "હૅન્ડ"
+     }
+    ]
+   },
+   {
+    "upper": "I",
+    "lower": "i",
+    "nameGu": "આઈ",
+    "soundGu": "ઇ (જેમ ink માં)",
+    "words": [
+     {
+      "word": "ink",
+      "gu": "શાહી",
+      "pronGu": "ઇન્ક"
+     },
+     {
+      "word": "igloo",
+      "gu": "ઇગ્લૂ (બરફનું ઘર)",
+      "pronGu": "ઇગ્લૂ"
+     }
+    ]
+   },
+   {
+    "upper": "J",
+    "lower": "j",
+    "nameGu": "જે",
+    "soundGu": "જ (જેમ jug માં)",
+    "words": [
+     {
+      "word": "jug",
+      "gu": "જગ, પાણીનો લોટો",
+      "pronGu": "જગ"
+     },
+     {
+      "word": "jam",
+      "gu": "જામ",
+      "pronGu": "જૅમ"
+     }
+    ]
+   },
+   {
+    "upper": "K",
+    "lower": "k",
+    "nameGu": "કે",
+    "soundGu": "ક (જેમ kite માં)",
+    "words": [
+     {
+      "word": "kite",
+      "gu": "પતંગ",
+      "pronGu": "કાઇટ"
+     },
+     {
+      "word": "key",
+      "gu": "ચાવી",
+      "pronGu": "કી"
+     }
+    ]
+   },
+   {
+    "upper": "L",
+    "lower": "l",
+    "nameGu": "એલ",
+    "soundGu": "લ (જેમ lion માં)",
+    "words": [
+     {
+      "word": "lion",
+      "gu": "સિંહ",
+      "pronGu": "લાયન"
+     },
+     {
+      "word": "leaf",
+      "gu": "પાંદડું",
+      "pronGu": "લીફ"
+     }
+    ]
+   },
+   {
+    "upper": "M",
+    "lower": "m",
+    "nameGu": "એમ",
+    "soundGu": "મ (જેમ mango માં)",
+    "words": [
+     {
+      "word": "mango",
+      "gu": "કેરી",
+      "pronGu": "મૅંગો"
+     },
+     {
+      "word": "moon",
+      "gu": "ચંદ્ર",
+      "pronGu": "મૂન"
+     }
+    ]
+   }
+  ],
+  "L-1-02": [
+   {
+    "upper": "N",
+    "lower": "n",
+    "nameGu": "એન",
+    "soundGu": "ન (જેમ nest માં)",
+    "words": [
+     {
+      "word": "nest",
+      "gu": "માળો",
+      "pronGu": "નેસ્ટ"
+     },
+     {
+      "word": "nose",
+      "gu": "નાક",
+      "pronGu": "નોઝ"
+     }
+    ]
+   },
+   {
+    "upper": "O",
+    "lower": "o",
+    "nameGu": "ઓ",
+    "soundGu": "ઑ (જેમ orange માં)",
+    "words": [
+     {
+      "word": "orange",
+      "gu": "નારંગી",
+      "pronGu": "ઑરેન્જ"
+     },
+     {
+      "word": "ox",
+      "gu": "બળદ",
+      "pronGu": "ઑક્સ"
+     }
+    ]
+   },
+   {
+    "upper": "P",
+    "lower": "p",
+    "nameGu": "પી",
+    "soundGu": "પ (જેમ pen માં)",
+    "words": [
+     {
+      "word": "pen",
+      "gu": "પેન",
+      "pronGu": "પેન"
+     },
+     {
+      "word": "pot",
+      "gu": "વાસણ, તપેલી",
+      "pronGu": "પૉટ"
+     }
+    ]
+   },
+   {
+    "upper": "Q",
+    "lower": "q",
+    "nameGu": "ક્યૂ",
+    "soundGu": "ક્વ (જેમ queen માં; Q પછી મોટે ભાગે u આવે)",
+    "words": [
+     {
+      "word": "queen",
+      "gu": "રાણી",
+      "pronGu": "ક્વીન"
+     },
+     {
+      "word": "quilt",
+      "gu": "રજાઈ",
+      "pronGu": "ક્વિલ્ટ"
+     }
+    ]
+   },
+   {
+    "upper": "R",
+    "lower": "r",
+    "nameGu": "આર",
+    "soundGu": "ર (જેમ rat માં)",
+    "words": [
+     {
+      "word": "rat",
+      "gu": "ઉંદર",
+      "pronGu": "રૅટ"
+     },
+     {
+      "word": "rose",
+      "gu": "ગુલાબ",
+      "pronGu": "રોઝ"
+     }
+    ]
+   },
+   {
+    "upper": "S",
+    "lower": "s",
+    "nameGu": "એસ",
+    "soundGu": "સ (જેમ sun માં)",
+    "words": [
+     {
+      "word": "sun",
+      "gu": "સૂરજ",
+      "pronGu": "સન"
+     },
+     {
+      "word": "sock",
+      "gu": "મોજું",
+      "pronGu": "સૉક"
+     }
+    ]
+   },
+   {
+    "upper": "T",
+    "lower": "t",
+    "nameGu": "ટી",
+    "soundGu": "ટ (જેમ tree માં)",
+    "words": [
+     {
+      "word": "tree",
+      "gu": "ઝાડ",
+      "pronGu": "ટ્રી"
+     },
+     {
+      "word": "tap",
+      "gu": "નળ",
+      "pronGu": "ટૅપ"
+     }
+    ]
+   },
+   {
+    "upper": "U",
+    "lower": "u",
+    "nameGu": "યૂ",
+    "soundGu": "અ (જેમ umbrella માં)",
+    "words": [
+     {
+      "word": "umbrella",
+      "gu": "છત્રી",
+      "pronGu": "અમ્બ્રેલા"
+     },
+     {
+      "word": "up",
+      "gu": "ઉપર",
+      "pronGu": "અપ"
+     }
+    ]
+   },
+   {
+    "upper": "V",
+    "lower": "v",
+    "nameGu": "વી",
+    "soundGu": "વ (જેમ van માં)",
+    "words": [
+     {
+      "word": "van",
+      "gu": "વાન (ગાડી)",
+      "pronGu": "વૅન"
+     },
+     {
+      "word": "vase",
+      "gu": "ફૂલદાની",
+      "pronGu": "વાઝ"
+     }
+    ]
+   },
+   {
+    "upper": "W",
+    "lower": "w",
+    "nameGu": "ડબલ્યુ",
+    "soundGu": "વ (જેમ watch માં)",
+    "words": [
+     {
+      "word": "watch",
+      "gu": "કાંડા ઘડિયાળ",
+      "pronGu": "વૉચ"
+     },
+     {
+      "word": "water",
+      "gu": "પાણી",
+      "pronGu": "વૉટર"
+     }
+    ]
+   },
+   {
+    "upper": "X",
+    "lower": "x",
+    "nameGu": "એક્સ",
+    "soundGu": "ક્સ (જેમ box માં; x મોટે ભાગે શબ્દના છેડે આવે, શરૂઆતમાં નહીં)",
+    "words": [
+     {
+      "word": "box",
+      "gu": "ખોખું, ડબ્બો",
+      "pronGu": "બૉક્સ"
+     },
+     {
+      "word": "fox",
+      "gu": "શિયાળ",
+      "pronGu": "ફૉક્સ"
+     }
+    ]
+   },
+   {
+    "upper": "Y",
+    "lower": "y",
+    "nameGu": "વાય",
+    "soundGu": "ય (જેમ yak માં)",
+    "words": [
+     {
+      "word": "yak",
+      "gu": "યાક (પહાડી બળદ)",
+      "pronGu": "યૅક"
+     },
+     {
+      "word": "yarn",
+      "gu": "ઊનનો દોરો",
+      "pronGu": "યાર્ન"
+     }
+    ]
+   },
+   {
+    "upper": "Z",
+    "lower": "z",
+    "nameGu": "ઝેડ",
+    "soundGu": "ઝ (જેમ zebra માં)",
+    "words": [
+     {
+      "word": "zebra",
+      "gu": "ઝીબ્રા",
+      "pronGu": "ઝીબ્રા"
+     },
+     {
+      "word": "zoo",
+      "gu": "પ્રાણીસંગ્રહાલય",
+      "pronGu": "ઝૂ"
+     }
+    ]
+   }
+  ],
+  "L-1-03": [
+   {
+    "upper": "A",
+    "lower": "a",
+    "nameGu": "ટૂંકો ઍ",
+    "soundGu": "ઍ (જેમ cat માં)",
+    "words": [
+     {
+      "word": "cat",
+      "gu": "બિલાડી",
+      "pronGu": "કૅટ"
+     },
+     {
+      "word": "hat",
+      "gu": "ટોપી",
+      "pronGu": "હૅટ"
+     }
+    ]
+   },
+   {
+    "upper": "E",
+    "lower": "e",
+    "nameGu": "ટૂંકો એ",
+    "soundGu": "એ (જેમ hen માં)",
+    "words": [
+     {
+      "word": "hen",
+      "gu": "મરઘી",
+      "pronGu": "હેન"
+     },
+     {
+      "word": "bed",
+      "gu": "પલંગ",
+      "pronGu": "બેડ"
+     }
+    ]
+   },
+   {
+    "upper": "I",
+    "lower": "i",
+    "nameGu": "ટૂંકો ઇ",
+    "soundGu": "ઇ (જેમ pig માં)",
+    "words": [
+     {
+      "word": "pig",
+      "gu": "ભૂંડ",
+      "pronGu": "પિગ"
+     },
+     {
+      "word": "pin",
+      "gu": "ટાંકણી",
+      "pronGu": "પિન"
+     }
+    ]
+   },
+   {
+    "upper": "O",
+    "lower": "o",
+    "nameGu": "ટૂંકો ઑ",
+    "soundGu": "ઑ (જેમ dog માં)",
+    "words": [
+     {
+      "word": "dog",
+      "gu": "કૂતરો",
+      "pronGu": "ડૉગ"
+     },
+     {
+      "word": "pot",
+      "gu": "વાસણ, તપેલી",
+      "pronGu": "પૉટ"
+     }
+    ]
+   },
+   {
+    "upper": "U",
+    "lower": "u",
+    "nameGu": "ટૂંકો અ",
+    "soundGu": "અ (જેમ sun માં)",
+    "words": [
+     {
+      "word": "sun",
+      "gu": "સૂરજ",
+      "pronGu": "સન"
+     },
+     {
+      "word": "bus",
+      "gu": "બસ",
+      "pronGu": "બસ"
+     }
+    ]
+   },
+   {
+    "upper": "SH",
+    "lower": "sh",
+    "nameGu": "શ",
+    "soundGu": "શ (જેમ ship માં)",
+    "words": [
+     {
+      "word": "ship",
+      "gu": "વહાણ",
+      "pronGu": "શિપ"
+     },
+     {
+      "word": "fish",
+      "gu": "માછલી",
+      "pronGu": "ફિશ"
+     }
+    ]
+   },
+   {
+    "upper": "CH",
+    "lower": "ch",
+    "nameGu": "ચ",
+    "soundGu": "ચ (જેમ chair માં)",
+    "words": [
+     {
+      "word": "chair",
+      "gu": "ખુરશી",
+      "pronGu": "ચેર"
+     },
+     {
+      "word": "cheese",
+      "gu": "ચીઝ",
+      "pronGu": "ચીઝ"
+     }
+    ]
+   },
+   {
+    "upper": "TH",
+    "lower": "th",
+    "nameGu": "થ",
+    "soundGu": "થ (જેમ three માં; જીભ દાંત વચ્ચે રાખીને)",
+    "words": [
+     {
+      "word": "three",
+      "gu": "ત્રણ",
+      "pronGu": "થ્રી"
+     },
+     {
+      "word": "thumb",
+      "gu": "અંગૂઠો",
+      "pronGu": "થમ્બ"
+     }
+    ]
+   },
+   {
+    "upper": "CK",
+    "lower": "ck",
+    "nameGu": "ક",
+    "soundGu": "ક (જેમ duck માં; શબ્દના છેડે આવે)",
+    "words": [
+     {
+      "word": "duck",
+      "gu": "બતક",
+      "pronGu": "ડક"
+     },
+     {
+      "word": "clock",
+      "gu": "ઘડિયાળ",
+      "pronGu": "ક્લૉક"
+     }
+    ]
+   },
+   {
+    "upper": "EE",
+    "lower": "ee",
+    "nameGu": "લાંબો ઈ",
+    "soundGu": "ઈ (જેમ tree માં)",
+    "words": [
+     {
+      "word": "tree",
+      "gu": "ઝાડ",
+      "pronGu": "ટ્રી"
+     },
+     {
+      "word": "bee",
+      "gu": "મધમાખી",
+      "pronGu": "બી"
+     }
+    ]
+   },
+   {
+    "upper": "OO",
+    "lower": "oo",
+    "nameGu": "લાંબો ઊ",
+    "soundGu": "ઊ (જેમ moon માં)",
+    "words": [
+     {
+      "word": "moon",
+      "gu": "ચંદ્ર",
+      "pronGu": "મૂન"
+     },
+     {
+      "word": "spoon",
+      "gu": "ચમચી",
+      "pronGu": "સ્પૂન"
+     }
+    ]
+   }
+  ]
+ }
+}

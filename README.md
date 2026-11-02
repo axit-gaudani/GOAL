@@ -16,6 +16,7 @@ passed (60% or more), so a beginner moves up one small step at a time.
 
 | Level | Name | Band / CEFR | Passage length | What is taught |
 |---|---|---|---|---|
+| −1 | ABC | Start | Letters and words | Letters A–Z with name and sound in Gujarati, blending (c-a-t), sh/ch/th, first sight words and tiny sentences, listening questions |
 | 0 | Foundation | Pre-A1 | 45–60 words | Subject + Verb + Object, am/is/are, family/home/food words, question words |
 | 1 | Beginner | A1 | ~110 words | Present simple, past simple, linking words, pronoun reference |
 | 2 | Elementary | A2 | ~170 words | Main idea, scanning, synonyms and paraphrase, intro to TRUE/FALSE/NOT GIVEN |
@@ -28,7 +29,7 @@ Then there are **5 timed IELTS-style practice tests** (Band 5 → Band 8+, 13 qu
 test unlocks when the student reaches the right level, and finishes with an **estimated band score**
 (official 40-question conversion table) and a full answer review in English and Gujarati.
 
-Total built-in content: 27 lessons, 5 tests, 254 questions and 215 vocabulary words with Gujarati meanings.
+Total built-in content: 31 lessons (including 4 ABC lessons), 5 tests, 254 questions and 215 vocabulary words with Gujarati meanings.
 All passages are original.
 
 ## 2. Each lesson in 4 steps
@@ -92,7 +93,8 @@ The APK is created at `app/build/outputs/apk/debug/app-debug.apk`.
 ```
 app/src/main/
 ├── assets/content/            ← ALL learning content (JSON)
-│   ├── level_0.json … level_6.json
+│   ├── level_-1.json … level_6.json   ← level_-1 = ABC
+│   ├── abc.json               ← letters, sounds and example words for the ABC "Letters" tab
 │   ├── tests.json
 │   ├── sentences.json         ← Sentence practice
 │   ├── wordpacks.json         ← Vocabulary builder packs

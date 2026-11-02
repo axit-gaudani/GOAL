@@ -30,6 +30,11 @@ class UserPrefs(context: Context) {
         get() = sp.getBoolean("unlock_all", false)
         set(v) = sp.edit { putBoolean("unlock_all", v) }
 
+    /** The learner already knows the English letters, so Level −1 (ABC) is optional. */
+    var skipAbc: Boolean
+        get() = sp.getBoolean("skip_abc", false)
+        set(v) = sp.edit { putBoolean("skip_abc", v) }
+
     var reminderEnabled: Boolean
         get() = sp.getBoolean("reminder_enabled", false)
         set(v) = sp.edit { putBoolean("reminder_enabled", v) }

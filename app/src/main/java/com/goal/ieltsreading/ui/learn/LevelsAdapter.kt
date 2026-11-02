@@ -22,7 +22,8 @@ class LevelsAdapter(private val onClick: (LevelItem) -> Unit) :
         val item = getItem(position)
         val b = holder.binding
         val ctx = b.root.context
-        b.textLevelNumber.text = item.level.sortOrder.toString()
+        // Level −1 shows "ABC" in its circle.
+        b.textLevelNumber.text = if (item.level.sortOrder < 0) ctx.getString(R.string.abc_short) else item.level.sortOrder.toString()
         b.textLevelTitle.text = item.level.title
         b.textLevelTitleGu.text = item.level.titleGu
         b.textLevelBand.text = item.level.band

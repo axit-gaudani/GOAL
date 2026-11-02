@@ -21,7 +21,7 @@ class SentenceHubViewModel(app: Application) : AndroidViewModel(app) {
             levelName = repo.currentLevelName(),
             due = repo.dueSentenceCount(),
             patterns = repo.patternMastery(),
-            level = if (repo.prefs.unlockAll) 6 else repo.highestUnlockedLevelOrder()
+            level = if (repo.prefs.unlockAll) 6 else repo.highestUnlockedLevelOrder().coerceAtLeast(0)
         )
     }
 }
