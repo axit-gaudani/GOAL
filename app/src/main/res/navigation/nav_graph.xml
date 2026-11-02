@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- All screens of the app. Screens navigate with findNavController().navigate(R.id.<destination>, bundle). -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment" android:name="com.goal.ieltsreading.ui.home.HomeFragment"
+        android:label="@string/app_name"/>
+    <fragment android:id="@+id/levelsFragment" android:name="com.goal.ieltsreading.ui.learn.LevelsFragment"
+        android:label="@string/nav_learn"/>
+    <fragment android:id="@+id/levelDetailFragment" android:name="com.goal.ieltsreading.ui.learn.LevelDetailFragment"
+        android:label="@string/title_level">
+        <argument android:name="levelId" app:argType="string"/>
+    </fragment>
+    <fragment android:id="@+id/lessonFragment" android:name="com.goal.ieltsreading.ui.lesson.LessonFragment"
+        android:label="@string/title_lesson">
+        <argument android:name="lessonId" app:argType="string"/>
+    </fragment>
+    <fragment android:id="@+id/quizFragment" android:name="com.goal.ieltsreading.ui.quiz.QuizFragment"
+        android:label="@string/title_practice">
+        <argument android:name="lessonId" app:argType="string"/>
+    </fragment>
+    <fragment android:id="@+id/quizResultFragment" android:name="com.goal.ieltsreading.ui.quiz.QuizResultFragment"
+        android:label="@string/title_result">
+        <argument android:name="lessonId" app:argType="string"/>
+        <argument android:name="correct" app:argType="integer"/>
+        <argument android:name="total" app:argType="integer"/>
+    </fragment>
+    <fragment android:id="@+id/vocabFragment" android:name="com.goal.ieltsreading.ui.vocab.VocabFragment"
+        android:label="@string/nav_words"/>
+    <fragment android:id="@+id/flashcardFragment" android:name="com.goal.ieltsreading.ui.vocab.FlashcardFragment"
+        android:label="@string/title_review"/>
+    <fragment android:id="@+id/testsFragment" android:name="com.goal.ieltsreading.ui.tests.TestsFragment"
+        android:label="@string/nav_tests"/>
+    <fragment android:id="@+id/testFragment" android:name="com.goal.ieltsreading.ui.tests.TestFragment"
+        android:label="@string/title_test">
+        <argument android:name="testId" app:argType="string"/>
+    </fragment>
+    <fragment android:id="@+id/testResultFragment" android:name="com.goal.ieltsreading.ui.tests.TestResultFragment"
+        android:label="@string/title_test_result">
+        <argument android:name="attemptId" app:argType="long"/>
+    </fragment>
+    <fragment android:id="@+id/progressFragment" android:name="com.goal.ieltsreading.ui.progress.ProgressFragment"
+        android:label="@string/nav_progress"/>
+    <fragment android:id="@+id/settingsFragment" android:name="com.goal.ieltsreading.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"/>
+</navigation>

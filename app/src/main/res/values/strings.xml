@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IELTS Reading Gujarati</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_learn">Learn</string>
+    <string name="nav_words">Words</string>
+    <string name="nav_tests">Tests</string>
+    <string name="nav_progress">Progress</string>
+    <string name="title_level">Level</string>
+    <string name="title_lesson">Lesson</string>
+    <string name="title_practice">Practice</string>
+    <string name="title_result">Result</string>
+    <string name="title_review">Word review</string>
+    <string name="title_test">Practice test</string>
+    <string name="title_test_result">Test result</string>
+    <string name="title_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Learn IELTS Reading from zero</string>
+    <string name="welcome_title_gu">શૂન્યથી IELTS Reading શીખો</string>
+    <string name="welcome_text">You will start with simple English sentences. Step by step, you will read paragraphs, then IELTS passages, until you can solve real IELTS Reading tests on your own.</string>
+    <string name="welcome_text_gu">તમે સરળ અંગ્રેજી વાક્યોથી શરૂ કરશો. ધીમે ધીમે ફકરા, પછી IELTS લખાણ વાંચશો — જ્યાં સુધી તમે જાતે જ સાચા IELTS Reading ટેસ્ટ ઉકેલી ન શકો.</string>
+    <string name="welcome_path">Level 0 Foundation → Level 1 Beginner → Level 2 Elementary → Band 5 → Band 6 → Band 7 → Band 8+</string>
+    <string name="welcome_name_hint">Your name (તમારું નામ)</string>
+    <string name="welcome_goal">Daily goal (રોજનો લક્ષ્ય)</string>
+    <string name="welcome_know_basics">I already know basic English (open all levels)</string>
+    <string name="welcome_know_basics_gu">મને બેઝિક અંગ્રેજી આવડે છે — બધા લેવલ ખોલો</string>
+    <string name="btn_start_learning">Start learning · શરૂ કરો</string>
+    <string name="goal_10">10 min</string>
+    <string name="goal_15">15 min</string>
+    <string name="goal_20">20 min</string>
+    <string name="goal_30">30 min</string>
+
+    <!-- Home -->
+    <string name="good_morning">Good morning</string>
+    <string name="good_afternoon">Good afternoon</string>
+    <string name="good_evening">Good evening</string>
+    <string name="home_subtitle">Let\'s read a little English today · ચાલો આજે થોડું વાંચીએ</string>
+    <string name="daily_goal">Today\'s goal · આજનો લક્ષ્ય</string>
+    <string name="goal_minutes_format">%1$d / %2$d minutes</string>
+    <string name="goal_done">Goal complete! Great work 🎉 · લક્ષ્ય પૂર્ણ!</string>
+    <string name="goal_keep_going">Keep going — a little every day works best.</string>
+    <string name="streak_format">🔥 %d-day streak</string>
+    <string name="today_stats_format">Today: %1$d lessons · %2$d words reviewed</string>
+    <string name="continue_learning">Continue learning · આગળ શીખો</string>
+    <string name="lesson_meta_format">%1$s · %2$d min</string>
+    <string name="btn_start_lesson">Start lesson</string>
+    <string name="btn_try_again">Try again</string>
+    <string name="btn_take_test">Take a practice test</string>
+    <string name="course_complete_title">Course complete!</string>
+    <string name="course_complete_text">You finished every lesson. Now practise with timed IELTS tests.</string>
+    <string name="course_progress_format">Course progress: %d%%</string>
+    <string name="percent_format">%d%%</string>
+    <string name="vocab_review">Vocabulary review · શબ્દભંડોળ</string>
+    <plurals name="due_words">
+        <item quantity="one">%d word is ready to review</item>
+        <item quantity="other">%d words are ready to review</item>
+    </plurals>
+    <string name="btn_review">Review</string>
+    <string name="word_of_day">Word of the day · આજનો શબ્દ</string>
+    <string name="learning_path">Learning path</string>
+    <string name="learning_path_text">Level 0 → Band 8+ · see all levels</string>
+    <string name="practice_tests_card">IELTS practice tests</string>
+    <string name="practice_tests_card_text">Timed tests with band score</string>
+
+    <!-- Levels & lessons -->
+    <string name="levels_header">Your learning path</string>
+    <string name="levels_subheader">Finish each lesson to unlock the next one. દરેક પાઠ પૂરો કરો, પછી આગળનો ખુલશે.</string>
+    <string name="lessons_done_format">%1$d of %2$d lessons</string>
+    <string name="level_title_format">Level %1$d · %2$s</string>
+    <string name="locked_level_title">Level locked 🔒</string>
+    <string name="locked_level_message">Complete all lessons of the previous level first. This keeps the learning step by step.\n\nપહેલાંના લેવલના બધા પાઠ પૂરા કરો. (Settings માં \"Open all levels\" પણ છે.)</string>
+    <string name="locked_lesson_message">Finish the previous lesson first (score 60% or more). · પહેલાંનો પાઠ પૂરો કરો.</string>
+    <string name="status_completed">Completed · best %d%%</string>
+    <string name="status_locked">Locked</string>
+    <string name="status_try_again">Best %d%% · need 60%% to pass</string>
+    <string name="status_ready">Ready to start</string>
+
+    <!-- Lesson -->
+    <string name="tab_learn">1 · Learn</string>
+    <string name="tab_words">2 · Words</string>
+    <string name="tab_read">3 · Read</string>
+    <string name="btn_next_step">Next step</string>
+    <string name="btn_start_practice">Start practice questions</string>
+    <string name="show_gujarati">Show Gujarati · ગુજરાતી બતાવો</string>
+    <string name="gujarati_explanation">ગુજરાતીમાં સમજૂતી</string>
+    <string name="examples">Examples · ઉદાહરણો</string>
+    <string name="key_words_format">%d key words in this lesson</string>
+    <string name="key_words_tip">Learn these words before reading. Tap the passage words later to check them again.</string>
+    <string name="btn_add_all_words">Add all to my review deck</string>
+    <string name="words_added">Words added to your review deck ✓</string>
+    <string name="word_added">Added to review deck ✓</string>
+    <string name="btn_add_to_deck">Add to review deck</string>
+    <string name="show_translation">Show Gujarati translation · અનુવાદ</string>
+    <string name="read_tip">Read the English first. Tap a coloured word to see its meaning.</string>
+    <string name="word_count_format">%d words</string>
+    <string name="example">Example</string>
+
+    <!-- Quiz -->
+    <string name="question_counter">Question %1$d of %2$d</string>
+    <string name="btn_view_passage">Passage</string>
+    <string name="answer_hint">Type your answer</string>
+    <string name="btn_check">Check answer</string>
+    <string name="btn_next_question">Next question</string>
+    <string name="btn_see_result">See result</string>
+    <string name="feedback_correct">Correct! ✓ · સાચું!</string>
+    <string name="feedback_wrong">Not quite ✗ · ખોટું</string>
+    <string name="correct_answer_format">Correct answer: %s</string>
+    <string name="score_format">%1$d / %2$d correct</string>
+    <string name="result_perfect">Perfect score! 🌟</string>
+    <string name="result_passed">Lesson passed! 🎉</string>
+    <string name="result_try_again">Almost there!</string>
+    <string name="result_passed_msg">Well done. The next lesson is now unlocked and the new words are in your review deck.\nસરસ! આગળનો પાઠ ખુલી ગયો છે.</string>
+    <string name="result_try_again_msg">You need 60% to pass. Read the lesson again and try once more — mistakes help you learn.\nપાસ થવા 60% જોઈએ. ફરી વાંચો અને પ્રયત્ન કરો.</string>
+    <string name="btn_retry_lesson">Repeat lesson</string>
+    <string name="btn_back_to_level">Back to lessons</string>
+    <string name="btn_next_lesson_format">Next: %s</string>
+
+    <!-- Vocabulary -->
+    <string name="vocab_header">My words · મારા શબ્દો</string>
+    <string name="vocab_due">Due today</string>
+    <string name="vocab_deck">In deck</string>
+    <string name="vocab_mastered">Mastered</string>
+    <string name="btn_review_now">Review %d words now</string>
+    <string name="nothing_due">No words due — come back tomorrow</string>
+    <string name="search_hint">Search English or Gujarati</string>
+    <string name="chip_my_deck">Only my deck</string>
+    <string name="vocab_empty">No words yet. Complete a lesson to add words. · પાઠ પૂરો કરો એટલે શબ્દો ઉમેરાશે.</string>
+    <string name="word_status_new">New</string>
+    <string name="word_status_mastered">Mastered ★</string>
+    <string name="word_status_box">Box %1$d/%2$d</string>
+    <string name="counter_format">%1$d / %2$d</string>
+    <string name="tap_to_reveal">Do you know the meaning? Think, then tap.</string>
+    <string name="btn_show_meaning">Show meaning · અર્થ જુઓ</string>
+    <string name="btn_knew">I knew it</string>
+    <string name="btn_did_not_know">Didn\'t know</string>
+    <string name="review_done_title">Review finished! 🎉</string>
+    <string name="review_done_stats">Knew: %1$d · Need practice: %2$d\nWords you knew will come back later; difficult words come back tomorrow.</string>
+    <string name="review_nothing_title">All caught up ✓</string>
+    <string name="review_nothing_text">No words to review now. Finish a lesson to add new words.</string>
+    <string name="btn_done">Done</string>
+
+    <!-- Tests -->
+    <string name="tests_header">IELTS practice tests</string>
+    <string name="tests_subheader">Real exam style: one passage, 13 questions, 20 minutes, no hints. Tests unlock as your level grows.</string>
+    <string name="test_meta_format">13 questions · %d minutes</string>
+    <string name="best_band_format">Best: Band %1$s · %2$d attempts</string>
+    <string name="not_attempted">Not attempted yet</string>
+    <string name="test_locked_format">Unlocks at %s</string>
+    <string name="locked_test_title">Test locked 🔒</string>
+    <string name="locked_test_message">Build your reading skills first. This test opens when you reach %s.</string>
+    <string name="test_start_message">You have %d minutes. Read the passage, then answer the questions. Answers and explanations are shown after you submit.\n\nTip: questions usually follow the order of the passage.</string>
+    <string name="btn_start_test">Start test</string>
+    <string name="timer_format">%1$02d:%2$02d</string>
+    <string name="answered_format">%1$d/%2$d answered</string>
+    <string name="tab_passage">Passage</string>
+    <string name="tab_questions">Questions</string>
+    <string name="btn_submit">Submit</string>
+    <string name="submit_test_title">Submit test?</string>
+    <string name="submit_test_message">You answered %1$d of %2$d questions. In IELTS there is no penalty for a wrong answer, so never leave a blank.</string>
+    <string name="leave_test_title">Leave the test?</string>
+    <string name="leave_test_message">Your answers will not be saved.</string>
+    <string name="btn_stay">Stay</string>
+    <string name="btn_leave">Leave</string>
+    <string name="estimated_band">Estimated band</string>
+    <string name="band_note">Estimate based on the official 40-question conversion. Practice score only.</string>
+    <string name="time_taken_format">Time: %1$d min %2$02d s</string>
+    <string name="advice_high">Excellent! You are reading at Band 7+ level. Keep practising full timed tests.\nઉત્તમ! નિયમિત સમયબદ્ધ ટેસ્ટ આપતા રહો.</string>
+    <string name="advice_mid">Good progress. Review every wrong answer below and learn the paraphrases.\nસારી પ્રગતિ. ખોટા જવાબોની સમજૂતી ધ્યાનથી વાંચો.</string>
+    <string name="advice_low">Don\'t worry — this is how you learn. Go back to the lessons for this level and try again later.\nચિંતા ન કરો. પાઠ ફરી કરો અને પછી ફરી ટેસ્ટ આપો.</string>
+    <string name="answer_review">Answer review · જવાબોની સમજૂતી</string>
+    <string name="your_answer_format">Your answer: %s</string>
+    <string name="no_answer">(blank)</string>
+    <string name="glossary">Glossary · શબ્દાર્થ</string>
+    <string name="btn_add_glossary">Add these words to my review deck</string>
+
+    <!-- Progress -->
+    <string name="progress_header">Your progress · તમારી પ્રગતિ</string>
+    <string name="stat_streak">Day streak</string>
+    <string name="stat_lessons">Lessons</string>
+    <string name="stat_words">Words mastered</string>
+    <string name="stat_band">Best band</string>
+    <string name="stat_time">Study time</string>
+    <string name="stat_avg">Avg. lesson score</string>
+    <string name="fraction_format">%1$d/%2$d</string>
+    <string name="total_time_format">%1$dh %2$dm</string>
+    <string name="this_week">This week</string>
+    <string name="week_goal_format">Goal reached on %d of 7 days</string>
+    <string name="levels_progress">Levels</string>
+    <string name="test_history">Test history</string>
+    <string name="no_attempts">No tests taken yet.</string>
+
+    <!-- Settings -->
+    <string name="settings_profile">Profile</string>
+    <string name="settings_learning">Learning</string>
+    <string name="settings_reminder">Daily reminder</string>
+    <string name="settings_data">Data</string>
+    <string name="setting_gujarati">Show Gujarati help by default</string>
+    <string name="setting_gujarati_desc">Gujarati explanations and question translations</string>
+    <string name="setting_unlock_all">Open all levels</string>
+    <string name="setting_unlock_all_desc">For students who already know the basics. Beginners should keep this off.</string>
+    <string name="setting_reminder">Remind me to study</string>
+    <string name="setting_reminder_desc">Only if today\'s goal is not complete</string>
+    <string name="reminder_time">Reminder time</string>
+    <string name="reminder_set">Daily reminder is on</string>
+    <string name="permission_needed">Notification permission is needed for reminders</string>
+    <string name="btn_reset">Reset progress</string>
+    <string name="reset_title">Reset all progress?</string>
+    <string name="reset_message">Lesson results, word reviews, test history and study time will be deleted. This cannot be undone.</string>
+    <string name="reset_done">Progress reset</string>
+    <string name="reminder_title">Time for your English reading 📖</string>
+    <string name="reminder_text">Today: %1$d of %2$d minutes. %3$d words are waiting for review. ચાલો, થોડું વાંચીએ!</string>
+</resources>

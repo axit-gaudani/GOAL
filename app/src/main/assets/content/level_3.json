@@ -1,0 +1,720 @@
+{
+  "id": "L3",
+  "order": 3,
+  "title": "IELTS Band 5",
+  "titleGu": "IELTS બેન્ડ 5",
+  "band": "B1 · IELTS Band 5",
+  "description": "Read semi-academic texts and learn the core IELTS skills: skimming, TRUE/FALSE/NOT GIVEN, sentence completion and multiple choice.",
+  "descriptionGu": "અર્ધ-શૈક્ષણિક લખાણો વાંચો અને IELTS ની મુખ્ય કુશળતાઓ શીખો: skimming, TRUE/FALSE/NOT GIVEN, વાક્ય પૂર્ણ કરવું અને બહુવિકલ્પ પ્રશ્નો.",
+  "lessons": [
+    {
+      "id": "L3-01",
+      "order": 1,
+      "title": "Skimming: reading fast for the general idea",
+      "titleGu": "સ્કિમિંગ: મુખ્ય વિચાર માટે ઝડપથી વાંચવું",
+      "skill": "IELTS Strategy",
+      "minutes": 15,
+      "explanation": "Skimming means reading a text quickly to understand the general idea. You do not read every word. In the IELTS Reading test you have only 60 minutes for three long passages, so skimming first saves a lot of time.\n\nHow to skim a passage:\n• Read the title first. It tells you the topic.\n• Read the first paragraph quickly. It often introduces the main idea.\n• Read the first sentence of every other paragraph. This is often the topic sentence, which gives the main idea of that paragraph.\n• Notice names, dates and numbers, but do not stop to study them.\n• Do not stop at difficult words. You can usually understand the general idea without them.\n\nAfter skimming, ask yourself two questions: What is the whole passage about? What is each paragraph about? Write two or three words next to each paragraph, for example 'early history', 'problems' or 'today'.\n\nSkimming a passage of this length should take about two minutes. Later, you will scan the text to find exact answers. Questions in IELTS usually follow the order of the passage, so your short paragraph notes will help you find the right place quickly.\n\nRemember: the main idea of a paragraph is what the WHOLE paragraph is about, not one small detail inside it.",
+      "explanationGu": "Skimming એટલે લખાણને ઝડપથી વાંચીને તેનો સામાન્ય વિચાર (general idea) સમજવો. દરેક શબ્દ વાંચવાની જરૂર નથી. IELTS Reading માં ત્રણ લાંબા passage માટે ફક્ત 60 મિનિટ મળે છે, એટલે પહેલાં skimming કરવાથી ઘણો સમય બચે છે.\n\nSkimming કેવી રીતે કરવું:\n• સૌથી પહેલાં title વાંચો. તેનાથી વિષય ખબર પડે છે.\n• પહેલો paragraph ઝડપથી વાંચો. મોટે ભાગે તેમાં આખા લેખનો મુખ્ય વિચાર હોય છે.\n• બાકીના દરેક paragraph નું પહેલું વાક્ય વાંચો. તેને topic sentence કહેવાય છે, જે તે paragraph નો મુખ્ય વિચાર આપે છે.\n• નામ, તારીખ અને આંકડા પર નજર નાખો, પણ તેમાં અટકશો નહીં.\n• અઘરા શબ્દ પર અટકશો નહીં. તેના વગર પણ મુખ્ય વાત સમજાઈ જાય છે.\n\nSkimming પછી પોતાને બે પ્રશ્ન પૂછો: આખો passage શેના વિશે છે? દરેક paragraph શેના વિશે છે? દરેક paragraph ની બાજુમાં બે-ત્રણ શબ્દોની નોંધ લખો, જેમ કે 'શરૂઆતનો ઇતિહાસ', 'સમસ્યાઓ', 'આજે'.\n\nટિપ: IELTS માં પ્રશ્નો સામાન્ય રીતે passage ના ક્રમમાં જ આવે છે. તેથી તમારી નાની નોંધ સાચી જગ્યા ઝડપથી શોધવામાં ખૂબ મદદ કરશે.\n\nયાદ રાખો: paragraph નો મુખ્ય વિચાર એટલે આખો paragraph શેના વિશે છે તે — તેમાંની કોઈ એક નાની વિગત નહીં. આ passage બે મિનિટમાં skim કરવાનો પ્રયાસ કરો — તમે ચોક્કસ કરી શકશો!",
+      "examples": [
+        {
+          "en": "Topic sentence: \"Cities are becoming hotter every year.\" → Main idea: rising heat in cities.",
+          "gu": "Topic sentence: \"શહેરો દર વર્ષે વધુ ગરમ થઈ રહ્યા છે.\" → મુખ્ય વિચાર: શહેરોમાં વધતી ગરમી."
+        },
+        {
+          "en": "Topic sentence: \"However, the new plan has several problems.\" → Main idea: problems with the plan.",
+          "gu": "Topic sentence: \"જોકે, નવી યોજનામાં ઘણી સમસ્યાઓ છે.\" → મુખ્ય વિચાર: યોજનાની સમસ્યાઓ."
+        },
+        {
+          "en": "I skimmed the article in two minutes to get the general idea.",
+          "gu": "મેં સામાન્ય વિચાર મેળવવા માટે લેખને બે મિનિટમાં ઝડપથી વાંચી લીધો."
+        },
+        {
+          "en": "Words like 'however' and 'today' often show that a new idea is starting.",
+          "gu": "'however' અને 'today' જેવા શબ્દો મોટે ભાગે બતાવે છે કે નવો વિચાર શરૂ થઈ રહ્યો છે."
+        }
+      ],
+      "passageTitle": "The Story of the Umbrella",
+      "passage": "For thousands of years, people have used simple tools to protect themselves from the weather. One of the most useful of these is the umbrella. Today it is cheap and easy to find, but its history is long and surprising.\n\nThe first umbrellas were not used for rain at all. In ancient Egypt, China and India, they gave shade from the hot sun. These early umbrellas were often large and beautiful, and only rich or important people could own them. In some countries, a servant walked behind the king and held an umbrella over his head.\n\nThe Chinese were probably the first to make umbrellas that kept out water. Around two thousand years ago, they covered paper umbrellas with oil or wax. This simple idea made the umbrella useful on rainy days as well as sunny ones.\n\nIn Europe, umbrellas became popular much later. In the eighteenth century, a British traveller named Jonas Hanway carried one on the streets of London. At first, people laughed at him, because they thought umbrellas were only for women. However, Hanway continued to use his umbrella for about thirty years, and slowly more men began to copy him.\n\nThe modern folding umbrella appeared in the nineteenth and twentieth centuries. Factories began to use steel instead of wood or whalebone, which made umbrellas lighter and stronger. Later, designers created small umbrellas that could fit inside a bag.\n\nToday, millions of umbrellas are sold every year. Some are made from recycled plastic, and engineers are still trying to design one that does not turn inside out in a strong wind.",
+      "passageGu": "હજારો વર્ષોથી લોકો હવામાનથી પોતાનું રક્ષણ કરવા માટે સાદાં સાધનોનો ઉપયોગ કરતા આવ્યા છે. તેમાંનું એક સૌથી ઉપયોગી સાધન છે છત્રી. આજે તે સસ્તી છે અને સહેલાઈથી મળી જાય છે, પરંતુ તેનો ઇતિહાસ લાંબો અને આશ્ચર્યજનક છે.\n\nપહેલી છત્રીઓ વરસાદ માટે વપરાતી જ નહોતી. પ્રાચીન ઇજિપ્ત, ચીન અને ભારતમાં તે ગરમ તડકાથી છાંયો આપતી હતી. આ શરૂઆતની છત્રીઓ મોટે ભાગે મોટી અને સુંદર હતી, અને ફક્ત ધનવાન કે મહત્વના લોકો જ તે રાખી શકતા. કેટલાક દેશોમાં એક નોકર રાજાની પાછળ ચાલતો અને તેના માથા પર છત્રી પકડી રાખતો.\n\nપાણી રોકી શકે તેવી છત્રી બનાવનાર કદાચ સૌથી પહેલા ચીનના લોકો હતા. લગભગ બે હજાર વર્ષ પહેલાં તેઓ કાગળની છત્રીઓ પર તેલ કે મીણ લગાવતા. આ સાદા વિચારથી છત્રી તડકાના દિવસોની સાથે વરસાદના દિવસોમાં પણ ઉપયોગી બની.\n\nયુરોપમાં છત્રી ઘણી મોડી લોકપ્રિય બની. અઢારમી સદીમાં જોનાસ હેનવે નામનો એક બ્રિટિશ પ્રવાસી લંડનની શેરીઓમાં છત્રી લઈને ફરતો. શરૂઆતમાં લોકો તેના પર હસતા, કારણ કે તેઓ માનતા કે છત્રી ફક્ત સ્ત્રીઓ માટે છે. જોકે, હેનવેએ લગભગ ત્રીસ વર્ષ સુધી પોતાની છત્રી વાપરવાનું ચાલુ રાખ્યું, અને ધીમે ધીમે વધુ પુરુષો તેની નકલ કરવા લાગ્યા.\n\nઆધુનિક વાળી શકાય તેવી (folding) છત્રી ઓગણીસમી અને વીસમી સદીમાં આવી. કારખાનાઓ લાકડા કે વ્હેલના હાડકાને બદલે સ્ટીલ વાપરવા લાગ્યાં, જેનાથી છત્રીઓ હળવી અને મજબૂત બની. પછી ડિઝાઇનરોએ નાની છત્રીઓ બનાવી જે થેલીમાં સમાઈ જાય.\n\nઆજે દર વર્ષે લાખો છત્રીઓ વેચાય છે. કેટલીક રિસાયકલ કરેલા પ્લાસ્ટિકમાંથી બને છે, અને એન્જિનિયરો હજી પણ એવી છત્રી બનાવવાનો પ્રયાસ કરી રહ્યા છે જે તેજ પવનમાં ઊંધી ન વળી જાય.",
+      "vocabulary": [
+        {
+          "word": "protect",
+          "pos": "verb",
+          "meaningGu": "રક્ષણ કરવું",
+          "meaningEn": "to keep someone or something safe from harm",
+          "example": "Sunglasses protect your eyes from the sun.",
+          "exampleGu": "ગોગલ્સ તમારી આંખોને તડકાથી રક્ષણ આપે છે."
+        },
+        {
+          "word": "ancient",
+          "pos": "adjective",
+          "meaningGu": "પ્રાચીન",
+          "meaningEn": "very old; from a time long ago",
+          "example": "We visited an ancient temple in Gujarat.",
+          "exampleGu": "અમે ગુજરાતમાં એક પ્રાચીન મંદિરની મુલાકાત લીધી."
+        },
+        {
+          "word": "servant",
+          "pos": "noun",
+          "meaningGu": "નોકર, સેવક",
+          "meaningEn": "a person who works in another person's house and does jobs for them",
+          "example": "The servant opened the door for the guests.",
+          "exampleGu": "નોકરે મહેમાનો માટે દરવાજો ખોલ્યો."
+        },
+        {
+          "word": "popular",
+          "pos": "adjective",
+          "meaningGu": "લોકપ્રિય",
+          "meaningEn": "liked by many people",
+          "example": "Cricket is very popular in India.",
+          "exampleGu": "ભારતમાં ક્રિકેટ ખૂબ લોકપ્રિય છે."
+        },
+        {
+          "word": "traveller",
+          "pos": "noun",
+          "meaningGu": "પ્રવાસી",
+          "meaningEn": "a person who is on a journey or who travels often",
+          "example": "The traveller wrote a book about his journey.",
+          "exampleGu": "પ્રવાસીએ પોતાની યાત્રા વિશે પુસ્તક લખ્યું."
+        },
+        {
+          "word": "folding",
+          "pos": "adjective",
+          "meaningGu": "વાળી શકાય તેવું",
+          "meaningEn": "able to be made smaller by bending parts of it",
+          "example": "I keep a folding chair in my car.",
+          "exampleGu": "હું મારી ગાડીમાં વાળી શકાય તેવી ખુરશી રાખું છું."
+        },
+        {
+          "word": "steel",
+          "pos": "noun",
+          "meaningGu": "સ્ટીલ, પોલાદ",
+          "meaningEn": "a strong metal made from iron",
+          "example": "The bridge is made of steel.",
+          "exampleGu": "પુલ સ્ટીલનો બનેલો છે."
+        },
+        {
+          "word": "recycled",
+          "pos": "adjective",
+          "meaningGu": "રિસાયકલ કરેલું, ફરી વાપરવા લાયક બનાવેલું",
+          "meaningEn": "made from materials that have been used before",
+          "example": "This bag is made from recycled paper.",
+          "exampleGu": "આ થેલી રિસાયકલ કરેલા કાગળમાંથી બનેલી છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "What is the passage mainly about?",
+          "promptGu": "આ passage મુખ્યત્વે શેના વિશે છે?",
+          "options": [
+            "How to choose a good umbrella",
+            "The history of the umbrella",
+            "The weather in ancient countries",
+            "The life of Jonas Hanway"
+          ],
+          "answer": "The history of the umbrella",
+          "explanation": "The title is 'The Story of the Umbrella', and the first paragraph says 'its history is long and surprising'. Every paragraph then describes a different time in history. Jonas Hanway appears in only one paragraph, so he is a detail, not the main idea.",
+          "explanationGu": "Title 'The Story of the Umbrella' છે અને પહેલા paragraph માં લખ્યું છે: 'its history is long and surprising'. પછીનો દરેક paragraph ઇતિહાસના અલગ સમયની વાત કરે છે. Jonas Hanway ફક્ત એક જ paragraph માં છે, એટલે તે એક વિગત (detail) છે, મુખ્ય વિચાર નહીં. Skimming માં title અને પહેલો paragraph સૌથી મહત્વના છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What is the main idea of the second paragraph?",
+          "promptGu": "બીજા paragraph નો મુખ્ય વિચાર શું છે?",
+          "options": [
+            "Early umbrellas protected important people from the sun",
+            "Kings in Egypt had many servants",
+            "Umbrellas were first made in India",
+            "Rain was a big problem in ancient times"
+          ],
+          "answer": "Early umbrellas protected important people from the sun",
+          "explanation": "The topic sentence is 'The first umbrellas were not used for rain at all.' The paragraph explains that they 'gave shade from the hot sun' and that 'only rich or important people could own them'. The servant and the king are just an example (a detail).",
+          "explanationGu": "Topic sentence છે: 'The first umbrellas were not used for rain at all.' પછી લખ્યું છે કે તે 'gave shade from the hot sun' અને 'only rich or important people could own them'. નોકર અને રાજાની વાત ફક્ત એક ઉદાહરણ (detail) છે. Option માં 'protected ... from the sun' એ 'gave shade from the hot sun' નું paraphrase છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which paragraph explains how umbrellas first became useful in the rain?",
+          "promptGu": "કયો paragraph સમજાવે છે કે છત્રી પહેલી વાર વરસાદમાં કેવી રીતે ઉપયોગી બની?",
+          "options": [
+            "The second paragraph",
+            "The third paragraph",
+            "The fourth paragraph",
+            "The fifth paragraph"
+          ],
+          "answer": "The third paragraph",
+          "explanation": "The third paragraph begins: 'The Chinese were probably the first to make umbrellas that kept out water.' It ends: 'This simple idea made the umbrella useful on rainy days.' 'Kept out water' = useful in the rain.",
+          "explanationGu": "ત્રીજો paragraph આ રીતે શરૂ થાય છે: 'The Chinese were probably the first to make umbrellas that kept out water.' અને અંતે લખ્યું છે: 'made the umbrella useful on rainy days'. 'kept out water' એટલે વરસાદમાં ઉપયોગી. જુઓ, ફક્ત પહેલું વાક્ય વાંચીને પણ જવાબ મળી ગયો — આ જ skimming ની શક્તિ છે!"
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What is the fourth paragraph mainly about?",
+          "promptGu": "ચોથો paragraph મુખ્યત્વે શેના વિશે છે?",
+          "options": [
+            "Why women liked umbrellas",
+            "How umbrellas slowly became accepted in Europe",
+            "The streets of London",
+            "How long Jonas Hanway lived"
+          ],
+          "answer": "How umbrellas slowly became accepted in Europe",
+          "explanation": "The topic sentence is 'In Europe, umbrellas became popular much later.' The paragraph tells how people first laughed but 'slowly more men began to copy him'. 'Became popular' and 'began to copy' are paraphrased as 'became accepted'.",
+          "explanationGu": "Topic sentence છે: 'In Europe, umbrellas became popular much later.' પછી લખ્યું છે કે લોકો પહેલાં હસ્યા, પણ 'slowly more men began to copy him'. 'became popular' અને 'began to copy' નો અર્થ જ 'became accepted' (સ્વીકારાઈ). બાકીના options માત્ર નાની વિગતો છે અથવા passage માં નથી."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What is the fifth paragraph mainly about?",
+          "promptGu": "પાંચમો paragraph મુખ્યત્વે શેના વિશે છે?",
+          "options": [
+            "Changes in the materials and design of umbrellas",
+            "The price of whalebone",
+            "Why factories were built",
+            "Bags that can carry umbrellas"
+          ],
+          "answer": "Changes in the materials and design of umbrellas",
+          "explanation": "The paragraph mentions 'steel instead of wood or whalebone' (materials) and 'small umbrellas that could fit inside a bag' (design). The main idea covers both: changes in materials and design.",
+          "explanationGu": "આ paragraph માં 'steel instead of wood or whalebone' (સામગ્રી/materials) અને 'small umbrellas that could fit inside a bag' (ડિઝાઇન) ની વાત છે. સાચો જવાબ બંને વાતને આવરી લે છે. 'whalebone' કે 'bag' માત્ર એક શબ્દ છે — paragraph નો મુખ્ય વિચાર નહીં."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "In ancient times, ordinary people could easily own an umbrella.",
+          "promptGu": "પ્રાચીન સમયમાં સામાન્ય લોકો સહેલાઈથી છત્રી રાખી શકતા હતા.",
+          "answer": "FALSE",
+          "explanation": "The passage says: 'only rich or important people could own them'. Ordinary people could NOT own them, so the statement is the opposite of the passage.",
+          "explanationGu": "Passage માં લખ્યું છે: 'only rich or important people could own them'. એટલે સામાન્ય લોકો (ordinary people) છત્રી રાખી શકતા નહોતા. વિધાન passage થી ઊલટું છે, તેથી FALSE. 'only' જેવા નાના શબ્દ પર ધ્યાન આપો!"
+        },
+        {
+          "type": "FILL",
+          "prompt": "Around two thousand years ago, the Chinese covered paper umbrellas with oil or ____ .",
+          "promptGu": "લગભગ બે હજાર વર્ષ પહેલાં ચીનના લોકો કાગળની છત્રીઓ પર તેલ કે ____ લગાવતા.",
+          "answer": "wax",
+          "alternatives": [],
+          "explanation": "Passage: 'they covered paper umbrellas with oil or wax.' The answer is copied exactly from the passage.",
+          "explanationGu": "Passage: 'they covered paper umbrellas with oil or wax.' જવાબ 'wax' (મીણ) છે, જે passage માંથી સીધો લેવાયો છે. 'Chinese' અને 'two thousand years' જેવા keywords થી ત્રીજા paragraph માં ઝડપથી scan કરો.",
+          "wordLimit": "ONE WORD ONLY"
+        }
+      ]
+    },
+    {
+      "id": "L3-02",
+      "order": 2,
+      "title": "TRUE / FALSE / NOT GIVEN in practice",
+      "titleGu": "TRUE / FALSE / NOT GIVEN ની પ્રેક્ટિસ",
+      "skill": "IELTS Strategy",
+      "minutes": 18,
+      "explanation": "In TRUE / FALSE / NOT GIVEN questions, you compare a statement with the information in the passage.\n• TRUE: the passage says the same thing, usually in different words.\n• FALSE: the passage says the opposite, or something that cannot be true at the same time.\n• NOT GIVEN: the passage does not give this information, so you cannot say if it is true or false.\n\nWatch out for these common traps:\n• Opposite words: the passage says 'slowly', but the statement says 'quickly'. The answer is FALSE.\n• Qualifiers: small words like all, some, many, most, always, often, never and only change the meaning. If the passage says 'some' and the statement says 'all', the answer is usually FALSE.\n• Extra details: the statement adds a new idea, such as a comparison or a reason, that the passage does not mention. The answer is NOT GIVEN.\n• Your own knowledge: never answer from what you know about the world. Use only the passage.\n\nA good method: 1. Underline the keywords in the statement, especially names, numbers and qualifiers. 2. Find the matching part of the passage. The questions follow the order of the passage. 3. Read that sentence very carefully, word by word, and compare.\n\nIf you cannot find any information about the main idea of the statement, choose NOT GIVEN. If you find information that disagrees, choose FALSE.",
+      "explanationGu": "TRUE / FALSE / NOT GIVEN પ્રશ્નોમાં તમારે એક વિધાન (statement) ને passage ની માહિતી સાથે સરખાવવાનું હોય છે.\n• TRUE: passage માં એ જ વાત છે, મોટે ભાગે જુદા શબ્દોમાં.\n• FALSE: passage માં તેનાથી ઊલટી વાત છે.\n• NOT GIVEN: passage માં આ માહિતી જ નથી, એટલે સાચું કે ખોટું કહી શકાય નહીં.\n\nઆ સામાન્ય જાળ (traps) થી સાવધાન રહો:\n• ઊલટા શબ્દો: passage માં 'slowly' (ધીમે) છે અને વિધાનમાં 'quickly' (ઝડપથી) — જવાબ FALSE.\n• Qualifiers: all, some, many, most, always, often, never, only જેવા નાના શબ્દો અર્થ બદલી નાખે છે. Passage માં 'some' (કેટલાક) અને વિધાનમાં 'all' (બધા) હોય, તો જવાબ મોટે ભાગે FALSE.\n• વધારાની વિગત: વિધાનમાં કોઈ નવી વાત ઉમેરી હોય — જેમ કે સરખામણી કે કારણ — જે passage માં નથી, તો જવાબ NOT GIVEN.\n• તમારું પોતાનું જ્ઞાન: દુનિયા વિશે તમે જે જાણો છો તેના આધારે ક્યારેય જવાબ ન આપો. ફક્ત passage નો જ ઉપયોગ કરો.\n\nસારી પદ્ધતિ: 1. વિધાનમાં keywords ને underline કરો — ખાસ કરીને નામ, આંકડા અને qualifiers. 2. Passage માં મેળ ખાતો ભાગ શોધો. પ્રશ્નો passage ના ક્રમમાં જ આવે છે. 3. તે વાક્યને શબ્દે શબ્દ ધ્યાનથી વાંચીને સરખાવો.\n\nયાદ રાખો: માહિતી મળે અને તે વિરુદ્ધ હોય તો FALSE; માહિતી જ ન મળે તો NOT GIVEN. થોડી પ્રેક્ટિસથી આ ફરક સ્પષ્ટ થઈ જશે!",
+      "examples": [
+        {
+          "en": "Passage: \"Some students walk to school.\" Statement: \"All students walk to school.\" → FALSE",
+          "gu": "Passage: \"કેટલાક વિદ્યાર્થીઓ ચાલીને શાળાએ જાય છે.\" વિધાન: \"બધા વિદ્યાર્થીઓ ચાલીને જાય છે.\" → FALSE"
+        },
+        {
+          "en": "Passage: \"Prices rose slowly.\" Statement: \"Prices rose quickly.\" → FALSE",
+          "gu": "Passage: \"ભાવ ધીમે ધીમે વધ્યા.\" વિધાન: \"ભાવ ઝડપથી વધ્યા.\" → FALSE"
+        },
+        {
+          "en": "Passage: \"The park opened in 2010.\" Statement: \"The park is the biggest in the city.\" → NOT GIVEN",
+          "gu": "Passage: \"પાર્ક 2010 માં ખુલ્યો.\" વિધાન: \"આ પાર્ક શહેરનો સૌથી મોટો છે.\" → NOT GIVEN"
+        },
+        {
+          "en": "Passage: \"Most visitors were happy.\" Statement: \"Many visitors were satisfied.\" → TRUE",
+          "gu": "Passage: \"મોટાભાગના મુલાકાતીઓ ખુશ હતા.\" વિધાન: \"ઘણા મુલાકાતીઓ સંતુષ્ટ હતા.\" → TRUE"
+        }
+      ],
+      "passageTitle": "Why Cities Need Trees",
+      "passage": "More than half of the world's population now lives in cities, and this number is growing every year. As cities become larger, they also become hotter. Roads, roofs and car parks absorb heat from the sun during the day and release it slowly at night. Scientists call this the 'urban heat island' effect.\n\nOne of the simplest ways to reduce this heat is to plant more trees. Trees give shade, and they also release water through their leaves, which cools the air around them. Research in several European cities has shown that streets with many trees can be up to four degrees cooler than streets without them on a summer afternoon.\n\nTrees bring other benefits too. Their leaves catch some of the dust and smoke in the air, so the air becomes a little cleaner. Some studies suggest that people who live near green spaces feel less stressed, although scientists are still studying the reasons for this.\n\nHowever, planting trees in cities is not always easy. Young trees need regular water for their first few years, and their roots can damage pipes and pavements if the wrong type of tree is chosen. For this reason, many city councils now employ experts who decide which trees are suitable for each street.\n\nSome cities have set ambitious goals. Melbourne in Australia, for example, aims to increase its tree cover to 40 percent by 2040. Other cities are encouraging residents to plant trees in their own gardens.\n\nTrees cannot solve every problem that cities face. But for a relatively low cost, they can make urban life cooler, cleaner and more pleasant.",
+      "passageGu": "દુનિયાની અડધાથી વધુ વસ્તી હવે શહેરોમાં રહે છે, અને આ સંખ્યા દર વર્ષે વધી રહી છે. શહેરો જેમ મોટાં થાય છે, તેમ વધુ ગરમ પણ થાય છે. રસ્તા, છાપરાં અને પાર્કિંગ દિવસ દરમિયાન સૂર્યની ગરમી શોષી લે છે અને રાત્રે ધીમે ધીમે છોડે છે. વૈજ્ઞાનિકો તેને 'urban heat island' (શહેરી ગરમીનો ટાપુ) અસર કહે છે.\n\nઆ ગરમી ઘટાડવાનો એક સૌથી સરળ ઉપાય વધુ વૃક્ષો વાવવાનો છે. વૃક્ષો છાંયો આપે છે, અને પાંદડાં દ્વારા પાણી પણ છોડે છે, જે આસપાસની હવાને ઠંડી કરે છે. યુરોપના કેટલાંક શહેરોમાં થયેલા સંશોધને બતાવ્યું છે કે ઉનાળાની બપોરે ઘણાં વૃક્ષોવાળી શેરીઓ વૃક્ષો વગરની શેરીઓ કરતાં ચાર ડિગ્રી સુધી ઠંડી હોઈ શકે છે.\n\nવૃક્ષો બીજા ફાયદા પણ આપે છે. તેમનાં પાંદડાં હવામાંની થોડી ધૂળ અને ધુમાડો પકડી લે છે, જેથી હવા થોડી સ્વચ્છ બને છે. કેટલાક અભ્યાસો સૂચવે છે કે હરિયાળી જગ્યાઓ પાસે રહેતા લોકો ઓછો તણાવ અનુભવે છે, જોકે વૈજ્ઞાનિકો હજી તેનાં કારણોનો અભ્યાસ કરી રહ્યા છે.\n\nજોકે, શહેરોમાં વૃક્ષો વાવવાં હંમેશા સહેલું નથી. નાનાં વૃક્ષોને પહેલાં થોડાં વર્ષો નિયમિત પાણીની જરૂર પડે છે, અને જો ખોટા પ્રકારનું વૃક્ષ પસંદ થાય તો તેનાં મૂળ પાઇપ અને ફૂટપાથને નુકસાન કરી શકે છે. આ કારણે, ઘણી નગરપાલિકાઓ હવે એવા નિષ્ણાતોને નોકરી પર રાખે છે જે નક્કી કરે છે કે કઈ શેરી માટે કયાં વૃક્ષો યોગ્ય છે.\n\nકેટલાંક શહેરોએ મોટાં લક્ષ્યો નક્કી કર્યાં છે. ઉદાહરણ તરીકે, ઑસ્ટ્રેલિયાનું મેલબર્ન 2040 સુધીમાં પોતાનું વૃક્ષ-આવરણ 40 ટકા સુધી વધારવાનું લક્ષ્ય રાખે છે. બીજાં શહેરો નાગરિકોને પોતાના બગીચામાં વૃક્ષો વાવવા પ્રોત્સાહિત કરી રહ્યાં છે.\n\nવૃક્ષો શહેરોની દરેક સમસ્યા ઉકેલી શકતાં નથી. પરંતુ પ્રમાણમાં ઓછા ખર્ચે, તે શહેરી જીવનને વધુ ઠંડું, સ્વચ્છ અને સુખદ બનાવી શકે છે.",
+      "vocabulary": [
+        {
+          "word": "population",
+          "pos": "noun",
+          "meaningGu": "વસ્તી",
+          "meaningEn": "all the people who live in a place",
+          "example": "The population of Ahmedabad is growing fast.",
+          "exampleGu": "અમદાવાદની વસ્તી ઝડપથી વધી રહી છે."
+        },
+        {
+          "word": "absorb",
+          "pos": "verb",
+          "meaningGu": "શોષી લેવું",
+          "meaningEn": "to take in something such as heat or liquid",
+          "example": "A towel can absorb a lot of water.",
+          "exampleGu": "ટુવાલ ઘણું પાણી શોષી શકે છે."
+        },
+        {
+          "word": "release",
+          "pos": "verb",
+          "meaningGu": "છોડવું, મુક્ત કરવું",
+          "meaningEn": "to let something go out",
+          "example": "Factories release smoke into the air.",
+          "exampleGu": "કારખાનાં હવામાં ધુમાડો છોડે છે."
+        },
+        {
+          "word": "shade",
+          "pos": "noun",
+          "meaningGu": "છાંયો",
+          "meaningEn": "an area that is cooler and darker because the sun cannot reach it",
+          "example": "We sat in the shade of a tree.",
+          "exampleGu": "અમે એક વૃક્ષના છાંયડામાં બેઠા."
+        },
+        {
+          "word": "benefits",
+          "pos": "noun",
+          "meaningGu": "ફાયદા, લાભ",
+          "meaningEn": "good or helpful results",
+          "example": "Walking has many health benefits.",
+          "exampleGu": "ચાલવાથી સ્વાસ્થ્યને ઘણા ફાયદા થાય છે."
+        },
+        {
+          "word": "stressed",
+          "pos": "adjective",
+          "meaningGu": "તણાવગ્રસ્ત",
+          "meaningEn": "worried and not able to relax",
+          "example": "She felt stressed before the exam.",
+          "exampleGu": "પરીક્ષા પહેલાં તેને તણાવ લાગતો હતો."
+        },
+        {
+          "word": "pavements",
+          "pos": "noun",
+          "meaningGu": "ફૂટપાથ",
+          "meaningEn": "paths at the side of a road for people to walk on",
+          "example": "Please walk on the pavements, not on the road.",
+          "exampleGu": "મહેરબાની કરીને રસ્તા પર નહીં, ફૂટપાથ પર ચાલો."
+        },
+        {
+          "word": "ambitious",
+          "pos": "adjective",
+          "meaningGu": "મહત્વાકાંક્ષી, મોટું",
+          "meaningEn": "needing a lot of work or success to achieve",
+          "example": "He has an ambitious plan to start his own company.",
+          "exampleGu": "તેની પોતાની કંપની શરૂ કરવાની મહત્વાકાંક્ષી યોજના છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "TFNG",
+          "prompt": "Roads and roofs release the sun's heat quickly at night.",
+          "promptGu": "રસ્તા અને છાપરાં રાત્રે સૂર્યની ગરમી ઝડપથી છોડે છે.",
+          "answer": "FALSE",
+          "explanation": "Passage: 'absorb heat from the sun during the day and release it slowly at night'. 'Quickly' is the opposite of 'slowly'. Trap: opposite words.",
+          "explanationGu": "Passage: 'release it slowly at night'. વિધાનમાં 'quickly' છે, જે 'slowly' નો ઊલટો શબ્દ છે. આ 'opposite words' ની જાળ છે, તેથી FALSE. બાકીનું વાક્ય સરખું દેખાય છે, એટલે એક-એક શબ્દ ધ્યાનથી સરખાવો."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Streets with many trees are always four degrees cooler than streets without trees.",
+          "promptGu": "ઘણાં વૃક્ષોવાળી શેરીઓ હંમેશા વૃક્ષો વગરની શેરીઓ કરતાં ચાર ડિગ્રી ઠંડી હોય છે.",
+          "answer": "FALSE",
+          "explanation": "Passage: streets with many trees 'can be up to four degrees cooler ... on a summer afternoon'. 'Can be up to' means sometimes and at most four degrees, not 'always'. Trap: qualifiers.",
+          "explanationGu": "Passage: 'can be up to four degrees cooler ... on a summer afternoon'. 'can be up to' એટલે 'ક્યારેક, વધુમાં વધુ ચાર ડિગ્રી' — અને તે પણ ફક્ત ઉનાળાની બપોરે. વિધાનમાં 'always' (હંમેશા) છે, જે passage સાથે મેળ ખાતું નથી. આ qualifier ની જાળ છે, તેથી FALSE."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Tree leaves remove all the dust from city air.",
+          "promptGu": "વૃક્ષનાં પાંદડાં શહેરની હવામાંથી બધી ધૂળ દૂર કરે છે.",
+          "answer": "FALSE",
+          "explanation": "Passage: 'Their leaves catch some of the dust and smoke in the air, so the air becomes a little cleaner.' 'Some' and 'a little' are very different from 'all'.",
+          "explanationGu": "Passage: 'Their leaves catch some of the dust ... the air becomes a little cleaner.' Passage માં 'some' (થોડી) અને 'a little' (થોડી) છે, પણ વિધાનમાં 'all' (બધી) છે. અર્થ બદલાઈ જાય છે, તેથી FALSE."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Some city councils pay experts to choose suitable trees.",
+          "promptGu": "કેટલીક નગરપાલિકાઓ યોગ્ય વૃક્ષો પસંદ કરવા માટે નિષ્ણાતોને પગાર આપે છે.",
+          "answer": "TRUE",
+          "explanation": "Passage: 'many city councils now employ experts who decide which trees are suitable for each street.' 'Employ' = 'pay (someone to work)', 'decide which trees are suitable' = 'choose suitable trees'. If many councils do it, then it is true that some do it.",
+          "explanationGu": "Passage: 'many city councils now employ experts who decide which trees are suitable'. 'employ' = નોકરી પર રાખવું (એટલે પગાર આપવો), 'decide which trees are suitable' = 'choose suitable trees'. જો 'many' (ઘણી) નગરપાલિકાઓ આવું કરે છે, તો 'some' (કેટલીક) કરે છે તે પણ સાચું જ છે. તેથી TRUE. અહીં જુદા શબ્દોમાં એક જ વાત છે — આ જ paraphrase છે."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Planting trees is cheaper than putting air-conditioning in buildings.",
+          "promptGu": "વૃક્ષો વાવવાં ઇમારતોમાં એર-કન્ડિશનિંગ લગાવવા કરતાં સસ્તું છે.",
+          "answer": "NOT GIVEN",
+          "explanation": "The passage says trees work 'for a relatively low cost', but it never mentions air-conditioning or compares the two. Trap: an extra detail (a comparison) that the passage does not give.",
+          "explanationGu": "Passage માં ફક્ત 'for a relatively low cost' (પ્રમાણમાં ઓછા ખર્ચે) લખ્યું છે. એર-કન્ડિશનિંગનો ઉલ્લેખ જ નથી અને કોઈ સરખામણી પણ નથી. વિધાનમાં નવી વિગત ઉમેરાઈ છે, તેથી NOT GIVEN. તમારા પોતાના જ્ઞાનથી જવાબ ન આપો!"
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Young trees need more water than old trees.",
+          "promptGu": "નાનાં વૃક્ષોને મોટાં વૃક્ષો કરતાં વધુ પાણીની જરૂર પડે છે.",
+          "answer": "NOT GIVEN",
+          "explanation": "Passage: 'Young trees need regular water for their first few years'. The passage says nothing about how much water old trees need, so we cannot make this comparison.",
+          "explanationGu": "Passage: 'Young trees need regular water for their first few years'. પણ મોટાં (old) વૃક્ષોને કેટલું પાણી જોઈએ તે વિશે passage કશું કહેતો નથી. સરખામણી (more ... than) passage માં નથી, તેથી NOT GIVEN. 'more than', 'the biggest', 'because' જેવા શબ્દો દેખાય તો passage માં એ જ સરખામણી કે કારણ છે કે નહીં તે ચકાસો."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What is the 'urban heat island' effect?",
+          "promptGu": "'urban heat island' અસર શું છે?",
+          "options": [
+            "Cities become hotter because hard surfaces store the sun's heat",
+            "Islands near cities are hotter than the mainland",
+            "Trees release heat into the air at night",
+            "Summer afternoons are hotter in Europe"
+          ],
+          "answer": "Cities become hotter because hard surfaces store the sun's heat",
+          "explanation": "Passage: 'Roads, roofs and car parks absorb heat from the sun during the day and release it slowly at night. Scientists call this the urban heat island effect.' 'Roads, roofs and car parks' = 'hard surfaces'; 'absorb heat' = 'store the sun's heat'.",
+          "explanationGu": "Passage: 'Roads, roofs and car parks absorb heat from the sun during the day and release it slowly at night. Scientists call this the urban heat island effect.' અહીં 'Roads, roofs and car parks' = 'hard surfaces' (કઠણ સપાટીઓ), 'absorb heat' = 'store the sun's heat'. 'island' શબ્દ જોઈને બીજો option પસંદ ન કરશો — તે શબ્દ-મેળની જાળ છે."
+        }
+      ]
+    },
+    {
+      "id": "L3-03",
+      "order": 3,
+      "title": "Sentence completion and word limits",
+      "titleGu": "વાક્ય પૂર્ણ કરવું અને શબ્દ-મર્યાદા",
+      "skill": "IELTS Strategy",
+      "minutes": 18,
+      "explanation": "In sentence completion questions, you complete a sentence with words taken from the passage. These questions test careful reading, and they are a good way to get easy marks if you follow the rules.\n\nRule 1: Obey the word limit.\n• 'ONE WORD ONLY' means exactly one word.\n• 'NO MORE THAN TWO WORDS' means one or two words. Three words is wrong, even if the meaning is correct.\n• A number written as digits, such as 40, counts as one word. A hyphenated word, such as long-term, also counts as one word.\n\nRule 2: Copy the words exactly. Do not change the form of the word. If the passage says 'screens', do not write 'screen'. Check your spelling, because a spelling mistake makes the answer wrong.\n\nRule 3: The grammar must fit. Before you look at the passage, read the sentence and predict what kind of word is missing. After 'the' or 'a' you usually need a noun. After 'the brain ____ the information' you need a verb. After 'cool and ____' you need an adjective like 'cool'.\n\nRule 4: The sentence is a paraphrase. The words in the question are often different from the words in the passage. Look for synonyms: 'change ... into' may be written as 'turn ... into' in the passage.\n\nMethod: underline keywords, predict the type of word, scan for the matching part (questions follow passage order), then copy the word and read the full sentence again to check that it makes sense.",
+      "explanationGu": "Sentence completion પ્રશ્નોમાં તમારે passage માંથી શબ્દો લઈને વાક્ય પૂરું કરવાનું હોય છે. નિયમો પાળો તો આ પ્રશ્નોમાં સહેલાઈથી માર્ક મળે છે.\n\nનિયમ 1: શબ્દ-મર્યાદા (word limit) પાળો.\n• 'ONE WORD ONLY' એટલે ફક્ત એક જ શબ્દ.\n• 'NO MORE THAN TWO WORDS' એટલે એક કે બે શબ્દ. અર્થ સાચો હોય તો પણ ત્રણ શબ્દ લખશો તો જવાબ ખોટો ગણાશે.\n• આંકડો (જેમ કે 40) એક શબ્દ ગણાય છે. Hyphen વાળો શબ્દ (જેમ કે long-term) પણ એક શબ્દ ગણાય છે.\n\nનિયમ 2: શબ્દ જેવો છે તેવો જ copy કરો. શબ્દનું રૂપ ન બદલો. Passage માં 'screens' હોય તો 'screen' ન લખશો. સ્પેલિંગ ચકાસો — સ્પેલિંગની ભૂલથી જવાબ ખોટો થાય છે.\n\nનિયમ 3: વ્યાકરણ બંધબેસતું હોવું જોઈએ. Passage જોતાં પહેલાં વાક્ય વાંચીને અંદાજ લગાવો કે કયા પ્રકારનો શબ્દ ખૂટે છે. 'the' કે 'a' પછી મોટે ભાગે noun (નામ) જોઈએ. 'the brain ____ the information' માં verb (ક્રિયાપદ) જોઈએ. 'cool and ____' માં 'cool' જેવું adjective (વિશેષણ) જોઈએ.\n\nનિયમ 4: પ્રશ્નનું વાક્ય paraphrase હોય છે. પ્રશ્નના શબ્દો passage ના શબ્દોથી જુદા હોઈ શકે. સમાનાર્થી શબ્દો શોધો: પ્રશ્નમાં 'change ... into' હોય તો passage માં 'turn ... into' હોઈ શકે.\n\nપદ્ધતિ: keywords underline કરો → ખૂટતા શબ્દનો પ્રકાર ધારો → passage માં scan કરો (પ્રશ્નો ક્રમમાં જ આવે છે) → શબ્દ copy કરો → આખું વાક્ય ફરી વાંચીને ખાતરી કરો કે તે અર્થપૂર્ણ છે. તમે આ સરસ રીતે શીખી રહ્યા છો!",
+      "examples": [
+        {
+          "en": "The museum opened in the ____ . (needs a noun after 'the') → summer",
+          "gu": "The museum opened in the ____ . ('the' પછી noun જોઈએ) → summer"
+        },
+        {
+          "en": "Children should ____ fruit every day. (needs a verb after 'should') → eat",
+          "gu": "Children should ____ fruit every day. ('should' પછી verb જોઈએ) → eat"
+        },
+        {
+          "en": "NO MORE THAN TWO WORDS: 'fresh water' is correct; 'clean fresh water' is wrong.",
+          "gu": "NO MORE THAN TWO WORDS: 'fresh water' સાચું છે; 'clean fresh water' (ત્રણ શબ્દ) ખોટું છે."
+        },
+        {
+          "en": "Passage: 'turn short-term memories into long-term memories' = Question: 'change short-term memories into ____'",
+          "gu": "Passage નું 'turn ... into' અને પ્રશ્નનું 'change ... into' — બંનેનો અર્થ એક જ છે (paraphrase)."
+        }
+      ],
+      "passageTitle": "Sleep and Memory",
+      "passage": "Most people know that a good night's sleep makes them feel fresh and full of energy. But scientists have discovered that sleep does much more than this. It also plays an important role in how we learn and remember new information.\n\nDuring the day, the brain collects a huge amount of information. Some of it is useful, and some is not. While we sleep, the brain sorts this information. It strengthens the connections that are important and removes many that are not needed. In this way, sleep helps to turn short-term memories into long-term memories.\n\nIn one well-known type of experiment, volunteers are asked to learn a list of words in the evening. Half of them then sleep normally, while the other half stay awake all night. The next day, the group that slept usually remembers more words than the group that did not.\n\nSleep is especially important for students. Many students stay up late before an exam to study, but this habit may actually harm their results. Without enough sleep, the brain finds it harder to concentrate and to recall facts.\n\nExperts recommend that teenagers sleep between eight and ten hours each night, while most adults need seven to nine hours. They also suggest a few simple habits: going to bed at the same time each night, avoiding phones and screens for an hour before sleep, and keeping the bedroom cool and dark.\n\nSo, the next time you have an important test, remember that a good night's sleep may be one of your best study tools.",
+      "passageGu": "મોટાભાગના લોકો જાણે છે કે રાત્રે સારી ઊંઘ લેવાથી તેઓ તાજગી અને શક્તિથી ભરપૂર અનુભવે છે. પરંતુ વૈજ્ઞાનિકોએ શોધી કાઢ્યું છે કે ઊંઘ તેનાથી ઘણું વધારે કામ કરે છે. આપણે નવી માહિતી કેવી રીતે શીખીએ છીએ અને યાદ રાખીએ છીએ, તેમાં પણ ઊંઘની મહત્વની ભૂમિકા છે.\n\nદિવસ દરમિયાન મગજ પુષ્કળ માહિતી એકઠી કરે છે. તેમાંની કેટલીક ઉપયોગી હોય છે અને કેટલીક નહીં. આપણે ઊંઘીએ ત્યારે મગજ આ માહિતીને અલગ તારવે છે. તે મહત્વનાં જોડાણોને મજબૂત કરે છે અને જરૂર ન હોય તેવાં ઘણાં જોડાણો દૂર કરે છે. આ રીતે ઊંઘ ટૂંકા ગાળાની યાદોને લાંબા ગાળાની યાદોમાં ફેરવવામાં મદદ કરે છે.\n\nએક જાણીતા પ્રકારના પ્રયોગમાં સ્વયંસેવકોને સાંજે શબ્દોની એક યાદી શીખવાનું કહેવામાં આવે છે. પછી તેમાંથી અડધા લોકો સામાન્ય રીતે ઊંઘે છે, જ્યારે બાકીના અડધા આખી રાત જાગે છે. બીજા દિવસે, જે જૂથ ઊંઘ્યું હતું તે સામાન્ય રીતે ન ઊંઘનાર જૂથ કરતાં વધુ શબ્દો યાદ રાખે છે.\n\nવિદ્યાર્થીઓ માટે ઊંઘ ખાસ કરીને મહત્વની છે. ઘણા વિદ્યાર્થીઓ પરીક્ષા પહેલાં વાંચવા માટે મોડે સુધી જાગે છે, પરંતુ આ આદત ખરેખર તેમના પરિણામને નુકસાન કરી શકે છે. પૂરતી ઊંઘ વગર મગજને ધ્યાન કેન્દ્રિત કરવું અને હકીકતો યાદ કરવી વધુ મુશ્કેલ લાગે છે.\n\nનિષ્ણાતો ભલામણ કરે છે કે કિશોરોએ દરરોજ રાત્રે આઠથી દસ કલાક ઊંઘવું જોઈએ, જ્યારે મોટાભાગના પુખ્ત લોકોને સાતથી નવ કલાકની જરૂર હોય છે. તેઓ થોડી સરળ આદતો પણ સૂચવે છે: દરરોજ રાત્રે એક જ સમયે સૂઈ જવું, ઊંઘ પહેલાં એક કલાક સુધી ફોન અને સ્ક્રીનથી દૂર રહેવું, અને બેડરૂમને ઠંડો અને અંધારો રાખવો.\n\nતો, હવે જ્યારે તમારી કોઈ મહત્વની પરીક્ષા હોય, ત્યારે યાદ રાખજો કે રાતની સારી ઊંઘ તમારાં શ્રેષ્ઠ અભ્યાસ-સાધનોમાંનું એક હોઈ શકે છે.",
+      "vocabulary": [
+        {
+          "word": "discovered",
+          "pos": "verb",
+          "meaningGu": "શોધી કાઢ્યું",
+          "meaningEn": "found out something new for the first time",
+          "example": "Scientists discovered a new type of plant.",
+          "exampleGu": "વૈજ્ઞાનિકોએ એક નવા પ્રકારનો છોડ શોધી કાઢ્યો."
+        },
+        {
+          "word": "role",
+          "pos": "noun",
+          "meaningGu": "ભૂમિકા",
+          "meaningEn": "the job or purpose that something has in a situation",
+          "example": "Parents play an important role in a child's education.",
+          "exampleGu": "બાળકના શિક્ષણમાં માતા-પિતાની મહત્વની ભૂમિકા હોય છે."
+        },
+        {
+          "word": "strengthens",
+          "pos": "verb",
+          "meaningGu": "મજબૂત કરે છે",
+          "meaningEn": "makes something stronger",
+          "example": "Daily exercise strengthens your heart.",
+          "exampleGu": "રોજની કસરત તમારા હૃદયને મજબૂત કરે છે."
+        },
+        {
+          "word": "connections",
+          "pos": "noun",
+          "meaningGu": "જોડાણો",
+          "meaningEn": "links between two or more things",
+          "example": "There are millions of connections in the brain.",
+          "exampleGu": "મગજમાં લાખો જોડાણો હોય છે."
+        },
+        {
+          "word": "volunteers",
+          "pos": "noun",
+          "meaningGu": "સ્વયંસેવકો",
+          "meaningEn": "people who offer to do something without being forced or paid",
+          "example": "Twenty volunteers cleaned the beach.",
+          "exampleGu": "વીસ સ્વયંસેવકોએ દરિયાકિનારો સાફ કર્યો."
+        },
+        {
+          "word": "concentrate",
+          "pos": "verb",
+          "meaningGu": "ધ્યાન કેન્દ્રિત કરવું",
+          "meaningEn": "to give all your attention to something",
+          "example": "I cannot concentrate when the TV is on.",
+          "exampleGu": "ટીવી ચાલુ હોય ત્યારે હું ધ્યાન કેન્દ્રિત કરી શકતો નથી."
+        },
+        {
+          "word": "recall",
+          "pos": "verb",
+          "meaningGu": "યાદ કરવું",
+          "meaningEn": "to remember something",
+          "example": "I cannot recall his name.",
+          "exampleGu": "મને તેનું નામ યાદ આવતું નથી."
+        },
+        {
+          "word": "recommend",
+          "pos": "verb",
+          "meaningGu": "ભલામણ કરવી",
+          "meaningEn": "to say that something is good or should be done",
+          "example": "Doctors recommend drinking plenty of water.",
+          "exampleGu": "ડૉક્ટરો પુષ્કળ પાણી પીવાની ભલામણ કરે છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "FILL",
+          "prompt": "While we sleep, the brain ____ the information it collected during the day.",
+          "promptGu": "આપણે ઊંઘીએ ત્યારે મગજ દિવસ દરમિયાન એકઠી કરેલી માહિતીને ____ .",
+          "answer": "sorts",
+          "alternatives": [],
+          "explanation": "Grammar: after 'the brain' and before 'the information' we need a verb. Passage: 'While we sleep, the brain sorts this information.' Copy 'sorts' exactly, with the -s.",
+          "explanationGu": "વ્યાકરણ: 'the brain' પછી અને 'the information' પહેલાં verb (ક્રિયાપદ) જોઈએ. Passage: 'While we sleep, the brain sorts this information.' જવાબ 'sorts' છે — છેલ્લો 's' ભૂલશો નહીં, કારણ કે 'the brain' એકવચન છે.",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "Sleep helps to change short-term memories into ____ .",
+          "promptGu": "ઊંઘ ટૂંકા ગાળાની યાદોને ____ માં બદલવામાં મદદ કરે છે.",
+          "answer": "long-term memories",
+          "alternatives": [
+            "long-term memories",
+            "long term memories"
+          ],
+          "explanation": "Passage: 'sleep helps to turn short-term memories into long-term memories.' 'Change' in the question = 'turn' in the passage. 'Long-term' is a hyphenated word, so 'long-term memories' is two words.",
+          "explanationGu": "Passage: 'sleep helps to turn short-term memories into long-term memories.' પ્રશ્નમાં 'change' છે અને passage માં 'turn' — બંનેનો અર્થ 'બદલવું' (paraphrase). 'long-term' hyphen વાળો હોવાથી એક શબ્દ ગણાય, એટલે 'long-term memories' બે જ શબ્દ છે — મર્યાદામાં છે.",
+          "wordLimit": "NO MORE THAN TWO WORDS"
+        },
+        {
+          "type": "FILL",
+          "prompt": "In the experiment, volunteers learn a list of words in the ____ .",
+          "promptGu": "પ્રયોગમાં સ્વયંસેવકો ____ માં શબ્દોની યાદી શીખે છે.",
+          "answer": "evening",
+          "alternatives": [],
+          "explanation": "After 'in the' we need a noun, probably a time. Passage: 'volunteers are asked to learn a list of words in the evening.'",
+          "explanationGu": "'in the' પછી noun જોઈએ — કદાચ સમય. Passage: 'volunteers are asked to learn a list of words in the evening.' 'volunteers' અને 'list of words' keywords થી ત્રીજો paragraph શોધો.",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "Without enough sleep, it is harder for the brain to concentrate and to ____ facts.",
+          "promptGu": "પૂરતી ઊંઘ વગર મગજ માટે ધ્યાન કેન્દ્રિત કરવું અને હકીકતો ____ વધુ મુશ્કેલ છે.",
+          "answer": "recall",
+          "alternatives": [],
+          "explanation": "After 'to' we need the base form of a verb. Passage: 'the brain finds it harder to concentrate and to recall facts.' 'Finds it harder' is paraphrased as 'it is harder for the brain'.",
+          "explanationGu": "'to' પછી verb નું મૂળ રૂપ જોઈએ. Passage: 'the brain finds it harder to concentrate and to recall facts.' પ્રશ્નમાં 'it is harder for the brain' એ 'the brain finds it harder' નું paraphrase છે. જવાબ: 'recall' (યાદ કરવું).",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "Experts advise people to avoid phones and ____ for an hour before sleep.",
+          "promptGu": "નિષ્ણાતો ઊંઘ પહેલાં એક કલાક ફોન અને ____ થી દૂર રહેવાની સલાહ આપે છે.",
+          "answer": "screens",
+          "alternatives": [],
+          "explanation": "Passage: 'avoiding phones and screens for an hour before sleep'. 'Experts advise' = 'they also suggest'. The answer is plural, like 'phones', so write 'screens', not 'screen'.",
+          "explanationGu": "Passage: 'avoiding phones and screens for an hour before sleep'. 'Experts advise' = 'they suggest' (paraphrase). 'phones' બહુવચન છે, એટલે 'screens' પણ બહુવચન — 'screen' લખશો તો જવાબ ખોટો ગણાઈ શકે. શબ્દ જેવો છે તેવો જ copy કરો!",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "MCQ",
+          "prompt": "In the experiment, what usually happens to the volunteers who sleep normally?",
+          "promptGu": "પ્રયોગમાં, સામાન્ય રીતે ઊંઘનાર સ્વયંસેવકો સાથે સામાન્ય રીતે શું થાય છે?",
+          "options": [
+            "They remember more words the next day",
+            "They forget all of the words",
+            "They learn the words more slowly",
+            "They feel more tired the next day"
+          ],
+          "answer": "They remember more words the next day",
+          "explanation": "Passage: 'The next day, the group that slept usually remembers more words than the group that did not.' The other options are not in the passage ('all' and 'more tired' are traps).",
+          "explanationGu": "Passage: 'The next day, the group that slept usually remembers more words than the group that did not.' બીજા options passage માં નથી. 'forget all' માં 'all' એ qualifier ની જાળ છે."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Staying up late to study always improves students' exam results.",
+          "promptGu": "વાંચવા માટે મોડે સુધી જાગવાથી વિદ્યાર્થીઓનું પરિણામ હંમેશા સુધરે છે.",
+          "answer": "FALSE",
+          "explanation": "Passage: 'Many students stay up late before an exam to study, but this habit may actually harm their results.' 'Harm' is the opposite of 'improve'.",
+          "explanationGu": "Passage: 'this habit may actually harm their results.' 'harm' (નુકસાન કરવું) એ 'improve' (સુધારવું) નો ઊલટો અર્થ છે. તેથી FALSE."
+        }
+      ]
+    },
+    {
+      "id": "L3-04",
+      "order": 4,
+      "title": "Multiple choice: eliminating wrong options",
+      "titleGu": "બહુવિકલ્પ પ્રશ્નો: ખોટા વિકલ્પો દૂર કરવા",
+      "skill": "IELTS Strategy",
+      "minutes": 18,
+      "explanation": "In multiple choice questions, you choose the correct answer from three or four options. The wrong options are written carefully to trap you, so the best strategy is often to eliminate (remove) the wrong options one by one.\n\nStep by step: 1. Read the question stem (the question itself) first, not the options. Underline the keywords. 2. Find the part of the passage that answers the question. The questions follow passage order. 3. Read that part carefully, then look at each option and cross out the wrong ones.\n\nTypical wrong options:\n• Word match trap: the option uses exact words from the passage, but the meaning is different. Be careful when an option 'looks' like the passage.\n• True but not the answer: the option is true according to the passage, but it does not answer this question. For example, the question asks 'why', but the option describes 'what'.\n• Opposite: the option says the opposite of the passage.\n• Not mentioned: the option sounds sensible, but the passage does not say it.\n• Wrong time or wrong person: the information is in the passage, but it belongs to a different part of the story.\n\nThe correct option is usually a paraphrase. It has the same meaning as the passage, but it uses different words. If two options seem correct, go back to the passage and look for a small difference, such as a qualifier or a time word ('later', 'at first').",
+      "explanationGu": "Multiple choice પ્રશ્નોમાં ત્રણ કે ચાર વિકલ્પોમાંથી સાચો જવાબ પસંદ કરવાનો હોય છે. ખોટા વિકલ્પો તમને ફસાવવા માટે ખૂબ ધ્યાનથી લખાયેલા હોય છે. તેથી ખોટા વિકલ્પોને એક પછી એક દૂર (eliminate) કરવાની પદ્ધતિ શ્રેષ્ઠ છે.\n\nપગલાં: 1. પહેલાં ફક્ત પ્રશ્ન (question stem) વાંચો, options નહીં. Keywords underline કરો. 2. Passage માં જવાબ ધરાવતો ભાગ શોધો. પ્રશ્નો passage ના ક્રમમાં જ આવે છે. 3. તે ભાગ ધ્યાનથી વાંચો, પછી દરેક option જુઓ અને ખોટા વિકલ્પો પર ચોકડી મારો.\n\nસામાન્ય ખોટા વિકલ્પો:\n• શબ્દ-મેળની જાળ: option માં passage ના એ જ શબ્દો હોય, પણ અર્થ જુદો હોય. Option passage જેવો 'દેખાય' ત્યારે ખાસ સાવધાન રહો.\n• સાચું, પણ જવાબ નહીં: option passage મુજબ સાચો હોય, પણ આ પ્રશ્નનો જવાબ ન હોય. ઉદાહરણ: પ્રશ્ન 'why' (શા માટે) પૂછે, પણ option 'what' (શું) કહે.\n• ઊલટું: option passage થી વિરુદ્ધ વાત કહે.\n• ઉલ્લેખ નથી: option સમજદાર લાગે, પણ passage માં તે વાત ન હોય.\n• ખોટો સમય કે ખોટી વ્યક્તિ: માહિતી passage માં હોય, પણ વાર્તાના બીજા ભાગની હોય.\n\nસાચો option મોટે ભાગે paraphrase હોય છે — અર્થ એ જ, શબ્દો જુદા. જો બે options સાચા લાગે, તો passage માં પાછા જાઓ અને નાનો ફરક શોધો, જેમ કે qualifier કે સમય દર્શાવતો શબ્દ ('later', 'at first'). ધીરજ રાખો — elimination થી તમારો સ્કોર ચોક્કસ વધશે!",
+      "examples": [
+        {
+          "en": "Question: Why did he move to the city? Option: 'He moved in 1990.' → True but does not answer 'why'.",
+          "gu": "પ્રશ્ન: તે શહેરમાં કેમ ગયો? Option: 'તે 1990 માં ગયો.' → સાચું, પણ 'કેમ' નો જવાબ નથી."
+        },
+        {
+          "en": "Passage: 'The bridge was not finished until 1932.' Option: 'The bridge was finished before 1932.' → Opposite.",
+          "gu": "Passage: 'પુલ 1932 સુધી પૂરો થયો નહોતો.' Option: 'પુલ 1932 પહેલાં પૂરો થયો.' → ઊલટું."
+        },
+        {
+          "en": "Passage: 'Riders sat high above the ground.' Correct paraphrase: 'Riders were far from the ground.'",
+          "gu": "Passage: 'સવાર જમીનથી ઘણા ઊંચે બેસતા.' સાચું paraphrase: 'સવાર જમીનથી દૂર હતા.'"
+        },
+        {
+          "en": "I eliminated two options quickly, then compared the last two carefully.",
+          "gu": "મેં બે options ઝડપથી દૂર કર્યા, પછી છેલ્લા બેની ધ્યાનથી સરખામણી કરી."
+        }
+      ],
+      "passageTitle": "The Bicycle: A Simple Machine That Changed the World",
+      "passage": "The bicycle is one of the most common machines on Earth. There are more than one billion bicycles in the world today, about twice as many as cars. Yet the first bicycles looked very different from the ones we ride now.\n\nThe earliest bicycle was built in Germany in 1817 by Karl Drais. It was made of wood and had no pedals. The rider sat on it and pushed the ground with his feet. People called it the 'running machine'. It was fun, but it was not very practical on rough roads.\n\nIn the 1860s, French makers added pedals to the front wheel. Later, some designers made the front wheel very large, because a bigger wheel travelled further with each turn of the pedals. These 'high-wheel' bicycles were fast, but they were also dangerous. Riders sat high above the ground and often fell off.\n\nThe real change came in the 1880s with the 'safety bicycle'. It had two wheels of the same size and a chain that connected the pedals to the back wheel. A few years later, air-filled rubber tyres made the ride much more comfortable. The basic design of the safety bicycle has hardly changed since then.\n\nThe bicycle had a big effect on society. It gave ordinary workers a cheap way to travel to jobs further from home. It also gave many women a new sense of freedom, as they could travel alone for the first time.\n\nToday, many cities are building bicycle lanes again. Cycling produces no pollution, and it is good exercise, so planners see it as part of a healthier future.",
+      "passageGu": "સાઇકલ પૃથ્વી પરનાં સૌથી સામાન્ય યંત્રોમાંનું એક છે. આજે દુનિયામાં એક અબજથી વધુ સાઇકલો છે — કારો કરતાં લગભગ બમણી. છતાં પહેલી સાઇકલો આજે આપણે ચલાવીએ છીએ તેના કરતાં ઘણી જુદી દેખાતી હતી.\n\nસૌથી પહેલી સાઇકલ 1817 માં જર્મનીમાં કાર્લ ડ્રાઇસે બનાવી હતી. તે લાકડાની બનેલી હતી અને તેમાં પેડલ નહોતાં. સવાર તેના પર બેસીને પગથી જમીનને ધક્કો મારતો. લોકો તેને 'દોડવાનું યંત્ર' (running machine) કહેતા. તે મજાની હતી, પણ ખરબચડા રસ્તા પર બહુ વ્યવહારુ નહોતી.\n\n1860 ના દાયકામાં ફ્રાન્સના ઉત્પાદકોએ આગળના પૈડા પર પેડલ લગાવ્યાં. પછી કેટલાક ડિઝાઇનરોએ આગળનું પૈડું ખૂબ મોટું બનાવ્યું, કારણ કે મોટું પૈડું પેડલના દરેક ચક્કરમાં વધુ અંતર કાપતું. આ 'high-wheel' સાઇકલો ઝડપી હતી, પણ જોખમી પણ હતી. સવાર જમીનથી ઘણા ઊંચે બેસતા અને વારંવાર પડી જતા.\n\nસાચો બદલાવ 1880 ના દાયકામાં 'safety bicycle' (સલામત સાઇકલ) સાથે આવ્યો. તેમાં એકસરખા કદનાં બે પૈડાં હતાં અને એક ચેઇન હતી જે પેડલને પાછળના પૈડા સાથે જોડતી. થોડાં વર્ષો પછી હવા ભરેલાં રબરનાં ટાયરોએ સવારીને વધુ આરામદાયક બનાવી. ત્યારથી safety bicycle ની મૂળ ડિઝાઇન ભાગ્યે જ બદલાઈ છે.\n\nસાઇકલની સમાજ પર મોટી અસર થઈ. તેણે સામાન્ય કામદારોને ઘરથી દૂરની નોકરીએ જવા માટે સસ્તું સાધન આપ્યું. તેણે ઘણી સ્ત્રીઓને સ્વતંત્રતાનો નવો અનુભવ પણ આપ્યો, કારણ કે તેઓ પહેલી વાર એકલી મુસાફરી કરી શકતી હતી.\n\nઆજે ઘણાં શહેરો ફરીથી સાઇકલ માટેના અલગ માર્ગો (bicycle lanes) બનાવી રહ્યાં છે. સાઇકલ ચલાવવાથી કોઈ પ્રદૂષણ થતું નથી અને તે સારી કસરત છે, તેથી આયોજકો તેને વધુ સ્વસ્થ ભવિષ્યનો ભાગ માને છે.",
+      "vocabulary": [
+        {
+          "word": "common",
+          "pos": "adjective",
+          "meaningGu": "સામાન્ય, સહેલાઈથી જોવા મળતું",
+          "meaningEn": "existing in large numbers; found in many places",
+          "example": "Rice is a common food in Asia.",
+          "exampleGu": "એશિયામાં ભાત એક સામાન્ય ખોરાક છે."
+        },
+        {
+          "word": "pedals",
+          "pos": "noun",
+          "meaningGu": "પેડલ",
+          "meaningEn": "the parts of a bicycle that you push with your feet to make it move",
+          "example": "Push the pedals harder to go faster.",
+          "exampleGu": "વધુ ઝડપથી જવા માટે પેડલ જોરથી દબાવો."
+        },
+        {
+          "word": "practical",
+          "pos": "adjective",
+          "meaningGu": "વ્યવહારુ",
+          "meaningEn": "useful and suitable for real situations",
+          "example": "Sports shoes are practical for long walks.",
+          "exampleGu": "લાંબું ચાલવા માટે સ્પોર્ટ્સ શૂઝ વ્યવહારુ છે."
+        },
+        {
+          "word": "rough",
+          "pos": "adjective",
+          "meaningGu": "ખરબચડું",
+          "meaningEn": "not smooth or flat",
+          "example": "The village road was rough and full of stones.",
+          "exampleGu": "ગામનો રસ્તો ખરબચડો અને પથ્થરોથી ભરેલો હતો."
+        },
+        {
+          "word": "dangerous",
+          "pos": "adjective",
+          "meaningGu": "જોખમી, ખતરનાક",
+          "meaningEn": "likely to hurt people",
+          "example": "It is dangerous to use a phone while driving.",
+          "exampleGu": "ગાડી ચલાવતી વખતે ફોન વાપરવો જોખમી છે."
+        },
+        {
+          "word": "connected",
+          "pos": "verb",
+          "meaningGu": "જોડ્યું",
+          "meaningEn": "joined two things together",
+          "example": "The new road connected the two villages.",
+          "exampleGu": "નવા રસ્તાએ બે ગામોને જોડ્યાં."
+        },
+        {
+          "word": "comfortable",
+          "pos": "adjective",
+          "meaningGu": "આરામદાયક",
+          "meaningEn": "making you feel relaxed and free from pain",
+          "example": "This sofa is very comfortable.",
+          "exampleGu": "આ સોફા ખૂબ આરામદાયક છે."
+        },
+        {
+          "word": "freedom",
+          "pos": "noun",
+          "meaningGu": "સ્વતંત્રતા",
+          "meaningEn": "the ability to do what you want, without being controlled",
+          "example": "Having a job gave her financial freedom.",
+          "exampleGu": "નોકરીથી તેને આર્થિક સ્વતંત્રતા મળી."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "Why was the first bicycle called the 'running machine'?",
+          "promptGu": "પહેલી સાઇકલને 'running machine' કેમ કહેવાતી?",
+          "options": [
+            "Riders moved it by pushing the ground with their feet",
+            "It was faster than a running horse",
+            "It was used by runners for training",
+            "It was made of wood"
+          ],
+          "answer": "Riders moved it by pushing the ground with their feet",
+          "explanation": "Passage: 'The rider sat on it and pushed the ground with his feet. People called it the running machine.' Eliminate: 'faster than a horse' and 'used by runners' are not mentioned; 'made of wood' is true but it does not explain the name (true but not the answer).",
+          "explanationGu": "Passage: 'The rider sat on it and pushed the ground with his feet. People called it the running machine.' Elimination: 'faster than a running horse' અને 'used by runners' નો passage માં ઉલ્લેખ નથી. 'made of wood' સાચું છે, પણ નામનું કારણ નથી — 'સાચું, પણ જવાબ નહીં' ની જાળ."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Why did some designers make the front wheel very large?",
+          "promptGu": "કેટલાક ડિઝાઇનરોએ આગળનું પૈડું ખૂબ મોટું કેમ બનાવ્યું?",
+          "options": [
+            "To make the bicycle safer",
+            "Because a bigger wheel went further with each turn of the pedals",
+            "Because riders wanted to sit high above the ground",
+            "To make the bicycle cheaper"
+          ],
+          "answer": "Because a bigger wheel went further with each turn of the pedals",
+          "explanation": "Passage: 'some designers made the front wheel very large, because a bigger wheel travelled further with each turn of the pedals.' 'Travelled further' = 'went further'. 'Safer' is the opposite (they were 'dangerous'). Sitting high was a result, not the reason. Price is not mentioned.",
+          "explanationGu": "Passage: 'because a bigger wheel travelled further with each turn of the pedals.' 'travelled further' = 'went further' (paraphrase). 'safer' ઊલટું છે — passage માં 'dangerous' લખ્યું છે. ઊંચે બેસવું એ પરિણામ હતું, કારણ નહીં. કિંમતનો ઉલ્લેખ જ નથી. 'because' શબ્દ કારણ બતાવે છે — તેને શોધો!"
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What was special about the safety bicycle when it first appeared?",
+          "promptGu": "Safety bicycle પહેલી વાર આવી ત્યારે તેમાં શું ખાસ હતું?",
+          "options": [
+            "It had air-filled rubber tyres",
+            "Its pedals were on the front wheel",
+            "Its two wheels were the same size",
+            "It was made of wood"
+          ],
+          "answer": "Its two wheels were the same size",
+          "explanation": "Passage: 'It had two wheels of the same size and a chain that connected the pedals to the back wheel.' The tyres came 'a few years later', so that option is a wrong-time trap. Pedals on the front wheel and wood belong to older bicycles.",
+          "explanationGu": "Passage: 'It had two wheels of the same size'. Air-filled tyres 'a few years later' (થોડાં વર્ષો પછી) આવ્યાં — એટલે તે 'ખોટા સમય' ની જાળ છે. આગળના પૈડા પર પેડલ અને લાકડું જૂની સાઇકલોની વાત છે. પ્રશ્નમાં 'when it first appeared' શબ્દો ખૂબ મહત્વના છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "According to the passage, how did the bicycle help many women?",
+          "promptGu": "Passage મુજબ, સાઇકલે ઘણી સ્ત્રીઓને કેવી રીતે મદદ કરી?",
+          "options": [
+            "It helped them find jobs in factories",
+            "It allowed them to travel alone",
+            "It made them healthier",
+            "It gave them a cheap way to go shopping"
+          ],
+          "answer": "It allowed them to travel alone",
+          "explanation": "Passage: 'It also gave many women a new sense of freedom, as they could travel alone for the first time.' 'Could travel alone' = 'allowed them to travel alone'. Jobs are connected to 'ordinary workers', not women (wrong person). Health and shopping are not mentioned for women.",
+          "explanationGu": "Passage: 'gave many women a new sense of freedom, as they could travel alone for the first time.' 'could travel alone' = 'allowed them to travel alone'. નોકરીની વાત 'ordinary workers' માટે છે, સ્ત્રીઓ માટે નહીં — 'ખોટી વ્યક્તિ' ની જાળ. સ્વાસ્થ્ય અને ખરીદીનો સ્ત્રીઓ સંદર્ભે ઉલ્લેખ નથી."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Why do city planners support cycling today?",
+          "promptGu": "આજે શહેરી આયોજકો સાઇકલ ચલાવવાને કેમ ટેકો આપે છે?",
+          "options": [
+            "Bicycles are cheaper than cars",
+            "There are more bicycles than cars",
+            "It is clean and healthy",
+            "Bicycle lanes are easy to build"
+          ],
+          "answer": "It is clean and healthy",
+          "explanation": "Passage: 'Cycling produces no pollution, and it is good exercise, so planners see it as part of a healthier future.' 'No pollution' = 'clean'; 'good exercise' = 'healthy'. 'More bicycles than cars' is true (paragraph 1) but it is not the reason given here.",
+          "explanationGu": "Passage: 'Cycling produces no pollution, and it is good exercise, so planners see it as part of a healthier future.' 'no pollution' = 'clean' અને 'good exercise' = 'healthy'. 'more bicycles than cars' passage માં સાચું છે, પણ અહીં કારણ તરીકે નથી આપ્યું. 'so' શબ્દ પહેલાં કારણ લખેલું હોય છે."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "There are more cars than bicycles in the world today.",
+          "promptGu": "આજે દુનિયામાં સાઇકલો કરતાં કારો વધુ છે.",
+          "answer": "FALSE",
+          "explanation": "Passage: 'There are more than one billion bicycles in the world today, about twice as many as cars.' So there are more bicycles than cars, the opposite of the statement.",
+          "explanationGu": "Passage: 'more than one billion bicycles ... about twice as many as cars.' એટલે સાઇકલો કારો કરતાં બમણી છે. વિધાન ઊલટું કહે છે, તેથી FALSE."
+        },
+        {
+          "type": "FILL",
+          "prompt": "The safety bicycle had a ____ that joined the pedals to the back wheel.",
+          "promptGu": "Safety bicycle માં એક ____ હતી જે પેડલને પાછળના પૈડા સાથે જોડતી.",
+          "answer": "chain",
+          "alternatives": [],
+          "explanation": "Passage: 'a chain that connected the pedals to the back wheel.' 'Joined' in the question = 'connected' in the passage. After 'a' we need a singular noun: 'chain'.",
+          "explanationGu": "Passage: 'a chain that connected the pedals to the back wheel.' પ્રશ્નનું 'joined' = passage નું 'connected'. 'a' પછી એકવચન noun જોઈએ: 'chain'.",
+          "wordLimit": "ONE WORD ONLY"
+        }
+      ]
+    }
+  ]
+}

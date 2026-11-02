@@ -1,0 +1,534 @@
+{
+  "id": "L6",
+  "order": 6,
+  "title": "IELTS Band 8+",
+  "titleGu": "IELTS બેન્ડ 8+",
+  "band": "C1+ · IELTS Band 8+",
+  "description": "Read dense argumentative texts like an expert. Follow complex arguments, identify the writer's purpose and tone, and avoid every common trap.",
+  "descriptionGu": "ગાઢ દલીલાત્મક લખાણો નિષ્ણાતની જેમ વાંચો. જટિલ દલીલો અનુસરો, લેખકનો હેતુ અને સૂર ઓળખો, અને દરેક સામાન્ય જાળથી બચો.",
+  "lessons": [
+    {
+      "id": "L6-01",
+      "order": 1,
+      "title": "Following Complex Arguments",
+      "titleGu": "જટિલ દલીલોને અનુસરવી: દાવો, પ્રતિ-દાવો અને સ્વીકાર",
+      "skill": "Reading",
+      "minutes": 22,
+      "explanation": "Band 8 passages are rarely simple descriptions. They are debates: the writer reports one view, presents an objection, partly accepts it, and then gives a final position. To answer correctly you must know WHOSE idea each sentence expresses and HOW STRONGLY it is held.\n\nThree building blocks:\n• Claim: a position someone argues for ('Proponents maintain that...', 'It is often argued that...').\n• Counter-claim: an opposing view ('Critics counter that...', 'Others reject this...', 'On the contrary...').\n• Concession: admitting that part of the other side is correct before continuing your own argument ('Admittedly...', 'It is true that... ; however...', 'Although X, Y', 'X; nevertheless, Y').\n\nThe golden rule of concession: the idea AFTER however / nevertheless / yet / but usually carries the writer's real view. In 'Although growth has reduced poverty, it cannot continue indefinitely', the writer accepts the first part but the main point is the second.\n\nCommon traps:\n• Attribution trap: a YES/NO statement repeats a view the writer only REPORTS ('Some economists argue...'). That is not necessarily the writer's opinion.\n• Reversal trap: the statement matches the concession part, but the writer then rejects or limits it.\n• Strength trap: 'partly', 'in some cases' in the passage vs. 'always' in the question.\n\nPractical routine: while reading, mark each paragraph in the margin with C (claim), CC (counter-claim) or W (writer's own view). Circle every however, although, nevertheless, admittedly and yet. These signposts are the map of the argument.",
+      "explanationGu": "Band 8 ના passage ભાગ્યે જ સાદાં વર્ણન હોય છે. તે ચર્ચા (debate) હોય છે: લેખક એક મત રજૂ કરે છે, તેની સામે વાંધો આપે છે, તેનો થોડો ભાગ સ્વીકારે છે અને પછી અંતિમ મત આપે છે. સાચો જવાબ આપવા તમારે જાણવું પડે કે દરેક વાક્ય 'કોનો' મત છે અને તે 'કેટલી તાકાતથી' કહેવાયો છે.\n\nત્રણ મૂળભૂત ઘટકો:\n• Claim (દાવો): કોઈ પક્ષ જે મતની તરફેણ કરે ('Proponents maintain that...', 'It is often argued that...').\n• Counter-claim (પ્રતિ-દાવો): વિરોધી મત ('Critics counter that...', 'Others reject this...').\n• Concession (સ્વીકાર): પોતાની દલીલ આગળ વધારતાં પહેલાં સામેના પક્ષની થોડી વાત સાચી છે એમ માનવું ('Admittedly...', 'It is true that... ; however...', 'Although X, Y', 'X; nevertheless, Y').\n\nConcession નો સુવર્ણ નિયમ: however / nevertheless / yet / but પછી આવતો ભાગ સામાન્ય રીતે લેખકનો સાચો મત હોય છે. 'Although growth has reduced poverty, it cannot continue indefinitely' માં લેખક પહેલો ભાગ સ્વીકારે છે, પણ મુખ્ય મુદ્દો બીજો ભાગ છે.\n\nસામાન્ય જાળ:\n• Attribution trap: YES/NO વિધાન એવો મત રજૂ કરે જે લેખક માત્ર 'જણાવે' છે ('Some economists argue...'). તે લેખકનો પોતાનો મત હોય એ જરૂરી નથી.\n• Reversal trap: વિધાન concession વાળા ભાગ સાથે મેળ ખાય, પણ લેખક પછી તેને નકારે કે મર્યાદિત કરે.\n• Strength trap: passage માં 'partly', 'in some cases' અને પ્રશ્નમાં 'always'.\n\nવ્યવહારુ રીત: વાંચતી વખતે દરેક ફકરાની બાજુમાં C (claim), CC (counter-claim) કે W (writer નો મત) લખો. દરેક however, although, nevertheless, admittedly, yet પર વર્તુળ કરો. આ સંકેત-શબ્દો દલીલનો નકશો છે.",
+      "examples": [
+        {
+          "en": "Admittedly, the policy is expensive; nevertheless, its long-term benefits are clear.",
+          "gu": "માન્યું કે નીતિ મોંઘી છે; તેમ છતાં તેના લાંબા ગાળાના ફાયદા સ્પષ્ટ છે. (લેખકનો મત: ફાયદા સ્પષ્ટ છે)"
+        },
+        {
+          "en": "Critics counter that the data are incomplete.",
+          "gu": "ટીકાકારો સામે દલીલ કરે છે કે ડેટા અધૂરો છે. (આ ટીકાકારોનો મત છે, લેખકનો નહીં)"
+        },
+        {
+          "en": "Although technology helps, it is not a complete solution.",
+          "gu": "ટેકનોલોજી મદદ કરે છે છતાં તે સંપૂર્ણ ઉકેલ નથી."
+        },
+        {
+          "en": "It is often argued that X. This view, however, ignores Y.",
+          "gu": "ઘણીવાર દલીલ થાય છે કે X. પરંતુ આ મત Y ને અવગણે છે. (લેખક X ને નકારે છે)"
+        },
+        {
+          "en": "The evidence is, at best, mixed.",
+          "gu": "પુરાવા, વધુમાં વધુ, મિશ્ર છે. (લેખક શંકાશીલ છે)"
+        }
+      ],
+      "passageTitle": "Can Growth Be Green?",
+      "passage": "For most of the twentieth century, economic growth and environmental damage rose together. As factories expanded and incomes increased, so did the consumption of fossil fuels and the emission of greenhouse gases. It is therefore not surprising that a vocal minority of economists now argue that rich countries should deliberately stop pursuing growth. Advocates of this position, often described as 'degrowth', maintain that no technological innovation can reduce environmental pressure quickly enough while total output continues to expand.\n\nSupporters of 'green growth' reject this conclusion. They point out that a number of wealthy economies have, in recent decades, increased their gross domestic product while reducing their carbon emissions in absolute terms. This process, known as 'decoupling', is presented as evidence that prosperity and environmental protection need not be in conflict. Renewable energy, they argue, has become cheaper than coal in many markets, and the remaining obstacles are political rather than technical.\n\nAdmittedly, the evidence for decoupling is real. Yet its significance is easily exaggerated. Much of the reduction in emissions has occurred in electricity generation, which is comparatively easy to transform; sectors such as aviation, cement and agriculture have proved far more resistant. Moreover, some apparent progress reflects the relocation of heavy industry to other countries. When emissions are measured according to where goods are consumed rather than where they are produced, the improvement in several rich nations becomes considerably smaller. Most importantly, the critical question is not whether decoupling occurs, but whether it occurs fast enough to meet climate targets. On present trends, it does not.\n\nNone of this, however, makes the degrowth case convincing. Deliberately shrinking an economy would almost certainly increase unemployment and reduce the tax revenues that fund public services, including the very investments in clean energy that a transition requires. Furthermore, a policy that asks voters to accept lower living standards is unlikely to survive a single election. Degrowth advocates respond that well-being depends less on income than on security, health and leisure, and that a carefully managed contraction could protect these. The argument has some merit, but no country has yet demonstrated how such a transition might be achieved peacefully.\n\nA more productive approach may be to set aside the question of growth altogether. Instead of treating GDP as the central objective, governments could set binding limits on emissions and resource use, and then allow the economy to grow, or not, within those limits. If clean technologies advance rapidly, growth will continue; if they do not, the limits will still be respected. Such a framework does not resolve the philosophical disagreement between the two camps, but it shifts attention from a symbolic debate about growth to the practical question that matters most: how quickly emissions actually fall.",
+      "passageGu": "વીસમી સદીના મોટાભાગના સમય દરમિયાન આર્થિક વૃદ્ધિ અને પર્યાવરણીય નુકસાન સાથે સાથે વધ્યાં. કારખાનાં વિસ્તર્યાં અને આવક વધી તેમ અશ્મિભૂત ઇંધણનો વપરાશ અને ગ્રીનહાઉસ વાયુઓનું ઉત્સર્જન પણ વધ્યું. તેથી એમાં આશ્ચર્ય નથી કે અર્થશાસ્ત્રીઓનો એક બોલકો લઘુમતી વર્ગ હવે દલીલ કરે છે કે ધનિક દેશોએ જાણી જોઈને વૃદ્ધિનો પીછો કરવાનું બંધ કરવું જોઈએ. આ મતના સમર્થકો, જેને ઘણીવાર 'degrowth' (ઘટ-વૃદ્ધિ) કહેવાય છે, દૃઢપણે કહે છે કે કુલ ઉત્પાદન વધતું રહે ત્યાં સુધી કોઈ ટેકનોલોજીકલ નવીનતા પર્યાવરણ પરનું દબાણ પૂરતી ઝડપથી ઘટાડી શકે નહીં.\n\n'Green growth' (હરિત વૃદ્ધિ) ના સમર્થકો આ નિષ્કર્ષને નકારે છે. તેઓ ધ્યાન દોરે છે કે કેટલાંક ધનિક અર્થતંત્રોએ તાજેતરના દાયકાઓમાં પોતાનું કુલ ઘરેલું ઉત્પાદન (GDP) વધાર્યું છે અને સાથે કાર્બન ઉત્સર્જન નિરપેક્ષ રીતે ઘટાડ્યું છે. 'Decoupling' (અલગ થવું) તરીકે ઓળખાતી આ પ્રક્રિયાને એ વાતના પુરાવા તરીકે રજૂ કરાય છે કે સમૃદ્ધિ અને પર્યાવરણ-રક્ષણ વચ્ચે સંઘર્ષ હોવો જરૂરી નથી. તેઓ દલીલ કરે છે કે ઘણાં બજારોમાં નવીનીકરણીય ઊર્જા કોલસા કરતાં સસ્તી બની ગઈ છે, અને બાકી રહેલા અવરોધો ટેકનિકલ નહીં પણ રાજકીય છે.\n\nમાન્યું કે decoupling ના પુરાવા વાસ્તવિક છે. છતાં તેનું મહત્વ સહેલાઈથી વધારીને બતાવાય છે. ઉત્સર્જનમાં મોટાભાગનો ઘટાડો વીજળી-ઉત્પાદનમાં થયો છે, જેને બદલવું પ્રમાણમાં સહેલું છે; હવાઈ પરિવહન, સિમેન્ટ અને ખેતી જેવાં ક્ષેત્રો ઘણાં વધુ અડગ સાબિત થયાં છે. વધુમાં, દેખાતી કેટલીક પ્રગતિ ભારે ઉદ્યોગોને બીજા દેશોમાં ખસેડવાનું પરિણામ છે. જ્યારે ઉત્સર્જન વસ્તુઓ ક્યાં ઉત્પન્ન થાય છે તેના બદલે ક્યાં વપરાય છે તે મુજબ માપવામાં આવે, ત્યારે કેટલાક ધનિક દેશોનો સુધારો ઘણો નાનો થઈ જાય છે. સૌથી મહત્વનું એ કે નિર્ણાયક પ્રશ્ન decoupling થાય છે કે નહીં તે નથી, પણ તે આબોહવા-લક્ષ્યો પૂરાં કરવા જેટલી ઝડપથી થાય છે કે નહીં તે છે. હાલના વલણો મુજબ, તે થતું નથી.\n\nપરંતુ આમાંનું કશું degrowth ની દલીલને વિશ્વસનીય બનાવતું નથી. જાણી જોઈને અર્થતંત્રને સંકોચવાથી લગભગ ચોક્કસ બેરોજગારી વધશે અને જાહેર સેવાઓને ભંડોળ આપતી કરની આવક ઘટશે, જેમાં સંક્રમણ માટે જરૂરી સ્વચ્છ ઊર્જાનાં રોકાણો પણ સામેલ છે. વધુમાં, મતદારોને નીચું જીવનધોરણ સ્વીકારવાનું કહેતી નીતિ એક પણ ચૂંટણીમાં ટકી રહે તેવી શક્યતા ઓછી છે. Degrowth ના સમર્થકો જવાબ આપે છે કે સુખાકારી આવક કરતાં સુરક્ષા, આરોગ્ય અને ફુરસદ પર વધુ આધાર રાખે છે, અને કાળજીપૂર્વક સંચાલિત સંકોચન આ બાબતોનું રક્ષણ કરી શકે. આ દલીલમાં થોડું તથ્ય છે, પણ હજી સુધી કોઈ દેશે બતાવ્યું નથી કે આવું સંક્રમણ શાંતિપૂર્વક કેવી રીતે સિદ્ધ થઈ શકે.\n\nવધુ ઉપયોગી અભિગમ કદાચ વૃદ્ધિના પ્રશ્નને સંપૂર્ણપણે બાજુએ મૂકવાનો છે. GDP ને કેન્દ્રીય ઉદ્દેશ માનવાને બદલે, સરકારો ઉત્સર્જન અને સંસાધનના ઉપયોગ પર બંધનકારક મર્યાદાઓ નક્કી કરી શકે, અને પછી અર્થતંત્રને એ મર્યાદાઓની અંદર વધવા દે કે ન વધવા દે. જો સ્વચ્છ ટેકનોલોજી ઝડપથી આગળ વધે તો વૃદ્ધિ ચાલુ રહેશે; જો ન વધે તો પણ મર્યાદાઓનું પાલન થશે. આવું માળખું બંને પક્ષો વચ્ચેના તાત્વિક મતભેદને ઉકેલતું નથી, પણ તે વૃદ્ધિ વિશેની પ્રતીકાત્મક ચર્ચાથી ધ્યાન હટાવીને સૌથી મહત્વના વ્યવહારુ પ્રશ્ન પર લાવે છે: ઉત્સર્જન ખરેખર કેટલી ઝડપથી ઘટે છે.",
+      "vocabulary": [
+        {
+          "word": "advocates",
+          "pos": "noun",
+          "meaningGu": "સમર્થકો / હિમાયતીઓ",
+          "meaningEn": "people who publicly support an idea or policy",
+          "example": "Advocates of the plan say it will save money.",
+          "exampleGu": "યોજનાના સમર્થકો કહે છે કે તેનાથી પૈસા બચશે."
+        },
+        {
+          "word": "maintain",
+          "pos": "verb",
+          "meaningGu": "દૃઢપણે કહેવું / આગ્રહ રાખવો",
+          "meaningEn": "to keep stating that something is true",
+          "example": "She maintains that she is innocent.",
+          "exampleGu": "તે દૃઢપણે કહે છે કે તે નિર્દોષ છે."
+        },
+        {
+          "word": "decoupling",
+          "pos": "noun",
+          "meaningGu": "અલગ થવું (બે વસ્તુઓ વચ્ચેનો સંબંધ તૂટવો)",
+          "meaningEn": "the separation of two things that used to move together",
+          "example": "The decoupling of growth from pollution is the goal.",
+          "exampleGu": "વૃદ્ધિને પ્રદૂષણથી અલગ કરવી એ લક્ષ્ય છે."
+        },
+        {
+          "word": "exaggerated",
+          "pos": "adjective/verb",
+          "meaningGu": "વધારીને કહેલું / અતિશયોક્તિ",
+          "meaningEn": "made to seem larger or more important than it is",
+          "example": "Reports of the damage were exaggerated.",
+          "exampleGu": "નુકસાનના અહેવાલો વધારીને કહેવાયા હતા."
+        },
+        {
+          "word": "relocation",
+          "pos": "noun",
+          "meaningGu": "સ્થળાંતર / બીજી જગ્યાએ ખસેડવું",
+          "meaningEn": "moving something to a new place",
+          "example": "The relocation of the factory cost jobs.",
+          "exampleGu": "કારખાનું ખસેડવાથી નોકરીઓ ગઈ."
+        },
+        {
+          "word": "contraction",
+          "pos": "noun",
+          "meaningGu": "સંકોચન / ઘટાડો",
+          "meaningEn": "the process of becoming smaller",
+          "example": "The economy suffered a sharp contraction.",
+          "exampleGu": "અર્થતંત્રમાં તીવ્ર સંકોચન આવ્યું."
+        },
+        {
+          "word": "merit",
+          "pos": "noun",
+          "meaningGu": "ગુણ / તથ્ય / મૂલ્ય",
+          "meaningEn": "a good quality that deserves praise or attention",
+          "example": "The idea has some merit.",
+          "exampleGu": "આ વિચારમાં થોડું તથ્ય છે."
+        },
+        {
+          "word": "binding",
+          "pos": "adjective",
+          "meaningGu": "બંધનકારક (ફરજિયાત પાળવાનું)",
+          "meaningEn": "that must be obeyed by law or agreement",
+          "example": "The agreement is legally binding.",
+          "exampleGu": "આ કરાર કાયદેસર રીતે બંધનકારક છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "YNNG",
+          "prompt": "The writer agrees that some countries have reduced emissions while their economies grew.",
+          "promptGu": "લેખક સહમત છે કે કેટલાક દેશોએ અર્થતંત્ર વધતું હોવા છતાં ઉત્સર્જન ઘટાડ્યું છે.",
+          "answer": "YES",
+          "explanation": "Paragraph 3 opens with a concession: 'Admittedly, the evidence for decoupling is real.' Decoupling was defined in paragraph 2 as increasing GDP 'while reducing their carbon emissions'. The writer accepts this fact, even though the writer then says its significance is 'exaggerated'.",
+          "explanationGu": "ફકરો 3 concession થી શરૂ થાય છે: 'Admittedly, the evidence for decoupling is real.' Decoupling ની વ્યાખ્યા ફકરા 2 માં છે: GDP વધારવો 'while reducing their carbon emissions'. લેખક આ હકીકત સ્વીકારે છે, તેથી YES. 'Admittedly' = લેખક સામેના પક્ષની વાત સાચી માને છે. પછી 'Yet' થી તે તેનું મહત્વ મર્યાદિત કરે છે, પણ હકીકતને નકારતો નથી."
+        },
+        {
+          "type": "YNNG",
+          "prompt": "The writer believes that decoupling is happening quickly enough to meet climate targets.",
+          "promptGu": "લેખક માને છે કે આબોહવા-લક્ષ્યો પૂરાં કરવા જેટલી ઝડપથી decoupling થઈ રહ્યું છે.",
+          "answer": "NO",
+          "explanation": "Paragraph 3: 'the critical question is... whether it occurs fast enough to meet climate targets. On present trends, it does not.' The writer clearly states the opposite.",
+          "explanationGu": "ફકરો 3: 'whether it occurs fast enough to meet climate targets. On present trends, it does not.' લેખક સ્પષ્ટ રીતે ઊલટું કહે છે, તેથી NO. 'Most importantly' શબ્દ બતાવે છે કે આ લેખકનો મુખ્ય મુદ્દો છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Why does the writer mention aviation, cement and agriculture?",
+          "promptGu": "લેખક હવાઈ પરિવહન, સિમેન્ટ અને ખેતીનો ઉલ્લેખ કેમ કરે છે?",
+          "options": [
+            "to show that renewable energy is cheaper than coal",
+            "to give examples of sectors where emissions are hard to reduce",
+            "to argue that these industries should be moved abroad",
+            "to prove that decoupling has not happened at all"
+          ],
+          "answer": "to give examples of sectors where emissions are hard to reduce",
+          "explanation": "Paragraph 3: electricity is 'comparatively easy to transform; sectors such as aviation, cement and agriculture have proved far more resistant.' 'Hard to reduce' = 'far more resistant'. Option D is too strong: the writer has just admitted decoupling is 'real'.",
+          "explanationGu": "ફકરો 3: વીજળી 'comparatively easy to transform; sectors such as aviation, cement and agriculture have proved far more resistant.' 'hard to reduce' = 'far more resistant' (અડગ). 'such as' ઉદાહરણનો સંકેત છે. વિકલ્પ D વધુ પડતો મજબૂત છે ('not at all'), કારણ કે લેખકે હમણાં જ 'evidence ... is real' કહ્યું છે."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Measuring emissions by where goods are consumed makes some rich countries' progress look smaller.",
+          "promptGu": "વસ્તુઓ ક્યાં વપરાય છે તે મુજબ ઉત્સર્જન માપવાથી કેટલાક ધનિક દેશોની પ્રગતિ નાની દેખાય છે.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 3: 'When emissions are measured according to where goods are consumed rather than where they are produced, the improvement in several rich nations becomes considerably smaller.' 'Progress' = 'improvement'; 'some' = 'several'.",
+          "explanationGu": "ફકરો 3: 'When emissions are measured according to where goods are consumed ... the improvement in several rich nations becomes considerably smaller.' 'progress' = 'improvement', 'some' = 'several', 'look smaller' = 'becomes considerably smaller'. TRUE."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What is the writer's view of the degrowth argument about well-being?",
+          "promptGu": "સુખાકારી અંગેની degrowth દલીલ વિશે લેખકનો મત શું છે?",
+          "options": [
+            "It is entirely without value.",
+            "It is partly reasonable but lacks practical proof.",
+            "It has been successfully tested in several countries.",
+            "It proves that income is unimportant."
+          ],
+          "answer": "It is partly reasonable but lacks practical proof.",
+          "explanation": "Paragraph 4: 'The argument has some merit, but no country has yet demonstrated how such a transition might be achieved peacefully.' 'Partly reasonable' = 'has some merit' (concession); 'lacks practical proof' = 'no country has yet demonstrated'. The idea after 'but' is the writer's main judgement.",
+          "explanationGu": "ફકરો 4: 'The argument has some merit, but no country has yet demonstrated how such a transition might be achieved peacefully.' 'partly reasonable' = 'has some merit' (concession), 'lacks practical proof' = 'no country has yet demonstrated'. 'but' પછીનો ભાગ લેખકનો મુખ્ય નિર્ણય છે. વિકલ્પ A વધુ પડતો નકારાત્મક છે, વિકલ્પ C સીધો ખોટો છે."
+        },
+        {
+          "type": "YNNG",
+          "prompt": "Supporters of green growth are right that the remaining obstacles are only political.",
+          "promptGu": "Green growth ના સમર્થકોની આ વાત સાચી છે કે બાકીના અવરોધો માત્ર રાજકીય છે.",
+          "answer": "NO",
+          "explanation": "Paragraph 2 REPORTS this view ('they argue... the remaining obstacles are political rather than technical'). But in paragraph 3 the writer says sectors such as aviation and cement 'have proved far more resistant', which shows real technical difficulty. This is an attribution trap: a reported claim is not the writer's opinion.",
+          "explanationGu": "ફકરો 2 આ મત માત્ર 'જણાવે' છે ('they argue ... political rather than technical'). પણ ફકરા 3 માં લેખક કહે છે કે aviation, cement જેવાં ક્ષેત્રો 'have proved far more resistant' – એટલે ટેકનિકલ મુશ્કેલી પણ છે. તેથી લેખક અસહમત છે: NO. આ attribution trap છે: 'they argue' વાળો મત લેખકનો મત નથી."
+        },
+        {
+          "type": "FILL",
+          "prompt": "The writer proposes that governments should set ____ on emissions and resource use instead of focusing on GDP.",
+          "promptGu": "લેખક સૂચવે છે કે સરકારોએ GDP પર ધ્યાન આપવાને બદલે ઉત્સર્જન અને સંસાધનના ઉપયોગ પર ____ નક્કી કરવી જોઈએ.",
+          "answer": "binding limits",
+          "alternatives": [
+            "limits"
+          ],
+          "explanation": "Paragraph 5: 'governments could set binding limits on emissions and resource use'. 'Instead of focusing on GDP' = 'Instead of treating GDP as the central objective'.",
+          "explanationGu": "ફકરો 5: 'governments could set binding limits on emissions and resource use'. 'instead of focusing on GDP' = 'Instead of treating GDP as the central objective'. બે શબ્દોની મર્યાદા છે, તેથી 'binding limits' બંને શબ્દો લખો; માત્ર 'limits' પણ સ્વીકારાઈ શકે, પણ પૂરો શબ્દસમૂહ વધુ સુરક્ષિત છે.",
+          "wordLimit": "NO MORE THAN TWO WORDS"
+        }
+      ]
+    },
+    {
+      "id": "L6-02",
+      "order": 2,
+      "title": "Writer's Purpose, Attitude and Tone",
+      "titleGu": "લેખકનો હેતુ, વલણ અને સૂર (Tone)",
+      "skill": "IELTS Strategy",
+      "minutes": 22,
+      "explanation": "Many Band 8 questions ask not WHAT the text says but WHY the writer says it and HOW the writer feels. Typical forms: 'The writer's main purpose is to...', 'What is the writer's attitude towards...?', 'Why does the writer mention...?', and YES/NO/NOT GIVEN statements.\n\nPurpose verbs: describe, explain, compare, evaluate, criticise, warn, propose, challenge (an assumption), illustrate (with an example). An article that reports a development and then weighs benefits against risks has the purpose 'to evaluate', not merely 'to describe'.\n\nAttitude and tone words you must know:\n• Positive: optimistic, enthusiastic, supportive, approving.\n• Negative: critical, sceptical, dismissive, pessimistic, concerned.\n• Balanced: cautious, measured, objective, ambivalent (mixed feelings), neutral.\n\nWhere tone hides:\n• Adjectives and adverbs: 'impressive', 'troubling', 'merely', 'surprisingly', 'undoubtedly'.\n• Hedging: frequent 'may', 'might', 'it remains to be seen' signals caution.\n• Quotation marks around a word ('revolution') can show doubt or irony.\n• Conclusion: the final paragraph usually shows the overall attitude.\n\nExam technique:\n• For 'Why does the writer mention X?', find X, then read the sentence BEFORE and AFTER. The example always supports a point stated nearby.\n• For overall attitude, eliminate extreme options first (wildly enthusiastic, completely dismissive). Academic writers are rarely extreme; the answer is often 'cautious', 'qualified support' or 'measured concern'.\n• Separate the writer's voice from reported voices ('supporters claim', 'some doctors fear').",
+      "explanationGu": "Band 8 ના ઘણા પ્રશ્નો passage 'શું' કહે છે તે નહીં, પણ લેખક 'કેમ' કહે છે અને 'કેવું' અનુભવે છે તે પૂછે છે. સામાન્ય રૂપ: 'The writer's main purpose is to...', 'What is the writer's attitude towards...?', 'Why does the writer mention...?', અને YES/NO/NOT GIVEN.\n\nહેતુ (purpose) દર્શાવતાં ક્રિયાપદો: describe (વર્ણન), explain (સમજાવવું), compare (સરખાવવું), evaluate (ગુણ-દોષ તોલવા), criticise (ટીકા), warn (ચેતવણી), propose (સૂચન), challenge an assumption (માન્યતાને પડકારવી), illustrate (ઉદાહરણથી સમજાવવું). જે લેખ કોઈ વિકાસ જણાવે અને પછી ફાયદા-જોખમ તોલે, તેનો હેતુ 'to evaluate' છે, માત્ર 'to describe' નહીં.\n\nજરૂરી વલણ/સૂર શબ્દો:\n• સકારાત્મક: optimistic (આશાવાદી), enthusiastic (ઉત્સાહી), supportive (ટેકો આપતું).\n• નકારાત્મક: critical (ટીકાત્મક), sceptical (શંકાશીલ), dismissive (તુચ્છ ગણી નકારતું), pessimistic (નિરાશાવાદી), concerned (ચિંતિત).\n• સંતુલિત: cautious (સાવચેત), measured (માપસર), objective (તટસ્થ), ambivalent (મિશ્ર લાગણી).\n\nસૂર ક્યાં છુપાયેલો હોય છે:\n• વિશેષણ અને ક્રિયાવિશેષણ: 'impressive', 'troubling', 'merely', 'surprisingly'.\n• Hedging: વારંવાર 'may', 'might', 'it remains to be seen' = સાવચેતી.\n• કોઈ શબ્દ પર અવતરણચિહ્ન ('revolution') શંકા કે વ્યંગ બતાવી શકે.\n• છેલ્લો ફકરો સામાન્ય રીતે એકંદર વલણ બતાવે છે.\n\nપરીક્ષા ટેકનિક:\n• 'Why does the writer mention X?' માટે X શોધો અને તેની પહેલાંનું અને પછીનું વાક્ય વાંચો. ઉદાહરણ હંમેશા નજીકના કોઈ મુદ્દાને ટેકો આપે છે.\n• એકંદર વલણ માટે પહેલાં આત્યંતિક વિકલ્પો (wildly enthusiastic, completely dismissive) કાઢી નાખો. વિદ્વાન લેખકો ભાગ્યે જ આત્યંતિક હોય; જવાબ ઘણીવાર 'cautious' કે 'qualified support' હોય છે.\n• લેખકનો અવાજ અને બીજાઓના મત ('supporters claim', 'some doctors fear') અલગ રાખો.",
+      "examples": [
+        {
+          "en": "The results are impressive, but it remains to be seen whether they will last. → cautiously optimistic",
+          "gu": "પરિણામો પ્રભાવશાળી છે, પણ તે ટકશે કે નહીં તે જોવાનું બાકી છે. → સાવચેત આશાવાદ"
+        },
+        {
+          "en": "This so-called 'breakthrough' merely repeats old ideas. → critical / dismissive",
+          "gu": "આ કહેવાતી 'સિદ્ધિ' માત્ર જૂના વિચારો દોહરાવે છે. → ટીકાત્મક"
+        },
+        {
+          "en": "The writer mentions the 1990s case to illustrate how quickly costs can rise.",
+          "gu": "ખર્ચ કેટલી ઝડપથી વધી શકે તે બતાવવા લેખક 1990 ના દાયકાના કિસ્સાનો ઉલ્લેખ કરે છે."
+        },
+        {
+          "en": "Undoubtedly, the policy has failed. → strong, negative certainty",
+          "gu": "નિઃશંકપણે નીતિ નિષ્ફળ ગઈ છે. → મજબૂત નકારાત્મક ખાતરી"
+        }
+      ],
+      "passageTitle": "Machines in the Clinic",
+      "passage": "In the past decade, few areas of medicine have attracted as much excitement as the use of artificial intelligence to interpret medical images. Computer systems trained on hundreds of thousands of scans can now identify signs of certain eye diseases, skin cancers and lung conditions with an accuracy that, in controlled studies, equals or exceeds that of experienced specialists. Headlines have spoken of a 'revolution', and some commentators have gone so far as to suggest that radiologists will soon be unnecessary.\n\nSuch predictions deserve to be treated with considerable caution. The achievements are genuine, and in some respects remarkable. A system that can examine an image in seconds, without tiredness, could be of enormous value in regions where trained specialists are scarce. In one rural screening programme, for example, an automated system allowed patients with diabetes to be checked for eye damage during a routine visit, rather than waiting months for an appointment in a distant city. It would be unreasonable to dismiss benefits of this kind.\n\nThe difficulty lies in the gap between the laboratory and the hospital ward. Many of the most impressive results come from studies in which systems were tested on images similar to those on which they had been trained. When the same systems are introduced in a different hospital, with different equipment and a different patient population, performance frequently declines. In one widely discussed case, a system appeared to identify a serious lung condition accurately, but it was later found to be relying partly on markings that indicated which machine had taken the image. The machine had learned a shortcut, not medicine.\n\nThere is also the question of responsibility. If an automated system fails to detect a tumour, it is far from clear who should be held accountable: the hospital, the software company or the doctor who accepted its judgement. Moreover, there is some evidence that clinicians who rely on automated advice may gradually become less attentive, a phenomenon well documented in aviation. A tool intended to support human judgement could, paradoxically, weaken it.\n\nNone of this means that the technology should be abandoned. Rather, it suggests that the most useful question is not whether machines are 'better' than doctors, but how the two can work together most effectively. Early trials in which specialists review images with the help of an automated second opinion have produced encouraging results, catching errors that either would have missed alone. Such partnerships, however, require careful evaluation in real clinical settings, transparent reporting of failures as well as successes, and regulation that keeps pace with commercial development.\n\nArtificial intelligence may well transform medical diagnosis. But transformation is a process, not an event, and the history of medicine is full of innovations whose early promise faded under close examination. The task now is to ensure that this one is examined closely enough.",
+      "passageGu": "છેલ્લા દાયકામાં, તબીબી છબીઓ (medical images) નું અર્થઘટન કરવા કૃત્રિમ બુદ્ધિ (AI) ના ઉપયોગ જેટલો ઉત્સાહ દવાના બહુ ઓછાં ક્ષેત્રોએ જગાવ્યો છે. લાખો સ્કેન પર તાલીમ પામેલી કમ્પ્યુટર સિસ્ટમો હવે આંખના કેટલાક રોગો, ચામડીના કેન્સર અને ફેફસાંની સ્થિતિઓનાં ચિહ્નો એવી ચોકસાઈથી ઓળખી શકે છે જે, નિયંત્રિત અભ્યાસોમાં, અનુભવી નિષ્ણાતોની બરાબર કે તેથી વધુ હોય છે. સમાચાર-શીર્ષકોએ 'ક્રાંતિ'ની વાત કરી છે, અને કેટલાક ટીકાકારોએ તો ત્યાં સુધી સૂચવ્યું છે કે રેડિયોલોજિસ્ટ (છબી-નિષ્ણાત ડૉક્ટર) ટૂંક સમયમાં બિનજરૂરી બની જશે.\n\nઆવી આગાહીઓને ઘણી સાવચેતીથી જોવી જોઈએ. સિદ્ધિઓ સાચી છે, અને કેટલીક રીતે નોંધપાત્ર છે. થાક્યા વિના સેકન્ડોમાં છબી તપાસી શકે તેવી સિસ્ટમ, જ્યાં તાલીમ પામેલા નિષ્ણાતો ઓછા છે એવા પ્રદેશોમાં ખૂબ મૂલ્યવાન બની શકે. ઉદાહરણ તરીકે, એક ગ્રામીણ તપાસ-કાર્યક્રમમાં, સ્વયંસંચાલિત સિસ્ટમને કારણે ડાયાબિટીસના દર્દીઓની આંખના નુકસાનની તપાસ નિયમિત મુલાકાત દરમિયાન જ થઈ શકી, દૂરના શહેરમાં એપોઇન્ટમેન્ટ માટે મહિનાઓ રાહ જોવી ન પડી. આવા લાભોને નકારી કાઢવા ગેરવાજબી ગણાશે.\n\nમુશ્કેલી પ્રયોગશાળા અને હૉસ્પિટલના વૉર્ડ વચ્ચેના અંતરમાં છે. સૌથી પ્રભાવશાળી પરિણામોમાંથી ઘણાં એવા અભ્યાસોમાંથી આવે છે જેમાં સિસ્ટમોને એ જ પ્રકારની છબીઓ પર ચકાસવામાં આવી હતી જેના પર તેમને તાલીમ અપાઈ હતી. જ્યારે એ જ સિસ્ટમો જુદાં સાધનો અને જુદી દર્દી-વસ્તીવાળી બીજી હૉસ્પિટલમાં વપરાય છે, ત્યારે તેમનો દેખાવ વારંવાર ઘટે છે. એક બહુચર્ચિત કિસ્સામાં, એક સિસ્ટમ ફેફસાંની ગંભીર સ્થિતિને ચોક્કસ રીતે ઓળખતી જણાઈ, પણ પાછળથી જાણવા મળ્યું કે તે અંશતઃ એવાં નિશાનો પર આધાર રાખતી હતી જે બતાવતાં હતાં કે છબી કયા મશીને લીધી હતી. મશીન દવા નહીં, પણ એક શોર્ટકટ શીખી ગયું હતું.\n\nજવાબદારીનો પ્રશ્ન પણ છે. જો સ્વયંસંચાલિત સિસ્ટમ ગાંઠ (tumour) શોધવામાં નિષ્ફળ જાય, તો કોને જવાબદાર ઠેરવવા તે બિલકુલ સ્પષ્ટ નથી: હૉસ્પિટલ, સોફ્ટવેર કંપની, કે તેનો નિર્ણય સ્વીકારનાર ડૉક્ટર. વધુમાં, થોડા પુરાવા છે કે સ્વયંસંચાલિત સલાહ પર આધાર રાખનારા ડૉક્ટરો ધીમે ધીમે ઓછા સચેત બની શકે છે; આ ઘટના ઉડ્ડયન ક્ષેત્રમાં સારી રીતે નોંધાયેલી છે. માનવ નિર્ણયને ટેકો આપવા માટે બનેલું સાધન, વિરોધાભાસી રીતે, તેને નબળો પાડી શકે.\n\nઆનો અર્થ એ નથી કે ટેકનોલોજી છોડી દેવી જોઈએ. ઊલટું, તે સૂચવે છે કે સૌથી ઉપયોગી પ્રશ્ન એ નથી કે મશીનો ડૉક્ટરો કરતાં 'વધુ સારાં' છે કે નહીં, પણ એ છે કે બંને સૌથી અસરકારક રીતે સાથે કેવી રીતે કામ કરી શકે. જેમાં નિષ્ણાતો સ્વયંસંચાલિત 'બીજા અભિપ્રાય'ની મદદથી છબીઓ તપાસે છે તેવા શરૂઆતના પરીક્ષણોએ ઉત્સાહજનક પરિણામ આપ્યાં છે, જેમાં એવી ભૂલો પકડાઈ જે બંનેમાંથી કોઈ એકલું ચૂકી ગયું હોત. પરંતુ આવી ભાગીદારી માટે વાસ્તવિક ક્લિનિકલ પરિસ્થિતિમાં કાળજીપૂર્વક મૂલ્યાંકન, સફળતા સાથે નિષ્ફળતાનો પણ પારદર્શક અહેવાલ, અને વ્યાપારી વિકાસની ઝડપ સાથે તાલ મિલાવે તેવું નિયમન જરૂરી છે.\n\nકૃત્રિમ બુદ્ધિ કદાચ તબીબી નિદાનને બદલી નાખે. પણ પરિવર્તન એક પ્રક્રિયા છે, એક ઘટના નહીં, અને દવાનો ઇતિહાસ એવી નવીનતાઓથી ભરેલો છે જેનું શરૂઆતનું વચન નજીકથી તપાસતાં ઝાંખું પડી ગયું. હવેનું કાર્ય એ સુનિશ્ચિત કરવાનું છે કે આ નવીનતાને પૂરતી નજીકથી તપાસવામાં આવે.",
+      "vocabulary": [
+        {
+          "word": "interpret",
+          "pos": "verb",
+          "meaningGu": "અર્થઘટન કરવું",
+          "meaningEn": "to explain or decide the meaning of something",
+          "example": "Doctors interpret X-rays every day.",
+          "exampleGu": "ડૉક્ટરો દરરોજ એક્સ-રેનું અર્થઘટન કરે છે."
+        },
+        {
+          "word": "scarce",
+          "pos": "adjective",
+          "meaningGu": "અછતવાળું / ઓછું ઉપલબ્ધ",
+          "meaningEn": "not enough; difficult to find",
+          "example": "Clean water is scarce in the desert.",
+          "exampleGu": "રણમાં સ્વચ્છ પાણીની અછત છે."
+        },
+        {
+          "word": "dismiss",
+          "pos": "verb",
+          "meaningGu": "નકારી કાઢવું / મહત્વ ન આપવું",
+          "meaningEn": "to decide that something is not important or not worth considering",
+          "example": "Do not dismiss small improvements.",
+          "exampleGu": "નાના સુધારાઓને નકારી ન કાઢો."
+        },
+        {
+          "word": "accountable",
+          "pos": "adjective",
+          "meaningGu": "જવાબદાર (જવાબ આપવા બંધાયેલું)",
+          "meaningEn": "responsible and expected to explain your actions",
+          "example": "Leaders must be accountable to the public.",
+          "exampleGu": "નેતાઓએ જનતા સામે જવાબદાર રહેવું જોઈએ."
+        },
+        {
+          "word": "attentive",
+          "pos": "adjective",
+          "meaningGu": "સચેત / ધ્યાન આપતું",
+          "meaningEn": "paying close attention",
+          "example": "Attentive readers notice small details.",
+          "exampleGu": "સચેત વાચકો નાની વિગતો પણ જુએ છે."
+        },
+        {
+          "word": "paradoxically",
+          "pos": "adverb",
+          "meaningGu": "વિરોધાભાસી રીતે",
+          "meaningEn": "in a way that seems strange because it is the opposite of what you expect",
+          "example": "Paradoxically, more choice can make people less happy.",
+          "exampleGu": "વિરોધાભાસી રીતે, વધુ વિકલ્પો લોકોને ઓછા ખુશ કરી શકે."
+        },
+        {
+          "word": "transparent",
+          "pos": "adjective",
+          "meaningGu": "પારદર્શક / ખુલ્લું",
+          "meaningEn": "open and easy to understand, with nothing hidden",
+          "example": "The company promised transparent reporting.",
+          "exampleGu": "કંપનીએ પારદર્શક અહેવાલનું વચન આપ્યું."
+        },
+        {
+          "word": "regulation",
+          "pos": "noun",
+          "meaningGu": "નિયમન / નિયમો",
+          "meaningEn": "official rules that control an activity",
+          "example": "New regulation is needed for AI.",
+          "exampleGu": "AI માટે નવા નિયમન જરૂરી છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "What is the writer's main purpose in the passage?",
+          "promptGu": "Passage માં લેખકનો મુખ્ય હેતુ શું છે?",
+          "options": [
+            "to describe how AI systems are trained",
+            "to argue that radiologists will soon be replaced",
+            "to evaluate the benefits and limitations of AI in diagnosis",
+            "to criticise doctors who refuse to use new technology"
+          ],
+          "answer": "to evaluate the benefits and limitations of AI in diagnosis",
+          "explanation": "The writer presents benefits (paragraph 2: 'genuine, and in some respects remarkable') and problems (paragraphs 3–4: performance 'declines', responsibility is unclear), then proposes a balanced way forward. Weighing both sides = 'evaluate'. Option B is a view the writer REPORTS and rejects ('deserve to be treated with considerable caution').",
+          "explanationGu": "લેખક ફાયદા (ફકરો 2: 'genuine, and in some respects remarkable') અને સમસ્યાઓ (ફકરા 3-4: દેખાવ 'declines', જવાબદારી અસ્પષ્ટ) બંને રજૂ કરે છે અને પછી સંતુલિત માર્ગ સૂચવે છે. બંને બાજુ તોલવી = 'evaluate'. વિકલ્પ B એ મત લેખક માત્ર જણાવે છે અને પછી નકારે છે ('deserve to be treated with considerable caution'). વિકલ્પ A માત્ર એક નાની વિગત છે, મુખ્ય હેતુ નહીં."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What is the writer's attitude towards the claim that radiologists will soon be unnecessary?",
+          "promptGu": "રેડિયોલોજિસ્ટ ટૂંક સમયમાં બિનજરૂરી બનશે એ દાવા પ્રત્યે લેખકનું વલણ કેવું છે?",
+          "options": [
+            "enthusiastic",
+            "sceptical",
+            "neutral",
+            "uninterested"
+          ],
+          "answer": "sceptical",
+          "explanation": "Paragraph 2 begins: 'Such predictions deserve to be treated with considerable caution.' The writer doubts the claim, which is 'sceptical'. Also notice the quotation marks around 'revolution' in paragraph 1, which signal doubt.",
+          "explanationGu": "ફકરો 2 ની શરૂઆત: 'Such predictions deserve to be treated with considerable caution.' લેખક આ દાવા પર શંકા કરે છે = 'sceptical' (શંકાશીલ). ફકરા 1 માં 'revolution' પરનાં અવતરણચિહ્નો પણ શંકા બતાવે છે. 'neutral' ખોટું છે કારણ કે લેખક સ્પષ્ટ મત આપે છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Why does the writer mention the rural screening programme?",
+          "promptGu": "લેખક ગ્રામીણ તપાસ-કાર્યક્રમનો ઉલ્લેખ કેમ કરે છે?",
+          "options": [
+            "to illustrate a real benefit of the technology",
+            "to show that AI performs badly outside the laboratory",
+            "to prove that specialists are no longer needed in cities",
+            "to explain how diabetes damages the eyes"
+          ],
+          "answer": "to illustrate a real benefit of the technology",
+          "explanation": "The sentence before says such a system 'could be of enormous value in regions where trained specialists are scarce'; the sentence after says 'It would be unreasonable to dismiss benefits of this kind.' The example ('for example') supports the point about benefits.",
+          "explanationGu": "આગળનું વાક્ય: 'could be of enormous value in regions where trained specialists are scarce'; પછીનું વાક્ય: 'It would be unreasonable to dismiss benefits of this kind.' 'for example' બતાવે છે કે આ ઉદાહરણ ફાયદાના મુદ્દાને ટેકો આપે છે. 'Why does the writer mention' પ્રશ્નમાં હંમેશા આગળ-પાછળનું વાક્ય વાંચો."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "In one case, an AI system's apparent success was partly based on information unrelated to the disease.",
+          "promptGu": "એક કિસ્સામાં, AI સિસ્ટમની દેખીતી સફળતા અંશતઃ રોગ સાથે અસંબંધિત માહિતી પર આધારિત હતી.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 3: the system 'was later found to be relying partly on markings that indicated which machine had taken the image. The machine had learned a shortcut, not medicine.' Markings about the machine are 'unrelated to the disease'; 'apparent success' = 'appeared to identify... accurately'.",
+          "explanationGu": "ફકરો 3: સિસ્ટમ 'relying partly on markings that indicated which machine had taken the image ... learned a shortcut, not medicine.' મશીન વિશેનાં નિશાનો રોગ સાથે અસંબંધિત છે. 'apparent success' = 'appeared to identify ... accurately', 'partly' બંનેમાં છે. TRUE."
+        },
+        {
+          "type": "YNNG",
+          "prompt": "The writer believes that doctors who use automated advice always become careless.",
+          "promptGu": "લેખક માને છે કે સ્વયંસંચાલિત સલાહ વાપરનારા ડૉક્ટરો હંમેશા બેદરકાર બની જાય છે.",
+          "answer": "NO",
+          "explanation": "Paragraph 4: 'there is some evidence that clinicians who rely on automated advice may gradually become less attentive.' The writer's claim is hedged ('some evidence', 'may', 'gradually'); 'always become careless' is much stronger, so it contradicts the writer's cautious position.",
+          "explanationGu": "ફકરો 4: 'there is some evidence that clinicians ... may gradually become less attentive.' લેખકનો દાવો hedged છે ('some evidence', 'may', 'gradually'). 'always' ઘણો મજબૂત છે અને લેખકના સાવચેત મત સાથે વિરોધ કરે છે, તેથી NO. Strength trap નું ઉત્તમ ઉદાહરણ."
+        },
+        {
+          "type": "YNNG",
+          "prompt": "The writer thinks AI companies have deliberately hidden their failures.",
+          "promptGu": "લેખક માને છે કે AI કંપનીઓએ જાણી જોઈને પોતાની નિષ્ફળતાઓ છુપાવી છે.",
+          "answer": "NOT GIVEN",
+          "explanation": "Paragraph 5 calls for 'transparent reporting of failures as well as successes', but the writer never says companies have deliberately hidden failures. Recommending transparency in the future is not the same as accusing anyone of hiding information.",
+          "explanationGu": "ફકરો 5 માં 'transparent reporting of failures as well as successes' ની માંગ છે, પણ લેખક ક્યાંય નથી કહેતો કે કંપનીઓએ જાણી જોઈને નિષ્ફળતા છુપાવી છે. ભવિષ્ય માટે પારદર્શિતાની ભલામણ કરવી અને કોઈ પર છુપાવવાનો આરોપ મૂકવો એ જુદી વાત છે. તેથી NOT GIVEN. તમારા પોતાના તર્કથી ખાલી જગ્યા ન ભરો."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which word best describes the tone of the final paragraph?",
+          "promptGu": "છેલ્લા ફકરાનો સૂર કયો શબ્દ શ્રેષ્ઠ રીતે વર્ણવે છે?",
+          "options": [
+            "dismissive",
+            "cautiously hopeful",
+            "strongly pessimistic",
+            "wildly enthusiastic"
+          ],
+          "answer": "cautiously hopeful",
+          "explanation": "'Artificial intelligence may well transform medical diagnosis' is hopeful, but 'may well', 'a process, not an event' and the warning about innovations whose 'early promise faded' add caution. Extreme options (dismissive, wildly enthusiastic, strongly pessimistic) do not fit a balanced academic conclusion.",
+          "explanationGu": "'Artificial intelligence may well transform medical diagnosis' આશાવાદી છે, પણ 'may well', 'a process, not an event' અને 'early promise faded' વાળી ચેતવણી સાવચેતી ઉમેરે છે. તેથી 'cautiously hopeful' (સાવચેત આશાવાદ). આત્યંતિક વિકલ્પો (dismissive, wildly enthusiastic, strongly pessimistic) સંતુલિત શૈક્ષણિક નિષ્કર્ષમાં બંધબેસતા નથી – તેમને પહેલાં કાઢી નાખો."
+        }
+      ]
+    },
+    {
+      "id": "L6-03",
+      "order": 3,
+      "title": "Expert Strategy: Avoiding Traps and Self-Checking",
+      "titleGu": "નિષ્ણાત વ્યૂહરચના: જાળથી બચવું અને સ્વ-તપાસ",
+      "skill": "IELTS Strategy",
+      "minutes": 25,
+      "explanation": "At Band 8+, most lost marks come not from difficult English but from predictable traps. Learn to recognise them by type.\n\nTRUE/FALSE/NOT GIVEN and YES/NO/NOT GIVEN:\n• Qualifier trap: some/most/all, often/always, may/will. One word can change the answer.\n• Comparison trap: the passage mentions both A and B but never compares them → NOT GIVEN.\n• Opinion trap (YNNG): a view reported as 'critics argue' is not the writer's view.\n\nMultiple choice:\n• Word-match trap: the wrong option repeats words from the passage; the right one paraphrases.\n• True-but-irrelevant trap: the option is true but does not answer THIS question.\n• Too-strong trap: 'completely', 'only', 'proves'.\n\nSentence/summary completion:\n• Grammar trap: check the blank needs a noun, adjective or number, singular or plural.\n• Word-limit trap: 'NO MORE THAN TWO WORDS' — three words score zero, even if correct.\n• Spelling: copy exactly from the passage.\n\nMatching tasks:\n• Do them last; one shared word is not enough.\n\nA full self-check routine (last 3–4 minutes of each passage):\n• 1. Count: every box has an answer; question numbers match answer numbers.\n• 2. Word limits and spelling for every completion answer.\n• 3. For each TFNG/YNNG, re-read the qualifier in the statement.\n• 4. Revisit only the questions you marked as uncertain; do not change an answer without a clear textual reason (first answers chosen with evidence are usually right).\n• 5. Make sure you have not written Y/N in a T/F/NG task, or vice versa.",
+      "explanationGu": "Band 8+ સ્તરે ગુમાવાતા મોટાભાગના ગુણ અઘરી અંગ્રેજીને કારણે નહીં, પણ ધારી શકાય તેવી જાળ (traps) ને કારણે જાય છે. તેમને પ્રકાર મુજબ ઓળખતાં શીખો.\n\nTRUE/FALSE/NOT GIVEN અને YES/NO/NOT GIVEN:\n• Qualifier trap: some/most/all, often/always, may/will. એક શબ્દથી જવાબ બદલાઈ જાય.\n• Comparison trap: passage માં A અને B બંનેનો ઉલ્લેખ હોય પણ તેમની સરખામણી ન હોય → NOT GIVEN.\n• Opinion trap (YNNG): 'critics argue' તરીકે જણાવેલો મત લેખકનો મત નથી.\n\nMultiple choice:\n• Word-match trap: ખોટો વિકલ્પ passage ના જ શબ્દો દોહરાવે છે; સાચો વિકલ્પ પેરાફ્રેઝ કરે છે.\n• True-but-irrelevant trap: વિકલ્પ સાચો હોય પણ 'આ' પ્રશ્નનો જવાબ ન હોય.\n• Too-strong trap: 'completely', 'only', 'proves'.\n\nSentence/summary completion:\n• વ્યાકરણ તપાસો: ખાલી જગ્યામાં noun, adjective કે number; એકવચન કે બહુવચન.\n• શબ્દ-મર્યાદા: 'NO MORE THAN TWO WORDS' હોય અને ત્રણ શબ્દ લખો તો સાચો અર્થ હોવા છતાં શૂન્ય ગુણ.\n• Spelling: passage માંથી બરાબર copy કરો.\n\nMatching પ્રશ્નો: છેલ્લે કરો; એક સરખો શબ્દ પૂરતો નથી.\n\nસંપૂર્ણ સ્વ-તપાસ (self-check) રીત – દરેક passage ની છેલ્લી 3-4 મિનિટ:\n• 1. ગણતરી: દરેક ખાનામાં જવાબ છે; પ્રશ્ન-નંબર અને જવાબ-નંબર મેળ ખાય છે.\n• 2. દરેક completion જવાબની શબ્દ-મર્યાદા અને spelling.\n• 3. દરેક TFNG/YNNG માં વિધાનનો qualifier (all, some, may) ફરી વાંચો.\n• 4. માત્ર શંકાવાળા (નિશાની કરેલા) પ્રશ્નો ફરી જુઓ; passage માં સ્પષ્ટ કારણ વગર જવાબ ન બદલો (પુરાવા સાથે પસંદ કરેલો પહેલો જવાબ મોટેભાગે સાચો હોય છે).\n• 5. T/F/NG વાળા કાર્યમાં Y/N, અથવા ઊલટું, લખ્યું નથી ને તે ખાતરી કરો.",
+      "examples": [
+        {
+          "en": "Passage: 'Most speakers are elderly.' Statement: 'All speakers are elderly.' → FALSE",
+          "gu": "'Most' વિરુદ્ધ 'All' – qualifier trap, જવાબ FALSE."
+        },
+        {
+          "en": "Passage mentions Welsh and Maori separately. Statement: 'Welsh has been more successful than Maori.' → NOT GIVEN",
+          "gu": "બંને ભાષાઓનો ઉલ્લેખ છે પણ સરખામણી નથી – comparison trap, NOT GIVEN."
+        },
+        {
+          "en": "NO MORE THAN TWO WORDS: 'community schools' ✓  'the community schools' ✗ (three words)",
+          "gu": "શબ્દ-મર્યાદા વટાવો તો જવાબ ખોટો ગણાય."
+        },
+        {
+          "en": "'Critics argue the policy failed.' ≠ 'The writer thinks the policy failed.'",
+          "gu": "ટીકાકારોનો મત એ લેખકનો મત નથી – opinion trap."
+        }
+      ],
+      "passageTitle": "Saving Endangered Languages",
+      "passage": "Of the roughly seven thousand languages spoken today, linguists estimate that around forty per cent are endangered, meaning that they are no longer reliably passed from parents to children. In many cases the remaining speakers are elderly, and when they die the language will disappear with them. Some researchers predict that, by the end of this century, half of the world's languages may have fallen silent. Although such projections are inevitably uncertain, few specialists dispute the general direction of the trend.\n\nWhy should this matter? The most common answer is scientific. Each language represents a distinct way of organising experience, and many contain knowledge that has never been written down, such as detailed classifications of local plants and their medical uses. When a language disappears, this information is often lost before researchers have had a chance to record it. A second argument concerns identity. For many communities, the language of their ancestors is inseparable from their sense of who they are, and its loss is experienced not as a neutral change but as a painful consequence of historical injustice.\n\nNot everyone finds these arguments persuasive. Some economists contend that a smaller number of widely spoken languages makes communication, trade and education more efficient, and that parents who choose a dominant language for their children are acting rationally. This view contains an element of truth: individuals cannot be compelled to speak a language they see no reason to use. However, it overlooks the fact that such 'choices' are frequently shaped by pressures that speakers did not choose, including past policies that punished children for using their home language at school. Moreover, the assumption that bilingualism is a burden is not supported by research, which indicates that growing up with two languages has no harmful effect on academic achievement and may bring certain cognitive advantages.\n\nEfforts to reverse language decline have produced mixed results. The revival of Hebrew as an everyday spoken language in the late nineteenth and twentieth centuries is often cited as proof that dramatic recovery is possible, but its circumstances were highly unusual and are unlikely to be repeated elsewhere. More typical are programmes such as 'language nests', in which young children spend their days with fluent elderly speakers. First developed in New Zealand in the 1980s, the model has since been adapted in several countries and has helped to create a new generation of speakers in some communities. Its success, however, depends heavily on continued funding and on whether children can use the language outside the nest.\n\nTechnology offers further possibilities. Digital dictionaries, recordings and mobile applications can make learning materials available to scattered communities at low cost. Yet experts warn against overestimating their impact. An app may help adults acquire vocabulary, but a language survives only when people use it to live their daily lives: to argue, to joke and to raise children. No technology can substitute for that. The fate of most endangered languages will be decided not in laboratories but in homes, schools and local communities.",
+      "passageGu": "આજે બોલાતી આશરે સાત હજાર ભાષાઓમાંથી, ભાષાશાસ્ત્રીઓનો અંદાજ છે કે લગભગ ચાલીસ ટકા ભાષાઓ લુપ્તપ્રાય (endangered) છે, એટલે કે તે હવે માતા-પિતાથી બાળકોમાં વિશ્વસનીય રીતે ઊતરતી નથી. ઘણા કિસ્સાઓમાં બાકી રહેલા બોલનારા વૃદ્ધ છે, અને તેમના અવસાન સાથે ભાષા પણ અદૃશ્ય થઈ જશે. કેટલાક સંશોધકો આગાહી કરે છે કે આ સદીના અંત સુધીમાં વિશ્વની અડધી ભાષાઓ કદાચ શાંત થઈ ગઈ હશે. આવાં અનુમાનો અનિવાર્યપણે અનિશ્ચિત હોવા છતાં, બહુ ઓછા નિષ્ણાતો આ વલણની સામાન્ય દિશા પર વિવાદ કરે છે.\n\nઆ કેમ મહત્વનું છે? સૌથી સામાન્ય જવાબ વૈજ્ઞાનિક છે. દરેક ભાષા અનુભવને ગોઠવવાની એક અલગ રીત રજૂ કરે છે, અને ઘણી ભાષાઓમાં એવું જ્ઞાન છે જે ક્યારેય લખાયું નથી, જેમ કે સ્થાનિક વનસ્પતિઓ અને તેમના ઔષધીય ઉપયોગોનું વિગતવાર વર્ગીકરણ. ભાષા અદૃશ્ય થાય ત્યારે સંશોધકોને તેની નોંધ કરવાની તક મળે તે પહેલાં જ આ માહિતી ઘણીવાર ખોવાઈ જાય છે. બીજી દલીલ ઓળખ (identity) સંબંધી છે. ઘણા સમુદાયો માટે પૂર્વજોની ભાષા તેઓ કોણ છે તે ભાવનાથી અલગ કરી શકાતી નથી, અને તેનું નુકસાન તટસ્થ ફેરફાર તરીકે નહીં, પણ ઐતિહાસિક અન્યાયના પીડાદાયક પરિણામ તરીકે અનુભવાય છે.\n\nદરેકને આ દલીલો પ્રતીતિજનક લાગતી નથી. કેટલાક અર્થશાસ્ત્રીઓ દલીલ કરે છે કે વ્યાપક રીતે બોલાતી ઓછી ભાષાઓ સંચાર, વેપાર અને શિક્ષણને વધુ કાર્યક્ષમ બનાવે છે, અને જે માતા-પિતા પોતાનાં બાળકો માટે પ્રભાવી ભાષા પસંદ કરે છે તેઓ તર્કસંગત રીતે વર્તે છે. આ મતમાં થોડું સત્ય છે: વ્યક્તિઓને એવી ભાષા બોલવા ફરજ પાડી શકાય નહીં જેનો ઉપયોગ કરવાનું તેમને કોઈ કારણ ન દેખાતું હોય. પરંતુ આ મત એ હકીકતને અવગણે છે કે આવી 'પસંદગીઓ' ઘણીવાર એવાં દબાણોથી ઘડાય છે જે બોલનારાઓએ પસંદ કર્યાં ન હતાં, જેમાં શાળામાં ઘરની ભાષા બોલવા બદલ બાળકોને સજા કરતી ભૂતકાળની નીતિઓ પણ સામેલ છે. વધુમાં, દ્વિભાષિકતા બોજ છે એવી ધારણાને સંશોધનનો ટેકો નથી; સંશોધન સૂચવે છે કે બે ભાષાઓ સાથે મોટા થવાથી શૈક્ષણિક સિદ્ધિ પર કોઈ નુકસાનકારક અસર થતી નથી અને કદાચ કેટલાક બૌદ્ધિક (cognitive) ફાયદા પણ થાય છે.\n\nભાષાના પતનને ઉલટાવવાના પ્રયાસોનાં પરિણામ મિશ્ર રહ્યાં છે. ઓગણીસમી સદીના અંતમાં અને વીસમી સદીમાં રોજિંદી બોલચાલની ભાષા તરીકે હિબ્રૂના પુનરુત્થાનને ઘણીવાર એ વાતના પુરાવા તરીકે ટાંકવામાં આવે છે કે નાટકીય પુનઃપ્રાપ્તિ શક્ય છે, પણ તેની પરિસ્થિતિઓ અત્યંત અસામાન્ય હતી અને બીજે તેનું પુનરાવર્તન થાય તેવી શક્યતા ઓછી છે. વધુ સામાન્ય છે 'language nests' (ભાષા-માળા) જેવા કાર્યક્રમો, જેમાં નાનાં બાળકો પોતાનો દિવસ અસ્ખલિત બોલતા વૃદ્ધો સાથે વિતાવે છે. 1980 ના દાયકામાં ન્યૂઝીલૅન્ડમાં પહેલી વાર વિકસાવાયેલું આ મોડેલ ત્યારથી કેટલાક દેશોમાં અપનાવાયું છે અને કેટલાક સમુદાયોમાં બોલનારાઓની નવી પેઢી તૈયાર કરવામાં મદદરૂપ થયું છે. જોકે, તેની સફળતા સતત મળતા ભંડોળ પર અને બાળકો 'માળા'ની બહાર ભાષા વાપરી શકે છે કે નહીં તેના પર ઘણો આધાર રાખે છે.\n\nટેકનોલોજી વધુ શક્યતાઓ આપે છે. ડિજિટલ શબ્દકોશો, રેકોર્ડિંગ્સ અને મોબાઇલ એપ્લિકેશન્સ છૂટાછવાયા સમુદાયો સુધી ઓછા ખર્ચે શીખવાની સામગ્રી પહોંચાડી શકે છે. છતાં નિષ્ણાતો તેમની અસરને વધારે પડતી આંકવા સામે ચેતવે છે. એપ પુખ્ત વયનાઓને શબ્દભંડોળ મેળવવામાં મદદ કરી શકે, પણ ભાષા ત્યારે જ ટકે છે જ્યારે લોકો રોજિંદું જીવન જીવવા તેનો ઉપયોગ કરે: દલીલ કરવા, મજાક કરવા અને બાળકોને ઉછેરવા. કોઈ ટેકનોલોજી તેનું સ્થાન લઈ શકે નહીં. મોટાભાગની લુપ્તપ્રાય ભાષાઓનું ભાવિ પ્રયોગશાળાઓમાં નહીં, પણ ઘરો, શાળાઓ અને સ્થાનિક સમુદાયોમાં નક્કી થશે.",
+      "vocabulary": [
+        {
+          "word": "endangered",
+          "pos": "adjective",
+          "meaningGu": "લુપ્તપ્રાય (નાશ થવાના જોખમમાં)",
+          "meaningEn": "at risk of disappearing completely",
+          "example": "The tiger is an endangered species.",
+          "exampleGu": "વાઘ લુપ્તપ્રાય જાતિ છે."
+        },
+        {
+          "word": "projections",
+          "pos": "noun",
+          "meaningGu": "અનુમાનો / ભવિષ્યના અંદાજો",
+          "meaningEn": "estimates of future amounts or trends",
+          "example": "Population projections show steady growth.",
+          "exampleGu": "વસ્તીનાં અનુમાનો સતત વધારો બતાવે છે."
+        },
+        {
+          "word": "inseparable",
+          "pos": "adjective",
+          "meaningGu": "અલગ ન કરી શકાય તેવું",
+          "meaningEn": "so closely connected that they cannot be separated",
+          "example": "For him, music and memory are inseparable.",
+          "exampleGu": "તેના માટે સંગીત અને યાદો અલગ કરી શકાય તેમ નથી."
+        },
+        {
+          "word": "contend",
+          "pos": "verb",
+          "meaningGu": "દલીલ કરવી / દાવો કરવો",
+          "meaningEn": "to argue or state that something is true",
+          "example": "Some scientists contend that the data are wrong.",
+          "exampleGu": "કેટલાક વૈજ્ઞાનિકો દલીલ કરે છે કે ડેટા ખોટો છે."
+        },
+        {
+          "word": "compelled",
+          "pos": "verb",
+          "meaningGu": "ફરજ પાડવામાં આવી",
+          "meaningEn": "forced to do something",
+          "example": "Workers were compelled to leave.",
+          "exampleGu": "કામદારોને જવા માટે ફરજ પાડવામાં આવી."
+        },
+        {
+          "word": "bilingualism",
+          "pos": "noun",
+          "meaningGu": "દ્વિભાષિકતા (બે ભાષા જાણવી)",
+          "meaningEn": "the ability to use two languages",
+          "example": "Bilingualism is common in India.",
+          "exampleGu": "ભારતમાં દ્વિભાષિકતા સામાન્ય છે."
+        },
+        {
+          "word": "cognitive",
+          "pos": "adjective",
+          "meaningGu": "બૌદ્ધિક / વિચાર-પ્રક્રિયા સંબંધિત",
+          "meaningEn": "related to thinking, learning and memory",
+          "example": "Sleep improves cognitive performance.",
+          "exampleGu": "ઊંઘ બૌદ્ધિક ક્ષમતા સુધારે છે."
+        },
+        {
+          "word": "substitute",
+          "pos": "verb",
+          "meaningGu": "સ્થાન લેવું / અવેજી બનવું",
+          "meaningEn": "to take the place of something else",
+          "example": "Online lessons cannot substitute for practice.",
+          "exampleGu": "ઓનલાઇન પાઠ અભ્યાસનું સ્થાન લઈ શકતા નથી."
+        }
+      ],
+      "questions": [
+        {
+          "type": "TFNG",
+          "prompt": "All of the world's endangered languages are spoken only by elderly people.",
+          "promptGu": "વિશ્વની બધી લુપ્તપ્રાય ભાષાઓ માત્ર વૃદ્ધ લોકો જ બોલે છે.",
+          "answer": "FALSE",
+          "explanation": "Paragraph 1: 'In MANY cases the remaining speakers are elderly'. 'Many' is not 'all'. This is a qualifier trap: the topic matches, but 'all... only' makes the statement contradict the passage.",
+          "explanationGu": "ફકરો 1: 'In many cases the remaining speakers are elderly'. 'many' એટલે 'all' નહીં. Qualifier trap: વિષય મેળ ખાય છે, પણ 'All ... only' વિધાનને passage થી વિરુદ્ધ બનાવે છે, તેથી FALSE. સ્વ-તપાસમાં દરેક વિધાનનો qualifier ફરી વાંચો."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Experts agree on the exact number of languages that will disappear this century.",
+          "promptGu": "આ સદીમાં કેટલી ભાષાઓ અદૃશ્ય થશે તેની ચોક્કસ સંખ્યા પર નિષ્ણાતો સહમત છે.",
+          "answer": "FALSE",
+          "explanation": "Paragraph 1: 'such projections are inevitably uncertain, few specialists dispute the general DIRECTION of the trend.' Experts agree on the direction, not on an exact number; the passage stresses uncertainty. Trap: 'few specialists dispute' sounds like agreement, but about something different.",
+          "explanationGu": "ફકરો 1: 'such projections are inevitably uncertain, few specialists dispute the general direction of the trend.' નિષ્ણાતો 'દિશા' પર સહમત છે, 'ચોક્કસ સંખ્યા' પર નહીં; passage અનિશ્ચિતતા પર ભાર મૂકે છે. જાળ: 'few specialists dispute' સહમતી જેવું લાગે છે, પણ જુદી બાબત વિશે. તેથી FALSE."
+        },
+        {
+          "type": "YNNG",
+          "prompt": "The writer accepts that people cannot be forced to use a language they do not value.",
+          "promptGu": "લેખક સ્વીકારે છે કે લોકોને એવી ભાષા વાપરવા ફરજ પાડી શકાય નહીં જેનું તેમને મૂલ્ય ન લાગે.",
+          "answer": "YES",
+          "explanation": "Paragraph 3: 'This view contains an element of truth: individuals cannot be compelled to speak a language they see no reason to use.' This is the writer's concession. 'forced' = 'compelled'; 'do not value' = 'see no reason to use'. The writer later criticises the economists' view, but still accepts this part.",
+          "explanationGu": "ફકરો 3: 'This view contains an element of truth: individuals cannot be compelled to speak a language they see no reason to use.' આ લેખકનો concession છે. 'forced' = 'compelled', 'do not value' = 'see no reason to use'. પછી 'However' થી લેખક અર્થશાસ્ત્રીઓની ટીકા કરે છે, પણ આ ભાગ તો સ્વીકારે જ છે, તેથી YES. Concession પણ લેખકનો મત જ છે."
+        },
+        {
+          "type": "YNNG",
+          "prompt": "The writer agrees with economists that bilingualism is a burden for children.",
+          "promptGu": "લેખક અર્થશાસ્ત્રીઓ સાથે સહમત છે કે દ્વિભાષિકતા બાળકો માટે બોજ છે.",
+          "answer": "NO",
+          "explanation": "Paragraph 3: 'the assumption that bilingualism is a burden is not supported by research', which shows two languages have 'no harmful effect' and 'may bring certain cognitive advantages'. The writer rejects this view. Opinion trap: the idea comes from the economists' argument, not from the writer.",
+          "explanationGu": "ફકરો 3: 'the assumption that bilingualism is a burden is not supported by research'; બે ભાષાઓની 'no harmful effect' અને કદાચ 'cognitive advantages'. લેખક આ મત નકારે છે, તેથી NO. Opinion trap: આ વિચાર અર્થશાસ્ત્રીઓની દલીલનો ભાગ છે, લેખકનો નહીં."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Why does the writer refer to the revival of Hebrew?",
+          "promptGu": "લેખક હિબ્રૂના પુનરુત્થાનનો ઉલ્લેખ કેમ કરે છે?",
+          "options": [
+            "to prove that any language can easily be revived",
+            "to show that an often-quoted success may not be a useful model",
+            "to argue that revival programmes need more technology",
+            "to compare Hebrew with language nests in New Zealand"
+          ],
+          "answer": "to show that an often-quoted success may not be a useful model",
+          "explanation": "Paragraph 4: Hebrew 'is often cited as proof that dramatic recovery is possible, BUT its circumstances were highly unusual and are unlikely to be repeated elsewhere.' The writer's point comes after 'but'. Option A is the word-match/too-strong trap: it repeats 'proof' but ignores the writer's qualification.",
+          "explanationGu": "ફકરો 4: હિબ્રૂ 'is often cited as proof ... but its circumstances were highly unusual and are unlikely to be repeated elsewhere.' લેખકનો મુદ્દો 'but' પછી છે: આ સફળતા બીજી ભાષાઓ માટે ઉપયોગી મોડેલ ન પણ બને. વિકલ્પ A word-match અને too-strong trap છે: તે 'proof' શબ્દ દોહરાવે છે પણ લેખકની મર્યાદા અવગણે છે. વિકલ્પ D: passage બંનેની સીધી સરખામણી કરતું નથી."
+        },
+        {
+          "type": "FILL",
+          "prompt": "The success of language nests depends on continued ____ and on children using the language outside the nest.",
+          "promptGu": "Language nests ની સફળતા સતત ____ અને બાળકો 'માળા'ની બહાર ભાષા વાપરે તેના પર આધાર રાખે છે.",
+          "answer": "funding",
+          "alternatives": [],
+          "explanation": "Paragraph 4: 'Its success, however, depends heavily on continued funding and on whether children can use the language outside the nest.' The blank follows 'continued', so a noun is needed. Writing 'continued funding' would repeat a word already in the sentence.",
+          "explanationGu": "ફકરો 4: 'depends heavily on continued funding and on whether children can use the language outside the nest.' ખાલી જગ્યા 'continued' પછી છે, તેથી noun જોઈએ: funding. 'continued funding' લખો તો વાક્યમાં શબ્દ બે વાર આવે – ખાલી જગ્યા પહેલાં-પછીના શબ્દો ફરી ન લખો.",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "MCQ",
+          "prompt": "According to the final paragraph, what is the main limitation of language apps?",
+          "promptGu": "છેલ્લા ફકરા મુજબ, ભાષા-એપ્સની મુખ્ય મર્યાદા શું છે?",
+          "options": [
+            "They are too expensive for scattered communities.",
+            "They cannot replace the everyday use of a language in real life.",
+            "They contain too little vocabulary.",
+            "They are designed only for children."
+          ],
+          "answer": "They cannot replace the everyday use of a language in real life.",
+          "explanation": "Paragraph 5: 'a language survives only when people use it to live their daily lives... No technology can substitute for that.' 'cannot replace' = 'cannot substitute for'. Option A contradicts 'at low cost'; option C contradicts 'help adults acquire vocabulary' (this is a true-but-irrelevant/opposite trap).",
+          "explanationGu": "ફકરો 5: 'a language survives only when people use it to live their daily lives ... No technology can substitute for that.' 'cannot replace' = 'cannot substitute for'. વિકલ્પ A 'at low cost' નો વિરોધી છે; વિકલ્પ C 'help adults acquire vocabulary' નો વિરોધી છે; વિકલ્પ D માં 'adults' નો ઉલ્લેખ છે, બાળકો નહીં. દરેક ખોટા વિકલ્પને passage ની લીટીથી નકારો – આ જ નિષ્ણાતની આદત છે."
+        }
+      ]
+    }
+  ]
+}

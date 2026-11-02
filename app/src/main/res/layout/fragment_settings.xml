@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/screen_padding">
+
+        <TextView style="@style/SettingsHeader" android:text="@string/settings_profile" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/welcome_name_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapWords"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView style="@style/SettingsHeader" android:text="@string/settings_learning" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/welcome_goal"
+            android:textAppearance="@style/Text.Body" />
+
+        <include
+            android:id="@+id/goalChips"
+            layout="@layout/view_goal_chips" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchGujarati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/setting_gujarati" />
+
+        <TextView style="@style/SettingsDesc" android:text="@string/setting_gujarati_desc" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchUnlockAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/setting_unlock_all" />
+
+        <TextView style="@style/SettingsDesc" android:text="@string/setting_unlock_all_desc" />
+
+        <TextView style="@style/SettingsHeader" android:text="@string/settings_reminder" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchReminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/setting_reminder" />
+
+        <TextView style="@style/SettingsDesc" android:text="@string/setting_reminder_desc" />
+
+        <LinearLayout
+            android:id="@+id/rowReminderTime"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/reminder_time"
+                android:textAppearance="@style/Text.Body" />
+
+            <TextView
+                android:id="@+id/textReminderTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Text.Label" />
+        </LinearLayout>
+
+        <TextView style="@style/SettingsHeader" android:text="@string/settings_data" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnReset"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/btn_reset"
+            android:textColor="@color/error" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

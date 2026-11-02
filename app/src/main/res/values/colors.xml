@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#1F5EDB</color>
+    <color name="brand_primary_container">#DCE6FF</color>
+    <color name="brand_on_primary_container">#0A2A6B</color>
+    <color name="brand_secondary">#F59E0B</color>
+    <color name="brand_secondary_container">#FFF1D6</color>
+    <color name="brand_tertiary">#0E9F8C</color>
+    <color name="background">#F6F8FC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#EEF2FA</color>
+    <color name="text_primary">#141B2D</color>
+    <color name="text_secondary">#5B6478</color>
+    <color name="gujarati_text">#3D4A8F</color>
+    <color name="success">#16A34A</color>
+    <color name="success_container">#DCFCE7</color>
+    <color name="error">#DC2626</color>
+    <color name="error_container">#FEE2E2</color>
+    <color name="option_stroke">#C9D2E3</color>
+    <color name="track">#E3E8F2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="launcher_background">#1F5EDB</color>
+</resources>

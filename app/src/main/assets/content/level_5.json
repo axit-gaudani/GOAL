@@ -1,0 +1,725 @@
+{
+  "id": "L5",
+  "order": 5,
+  "title": "IELTS Band 7",
+  "titleGu": "IELTS બેન્ડ 7",
+  "band": "C1 · IELTS Band 7",
+  "description": "Work with genuine academic texts. Master advanced paraphrasing, matching information, inference and time management for the full Reading test.",
+  "descriptionGu": "સાચા શૈક્ષણિક લખાણો સાથે કામ કરો. ઉચ્ચ સ્તરનું પેરાફ્રેઝિંગ, matching information, અનુમાન (inference) અને આખી Reading કસોટી માટે સમય વ્યવસ્થાપનમાં નિપુણ બનો.",
+  "lessons": [
+    {
+      "id": "L5-01",
+      "order": 1,
+      "title": "Academic Vocabulary and Advanced Paraphrasing",
+      "titleGu": "શૈક્ષણિક શબ્દભંડોળ અને ઉચ્ચ સ્તરનું પેરાફ્રેઝિંગ",
+      "skill": "Vocabulary",
+      "minutes": 18,
+      "explanation": "At Band 7, almost no answer uses the same words as the question. IELTS tests whether you can recognise the same idea expressed in different language. Three tools help you do this.\n\n• Word families: one root can appear as a noun, verb or adjective. 'Replicate' (verb) may appear in the question as 'replication' (noun); 'deplete' may appear as 'depletion'. Learn words in families, not alone.\n• Academic synonyms: 'subsequent' = 'later'; 'substantial' = 'large'; 'attribute X to Y' = 'say Y caused X'; 'phenomenon' = 'something that happens'.\n• Hedging words: academic writers rarely state things as certain. Words such as may, might, suggest, likely, appear to, tend to, indicate and possibly show that a claim is NOT proven.\n\nHedging is the most important trap for TRUE/FALSE/NOT GIVEN and YES/NO/NOT GIVEN. If the passage says 'X may cause Y' and the statement says 'X causes Y', the statement is stronger than the text. Usually the answer is then FALSE/NO (if the passage clearly casts doubt) or NOT GIVEN (if the passage simply does not confirm it). Always compare the strength of the claim, not just the topic.\n\nExam routine:\n• Underline key words in the question and think of two or three possible synonyms before you scan.\n• Scan for the synonyms and word-family forms, not the exact word.\n• When you find the sentence, check the verb strength: certain (proves, shows) or tentative (suggests, may)?",
+      "explanationGu": "Band 7 સ્તરે પ્રશ્નમાં આપેલા શબ્દો passage માં લગભગ ક્યારેય એ જ રૂપમાં મળતા નથી. IELTS એ તપાસે છે કે તમે એક જ વિચારને જુદા શબ્દોમાં ઓળખી શકો છો કે નહીં. આ માટે ત્રણ સાધન ખૂબ ઉપયોગી છે.\n\n• Word families (શબ્દ પરિવાર): એક જ મૂળ શબ્દ noun, verb કે adjective તરીકે આવી શકે. Passage માં 'replicate' (ક્રિયાપદ) હોય અને પ્રશ્નમાં 'replication' (નામ) હોય. તેથી શબ્દો હંમેશા આખા પરિવાર સાથે યાદ રાખો.\n• Academic synonyms: 'subsequent' = 'later' (પછીનું), 'substantial' = 'large' (મોટું), 'attribute X to Y' = 'X નું કારણ Y છે એમ કહેવું'.\n• Hedging શબ્દો: વિદ્વાન લેખકો મોટાભાગે વાતને 100% નિશ્ચિત કહેતા નથી. may, might, suggest, likely, appear to, tend to, indicate જેવા શબ્દો બતાવે છે કે વાત હજી સાબિત થઈ નથી, માત્ર સંભાવના છે.\n\nTFNG અને YNNG માં hedging સૌથી મોટી જાળ છે. Passage કહે 'X may cause Y' અને પ્રશ્ન કહે 'X causes Y', તો પ્રશ્નનું વિધાન passage કરતાં વધુ મજબૂત છે. જો passage સ્પષ્ટ શંકા બતાવે તો જવાબ FALSE/NO, અને જો passage માત્ર પુષ્ટિ ન કરે તો NOT GIVEN. યાદ રાખો: માત્ર વિષય નહીં, દાવાની 'તાકાત' સરખાવો.\n\nપરીક્ષા માટેની રીત:\n• પ્રશ્નના મુખ્ય શબ્દો નીચે લીટી કરો અને scan કરતાં પહેલાં તેના 2-3 સમાનાર્થી મનમાં વિચારી લો.\n• Passage માં એ જ શબ્દ નહીં, પણ તેના સમાનાર્થી અને word-family રૂપ શોધો.\n• વાક્ય મળે એટલે ક્રિયાપદની તાકાત તપાસો: નિશ્ચિત (proves, shows) છે કે સંભાવના (suggests, may)?",
+      "examples": [
+        {
+          "en": "The findings suggest that sleep may improve memory.",
+          "gu": "તારણો સૂચવે છે કે ઊંઘ કદાચ યાદશક્તિ સુધારી શકે છે. (સાબિત નથી, માત્ર સંભાવના)"
+        },
+        {
+          "en": "Researchers attributed the decline to poor diet. = They said poor diet caused the decline.",
+          "gu": "સંશોધકોએ ઘટાડાનું કારણ ખરાબ આહારને ગણાવ્યું."
+        },
+        {
+          "en": "The results could not be replicated. = Later studies failed to repeat them.",
+          "gu": "પરિણામોનું પુનરાવર્તન થઈ શક્યું નહીં."
+        },
+        {
+          "en": "A substantial increase = a large rise.",
+          "gu": "નોંધપાત્ર વધારો = મોટો વધારો."
+        },
+        {
+          "en": "Prices are likely to fall. ≠ Prices will fall.",
+          "gu": "ભાવ ઘટવાની શક્યતા છે, ભાવ ચોક્કસ ઘટશે એવું નથી."
+        }
+      ],
+      "passageTitle": "Decision Fatigue: Does Choosing Wear Us Out?",
+      "passage": "Every day, people make hundreds of decisions, from trivial choices about breakfast to significant judgements at work. Over the past two decades, psychologists have proposed that this constant decision-making may gradually drain a limited mental resource. The phenomenon, commonly labelled 'decision fatigue', suggests that the quality of our choices is likely to decline as the day progresses.\n\nEarly support for the idea came from laboratory experiments in which participants who had completed demanding tasks subsequently performed worse on tests of self-control. Researchers interpreted these findings as evidence that willpower functions somewhat like a muscle: it becomes weaker with use but can be restored through rest. A frequently cited field study of court hearings appeared to reinforce this interpretation. Judges, it reported, made favourable rulings far more often at the start of a session than shortly before a break.\n\nHowever, later analysis has complicated this picture. Several large-scale attempts to replicate the original laboratory results produced considerably smaller effects, and some found no effect at all. Critics of the court study pointed out that the order of cases was not entirely random; prisoners without legal representation, for instance, tended to be heard later in a session. Such variables could account for at least part of the pattern that had been attributed to mental exhaustion.\n\nConsequently, many researchers now adopt a more cautious position. Rather than claiming that decision-making depletes a fixed reserve of energy, they suggest that motivation and expectation play a significant role. In one experiment, participants who were told that willpower is effectively unlimited showed little decline in performance after a tiring task. This implies that people's beliefs about their own mental stamina may influence how tired they actually become.\n\nThe debate has practical consequences. If decision fatigue is genuine and substantial, organisations could reduce errors by scheduling important judgements earlier in the day or by limiting the number of choices employees must make. Some business leaders already wear similar clothes every day for precisely this reason. Yet if the effect is largely psychological, encouraging a different mindset might prove more beneficial than restructuring the working day.\n\nWhat remains clear is that human judgement is not perfectly consistent. Whether the cause is biological, motivational or a combination of the two, the evidence indicates that the circumstances in which we decide are almost as important as the information we decide with.",
+      "passageGu": "દરરોજ લોકો સેંકડો નિર્ણયો લે છે, નાસ્તામાં શું ખાવું જેવી નાની પસંદગીથી લઈને કામ પરના મહત્વના નિર્ણયો સુધી. છેલ્લા બે દાયકામાં મનોવૈજ્ઞાનિકોએ એવો વિચાર રજૂ કર્યો છે કે સતત નિર્ણયો લેવાથી કદાચ ધીમે ધીમે એક મર્યાદિત માનસિક શક્તિ ખૂટી જાય છે. સામાન્ય રીતે 'decision fatigue' (નિર્ણય-થાક) તરીકે ઓળખાતી આ ઘટના સૂચવે છે કે દિવસ આગળ વધે તેમ આપણી પસંદગીની ગુણવત્તા ઘટવાની શક્યતા છે.\n\nઆ વિચારને શરૂઆતનો ટેકો પ્રયોગશાળાના એવા પ્રયોગોમાંથી મળ્યો જેમાં મુશ્કેલ કાર્યો પૂરાં કર્યા પછી સહભાગીઓએ આત્મ-નિયંત્રણની કસોટીઓમાં ખરાબ દેખાવ કર્યો. સંશોધકોએ આ તારણોને એવા પુરાવા તરીકે જોયા કે ઇચ્છાશક્તિ કંઈક અંશે સ્નાયુ જેવી છે: વાપરવાથી તે નબળી પડે છે પણ આરામથી ફરી મેળવી શકાય છે. અદાલતની સુનાવણીઓ પરનો એક વારંવાર ટાંકવામાં આવતો ક્ષેત્ર-અભ્યાસ આ અર્થઘટનને મજબૂત કરતો જણાયો. તે અભ્યાસ મુજબ, ન્યાયાધીશો વિરામ પહેલાંના સમય કરતાં સત્રની શરૂઆતમાં ઘણી વધુ વાર અનુકૂળ ચુકાદા આપતા હતા.\n\nપરંતુ પછીના વિશ્લેષણે આ ચિત્રને વધુ જટિલ બનાવ્યું. મૂળ પ્રયોગશાળા પરિણામોનું પુનરાવર્તન કરવાના કેટલાક મોટા પાયાના પ્રયાસોમાં ઘણી ઓછી અસર જોવા મળી, અને કેટલાકમાં તો કોઈ અસર જ ન મળી. અદાલત-અભ્યાસના ટીકાકારોએ ધ્યાન દોર્યું કે કેસોનો ક્રમ સંપૂર્ણપણે યાદૃચ્છિક (random) ન હતો; ઉદાહરણ તરીકે, વકીલ વિનાના કેદીઓની સુનાવણી સામાન્ય રીતે સત્રમાં મોડી થતી. આવાં પરિબળો એ પેટર્નના ઓછામાં ઓછા એક ભાગને સમજાવી શકે, જેનું કારણ માનસિક થાકને ગણવામાં આવ્યું હતું.\n\nપરિણામે, હવે ઘણા સંશોધકો વધુ સાવચેત વલણ અપનાવે છે. નિર્ણય લેવાથી ઊર્જાનો નિશ્ચિત ભંડાર ખાલી થાય છે એવો દાવો કરવાને બદલે, તેઓ સૂચવે છે કે પ્રેરણા અને અપેક્ષા મહત્વની ભૂમિકા ભજવે છે. એક પ્રયોગમાં, જે સહભાગીઓને કહેવામાં આવ્યું કે ઇચ્છાશક્તિ લગભગ અમર્યાદિત છે, તેમના દેખાવમાં થકવી દેનારા કાર્ય પછી બહુ ઓછો ઘટાડો જોવા મળ્યો. આનો અર્થ એ થાય કે પોતાની માનસિક સહનશક્તિ વિશે લોકોની માન્યતા કદાચ તેઓ ખરેખર કેટલા થાકે છે તેના પર અસર કરે છે.\n\nઆ ચર્ચાનાં વ્યવહારુ પરિણામો છે. જો નિર્ણય-થાક સાચો અને નોંધપાત્ર હોય, તો સંસ્થાઓ મહત્વના નિર્ણયો દિવસમાં વહેલા ગોઠવીને અથવા કર્મચારીઓએ લેવી પડતી પસંદગીઓની સંખ્યા મર્યાદિત કરીને ભૂલો ઘટાડી શકે. કેટલાક વ્યાપાર-નેતાઓ ચોક્કસ આ જ કારણસર પહેલેથી જ રોજ એકસરખાં કપડાં પહેરે છે. છતાં, જો આ અસર મુખ્યત્વે માનસિક હોય, તો કામકાજના દિવસની રચના બદલવા કરતાં જુદી માનસિકતાને પ્રોત્સાહન આપવું વધુ લાભદાયી સાબિત થઈ શકે.\n\nએટલું સ્પષ્ટ છે કે માનવ નિર્ણયશક્તિ સંપૂર્ણપણે એકસરખી રહેતી નથી. કારણ જૈવિક હોય, પ્રેરણાત્મક હોય કે બંનેનું મિશ્રણ, પુરાવા સૂચવે છે કે આપણે કઈ પરિસ્થિતિમાં નિર્ણય લઈએ છીએ તે લગભગ એટલું જ મહત્વનું છે જેટલી માહિતીના આધારે આપણે નિર્ણય લઈએ છીએ.",
+      "vocabulary": [
+        {
+          "word": "proposed",
+          "pos": "verb",
+          "meaningGu": "રજૂ કર્યું / સૂચવ્યું (વિચાર તરીકે)",
+          "meaningEn": "put forward an idea for others to consider",
+          "example": "She proposed a new theory of memory.",
+          "exampleGu": "તેણે યાદશક્તિનો નવો સિદ્ધાંત રજૂ કર્યો."
+        },
+        {
+          "word": "phenomenon",
+          "pos": "noun",
+          "meaningGu": "ઘટના / પ્રક્રિયા (જે જોવા મળે છે)",
+          "meaningEn": "something that happens or exists and can be observed",
+          "example": "Migration is a natural phenomenon.",
+          "exampleGu": "સ્થળાંતર એક કુદરતી ઘટના છે."
+        },
+        {
+          "word": "subsequently",
+          "pos": "adverb",
+          "meaningGu": "ત્યારબાદ / પછીથી",
+          "meaningEn": "after something else happened; later",
+          "example": "He was injured and subsequently retired.",
+          "exampleGu": "તે ઘાયલ થયો અને ત્યારબાદ નિવૃત્ત થયો."
+        },
+        {
+          "word": "replicate",
+          "pos": "verb",
+          "meaningGu": "પુનરાવર્તન કરવું (પ્રયોગ ફરી કરીને એ જ પરિણામ મેળવવું)",
+          "meaningEn": "to repeat a study and get the same result",
+          "example": "Other scientists failed to replicate the result.",
+          "exampleGu": "બીજા વૈજ્ઞાનિકો એ પરિણામ ફરી મેળવી ન શક્યા."
+        },
+        {
+          "word": "attributed",
+          "pos": "verb",
+          "meaningGu": "કારણ ગણાવ્યું",
+          "meaningEn": "said that something was caused by a particular thing",
+          "example": "The delay was attributed to bad weather.",
+          "exampleGu": "વિલંબનું કારણ ખરાબ હવામાનને ગણાવાયું."
+        },
+        {
+          "word": "cautious",
+          "pos": "adjective",
+          "meaningGu": "સાવચેત",
+          "meaningEn": "careful to avoid risks or strong claims",
+          "example": "Scientists are cautious about the new data.",
+          "exampleGu": "વૈજ્ઞાનિકો નવા ડેટા અંગે સાવચેત છે."
+        },
+        {
+          "word": "depletes",
+          "pos": "verb",
+          "meaningGu": "ખાલી કરે છે / ઘટાડે છે",
+          "meaningEn": "uses up so that little is left",
+          "example": "Overfishing depletes fish stocks.",
+          "exampleGu": "વધુ પડતી માછીમારી માછલીઓનો જથ્થો ઘટાડે છે."
+        },
+        {
+          "word": "substantial",
+          "pos": "adjective",
+          "meaningGu": "નોંધપાત્ર / મોટું",
+          "meaningEn": "large in amount or importance",
+          "example": "There was a substantial rise in costs.",
+          "exampleGu": "ખર્ચમાં નોંધપાત્ર વધારો થયો."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "In paragraph 1, the word 'proposed' is closest in meaning to:",
+          "promptGu": "ફકરા 1 માં 'proposed' શબ્દનો સૌથી નજીકનો અર્થ કયો?",
+          "options": [
+            "proved",
+            "suggested",
+            "rejected",
+            "measured"
+          ],
+          "answer": "suggested",
+          "explanation": "'Psychologists have proposed that... may gradually drain' – 'proposed' means put forward an idea, i.e. 'suggested'. Note the hedge 'may': the idea was not proved, so 'proved' is the trap.",
+          "explanationGu": "'Psychologists have proposed that ... may gradually drain' – અહીં 'proposed' એટલે વિચાર રજૂ કરવો, એટલે કે 'suggested'. સાથે 'may' શબ્દ જુઓ: વાત સાબિત થઈ નથી, તેથી 'proved' એ જાળ (trap) છે. Hedging શબ્દ દેખાય તો 'proved' જેવા મજબૂત વિકલ્પથી સાવધ રહો."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Later attempts to repeat the laboratory experiments all failed to find any effect.",
+          "promptGu": "પ્રયોગશાળાના પ્રયોગો ફરી કરવાના પછીના તમામ પ્રયાસોમાં કોઈ અસર જ જોવા મળી નહીં.",
+          "answer": "FALSE",
+          "explanation": "Passage: 'attempts to replicate... produced considerably smaller effects, and SOME found no effect at all.' 'Repeat' = 'replicate', but 'all' contradicts 'some'. Most studies found smaller effects, not zero.",
+          "explanationGu": "Passage: 'attempts to replicate ... produced considerably smaller effects, and some found no effect at all.' 'repeat' = 'replicate' (paraphrase). પણ પ્રશ્નમાં 'all' છે જ્યારે passage માં 'some' છે. મોટાભાગમાં અસર ઓછી હતી, શૂન્ય નહીં. તેથી FALSE. ટીપ: all, every, never, only જેવા શબ્દો હંમેશા તપાસો."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "In the court study, prisoners who had no lawyer were usually heard later in a session.",
+          "promptGu": "અદાલત-અભ્યાસમાં, વકીલ વિનાના કેદીઓની સુનાવણી સામાન્ય રીતે સત્રમાં મોડી થતી.",
+          "answer": "TRUE",
+          "explanation": "Passage: 'prisoners without legal representation... tended to be heard later in a session.' Paraphrases: 'had no lawyer' = 'without legal representation'; 'usually' = 'tended to'.",
+          "explanationGu": "Passage: 'prisoners without legal representation ... tended to be heard later in a session.' Paraphrase: 'had no lawyer' = 'without legal representation', અને 'usually' = 'tended to'. અર્થ સંપૂર્ણ મેળ ખાય છે, તેથી TRUE."
+        },
+        {
+          "type": "FILL",
+          "prompt": "Early researchers compared willpower to a ____ that becomes weaker when it is used.",
+          "promptGu": "શરૂઆતના સંશોધકોએ ઇચ્છાશક્તિની સરખામણી એવી ____ સાથે કરી જે વાપરવાથી નબળી પડે.",
+          "answer": "muscle",
+          "alternatives": [],
+          "explanation": "Paragraph 2: 'willpower functions somewhat like a muscle: it becomes weaker with use'. 'compared to' = 'functions like'.",
+          "explanationGu": "ફકરો 2: 'willpower functions somewhat like a muscle: it becomes weaker with use'. 'compared ... to' = 'functions like' (સરખામણી). ખાલી જગ્યા પહેલાં 'a' છે, એટલે એકવચન noun જોઈએ: muscle.",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "MCQ",
+          "prompt": "According to paragraph 4, many researchers now believe that",
+          "promptGu": "ફકરા 4 મુજબ, હવે ઘણા સંશોધકો માને છે કે",
+          "options": [
+            "making decisions uses up a fixed store of energy",
+            "people's expectations may affect how tired they become",
+            "willpower has been proved to be unlimited",
+            "tiring tasks never reduce performance"
+          ],
+          "answer": "people's expectations may affect how tired they become",
+          "explanation": "Paragraph 4: 'they suggest that motivation and expectation play a significant role... people's beliefs about their own mental stamina may influence how tired they actually become.' Option A is the OLD view they reject ('Rather than claiming...depletes a fixed reserve'). Option C is too strong: participants were only TOLD willpower is unlimited.",
+          "explanationGu": "ફકરો 4: 'motivation and expectation play a significant role ... beliefs ... may influence how tired they actually become.' 'expectations' = 'beliefs/expectation', 'affect' = 'influence'. વિકલ્પ A જૂનો વિચાર છે જેને 'Rather than claiming' થી નકાર્યો છે. વિકલ્પ C જાળ છે: સહભાગીઓને માત્ર 'કહેવામાં' આવ્યું હતું, સાબિત થયું નથી."
+        },
+        {
+          "type": "YNNG",
+          "prompt": "The writer believes that the conditions under which people make decisions matter.",
+          "promptGu": "લેખક માને છે કે લોકો જે પરિસ્થિતિમાં નિર્ણય લે છે તે મહત્વની છે.",
+          "answer": "YES",
+          "explanation": "Final paragraph: 'the circumstances in which we decide are almost as important as the information we decide with.' 'conditions' = 'circumstances'; 'matter' = 'are important'.",
+          "explanationGu": "છેલ્લો ફકરો: 'the circumstances in which we decide are almost as important as the information we decide with.' 'conditions' = 'circumstances', 'matter' = 'are important'. લેખક પોતાનો મત 'What remains clear' થી આપે છે, તેથી YES."
+        },
+        {
+          "type": "FILL",
+          "prompt": "Some business leaders wear similar clothes every day in order to reduce the number of ____ they have to make.",
+          "promptGu": "કેટલાક વ્યાપાર-નેતાઓ રોજ એકસરખાં કપડાં પહેરે છે જેથી તેમને લેવી પડતી ____ ની સંખ્યા ઓછી થાય.",
+          "answer": "choices",
+          "alternatives": [],
+          "explanation": "Paragraph 5: 'limiting the number of choices employees must make. Some business leaders already wear similar clothes every day for precisely this reason.' 'for precisely this reason' links back to 'limiting the number of choices'. 'reduce' = 'limit'.",
+          "explanationGu": "ફકરો 5: 'limiting the number of choices ... Some business leaders ... for precisely this reason.' 'this reason' આગળના વાક્ય તરફ ઇશારો કરે છે. 'reduce' = 'limiting'. ટીપ: 'this', 'such', 'these' જેવા સંદર્ભ શબ્દો આગળના વાક્યમાં જવાબ બતાવે છે.",
+          "wordLimit": "ONE WORD ONLY"
+        }
+      ]
+    },
+    {
+      "id": "L5-02",
+      "order": 2,
+      "title": "Matching Information to Paragraphs",
+      "titleGu": "માહિતીને ફકરા સાથે જોડવી (Matching Information)",
+      "skill": "IELTS Strategy",
+      "minutes": 20,
+      "explanation": "In 'Matching information' questions you read statements such as 'Which paragraph contains a reference to...?' and choose a paragraph letter (A–F). This task is different from matching headings in three important ways.\n\n• You are looking for one small detail, often a single sentence, not the main idea of the paragraph.\n• The questions are NOT in passage order.\n• One paragraph may be used more than once, and some paragraphs may not be used at all (read the instructions).\n\nNotice the 'type' word in each statement: an example of, an explanation of, a comparison of, a reason for, a description of, a warning about. These tell you what kind of sentence to look for. 'A reason why fieldwork is still needed' means you need a sentence with because/so/therefore or a problem that requires a solution.\n\nEfficient method:\n• Do this task LAST for the passage, after the questions that follow passage order. By then you already know roughly what each paragraph contains.\n• Write 3–4 keyword notes next to each paragraph letter while you read (e.g. 'B – how laser works, removes trees').\n• For each statement, predict paraphrases: 'steal artefacts' might appear as 'looting'.\n• Start with the statements that have the most specific words (names, numbers, unusual nouns); leave general ones until the end.\n• Do not choose a paragraph just because it shares a single word with the statement. Check that the whole idea (e.g. 'a danger', 'a comparison') is really there.",
+      "explanationGu": "'Matching information' પ્રશ્નોમાં 'Which paragraph contains a reference to...?' જેવાં વિધાનો હોય છે અને તમારે ફકરાનો અક્ષર (A–F) પસંદ કરવાનો હોય છે. આ પ્રકાર 'matching headings' થી ત્રણ રીતે જુદો છે:\n\n• અહીં ફકરાનો મુખ્ય વિચાર નહીં, પણ એક નાની વિગત (ઘણીવાર માત્ર એક વાક્ય) શોધવાની હોય છે.\n• પ્રશ્નો passage ના ક્રમમાં હોતા નથી.\n• એક ફકરો એકથી વધુ વાર વપરાઈ શકે અને કોઈ ફકરો બિલકુલ ન પણ વપરાય (instructions ધ્યાનથી વાંચો).\n\nદરેક વિધાનમાં 'પ્રકાર' બતાવતો શબ્દ જુઓ: an example of (ઉદાહરણ), an explanation of (સમજૂતી), a comparison (સરખામણી), a reason for (કારણ), a description (વર્ણન), a warning (ચેતવણી). 'A reason why fieldwork is still needed' હોય તો because/so/therefore વાળું વાક્ય અથવા કોઈ સમસ્યા શોધો.\n\nઅસરકારક રીત:\n• આ પ્રશ્નો passage માં છેલ્લે કરો. ક્રમવાળા બીજા પ્રશ્નો કર્યા પછી તમને દરેક ફકરામાં શું છે તેનો ખ્યાલ આવી ગયો હશે.\n• વાંચતી વખતે દરેક ફકરાના અક્ષર પાસે 3-4 શબ્દોની નોંધ લખો (જેમ કે 'B – laser કેવી રીતે કામ કરે, વૃક્ષો હટાવે').\n• દરેક વિધાન માટે સમાનાર્થી વિચારો: 'steal artefacts' passage માં 'looting' તરીકે આવી શકે.\n• જેમાં નામ, સંખ્યા કે ખાસ શબ્દ હોય તેવાં વિધાનોથી શરૂઆત કરો; સામાન્ય વિધાનો છેલ્લે રાખો.\n• માત્ર એક શબ્દ સરખો હોય એટલે ફકરો પસંદ ન કરો. આખો વિચાર ('ખતરો', 'સરખામણી') ખરેખર ત્યાં છે કે નહીં તે તપાસો.",
+      "examples": [
+        {
+          "en": "Statement: 'a warning about misuse' → look for: risk, danger, could be exploited, threat.",
+          "gu": "વિધાન: 'દુરુપયોગ વિશે ચેતવણી' → risk, danger, threat જેવા શબ્દો શોધો."
+        },
+        {
+          "en": "Statement: 'a comparison of costs' → look for: cheaper, more expensive than, whereas, compared with.",
+          "gu": "વિધાન: 'ખર્ચની સરખામણી' → cheaper, compared with, whereas શોધો."
+        },
+        {
+          "en": "Statement: 'an example of an unexpected discovery' → look for: for instance, such as, surprisingly.",
+          "gu": "વિધાન: 'અણધારી શોધનું ઉદાહરણ' → for instance, surprisingly શોધો."
+        },
+        {
+          "en": "Looting = stealing objects from historical sites.",
+          "gu": "Looting = ઐતિહાસિક સ્થળોમાંથી વસ્તુઓની ચોરી."
+        }
+      ],
+      "passageTitle": "Seeing Through the Forest: Lasers and the Lost Cities",
+      "passage": "A For most of its history, archaeology has been a slow and physically demanding discipline. Teams walk across the landscape, clearing vegetation by hand and recording every mound or stone that might indicate human activity. In dense tropical forests, this process is especially difficult: visibility may be limited to a few metres, and a single season of fieldwork can map only a tiny fraction of a region. As a result, entire settlements have remained hidden beneath the canopy despite decades of research nearby.\n\nB A remote-sensing technique known as LiDAR (Light Detection and Ranging) is changing this situation. An aircraft flying over the forest fires hundreds of thousands of laser pulses every second towards the ground. Most are reflected by leaves and branches, but a small proportion pass through gaps and strike the soil. By measuring the time each pulse takes to return, computers calculate precise heights. Specialised software then filters out the readings produced by vegetation, leaving a 'bare-earth' model of the terrain beneath.\n\nC The results can be remarkable. One survey of a tropical lowland region in Central America identified tens of thousands of structures that had never been recorded, including houses, raised causeways, water reservoirs and defensive walls. Before the survey, many specialists had assumed that the area supported only scattered villages. The density of features revealed by the laser data suggests that the population was several times larger than earlier estimates.\n\nD Speed is another major advantage. A survey that once would have required years of ground-based mapping can now be completed in a matter of weeks. Although hiring aircraft and equipment remains expensive, the cost per square kilometre has fallen considerably over the past decade, putting the technology within reach of university teams rather than only national agencies.\n\nE Nevertheless, LiDAR is not a replacement for traditional methods. The images show shapes, not dates, so they cannot reveal when a structure was built or how long it was occupied. Natural features such as rock outcrops can also be mistaken for walls or platforms. For these reasons, archaeologists must still visit selected locations on foot, a process called 'ground-truthing', to excavate and confirm what the data appear to show.\n\nF Finally, the technology raises ethical questions. Detailed maps of undiscovered sites could be valuable to looters who remove artefacts for illegal sale. Some researchers therefore argue that precise coordinates should not be published openly. There is also growing debate about who owns the data, particularly when surveys cover land belonging to indigenous communities, who may wish to decide how their ancestral heritage is studied and presented.",
+      "passageGu": "A તેના મોટાભાગના ઇતિહાસમાં પુરાતત્વશાસ્ત્ર ધીમું અને શારીરિક રીતે મહેનત માગતું ક્ષેત્ર રહ્યું છે. ટીમો આખા વિસ્તારમાં ચાલીને હાથથી વનસ્પતિ સાફ કરે છે અને માનવ પ્રવૃત્તિ સૂચવી શકે તેવા દરેક ટેકરા કે પથ્થરની નોંધ કરે છે. ગાઢ ઉષ્ણકટિબંધીય જંગલોમાં આ પ્રક્રિયા ખાસ મુશ્કેલ છે: દૃશ્યતા થોડા મીટર સુધી મર્યાદિત હોઈ શકે, અને ક્ષેત્રકાર્યની એક આખી ઋતુમાં પ્રદેશનો ખૂબ નાનો ભાગ જ નકશામાં આવી શકે. પરિણામે, નજીકમાં દાયકાઓના સંશોધન છતાં આખી વસાહતો વૃક્ષોના છત્ર નીચે છુપાયેલી રહી છે.\n\nB LiDAR (Light Detection and Ranging) તરીકે ઓળખાતી દૂર-સંવેદન (remote-sensing) પદ્ધતિ આ સ્થિતિ બદલી રહી છે. જંગલ ઉપરથી ઊડતું વિમાન દર સેકન્ડે લાખો લેસર કિરણો જમીન તરફ છોડે છે. મોટાભાગનાં કિરણો પાંદડાં અને ડાળીઓથી પાછાં ફરે છે, પણ થોડો ભાગ ખાલી જગ્યામાંથી પસાર થઈને જમીનને અથડાય છે. દરેક કિરણને પાછા આવતાં લાગતો સમય માપીને કમ્પ્યુટર ચોક્કસ ઊંચાઈ ગણે છે. પછી ખાસ સોફ્ટવેર વનસ્પતિથી મળેલાં માપ દૂર કરે છે અને નીચેની જમીનનું 'bare-earth' (ખુલ્લી જમીનનું) મોડેલ બાકી રહે છે.\n\nC પરિણામો અદ્ભુત હોઈ શકે છે. મધ્ય અમેરિકાના એક ઉષ્ણકટિબંધીય નીચાણવાળા પ્રદેશના સર્વેમાં હજારો એવી રચનાઓ ઓળખાઈ જેની ક્યારેય નોંધ થઈ ન હતી, જેમાં ઘરો, ઊંચા બાંધેલા માર્ગો, પાણીના જળાશયો અને રક્ષણાત્મક દીવાલો સામેલ હતાં. સર્વે પહેલાં ઘણા નિષ્ણાતો માનતા હતા કે આ વિસ્તારમાં માત્ર છૂટાંછવાયાં ગામો હતાં. લેસર ડેટાએ બતાવેલી રચનાઓની ગીચતા સૂચવે છે કે વસ્તી અગાઉના અંદાજ કરતાં અનેક ગણી વધુ હતી.\n\nD ઝડપ પણ એક મોટો ફાયદો છે. જે સર્વે માટે પહેલાં જમીન પર વર્ષો સુધી નકશા બનાવવા પડત, તે હવે થોડાં અઠવાડિયાંમાં પૂરો થઈ શકે છે. વિમાન અને સાધનો ભાડે લેવાં હજી મોંઘાં છે, છતાં છેલ્લા દાયકામાં પ્રતિ ચોરસ કિલોમીટર ખર્ચ નોંધપાત્ર રીતે ઘટ્યો છે, જેથી આ ટેકનોલોજી માત્ર રાષ્ટ્રીય સંસ્થાઓ જ નહીં, યુનિવર્સિટીની ટીમોની પહોંચમાં પણ આવી છે.\n\nE તેમ છતાં, LiDAR પરંપરાગત પદ્ધતિઓનું સ્થાન લઈ શકતું નથી. છબીઓ આકાર બતાવે છે, તારીખ નહીં, તેથી કોઈ રચના ક્યારે બની અથવા કેટલો સમય વસવાટ રહ્યો તે જાણી શકાતું નથી. ખડકો જેવી કુદરતી રચનાઓને પણ ભૂલથી દીવાલ કે ચબૂતરો માની લેવાય છે. આ કારણોસર, ડેટા જે બતાવતો જણાય છે તેને ખોદકામ કરીને પુષ્ટિ આપવા પુરાતત્વવિદોએ હજી પણ પસંદ કરેલાં સ્થળોએ પગપાળા જવું પડે છે; આ પ્રક્રિયાને 'ground-truthing' કહે છે.\n\nF છેલ્લે, આ ટેકનોલોજી નૈતિક પ્રશ્નો ઊભા કરે છે. અજાણ્યાં સ્થળોના વિગતવાર નકશા એવા લૂંટારાઓ માટે કીમતી બની શકે જે ગેરકાયદે વેચાણ માટે પ્રાચીન વસ્તુઓ ઉઠાવી જાય છે. તેથી કેટલાક સંશોધકો દલીલ કરે છે કે ચોક્કસ સ્થાન-નિર્દેશાંકો (coordinates) જાહેરમાં પ્રકાશિત ન કરવા જોઈએ. ડેટાનો માલિક કોણ તે અંગે પણ ચર્ચા વધી રહી છે, ખાસ કરીને જ્યારે સર્વે આદિવાસી સમુદાયોની જમીનને આવરી લે, જેઓ પોતાના પૂર્વજોના વારસાનો અભ્યાસ અને રજૂઆત કેવી રીતે થાય તે જાતે નક્કી કરવા ઇચ્છતા હોય.",
+      "vocabulary": [
+        {
+          "word": "discipline",
+          "pos": "noun",
+          "meaningGu": "વિદ્યાશાખા / ક્ષેત્ર",
+          "meaningEn": "a subject or area of academic study",
+          "example": "Economics is a young discipline.",
+          "exampleGu": "અર્થશાસ્ત્ર એક નવી વિદ્યાશાખા છે."
+        },
+        {
+          "word": "canopy",
+          "pos": "noun",
+          "meaningGu": "વૃક્ષોનું છત્ર (ઉપરનું પાંદડાંનું આવરણ)",
+          "meaningEn": "the top layer of branches and leaves in a forest",
+          "example": "Monkeys live high in the canopy.",
+          "exampleGu": "વાંદરા વૃક્ષોના છત્રમાં ઊંચે રહે છે."
+        },
+        {
+          "word": "terrain",
+          "pos": "noun",
+          "meaningGu": "જમીનની સપાટી / ભૂપ્રદેશ",
+          "meaningEn": "an area of land and its physical features",
+          "example": "The terrain was rocky and steep.",
+          "exampleGu": "ભૂપ્રદેશ ખડકાળ અને ઢોળાવવાળો હતો."
+        },
+        {
+          "word": "estimates",
+          "pos": "noun",
+          "meaningGu": "અંદાજો",
+          "meaningEn": "approximate calculations of a number or amount",
+          "example": "Early estimates were too low.",
+          "exampleGu": "શરૂઆતના અંદાજો ઘણા ઓછા હતા."
+        },
+        {
+          "word": "excavate",
+          "pos": "verb",
+          "meaningGu": "ખોદકામ કરવું",
+          "meaningEn": "to dig carefully to find ancient objects",
+          "example": "They plan to excavate the site next year.",
+          "exampleGu": "તેઓ આવતા વર્ષે સ્થળ પર ખોદકામ કરવાનું વિચારે છે."
+        },
+        {
+          "word": "looters",
+          "pos": "noun",
+          "meaningGu": "લૂંટારા (ઐતિહાસિક વસ્તુઓની ચોરી કરનારા)",
+          "meaningEn": "people who steal goods, especially from sites or during disorder",
+          "example": "Looters damaged the ancient tomb.",
+          "exampleGu": "લૂંટારાઓએ પ્રાચીન કબરને નુકસાન પહોંચાડ્યું."
+        },
+        {
+          "word": "indigenous",
+          "pos": "adjective",
+          "meaningGu": "મૂળ નિવાસી / આદિવાસી",
+          "meaningEn": "belonging to the original people of a place",
+          "example": "Indigenous languages are disappearing.",
+          "exampleGu": "આદિવાસી ભાષાઓ લુપ્ત થઈ રહી છે."
+        },
+        {
+          "word": "heritage",
+          "pos": "noun",
+          "meaningGu": "વારસો",
+          "meaningEn": "traditions, buildings and objects passed down from the past",
+          "example": "The temple is part of our national heritage.",
+          "exampleGu": "મંદિર આપણા રાષ્ટ્રીય વારસાનો ભાગ છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "Which paragraph contains a warning that the new maps could help people steal ancient objects?",
+          "promptGu": "કયા ફકરામાં ચેતવણી છે કે નવા નકશા લોકોને પ્રાચીન વસ્તુઓ ચોરવામાં મદદ કરી શકે?",
+          "options": [
+            "Paragraph A",
+            "Paragraph B",
+            "Paragraph C",
+            "Paragraph D",
+            "Paragraph E",
+            "Paragraph F"
+          ],
+          "answer": "Paragraph F",
+          "explanation": "Paragraph F: 'Detailed maps of undiscovered sites could be valuable to looters who remove artefacts for illegal sale.' 'steal ancient objects' = 'looters who remove artefacts'; 'could help' = 'could be valuable to'.",
+          "explanationGu": "ફકરો F: 'Detailed maps ... could be valuable to looters who remove artefacts for illegal sale.' 'steal ancient objects' = 'looters who remove artefacts', અને 'warning' = 'could be valuable to looters' (ખતરો). એક પણ શબ્દ સરખો નથી, માત્ર અર્થ સરખો છે – આ જ Band 7 નું પેરાફ્રેઝિંગ છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which paragraph contains an explanation of how information about plants is removed from the data?",
+          "promptGu": "કયા ફકરામાં સમજાવ્યું છે કે ડેટામાંથી વનસ્પતિની માહિતી કેવી રીતે દૂર થાય છે?",
+          "options": [
+            "Paragraph A",
+            "Paragraph B",
+            "Paragraph C",
+            "Paragraph D",
+            "Paragraph E",
+            "Paragraph F"
+          ],
+          "answer": "Paragraph B",
+          "explanation": "Paragraph B: 'Specialised software then filters out the readings produced by vegetation'. 'removed' = 'filters out'; 'plants' = 'vegetation'.",
+          "explanationGu": "ફકરો B: 'software then filters out the readings produced by vegetation'. 'removed' = 'filters out', 'plants' = 'vegetation'. ધ્યાન આપો: ફકરો A માં પણ 'clearing vegetation by hand' છે, પણ તે હાથથી જમીન સાફ કરવાની વાત છે, ડેટાની નહીં. માત્ર એક શબ્દ (vegetation) મળે તેથી A ન પસંદ કરો."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which paragraph contains a reason why researchers still need to work on the ground?",
+          "promptGu": "કયા ફકરામાં કારણ છે કે સંશોધકોએ હજી પણ જમીન પર કામ કરવું પડે છે?",
+          "options": [
+            "Paragraph A",
+            "Paragraph B",
+            "Paragraph C",
+            "Paragraph D",
+            "Paragraph E",
+            "Paragraph F"
+          ],
+          "answer": "Paragraph E",
+          "explanation": "Paragraph E: 'For these reasons, archaeologists must still visit selected locations on foot'. The reasons: images show 'shapes, not dates' and natural features 'can be mistaken for walls'.",
+          "explanationGu": "ફકરો E: 'For these reasons, archaeologists must still visit selected locations on foot'. 'work on the ground' = 'visit ... on foot / ground-truthing'. કારણો: છબીઓ તારીખ બતાવતી નથી, અને કુદરતી ખડકોને દીવાલ માની લેવાય. 'For these reasons' એ સીધો સંકેત છે કે અહીં 'reason' છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which paragraph contains a reference to a discovery that changed ideas about how many people lived in an area?",
+          "promptGu": "કયા ફકરામાં એવી શોધનો ઉલ્લેખ છે જેણે કોઈ વિસ્તારમાં કેટલા લોકો રહેતા હતા તે વિશેના વિચાર બદલ્યા?",
+          "options": [
+            "Paragraph A",
+            "Paragraph B",
+            "Paragraph C",
+            "Paragraph D",
+            "Paragraph E",
+            "Paragraph F"
+          ],
+          "answer": "Paragraph C",
+          "explanation": "Paragraph C: 'The density of features... suggests that the population was several times larger than earlier estimates.' 'how many people lived' = 'population'; 'changed ideas' = earlier specialists 'had assumed... only scattered villages'.",
+          "explanationGu": "ફકરો C: 'suggests that the population was several times larger than earlier estimates.' 'how many people lived' = 'population', 'changed ideas' = પહેલાં નિષ્ણાતો 'only scattered villages' માનતા હતા. ધ્યાન આપો 'suggests' – લેખક સાવચેત છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which paragraph contains a description of why surveying forests on foot is difficult?",
+          "promptGu": "કયા ફકરામાં વર્ણન છે કે જંગલોનો પગપાળા સર્વે કેમ મુશ્કેલ છે?",
+          "options": [
+            "Paragraph A",
+            "Paragraph B",
+            "Paragraph C",
+            "Paragraph D",
+            "Paragraph E",
+            "Paragraph F"
+          ],
+          "answer": "Paragraph A",
+          "explanation": "Paragraph A: 'In dense tropical forests, this process is especially difficult: visibility may be limited to a few metres'. Paragraph E also mentions going 'on foot', but it explains why it is still NECESSARY, not why it is difficult.",
+          "explanationGu": "ફકરો A: 'In dense tropical forests, this process is especially difficult: visibility may be limited to a few metres'. ફકરો E માં પણ 'on foot' છે, પણ ત્યાં તે 'જરૂરી કેમ છે' તે કહ્યું છે, 'મુશ્કેલ કેમ છે' તે નહીં. પ્રશ્નનો 'type' શબ્દ (difficult) ચોક્કસ મેળવો."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "LiDAR images can show when a structure was first built.",
+          "promptGu": "LiDAR છબીઓ બતાવી શકે છે કે કોઈ રચના પહેલી વાર ક્યારે બની.",
+          "answer": "FALSE",
+          "explanation": "Paragraph E: 'The images show shapes, not dates, so they cannot reveal when a structure was built'. The statement directly contradicts the passage.",
+          "explanationGu": "ફકરો E: 'The images show shapes, not dates, so they cannot reveal when a structure was built'. વિધાન passage નું સીધું વિરોધી છે ('can show' વિરુદ્ધ 'cannot reveal'), તેથી FALSE. Passage માહિતી આપે અને તે વિધાનથી ઊલટી હોય ત્યારે FALSE; માહિતી જ ન હોય ત્યારે NOT GIVEN."
+        },
+        {
+          "type": "FILL",
+          "prompt": "After plant readings are removed, the software produces a ____ model of the land surface.",
+          "promptGu": "વનસ્પતિનાં માપ દૂર થયા પછી સોફ્ટવેર જમીનની સપાટીનું ____ મોડેલ બનાવે છે.",
+          "answer": "bare-earth",
+          "alternatives": [
+            "bare earth"
+          ],
+          "explanation": "Paragraph B: 'leaving a 'bare-earth' model of the terrain beneath.' 'land surface' = 'terrain'. A hyphenated word counts as one word.",
+          "explanationGu": "ફકરો B: 'leaving a 'bare-earth' model of the terrain beneath.' 'land surface' = 'terrain'. Hyphen (-) વાળો શબ્દ IELTS માં એક શબ્દ ગણાય છે. Spelling બરાબર copy કરો, hyphen સાથે.",
+          "wordLimit": "ONE WORD ONLY"
+        }
+      ]
+    },
+    {
+      "id": "L5-03",
+      "order": 3,
+      "title": "Inference: Reading Between the Lines",
+      "titleGu": "અનુમાન (Inference): લીટીઓ વચ્ચેનો અર્થ સમજવો",
+      "skill": "Reading",
+      "minutes": 20,
+      "explanation": "An inference is a conclusion that the text supports but does not state directly. Questions often begin: 'What can be inferred...?', 'The writer implies that...', or 'It is suggested that...'. Inference is also hidden inside many TRUE/FALSE/NOT GIVEN items at Band 7–8.\n\nThe key rule: a valid inference must be NECESSARY or very strongly supported by the text. It is not a guess, and it is not your own knowledge about the topic.\n\nHow writers imply meaning:\n• Contrast: 'Before the survey, experts assumed X.' → implies the survey showed something different.\n• Cause and result across sentences: 'Traffic noise is mostly low-pitched. Urban birds sing higher.' → implies birds sing higher to avoid the noise.\n• Evaluative words: 'Surprisingly', 'only', 'even', 'at last' reveal what the writer expected.\n• Time words: 'used to', 'no longer', 'originally' imply change.\n\nHow to check an inference option:\n• Find the sentence(s) it comes from. If you cannot point to any lines, reject it.\n• Ask: 'Must this be true if the passage is true?' If it only 'might' be true, it goes too far.\n• Reject options with extreme words (always, all, completely) unless the text is equally strong.\n• Beware of options that are true in real life but are not supported by this passage.\n\nIn TFNG, an implied idea can be TRUE. For example, if the text says 'Noise levels fell sharply when roads were closed', the statement 'Road traffic is a source of noise' is TRUE by inference, even though it is not written word for word.",
+      "explanationGu": "Inference એટલે એવો નિષ્કર્ષ જેને લખાણ ટેકો આપે છે પણ સીધો લખ્યો નથી. પ્રશ્નો ઘણીવાર આ રીતે શરૂ થાય છે: 'What can be inferred...?', 'The writer implies that...', 'It is suggested that...'. Band 7-8 ના ઘણા TFNG પ્રશ્નોમાં પણ inference છુપાયેલું હોય છે.\n\nમુખ્ય નિયમ: સાચું inference passage માંથી 'જરૂરી રીતે' અથવા ખૂબ મજબૂત રીતે નીકળવું જોઈએ. તે અંદાજ (guess) નથી, અને વિષય વિશેનું તમારું પોતાનું જ્ઞાન પણ નથી.\n\nલેખક અર્થ કેવી રીતે છુપાવે છે:\n• વિરોધાભાસ: 'Before the survey, experts assumed X.' → અર્થ: સર્વેએ કંઈક જુદું બતાવ્યું.\n• બે વાક્યમાં કારણ-પરિણામ: 'ટ્રાફિકનો અવાજ નીચા સૂરનો છે. શહેરનાં પક્ષીઓ ઊંચા સૂરે ગાય છે.' → અર્થ: અવાજથી બચવા પક્ષીઓ ઊંચા સૂરે ગાય છે.\n• મૂલ્યાંકન દર્શાવતા શબ્દો: 'Surprisingly', 'only', 'even' લેખકની અપેક્ષા બતાવે છે.\n• સમય શબ્દો: 'used to', 'no longer', 'originally' ફેરફાર સૂચવે છે.\n\nવિકલ્પ તપાસવાની રીત:\n• તે કયા વાક્યમાંથી આવે છે તે શોધો. કોઈ લીટી બતાવી ન શકો તો વિકલ્પ નકારો.\n• પોતાને પૂછો: 'Passage સાચું હોય તો શું આ પણ સાચું હોવું જ જોઈએ?' જો માત્ર 'કદાચ' સાચું હોય તો તે વધુ પડતું છે.\n• always, all, completely જેવા આત્યંતિક શબ્દોવાળા વિકલ્પોથી સાવધ રહો.\n• વાસ્તવિક જીવનમાં સાચું હોય પણ આ passage માં ન હોય તેવા વિકલ્પો જાળ છે.\n\nTFNG માં સૂચિત (implied) વાત પણ TRUE હોઈ શકે. ઉદાહરણ: passage કહે 'રસ્તા બંધ થતાં અવાજ ખૂબ ઘટ્યો', તો 'Road traffic is a source of noise' વિધાન inference દ્વારા TRUE છે, ભલે શબ્દશઃ લખ્યું ન હોય.",
+      "examples": [
+        {
+          "en": "'The bridge, at last, was opened in 2020.' → Inference: the opening was delayed or long awaited.",
+          "gu": "'At last' બતાવે છે કે પુલ ખોલવામાં મોડું થયું હતું અથવા લાંબી રાહ હતી."
+        },
+        {
+          "en": "'Even experienced divers avoid this reef.' → Inference: the reef is dangerous.",
+          "gu": "'Even' બતાવે છે કે ખડક જોખમી છે, કારણ કે અનુભવી લોકો પણ દૂર રહે છે."
+        },
+        {
+          "en": "'The town no longer depends on fishing.' → Inference: it depended on fishing in the past.",
+          "gu": "'No longer' બતાવે છે કે ભૂતકાળમાં નગર માછીમારી પર આધારિત હતું."
+        },
+        {
+          "en": "'Only three of the forty samples were usable.' → Inference: the collection method had problems.",
+          "gu": "'Only' બતાવે છે કે નમૂના એકત્ર કરવાની રીતમાં સમસ્યા હતી."
+        }
+      ],
+      "passageTitle": "The Changing Songs of City Birds",
+      "passage": "For songbirds, singing is not decoration but a vital tool. Males use song to defend territory and to attract mates, while females often assess a male's quality partly by the complexity and pitch of his song. It is therefore significant that, over the past thirty years, researchers have recorded systematic differences between the songs of birds living in cities and those of the same species in nearby woodland.\n\nThe most consistent finding concerns pitch. Urban birds of several species sing at a higher minimum frequency than their rural relatives. Road traffic produces mainly low-frequency noise, and a song that begins at a higher pitch is less likely to be masked by it. Some urban populations have also shifted their singing to the early hours before dawn, when roads are quieter. These adjustments appear within a single lifetime in some birds, indicating that learning, rather than genetic change alone, plays a part.\n\nYet the adjustment may come at a price. In several experiments, females responded more strongly to lower-pitched songs, which in many species are associated with larger, healthier males. A city male that raises his pitch to be heard may therefore communicate less effectively the very qualities that females are listening for. Whether this reduces breeding success in the wild is still uncertain, but researchers have noted that urban nests of some species produce fewer young than woodland nests.\n\nAn unexpected opportunity to study the issue arose when traffic in many cities fell dramatically for several weeks. Recordings made in one coastal city showed that a common sparrow species began singing more softly and at a lower pitch during this period, while its songs could be detected over twice the previous distance. The birds, in other words, had not been singing loudly by preference; they had been forced to do so.\n\nThese findings have encouraged some planners to consider birds when designing urban spaces. Quieter road surfaces, lower speed limits near parks and dense planting along busy streets have all been proposed as ways of reducing noise. Such measures are rarely introduced for the sake of wildlife alone, but their combined benefits for human health and animal communication may strengthen the case for them.\n\nCities will never be silent, and some species are clearly more flexible than others. The real question may not be whether birds can adapt, but how much adaptation costs them.",
+      "passageGu": "ગાયક પક્ષીઓ (songbirds) માટે ગાવું શોભા નથી, પણ એક જરૂરી સાધન છે. નર પક્ષીઓ પોતાના વિસ્તારનું રક્ષણ કરવા અને સાથી આકર્ષવા ગીતનો ઉપયોગ કરે છે, જ્યારે માદાઓ ઘણીવાર નરની ગુણવત્તા અંશતઃ તેના ગીતની જટિલતા અને સૂર (pitch) પરથી આંકે છે. તેથી એ મહત્વનું છે કે છેલ્લાં ત્રીસ વર્ષમાં સંશોધકોએ શહેરોમાં રહેતાં પક્ષીઓ અને નજીકનાં જંગલોમાં રહેતી એ જ જાતિનાં પક્ષીઓનાં ગીતો વચ્ચે વ્યવસ્થિત તફાવતો નોંધ્યા છે.\n\nસૌથી સુસંગત તારણ સૂર વિશેનું છે. ઘણી જાતિનાં શહેરી પક્ષીઓ તેમના ગ્રામ્ય સંબંધીઓ કરતાં ઊંચી લઘુતમ આવર્તન (frequency) પર ગાય છે. રસ્તાનો ટ્રાફિક મુખ્યત્વે નીચી આવર્તનનો અવાજ પેદા કરે છે, અને ઊંચા સૂરથી શરૂ થતું ગીત તેમાં દબાઈ જવાની શક્યતા ઓછી રહે છે. કેટલીક શહેરી વસ્તીએ પોતાનું ગાવાનું વહેલી પરોઢ પહેલાંના કલાકોમાં ખસેડ્યું છે, જ્યારે રસ્તા વધુ શાંત હોય છે. કેટલાંક પક્ષીઓમાં આ ફેરફારો એક જ જીવનકાળમાં દેખાય છે, જે બતાવે છે કે માત્ર જનીનિક ફેરફાર નહીં, પણ શીખવાની પ્રક્રિયા પણ ભૂમિકા ભજવે છે.\n\nછતાં, આ અનુકૂલનની કદાચ કિંમત ચૂકવવી પડે છે. કેટલાક પ્રયોગોમાં માદાઓએ નીચા સૂરનાં ગીતોને વધુ મજબૂત પ્રતિસાદ આપ્યો, જે ઘણી જાતિઓમાં મોટા અને વધુ તંદુરસ્ત નર સાથે જોડાયેલાં હોય છે. તેથી સંભળાવા માટે પોતાનો સૂર ઊંચો કરનાર શહેરી નર, માદાઓ જે ગુણો સાંભળવા માગે છે તે જ ઓછી અસરકારક રીતે વ્યક્ત કરી શકે. આનાથી જંગલમાં પ્રજનન-સફળતા ઘટે છે કે નહીં તે હજી અનિશ્ચિત છે, પણ સંશોધકોએ નોંધ્યું છે કે કેટલીક જાતિઓના શહેરી માળાઓમાં જંગલના માળાઓ કરતાં ઓછાં બચ્ચાં થાય છે.\n\nજ્યારે ઘણાં શહેરોમાં કેટલાંક અઠવાડિયાં સુધી ટ્રાફિક નાટકીય રીતે ઘટ્યો, ત્યારે આ મુદ્દાનો અભ્યાસ કરવાની અણધારી તક મળી. એક દરિયાકાંઠાના શહેરમાં કરેલાં રેકોર્ડિંગ્સે બતાવ્યું કે આ સમયગાળામાં ચકલીની એક સામાન્ય જાતિ વધુ ધીમે અને નીચા સૂરે ગાવા લાગી, અને છતાં તેનાં ગીતો અગાઉ કરતાં બમણા અંતર સુધી સાંભળી શકાતાં હતાં. બીજા શબ્દોમાં, પક્ષીઓ પોતાની પસંદગીથી મોટેથી ગાતાં ન હતાં; તેમને તેમ કરવાની ફરજ પડી હતી.\n\nઆ તારણોએ કેટલાક આયોજકોને શહેરી જગ્યાઓની રચના કરતી વખતે પક્ષીઓનો વિચાર કરવા પ્રેર્યા છે. શાંત રસ્તાની સપાટીઓ, બગીચા પાસે ઓછી ગતિ-મર્યાદા અને વ્યસ્ત રસ્તાઓ પર ગાઢ વૃક્ષારોપણ – આ બધાને અવાજ ઘટાડવાના ઉપાય તરીકે સૂચવવામાં આવ્યા છે. આવાં પગલાં ભાગ્યે જ માત્ર વન્યજીવો માટે લેવાય છે, પરંતુ માનવ આરોગ્ય અને પ્રાણી-સંચાર માટેના તેમના સંયુક્ત ફાયદા તેમના પક્ષની દલીલને મજબૂત કરી શકે.\n\nશહેરો ક્યારેય શાંત નહીં થાય, અને કેટલીક જાતિઓ સ્પષ્ટપણે બીજી કરતાં વધુ લવચીક છે. સાચો પ્રશ્ન કદાચ એ નથી કે પક્ષીઓ અનુકૂલન સાધી શકે કે નહીં, પણ એ છે કે આ અનુકૂલનની તેમને કેટલી કિંમત ચૂકવવી પડે છે.",
+      "vocabulary": [
+        {
+          "word": "assess",
+          "pos": "verb",
+          "meaningGu": "મૂલ્યાંકન કરવું / આંકવું",
+          "meaningEn": "to judge the quality or value of something",
+          "example": "Teachers assess students' progress every term.",
+          "exampleGu": "શિક્ષકો દરેક સત્રમાં વિદ્યાર્થીઓની પ્રગતિનું મૂલ્યાંકન કરે છે."
+        },
+        {
+          "word": "systematic",
+          "pos": "adjective",
+          "meaningGu": "વ્યવસ્થિત / નિયમિત પેટર્નવાળું",
+          "meaningEn": "following a regular pattern or method",
+          "example": "There were systematic errors in the data.",
+          "exampleGu": "ડેટામાં વ્યવસ્થિત ભૂલો હતી."
+        },
+        {
+          "word": "masked",
+          "pos": "adjective/verb",
+          "meaningGu": "ઢંકાયેલું / દબાઈ ગયેલું",
+          "meaningEn": "hidden or made hard to notice by something else",
+          "example": "Her voice was masked by the music.",
+          "exampleGu": "સંગીતમાં તેનો અવાજ દબાઈ ગયો."
+        },
+        {
+          "word": "adjustments",
+          "pos": "noun",
+          "meaningGu": "ફેરફારો / ગોઠવણો",
+          "meaningEn": "small changes made to fit a new situation",
+          "example": "We made some adjustments to the plan.",
+          "exampleGu": "અમે યોજનામાં થોડા ફેરફારો કર્યા."
+        },
+        {
+          "word": "dramatically",
+          "pos": "adverb",
+          "meaningGu": "નાટકીય રીતે / ખૂબ મોટા પ્રમાણમાં",
+          "meaningEn": "suddenly and to a very large degree",
+          "example": "Prices rose dramatically last year.",
+          "exampleGu": "ગયા વર્ષે ભાવ ખૂબ વધ્યા."
+        },
+        {
+          "word": "detected",
+          "pos": "verb",
+          "meaningGu": "શોધી કાઢ્યું / ઓળખાયું",
+          "meaningEn": "noticed or discovered, often with equipment",
+          "example": "The virus was detected early.",
+          "exampleGu": "વાયરસ વહેલો ઓળખાઈ ગયો."
+        },
+        {
+          "word": "flexible",
+          "pos": "adjective",
+          "meaningGu": "લવચીક / પરિસ્થિતિ મુજબ બદલાઈ શકે તેવું",
+          "meaningEn": "able to change easily to suit new conditions",
+          "example": "Young children are flexible learners.",
+          "exampleGu": "નાનાં બાળકો લવચીક શીખનાર હોય છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "What can be inferred from paragraph 2 about why urban birds sing at a higher pitch?",
+          "promptGu": "ફકરા 2 પરથી શહેરી પક્ષીઓ ઊંચા સૂરે કેમ ગાય છે તે વિશે શું અનુમાન કરી શકાય?",
+          "options": [
+            "Higher songs are preferred by city females.",
+            "It helps their songs to be heard above traffic noise.",
+            "City birds are physically smaller than rural birds.",
+            "Their genes have changed over many generations."
+          ],
+          "answer": "It helps their songs to be heard above traffic noise.",
+          "explanation": "The passage never says 'birds sing higher in order to be heard', but it links two facts: traffic noise is 'mainly low-frequency' and a higher song 'is less likely to be masked by it'. The purpose is implied. Option D is contradicted: changes appear 'within a single lifetime', so learning plays a part.",
+          "explanationGu": "Passage સીધું કહેતું નથી કે 'પક્ષીઓ સંભળાવા માટે ઊંચે ગાય છે', પણ બે હકીકતો જોડે છે: ટ્રાફિકનો અવાજ 'mainly low-frequency' છે અને ઊંચું ગીત 'less likely to be masked' છે. હેતુ સૂચિત છે – આ જ inference. વિકલ્પ D ખોટો છે: ફેરફાર 'within a single lifetime' દેખાય છે. વિકલ્પ A ઊલટો છે: માદાઓ નીચા સૂરને પસંદ કરે છે (ફકરો 3)."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Before dawn, roads in cities are usually quieter than later in the day.",
+          "promptGu": "પરોઢ પહેલાં શહેરના રસ્તા સામાન્ય રીતે દિવસના પછીના સમય કરતાં વધુ શાંત હોય છે.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 2: birds 'shifted their singing to the early hours before dawn, when roads are quieter.' 'Usually quieter' is a direct paraphrase of 'when roads are quieter'.",
+          "explanationGu": "ફકરો 2: 'the early hours before dawn, when roads are quieter.' 'Before dawn' = 'early hours before dawn', 'quieter' બંનેમાં છે. TRUE. ધ્યાન આપો કે આ વિધાન પક્ષીઓ વિશે નહીં, રસ્તા વિશે છે – પ્રશ્નનો વિષય બરાબર ઓળખો."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "The writer implies that a city male bird which raises its pitch",
+          "promptGu": "લેખક સૂચવે છે કે જે શહેરી નર પક્ષી પોતાનો સૂર ઊંચો કરે છે તે",
+          "options": [
+            "is less healthy than a woodland male",
+            "may seem a less attractive partner to females",
+            "will certainly produce fewer young",
+            "stops defending its territory"
+          ],
+          "answer": "may seem a less attractive partner to females",
+          "explanation": "Paragraph 3: females 'responded more strongly to lower-pitched songs', so a male who raises his pitch 'may... communicate less effectively the very qualities that females are listening for'. Option C is too strong: the effect on breeding 'is still uncertain'. Option A confuses the signal with the bird's real health.",
+          "explanationGu": "ફકરો 3: માદાઓ 'responded more strongly to lower-pitched songs', તેથી ઊંચો સૂર કરનાર નર 'may ... communicate less effectively the very qualities that females are listening for'. અર્થ: માદાને તે ઓછો આકર્ષક લાગી શકે. વિકલ્પ C માં 'certainly' છે, જ્યારે passage કહે છે 'still uncertain' – hedging ની જાળ. વિકલ્પ A: નર ખરેખર ઓછો તંદુરસ્ત છે એવું નથી કહ્યું, માત્ર તેનો સંકેત નબળો પડે છે."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "It has been proved that city noise reduces the number of young birds produced.",
+          "promptGu": "સાબિત થયું છે કે શહેરનો અવાજ જન્મતાં બચ્ચાંની સંખ્યા ઘટાડે છે.",
+          "answer": "FALSE",
+          "explanation": "Paragraph 3: 'Whether this reduces breeding success in the wild is still uncertain'. Fewer young in urban nests has been noted, but the cause has not been proved. 'It has been proved' contradicts 'still uncertain'.",
+          "explanationGu": "ફકરો 3: 'Whether this reduces breeding success in the wild is still uncertain'. શહેરી માળાઓમાં ઓછાં બચ્ચાં 'noted' છે, પણ કારણ સાબિત નથી. 'proved' અને 'still uncertain' એકબીજાના વિરોધી છે, તેથી FALSE (NOT GIVEN નહીં, કારણ કે passage સ્પષ્ટ કહે છે કે વાત અનિશ્ચિત છે)."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What does the writer suggest about the sparrows' behaviour when traffic fell?",
+          "promptGu": "ટ્રાફિક ઘટ્યો ત્યારે ચકલીઓના વર્તન વિશે લેખક શું સૂચવે છે?",
+          "options": [
+            "The birds had naturally preferred to sing loudly.",
+            "The birds stopped singing completely.",
+            "Their earlier loud singing had been a response to noise.",
+            "Their songs could no longer be detected."
+          ],
+          "answer": "Their earlier loud singing had been a response to noise.",
+          "explanation": "Paragraph 4: 'The birds... had not been singing loudly by preference; they had been forced to do so.' When noise fell, they sang more softly, so the loud singing was caused by the noise. Option A is the exact opposite. Option D is false: songs could be detected 'over twice the previous distance'.",
+          "explanationGu": "ફકરો 4: 'had not been singing loudly by preference; they had been forced to do so.' અવાજ ઘટ્યો ત્યારે તેઓ ધીમે ગાવા લાગ્યાં, એટલે અગાઉનું મોટેથી ગાવું અવાજની પ્રતિક્રિયા હતી. 'response to noise' = 'forced to do so'. વિકલ્પ A તદ્દન ઊલટો છે; વિકલ્પ D ખોટો છે કારણ કે ગીત 'twice the previous distance' સુધી સંભળાતાં હતાં."
+        },
+        {
+          "type": "YNNG",
+          "prompt": "The writer thinks noise-reduction measures are likely to be introduced purely to protect birds.",
+          "promptGu": "લેખક માને છે કે અવાજ ઘટાડવાનાં પગલાં માત્ર પક્ષીઓના રક્ષણ માટે જ લેવાય તેવી શક્યતા છે.",
+          "answer": "NO",
+          "explanation": "Paragraph 5: 'Such measures are rarely introduced for the sake of wildlife alone'. 'Purely to protect birds' = 'for the sake of wildlife alone', and 'rarely' contradicts 'likely'. The writer thinks the combined human and animal benefits make the case.",
+          "explanationGu": "ફકરો 5: 'Such measures are rarely introduced for the sake of wildlife alone'. 'purely to protect birds' = 'for the sake of wildlife alone'. 'rarely' (ભાગ્યે જ) અને 'likely' (શક્યતા છે) વિરોધી છે, તેથી NO. લેખક માને છે કે માનવ આરોગ્ય સાથેના સંયુક્ત ફાયદા જ દલીલને મજબૂત કરે છે."
+        },
+        {
+          "type": "FILL",
+          "prompt": "Changes to song that occur within one bird's lifetime show that ____ is involved, not only genetic change.",
+          "promptGu": "એક પક્ષીના જીવનકાળમાં થતા ગીતના ફેરફારો બતાવે છે કે માત્ર જનીનિક ફેરફાર નહીં, પણ ____ પણ સામેલ છે.",
+          "answer": "learning",
+          "alternatives": [],
+          "explanation": "Paragraph 2: 'These adjustments appear within a single lifetime in some birds, indicating that learning, rather than genetic change alone, plays a part.' 'is involved' = 'plays a part'.",
+          "explanationGu": "ફકરો 2: 'indicating that learning, rather than genetic change alone, plays a part.' 'is involved' = 'plays a part', 'not only genetic change' = 'rather than genetic change alone'. જવાબ: learning.",
+          "wordLimit": "ONE WORD ONLY"
+        }
+      ]
+    },
+    {
+      "id": "L5-04",
+      "order": 4,
+      "title": "Time Management: 60 Minutes, 3 Passages, 40 Questions",
+      "titleGu": "સમય વ્યવસ્થાપન: 60 મિનિટ, 3 passage, 40 પ્રશ્નો",
+      "skill": "IELTS Strategy",
+      "minutes": 18,
+      "explanation": "In IELTS Academic Reading you have 60 minutes for three passages and 40 questions, with NO extra time to transfer answers on paper (on computer you type directly). Passages become harder from 1 to 3, so your time should not be equal.\n\nA Band 7 plan:\n• Passage 1: about 17 minutes.\n• Passage 2: about 20 minutes.\n• Passage 3: about 23 minutes. Write the finishing times at the top of your paper (e.g. start 10:00 → 10:17, 10:37, 11:00) and check the clock after each passage.\n\nInside each passage:\n• Skim the whole text in 2–3 minutes: title, first lines of each paragraph, any diagram.\n• Look at all the question types. Do the questions that follow passage order first (TFNG, fill-in, MCQ). Do 'global' tasks (headings, matching information, writer's purpose) last.\n• Use a 90-second rule: if you cannot find an answer in about 90 seconds, guess, mark the number, and move on. One question is worth the same as any other.\n\nWhen to skip:\n• You have scanned the likely paragraph twice and still cannot decide between two answers.\n• A question needs you to reread the whole passage.\n\nNever leave a blank. There is no penalty for a wrong answer, so in the final two minutes fill every empty box with your best guess (for TFNG, 'NOT GIVEN' is not automatically safer than the others). Finally, remember that the clock is your friend only if you check it: most candidates who score below their level do not run out of knowledge, they run out of time.",
+      "explanationGu": "IELTS Academic Reading માં 3 passage અને 40 પ્રશ્નો માટે કુલ 60 મિનિટ મળે છે, અને પેપર પર જવાબ ઉતારવા માટે કોઈ વધારાનો સમય મળતો નથી (કમ્પ્યુટર પર સીધું ટાઇપ કરો છો). Passage 1 થી 3 સુધી અઘરાં થતાં જાય છે, તેથી સમય સરખો વહેંચવો નહીં.\n\nBand 7 માટેની યોજના:\n• Passage 1: લગભગ 17 મિનિટ.\n• Passage 2: લગભગ 20 મિનિટ.\n• Passage 3: લગભગ 23 મિનિટ. પેપરના ઉપર પૂરા થવાનો સમય લખી દો (જેમ કે 10:00 એ શરૂ → 10:17, 10:37, 11:00) અને દરેક passage પછી ઘડિયાળ જુઓ.\n\nદરેક passage માં:\n• 2-3 મિનિટમાં આખું લખાણ skim કરો: શીર્ષક, દરેક ફકરાની પહેલી લીટી, કોઈ આકૃતિ હોય તો.\n• બધા પ્રશ્ન-પ્રકાર જુઓ. Passage ના ક્રમમાં ચાલતા પ્રશ્નો (TFNG, fill-in, MCQ) પહેલાં કરો. Headings, matching information, writer's purpose જેવા 'આખા passage' વાળા પ્રશ્નો છેલ્લે કરો.\n• 90 સેકન્ડનો નિયમ: લગભગ 90 સેકન્ડમાં જવાબ ન મળે તો અંદાજે જવાબ લખો, નંબર પર નિશાની કરો અને આગળ વધો. દરેક પ્રશ્નના ગુણ સરખા છે.\n\nક્યારે છોડવું:\n• સંભવિત ફકરો બે વાર જોયા પછી પણ બે જવાબ વચ્ચે નક્કી ન થાય.\n• પ્રશ્ન માટે આખું passage ફરી વાંચવું પડે તેમ હોય.\n\nકોઈ ખાનું ખાલી ન છોડો. ખોટા જવાબ માટે ગુણ કપાતા નથી, તેથી છેલ્લી બે મિનિટમાં દરેક ખાલી ખાનામાં શ્રેષ્ઠ અંદાજ લખો (TFNG માં 'NOT GIVEN' આપોઆપ વધુ સુરક્ષિત નથી). યાદ રાખો: પોતાના સ્તરથી ઓછો band મેળવનારા મોટાભાગના ઉમેદવારો પાસે જ્ઞાન ખૂટતું નથી, સમય ખૂટે છે.",
+      "examples": [
+        {
+          "en": "Start 10:00 → Passage 1 ends 10:17 → Passage 2 ends 10:37 → Passage 3 ends 11:00.",
+          "gu": "10:00 શરૂઆત → 10:17 સુધી Passage 1 → 10:37 સુધી Passage 2 → 11:00 સુધી Passage 3."
+        },
+        {
+          "en": "Question 9 is taking too long: write your best guess, circle '9', move on.",
+          "gu": "પ્રશ્ન 9 માં વધુ સમય જાય છે: અંદાજે જવાબ લખો, '9' પર વર્તુળ કરો, આગળ વધો."
+        },
+        {
+          "en": "Do matching headings after the TFNG questions on the same passage.",
+          "gu": "એ જ passage ના TFNG પ્રશ્નો પછી matching headings કરો."
+        },
+        {
+          "en": "No blanks: an empty box scores zero; a guess may score one.",
+          "gu": "ખાલી ખાનું = શૂન્ય; અંદાજથી કદાચ એક ગુણ મળે."
+        }
+      ],
+      "passageTitle": "The Planning Fallacy: Why Projects Run Late",
+      "passage": "In 1957 the Australian state of New South Wales approved plans for an opera house in Sydney. It was expected to cost about seven million Australian dollars and to be completed within four years. It finally opened in 1973, ten years late, at a cost of over one hundred million dollars. Although extreme, the case is far from unusual. Studies of large infrastructure projects around the world have found that the great majority exceed their budgets, and that delays are the rule rather than the exception.\n\nPsychologists use the term 'planning fallacy' to describe the tendency to underestimate the time, cost and risks of future tasks, even when people know that similar tasks in the past took longer than expected. The term was introduced in the late 1970s, and the effect has since been demonstrated in settings ranging from students' essay deadlines to household repairs. In one study, students predicted they would finish a thesis in an average of about 34 days; the actual average was closer to 56 days.\n\nWhy does this happen? One explanation is that people take an 'inside view'. They imagine the specific steps of their own project and construct an optimistic scenario in which each step goes roughly to plan. Unexpected problems such as illness, technical failure or bad weather are individually unlikely, so planners tend to ignore them, yet collectively they are almost certain to occur. Motivation also matters: people who want a project to succeed are less inclined to look for reasons why it might fail.\n\nEconomists add a further explanation. When contractors compete for public contracts, the lowest estimate often wins. This creates an incentive to present optimistic figures, knowing that additional funds will probably be approved once work has begun and abandoning the project has become politically difficult. In such cases, the error is not purely psychological but partly strategic.\n\nA widely recommended remedy is 'reference class forecasting'. Instead of building a forecast from the details of the current plan, planners first identify a group of similar completed projects and examine how long they actually took and how much they actually cost. The new estimate is then adjusted from this realistic starting point. Several governments now require this method for major transport schemes, and early evaluations suggest that forecasts have become noticeably more accurate.\n\nFor individuals, the lesson is simple but difficult to apply: when estimating how long something will take, look first at what happened last time, not at what you hope will happen this time.",
+      "passageGu": "1957 માં ઑસ્ટ્રેલિયાના ન્યૂ સાઉથ વેલ્સ રાજ્યે સિડનીમાં એક ઑપેરા હાઉસની યોજના મંજૂર કરી. તેનો ખર્ચ આશરે સાત મિલિયન ઑસ્ટ્રેલિયન ડૉલર થવાનો અને ચાર વર્ષમાં પૂરું થવાનો અંદાજ હતો. આખરે તે 1973 માં, દસ વર્ષ મોડું, સો મિલિયન ડૉલરથી વધુ ખર્ચે ખુલ્યું. આ કિસ્સો આત્યંતિક હોવા છતાં બિલકુલ અસામાન્ય નથી. વિશ્વભરના મોટા માળખાકીય પ્રોજેક્ટ્સના અભ્યાસોમાં જોવા મળ્યું છે કે મોટા ભાગના પ્રોજેક્ટ્સ પોતાનું બજેટ વટાવી જાય છે, અને વિલંબ અપવાદ નહીં પણ નિયમ છે.\n\nમનોવૈજ્ઞાનિકો 'planning fallacy' (આયોજનની ભ્રાંતિ) શબ્દનો ઉપયોગ ભવિષ્યનાં કાર્યોના સમય, ખર્ચ અને જોખમને ઓછાં આંકવાની વૃત્તિ માટે કરે છે, ભલે લોકો જાણતા હોય કે ભૂતકાળમાં આવાં જ કાર્યોમાં ધાર્યા કરતાં વધુ સમય લાગ્યો હતો. આ શબ્દ 1970 ના દાયકાના અંતમાં રજૂ થયો, અને ત્યારથી વિદ્યાર્થીઓના નિબંધની સમયમર્યાદાથી લઈને ઘરના સમારકામ સુધીની પરિસ્થિતિઓમાં આ અસર સાબિત થઈ છે. એક અભ્યાસમાં, વિદ્યાર્થીઓએ અંદાજ આપ્યો કે તેઓ સરેરાશ લગભગ 34 દિવસમાં મહાનિબંધ (thesis) પૂરો કરશે; વાસ્તવિક સરેરાશ લગભગ 56 દિવસની હતી.\n\nઆવું કેમ થાય છે? એક સમજૂતી એ છે કે લોકો 'inside view' (અંદરનો દૃષ્ટિકોણ) અપનાવે છે. તેઓ પોતાના પ્રોજેક્ટનાં ચોક્કસ પગલાંની કલ્પના કરે છે અને એક આશાવાદી ચિત્ર બનાવે છે જેમાં દરેક પગલું લગભગ યોજના મુજબ ચાલે. બીમારી, ટેકનિકલ ખામી કે ખરાબ હવામાન જેવી અણધારી સમસ્યાઓ એક-એક કરીને જોઈએ તો અસંભવિત લાગે છે, તેથી આયોજકો તેમને અવગણે છે; છતાં બધી મળીને તેમાંથી કોઈક તો થવાની લગભગ ખાતરી હોય છે. પ્રેરણા પણ મહત્વની છે: જે લોકો પ્રોજેક્ટ સફળ થાય તેવું ઇચ્છે છે તેઓ તે કેમ નિષ્ફળ થઈ શકે તેનાં કારણો શોધવા ઓછા તૈયાર હોય છે.\n\nઅર્થશાસ્ત્રીઓ વધુ એક સમજૂતી ઉમેરે છે. જ્યારે કોન્ટ્રાક્ટરો સરકારી કોન્ટ્રાક્ટ માટે સ્પર્ધા કરે છે, ત્યારે ઘણીવાર સૌથી ઓછો અંદાજ જીતે છે. આનાથી આશાવાદી આંકડા રજૂ કરવાનું પ્રોત્સાહન (incentive) મળે છે, એ જાણીને કે કામ શરૂ થયા પછી અને પ્રોજેક્ટ છોડવો રાજકીય રીતે મુશ્કેલ બને ત્યારે વધારાનું ભંડોળ કદાચ મંજૂર થઈ જશે. આવા કિસ્સાઓમાં ભૂલ સંપૂર્ણપણે માનસિક નહીં, પણ અંશતઃ વ્યૂહાત્મક (strategic) હોય છે.\n\nવ્યાપક રીતે ભલામણ કરાતો ઉપાય 'reference class forecasting' છે. વર્તમાન યોજનાની વિગતોના આધારે અનુમાન બનાવવાને બદલે, આયોજકો પહેલાં પૂરા થયેલા સમાન પ્રોજેક્ટ્સનો સમૂહ ઓળખે છે અને તપાસે છે કે તેમાં ખરેખર કેટલો સમય અને ખર્ચ થયો. પછી નવો અંદાજ આ વાસ્તવિક શરૂઆતના બિંદુથી ગોઠવવામાં આવે છે. કેટલીક સરકારો હવે મોટી પરિવહન યોજનાઓ માટે આ પદ્ધતિ ફરજિયાત બનાવે છે, અને શરૂઆતનાં મૂલ્યાંકનો સૂચવે છે કે અનુમાનો નોંધપાત્ર રીતે વધુ ચોક્કસ બન્યાં છે.\n\nવ્યક્તિઓ માટે પાઠ સરળ છે પણ અમલમાં મુશ્કેલ: કોઈ કામમાં કેટલો સમય લાગશે તેનો અંદાજ કાઢતી વખતે, આ વખતે શું થશે એવી આશા રાખો છો તે નહીં, પણ ગયા વખતે શું થયું હતું તે પહેલાં જુઓ.",
+      "vocabulary": [
+        {
+          "word": "infrastructure",
+          "pos": "noun",
+          "meaningGu": "માળખાકીય સુવિધાઓ (રસ્તા, પુલ, વીજળી વગેરે)",
+          "meaningEn": "basic systems and structures such as roads, bridges and power supplies",
+          "example": "The government is investing in infrastructure.",
+          "exampleGu": "સરકાર માળખાકીય સુવિધાઓમાં રોકાણ કરી રહી છે."
+        },
+        {
+          "word": "exceed",
+          "pos": "verb",
+          "meaningGu": "વટાવી જવું / વધી જવું",
+          "meaningEn": "to be greater than a limit or amount",
+          "example": "Costs may exceed the budget.",
+          "exampleGu": "ખર્ચ બજેટ કરતાં વધી શકે છે."
+        },
+        {
+          "word": "underestimate",
+          "pos": "verb",
+          "meaningGu": "ઓછું આંકવું",
+          "meaningEn": "to think something is smaller, easier or quicker than it really is",
+          "example": "Never underestimate the difficulty of Passage 3.",
+          "exampleGu": "Passage 3 ની મુશ્કેલીને ક્યારેય ઓછી ન આંકો."
+        },
+        {
+          "word": "scenario",
+          "pos": "noun",
+          "meaningGu": "સંભવિત પરિસ્થિતિ / ચિત્ર",
+          "meaningEn": "a description of a possible sequence of events",
+          "example": "In the worst scenario, the project will fail.",
+          "exampleGu": "સૌથી ખરાબ પરિસ્થિતિમાં પ્રોજેક્ટ નિષ્ફળ જશે."
+        },
+        {
+          "word": "collectively",
+          "pos": "adverb",
+          "meaningGu": "સામૂહિક રીતે / બધા મળીને",
+          "meaningEn": "as a group; taken together",
+          "example": "Collectively, small savings become large.",
+          "exampleGu": "બધી નાની બચત મળીને મોટી થઈ જાય છે."
+        },
+        {
+          "word": "incentive",
+          "pos": "noun",
+          "meaningGu": "પ્રોત્સાહન / લાભની લાલચ",
+          "meaningEn": "something that encourages a person to do something",
+          "example": "Low taxes are an incentive for new businesses.",
+          "exampleGu": "ઓછો કર નવા ધંધા માટે પ્રોત્સાહન છે."
+        },
+        {
+          "word": "strategic",
+          "pos": "adjective",
+          "meaningGu": "વ્યૂહાત્મક (ગણતરીપૂર્વકનું)",
+          "meaningEn": "planned carefully to achieve a particular aim",
+          "example": "Skipping hard questions is a strategic choice.",
+          "exampleGu": "અઘરા પ્રશ્નો છોડવા એ વ્યૂહાત્મક નિર્ણય છે."
+        },
+        {
+          "word": "remedy",
+          "pos": "noun",
+          "meaningGu": "ઉપાય / ઇલાજ",
+          "meaningEn": "a way of solving a problem",
+          "example": "There is no simple remedy for inflation.",
+          "exampleGu": "મોંઘવારીનો કોઈ સરળ ઉપાય નથી."
+        }
+      ],
+      "questions": [
+        {
+          "type": "TFNG",
+          "prompt": "The Sydney opera house cost more than ten times its original estimate.",
+          "promptGu": "સિડની ઑપેરા હાઉસનો ખર્ચ મૂળ અંદાજ કરતાં દસ ગણાથી વધુ થયો.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 1: expected cost 'about seven million'; actual cost 'over one hundred million'. 100 ÷ 7 ≈ 14, so more than ten times. Simple number questions like this are quick points: do them fast and save time for harder items.",
+          "explanationGu": "ફકરો 1: અંદાજ 'about seven million', વાસ્તવિક ખર્ચ 'over one hundred million'. 100 ÷ 7 ≈ 14, એટલે દસ ગણાથી વધુ. TRUE. આવા સંખ્યાવાળા પ્રશ્નો ઝડપી ગુણ છે: તેમને ઝડપથી કરો અને અઘરા પ્રશ્નો માટે સમય બચાવો."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "People avoid the planning fallacy once they have experienced delays in similar tasks.",
+          "promptGu": "એક વાર સમાન કાર્યોમાં વિલંબનો અનુભવ થાય પછી લોકો planning fallacy થી બચી જાય છે.",
+          "answer": "FALSE",
+          "explanation": "Paragraph 2: the tendency happens 'even when people know that similar tasks in the past took longer than expected.' Experience does not protect them, so the statement contradicts the passage.",
+          "explanationGu": "ફકરો 2: આ વૃત્તિ 'even when people know that similar tasks in the past took longer than expected' પણ થાય છે. એટલે અનુભવ હોવા છતાં લોકો બચતા નથી. વિધાન passage નું વિરોધી છે, તેથી FALSE. 'even when' જેવા શબ્દો ઘણીવાર FALSE નો સંકેત આપે છે."
+        },
+        {
+          "type": "FILL",
+          "prompt": "In one study, students expected to complete a thesis in about 34 days, but on average they needed approximately ____ days.",
+          "promptGu": "એક અભ્યાસમાં વિદ્યાર્થીઓએ લગભગ 34 દિવસમાં thesis પૂરો કરવાની અપેક્ષા રાખી, પણ સરેરાશ તેમને આશરે ____ દિવસ લાગ્યા.",
+          "answer": "56",
+          "alternatives": [
+            "fifty-six"
+          ],
+          "explanation": "Paragraph 2: 'the actual average was closer to 56 days.' 'approximately' = 'closer to'. Numbers count as words; write the figure exactly.",
+          "explanationGu": "ફકરો 2: 'the actual average was closer to 56 days.' 'approximately' = 'closer to'. સંખ્યા પણ એક 'word/number' ગણાય છે; આંકડો બરાબર લખો.",
+          "wordLimit": "ONE WORD AND/OR A NUMBER"
+        },
+        {
+          "type": "MCQ",
+          "prompt": "According to paragraph 3, planners often ignore unexpected problems because",
+          "promptGu": "ફકરા 3 મુજબ, આયોજકો અણધારી સમસ્યાઓને ઘણીવાર અવગણે છે કારણ કે",
+          "options": [
+            "such problems rarely affect large projects",
+            "each problem on its own seems unlikely to happen",
+            "they have no information about past projects",
+            "they are not allowed to include them in budgets"
+          ],
+          "answer": "each problem on its own seems unlikely to happen",
+          "explanation": "Paragraph 3: problems 'are individually unlikely, so planners tend to ignore them, yet collectively they are almost certain to occur.' 'on its own' = 'individually'. Option A is the trap: collectively, problems are almost certain.",
+          "explanationGu": "ફકરો 3: 'are individually unlikely, so planners tend to ignore them, yet collectively they are almost certain to occur.' 'each problem on its own' = 'individually'. વિકલ્પ A જાળ છે: બધી મળીને સમસ્યાઓ લગભગ ચોક્કસ થાય છે. 'so' શબ્દ કારણ-પરિણામ બતાવે છે – કારણવાળા પ્રશ્નોમાં so/because શોધો."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What point does the writer make about contractors in paragraph 4?",
+          "promptGu": "ફકરા 4 માં લેખક કોન્ટ્રાક્ટરો વિશે કયો મુદ્દો રજૂ કરે છે?",
+          "options": [
+            "They are usually poor at mathematics.",
+            "They may give low estimates deliberately to win contracts.",
+            "They are never paid extra money after work starts.",
+            "They prefer to work on private rather than public projects."
+          ],
+          "answer": "They may give low estimates deliberately to win contracts.",
+          "explanation": "Paragraph 4: 'the lowest estimate often wins. This creates an incentive to present optimistic figures... the error is not purely psychological but partly strategic.' 'deliberately' = 'strategic'; 'low estimates' = 'optimistic figures'. Option C is contradicted: extra funds 'will probably be approved'.",
+          "explanationGu": "ફકરો 4: 'the lowest estimate often wins ... incentive to present optimistic figures ... partly strategic.' 'deliberately' (જાણી જોઈને) = 'strategic', 'low estimates' = 'optimistic figures'. વિકલ્પ C ઊલટો છે: વધારાનું ભંડોળ 'will probably be approved'."
+        },
+        {
+          "type": "YNNG",
+          "prompt": "The writer believes reference class forecasting has made some predictions more accurate.",
+          "promptGu": "લેખક માને છે કે reference class forecasting થી કેટલાક અનુમાનો વધુ ચોક્કસ બન્યાં છે.",
+          "answer": "YES",
+          "explanation": "Paragraph 5: 'early evaluations suggest that forecasts have become noticeably more accurate.' The writer presents this as the 'widely recommended remedy' and reports positive results, so YES. Note the hedge 'suggest': the statement says 'some predictions', which is not too strong.",
+          "explanationGu": "ફકરો 5: 'early evaluations suggest that forecasts have become noticeably more accurate.' લેખક આ પદ્ધતિને 'widely recommended remedy' કહે છે અને સકારાત્મક પરિણામ જણાવે છે, તેથી YES. 'suggest' hedge છે, પણ વિધાનમાં 'some predictions' છે, જે વધુ પડતું મજબૂત નથી – તેથી મેળ ખાય છે."
+        },
+        {
+          "type": "FILL",
+          "prompt": "Reference class forecasting begins by studying a group of similar ____ projects.",
+          "promptGu": "Reference class forecasting સમાન ____ પ્રોજેક્ટ્સના સમૂહનો અભ્યાસ કરીને શરૂ થાય છે.",
+          "answer": "completed",
+          "alternatives": [],
+          "explanation": "Paragraph 5: 'planners first identify a group of similar completed projects'. 'begins by' = 'first'. The blank needs an adjective before 'projects'.",
+          "explanationGu": "ફકરો 5: 'planners first identify a group of similar completed projects'. 'begins by' = 'first'. ખાલી જગ્યા 'projects' પહેલાં છે, તેથી વિશેષણ જોઈએ: completed. ટીપ: ખાલી જગ્યા પહેલાં-પછીના શબ્દો જોઈને વ્યાકરણથી જવાબનો પ્રકાર (noun/adjective/number) નક્કી કરો.",
+          "wordLimit": "ONE WORD ONLY"
+        }
+      ]
+    }
+  ]
+}

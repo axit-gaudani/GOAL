@@ -1,0 +1,762 @@
+{
+  "id": "L1",
+  "order": 1,
+  "title": "Beginner",
+  "titleGu": "પ્રારંભિક",
+  "band": "A1 · Basic reader",
+  "description": "Read short texts about daily life and simple stories. Learn present and past verbs, linking words and pronouns.",
+  "descriptionGu": "રોજિંદા જીવન વિશેનાં નાનાં લખાણો અને સરળ વાર્તાઓ વાંચો. વર્તમાન અને ભૂતકાળનાં ક્રિયાપદો, જોડતા શબ્દો અને સર્વનામ શીખો.",
+  "lessons": [
+    {
+      "id": "L1-01",
+      "order": 1,
+      "title": "Present Simple: Daily Routines",
+      "titleGu": "સાદો વર્તમાનકાળ: રોજની દિનચર્યા",
+      "skill": "Grammar",
+      "minutes": 12,
+      "explanation": "We use the present simple to talk about things that happen again and again: habits, routines and facts. Many reading texts describe a person's day, a job or a place, so you will see this tense very often.\n\nHow it looks:\n• I / you / we / they + verb: \"They work in the fields.\"\n• he / she / it + verb + s (or es): \"He wakes up early.\" \"She watches TV.\"\n• Negative: do not / does not (don't / doesn't) + verb: \"He doesn't drink tea.\"\n\nTime words that go with the present simple:\n• every day, every morning, on Sundays, at night\n• always, usually, often, sometimes, never\n\nFrequency words are very important for reading. \"Always\" means 100% of the time. \"Never\" means 0%. \"Usually\" is about 80%, and \"sometimes\" is about 30-50%. If a text says \"He never watches television late\", then a statement like \"He watches TV late at night\" is false.\n\nReading tip: When you see a verb ending in -s after he/she/it (wakes, sells, cleans), you know the text is describing a routine. Look carefully at time words. Questions often ask: What time? How often? On which day?",
+      "explanationGu": "જે કામ વારંવાર થાય છે — ટેવો, રોજની દિનચર્યા અને સાચી હકીકતો — તે કહેવા માટે સાદો વર્તમાનકાળ (present simple) વપરાય છે. ઘણાં લખાણો કોઈ વ્યક્તિનો દિવસ, તેનું કામ કે કોઈ જગ્યાનું વર્ણન કરે છે, એટલે આ કાળ ખૂબ જોવા મળશે.\n\nતેનું રૂપ:\n• I / you / we / they + ક્રિયાપદ: \"They work in the fields.\" (તેઓ ખેતરમાં કામ કરે છે.)\n• he / she / it + ક્રિયાપદ + s (કે es): \"He wakes up early.\" (તે વહેલો ઊઠે છે.)\n• નકાર: do not / does not (don't / doesn't) + ક્રિયાપદ: \"He doesn't drink tea.\" (તે ચા પીતો નથી.)\n\nઆ કાળ સાથે આવતા સમયના શબ્દો:\n• every day (રોજ), every morning (દરરોજ સવારે), on Sundays (રવિવારે), at night (રાત્રે)\n• always (હંમેશાં), usually (મોટે ભાગે), often (ઘણી વાર), sometimes (ક્યારેક), never (ક્યારેય નહીં)\n\nવાંચનમાં આ \"કેટલી વાર\" બતાવતા શબ્દો બહુ મહત્ત્વના છે. \"Always\" એટલે સો ટકા, \"never\" એટલે શૂન્ય ટકા. \"Usually\" લગભગ ૮૦ ટકા અને \"sometimes\" લગભગ ૩૦-૫૦ ટકા. જો લખાણમાં \"He never watches television late\" હોય, તો \"He watches TV late at night\" વાક્ય ખોટું (FALSE) ગણાય.\n\nવાંચવાની ટીપ: he/she/it પછી -s વાળું ક્રિયાપદ (wakes, sells, cleans) દેખાય તો સમજો કે લખાણ રોજની દિનચર્યા બતાવે છે. સમયના શબ્દો ધ્યાનથી જુઓ. પ્રશ્નો ઘણી વાર પૂછે છે: કેટલા વાગ્યે? કેટલી વાર? કયા દિવસે? તમે આ સરસ રીતે શીખી જશો!",
+      "examples": [
+        {
+          "en": "My father reads the newspaper every morning.",
+          "gu": "મારા પપ્પા દરરોજ સવારે છાપું વાંચે છે."
+        },
+        {
+          "en": "We usually eat dinner at eight o'clock.",
+          "gu": "અમે મોટે ભાગે આઠ વાગ્યે જમીએ છીએ."
+        },
+        {
+          "en": "She never drinks coffee.",
+          "gu": "તે ક્યારેય કોફી પીતી નથી."
+        },
+        {
+          "en": "The shop opens at nine.",
+          "gu": "દુકાન નવ વાગ્યે ખૂલે છે."
+        },
+        {
+          "en": "He doesn't work on Sundays.",
+          "gu": "તે રવિવારે કામ કરતો નથી."
+        }
+      ],
+      "passageTitle": "A Milkman's Day",
+      "passage": "Mohan is a milkman in a village near Mehsana. He wakes up at four o'clock every morning. First, he milks his two cows. Then he puts the milk in big cans. He rides his motorbike to the town and sells milk to forty families.\n\nHe usually finishes work at nine. After that, he eats breakfast with his wife. In the afternoon, he cleans the cowshed and gives the cows grass and water. His wife works in the fields. Their son studies at a college in Ahmedabad, so he comes home only on Sundays.\n\nMohan goes to bed early, at nine o'clock at night. He never watches television late. He says, \"A milkman's day starts before the sun!\"",
+      "passageGu": "મોહન મહેસાણા પાસેના એક ગામમાં દૂધવાળો છે. તે દરરોજ સવારે ચાર વાગ્યે ઊઠે છે. સૌથી પહેલાં તે પોતાની બે ગાયો દોહે છે. પછી તે દૂધ મોટાં કેનમાં ભરે છે. તે મોટરસાઇકલ પર શહેરમાં જાય છે અને ચાલીસ કુટુંબોને દૂધ વેચે છે.\n\nતે મોટે ભાગે નવ વાગ્યે કામ પૂરું કરે છે. ત્યાર પછી તે પત્ની સાથે નાસ્તો કરે છે. બપોરે તે ગમાણ સાફ કરે છે અને ગાયોને ઘાસ અને પાણી આપે છે. તેની પત્ની ખેતરમાં કામ કરે છે. તેમનો દીકરો અમદાવાદની એક કૉલેજમાં ભણે છે, એટલે તે ફક્ત રવિવારે જ ઘરે આવે છે.\n\nમોહન રાત્રે નવ વાગ્યે વહેલો સૂઈ જાય છે. તે ક્યારેય મોડે સુધી ટીવી જોતો નથી. તે કહે છે, \"દૂધવાળાનો દિવસ સૂરજ ઊગે તે પહેલાં શરૂ થાય છે!\"",
+      "vocabulary": [
+        {
+          "word": "wakes",
+          "pos": "verb",
+          "meaningGu": "ઊઠે છે, જાગે છે",
+          "meaningEn": "stops sleeping (often used as \"wakes up\")",
+          "example": "She wakes up at six.",
+          "exampleGu": "તે છ વાગ્યે ઊઠે છે."
+        },
+        {
+          "word": "cows",
+          "pos": "noun",
+          "meaningGu": "ગાયો",
+          "meaningEn": "large farm animals that give milk",
+          "example": "The farmer has three cows.",
+          "exampleGu": "ખેડૂત પાસે ત્રણ ગાયો છે."
+        },
+        {
+          "word": "sells",
+          "pos": "verb",
+          "meaningGu": "વેચે છે",
+          "meaningEn": "gives something to someone for money",
+          "example": "He sells vegetables in the market.",
+          "exampleGu": "તે બજારમાં શાકભાજી વેચે છે."
+        },
+        {
+          "word": "usually",
+          "pos": "adverb",
+          "meaningGu": "મોટે ભાગે, સામાન્ય રીતે",
+          "meaningEn": "most of the time",
+          "example": "I usually walk to school.",
+          "exampleGu": "હું મોટે ભાગે ચાલીને શાળાએ જાઉં છું."
+        },
+        {
+          "word": "breakfast",
+          "pos": "noun",
+          "meaningGu": "સવારનો નાસ્તો",
+          "meaningEn": "the first meal of the day",
+          "example": "We eat poha for breakfast.",
+          "exampleGu": "અમે નાસ્તામાં પૌંઆ ખાઈએ છીએ."
+        },
+        {
+          "word": "fields",
+          "pos": "noun",
+          "meaningGu": "ખેતરો",
+          "meaningEn": "areas of land where farmers grow crops",
+          "example": "The fields are green after the rain.",
+          "exampleGu": "વરસાદ પછી ખેતરો લીલાં છે."
+        },
+        {
+          "word": "college",
+          "pos": "noun",
+          "meaningGu": "કૉલેજ, મહાવિદ્યાલય",
+          "meaningEn": "a place where students study after school",
+          "example": "My sister goes to college by bus.",
+          "exampleGu": "મારી બહેન બસમાં કૉલેજ જાય છે."
+        },
+        {
+          "word": "never",
+          "pos": "adverb",
+          "meaningGu": "ક્યારેય નહીં",
+          "meaningEn": "not at any time; 0% of the time",
+          "example": "He never eats meat.",
+          "exampleGu": "તે ક્યારેય માંસ ખાતો નથી."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "What time does Mohan wake up?",
+          "promptGu": "મોહન કેટલા વાગ્યે ઊઠે છે?",
+          "options": [
+            "at three o'clock",
+            "at four o'clock",
+            "at six o'clock",
+            "at nine o'clock"
+          ],
+          "answer": "at four o'clock",
+          "explanation": "The text says: \"He wakes up at four o'clock every morning.\" Be careful: nine o'clock is when he finishes work and goes to bed.",
+          "explanationGu": "લખાણમાં છે: \"He wakes up at four o'clock every morning.\" ધ્યાન રાખો: નવ વાગ્યે તે કામ પૂરું કરે છે અને રાત્રે નવ વાગ્યે સૂઈ જાય છે — એ ઊઠવાનો સમય નથી."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "How many families buy milk from Mohan?",
+          "promptGu": "કેટલાં કુટુંબો મોહન પાસેથી દૂધ લે છે?",
+          "options": [
+            "four",
+            "fourteen",
+            "forty",
+            "fifty"
+          ],
+          "answer": "forty",
+          "explanation": "The text says he \"sells milk to forty families\". If he sells to them, they buy from him.",
+          "explanationGu": "લખાણમાં છે: \"sells milk to forty families\". મોહન વેચે છે એટલે એ કુટુંબો તેની પાસેથી ખરીદે છે. four અને fourteen જેવા મળતા શબ્દોથી સાવધાન રહો."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which sentence is correct present simple?",
+          "promptGu": "કયું વાક્ય સાચા સાદા વર્તમાનકાળમાં છે?",
+          "options": [
+            "Mohan sell milk.",
+            "Mohan sells milk.",
+            "Mohan selling milk.",
+            "Mohan is sell milk."
+          ],
+          "answer": "Mohan sells milk.",
+          "explanation": "Mohan = he, so the verb takes -s: \"sells\". The passage says: \"...and sells milk to forty families.\"",
+          "explanationGu": "Mohan એટલે he (એક વ્યક્તિ), એટલે ક્રિયાપદમાં -s લાગે: \"sells\". લખાણમાં પણ છે: \"sells milk to forty families\"."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "When does Mohan's son come home?",
+          "promptGu": "મોહનનો દીકરો ઘરે ક્યારે આવે છે?",
+          "options": [
+            "every day",
+            "only on Sundays",
+            "every evening",
+            "never"
+          ],
+          "answer": "only on Sundays",
+          "explanation": "The text says: \"...so he comes home only on Sundays.\" He studies in Ahmedabad, so he cannot come every day.",
+          "explanationGu": "લખાણમાં છે: \"so he comes home only on Sundays.\" તે અમદાવાદમાં ભણે છે, એટલે રોજ આવી શકતો નથી — ફક્ત રવિવારે આવે છે."
+        },
+        {
+          "type": "FILL",
+          "prompt": "After work, Mohan eats ____ with his wife.",
+          "promptGu": "કામ પછી મોહન પત્ની સાથે ____ કરે છે.",
+          "answer": "breakfast",
+          "alternatives": [],
+          "explanation": "The text says: \"After that, he eats breakfast with his wife.\" \"After that\" means after he finishes work.",
+          "explanationGu": "લખાણમાં છે: \"After that, he eats breakfast with his wife.\" \"After that\" એટલે કામ પૂરું કર્યા પછી. જવાબ: breakfast (નાસ્તો).",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "Mohan's wife works in the ____.",
+          "promptGu": "મોહનની પત્ની ____માં કામ કરે છે.",
+          "answer": "fields",
+          "alternatives": [
+            "field"
+          ],
+          "explanation": "The text says: \"His wife works in the fields.\"",
+          "explanationGu": "લખાણમાં છે: \"His wife works in the fields.\" જવાબ: fields (ખેતરો).",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Mohan watches television late at night.",
+          "promptGu": "મોહન રાત્રે મોડે સુધી ટીવી જુએ છે.",
+          "answer": "FALSE",
+          "explanation": "FALSE. The text says: \"He never watches television late.\" \"Never\" means not at any time, so the statement is the opposite of the text.",
+          "explanationGu": "FALSE (ખોટું). લખાણમાં છે: \"He never watches television late.\" \"Never\" એટલે ક્યારેય નહીં. આ વાક્ય લખાણથી બિલકુલ ઊલટું કહે છે, એટલે FALSE."
+        }
+      ]
+    },
+    {
+      "id": "L1-02",
+      "order": 2,
+      "title": "Past Simple: Reading a Short Story",
+      "titleGu": "સાદો ભૂતકાળ: નાની વાર્તા વાંચીએ",
+      "skill": "Grammar",
+      "minutes": 12,
+      "explanation": "Stories usually talk about the past. To understand a story, you must recognise past simple verbs.\n\nRegular verbs add -ed:\n• walk → walked, call → called, thank → thanked, pick → picked\n\nIrregular verbs change their form. You must learn them one by one:\n• go → went, take → took, see → saw, buy → bought\n• sit → sat, run → ran, give → gave, get → got, feel → felt\n• is/am → was, are → were\n\nPast time words help you see that a story is in the past:\n• yesterday, last Monday, last year, two days ago, the next day\n\nReading a story: follow the order of events. Words like first, then, after two hours and the next day show what happened first and what happened later. Questions often test this order.\n\nReading tip: If you do not know a past verb, try to find its base form. \"Bought\" looks strange, but it is the past of \"buy\". Make a small list of irregular verbs in your notebook and add new ones every time you read a story.",
+      "explanationGu": "વાર્તાઓ મોટે ભાગે ભૂતકાળની વાત કરે છે. વાર્તા સમજવા માટે સાદા ભૂતકાળનાં ક્રિયાપદો ઓળખતાં આવડવું જોઈએ.\n\nનિયમિત ક્રિયાપદોમાં -ed લાગે છે:\n• walk → walked (ચાલ્યો), call → called (ફોન કર્યો), thank → thanked (આભાર માન્યો), pick → picked (ઉપાડ્યું)\n\nઅનિયમિત ક્રિયાપદોનું રૂપ બદલાઈ જાય છે. તે એક એક કરીને યાદ રાખવાં પડે:\n• go → went (ગયો), take → took (લીધું), see → saw (જોયું), buy → bought (ખરીદ્યું)\n• sit → sat (બેઠો), run → ran (દોડ્યો), give → gave (આપ્યું), get → got (મળ્યું), feel → felt (લાગ્યું)\n• is/am → was, are → were (હતો/હતા)\n\nભૂતકાળના સમયના શબ્દો બતાવે છે કે વાર્તા ભૂતકાળની છે:\n• yesterday (ગઈ કાલે), last Monday (ગયા સોમવારે), last year (ગયા વર્ષે), two days ago (બે દિવસ પહેલાં), the next day (બીજે દિવસે)\n\nવાર્તા વાંચતી વખતે ઘટનાઓનો ક્રમ પકડો. first (પહેલાં), then (પછી), after two hours (બે કલાક પછી), the next day (બીજે દિવસે) જેવા શબ્દો બતાવે છે કે શું પહેલાં થયું અને શું પછી. પ્રશ્નો ઘણી વાર આ ક્રમ જ ચકાસે છે.\n\nવાંચવાની ટીપ: ભૂતકાળનું ક્રિયાપદ ન સમજાય તો તેનું મૂળ રૂપ શોધો. \"Bought\" અજાણ્યું લાગે, પણ તે \"buy\"નો ભૂતકાળ છે. નોટબુકમાં અનિયમિત ક્રિયાપદોની નાની યાદી બનાવો અને દરેક વાર્તા પછી નવાં ઉમેરતા જાઓ. ધીરે ધીરે બધું યાદ રહી જશે!",
+      "examples": [
+        {
+          "en": "Yesterday I went to the market.",
+          "gu": "ગઈ કાલે હું બજારમાં ગયો."
+        },
+        {
+          "en": "She bought a new pen last week.",
+          "gu": "તેણે ગયા અઠવાડિયે નવી પેન ખરીદી."
+        },
+        {
+          "en": "We saw a big elephant at the zoo.",
+          "gu": "અમે પ્રાણીસંગ્રહાલયમાં મોટો હાથી જોયો."
+        },
+        {
+          "en": "The children were tired after the game.",
+          "gu": "રમત પછી બાળકો થાકી ગયાં હતાં."
+        }
+      ],
+      "passageTitle": "The Bag on the Train",
+      "passage": "Last Monday, Priya took the train from Vadodara to Mumbai. She sat near the window and read a magazine. The train was very crowded. After two hours, she felt hungry, so she bought a samosa and a cup of tea.\n\nAt Surat station, an old man got off the train. Then Priya saw a small black bag under his seat. She picked it up and ran to the door, but the train started to move. She gave the bag to the ticket checker. He called the station in Surat.\n\nThe next day, the old man phoned Priya and thanked her. He said, \"My medicine was in that bag.\"",
+      "passageGu": "ગયા સોમવારે પ્રિયાએ વડોદરાથી મુંબઈની ટ્રેન પકડી. તે બારી પાસે બેઠી અને એક મૅગેઝિન વાંચ્યું. ટ્રેનમાં ખૂબ ભીડ હતી. બે કલાક પછી તેને ભૂખ લાગી, એટલે તેણે એક સમોસું અને એક કપ ચા ખરીદ્યાં.\n\nસુરત સ્ટેશને એક વૃદ્ધ માણસ ટ્રેનમાંથી ઊતરી ગયા. પછી પ્રિયાએ તેમની સીટ નીચે એક નાની કાળી બેગ જોઈ. તેણે બેગ ઉપાડી અને દરવાજા તરફ દોડી, પણ ટ્રેન ચાલવા લાગી. તેણે બેગ ટિકિટ ચેકરને આપી. ટિકિટ ચેકરે સુરત સ્ટેશને ફોન કર્યો.\n\nબીજે દિવસે એ વૃદ્ધ માણસે પ્રિયાને ફોન કર્યો અને તેનો આભાર માન્યો. તેમણે કહ્યું, \"મારી દવા એ બેગમાં હતી.\"",
+      "vocabulary": [
+        {
+          "word": "took",
+          "pos": "verb",
+          "meaningGu": "લીધું (take નો ભૂતકાળ); ટ્રેન પકડી",
+          "meaningEn": "past of \"take\"",
+          "example": "He took a bus to Rajkot.",
+          "exampleGu": "તેણે રાજકોટની બસ પકડી."
+        },
+        {
+          "word": "crowded",
+          "pos": "adjective",
+          "meaningGu": "ભીડવાળું",
+          "meaningEn": "full of people",
+          "example": "The market was crowded on Sunday.",
+          "exampleGu": "રવિવારે બજારમાં ભારે ભીડ હતી."
+        },
+        {
+          "word": "hungry",
+          "pos": "adjective",
+          "meaningGu": "ભૂખ્યું",
+          "meaningEn": "wanting food",
+          "example": "I was hungry after school.",
+          "exampleGu": "શાળા પછી મને ભૂખ લાગી હતી."
+        },
+        {
+          "word": "bought",
+          "pos": "verb",
+          "meaningGu": "ખરીદ્યું (buy નો ભૂતકાળ)",
+          "meaningEn": "past of \"buy\"",
+          "example": "She bought a new dress.",
+          "exampleGu": "તેણે નવો ડ્રેસ ખરીદ્યો."
+        },
+        {
+          "word": "saw",
+          "pos": "verb",
+          "meaningGu": "જોયું (see નો ભૂતકાળ)",
+          "meaningEn": "past of \"see\"",
+          "example": "We saw a peacock in the field.",
+          "exampleGu": "અમે ખેતરમાં મોર જોયો."
+        },
+        {
+          "word": "seat",
+          "pos": "noun",
+          "meaningGu": "બેઠક, સીટ",
+          "meaningEn": "a place where you sit",
+          "example": "This seat is free.",
+          "exampleGu": "આ સીટ ખાલી છે."
+        },
+        {
+          "word": "ran",
+          "pos": "verb",
+          "meaningGu": "દોડ્યું (run નો ભૂતકાળ)",
+          "meaningEn": "past of \"run\"",
+          "example": "The boy ran to the bus.",
+          "exampleGu": "છોકરો બસ તરફ દોડ્યો."
+        },
+        {
+          "word": "medicine",
+          "pos": "noun",
+          "meaningGu": "દવા",
+          "meaningEn": "something you take when you are ill",
+          "example": "Grandfather takes his medicine at night.",
+          "exampleGu": "દાદા રાત્રે દવા લે છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "Where was Priya going?",
+          "promptGu": "પ્રિયા ક્યાં જઈ રહી હતી?",
+          "options": [
+            "to Surat",
+            "to Mumbai",
+            "to Vadodara",
+            "to Ahmedabad"
+          ],
+          "answer": "to Mumbai",
+          "explanation": "The text says: \"Priya took the train from Vadodara to Mumbai.\" \"From\" shows the start; \"to\" shows the end of the journey.",
+          "explanationGu": "લખાણમાં છે: \"from Vadodara to Mumbai\". \"from\" શરૂઆતની જગ્યા બતાવે છે અને \"to\" જ્યાં જવાનું છે તે. એટલે તે મુંબઈ જતી હતી. સુરત તો વચ્ચેનું સ્ટેશન હતું."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What did Priya buy?",
+          "promptGu": "પ્રિયાએ શું ખરીદ્યું?",
+          "options": [
+            "a magazine",
+            "a samosa and a cup of tea",
+            "a black bag",
+            "a train ticket"
+          ],
+          "answer": "a samosa and a cup of tea",
+          "explanation": "The text says: \"...so she bought a samosa and a cup of tea.\" \"Bought\" is the past of \"buy\".",
+          "explanationGu": "લખાણમાં છે: \"she bought a samosa and a cup of tea.\" \"bought\" એ \"buy\" (ખરીદવું) નો ભૂતકાળ છે. મૅગેઝિન તેણે વાંચ્યું, ખરીદ્યું એવું લખ્યું નથી."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which word in the story is the past form of \"see\"?",
+          "promptGu": "વાર્તામાં \"see\" નું ભૂતકાળ રૂપ કયો શબ્દ છે?",
+          "options": [
+            "seed",
+            "saw",
+            "sees",
+            "seat"
+          ],
+          "answer": "saw",
+          "explanation": "\"See\" is irregular: see → saw. The story says: \"Then Priya saw a small black bag...\"",
+          "explanationGu": "\"see\" અનિયમિત ક્રિયાપદ છે: see → saw. વાર્તામાં છે: \"Then Priya saw a small black bag\". \"seat\" તો સીટ (બેઠક) છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Who did Priya give the bag to?",
+          "promptGu": "પ્રિયાએ બેગ કોને આપી?",
+          "options": [
+            "the old man",
+            "the ticket checker",
+            "a police officer",
+            "her friend"
+          ],
+          "answer": "the ticket checker",
+          "explanation": "The text says: \"She gave the bag to the ticket checker.\" The old man had already got off the train.",
+          "explanationGu": "લખાણમાં છે: \"She gave the bag to the ticket checker.\" વૃદ્ધ માણસ તો સુરતમાં ઊતરી ગયા હતા, એટલે બેગ ટિકિટ ચેકરને આપી."
+        },
+        {
+          "type": "FILL",
+          "prompt": "The train was very ____.",
+          "promptGu": "ટ્રેનમાં ખૂબ ____ હતી.",
+          "answer": "crowded",
+          "alternatives": [],
+          "explanation": "The text says: \"The train was very crowded.\" \"Was\" is the past of \"is\".",
+          "explanationGu": "લખાણમાં છે: \"The train was very crowded.\" crowded એટલે ભીડવાળું. \"was\" એ \"is\" નો ભૂતકાળ છે.",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "The old man's ____ was in the bag.",
+          "promptGu": "વૃદ્ધ માણસની ____ બેગમાં હતી.",
+          "answer": "medicine",
+          "alternatives": [],
+          "explanation": "The old man said: \"My medicine was in that bag.\"",
+          "explanationGu": "વૃદ્ધ માણસે કહ્યું: \"My medicine was in that bag.\" એટલે બેગમાં તેમની દવા હતી. જવાબ: medicine.",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "TFNG",
+          "prompt": "The old man got off the train at Surat station.",
+          "promptGu": "વૃદ્ધ માણસ સુરત સ્ટેશને ટ્રેનમાંથી ઊતરી ગયા.",
+          "answer": "TRUE",
+          "explanation": "TRUE. The text says: \"At Surat station, an old man got off the train.\" \"Got off\" is the past of \"get off\".",
+          "explanationGu": "TRUE (સાચું). લખાણમાં છે: \"At Surat station, an old man got off the train.\" \"got off\" એટલે ઊતરી ગયા. લખાણ અને વાક્ય એક જ વાત કહે છે."
+        }
+      ]
+    },
+    {
+      "id": "L1-03",
+      "order": 3,
+      "title": "Linking Words: and, but, because, so, then",
+      "titleGu": "જોડતા શબ્દો: and, but, because, so, then",
+      "skill": "Reading",
+      "minutes": 12,
+      "explanation": "Linking words join ideas. They are like road signs: they tell you where the meaning is going. Good readers pay attention to them.\n\n• and → adds a similar idea: \"He planted the seeds, and his sons helped him.\"\n• but → shows a different or opposite idea: \"He waited, but the rain did not come.\"\n• because → gives a reason (answers Why?): \"He was happy because it rained.\"\n• so → gives a result: \"The rain came late, so he was worried.\"\n• then → shows the next step in time: \"Then the plants became strong.\"\n\nBecause and so are like two sides of one coin:\n• It rained, so the fields were wet. (reason → result)\n• The fields were wet because it rained. (result ← reason)\n\nWhy this matters in IELTS: Many questions ask for a reason or a result. If a question asks \"Why...?\", look for because or so near the key words. Also, the word but is very important: the information after but is often the answer, because it changes or corrects the first idea.\n\nTip: Circle the linking words when you read. It will help you follow the writer's ideas.",
+      "explanationGu": "જોડતા શબ્દો (linking words) બે વિચારોને જોડે છે. તે રસ્તા પરનાં પાટિયાં જેવા છે: અર્થ કઈ દિશામાં જાય છે તે બતાવે છે. સારા વાચકો આ શબ્દો પર ખાસ ધ્યાન આપે છે.\n\n• and (અને) → મળતો વિચાર ઉમેરે છે: \"He planted the seeds, and his sons helped him.\"\n• but (પણ, પરંતુ) → જુદો કે ઊલટો વિચાર બતાવે છે: \"He waited, but the rain did not come.\"\n• because (કારણ કે) → કારણ આપે છે (Why? નો જવાબ): \"He was happy because it rained.\"\n• so (એટલે, તેથી) → પરિણામ બતાવે છે: \"The rain came late, so he was worried.\"\n• then (પછી) → સમયમાં આગળનું પગલું બતાવે છે: \"Then the plants became strong.\"\n\nbecause અને so એક જ સિક્કાની બે બાજુ જેવા છે:\n• It rained, so the fields were wet. (વરસાદ પડ્યો, એટલે ખેતરો ભીનાં થયાં — કારણ → પરિણામ)\n• The fields were wet because it rained. (ખેતરો ભીનાં હતાં કારણ કે વરસાદ પડ્યો — પરિણામ ← કારણ)\n\nIELTSમાં આ કેમ મહત્ત્વનું છે? ઘણા પ્રશ્નો કારણ કે પરિણામ પૂછે છે. પ્રશ્નમાં \"Why...?\" હોય તો મુખ્ય શબ્દોની આસપાસ because કે so શોધો. અને but ખૂબ મહત્ત્વનો શબ્દ છે: but પછીની માહિતી ઘણી વાર જવાબ હોય છે, કારણ કે તે પહેલા વિચારને બદલી નાખે છે.\n\nટીપ: વાંચતી વખતે જોડતા શબ્દોની આસપાસ ગોળ કરો. લેખકના વિચારો સમજવામાં ખૂબ મદદ મળશે. તમે સરસ પ્રગતિ કરી રહ્યા છો!",
+      "examples": [
+        {
+          "en": "I was tired, so I went to bed early.",
+          "gu": "હું થાકી ગયો હતો, એટલે વહેલો સૂઈ ગયો."
+        },
+        {
+          "en": "She stayed at home because she was ill.",
+          "gu": "તે ઘરે રહી કારણ કે તે બીમાર હતી."
+        },
+        {
+          "en": "The shop was open, but it had no milk.",
+          "gu": "દુકાન ખુલ્લી હતી, પણ તેમાં દૂધ નહોતું."
+        },
+        {
+          "en": "We ate dinner, and then we watched a film.",
+          "gu": "અમે જમ્યા, અને પછી ફિલ્મ જોઈ."
+        }
+      ],
+      "passageTitle": "Waiting for the Rain",
+      "passage": "Ramesh is a farmer, and he grows cotton near Rajkot. Last year, the rain came late, so he was very worried. He waited for many days, but the sky stayed clear and hot.\n\nThen, in July, dark clouds came and it rained for three days. Ramesh was happy because his fields finally had water. He planted the cotton seeds quickly, and his sons helped him.\n\nThe plants grew well, but some insects attacked the leaves. Ramesh asked an expert at the farm centre for help, so he used a safe spray. Then the plants became strong again. In the end, Ramesh got a good crop because he worked hard and did not give up.",
+      "passageGu": "રમેશ ખેડૂત છે, અને તે રાજકોટ પાસે કપાસ ઉગાડે છે. ગયા વર્ષે વરસાદ મોડો આવ્યો, એટલે તે ખૂબ ચિંતામાં હતો. તેણે ઘણા દિવસો રાહ જોઈ, પણ આકાશ સાફ અને ગરમ જ રહ્યું.\n\nપછી જુલાઈમાં કાળાં વાદળો આવ્યાં અને ત્રણ દિવસ સુધી વરસાદ પડ્યો. રમેશ ખુશ થયો કારણ કે આખરે તેનાં ખેતરોને પાણી મળ્યું. તેણે ઝડપથી કપાસનાં બી વાવ્યાં, અને તેના દીકરાઓએ તેને મદદ કરી.\n\nછોડ સારી રીતે ઊગ્યા, પણ કેટલીક જીવાતોએ પાંદડાં પર હુમલો કર્યો. રમેશે ખેતી કેન્દ્રના એક નિષ્ણાત પાસે મદદ માગી, એટલે તેણે એક સલામત દવાનો છંટકાવ કર્યો. પછી છોડ ફરીથી મજબૂત થઈ ગયા. અંતે રમેશને સારો પાક મળ્યો કારણ કે તેણે મહેનત કરી અને હિંમત ન હારી.",
+      "vocabulary": [
+        {
+          "word": "grows",
+          "pos": "verb",
+          "meaningGu": "ઉગાડે છે",
+          "meaningEn": "makes plants come up from the ground",
+          "example": "My uncle grows wheat.",
+          "exampleGu": "મારા કાકા ઘઉં ઉગાડે છે."
+        },
+        {
+          "word": "cotton",
+          "pos": "noun",
+          "meaningGu": "કપાસ",
+          "meaningEn": "a plant with soft white fibre used to make cloth",
+          "example": "Gujarat produces a lot of cotton.",
+          "exampleGu": "ગુજરાતમાં ઘણો કપાસ પાકે છે."
+        },
+        {
+          "word": "worried",
+          "pos": "adjective",
+          "meaningGu": "ચિંતિત",
+          "meaningEn": "feeling afraid that something bad may happen",
+          "example": "Mother was worried about the exam.",
+          "exampleGu": "મમ્મીને પરીક્ષાની ચિંતા હતી."
+        },
+        {
+          "word": "clouds",
+          "pos": "noun",
+          "meaningGu": "વાદળો",
+          "meaningEn": "white or grey shapes in the sky that bring rain",
+          "example": "Dark clouds came in the evening.",
+          "exampleGu": "સાંજે કાળાં વાદળો આવ્યાં."
+        },
+        {
+          "word": "finally",
+          "pos": "adverb",
+          "meaningGu": "આખરે, છેવટે",
+          "meaningEn": "after a long time",
+          "example": "The bus finally arrived.",
+          "exampleGu": "આખરે બસ આવી."
+        },
+        {
+          "word": "seeds",
+          "pos": "noun",
+          "meaningGu": "બી, બીજ",
+          "meaningEn": "small things from which new plants grow",
+          "example": "We planted seeds in the garden.",
+          "exampleGu": "અમે બગીચામાં બી વાવ્યાં."
+        },
+        {
+          "word": "insects",
+          "pos": "noun",
+          "meaningGu": "જીવાતો, જંતુઓ",
+          "meaningEn": "very small animals with six legs",
+          "example": "Insects ate the leaves.",
+          "exampleGu": "જીવાતો પાંદડાં ખાઈ ગઈ."
+        },
+        {
+          "word": "crop",
+          "pos": "noun",
+          "meaningGu": "પાક",
+          "meaningEn": "plants that farmers grow and collect",
+          "example": "The rice crop was good this year.",
+          "exampleGu": "આ વર્ષે ડાંગરનો પાક સારો થયો."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "Why was Ramesh worried last year?",
+          "promptGu": "ગયા વર્ષે રમેશ કેમ ચિંતામાં હતો?",
+          "options": [
+            "because the rain came late",
+            "because insects ate the cotton",
+            "because his sons left",
+            "because cotton was cheap"
+          ],
+          "answer": "because the rain came late",
+          "explanation": "The text says: \"the rain came late, so he was very worried.\" \"So\" shows the result (worried); the reason comes before it (the rain came late).",
+          "explanationGu": "લખાણમાં છે: \"the rain came late, so he was very worried.\" \"so\" પછી પરિણામ (ચિંતા) છે, અને \"so\" પહેલાં કારણ (વરસાદ મોડો આવ્યો) છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "In \"He waited for many days, but the sky stayed clear and hot\", what does \"but\" show?",
+          "promptGu": "\"He waited for many days, but the sky stayed clear and hot\" માં \"but\" શું બતાવે છે?",
+          "options": [
+            "a reason",
+            "a result",
+            "a different or opposite idea",
+            "the next step in time"
+          ],
+          "answer": "a different or opposite idea",
+          "explanation": "Ramesh hoped for rain, but the sky stayed clear. The second idea is the opposite of what he wanted, so \"but\" shows contrast.",
+          "explanationGu": "રમેશને વરસાદની આશા હતી, પણ આકાશ સાફ રહ્યું. બીજો વિચાર તેની ઇચ્છાથી ઊલટો છે, એટલે \"but\" વિરોધ (જુદો વિચાર) બતાવે છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Why was Ramesh happy in July?",
+          "promptGu": "જુલાઈમાં રમેશ કેમ ખુશ હતો?",
+          "options": [
+            "because his fields finally had water",
+            "because he sold his cotton",
+            "because the insects went away",
+            "because the sky was clear"
+          ],
+          "answer": "because his fields finally had water",
+          "explanation": "Look for \"because\": \"Ramesh was happy because his fields finally had water.\"",
+          "explanationGu": "\"because\" શબ્દ શોધો: \"Ramesh was happy because his fields finally had water.\" એટલે આખરે ખેતરોને પાણી મળ્યું તેથી તે ખુશ હતો."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What happened after the plants grew well?",
+          "promptGu": "છોડ સારી રીતે ઊગ્યા પછી શું થયું?",
+          "options": [
+            "Some insects attacked the leaves.",
+            "It stopped raining for a month.",
+            "Ramesh sold the farm.",
+            "His sons went to the city."
+          ],
+          "answer": "Some insects attacked the leaves.",
+          "explanation": "The text says: \"The plants grew well, but some insects attacked the leaves.\" \"But\" brings a problem.",
+          "explanationGu": "લખાણમાં છે: \"The plants grew well, but some insects attacked the leaves.\" \"but\" પછી એક મુશ્કેલી આવી: જીવાતોએ પાંદડાં પર હુમલો કર્યો."
+        },
+        {
+          "type": "FILL",
+          "prompt": "Ramesh grows ____ near Rajkot.",
+          "promptGu": "રમેશ રાજકોટ પાસે ____ ઉગાડે છે.",
+          "answer": "cotton",
+          "alternatives": [],
+          "explanation": "The first sentence says: \"...he grows cotton near Rajkot.\"",
+          "explanationGu": "પહેલું વાક્ય કહે છે: \"he grows cotton near Rajkot.\" જવાબ: cotton (કપાસ).",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "Ramesh got help from an expert, so he used a safe ____.",
+          "promptGu": "રમેશને નિષ્ણાતની મદદ મળી, એટલે તેણે સલામત ____ વાપર્યો.",
+          "answer": "spray",
+          "alternatives": [],
+          "explanation": "The text says: \"Ramesh asked an expert at the farm centre for help, so he used a safe spray.\"",
+          "explanationGu": "લખાણમાં છે: \"so he used a safe spray.\" \"so\" અહીં પરિણામ બતાવે છે: નિષ્ણાતની સલાહનું પરિણામ — સલામત દવાનો છંટકાવ. જવાબ: spray.",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Ramesh planted the cotton seeds slowly.",
+          "promptGu": "રમેશે કપાસનાં બી ધીમે ધીમે વાવ્યાં.",
+          "answer": "FALSE",
+          "explanation": "FALSE. The text says: \"He planted the cotton seeds quickly.\" Quickly is the opposite of slowly.",
+          "explanationGu": "FALSE (ખોટું). લખાણમાં છે: \"He planted the cotton seeds quickly.\" quickly (ઝડપથી) એ slowly (ધીમે)નો ઊલટો અર્થ છે."
+        }
+      ]
+    },
+    {
+      "id": "L1-04",
+      "order": 4,
+      "title": "Pronouns and Reference: Who or What Does a Word Mean?",
+      "titleGu": "સર્વનામ અને સંદર્ભ: શબ્દ કોને કે શાને દર્શાવે છે?",
+      "skill": "Reading",
+      "minutes": 14,
+      "explanation": "Writers do not like to repeat the same name again and again. So they use pronouns: he, she, it, they, him, her, them, his, their, this. A pronoun points back to a noun that came earlier. Understanding what a pronoun refers to is a very important IELTS skill.\n\n• he / him / his → one man or boy\n• she / her → one woman or girl\n• it / its → one thing, animal or idea\n• they / them / their → more than one person or thing\n• this / that → an idea, a thing or a whole sentence that came just before\n\nHow to find the meaning:\n• Look back. The answer is usually in the same sentence or the sentence just before.\n• Check the number: \"they\" needs a plural noun (players, friends); \"it\" needs a singular noun.\n• Check the person: \"he\" is male, \"she\" is female.\n• Test it: put the noun in place of the pronoun. If the sentence still makes sense, you are right.\n\nExample: \"Sameer is the captain. He is calm.\" → \"Sameer is calm.\" Yes, it makes sense.\n\nBe careful when two men appear close together. Read the whole sentence and think about the meaning.",
+      "explanationGu": "લેખકો એક જ નામ વારંવાર લખવાનું પસંદ નથી કરતા. એટલે તેઓ સર્વનામ (pronouns) વાપરે છે: he, she, it, they, him, her, them, his, their, this. સર્વનામ પાછળ આવી ગયેલા કોઈ નામ તરફ ઇશારો કરે છે. સર્વનામ કોને દર્શાવે છે તે સમજવું IELTSની ખૂબ મહત્ત્વની આવડત છે.\n\n• he / him / his → એક પુરુષ કે છોકરો (તે / તેને / તેનું)\n• she / her → એક સ્ત્રી કે છોકરી\n• it / its → એક વસ્તુ, પ્રાણી કે વિચાર\n• they / them / their → એકથી વધુ વ્યક્તિઓ કે વસ્તુઓ (તેઓ / તેમને / તેમનું)\n• this / that → હમણાં જ કહેલો વિચાર, વસ્તુ કે આખું વાક્ય (આ / તે)\n\nઅર્થ કેવી રીતે શોધવો:\n• પાછળ જુઓ. જવાબ મોટે ભાગે એ જ વાક્યમાં કે તરત પહેલાંના વાક્યમાં હોય છે.\n• સંખ્યા તપાસો: \"they\" માટે બહુવચન નામ જોઈએ (players, friends); \"it\" માટે એકવચન.\n• જાતિ તપાસો: \"he\" પુરુષ માટે, \"she\" સ્ત્રી માટે.\n• ચકાસણી કરો: સર્વનામની જગ્યાએ નામ મૂકીને વાંચો. વાક્યનો અર્થ બરાબર બેસે તો જવાબ સાચો.\n\nઉદાહરણ: \"Sameer is the captain. He is calm.\" → \"Sameer is calm.\" હા, અર્થ બેસે છે.\n\nજ્યારે બે છોકરાઓની વાત નજીક નજીક આવે ત્યારે ખાસ ધ્યાન રાખો. આખું વાક્ય વાંચો અને અર્થ વિચારો. આ આવડત તમને આગળ ખૂબ કામ લાગશે!",
+      "examples": [
+        {
+          "en": "Meena has a cat. She loves it very much.",
+          "gu": "મીના પાસે એક બિલાડી છે. તે (મીના) તેને (બિલાડીને) ખૂબ પ્રેમ કરે છે."
+        },
+        {
+          "en": "The boys were tired, so they sat down.",
+          "gu": "છોકરાઓ થાકી ગયા હતા, એટલે તેઓ બેસી ગયા."
+        },
+        {
+          "en": "My father bought a car. It is red.",
+          "gu": "મારા પપ્પાએ ગાડી ખરીદી. તે (ગાડી) લાલ છે."
+        },
+        {
+          "en": "The bus was late again. This made everyone angry.",
+          "gu": "બસ ફરી મોડી હતી. આ વાતથી બધા ગુસ્સે થયા."
+        }
+      ],
+      "passageTitle": "The Big Match",
+      "passage": "Arjun and his best friend Sameer play cricket for their school team. They practise every evening on the school ground. Arjun is a fast bowler. He can bowl very quickly. Sameer is the captain. He is calm and he makes good plans.\n\nLast Saturday, their school played against a team from Navsari. It was a very important match. The Navsari players were strong, and they scored 150 runs. This was a big score. Arjun took three wickets, and the coach was proud of him.\n\nThen Sameer batted well. His score was 62. In the last over, the team needed four runs. Sameer hit the ball to the boundary. The students shouted with joy.",
+      "passageGu": "અર્જુન અને તેનો ખાસ મિત્ર સમીર પોતાની શાળાની ટીમ માટે ક્રિકેટ રમે છે. તેઓ દરરોજ સાંજે શાળાના મેદાન પર પ્રેક્ટિસ કરે છે. અર્જુન ઝડપી બૉલર છે. તે ખૂબ ઝડપથી બૉલિંગ કરી શકે છે. સમીર કૅપ્ટન છે. તે શાંત છે અને સારી યોજનાઓ બનાવે છે.\n\nગયા શનિવારે તેમની શાળા નવસારીની એક ટીમ સામે રમી. તે ખૂબ મહત્ત્વની મૅચ હતી. નવસારીના ખેલાડીઓ મજબૂત હતા, અને તેમણે 150 રન બનાવ્યા. આ મોટો સ્કોર હતો. અર્જુને ત્રણ વિકેટ લીધી, અને કોચને તેના પર ગર્વ થયો.\n\nપછી સમીરે સારી બૅટિંગ કરી. તેનો સ્કોર 62 હતો. છેલ્લી ઓવરમાં ટીમને ચાર રનની જરૂર હતી. સમીરે બૉલને બાઉન્ડ્રી સુધી ફટકાર્યો. વિદ્યાર્થીઓએ આનંદથી બૂમો પાડી.",
+      "vocabulary": [
+        {
+          "word": "practise",
+          "pos": "verb",
+          "meaningGu": "અભ્યાસ/પ્રેક્ટિસ કરવો",
+          "meaningEn": "to do something again and again to get better",
+          "example": "We practise English every day.",
+          "exampleGu": "અમે રોજ અંગ્રેજીની પ્રેક્ટિસ કરીએ છીએ."
+        },
+        {
+          "word": "ground",
+          "pos": "noun",
+          "meaningGu": "મેદાન",
+          "meaningEn": "an open area used for sports",
+          "example": "The boys play on the ground.",
+          "exampleGu": "છોકરાઓ મેદાન પર રમે છે."
+        },
+        {
+          "word": "captain",
+          "pos": "noun",
+          "meaningGu": "કૅપ્ટન, નાયક",
+          "meaningEn": "the leader of a team",
+          "example": "Sameer is our captain.",
+          "exampleGu": "સમીર અમારો કૅપ્ટન છે."
+        },
+        {
+          "word": "calm",
+          "pos": "adjective",
+          "meaningGu": "શાંત",
+          "meaningEn": "not angry, worried or excited",
+          "example": "Stay calm in the exam.",
+          "exampleGu": "પરીક્ષામાં શાંત રહો."
+        },
+        {
+          "word": "important",
+          "pos": "adjective",
+          "meaningGu": "મહત્ત્વનું",
+          "meaningEn": "having great value or meaning",
+          "example": "This exam is very important.",
+          "exampleGu": "આ પરીક્ષા ખૂબ મહત્ત્વની છે."
+        },
+        {
+          "word": "scored",
+          "pos": "verb",
+          "meaningGu": "(રન/ગુણ) બનાવ્યા, મેળવ્યા",
+          "meaningEn": "got runs, goals or points in a game",
+          "example": "She scored 90 marks in maths.",
+          "exampleGu": "તેણે ગણિતમાં 90 ગુણ મેળવ્યા."
+        },
+        {
+          "word": "proud",
+          "pos": "adjective",
+          "meaningGu": "ગર્વિત",
+          "meaningEn": "feeling happy about someone's good work",
+          "example": "My parents are proud of me.",
+          "exampleGu": "મારાં માતા-પિતાને મારા પર ગર્વ છે."
+        },
+        {
+          "word": "joy",
+          "pos": "noun",
+          "meaningGu": "આનંદ, હર્ષ",
+          "meaningEn": "great happiness",
+          "example": "The children jumped with joy.",
+          "exampleGu": "બાળકો આનંદથી કૂદી પડ્યાં."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "\"They practise every evening.\" Who are \"they\"?",
+          "promptGu": "\"They practise every evening.\" અહીં \"they\" કોણ છે?",
+          "options": [
+            "Arjun and Sameer",
+            "the Navsari players",
+            "the students",
+            "the coaches"
+          ],
+          "answer": "Arjun and Sameer",
+          "explanation": "Look back at the sentence before: \"Arjun and his best friend Sameer play cricket...\" Two people = they.",
+          "explanationGu": "પાછળનું વાક્ય જુઓ: \"Arjun and his best friend Sameer play cricket...\" બે વ્યક્તિ છે, એટલે \"they\" = અર્જુન અને સમીર. નવસારીના ખેલાડીઓની વાત તો પછી આવે છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "\"He is calm and he makes good plans.\" Who is \"he\"?",
+          "promptGu": "\"He is calm and he makes good plans.\" અહીં \"he\" કોણ છે?",
+          "options": [
+            "Arjun",
+            "Sameer",
+            "the coach",
+            "a Navsari player"
+          ],
+          "answer": "Sameer",
+          "explanation": "The sentence just before is \"Sameer is the captain.\" Test it: \"Sameer is calm and makes good plans.\" It makes sense.",
+          "explanationGu": "તરત પહેલાંનું વાક્ય છે: \"Sameer is the captain.\" ચકાસો: \"Sameer is calm and makes good plans.\" અર્થ બરાબર બેસે છે. ધ્યાન: અર્જુનની વાત એનાથી પહેલાં હતી."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "\"It was a very important match.\" What does \"It\" refer to?",
+          "promptGu": "\"It was a very important match.\" અહીં \"It\" શાને દર્શાવે છે?",
+          "options": [
+            "the school ground",
+            "the game against Navsari",
+            "the ball",
+            "the boundary"
+          ],
+          "answer": "the game against Navsari",
+          "explanation": "The sentence before says: \"...their school played against a team from Navsari.\" \"It\" is that game. Notice: \"game\" is a synonym of \"match\".",
+          "explanationGu": "પહેલાંનું વાક્ય: \"their school played against a team from Navsari.\" \"It\" એટલે એ નવસારી સામેની રમત. ધ્યાન આપો: \"game\" અને \"match\" સમાનાર્થી છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "\"...and they scored 150 runs.\" Who are \"they\"?",
+          "promptGu": "\"...and they scored 150 runs.\" અહીં \"they\" કોણ છે?",
+          "options": [
+            "Arjun and Sameer",
+            "the Navsari players",
+            "the students",
+            "the teachers"
+          ],
+          "answer": "the Navsari players",
+          "explanation": "In the same sentence: \"The Navsari players were strong, and they scored 150 runs.\"",
+          "explanationGu": "એ જ વાક્યમાં છે: \"The Navsari players were strong, and they scored 150 runs.\" એટલે \"they\" = નવસારીના ખેલાડીઓ."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "\"This was a big score.\" What does \"This\" refer to?",
+          "promptGu": "\"This was a big score.\" અહીં \"This\" શાને દર્શાવે છે?",
+          "options": [
+            "150 runs",
+            "62 runs",
+            "three wickets",
+            "four runs"
+          ],
+          "answer": "150 runs",
+          "explanation": "\"This\" points to the idea just before: the Navsari players \"scored 150 runs\".",
+          "explanationGu": "\"This\" તરત પહેલાંની વાત તરફ ઇશારો કરે છે: નવસારીના ખેલાડીઓએ \"150 runs\" બનાવ્યા. 62 તો સમીરનો સ્કોર હતો, જે પછી આવે છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "\"...the coach was proud of him.\" Who is \"him\"?",
+          "promptGu": "\"...the coach was proud of him.\" અહીં \"him\" કોણ છે?",
+          "options": [
+            "Arjun",
+            "Sameer",
+            "a Navsari player",
+            "the captain"
+          ],
+          "answer": "Arjun",
+          "explanation": "The same sentence begins: \"Arjun took three wickets, and the coach was proud of him.\" The coach was proud because of Arjun's wickets.",
+          "explanationGu": "એ જ વાક્ય આમ શરૂ થાય છે: \"Arjun took three wickets, and the coach was proud of him.\" ત્રણ વિકેટને કારણે કોચને અર્જુન પર ગર્વ થયો."
+        },
+        {
+          "type": "FILL",
+          "prompt": "Sameer's score was ____ runs.",
+          "promptGu": "સમીરનો સ્કોર ____ રન હતો.",
+          "answer": "62",
+          "alternatives": [
+            "sixty-two",
+            "sixty two"
+          ],
+          "explanation": "\"Then Sameer batted well. His score was 62.\" \"His\" refers to Sameer.",
+          "explanationGu": "\"Then Sameer batted well. His score was 62.\" અહીં \"His\" એટલે સમીરનો. જવાબ: 62.",
+          "wordLimit": "ONE WORD AND/OR A NUMBER"
+        }
+      ]
+    }
+  ]
+}

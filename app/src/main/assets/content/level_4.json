@@ -1,0 +1,722 @@
+{
+  "id": "L4",
+  "order": 4,
+  "title": "IELTS Band 6",
+  "titleGu": "IELTS બેન્ડ 6",
+  "band": "B2 · IELTS Band 6",
+  "description": "Read academic-style passages with complex sentences, and practise matching headings, YES/NO/NOT GIVEN and summary completion.",
+  "descriptionGu": "જટિલ વાક્યોવાળા શૈક્ષણિક શૈલીના passages વાંચો, અને matching headings, YES/NO/NOT GIVEN તથા summary completion ની પ્રેક્ટિસ કરો.",
+  "lessons": [
+    {
+      "id": "L4-01",
+      "order": 1,
+      "title": "Grammar for reading: relative clauses and the passive",
+      "titleGu": "વાંચન માટે વ્યાકરણ: relative clauses અને passive voice",
+      "skill": "Grammar",
+      "minutes": 20,
+      "explanation": "Academic texts use long sentences. Two structures appear again and again: relative clauses and the passive voice. If you can 'unpack' them, long sentences become easy.\n\n1. Relative clauses (who, which, that, where) A relative clause gives more information about a noun. It usually comes straight after that noun.\n• who = for people: 'scientists who study the industry' (the scientists study the industry).\n• which = for things: 'the papyrus plant, which grew along the Nile' (the plant grew along the Nile).\n• that = for people or things: 'a material that most of us use'.\n• where = for places: 'Baghdad, where paper mills were built'. Tip: when you see 'which' or 'who', ask: which noun does it refer to? Usually it is the noun just before it. A clause between commas is extra information; you can skip it to find the main sentence.\n\n2. The passive voice (be + past participle) The passive focuses on the action or the thing, not the person who does it. 'Paper was invented in China' does not tell us who invented it. If the doer is important, it comes after 'by': 'The process was improved by Cai Lun.' Here Cai Lun did the action.\n\nHow to read a difficult sentence:\n• Find the main subject and main verb.\n• Put clauses in commas aside for a moment.\n• For a passive verb, ask 'who or what did this?' and look for 'by'.\n\nIn IELTS, questions often turn a passive sentence into an active one, or a relative clause into a simple sentence. Recognising this paraphrase is a key Band 6 skill.",
+      "explanationGu": "શૈક્ષણિક (academic) લખાણોમાં લાંબાં વાક્યો હોય છે. તેમાં બે રચનાઓ વારંવાર આવે છે: relative clauses અને passive voice. તેમને 'ખોલતાં' આવડી જાય તો લાંબાં વાક્યો સહેલાં બની જાય છે.\n\n1. Relative clauses (who, which, that, where) Relative clause કોઈ noun (નામ) વિશે વધુ માહિતી આપે છે, અને સામાન્ય રીતે તે noun પછી તરત આવે છે.\n• who = વ્યક્તિ માટે: 'scientists who study the industry' (જે વૈજ્ઞાનિકો ઉદ્યોગનો અભ્યાસ કરે છે).\n• which = વસ્તુ માટે: 'the papyrus plant, which grew along the Nile' (જે છોડ નાઇલ નદી કિનારે ઊગતો).\n• that = વ્યક્તિ કે વસ્તુ બંને માટે: 'a material that most of us use'.\n• where = જગ્યા માટે: 'Baghdad, where paper mills were built' (જ્યાં કાગળની મિલો બંધાઈ). ટિપ: 'which' કે 'who' દેખાય ત્યારે પૂછો — તે કયા noun વિશે છે? મોટે ભાગે તેની તરત પહેલાંનો noun. અલ્પવિરામ (comma) વચ્ચેનો clause વધારાની માહિતી છે — મુખ્ય વાક્ય શોધવા તેને થોડી વાર બાજુ પર રાખી શકાય.\n\n2. Passive voice (be + past participle) Passive માં કામ કે વસ્તુ પર ધ્યાન હોય છે, કામ કરનાર પર નહીં. 'Paper was invented in China' માં કોણે શોધ કરી તે કહ્યું નથી. જો કામ કરનાર મહત્વનો હોય, તો તે 'by' પછી આવે છે: 'The process was improved by Cai Lun.' — અહીં કામ Cai Lun એ કર્યું.\n\nઅઘરું વાક્ય કેવી રીતે વાંચવું:\n• મુખ્ય subject અને મુખ્ય verb શોધો.\n• Comma વચ્ચેના clauses ને થોડી વાર બાજુ પર રાખો.\n• Passive verb હોય તો પૂછો 'આ કોણે/શાનાથી થયું?' અને 'by' શોધો.\n\nIELTS માં પ્રશ્નો ઘણી વાર passive વાક્યને active માં, કે relative clause ને સાદા વાક્યમાં ફેરવે છે. આ paraphrase ઓળખવું Band 6 ની મહત્વની કુશળતા છે. ચાલો, પ્રેક્ટિસ કરીએ!",
+      "examples": [
+        {
+          "en": "The teacher who helped me is from Surat.",
+          "gu": "જે શિક્ષકે મને મદદ કરી તે સુરતના છે. (who → the teacher)"
+        },
+        {
+          "en": "The book, which was written in 1950, is still popular.",
+          "gu": "આ પુસ્તક, જે 1950 માં લખાયું હતું, હજી પણ લોકપ્રિય છે. (which → the book; was written = passive)"
+        },
+        {
+          "en": "The bridge was built by local engineers. = Local engineers built the bridge.",
+          "gu": "પુલ સ્થાનિક એન્જિનિયરો દ્વારા બંધાયો. = સ્થાનિક એન્જિનિયરોએ પુલ બાંધ્યો. (passive → active)"
+        },
+        {
+          "en": "Rice is grown in many parts of Gujarat.",
+          "gu": "ગુજરાતના ઘણા ભાગોમાં ચોખા ઉગાડવામાં આવે છે. (કોણ ઉગાડે છે તે મહત્વનું નથી)"
+        },
+        {
+          "en": "This is the village where my grandfather was born.",
+          "gu": "આ એ ગામ છે જ્યાં મારા દાદાનો જન્મ થયો હતો. (where → the village)"
+        }
+      ],
+      "passageTitle": "How Paper Changed the World",
+      "passage": "Paper is a material that most of us use every day without thinking about it. Yet its invention, which took place in China about two thousand years ago, is considered one of the most important developments in human history.\n\nBefore paper existed, writing was done on materials that were either expensive or difficult to handle. In Egypt, sheets were made from the papyrus plant, which grew along the River Nile. In Europe, parchment, which was produced from animal skins, was widely used for important documents. In China itself, texts were written on strips of bamboo or on silk, which was far too costly for everyday use.\n\nAccording to traditional accounts, the process of making paper was improved by a court official called Cai Lun in AD 105. Plant fibres, old cloth and fishing nets were soaked in water and beaten into a pulp. The pulp was then spread thinly on a screen and left to dry. The result was a light, cheap surface that could easily be written on.\n\nFor several centuries, the method was kept secret by the Chinese. It was eventually carried west along trade routes, and by the eighth century paper was being produced in the city of Samarkand, in Central Asia. From there, the knowledge spread to Baghdad, where paper mills were built, and later to North Africa and Spain.\n\nThe arrival of paper in Europe had consequences that few people could have predicted. When the printing press was developed in Germany in the fifteenth century, it was paper, not parchment, that made cheap books possible. As a result, ideas could be shared by people who had never had access to written texts before.\n\nToday, over 400 million tonnes of paper and cardboard are produced each year. Although digital technology has reduced the demand for some kinds of paper, scientists who study the industry believe that packaging, which is growing rapidly because of online shopping, will keep paper important for decades.",
+      "passageGu": "કાગળ એક એવી સામગ્રી છે જેનો આપણામાંથી મોટાભાગના લોકો વિચાર્યા વગર દરરોજ ઉપયોગ કરે છે. છતાં તેની શોધ, જે લગભગ બે હજાર વર્ષ પહેલાં ચીનમાં થઈ હતી, માનવ ઇતિહાસના સૌથી મહત્વના વિકાસોમાંની એક ગણાય છે.\n\nકાગળ અસ્તિત્વમાં આવ્યો તે પહેલાં, લખાણ એવી સામગ્રી પર થતું જે કાં તો મોંઘી હતી અથવા વાપરવામાં મુશ્કેલ હતી. ઇજિપ્તમાં પાનાં પેપિરસ નામના છોડમાંથી બનાવવામાં આવતાં, જે નાઇલ નદીના કિનારે ઊગતો. યુરોપમાં પાર્ચમેન્ટ, જે પ્રાણીઓની ચામડીમાંથી બનાવવામાં આવતું, મહત્વના દસ્તાવેજો માટે વ્યાપકપણે વપરાતું. ખુદ ચીનમાં લખાણો વાંસની પટ્ટીઓ પર અથવા રેશમ પર લખાતાં, જે રોજિંદા ઉપયોગ માટે ઘણું વધારે મોંઘું હતું.\n\nપરંપરાગત વર્ણનો અનુસાર, ઈ.સ. 105 માં કાઈ લુન નામના એક દરબારી અધિકારી દ્વારા કાગળ બનાવવાની પ્રક્રિયામાં સુધારો કરવામાં આવ્યો. છોડના રેસા, જૂનું કાપડ અને માછીમારીની જાળને પાણીમાં પલાળીને કૂટીને માવો (pulp) બનાવવામાં આવતો. પછી આ માવાને એક જાળી પર પાતળો ફેલાવીને સૂકવવા માટે મૂકી દેવામાં આવતો. તેનું પરિણામ હતું એક હળવી, સસ્તી સપાટી જેના પર સહેલાઈથી લખી શકાતું.\n\nઘણી સદીઓ સુધી ચીનના લોકોએ આ પદ્ધતિ ગુપ્ત રાખી. આખરે તે વેપારી માર્ગો દ્વારા પશ્ચિમ તરફ પહોંચી, અને આઠમી સદી સુધીમાં મધ્ય એશિયાના સમરકંદ શહેરમાં કાગળ બનવા લાગ્યો હતો. ત્યાંથી આ જ્ઞાન બગદાદ પહોંચ્યું, જ્યાં કાગળની મિલો બાંધવામાં આવી, અને પછી ઉત્તર આફ્રિકા અને સ્પેન સુધી ફેલાયું.\n\nયુરોપમાં કાગળના આગમનનાં એવાં પરિણામો આવ્યાં જેની બહુ ઓછા લોકોએ કલ્પના કરી હશે. પંદરમી સદીમાં જર્મનીમાં છાપખાનું (printing press) વિકસાવવામાં આવ્યું, ત્યારે પાર્ચમેન્ટ નહીં પણ કાગળે જ સસ્તાં પુસ્તકો શક્ય બનાવ્યાં. પરિણામે, જે લોકો પાસે પહેલાં ક્યારેય લેખિત સાહિત્ય સુધી પહોંચ નહોતી, તેઓ પણ વિચારોની આપ-લે કરી શક્યા.\n\nઆજે દર વર્ષે 40 કરોડ ટનથી વધુ કાગળ અને કાર્ડબોર્ડનું ઉત્પાદન થાય છે. ડિજિટલ ટેકનોલોજીએ કેટલાક પ્રકારના કાગળની માંગ ઘટાડી છે, છતાં આ ઉદ્યોગનો અભ્યાસ કરતા વૈજ્ઞાનિકો માને છે કે પેકેજિંગ, જે ઓનલાઇન ખરીદીને કારણે ઝડપથી વધી રહ્યું છે, આવનારા દાયકાઓ સુધી કાગળને મહત્વનો રાખશે.",
+      "vocabulary": [
+        {
+          "word": "invention",
+          "pos": "noun",
+          "meaningGu": "શોધ",
+          "meaningEn": "something new that someone creates for the first time",
+          "example": "The telephone was an important invention.",
+          "exampleGu": "ટેલિફોન એક મહત્વની શોધ હતી."
+        },
+        {
+          "word": "considered",
+          "pos": "verb",
+          "meaningGu": "ગણાય છે, માનવામાં આવે છે",
+          "meaningEn": "thought of in a particular way",
+          "example": "He is considered the best player in the team.",
+          "exampleGu": "તે ટીમનો શ્રેષ્ઠ ખેલાડી ગણાય છે."
+        },
+        {
+          "word": "parchment",
+          "pos": "noun",
+          "meaningGu": "પાર્ચમેન્ટ (ચામડામાંથી બનેલું લખવાનું પાનું)",
+          "meaningEn": "thin material made from animal skin, used for writing in the past",
+          "example": "The old letter was written on parchment.",
+          "exampleGu": "જૂનો પત્ર પાર્ચમેન્ટ પર લખાયો હતો."
+        },
+        {
+          "word": "costly",
+          "pos": "adjective",
+          "meaningGu": "મોંઘું",
+          "meaningEn": "costing a lot of money",
+          "example": "Repairing the old car was costly.",
+          "exampleGu": "જૂની ગાડી રિપેર કરાવવી મોંઘી પડી."
+        },
+        {
+          "word": "pulp",
+          "pos": "noun",
+          "meaningGu": "માવો, લુગદી",
+          "meaningEn": "a soft, wet mass made by crushing something",
+          "example": "Paper is made from wood pulp.",
+          "exampleGu": "કાગળ લાકડાના માવામાંથી બને છે."
+        },
+        {
+          "word": "eventually",
+          "pos": "adverb",
+          "meaningGu": "આખરે, છેવટે",
+          "meaningEn": "in the end, after a long time",
+          "example": "After many tries, she eventually passed the test.",
+          "exampleGu": "ઘણા પ્રયત્નો પછી આખરે તે પરીક્ષામાં પાસ થઈ."
+        },
+        {
+          "word": "consequences",
+          "pos": "noun",
+          "meaningGu": "પરિણામો",
+          "meaningEn": "results of an action, often important ones",
+          "example": "Cutting forests has serious consequences.",
+          "exampleGu": "જંગલો કાપવાનાં ગંભીર પરિણામો આવે છે."
+        },
+        {
+          "word": "access",
+          "pos": "noun",
+          "meaningGu": "પહોંચ, ઉપયોગ કરવાની તક",
+          "meaningEn": "the opportunity or right to use something",
+          "example": "Every child should have access to education.",
+          "exampleGu": "દરેક બાળકને શિક્ષણ સુધી પહોંચ મળવી જોઈએ."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "In the sentence 'parchment, which was produced from animal skins, was widely used for important documents', what does 'which' refer to?",
+          "promptGu": "આ વાક્યમાં 'which' કોના માટે વપરાયો છે?",
+          "options": [
+            "parchment",
+            "animal skins",
+            "Europe",
+            "important documents"
+          ],
+          "answer": "parchment",
+          "explanation": "'Which' comes straight after 'parchment' and between commas. So 'which was produced from animal skins' gives extra information about parchment. Remove the clause and the main sentence is: 'parchment was widely used for important documents'.",
+          "explanationGu": "'which' તરત 'parchment' પછી અને બે commas વચ્ચે આવે છે. એટલે 'which was produced from animal skins' એ parchment વિશેની વધારાની માહિતી છે. Clause કાઢી નાખો તો મુખ્ય વાક્ય બચે: 'parchment was widely used for important documents'. 'animal skins' clause ની અંદરનો શબ્દ છે — તે જાળ છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "'The process of making paper was improved by a court official called Cai Lun.' Who improved the process?",
+          "promptGu": "'The process ... was improved by a court official called Cai Lun.' પ્રક્રિયામાં સુધારો કોણે કર્યો?",
+          "options": [
+            "The Chinese emperor",
+            "Cai Lun",
+            "Paper makers in Samarkand",
+            "Nobody knows"
+          ],
+          "answer": "Cai Lun",
+          "explanation": "This is a passive sentence: 'was improved by'. The doer of the action comes after 'by': 'a court official called Cai Lun'. Active form: 'Cai Lun improved the process.' The emperor is not mentioned.",
+          "explanationGu": "આ passive વાક્ય છે: 'was improved by'. કામ કરનાર 'by' પછી આવે છે: 'a court official called Cai Lun'. Active રૂપ: 'Cai Lun improved the process.' સમ્રાટ (emperor) નો passage માં ઉલ્લેખ નથી."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "'It was eventually carried west along trade routes.' What does 'It' refer to?",
+          "promptGu": "'It was eventually carried west along trade routes.' — અહીં 'It' શું છે?",
+          "options": [
+            "The pulp",
+            "The method of making paper",
+            "Samarkand",
+            "The secret of silk"
+          ],
+          "answer": "The method of making paper",
+          "explanation": "The sentence before says: 'the method was kept secret by the Chinese.' 'It' refers back to 'the method' (of making paper). Pronouns usually refer to the main noun in the previous sentence.",
+          "explanationGu": "તેની પહેલાંનું વાક્ય છે: 'the method was kept secret by the Chinese.' એટલે 'It' = 'the method' (કાગળ બનાવવાની પદ્ધતિ). સર્વનામ (It, they, this) મોટે ભાગે આગળના વાક્યના મુખ્ય noun ને દર્શાવે છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which sentence has the same meaning as 'For several centuries, the method was kept secret by the Chinese'?",
+          "promptGu": "કયું વાક્ય 'the method was kept secret by the Chinese' જેવો જ અર્થ ધરાવે છે?",
+          "options": [
+            "The Chinese learned a secret method over several centuries.",
+            "For several centuries, the Chinese did not tell others the method.",
+            "For several centuries, people kept the method secret from the Chinese.",
+            "The method was secret for only a short time."
+          ],
+          "answer": "For several centuries, the Chinese did not tell others the method.",
+          "explanation": "Passive to active: 'the method was kept secret by the Chinese' = 'the Chinese kept the method secret' = 'the Chinese did not tell others'. The third option reverses who did the action, which is a common passive trap.",
+          "explanationGu": "Passive → active: 'the method was kept secret by the Chinese' = 'the Chinese kept the method secret' = ચીનના લોકોએ બીજાઓને પદ્ધતિ જણાવી નહીં. ત્રીજો option કામ કરનાર અને જેના પર કામ થયું તેને ઊલટાવી દે છે — passive ની આ સામાન્ય જાળ છે. 'by' પછી કોણ છે તે હંમેશા ચકાસો."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "According to the last paragraph, who believes that packaging will keep paper important?",
+          "promptGu": "છેલ્લા paragraph મુજબ, કોણ માને છે કે પેકેજિંગ કાગળને મહત્વનો રાખશે?",
+          "options": [
+            "Online shoppers",
+            "Scientists who study the paper industry",
+            "Digital technology companies",
+            "The writer only"
+          ],
+          "answer": "Scientists who study the paper industry",
+          "explanation": "Passage: 'scientists who study the industry believe that packaging ... will keep paper important'. The main subject is 'scientists'; 'who study the industry' tells us which scientists. 'Online shopping' appears inside another relative clause ('which is growing rapidly because of online shopping'), so it is a word-match trap.",
+          "explanationGu": "Passage: 'scientists who study the industry believe that packaging ... will keep paper important'. મુખ્ય subject 'scientists' છે અને મુખ્ય verb 'believe'. 'who study the industry' બતાવે છે કે કયા વૈજ્ઞાનિકો. 'online shopping' બીજા relative clause ('which is growing rapidly...') ની અંદર છે — તે શબ્દ-મેળની જાળ છે."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "In ancient China, silk was cheap enough for everyday writing.",
+          "promptGu": "પ્રાચીન ચીનમાં રેશમ રોજિંદા લખાણ માટે પૂરતું સસ્તું હતું.",
+          "answer": "FALSE",
+          "explanation": "Passage: 'texts were written on strips of bamboo or on silk, which was far too costly for everyday use.' 'Which' refers to silk, and 'far too costly' is the opposite of 'cheap enough'.",
+          "explanationGu": "Passage: '... or on silk, which was far too costly for everyday use.' અહીં 'which' = silk. 'far too costly' (ઘણું વધારે મોંઘું) એ 'cheap enough' (પૂરતું સસ્તું) થી ઊલટું છે. તેથી FALSE."
+        },
+        {
+          "type": "FILL",
+          "prompt": "In Baghdad, paper ____ were built.",
+          "promptGu": "બગદાદમાં કાગળની ____ બાંધવામાં આવી.",
+          "answer": "mills",
+          "alternatives": [],
+          "explanation": "Passage: 'Baghdad, where paper mills were built'. 'Where' refers to Baghdad, and 'were built' is passive. The verb 'were' is plural, so the answer must be plural: 'mills'.",
+          "explanationGu": "Passage: 'Baghdad, where paper mills were built'. 'where' = Baghdad, અને 'were built' passive છે. 'were' બહુવચન છે, એટલે જવાબ પણ બહુવચન હોવો જોઈએ: 'mills'. વ્યાકરણ પણ જવાબ શોધવામાં મદદ કરે છે!",
+          "wordLimit": "ONE WORD ONLY"
+        }
+      ]
+    },
+    {
+      "id": "L4-02",
+      "order": 2,
+      "title": "Matching headings",
+      "titleGu": "Matching headings: paragraph માટે શીર્ષક પસંદ કરવું",
+      "skill": "IELTS Strategy",
+      "minutes": 20,
+      "explanation": "In a matching headings task, you get a list of headings and a passage with lettered paragraphs (A, B, C...). You choose the heading that best fits each paragraph. There are usually more headings than paragraphs, so some headings are not used.\n\nThe most important rule: a heading describes the MAIN IDEA of the whole paragraph, not one detail. Wrong headings often match a single sentence or a single word in the paragraph. These are traps.\n\nA good method:\n• Read the headings first and underline the key idea in each one.\n• Skim each paragraph. Read the first one or two sentences carefully, because they often contain the topic sentence. Then read the rest quickly to check.\n• Ask yourself: 'What is this whole paragraph about?' Try to say it in three or four words before you look at the headings.\n• Choose the heading that covers the WHOLE paragraph.\n• Watch for linking words. 'However' or 'Nevertheless' at the start of a paragraph usually means a change of direction, for example from advantages to problems.\n\nCommon traps:\n• Detail trap: the heading matches one example or one fact, such as a number or a place, but not the main idea.\n• Word-match trap: the heading repeats a word from the paragraph but means something different.\n• Too general or too narrow: a heading may be too big for one paragraph or cover only half of it.\n\nTip: do the paragraphs you find easiest first. Matching headings questions are often at the start of an IELTS passage, and doing them helps you understand the whole text before other questions.",
+      "explanationGu": "Matching headings માં તમને શીર્ષકો (headings) ની યાદી અને A, B, C... અક્ષરવાળા paragraphs મળે છે. દરેક paragraph માટે સૌથી યોગ્ય heading પસંદ કરવાનું હોય છે. સામાન્ય રીતે headings paragraphs કરતાં વધારે હોય છે, એટલે કેટલાંક headings વપરાતાં નથી.\n\nસૌથી મહત્વનો નિયમ: heading આખા paragraph નો મુખ્ય વિચાર (MAIN IDEA) બતાવે છે — કોઈ એક વિગત નહીં. ખોટાં headings ઘણી વાર paragraph ના ફક્ત એક વાક્ય કે એક શબ્દ સાથે મેળ ખાય છે. આ જાળ છે.\n\nસારી પદ્ધતિ:\n• પહેલાં headings વાંચો અને દરેકનો મુખ્ય વિચાર underline કરો.\n• દરેક paragraph ને skim કરો. પહેલાં એક-બે વાક્યો ધ્યાનથી વાંચો, કારણ કે તેમાં મોટે ભાગે topic sentence હોય છે. પછી બાકીનો ભાગ ઝડપથી વાંચીને ખાતરી કરો.\n• પોતાને પૂછો: 'આખો paragraph શેના વિશે છે?' headings જોતાં પહેલાં ત્રણ-ચાર શબ્દોમાં જવાબ વિચારો.\n• આખા paragraph ને આવરી લે તેવું heading પસંદ કરો.\n• જોડતા શબ્દો પર ધ્યાન આપો. Paragraph ની શરૂઆતમાં 'However' કે 'Nevertheless' હોય તો મોટે ભાગે દિશા બદલાય છે — જેમ કે ફાયદાથી સમસ્યાઓ તરફ.\n\nસામાન્ય જાળ:\n• વિગતની જાળ: heading કોઈ એક ઉદાહરણ કે હકીકત (આંકડો, જગ્યા) સાથે મેળ ખાય, પણ મુખ્ય વિચાર સાથે નહીં.\n• શબ્દ-મેળની જાળ: heading માં paragraph નો શબ્દ હોય, પણ અર્થ જુદો હોય.\n• બહુ મોટું કે બહુ નાનું: heading એક paragraph માટે બહુ વ્યાપક હોય, અથવા ફક્ત અડધો ભાગ આવરી લે.\n\nટિપ: જે paragraph સહેલો લાગે તે પહેલાં કરો. IELTS માં matching headings ઘણી વાર passage ની શરૂઆતમાં આવે છે, અને તે કરવાથી આખું લખાણ સમજાઈ જાય છે. તમે સરસ પ્રગતિ કરી રહ્યા છો!",
+      "examples": [
+        {
+          "en": "Paragraph: rising sea levels, floods, damaged homes, people moving away. Heading: 'The effects of rising seas' (not 'Damaged homes').",
+          "gu": "Paragraph: વધતું દરિયાનું સ્તર, પૂર, નુકસાન પામેલાં ઘરો, લોકોનું સ્થળાંતર. Heading: 'વધતા દરિયાની અસરો' — 'નુકસાન પામેલાં ઘરો' નહીં (તે ફક્ત વિગત છે)."
+        },
+        {
+          "en": "'Nevertheless, the plan faced strong opposition.' → The paragraph will probably be about problems or criticism.",
+          "gu": "'Nevertheless, the plan faced strong opposition.' → આ paragraph મોટે ભાગે સમસ્યાઓ કે ટીકા વિશે હશે."
+        },
+        {
+          "en": "Main idea in four words: 'history of the idea'.",
+          "gu": "ચાર શબ્દોમાં મુખ્ય વિચાર: 'વિચારનો ઇતિહાસ'."
+        }
+      ],
+      "passageTitle": "Farming in the City",
+      "passage": "A For most of history, food has been grown in the countryside and transported to cities. However, as urban populations continue to rise, a growing number of people are producing food inside cities themselves. This practice, known as urban farming, ranges from small balcony gardens to large commercial operations on the roofs of buildings.\n\nB Urban farming is not a new idea. During the Second World War, families in Britain and the United States were encouraged to grow vegetables in their gardens and in public parks. These 'victory gardens' produced a significant share of the fresh vegetables eaten in both countries at the time. After the war, however, most of them disappeared as cheap food became widely available in shops.\n\nC Supporters argue that growing food close to where it is eaten has clear environmental advantages. Because the food travels only a short distance, less fuel is used for transport, and fruit and vegetables can be sold within hours of being picked. In addition, green roofs covered with plants help to keep buildings cool in summer and absorb rainwater that might otherwise cause flooding.\n\nD Nevertheless, urban farms face serious difficulties. Land in cities is extremely expensive, so farmers often have to use small or unusual spaces. Soil in former industrial areas may be polluted with heavy metals, which means it must be tested carefully or replaced. Moreover, many urban farms struggle to make a profit, and some depend on support from local governments or charities.\n\nE To overcome the shortage of space, some companies have turned to vertical farming. In these indoor farms, crops are grown on shelves stacked one above another, under LED lights rather than sunlight. Plants are often grown without soil, with their roots placed in water that contains nutrients. Although such farms use far less water than traditional fields, they require large amounts of electricity, and critics question whether they can ever be truly sustainable.",
+      "passageGu": "A ઇતિહાસના મોટાભાગના સમય દરમિયાન ખોરાક ગામડાંમાં ઉગાડવામાં આવતો અને શહેરોમાં લઈ જવાતો. જોકે, શહેરોની વસ્તી સતત વધતી જાય છે તેમ, વધુ ને વધુ લોકો શહેરોની અંદર જ ખોરાક ઉગાડી રહ્યા છે. આ પ્રથા, જે urban farming (શહેરી ખેતી) તરીકે ઓળખાય છે, નાના બાલ્કની બગીચાથી લઈને ઇમારતોનાં છાપરાં પરના મોટા વ્યાપારી એકમો સુધી ફેલાયેલી છે.\n\nB શહેરી ખેતી કોઈ નવો વિચાર નથી. બીજા વિશ્વયુદ્ધ દરમિયાન બ્રિટન અને અમેરિકાના પરિવારોને પોતાના બગીચાઓમાં અને જાહેર બાગોમાં શાકભાજી ઉગાડવા પ્રોત્સાહિત કરવામાં આવ્યા હતા. આ 'વિજય બગીચાઓ' (victory gardens) એ તે સમયે બંને દેશોમાં ખવાતાં તાજાં શાકભાજીનો નોંધપાત્ર હિસ્સો ઉત્પન્ન કર્યો હતો. જોકે, યુદ્ધ પછી દુકાનોમાં સસ્તો ખોરાક સહેલાઈથી મળવા લાગ્યો, એટલે તેમાંના મોટાભાગના બગીચા અદૃશ્ય થઈ ગયા.\n\nC સમર્થકો દલીલ કરે છે કે જ્યાં ખોરાક ખવાય છે તેની નજીક ઉગાડવાથી પર્યાવરણને સ્પષ્ટ ફાયદા થાય છે. ખોરાક થોડું જ અંતર કાપે છે, એટલે પરિવહન માટે ઓછું બળતણ વપરાય છે, અને ફળ-શાકભાજી તોડ્યાના થોડા કલાકોમાં જ વેચી શકાય છે. વધુમાં, છોડથી ઢંકાયેલાં લીલાં છાપરાં ઉનાળામાં ઇમારતોને ઠંડી રાખવામાં મદદ કરે છે અને વરસાદનું એવું પાણી શોષી લે છે જે અન્યથા પૂર લાવી શકે.\n\nD તેમ છતાં, શહેરી ખેતરો ગંભીર મુશ્કેલીઓનો સામનો કરે છે. શહેરોમાં જમીન અત્યંત મોંઘી છે, એટલે ખેડૂતોએ ઘણી વાર નાની કે અસામાન્ય જગ્યાઓ વાપરવી પડે છે. જૂના ઔદ્યોગિક વિસ્તારોની જમીન ભારે ધાતુઓથી પ્રદૂષિત હોઈ શકે છે, એટલે તેને ધ્યાનથી ચકાસવી અથવા બદલવી પડે છે. ઉપરાંત, ઘણાં શહેરી ખેતરો નફો કરવા માટે સંઘર્ષ કરે છે, અને કેટલાંક સ્થાનિક સરકાર કે સખાવતી સંસ્થાઓના ટેકા પર આધાર રાખે છે.\n\nE જગ્યાની અછત દૂર કરવા માટે કેટલીક કંપનીઓ vertical farming (ઊભી ખેતી) તરફ વળી છે. આ ઘરની અંદરનાં ખેતરોમાં પાકને એકની ઉપર એક ગોઠવેલા છાજલાઓ પર, સૂર્યપ્રકાશને બદલે LED લાઇટ હેઠળ ઉગાડવામાં આવે છે. છોડને ઘણી વાર માટી વગર ઉગાડવામાં આવે છે, અને તેમનાં મૂળ પોષક તત્વોવાળા પાણીમાં રાખવામાં આવે છે. આવાં ખેતરો પરંપરાગત ખેતરો કરતાં ઘણું ઓછું પાણી વાપરે છે, છતાં તેમને ખૂબ વીજળીની જરૂર પડે છે, અને ટીકાકારો પ્રશ્ન કરે છે કે શું તે ક્યારેય ખરેખર ટકાઉ (sustainable) બની શકશે.",
+      "vocabulary": [
+        {
+          "word": "transported",
+          "pos": "verb",
+          "meaningGu": "લઈ જવાયું, પરિવહન કરાયું",
+          "meaningEn": "moved from one place to another, usually by vehicle",
+          "example": "The vegetables were transported to the market by truck.",
+          "exampleGu": "શાકભાજી ટ્રક દ્વારા બજારમાં લઈ જવાયાં."
+        },
+        {
+          "word": "commercial",
+          "pos": "adjective",
+          "meaningGu": "વ્યાપારી",
+          "meaningEn": "connected with buying and selling to make money",
+          "example": "This is a commercial building with many shops.",
+          "exampleGu": "આ ઘણી દુકાનોવાળી વ્યાપારી ઇમારત છે."
+        },
+        {
+          "word": "significant",
+          "pos": "adjective",
+          "meaningGu": "નોંધપાત્ર, મહત્વનું",
+          "meaningEn": "large or important enough to be noticed",
+          "example": "There was a significant increase in prices.",
+          "exampleGu": "ભાવોમાં નોંધપાત્ર વધારો થયો."
+        },
+        {
+          "word": "advantages",
+          "pos": "noun",
+          "meaningGu": "ફાયદા",
+          "meaningEn": "things that help you or make a situation better",
+          "example": "Living near the school has many advantages.",
+          "exampleGu": "શાળાની નજીક રહેવાના ઘણા ફાયદા છે."
+        },
+        {
+          "word": "flooding",
+          "pos": "noun",
+          "meaningGu": "પૂર",
+          "meaningEn": "a situation in which water covers land that is usually dry",
+          "example": "Heavy rain caused flooding in the city.",
+          "exampleGu": "ભારે વરસાદથી શહેરમાં પૂર આવ્યું."
+        },
+        {
+          "word": "polluted",
+          "pos": "adjective",
+          "meaningGu": "પ્રદૂષિત",
+          "meaningEn": "made dirty and harmful",
+          "example": "The river is polluted with waste from factories.",
+          "exampleGu": "નદી કારખાનાંના કચરાથી પ્રદૂષિત છે."
+        },
+        {
+          "word": "profit",
+          "pos": "noun",
+          "meaningGu": "નફો",
+          "meaningEn": "money that you gain from business after paying costs",
+          "example": "The shop made a good profit this year.",
+          "exampleGu": "દુકાને આ વર્ષે સારો નફો કર્યો."
+        },
+        {
+          "word": "sustainable",
+          "pos": "adjective",
+          "meaningGu": "ટકાઉ, પર્યાવરણને નુકસાન વગર લાંબો સમય ચાલે તેવું",
+          "meaningEn": "able to continue for a long time without harming the environment",
+          "example": "Solar power is a sustainable source of energy.",
+          "exampleGu": "સૌર ઊર્જા ઊર્જાનો ટકાઉ સ્રોત છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "Which heading best fits Paragraph A?",
+          "promptGu": "Paragraph A માટે કયું heading સૌથી યોગ્ય છે?",
+          "options": [
+            "The rising cost of food in cities",
+            "What urban farming is",
+            "Gardens on balconies",
+            "Moving food from the countryside"
+          ],
+          "answer": "What urban farming is",
+          "explanation": "Paragraph A introduces the topic: 'This practice, known as urban farming, ranges from small balcony gardens to large commercial operations.' It defines urban farming. 'Balcony gardens' and 'moving food from the countryside' are only details; food prices are not mentioned.",
+          "explanationGu": "Paragraph A વિષયની ઓળખ આપે છે: 'This practice, known as urban farming, ranges from small balcony gardens to large commercial operations.' એટલે તે urban farming શું છે તે સમજાવે છે. 'balcony gardens' અને 'countryside માંથી ખોરાક લાવવો' ફક્ત વિગતો છે — detail ની જાળ. ખોરાકના ભાવનો ઉલ્લેખ જ નથી."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which heading best fits Paragraph B?",
+          "promptGu": "Paragraph B માટે કયું heading સૌથી યોગ્ય છે?",
+          "options": [
+            "Using public parks in wartime",
+            "Why shops sell cheap food",
+            "An idea with a long history",
+            "The importance of fresh vegetables"
+          ],
+          "answer": "An idea with a long history",
+          "explanation": "The topic sentence is 'Urban farming is not a new idea.' The paragraph then gives a historical example (victory gardens in the Second World War). 'Public parks in wartime' is a detail inside the example, not the main idea.",
+          "explanationGu": "Topic sentence છે: 'Urban farming is not a new idea.' પછી ઇતિહાસનું ઉદાહરણ (બીજા વિશ્વયુદ્ધના victory gardens) આપ્યું છે. 'not a new idea' = 'an idea with a long history' (paraphrase). 'public parks in wartime' ઉદાહરણની અંદરની એક વિગત છે — મુખ્ય વિચાર નહીં."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which heading best fits Paragraph C?",
+          "promptGu": "Paragraph C માટે કયું heading સૌથી યોગ્ય છે?",
+          "options": [
+            "Benefits for the environment",
+            "Reducing floods in cities",
+            "How to keep buildings cool",
+            "The cost of fuel"
+          ],
+          "answer": "Benefits for the environment",
+          "explanation": "Topic sentence: 'growing food close to where it is eaten has clear environmental advantages.' The paragraph then lists several advantages (less fuel, fresh food, cooler buildings, less flooding). 'Advantages' = 'benefits'. 'Reducing floods' and 'keeping buildings cool' are only single examples.",
+          "explanationGu": "Topic sentence: 'growing food close to where it is eaten has clear environmental advantages.' પછી ઘણા ફાયદા ગણાવ્યા છે (ઓછું બળતણ, તાજો ખોરાક, ઠંડી ઇમારતો, ઓછું પૂર). 'advantages' = 'benefits'. 'Reducing floods' અને 'keep buildings cool' ફક્ત એક-એક ઉદાહરણ છે — આખો paragraph નહીં."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which heading best fits Paragraph D?",
+          "promptGu": "Paragraph D માટે કયું heading સૌથી યોગ્ય છે?",
+          "options": [
+            "The high price of city land",
+            "Help from charities",
+            "The challenges facing urban farmers",
+            "Cleaning industrial areas"
+          ],
+          "answer": "The challenges facing urban farmers",
+          "explanation": "The paragraph begins 'Nevertheless, urban farms face serious difficulties.' 'Nevertheless' shows a change from advantages (C) to problems. It lists three problems: expensive land, polluted soil and low profit. 'The high price of city land' covers only the first problem: too narrow.",
+          "explanationGu": "Paragraph ની શરૂઆત: 'Nevertheless, urban farms face serious difficulties.' 'Nevertheless' બતાવે છે કે ફાયદા (C) પછી હવે સમસ્યાઓની વાત છે. તેમાં ત્રણ સમસ્યાઓ છે: મોંઘી જમીન, પ્રદૂષિત માટી અને ઓછો નફો. 'difficulties' = 'challenges'. 'The high price of city land' ફક્ત પહેલી સમસ્યા છે — બહુ નાનું (too narrow)."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which heading best fits Paragraph E?",
+          "promptGu": "Paragraph E માટે કયું heading સૌથી યોગ્ય છે?",
+          "options": [
+            "Growing crops upwards indoors: promise and doubts",
+            "The use of LED lights",
+            "Saving water on traditional farms",
+            "Why companies like electricity"
+          ],
+          "answer": "Growing crops upwards indoors: promise and doubts",
+          "explanation": "Paragraph E describes vertical farming ('crops are grown on shelves stacked one above another' indoors), its advantage ('use far less water') and the doubts ('critics question whether they can ever be truly sustainable'). Only the first heading covers the whole paragraph. 'LED lights' is a detail.",
+          "explanationGu": "Paragraph E vertical farming સમજાવે છે ('crops are grown on shelves stacked one above another'), તેનો ફાયદો ('use far less water') અને શંકાઓ ('critics question whether they can ever be truly sustainable'). ફક્ત પહેલું heading આખો paragraph આવરી લે છે. 'LED lights' ફક્ત એક વિગત છે."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Most victory gardens continued after the Second World War ended.",
+          "promptGu": "બીજું વિશ્વયુદ્ધ પૂરું થયા પછી પણ મોટાભાગના victory gardens ચાલુ રહ્યા.",
+          "answer": "FALSE",
+          "explanation": "Paragraph B: 'After the war, however, most of them disappeared as cheap food became widely available in shops.' 'Disappeared' is the opposite of 'continued'.",
+          "explanationGu": "Paragraph B: 'After the war, however, most of them disappeared'. 'disappeared' (અદૃશ્ય થઈ ગયા) એ 'continued' (ચાલુ રહ્યા) થી ઊલટું છે. તેથી FALSE."
+        },
+        {
+          "type": "FILL",
+          "prompt": "In vertical farms, plant roots are placed in water that contains ____ .",
+          "promptGu": "Vertical farms માં છોડનાં મૂળ ____ ધરાવતા પાણીમાં રાખવામાં આવે છે.",
+          "answer": "nutrients",
+          "alternatives": [],
+          "explanation": "Paragraph E: 'with their roots placed in water that contains nutrients.' The answer is copied exactly.",
+          "explanationGu": "Paragraph E: 'with their roots placed in water that contains nutrients.' જવાબ 'nutrients' (પોષક તત્વો) છે. 'roots' અને 'water' keywords થી Paragraph E માં ઝડપથી scan કરો.",
+          "wordLimit": "ONE WORD ONLY"
+        }
+      ]
+    },
+    {
+      "id": "L4-03",
+      "order": 3,
+      "title": "YES / NO / NOT GIVEN: the writer's views",
+      "titleGu": "YES / NO / NOT GIVEN: લેખકના વિચારો",
+      "skill": "IELTS Strategy",
+      "minutes": 20,
+      "explanation": "YES / NO / NOT GIVEN questions look similar to TRUE / FALSE / NOT GIVEN, but there is one big difference. TFNG asks about FACTS in the passage. YNNG asks about the writer's VIEWS or CLAIMS, that is, what the writer thinks, believes or argues.\n• YES: the statement agrees with the writer's opinion.\n• NO: the statement contradicts (goes against) the writer's opinion.\n• NOT GIVEN: it is impossible to know what the writer thinks about this.\n\nThese questions appear with argument texts, where a writer gives an opinion and supports it. To answer well, you must notice language that shows the writer's attitude:\n• Opinion phrases: In my view, I believe, It seems clear that, The sensible approach is...\n• Strong evaluation words: a mistake, simply wrong, essential, unfortunately, sadly.\n• Hedging (careful language): may, perhaps, suggests, not yet conclusive. If the writer is careful, a statement that is too certain may be NO.\n\nBe careful with other people's opinions. A writer often reports what critics or supporters say, and then disagrees: 'Critics often claim that... This is simply wrong.' The writer's view is in the second sentence, not the first. Always ask: whose opinion is this?\n\nMethod: underline keywords and any opinion or qualifier words in the statement. Find the place in the passage (questions follow passage order). Then decide: does the writer agree, disagree, or say nothing about this?\n\nRemember that NOT GIVEN in YNNG often means the writer talks about the topic, but does not give an opinion on the exact point in the statement.",
+      "explanationGu": "YES / NO / NOT GIVEN પ્રશ્નો TRUE / FALSE / NOT GIVEN જેવા લાગે છે, પણ એક મોટો ફરક છે. TFNG passage ની હકીકતો (FACTS) વિશે પૂછે છે. YNNG લેખકના વિચારો કે દાવાઓ (VIEWS / CLAIMS) વિશે પૂછે છે — એટલે કે લેખક શું માને છે, શું દલીલ કરે છે.\n• YES: વિધાન લેખકના મત સાથે સહમત છે.\n• NO: વિધાન લેખકના મતની વિરુદ્ધ છે.\n• NOT GIVEN: આ મુદ્દા પર લેખક શું વિચારે છે તે જાણી શકાતું નથી.\n\nઆ પ્રશ્નો દલીલવાળા (argument) લખાણો સાથે આવે છે. સારો જવાબ આપવા લેખકનું વલણ બતાવતી ભાષા ઓળખો:\n• અભિપ્રાયનાં વાક્યો: In my view, I believe, It seems clear that, The sensible approach is...\n• મજબૂત મૂલ્યાંકનના શબ્દો: a mistake, simply wrong, essential, unfortunately.\n• સાવચેત ભાષા (hedging): may, perhaps, suggests, not yet conclusive. જો લેખક સાવચેત હોય અને વિધાન બહુ ચોક્કસ હોય, તો જવાબ NO હોઈ શકે.\n\nબીજા લોકોના અભિપ્રાયથી સાવધાન! લેખક ઘણી વાર ટીકાકારો શું કહે છે તે જણાવીને પછી અસહમતિ દર્શાવે છે: 'Critics often claim that... This is simply wrong.' લેખકનો મત બીજા વાક્યમાં છે, પહેલામાં નહીં. હંમેશા પૂછો: આ અભિપ્રાય કોનો છે?\n\nપદ્ધતિ: વિધાનના keywords અને opinion/qualifier શબ્દો underline કરો. Passage માં જગ્યા શોધો (પ્રશ્નો ક્રમમાં આવે છે). પછી નક્કી કરો: લેખક સહમત છે, અસહમત છે, કે આ વિશે કંઈ કહેતો નથી?\n\nયાદ રાખો: YNNG માં NOT GIVEN નો અર્થ ઘણી વાર એ હોય છે કે લેખક વિષયની વાત કરે છે, પણ વિધાનના ચોક્કસ મુદ્દા પર પોતાનો મત આપતો નથી. તમે Band 6 તરફ આગળ વધી રહ્યા છો — શાબાશ!",
+      "examples": [
+        {
+          "en": "Writer: \"In my view, the new law is unfair.\" Statement: \"The law is unjust.\" → YES",
+          "gu": "લેખક: \"મારા મતે નવો કાયદો અન્યાયી છે.\" વિધાન: \"કાયદો અન્યાયી છે.\" → YES"
+        },
+        {
+          "en": "Writer: \"Some say homework is useless. This is simply wrong.\" Statement: \"Homework has no value.\" → NO",
+          "gu": "લેખક: \"કેટલાક કહે છે કે ગૃહકાર્ય નકામું છે. આ બિલકુલ ખોટું છે.\" વિધાન: \"ગૃહકાર્યનું કોઈ મૂલ્ય નથી.\" → NO"
+        },
+        {
+          "en": "Writer: \"Online classes may help some students.\" Statement: \"Online classes are better than normal classes.\" → NOT GIVEN",
+          "gu": "લેખક: \"ઓનલાઇન વર્ગો કેટલાક વિદ્યાર્થીઓને મદદ કરી શકે.\" વિધાન: \"ઓનલાઇન વર્ગો સામાન્ય વર્ગો કરતાં સારા છે.\" → NOT GIVEN"
+        },
+        {
+          "en": "TFNG = facts (Is it true?). YNNG = opinions (Does the writer agree?).",
+          "gu": "TFNG = હકીકતો (શું તે સાચું છે?). YNNG = અભિપ્રાયો (શું લેખક સહમત છે?)."
+        }
+      ],
+      "passageTitle": "Is Handwriting Still Worth Teaching?",
+      "passage": "In many schools around the world, children now spend more time typing on keyboards and tablets than writing with a pen. Some education departments have even reduced the hours given to handwriting practice, arguing that it is an old-fashioned skill. In my view, this decision is a mistake, and it is based on a misunderstanding of what handwriting actually does for young learners.\n\nIt is true that typing is faster for most adults, and nobody would suggest that children should not learn to use a keyboard. Digital skills are essential in modern workplaces. However, the question is not whether children should type, but whether they should stop writing by hand. These are two very different things.\n\nA number of studies have found that when children form letters by hand, areas of the brain connected with reading become more active than when they simply press keys. Other research with university students suggests that those who take notes by hand often remember ideas better than those who type, perhaps because writing is slower and forces them to summarise rather than copy every word. These findings are not yet conclusive, but they deserve to be taken seriously.\n\nCritics often claim that handwriting lessons are only about producing neat, attractive letters. This is simply wrong. Good handwriting teaching is less about beauty than about fluency: a child who can write quickly and comfortably is free to concentrate on ideas rather than on the movement of the pen.\n\nThere is also a question of fairness. Not every family can afford a computer, and examinations in many countries are still taken on paper. A student whose handwriting is slow and painful is at a clear disadvantage in such situations.\n\nNone of this means that schools should reject technology. The sensible approach is to teach both skills well. Handwriting may seem old-fashioned, but abandoning it too quickly could cost the next generation more than we realise.",
+      "passageGu": "દુનિયાભરની ઘણી શાળાઓમાં બાળકો હવે પેનથી લખવા કરતાં કીબોર્ડ અને ટેબ્લેટ પર ટાઇપ કરવામાં વધુ સમય વિતાવે છે. કેટલાક શિક્ષણ વિભાગોએ તો હસ્તાક્ષરની પ્રેક્ટિસ માટેના કલાકો પણ ઘટાડી દીધા છે, એવી દલીલ સાથે કે તે જૂની-પુરાણી કુશળતા છે. મારા મતે આ નિર્ણય એક ભૂલ છે, અને તે નાના વિદ્યાર્થીઓ માટે હાથથી લખવું ખરેખર શું કરે છે તેની ગેરસમજ પર આધારિત છે.\n\nએ સાચું છે કે મોટાભાગના પુખ્ત લોકો માટે ટાઇપ કરવું વધુ ઝડપી છે, અને કોઈ એવું સૂચન નહીં કરે કે બાળકોએ કીબોર્ડ વાપરતાં ન શીખવું જોઈએ. આધુનિક કાર્યસ્થળોમાં ડિજિટલ કુશળતાઓ અનિવાર્ય છે. જોકે, પ્રશ્ન એ નથી કે બાળકોએ ટાઇપ કરવું જોઈએ કે નહીં, પણ એ છે કે શું તેમણે હાથથી લખવાનું બંધ કરી દેવું જોઈએ. આ બે તદ્દન જુદી બાબતો છે.\n\nકેટલાક અભ્યાસોમાં જોવા મળ્યું છે કે બાળકો હાથથી અક્ષરો બનાવે છે ત્યારે, ફક્ત કી દબાવે ત્યારની સરખામણીમાં, વાંચન સાથે જોડાયેલા મગજના ભાગો વધુ સક્રિય બને છે. યુનિવર્સિટીના વિદ્યાર્થીઓ સાથેનું બીજું સંશોધન સૂચવે છે કે હાથથી નોંધ લેનારા વિદ્યાર્થીઓ ઘણી વાર ટાઇપ કરનારાઓ કરતાં વિચારો વધુ સારી રીતે યાદ રાખે છે — કદાચ એટલા માટે કે લખવું ધીમું છે અને દરેક શબ્દ નકલ કરવાને બદલે તેમને સારાંશ બનાવવા મજબૂર કરે છે. આ તારણો હજી નિર્ણાયક નથી, પણ તેને ગંભીરતાથી લેવાં જોઈએ.\n\nટીકાકારો ઘણી વાર દાવો કરે છે કે હસ્તાક્ષરના પાઠ ફક્ત સુઘડ, સુંદર અક્ષરો બનાવવા વિશે છે. આ બિલકુલ ખોટું છે. હસ્તાક્ષરનું સારું શિક્ષણ સુંદરતા કરતાં વધુ પ્રવાહિતા (fluency) વિશે છે: જે બાળક ઝડપથી અને આરામથી લખી શકે છે, તે પેનની હિલચાલને બદલે વિચારો પર ધ્યાન આપવા મુક્ત હોય છે.\n\nન્યાયીપણાનો પ્રશ્ન પણ છે. દરેક પરિવાર કમ્પ્યુટર ખરીદી શકતો નથી, અને ઘણા દેશોમાં પરીક્ષાઓ હજી પણ કાગળ પર લેવાય છે. જે વિદ્યાર્થીના અક્ષર ધીમા અને લખવામાં તકલીફવાળા હોય, તે આવી પરિસ્થિતિઓમાં સ્પષ્ટ ગેરલાભમાં રહે છે.\n\nઆનો અર્થ એ નથી કે શાળાઓએ ટેકનોલોજીનો અસ્વીકાર કરવો જોઈએ. સમજદાર રસ્તો એ છે કે બંને કુશળતાઓ સારી રીતે શીખવવી. હાથથી લખવું જૂનું-પુરાણું લાગી શકે, પણ તેને બહુ ઉતાવળે છોડી દેવાથી આવનારી પેઢીને આપણે ધારીએ છીએ તેના કરતાં વધુ નુકસાન થઈ શકે છે.",
+      "vocabulary": [
+        {
+          "word": "old-fashioned",
+          "pos": "adjective",
+          "meaningGu": "જૂનું-પુરાણું",
+          "meaningEn": "no longer modern or popular",
+          "example": "My grandfather has an old-fashioned radio.",
+          "exampleGu": "મારા દાદા પાસે જૂના જમાનાનો રેડિયો છે."
+        },
+        {
+          "word": "misunderstanding",
+          "pos": "noun",
+          "meaningGu": "ગેરસમજ",
+          "meaningEn": "a failure to understand something correctly",
+          "example": "There was a misunderstanding about the meeting time.",
+          "exampleGu": "મીટિંગના સમય વિશે ગેરસમજ થઈ હતી."
+        },
+        {
+          "word": "essential",
+          "pos": "adjective",
+          "meaningGu": "અનિવાર્ય, ખૂબ જરૂરી",
+          "meaningEn": "completely necessary",
+          "example": "Water is essential for life.",
+          "exampleGu": "જીવન માટે પાણી અનિવાર્ય છે."
+        },
+        {
+          "word": "conclusive",
+          "pos": "adjective",
+          "meaningGu": "નિર્ણાયક, પાકું સાબિત કરે તેવું",
+          "meaningEn": "proving something completely, so there is no doubt",
+          "example": "The police have no conclusive evidence.",
+          "exampleGu": "પોલીસ પાસે કોઈ નિર્ણાયક પુરાવો નથી."
+        },
+        {
+          "word": "fluency",
+          "pos": "noun",
+          "meaningGu": "પ્રવાહિતા, સરળતાથી કરવાની ક્ષમતા",
+          "meaningEn": "the ability to do something smoothly and easily",
+          "example": "Reading every day improves your fluency in English.",
+          "exampleGu": "દરરોજ વાંચવાથી અંગ્રેજીમાં તમારી પ્રવાહિતા સુધરે છે."
+        },
+        {
+          "word": "afford",
+          "pos": "verb",
+          "meaningGu": "ખર્ચ ઉઠાવી શકવો, ખરીદી શકવું",
+          "meaningEn": "to have enough money to pay for something",
+          "example": "We cannot afford a new car this year.",
+          "exampleGu": "અમે આ વર્ષે નવી ગાડી ખરીદી શકીએ તેમ નથી."
+        },
+        {
+          "word": "disadvantage",
+          "pos": "noun",
+          "meaningGu": "ગેરલાભ",
+          "meaningEn": "something that makes success more difficult",
+          "example": "Not knowing English can be a disadvantage abroad.",
+          "exampleGu": "વિદેશમાં અંગ્રેજી ન આવડવું ગેરલાભ બની શકે."
+        },
+        {
+          "word": "abandoning",
+          "pos": "verb",
+          "meaningGu": "છોડી દેવું, ત્યજી દેવું",
+          "meaningEn": "stopping something completely before it is finished",
+          "example": "They are abandoning the old plan.",
+          "exampleGu": "તેઓ જૂની યોજના છોડી રહ્યા છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "YNNG",
+          "prompt": "Reducing the time for handwriting practice in schools is a wrong decision.",
+          "promptGu": "શાળાઓમાં હસ્તાક્ષરની પ્રેક્ટિસનો સમય ઘટાડવો એ ખોટો નિર્ણય છે.",
+          "answer": "YES",
+          "explanation": "Paragraph 1: 'Some education departments have even reduced the hours given to handwriting practice... In my view, this decision is a mistake.' 'In my view' shows the writer's opinion; 'a mistake' = 'a wrong decision'.",
+          "explanationGu": "પહેલો paragraph: 'reduced the hours given to handwriting practice... In my view, this decision is a mistake.' 'In my view' લેખકનો મત બતાવે છે, અને 'a mistake' = 'a wrong decision' (paraphrase). લેખક સહમત છે, તેથી YES."
+        },
+        {
+          "type": "YNNG",
+          "prompt": "Children do not need to learn how to use a keyboard.",
+          "promptGu": "બાળકોને કીબોર્ડ વાપરતાં શીખવાની જરૂર નથી.",
+          "answer": "NO",
+          "explanation": "Paragraph 2: 'nobody would suggest that children should not learn to use a keyboard. Digital skills are essential.' The writer clearly thinks children SHOULD learn keyboard skills, so the statement contradicts the writer's view.",
+          "explanationGu": "બીજો paragraph: 'nobody would suggest that children should not learn to use a keyboard. Digital skills are essential.' લેખક માને છે કે બાળકોએ કીબોર્ડ શીખવું જ જોઈએ. વિધાન લેખકના મતની વિરુદ્ધ છે, તેથી NO. લેખક હસ્તાક્ષરનો સમર્થક છે, પણ ટેકનોલોજીનો વિરોધી નથી — ઉતાવળે ધારી ન લો!"
+        },
+        {
+          "type": "YNNG",
+          "prompt": "Research has already proved that handwriting improves memory.",
+          "promptGu": "સંશોધને પહેલેથી જ સાબિત કરી દીધું છે કે હાથથી લખવાથી યાદશક્તિ સુધરે છે.",
+          "answer": "NO",
+          "explanation": "Paragraph 3: the research 'suggests' a link, and the writer says 'These findings are not yet conclusive.' 'Not yet conclusive' means not yet proved. The statement is too certain, so it contradicts the writer's careful view.",
+          "explanationGu": "ત્રીજો paragraph: સંશોધન 'suggests' (સૂચવે છે) અને લેખક કહે છે 'These findings are not yet conclusive.' 'not yet conclusive' = હજી સાબિત નથી થયું. વિધાનમાં 'already proved' (પહેલેથી સાબિત) — બહુ ચોક્કસ છે. લેખકની સાવચેત ભાષા (hedging) સાથે મેળ ખાતું નથી, તેથી NO."
+        },
+        {
+          "type": "YNNG",
+          "prompt": "The main aim of handwriting lessons should be to produce beautiful letters.",
+          "promptGu": "હસ્તાક્ષરના પાઠનો મુખ્ય હેતુ સુંદર અક્ષરો બનાવવાનો હોવો જોઈએ.",
+          "answer": "NO",
+          "explanation": "Paragraph 4: 'Critics often claim that handwriting lessons are only about producing neat, attractive letters. This is simply wrong. Good handwriting teaching is less about beauty than about fluency.' The first sentence is the critics' view; the writer disagrees.",
+          "explanationGu": "ચોથો paragraph: 'Critics often claim that ... neat, attractive letters. This is simply wrong. Good handwriting teaching is less about beauty than about fluency.' પહેલું વાક્ય ટીકાકારોનો મત છે, લેખકનો નહીં! લેખક કહે છે 'simply wrong' અને સુંદરતા કરતાં fluency વધુ મહત્વની છે. તેથી NO. હંમેશા પૂછો: આ અભિપ્રાય કોનો છે?"
+        },
+        {
+          "type": "YNNG",
+          "prompt": "Handwriting is more important for children than mathematics.",
+          "promptGu": "બાળકો માટે ગણિત કરતાં હાથથી લખવું વધુ મહત્વનું છે.",
+          "answer": "NOT GIVEN",
+          "explanation": "The writer never mentions mathematics or compares handwriting with other school subjects. We cannot know the writer's opinion on this.",
+          "explanationGu": "લેખક ગણિતનો ઉલ્લેખ જ કરતો નથી અને હસ્તાક્ષરની બીજા વિષયો સાથે સરખામણી પણ કરતો નથી. આ મુદ્દે લેખકનો મત જાણી શકાતો નથી, તેથી NOT GIVEN. લેખક હસ્તાક્ષરને મહત્વનું માને છે, પણ 'more important than mathematics' એ વધારાની સરખામણી છે."
+        },
+        {
+          "type": "YNNG",
+          "prompt": "Students who write slowly by hand are disadvantaged in paper-based exams.",
+          "promptGu": "હાથથી ધીમું લખતા વિદ્યાર્થીઓ કાગળ પર લેવાતી પરીક્ષાઓમાં ગેરલાભમાં રહે છે.",
+          "answer": "YES",
+          "explanation": "Paragraph 5: 'examinations in many countries are still taken on paper. A student whose handwriting is slow and painful is at a clear disadvantage in such situations.' 'Taken on paper' = 'paper-based'; 'at a clear disadvantage' = 'disadvantaged'.",
+          "explanationGu": "પાંચમો paragraph: 'examinations ... are still taken on paper. A student whose handwriting is slow and painful is at a clear disadvantage'. 'taken on paper' = 'paper-based', 'at a clear disadvantage' = 'disadvantaged'. લેખક સહમત છે, તેથી YES."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What is the writer's main purpose in this passage?",
+          "promptGu": "આ passage માં લેખકનો મુખ્ય હેતુ શું છે?",
+          "options": [
+            "To argue that schools should stop using technology",
+            "To argue that schools should continue teaching handwriting as well as typing",
+            "To describe the history of handwriting",
+            "To compare the cost of computers in different countries"
+          ],
+          "answer": "To argue that schools should continue teaching handwriting as well as typing",
+          "explanation": "The last paragraph gives the writer's conclusion: 'None of this means that schools should reject technology. The sensible approach is to teach both skills well.' So the first option is the opposite. History and costs are not the main topic.",
+          "explanationGu": "છેલ્લા paragraph માં લેખકનો નિષ્કર્ષ છે: 'None of this means that schools should reject technology. The sensible approach is to teach both skills well.' એટલે પહેલો option ઊલટો છે. ઇતિહાસ અને ખર્ચ મુખ્ય વિષય નથી. ટિપ: argument લખાણમાં લેખકનો મુખ્ય મત મોટે ભાગે પહેલા અને છેલ્લા paragraph માં હોય છે."
+        }
+      ]
+    },
+    {
+      "id": "L4-04",
+      "order": 4,
+      "title": "Summary completion",
+      "titleGu": "Summary completion: સારાંશ પૂર્ણ કરવો",
+      "skill": "IELTS Strategy",
+      "minutes": 20,
+      "explanation": "In a summary completion task, you get a short summary of part of the passage with some gaps. You fill each gap with words from the passage. The summary uses different words from the passage, so this task tests paraphrase, grammar and careful copying.\n\nImportant points:\n• The summary usually covers only ONE part of the passage, not the whole text. Find where it starts by matching the first sentence of the summary with the passage.\n• The gaps follow the order of the passage, just like most IELTS questions.\n• Obey the word limit, for example 'ONE WORD ONLY' or 'NO MORE THAN TWO WORDS'. Copy the words exactly and check spelling.\n\nA step-by-step method: 1. Read the title of the summary and the whole summary quickly to understand the topic. 2. For each gap, predict the type of word: noun, verb, adjective? Singular or plural? Look at the words around the gap. For example, 'are ____ over long distances' needs a past participle (passive). 3. Underline keywords near the gap and think of synonyms. 'Bee numbers have fallen' may appear in the passage as 'bee populations have declined'. 4. Scan the passage for the matching sentence, choose the word and copy it. 5. Read the completed sentence to check that it is grammatical and means the same as the passage.\n\nSometimes the summary gives you a box of words to choose from instead. The same skills apply, but be careful: the words in the box may also be synonyms of passage words.\n\nSummary completion rewards students who read the grammar around the gap. If your word does not fit grammatically, it is wrong, even if the meaning is close.",
+      "explanationGu": "Summary completion માં તમને passage ના એક ભાગનો ટૂંકો સારાંશ (summary) મળે છે, જેમાં થોડી ખાલી જગ્યાઓ હોય છે. દરેક ખાલી જગ્યા passage ના શબ્દોથી ભરવાની હોય છે. સારાંશ passage કરતાં જુદા શબ્દો વાપરે છે, એટલે આ પ્રશ્ન paraphrase, વ્યાકરણ અને ચોક્કસ copy કરવાની કસોટી છે.\n\nમહત્વના મુદ્દા:\n• સારાંશ મોટે ભાગે passage ના ફક્ત એક જ ભાગ વિશે હોય છે, આખા લખાણ વિશે નહીં. સારાંશના પહેલા વાક્યને passage સાથે મેળવીને શરૂઆતની જગ્યા શોધો.\n• ખાલી જગ્યાઓ passage ના ક્રમમાં જ આવે છે.\n• શબ્દ-મર્યાદા પાળો ('ONE WORD ONLY', 'NO MORE THAN TWO WORDS'). શબ્દ જેવો છે તેવો જ copy કરો અને સ્પેલિંગ ચકાસો.\n\nપગલાંવાર પદ્ધતિ: 1. સારાંશનું title અને આખો સારાંશ ઝડપથી વાંચીને વિષય સમજો. 2. દરેક ખાલી જગ્યા માટે શબ્દનો પ્રકાર ધારો: noun, verb કે adjective? એકવચન કે બહુવચન? આસપાસના શબ્દો જુઓ. જેમ કે 'are ____ over long distances' માં past participle (passive) જોઈએ. 3. ખાલી જગ્યા પાસેના keywords underline કરો અને સમાનાર્થી વિચારો. 'Bee numbers have fallen' passage માં 'bee populations have declined' તરીકે હોઈ શકે. 4. Passage માં મેળ ખાતું વાક્ય scan કરો, શબ્દ પસંદ કરીને copy કરો. 5. પૂરું વાક્ય ફરી વાંચીને ખાતરી કરો કે તે વ્યાકરણની દૃષ્ટિએ સાચું છે અને passage જેવો જ અર્થ આપે છે.\n\nક્યારેક શબ્દોનું એક box આપેલું હોય છે જેમાંથી પસંદ કરવાનું હોય. ત્યારે પણ આ જ કુશળતા કામ આવે છે — પણ box ના શબ્દો passage ના શબ્દોના સમાનાર્થી પણ હોઈ શકે.\n\nયાદ રાખો: જો તમારો શબ્દ વ્યાકરણમાં બંધબેસતો ન હોય, તો અર્થ નજીક હોવા છતાં જવાબ ખોટો ગણાય. ધ્યાનથી વાંચો — તમે આ સરસ રીતે કરી શકશો!",
+      "examples": [
+        {
+          "en": "Summary: 'Bee numbers have fallen in parts of Europe.' Passage: 'bee populations ... have declined sharply.'",
+          "gu": "સારાંશ: 'Bee numbers have fallen' = Passage: 'bee populations have declined' (paraphrase)."
+        },
+        {
+          "en": "'Hives are ____ over long distances.' → needs a past participle: transported.",
+          "gu": "'Hives are ____ over long distances.' → અહીં past participle જોઈએ: transported (passive)."
+        },
+        {
+          "en": "'There is a ____ in timing.' → needs a singular noun after 'a': mismatch.",
+          "gu": "'There is a ____ in timing.' → 'a' પછી એકવચન noun જોઈએ: mismatch."
+        },
+        {
+          "en": "'The loss of ____ means less food for bees.' (NO MORE THAN TWO WORDS) → wild flowers",
+          "gu": "'The loss of ____ means less food for bees.' (બે શબ્દ સુધી) → wild flowers"
+        }
+      ],
+      "passageTitle": "The Value of Bees",
+      "passage": "Bees are best known for producing honey, but their most important work happens out of sight. As they move from flower to flower collecting nectar, bees carry pollen on their bodies. This process, called pollination, allows plants to produce fruit and seeds. Scientists estimate that around three-quarters of the world's main food crops depend at least partly on animal pollinators, and bees are the most significant of these.\n\nWithout bees, many familiar foods would become rare or expensive. Apples, almonds, coffee and tomatoes all benefit from pollination by insects. Wind-pollinated crops such as wheat and rice would not be directly affected, but human diets would become far less varied and, in many regions, less healthy.\n\nIn recent decades, however, bee populations in parts of Europe and North America have declined sharply. Researchers have identified several causes, which often act together. The loss of wild flowers, as fields are turned into large farms growing a single crop, means that bees have fewer sources of food. Certain pesticides, chemicals used to kill insects that damage crops, can weaken bees' ability to find their way back to the hive. Diseases and parasites, such as the varroa mite, have also spread widely, partly because hives are transported over long distances.\n\nClimate change adds a further pressure. In some areas, flowers now open earlier in spring than they used to, before bees have become active. This mismatch in timing can leave bees without food at a critical moment.\n\nFortunately, there are practical steps that can help. Several countries have restricted the use of the most harmful pesticides. Farmers are being encouraged to leave strips of wild flowers along the edges of their fields, and city residents can support bees by planting flowers in gardens and on balconies. Even leaving a small area of grass uncut can provide valuable food.\n\nProtecting bees is not simply a matter of saving one type of insect. It is, in a very real sense, a way of protecting our own food supply.",
+      "passageGu": "મધમાખીઓ મધ બનાવવા માટે સૌથી વધુ જાણીતી છે, પરંતુ તેમનું સૌથી મહત્વનું કામ નજરથી દૂર થાય છે. મધુરસ (nectar) એકઠો કરતી વખતે તેઓ એક ફૂલથી બીજા ફૂલ પર જાય છે, ત્યારે પોતાના શરીર પર પરાગરજ (pollen) લઈ જાય છે. આ પ્રક્રિયા, જેને પરાગનયન (pollination) કહેવાય છે, છોડને ફળ અને બીજ ઉત્પન્ન કરવા દે છે. વૈજ્ઞાનિકોનો અંદાજ છે કે દુનિયાના મુખ્ય ખાદ્ય પાકોમાંથી લગભગ ત્રણ-ચતુર્થાંશ પાક ઓછામાં ઓછા અંશતઃ પ્રાણી-પરાગવાહકો પર આધાર રાખે છે, અને તેમાં મધમાખીઓ સૌથી મહત્વની છે.\n\nમધમાખીઓ વગર ઘણા જાણીતા ખોરાક દુર્લભ કે મોંઘા બની જાય. સફરજન, બદામ, કૉફી અને ટામેટાં — બધાંને કીટકો દ્વારા થતા પરાગનયનથી ફાયદો થાય છે. ઘઉં અને ચોખા જેવા પવનથી પરાગનયન થતા પાકોને સીધી અસર નહીં થાય, પણ માનવ આહાર ઘણો ઓછો વૈવિધ્યસભર અને ઘણા પ્રદેશોમાં ઓછો આરોગ્યપ્રદ બની જાય.\n\nજોકે, તાજેતરના દાયકાઓમાં યુરોપ અને ઉત્તર અમેરિકાના કેટલાક ભાગોમાં મધમાખીઓની વસ્તી ઝડપથી ઘટી છે. સંશોધકોએ ઘણાં કારણો ઓળખ્યાં છે, જે ઘણી વાર સાથે મળીને અસર કરે છે. ખેતરોને એક જ પાક ઉગાડતાં મોટાં ફાર્મમાં ફેરવાતાં જંગલી ફૂલો નાશ પામે છે, જેથી મધમાખીઓ પાસે ખોરાકના સ્રોત ઓછા રહે છે. કેટલાંક જંતુનાશકો — પાકને નુકસાન કરતા કીટકોને મારવા વપરાતાં રસાયણો — મધમાખીઓની મધપૂડા સુધી પાછા ફરવાનો રસ્તો શોધવાની ક્ષમતાને નબળી પાડી શકે છે. varroa mite (એક પ્રકારની જીવાત) જેવા રોગો અને પરોપજીવીઓ પણ વ્યાપકપણે ફેલાયા છે, અંશતઃ એટલા માટે કે મધપૂડાઓને લાંબા અંતર સુધી લઈ જવામાં આવે છે.\n\nઆબોહવા પરિવર્તન વધુ એક દબાણ ઉમેરે છે. કેટલાક વિસ્તારોમાં ફૂલો હવે વસંતઋતુમાં પહેલાં કરતાં વહેલાં ખીલે છે — મધમાખીઓ સક્રિય થાય તે પહેલાં. સમયનો આ મેળ ન ખાવો (mismatch) મધમાખીઓને નિર્ણાયક સમયે ખોરાક વગર છોડી શકે છે.\n\nસદભાગ્યે, મદદ કરી શકે તેવાં વ્યવહારુ પગલાં છે. કેટલાક દેશોએ સૌથી હાનિકારક જંતુનાશકોના ઉપયોગ પર પ્રતિબંધ મૂક્યો છે. ખેડૂતોને તેમનાં ખેતરોની કિનારીઓ પર જંગલી ફૂલોની પટ્ટીઓ છોડવા પ્રોત્સાહિત કરવામાં આવે છે, અને શહેરના રહેવાસીઓ બગીચાઓ અને બાલ્કનીઓમાં ફૂલો વાવીને મધમાખીઓને મદદ કરી શકે છે. ઘાસનો નાનો ભાગ કાપ્યા વગર છોડી દેવાથી પણ કીમતી ખોરાક મળી શકે છે.\n\nમધમાખીઓનું રક્ષણ કરવું એ ફક્ત એક પ્રકારના કીટકને બચાવવાની વાત નથી. ખરા અર્થમાં, તે આપણા પોતાના ખોરાકના પુરવઠાનું રક્ષણ કરવાનો માર્ગ છે.",
+      "vocabulary": [
+        {
+          "word": "pollination",
+          "pos": "noun",
+          "meaningGu": "પરાગનયન",
+          "meaningEn": "the process of carrying pollen between flowers so that plants can make seeds",
+          "example": "Bees and butterflies help with pollination.",
+          "exampleGu": "મધમાખીઓ અને પતંગિયાં પરાગનયનમાં મદદ કરે છે."
+        },
+        {
+          "word": "estimate",
+          "pos": "verb",
+          "meaningGu": "અંદાજ લગાવવો",
+          "meaningEn": "to guess a number or amount using the information you have",
+          "example": "Experts estimate that the city has two million people.",
+          "exampleGu": "નિષ્ણાતોનો અંદાજ છે કે શહેરમાં વીસ લાખ લોકો છે."
+        },
+        {
+          "word": "varied",
+          "pos": "adjective",
+          "meaningGu": "વૈવિધ્યસભર",
+          "meaningEn": "including many different types",
+          "example": "A varied diet keeps you healthy.",
+          "exampleGu": "વૈવિધ્યસભર આહાર તમને સ્વસ્થ રાખે છે."
+        },
+        {
+          "word": "declined",
+          "pos": "verb",
+          "meaningGu": "ઘટ્યું",
+          "meaningEn": "became smaller in number or amount",
+          "example": "The number of tigers declined in the last century.",
+          "exampleGu": "ગઈ સદીમાં વાઘની સંખ્યા ઘટી."
+        },
+        {
+          "word": "pesticides",
+          "pos": "noun",
+          "meaningGu": "જંતુનાશકો",
+          "meaningEn": "chemicals used to kill insects that damage plants",
+          "example": "Farmers spray pesticides on their crops.",
+          "exampleGu": "ખેડૂતો પોતાના પાક પર જંતુનાશકો છાંટે છે."
+        },
+        {
+          "word": "parasites",
+          "pos": "noun",
+          "meaningGu": "પરોપજીવીઓ",
+          "meaningEn": "small living things that live on or in another animal and harm it",
+          "example": "Dogs can get parasites from dirty water.",
+          "exampleGu": "ગંદા પાણીથી કૂતરાંને પરોપજીવીઓ લાગી શકે છે."
+        },
+        {
+          "word": "mismatch",
+          "pos": "noun",
+          "meaningGu": "મેળ ન ખાવો, અસંગતતા",
+          "meaningEn": "a situation where two things do not fit together",
+          "example": "There is a mismatch between his skills and the job.",
+          "exampleGu": "તેની કુશળતા અને નોકરી વચ્ચે મેળ નથી."
+        },
+        {
+          "word": "restricted",
+          "pos": "verb",
+          "meaningGu": "પ્રતિબંધ મૂક્યો, મર્યાદિત કર્યું",
+          "meaningEn": "limited or controlled something",
+          "example": "The city restricted the use of plastic bags.",
+          "exampleGu": "શહેરે પ્લાસ્ટિકની થેલીઓના ઉપયોગ પર પ્રતિબંધ મૂક્યો."
+        }
+      ],
+      "questions": [
+        {
+          "type": "FILL",
+          "prompt": "Summary — Why bees are important: When bees collect nectar, they carry ____ from flower to flower.",
+          "promptGu": "સારાંશ: મધુરસ એકઠો કરતી વખતે મધમાખીઓ એક ફૂલથી બીજા ફૂલ સુધી ____ લઈ જાય છે.",
+          "answer": "pollen",
+          "alternatives": [],
+          "explanation": "Paragraph 1: 'As they move from flower to flower collecting nectar, bees carry pollen on their bodies.' After 'carry' we need a noun (an object). Note: 'nectar' is already in the summary, so it cannot be the answer.",
+          "explanationGu": "પહેલો paragraph: 'As they move from flower to flower collecting nectar, bees carry pollen on their bodies.' 'carry' પછી noun જોઈએ. ધ્યાન આપો: 'nectar' તો સારાંશમાં પહેલેથી જ છે, એટલે તે જવાબ ન હોઈ શકે. જવાબ: 'pollen' (પરાગરજ).",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "Bee numbers have fallen partly because the loss of ____ leaves bees with fewer sources of food.",
+          "promptGu": "મધમાખીઓની સંખ્યા અંશતઃ એટલે ઘટી છે કે ____ ના નાશથી મધમાખીઓ પાસે ખોરાકના સ્રોત ઓછા રહે છે.",
+          "answer": "wild flowers",
+          "alternatives": [
+            "wild flowers",
+            "wildflowers"
+          ],
+          "explanation": "Paragraph 3: 'The loss of wild flowers ... means that bees have fewer sources of food.' 'Bee numbers have fallen' = 'bee populations ... have declined'. Two words are allowed, and 'wild flowers' is more accurate than just 'flowers'.",
+          "explanationGu": "ત્રીજો paragraph: 'The loss of wild flowers ... means that bees have fewer sources of food.' 'Bee numbers have fallen' = 'bee populations have declined' (paraphrase). બે શબ્દ સુધી માન્ય છે, અને 'wild flowers' ફક્ત 'flowers' કરતાં વધુ ચોક્કસ જવાબ છે.",
+          "wordLimit": "NO MORE THAN TWO WORDS"
+        },
+        {
+          "type": "FILL",
+          "prompt": "Some pesticides make it harder for bees to find their way back to the ____ .",
+          "promptGu": "કેટલાંક જંતુનાશકો મધમાખીઓ માટે ____ સુધી પાછા ફરવાનો રસ્તો શોધવાનું મુશ્કેલ બનાવે છે.",
+          "answer": "hive",
+          "alternatives": [],
+          "explanation": "Paragraph 3: 'Certain pesticides ... can weaken bees' ability to find their way back to the hive.' 'Some' = 'certain'; 'make it harder' = 'weaken ... ability'.",
+          "explanationGu": "ત્રીજો paragraph: 'Certain pesticides ... can weaken bees' ability to find their way back to the hive.' 'Some' = 'Certain', 'make it harder' = 'weaken ... ability' (paraphrase). 'the' પછી noun: 'hive' (મધપૂડો).",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "Diseases have spread partly because hives are ____ over long distances.",
+          "promptGu": "રોગો અંશતઃ એટલે ફેલાયા છે કે મધપૂડાઓને લાંબા અંતર સુધી ____ .",
+          "answer": "transported",
+          "alternatives": [],
+          "explanation": "Paragraph 3: 'partly because hives are transported over long distances.' After 'are' we need a past participle to make a passive verb, so the answer is 'transported'.",
+          "explanationGu": "ત્રીજો paragraph: 'partly because hives are transported over long distances.' 'are' પછી passive બનાવવા past participle જોઈએ, એટલે જવાબ 'transported' (લઈ જવામાં આવે છે). વ્યાકરણ જવાબ શોધવામાં કેટલી મદદ કરે છે, જુઓ!",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "Because of climate change, there can be a ____ in timing between flowers opening and bees becoming active.",
+          "promptGu": "આબોહવા પરિવર્તનને કારણે ફૂલો ખીલવા અને મધમાખીઓ સક્રિય થવા વચ્ચે સમયનો ____ થઈ શકે છે.",
+          "answer": "mismatch",
+          "alternatives": [],
+          "explanation": "Paragraph 4: 'flowers now open earlier ... before bees have become active. This mismatch in timing can leave bees without food.' After 'a' we need a singular noun.",
+          "explanationGu": "ચોથો paragraph: 'flowers now open earlier ... before bees have become active. This mismatch in timing...' 'a' પછી એકવચન noun જોઈએ: 'mismatch'. સારાંશમાં 'in timing' શબ્દો passage જેવા જ છે — keyword થી સાચી જગ્યા મળી જાય છે.",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "Farmers are being encouraged to leave ____ of wild flowers along the edges of their fields.",
+          "promptGu": "ખેડૂતોને તેમનાં ખેતરોની કિનારીઓ પર જંગલી ફૂલોની ____ છોડવા પ્રોત્સાહિત કરવામાં આવે છે.",
+          "answer": "strips",
+          "alternatives": [],
+          "explanation": "Paragraph 5: 'Farmers are being encouraged to leave strips of wild flowers along the edges of their fields.' The structure '____ of wild flowers' needs a plural noun here: 'strips'.",
+          "explanationGu": "પાંચમો paragraph: 'Farmers are being encouraged to leave strips of wild flowers along the edges of their fields.' '____ of wild flowers' માં noun જોઈએ: 'strips' (પટ્ટીઓ) — બહુવચનનો 's' ભૂલશો નહીં.",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What is the writer's main point in the final paragraph?",
+          "promptGu": "છેલ્લા paragraph માં લેખકનો મુખ્ય મુદ્દો શું છે?",
+          "options": [
+            "Bees are more important than other insects",
+            "Protecting bees also protects the food that people need",
+            "Scientists must find a new type of bee",
+            "People should eat more honey"
+          ],
+          "answer": "Protecting bees also protects the food that people need",
+          "explanation": "Passage: 'Protecting bees is not simply a matter of saving one type of insect. It is ... a way of protecting our own food supply.' 'Our own food supply' = 'the food that people need'. The first option is a comparison the writer does not make.",
+          "explanationGu": "Passage: 'Protecting bees is not simply a matter of saving one type of insect. It is ... a way of protecting our own food supply.' 'our own food supply' = 'the food that people need' (paraphrase). પહેલો option એવી સરખામણી કરે છે જે લેખક કરતો નથી."
+        }
+      ]
+    }
+  ]
+}

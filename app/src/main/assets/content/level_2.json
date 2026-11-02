@@ -1,0 +1,727 @@
+{
+  "id": "L2",
+  "order": 2,
+  "title": "Elementary",
+  "titleGu": "પ્રાથમિક",
+  "band": "A2 · Paragraph reader",
+  "description": "Read whole paragraphs. Find the main idea, scan for details, understand synonyms and start TRUE / FALSE / NOT GIVEN questions.",
+  "descriptionGu": "આખા ફકરા વાંચો. મુખ્ય વિચાર શોધો, વિગતો ઝડપથી શોધો, સમાનાર્થી શબ્દો સમજો અને TRUE / FALSE / NOT GIVEN પ્રશ્નોની શરૂઆત કરો.",
+  "lessons": [
+    {
+      "id": "L2-01",
+      "order": 1,
+      "title": "Finding the Main Idea of a Paragraph",
+      "titleGu": "ફકરાનો મુખ્ય વિચાર શોધવો",
+      "skill": "Reading",
+      "minutes": 15,
+      "explanation": "Every good paragraph is about one main idea. The other sentences give details: examples, reasons, numbers or descriptions.\n\nThe topic sentence\nVery often, the first sentence of a paragraph tells you the main idea. We call it the topic sentence. Sometimes it is the last sentence, and sometimes it is in the middle, but the first sentence is the best place to start.\n\nHow to find the main idea:\n• Read the first sentence carefully. Ask: What is this paragraph about?\n• Read the other sentences quickly. Do they all support that idea?\n• Find the word or idea that repeats (for example: health, farmers, environment).\n• Make a short title in your head: \"Neem and health\".\n\nMain idea or detail?\nA detail is true, but it is too small to be the main idea. \"Some people boil neem leaves\" is a detail. \"Neem is important for health\" is the main idea, because it covers all the sentences.\n\nWhy this matters in IELTS: The task \"Matching headings\" asks you to choose the best heading for each paragraph. The correct heading matches the main idea, not one small detail. Wrong options often use a word from the paragraph but describe only a detail.",
+      "explanationGu": "દરેક સારો ફકરો એક મુખ્ય વિચાર વિશે હોય છે. બાકીનાં વાક્યો તેની વિગતો આપે છે: ઉદાહરણો, કારણો, આંકડા કે વર્ણન.\n\nવિષય-વાક્ય (topic sentence)\nઘણી વાર ફકરાનું પહેલું વાક્ય મુખ્ય વિચાર કહી દે છે. તેને topic sentence (વિષય-વાક્ય) કહેવાય. ક્યારેક તે છેલ્લું વાક્ય હોય અને ક્યારેક વચ્ચે પણ હોય, પણ શરૂઆત હંમેશાં પહેલા વાક્યથી કરો.\n\nમુખ્ય વિચાર કેવી રીતે શોધવો:\n• પહેલું વાક્ય ધ્યાનથી વાંચો. પોતાને પૂછો: આ ફકરો શાના વિશે છે?\n• બાકીનાં વાક્યો ઝડપથી વાંચો. શું તે બધાં એ જ વિચારને ટેકો આપે છે?\n• વારંવાર આવતો શબ્દ કે વિચાર શોધો (જેમ કે health, farmers, environment).\n• મનમાં ટૂંકું શીર્ષક બનાવો: \"લીમડો અને આરોગ્ય\".\n\nમુખ્ય વિચાર કે વિગત?\nવિગત સાચી હોય છે, પણ મુખ્ય વિચાર બનવા માટે બહુ નાની હોય છે. \"કેટલાક લોકો લીમડાનાં પાન ઉકાળે છે\" એ વિગત છે. \"લીમડો આરોગ્ય માટે મહત્ત્વનો છે\" એ મુખ્ય વિચાર છે, કારણ કે તે બધાં વાક્યોને આવરી લે છે.\n\nIELTSમાં આ કેમ મહત્ત્વનું છે? \"Matching headings\" પ્રકારના પ્રશ્નમાં દરેક ફકરા માટે સૌથી યોગ્ય શીર્ષક પસંદ કરવાનું હોય છે. સાચું શીર્ષક મુખ્ય વિચાર સાથે મેળ ખાય છે, કોઈ એક નાની વિગત સાથે નહીં. ખોટા વિકલ્પોમાં ઘણી વાર ફકરાનો કોઈ શબ્દ હોય છે, પણ તે માત્ર એક વિગત બતાવે છે — એ જાળમાં ન ફસાશો. તમે આ ચોક્કસ શીખી જશો!",
+      "examples": [
+        {
+          "en": "Topic sentence: \"Trains are the most popular way to travel in India.\"",
+          "gu": "વિષય-વાક્ય: \"ભારતમાં મુસાફરી માટે ટ્રેન સૌથી લોકપ્રિય સાધન છે.\""
+        },
+        {
+          "en": "Detail: \"Millions of people use them every day.\"",
+          "gu": "વિગત: \"દરરોજ લાખો લોકો તેનો ઉપયોગ કરે છે.\""
+        },
+        {
+          "en": "Detail: \"Tickets are cheaper than bus or air tickets.\"",
+          "gu": "વિગત: \"ટિકિટ બસ કે વિમાનની ટિકિટ કરતાં સસ્તી હોય છે.\""
+        },
+        {
+          "en": "Good heading for this paragraph: \"Why Indians love trains\"",
+          "gu": "આ ફકરા માટે સારું શીર્ષક: \"ભારતીયોને ટ્રેન કેમ ગમે છે\""
+        }
+      ],
+      "passageTitle": "The Useful Neem Tree",
+      "passage": "A The neem tree is one of the most useful trees in India. People in villages and cities plant it near their homes. It grows quickly and it does not need much water, so it can live in hot and dry places like Kutch.\n\nB Neem is also important for health. For hundreds of years, people have used neem leaves to clean wounds. Some people boil the leaves in water and use the water for bathing. Many toothpastes and soaps today contain neem oil.\n\nC Farmers also find neem very helpful. Insects do not like the smell of neem. Because of this, many farmers make a natural spray from neem seeds and put it on their crops. This spray is cheaper than chemicals, and it is safer for the soil.\n\nD Finally, the neem tree helps the environment. Its big green branches give cool shade in summer, and the tree helps to keep the air clean. Birds build nests in it. For all these reasons, many people call neem a \"village pharmacy\".",
+      "passageGu": "A લીમડો ભારતનાં સૌથી ઉપયોગી વૃક્ષોમાંનું એક છે. ગામડાં અને શહેરોમાં લોકો તેને ઘર પાસે વાવે છે. તે ઝડપથી ઊગે છે અને તેને વધારે પાણીની જરૂર પડતી નથી, એટલે તે કચ્છ જેવી ગરમ અને સૂકી જગ્યાએ પણ જીવી શકે છે.\n\nB લીમડો આરોગ્ય માટે પણ મહત્ત્વનો છે. સેંકડો વર્ષોથી લોકો ઘા સાફ કરવા લીમડાનાં પાનનો ઉપયોગ કરે છે. કેટલાક લોકો પાનને પાણીમાં ઉકાળે છે અને એ પાણીથી સ્નાન કરે છે. આજે ઘણી ટૂથપેસ્ટ અને સાબુમાં લીમડાનું તેલ હોય છે.\n\nC ખેડૂતોને પણ લીમડો ખૂબ મદદરૂપ લાગે છે. જીવાતોને લીમડાની ગંધ ગમતી નથી. આ કારણે ઘણા ખેડૂતો લીમડાનાં બીમાંથી કુદરતી છંટકાવ બનાવે છે અને પાક પર છાંટે છે. આ છંટકાવ રાસાયણિક દવાઓ કરતાં સસ્તો છે અને જમીન માટે વધુ સલામત છે.\n\nD છેલ્લે, લીમડો પર્યાવરણને પણ મદદ કરે છે. તેની મોટી લીલી ડાળીઓ ઉનાળામાં ઠંડો છાંયો આપે છે, અને વૃક્ષ હવાને સ્વચ્છ રાખવામાં મદદ કરે છે. પક્ષીઓ તેમાં માળા બાંધે છે. આ બધાં કારણોસર ઘણા લોકો લીમડાને \"ગામનું દવાખાનું\" કહે છે.",
+      "vocabulary": [
+        {
+          "word": "useful",
+          "pos": "adjective",
+          "meaningGu": "ઉપયોગી",
+          "meaningEn": "helpful; able to be used for a good purpose",
+          "example": "A mobile phone is very useful.",
+          "exampleGu": "મોબાઇલ ફોન ખૂબ ઉપયોગી છે."
+        },
+        {
+          "word": "dry",
+          "pos": "adjective",
+          "meaningGu": "સૂકું",
+          "meaningEn": "with little or no water or rain",
+          "example": "Kutch is a dry area.",
+          "exampleGu": "કચ્છ સૂકો પ્રદેશ છે."
+        },
+        {
+          "word": "wounds",
+          "pos": "noun",
+          "meaningGu": "ઘા, જખમ",
+          "meaningEn": "places on the body where the skin is cut or hurt",
+          "example": "Clean the wounds with clean water.",
+          "exampleGu": "ઘાને ચોખ્ખા પાણીથી સાફ કરો."
+        },
+        {
+          "word": "boil",
+          "pos": "verb",
+          "meaningGu": "ઉકાળવું",
+          "meaningEn": "to heat water until it bubbles",
+          "example": "Boil the milk before you drink it.",
+          "exampleGu": "દૂધ પીતાં પહેલાં ઉકાળો."
+        },
+        {
+          "word": "contain",
+          "pos": "verb",
+          "meaningGu": "સમાવવું, માં હોવું",
+          "meaningEn": "to have something inside",
+          "example": "These biscuits contain sugar.",
+          "exampleGu": "આ બિસ્કિટમાં ખાંડ હોય છે."
+        },
+        {
+          "word": "natural",
+          "pos": "adjective",
+          "meaningGu": "કુદરતી",
+          "meaningEn": "coming from nature, not made by machines or chemicals",
+          "example": "Honey is a natural food.",
+          "exampleGu": "મધ કુદરતી ખોરાક છે."
+        },
+        {
+          "word": "chemicals",
+          "pos": "noun",
+          "meaningGu": "રસાયણો, રાસાયણિક દવાઓ",
+          "meaningEn": "substances made in factories or laboratories",
+          "example": "Some chemicals are bad for the soil.",
+          "exampleGu": "કેટલાંક રસાયણો જમીન માટે નુકસાનકારક છે."
+        },
+        {
+          "word": "shade",
+          "pos": "noun",
+          "meaningGu": "છાંયો",
+          "meaningEn": "a cool area out of the sun",
+          "example": "We sat in the shade of a tree.",
+          "exampleGu": "અમે ઝાડના છાંયામાં બેઠા."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "What is the main idea of Paragraph A?",
+          "promptGu": "ફકરા A નો મુખ્ય વિચાર શું છે?",
+          "options": [
+            "Neem is a very useful tree that grows easily in India.",
+            "Kutch is a hot and dry place.",
+            "People in cities do not plant trees.",
+            "Neem leaves can clean wounds."
+          ],
+          "answer": "Neem is a very useful tree that grows easily in India.",
+          "explanation": "The topic sentence is the first one: \"The neem tree is one of the most useful trees in India.\" The other sentences explain that it grows easily. \"Kutch\" is only a detail, and wounds are in Paragraph B.",
+          "explanationGu": "પહેલું વાક્ય જ વિષય-વાક્ય છે: \"The neem tree is one of the most useful trees in India.\" બાકીનાં વાક્યો કહે છે કે તે સહેલાઈથી ઊગે છે. \"Kutch\" માત્ર એક વિગત છે, અને ઘાની વાત તો ફકરા B માં છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which sentence is the topic sentence of Paragraph B?",
+          "promptGu": "ફકરા B નું વિષય-વાક્ય કયું છે?",
+          "options": [
+            "Neem is also important for health.",
+            "Some people boil the leaves in water.",
+            "Many toothpastes and soaps today contain neem oil.",
+            "People use the water for bathing."
+          ],
+          "answer": "Neem is also important for health.",
+          "explanation": "The first sentence gives the main idea (health). Wounds, bathing and toothpaste are all examples of health uses, so they are details.",
+          "explanationGu": "પહેલું વાક્ય મુખ્ય વિચાર (આરોગ્ય) આપે છે. ઘા, સ્નાન અને ટૂથપેસ્ટ — આ બધાં આરોગ્ય માટેના ઉપયોગનાં ઉદાહરણો છે, એટલે તે વિગતો છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which heading best fits Paragraph C?",
+          "promptGu": "ફકરા C માટે કયું શીર્ષક સૌથી યોગ્ય છે?",
+          "options": [
+            "How neem helps farmers protect crops",
+            "The price of chemicals",
+            "Why insects like neem",
+            "How to plant a neem seed"
+          ],
+          "answer": "How neem helps farmers protect crops",
+          "explanation": "The topic sentence is \"Farmers also find neem very helpful.\" All the sentences explain how neem spray protects crops from insects. \"Why insects like neem\" is wrong: the text says insects do NOT like it.",
+          "explanationGu": "વિષય-વાક્ય છે: \"Farmers also find neem very helpful.\" બધાં વાક્યો સમજાવે છે કે લીમડાનો છંટકાવ પાકને જીવાતોથી કેવી રીતે બચાવે છે. \"Why insects like neem\" ખોટું છે, કારણ કે લખાણ કહે છે કે જીવાતોને લીમડો ગમતો નથી."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which heading best fits Paragraph D?",
+          "promptGu": "ફકરા D માટે કયું શીર્ષક સૌથી યોગ્ય છે?",
+          "options": [
+            "Neem and the environment",
+            "Birds of Gujarat",
+            "A new village hospital",
+            "Summer holidays"
+          ],
+          "answer": "Neem and the environment",
+          "explanation": "Paragraph D starts: \"Finally, the neem tree helps the environment.\" Shade, clean air and birds' nests are details that support this idea. \"Birds\" is only one small detail.",
+          "explanationGu": "ફકરો D આમ શરૂ થાય છે: \"Finally, the neem tree helps the environment.\" છાંયો, સ્વચ્છ હવા અને પક્ષીઓના માળા — આ બધી વિગતો આ જ વિચારને ટેકો આપે છે. \"Birds\" માત્ર એક નાની વિગત છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Why do farmers make a spray from neem seeds?",
+          "promptGu": "ખેડૂતો લીમડાનાં બીમાંથી છંટકાવ કેમ બનાવે છે?",
+          "options": [
+            "because insects do not like the smell of neem",
+            "because neem seeds are sweet",
+            "because chemicals are free",
+            "because birds eat the seeds"
+          ],
+          "answer": "because insects do not like the smell of neem",
+          "explanation": "The text says: \"Insects do not like the smell of neem. Because of this, many farmers make a natural spray...\" \"Because of this\" points back to the sentence about the smell.",
+          "explanationGu": "લખાણમાં છે: \"Insects do not like the smell of neem. Because of this, many farmers make a natural spray...\" \"Because of this\" (આ કારણે) પાછળના ગંધવાળા વાક્ય તરફ ઇશારો કરે છે."
+        },
+        {
+          "type": "FILL",
+          "prompt": "Many people call neem a \"village ____\".",
+          "promptGu": "ઘણા લોકો લીમડાને \"ગામનું ____\" કહે છે.",
+          "answer": "pharmacy",
+          "alternatives": [],
+          "explanation": "The last sentence says: \"...many people call neem a 'village pharmacy'.\" This last sentence also sums up the whole text: neem is like medicine for the village.",
+          "explanationGu": "છેલ્લું વાક્ય કહે છે: \"many people call neem a village pharmacy\". આ છેલ્લું વાક્ય આખા લખાણનો સાર પણ આપે છે: લીમડો ગામ માટે દવા જેવો છે. જવાબ: pharmacy.",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Neem trees need a lot of water.",
+          "promptGu": "લીમડાને ઘણું પાણી જોઈએ છે.",
+          "answer": "FALSE",
+          "explanation": "FALSE. Paragraph A says: \"it does not need much water\". The statement says the opposite.",
+          "explanationGu": "FALSE (ખોટું). ફકરો A કહે છે: \"it does not need much water\" (તેને વધારે પાણી જોઈતું નથી). આ વાક્ય તેનાથી ઊલટું કહે છે."
+        }
+      ]
+    },
+    {
+      "id": "L2-02",
+      "order": 2,
+      "title": "Scanning for Names, Numbers and Dates",
+      "titleGu": "નામ, આંકડા અને તારીખો ઝડપથી શોધવાં (Scanning)",
+      "skill": "Reading",
+      "minutes": 15,
+      "explanation": "In the IELTS test, you do not have time to read every word slowly. You need to scan.\n\nScanning means moving your eyes quickly over the text to find one specific piece of information, like a name, a number or a date. It is like looking for your friend's face in a crowd at the railway station. You do not look at every person carefully; you only look for one face.\n\nHow to scan:\n• Read the question first. Decide what you are looking for: a name? a number? a date? a price?\n• Think about what it looks like. Names start with a capital letter (Salim, Japan). Numbers are digits (12, 900) or words (four). Dates have months (January). Prices have words like rupees.\n• Move your eyes quickly. Do not read every word. Stop only when you see the shape you need.\n• When you find it, read the whole sentence carefully to check it really answers the question.\n\nBe careful: texts often contain many numbers. A question about \"how many countries\" needs the number next to \"countries\", not any number. Always check the words around the number.\n\nTip: Use a key word from the question (for example, \"tickets\") and scan for that word. The answer is usually close to it.",
+      "explanationGu": "IELTSની પરીક્ષામાં દરેક શબ્દ ધીમે ધીમે વાંચવાનો સમય નથી હોતો. એટલે તમારે scanning કરતાં આવડવું જોઈએ.\n\nScanning એટલે લખાણ પર ઝડપથી નજર ફેરવીને કોઈ એક ખાસ માહિતી શોધવી — જેમ કે નામ, આંકડો કે તારીખ. આ રેલવે સ્ટેશનની ભીડમાં તમારા મિત્રનો ચહેરો શોધવા જેવું છે. તમે દરેક વ્યક્તિને ધ્યાનથી નથી જોતા; ફક્ત એક ચહેરો શોધો છો.\n\nScanning કેવી રીતે કરવું:\n• પહેલાં પ્રશ્ન વાંચો. નક્કી કરો કે શું શોધવાનું છે: નામ? આંકડો? તારીખ? કિંમત?\n• તે કેવું દેખાય તે વિચારો. નામ મોટા અક્ષર (capital letter) થી શરૂ થાય છે (Salim, Japan). આંકડા અંકમાં (12, 900) કે શબ્દમાં (four) હોય. તારીખમાં મહિનાનું નામ (January) હોય. કિંમતમાં rupees જેવો શબ્દ હોય.\n• આંખો ઝડપથી ફેરવો. દરેક શબ્દ ન વાંચો. જોઈતો આકાર દેખાય ત્યારે જ અટકો.\n• મળી જાય પછી આખું વાક્ય ધ્યાનથી વાંચો અને ખાતરી કરો કે તે ખરેખર પ્રશ્નનો જવાબ છે.\n\nસાવધાન: લખાણમાં ઘણી વાર ઘણા આંકડા હોય છે. \"કેટલા દેશો\" પૂછ્યું હોય તો \"countries\" શબ્દની બાજુનો આંકડો જોઈએ, ગમે તે આંકડો નહીં. હંમેશાં આંકડાની આસપાસના શબ્દો તપાસો.\n\nટીપ: પ્રશ્નમાંથી એક મુખ્ય શબ્દ (key word) લો, જેમ કે \"tickets\", અને લખાણમાં એ શબ્દ શોધો. જવાબ મોટે ભાગે તેની નજીક જ હોય છે. પ્રેક્ટિસથી તમારી ઝડપ વધતી જશે!",
+      "examples": [
+        {
+          "en": "Question: When did the festival begin? → Scan for a date: \"8 January\".",
+          "gu": "પ્રશ્ન: ઉત્સવ ક્યારે શરૂ થયો? → તારીખ શોધો: \"8 January\"."
+        },
+        {
+          "en": "Question: Who made the fish kite? → Scan for a name with a capital letter.",
+          "gu": "પ્રશ્ન: માછલી આકારનો પતંગ કોણે બનાવ્યો? → મોટા અક્ષરથી શરૂ થતું નામ શોધો."
+        },
+        {
+          "en": "Question: How much is a ticket? → Scan for \"rupees\".",
+          "gu": "પ્રશ્ન: ટિકિટ કેટલાની છે? → \"rupees\" શબ્દ શોધો."
+        },
+        {
+          "en": "Question: How many stalls are there? → Scan for \"stalls\" and read the number before it.",
+          "gu": "પ્રશ્ન: કેટલા સ્ટૉલ છે? → \"stalls\" શબ્દ શોધો અને તેની પહેલાંનો આંકડો વાંચો."
+        }
+      ],
+      "passageTitle": "The Kite Festival",
+      "passage": "Every January, the sky over Ahmedabad fills with colourful kites. The city's kite festival takes place on the riverfront. This year, it began on 8 January and ended on 14 January, the day of Uttarayan.\n\nMore than 900 kite flyers came from 45 countries, including Japan, Brazil and Australia. One visitor, Hiroshi Tanaka from Japan, brought a kite shaped like a fish. It was 12 metres long, and four people were needed to fly it.\n\nThe festival is not only about flying. Visitors can also buy food from more than 60 stalls. The most popular snack is undhiyu with jalebi, and many stalls sell chikki made from peanuts and sesame. Tickets for adults cost 50 rupees, but children under 12 enter for free.\n\nLocal kite makers are busy for months before the festival. Salim Shaikh, a kite maker in the old city, says his family has made kites for three generations. Last season, his small shop sold about 20,000 kites. \"Uttarayan is our biggest season,\" he says. \"We start work in September.\"",
+      "passageGu": "દર જાન્યુઆરીમાં અમદાવાદનું આકાશ રંગબેરંગી પતંગોથી ભરાઈ જાય છે. શહેરનો પતંગ ઉત્સવ રિવરફ્રન્ટ પર યોજાય છે. આ વર્ષે તે 8 જાન્યુઆરીએ શરૂ થયો અને 14 જાન્યુઆરીએ, ઉત્તરાયણના દિવસે, પૂરો થયો.\n\n45 દેશોમાંથી 900થી વધુ પતંગબાજો આવ્યા, જેમાં જાપાન, બ્રાઝિલ અને ઑસ્ટ્રેલિયાનો સમાવેશ થાય છે. જાપાનથી આવેલા એક મુલાકાતી, હિરોશી તનાકા, માછલીના આકારનો પતંગ લાવ્યા હતા. તે 12 મીટર લાંબો હતો અને તેને ઉડાડવા ચાર લોકોની જરૂર પડી.\n\nઉત્સવ માત્ર પતંગ ઉડાડવા પૂરતો નથી. મુલાકાતીઓ 60થી વધુ સ્ટૉલ પરથી ખાવાનું પણ ખરીદી શકે છે. સૌથી લોકપ્રિય નાસ્તો જલેબી સાથે ઊંધિયું છે, અને ઘણા સ્ટૉલ મગફળી અને તલની ચિક્કી વેચે છે. મોટાઓ માટે ટિકિટ 50 રૂપિયા છે, પણ 12 વર્ષથી નાનાં બાળકો માટે પ્રવેશ મફત છે.\n\nઉત્સવ પહેલાં સ્થાનિક પતંગ બનાવનારા મહિનાઓ સુધી વ્યસ્ત રહે છે. જૂના શહેરના પતંગ બનાવનાર સલીમ શેખ કહે છે કે તેમનું કુટુંબ ત્રણ પેઢીથી પતંગ બનાવે છે. ગઈ સીઝનમાં તેમની નાની દુકાને લગભગ 20,000 પતંગ વેચ્યા. \"ઉત્તરાયણ અમારી સૌથી મોટી સીઝન છે,\" તેઓ કહે છે. \"અમે સપ્ટેમ્બરમાં કામ શરૂ કરીએ છીએ.\"",
+      "vocabulary": [
+        {
+          "word": "colourful",
+          "pos": "adjective",
+          "meaningGu": "રંગબેરંગી",
+          "meaningEn": "having many bright colours",
+          "example": "She wore a colourful saree.",
+          "exampleGu": "તેણે રંગબેરંગી સાડી પહેરી હતી."
+        },
+        {
+          "word": "countries",
+          "pos": "noun",
+          "meaningGu": "દેશો",
+          "meaningEn": "nations, like India, Japan or Brazil",
+          "example": "Students came from many countries.",
+          "exampleGu": "ઘણા દેશોમાંથી વિદ્યાર્થીઓ આવ્યા."
+        },
+        {
+          "word": "shaped",
+          "pos": "adjective",
+          "meaningGu": "આકારનું",
+          "meaningEn": "having a particular form",
+          "example": "He made a cake shaped like a star.",
+          "exampleGu": "તેણે તારાના આકારની કેક બનાવી."
+        },
+        {
+          "word": "stalls",
+          "pos": "noun",
+          "meaningGu": "સ્ટૉલ, હાટડીઓ",
+          "meaningEn": "small open shops at a market or fair",
+          "example": "There were many food stalls at the fair.",
+          "exampleGu": "મેળામાં ઘણા ખાવાના સ્ટૉલ હતા."
+        },
+        {
+          "word": "popular",
+          "pos": "adjective",
+          "meaningGu": "લોકપ્રિય",
+          "meaningEn": "liked by many people",
+          "example": "Cricket is popular in India.",
+          "exampleGu": "ભારતમાં ક્રિકેટ લોકપ્રિય છે."
+        },
+        {
+          "word": "free",
+          "pos": "adjective",
+          "meaningGu": "મફત",
+          "meaningEn": "costing no money",
+          "example": "Entry to the park is free.",
+          "exampleGu": "બગીચામાં પ્રવેશ મફત છે."
+        },
+        {
+          "word": "generations",
+          "pos": "noun",
+          "meaningGu": "પેઢીઓ",
+          "meaningEn": "groups of people in a family born at about the same time (grandparents, parents, children)",
+          "example": "Three generations live in this house.",
+          "exampleGu": "આ ઘરમાં ત્રણ પેઢીઓ રહે છે."
+        },
+        {
+          "word": "season",
+          "pos": "noun",
+          "meaningGu": "મોસમ, સીઝન",
+          "meaningEn": "a time of the year when something usually happens",
+          "example": "Summer is mango season.",
+          "exampleGu": "ઉનાળો કેરીની મોસમ છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "On which date did the festival end?",
+          "promptGu": "ઉત્સવ કઈ તારીખે પૂરો થયો?",
+          "options": [
+            "7 January",
+            "8 January",
+            "12 January",
+            "14 January"
+          ],
+          "answer": "14 January",
+          "explanation": "Scan for dates. Paragraph 1: \"it began on 8 January and ended on 14 January\". The question says \"end\", so the answer is 14 January, not 8 January.",
+          "explanationGu": "તારીખો શોધો. પહેલો ફકરો: \"it began on 8 January and ended on 14 January\". પ્રશ્નમાં \"end\" (પૂરો થવું) છે, એટલે જવાબ 14 January — 8 January તો શરૂઆતની તારીખ છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "How many countries did the kite flyers come from?",
+          "promptGu": "પતંગબાજો કેટલા દેશોમાંથી આવ્યા?",
+          "options": [
+            "12",
+            "45",
+            "60",
+            "900"
+          ],
+          "answer": "45",
+          "explanation": "Scan for the word \"countries\": \"from 45 countries\". 900 is the number of kite flyers, not countries. Always check the word next to the number.",
+          "explanationGu": "\"countries\" શબ્દ શોધો: \"from 45 countries\". 900 તો પતંગબાજોની સંખ્યા છે, દેશોની નહીં. આંકડાની બાજુનો શબ્દ હંમેશાં તપાસો."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Who brought a kite shaped like a fish?",
+          "promptGu": "માછલીના આકારનો પતંગ કોણ લાવ્યું?",
+          "options": [
+            "Salim Shaikh",
+            "Hiroshi Tanaka",
+            "a girl from Brazil",
+            "the festival manager"
+          ],
+          "answer": "Hiroshi Tanaka",
+          "explanation": "Scan for names (capital letters) near \"fish\": \"Hiroshi Tanaka from Japan, brought a kite shaped like a fish.\" Salim Shaikh is a kite maker in Ahmedabad.",
+          "explanationGu": "\"fish\" શબ્દની નજીક મોટા અક્ષરવાળું નામ શોધો: \"Hiroshi Tanaka from Japan, brought a kite shaped like a fish.\" સલીમ શેખ તો અમદાવાદના પતંગ બનાવનાર છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "How much does an adult ticket cost?",
+          "promptGu": "મોટા માણસની ટિકિટ કેટલાની છે?",
+          "options": [
+            "nothing",
+            "12 rupees",
+            "50 rupees",
+            "60 rupees"
+          ],
+          "answer": "50 rupees",
+          "explanation": "Scan for \"rupees\" or \"tickets\": \"Tickets for adults cost 50 rupees\". \"Free\" is only for children under 12.",
+          "explanationGu": "\"rupees\" કે \"tickets\" શબ્દ શોધો: \"Tickets for adults cost 50 rupees\". મફત પ્રવેશ તો ફક્ત 12 વર્ષથી નાનાં બાળકો માટે છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "About how many kites did Salim's shop sell last season?",
+          "promptGu": "ગઈ સીઝનમાં સલીમની દુકાને આશરે કેટલા પતંગ વેચ્યા?",
+          "options": [
+            "900",
+            "2,000",
+            "20,000",
+            "200,000"
+          ],
+          "answer": "20,000",
+          "explanation": "Scan for \"Salim\", then read on: \"Last season, his small shop sold about 20,000 kites.\"",
+          "explanationGu": "પહેલાં \"Salim\" નામ શોધો, પછી આગળ વાંચો: \"Last season, his small shop sold about 20,000 kites.\" જવાબ: 20,000."
+        },
+        {
+          "type": "FILL",
+          "prompt": "The fish kite was ____ metres long.",
+          "promptGu": "માછલીવાળો પતંગ ____ મીટર લાંબો હતો.",
+          "answer": "12",
+          "alternatives": [
+            "twelve"
+          ],
+          "explanation": "Scan for \"metres\": \"It was 12 metres long\".",
+          "explanationGu": "\"metres\" શબ્દ શોધો: \"It was 12 metres long\". જવાબ: 12.",
+          "wordLimit": "A NUMBER"
+        },
+        {
+          "type": "FILL",
+          "prompt": "Salim's family starts making kites in ____.",
+          "promptGu": "સલીમનું કુટુંબ ____માં પતંગ બનાવવાનું શરૂ કરે છે.",
+          "answer": "September",
+          "alternatives": [],
+          "explanation": "Scan for a month near Salim's words: \"We start work in September.\" \"Making kites\" = \"work\" here.",
+          "explanationGu": "સલીમના શબ્દોમાં મહિનાનું નામ શોધો: \"We start work in September.\" અહીં \"work\" એટલે પતંગ બનાવવાનું કામ. જવાબ: September.",
+          "wordLimit": "ONE WORD ONLY"
+        }
+      ]
+    },
+    {
+      "id": "L2-03",
+      "order": 3,
+      "title": "Synonyms and Paraphrase: Same Meaning, Different Words",
+      "titleGu": "સમાનાર્થી અને પુનઃકથન: અર્થ એક, શબ્દો જુદા",
+      "skill": "Vocabulary",
+      "minutes": 15,
+      "explanation": "This is the number one skill in IELTS Reading. The questions almost never use the same words as the passage. They use synonyms (different words with the same meaning) and paraphrase (saying the same idea in a different way).\n\nSynonyms:\n• nervous = worried\n• afraid = scared\n• break = damage\n• without any help = on his own\n\nParaphrase of a whole idea:\n• Passage: \"He talks to his brother every Sunday.\" → Question: \"He speaks to his brother once a week.\"\n• Passage: \"for half an hour\" → Question: \"for thirty minutes\"\n\nWhy do examiners do this? Because they want to test if you understand the meaning, not only if you can match words. If you look only for the exact words of the question, you will often not find them.\n\nHow to practise:\n• When you read a question, think: what other words could mean the same thing?\n• Look for the meaning in the text, not the same word.\n• Keep a synonym notebook: write pairs like big = large, begin = start, help = support.\n\nWarning: An option that copies exact words from the passage is sometimes a trap. Check the meaning carefully.",
+      "explanationGu": "IELTS Readingની આ નંબર એક આવડત છે. પ્રશ્નો લગભગ ક્યારેય લખાણના એ જ શબ્દો વાપરતા નથી. તે synonyms (સમાનાર્થી — જુદા શબ્દ, એક જ અર્થ) અને paraphrase (એ જ વાત બીજી રીતે કહેવી, પુનઃકથન) વાપરે છે.\n\nસમાનાર્થી શબ્દો:\n• nervous = worried (ગભરાયેલું = ચિંતિત)\n• afraid = scared (ડરેલું)\n• break = damage (તોડવું = નુકસાન કરવું)\n• without any help = on his own (કોઈની મદદ વગર = જાતે)\n\nઆખા વિચારનું પુનઃકથન:\n• લખાણ: \"He talks to his brother every Sunday.\" → પ્રશ્ન: \"He speaks to his brother once a week.\" (દર રવિવારે = અઠવાડિયામાં એક વાર)\n• લખાણ: \"for half an hour\" → પ્રશ્ન: \"for thirty minutes\" (અડધો કલાક = ત્રીસ મિનિટ)\n\nપરીક્ષકો આવું કેમ કરે છે? કારણ કે તેઓ જોવા માગે છે કે તમે અર્થ સમજો છો કે નહીં — ફક્ત શબ્દો મેળવી શકો છો એટલું નહીં. જો તમે ફક્ત પ્રશ્નના એ જ શબ્દો લખાણમાં શોધશો, તો ઘણી વાર મળશે જ નહીં.\n\nકેવી રીતે પ્રેક્ટિસ કરવી:\n• પ્રશ્ન વાંચો ત્યારે વિચારો: આ જ અર્થવાળા બીજા કયા શબ્દો હોઈ શકે?\n• લખાણમાં એ જ શબ્દ નહીં, એ જ અર્થ શોધો.\n• સમાનાર્થીની નોટબુક રાખો: big = large, begin = start, help = support જેવી જોડીઓ લખો.\n\nચેતવણી: જે વિકલ્પ લખાણના શબ્દો જેમના તેમ નકલ કરે, તે ક્યારેક જાળ (trap) હોય છે. અર્થ ધ્યાનથી તપાસો. આ આવડત આવી ગઈ તો IELTS અડધું જીતી ગયા સમજો!",
+      "examples": [
+        {
+          "en": "The shop is close to the station. = The shop is near the station.",
+          "gu": "દુકાન સ્ટેશનની નજીક છે. (close to = near)"
+        },
+        {
+          "en": "She began school at five. = She started school at the age of five.",
+          "gu": "તેણે પાંચ વર્ષે શાળા શરૂ કરી. (began = started)"
+        },
+        {
+          "en": "The test was not easy. = The test was difficult.",
+          "gu": "કસોટી સહેલી ન હતી. = કસોટી અઘરી હતી."
+        },
+        {
+          "en": "He visits us every Sunday. = He comes to see us once a week.",
+          "gu": "તે દર રવિવારે અમને મળવા આવે છે. = તે અઠવાડિયામાં એક વાર આવે છે."
+        }
+      ],
+      "passageTitle": "Grandfather's Smartphone",
+      "passage": "Last year, my grandfather Bhikhabhai turned seventy. For his birthday, my father gave him a smartphone. At first, Grandfather was nervous about using it. He said the screen was too small and the buttons were confusing. He was afraid that he would break it.\n\nMy younger sister Nisha decided to help him. Every evening after school, she sat with him for half an hour. She showed him how to make calls and send photos. She was very patient and never laughed at his mistakes. Slowly, Grandfather began to feel confident.\n\nAfter two months, he could use the phone without any help. Now he talks to his brother in London on video calls every Sunday. He also reads the news and listens to old Gujarati songs online. Sometimes he even sends funny messages to the whole family.\n\nGrandfather says that learning something new keeps his mind young. \"I thought I was too old to learn,\" he told me, \"but I was wrong. Age is only a number.\" Our whole family is proud of him.",
+      "passageGu": "ગયા વર્ષે મારા દાદા ભીખાભાઈ સિત્તેર વર્ષના થયા. તેમના જન્મદિવસે મારા પપ્પાએ તેમને એક સ્માર્ટફોન આપ્યો. શરૂઆતમાં દાદા તે વાપરતાં ગભરાતા હતા. તેઓ કહેતા કે સ્ક્રીન બહુ નાની છે અને બટનો ગૂંચવણભર્યાં છે. તેમને ડર હતો કે ફોન તૂટી જશે.\n\nમારી નાની બહેન નિશાએ તેમને મદદ કરવાનું નક્કી કર્યું. દરરોજ સાંજે શાળા પછી તે અડધો કલાક તેમની સાથે બેસતી. તેણે તેમને ફોન કેવી રીતે કરવો અને ફોટા કેવી રીતે મોકલવા તે શીખવ્યું. તે ખૂબ ધીરજવાળી હતી અને તેમની ભૂલો પર ક્યારેય હસી નહીં. ધીમે ધીમે દાદામાં આત્મવિશ્વાસ આવવા લાગ્યો.\n\nબે મહિના પછી તેઓ કોઈની મદદ વગર ફોન વાપરી શકતા હતા. હવે તેઓ દર રવિવારે લંડનમાં રહેતા પોતાના ભાઈ સાથે વિડિયો કૉલ પર વાત કરે છે. તેઓ ઑનલાઇન સમાચાર વાંચે છે અને જૂનાં ગુજરાતી ગીતો પણ સાંભળે છે. ક્યારેક તો તેઓ આખા કુટુંબને રમૂજી મેસેજ પણ મોકલે છે.\n\nદાદા કહે છે કે કંઈક નવું શીખવાથી તેમનું મન યુવાન રહે છે. \"મને લાગતું હતું કે હું શીખવા માટે બહુ ઘરડો છું,\" તેમણે મને કહ્યું, \"પણ હું ખોટો હતો. ઉંમર તો માત્ર એક આંકડો છે.\" અમારા આખા કુટુંબને તેમના પર ગર્વ છે.",
+      "vocabulary": [
+        {
+          "word": "nervous",
+          "pos": "adjective",
+          "meaningGu": "ગભરાયેલું, ચિંતિત",
+          "meaningEn": "worried and a little afraid",
+          "example": "I was nervous before the exam.",
+          "exampleGu": "પરીક્ષા પહેલાં હું ગભરાયેલો હતો."
+        },
+        {
+          "word": "confusing",
+          "pos": "adjective",
+          "meaningGu": "ગૂંચવણભર્યું",
+          "meaningEn": "difficult to understand",
+          "example": "The map was confusing.",
+          "exampleGu": "નકશો ગૂંચવણભર્યો હતો."
+        },
+        {
+          "word": "afraid",
+          "pos": "adjective",
+          "meaningGu": "ડરેલું",
+          "meaningEn": "feeling fear",
+          "example": "The child is afraid of dogs.",
+          "exampleGu": "બાળકને કૂતરાથી ડર લાગે છે."
+        },
+        {
+          "word": "patient",
+          "pos": "adjective",
+          "meaningGu": "ધીરજવાળું",
+          "meaningEn": "able to wait calmly without getting angry",
+          "example": "A good teacher is patient.",
+          "exampleGu": "સારો શિક્ષક ધીરજવાળો હોય છે."
+        },
+        {
+          "word": "mistakes",
+          "pos": "noun",
+          "meaningGu": "ભૂલો",
+          "meaningEn": "things that are wrong",
+          "example": "Everyone makes mistakes when they learn.",
+          "exampleGu": "શીખતી વખતે દરેક જણ ભૂલો કરે છે."
+        },
+        {
+          "word": "confident",
+          "pos": "adjective",
+          "meaningGu": "આત્મવિશ્વાસવાળું",
+          "meaningEn": "sure that you can do something well",
+          "example": "She feels confident about her English.",
+          "exampleGu": "તેને પોતાના અંગ્રેજી પર આત્મવિશ્વાસ છે."
+        },
+        {
+          "word": "online",
+          "pos": "adverb",
+          "meaningGu": "ઑનલાઇન, ઇન્ટરનેટ પર",
+          "meaningEn": "on the internet",
+          "example": "I read the news online.",
+          "exampleGu": "હું ઇન્ટરનેટ પર સમાચાર વાંચું છું."
+        },
+        {
+          "word": "proud",
+          "pos": "adjective",
+          "meaningGu": "ગર્વિત",
+          "meaningEn": "pleased about what someone has done",
+          "example": "We are proud of our team.",
+          "exampleGu": "અમને અમારી ટીમ પર ગર્વ છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "Which word in Paragraph 1 means \"worried\"?",
+          "promptGu": "ફકરા 1 માં કયો શબ્દ \"worried\" (ચિંતિત) નો અર્થ ધરાવે છે?",
+          "options": [
+            "nervous",
+            "small",
+            "young",
+            "proud"
+          ],
+          "answer": "nervous",
+          "explanation": "\"Grandfather was nervous about using it.\" Nervous = worried. They are synonyms.",
+          "explanationGu": "\"Grandfather was nervous about using it.\" nervous = worried (ગભરાયેલું = ચિંતિત). બંને સમાનાર્થી છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "How long did Nisha sit with Grandfather each evening?",
+          "promptGu": "નિશા દરરોજ સાંજે દાદા સાથે કેટલો સમય બેસતી?",
+          "options": [
+            "ten minutes",
+            "thirty minutes",
+            "one hour",
+            "two hours"
+          ],
+          "answer": "thirty minutes",
+          "explanation": "The text says \"for half an hour\". Half an hour = thirty minutes. The question uses a paraphrase.",
+          "explanationGu": "લખાણમાં છે: \"for half an hour\". અડધો કલાક = ત્રીસ મિનિટ. અહીં વિકલ્પમાં એ જ વાત બીજા શબ્દોમાં (paraphrase) કહી છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "\"She was very patient.\" This means Nisha...",
+          "promptGu": "\"She was very patient.\" એનો અર્થ એ કે નિશા...",
+          "options": [
+            "stayed calm and did not get angry.",
+            "was ill and needed a doctor.",
+            "worked very fast.",
+            "told many jokes."
+          ],
+          "answer": "stayed calm and did not get angry.",
+          "explanation": "Patient means able to wait calmly. The next words support this: she \"never laughed at his mistakes\".",
+          "explanationGu": "patient એટલે ધીરજવાળું — શાંતિથી રાહ જોઈ શકે, ગુસ્સે ન થાય. પછીના શબ્દો પણ એ જ બતાવે છે: \"never laughed at his mistakes\" (તેમની ભૂલો પર ક્યારેય હસી નહીં). ધ્યાન: \"patient\" નો બીજો અર્થ \"દર્દી\" પણ થાય, પણ અહીં સંદર્ભ પ્રમાણે ધીરજ જ અર્થ છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "How often does Grandfather speak to his brother?",
+          "promptGu": "દાદા પોતાના ભાઈ સાથે કેટલી વાર વાત કરે છે?",
+          "options": [
+            "every day",
+            "once a week",
+            "once a month",
+            "twice a year"
+          ],
+          "answer": "once a week",
+          "explanation": "The text says \"every Sunday\". There is one Sunday in each week, so every Sunday = once a week. \"Talks\" = \"speaks\" is another synonym pair.",
+          "explanationGu": "લખાણમાં છે: \"every Sunday\" (દર રવિવારે). દર અઠવાડિયે એક રવિવાર આવે, એટલે every Sunday = once a week. \"talks\" અને \"speaks\" પણ સમાનાર્થી જોડી છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "After how long could Grandfather use the phone on his own?",
+          "promptGu": "કેટલા સમય પછી દાદા જાતે ફોન વાપરી શકતા હતા?",
+          "options": [
+            "two weeks",
+            "two months",
+            "one year",
+            "seven months"
+          ],
+          "answer": "two months",
+          "explanation": "\"After two months, he could use the phone without any help.\" Without any help = on his own.",
+          "explanationGu": "\"After two months, he could use the phone without any help.\" without any help (કોઈની મદદ વગર) = on his own (જાતે). જવાબ: બે મહિના."
+        },
+        {
+          "type": "FILL",
+          "prompt": "Slowly, Grandfather started to feel sure of himself. (Find the word that means \"sure of himself\".) Grandfather began to feel ____.",
+          "promptGu": "ધીમે ધીમે દાદાને પોતાના પર ભરોસો આવ્યો. (\"sure of himself\" અર્થવાળો શબ્દ શોધો.) Grandfather began to feel ____.",
+          "answer": "confident",
+          "alternatives": [],
+          "explanation": "\"Slowly, Grandfather began to feel confident.\" Confident = sure of yourself. Also notice: started = began.",
+          "explanationGu": "\"Slowly, Grandfather began to feel confident.\" confident = sure of himself (આત્મવિશ્વાસ). એ પણ જુઓ: started = began (શરૂ કર્યું).",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Grandfather was worried that he might damage the phone.",
+          "promptGu": "દાદાને ચિંતા હતી કે કદાચ ફોનને નુકસાન થશે.",
+          "answer": "TRUE",
+          "explanation": "TRUE. The text says: \"He was afraid that he would break it.\" Afraid = worried, and break = damage. Different words, same meaning.",
+          "explanationGu": "TRUE (સાચું). લખાણમાં છે: \"He was afraid that he would break it.\" afraid = worried અને break = damage. શબ્દો જુદા, અર્થ એક જ. આ જ paraphrase છે!"
+        }
+      ]
+    },
+    {
+      "id": "L2-04",
+      "order": 4,
+      "title": "Introduction to TRUE / FALSE / NOT GIVEN",
+      "titleGu": "TRUE / FALSE / NOT GIVEN નો પરિચય",
+      "skill": "IELTS Strategy",
+      "minutes": 18,
+      "explanation": "TRUE / FALSE / NOT GIVEN is one of the most common question types in IELTS Reading. You read a statement and compare it with the passage.\n\n• TRUE: the passage says the same thing (often with different words).\n• FALSE: the passage says the opposite, or gives different information. The statement and the passage cannot both be true.\n• NOT GIVEN: the passage does not tell us. There is no information about this, so we cannot say if it is true or false.\n\nThe difference between FALSE and NOT GIVEN\nThis is the hardest part. Ask yourself: \"Does the passage say something different?\"\n• If yes → FALSE. Example: the passage says \"ten students helped\"; the statement says \"eighty students helped at first\". Different number → FALSE.\n• If the passage says nothing about it → NOT GIVEN. Example: the statement says \"Tomatoes are the students' favourite vegetable\". The passage lists tomatoes, but it never says which vegetable they like most → NOT GIVEN.\n\nImportant rules:\n• Use only the passage. Do not use your own knowledge or ideas.\n• Be careful with small words: all, only, always, never, some, first.\n• The answers come in the same order as the passage.\n• If you cannot find any information after looking carefully, the answer is probably NOT GIVEN.",
+      "explanationGu": "TRUE / FALSE / NOT GIVEN એ IELTS Readingનો સૌથી સામાન્ય પ્રશ્નપ્રકાર છે. તમને એક વાક્ય (statement) આપવામાં આવે છે અને તેને લખાણ સાથે સરખાવવાનું હોય છે.\n\n• TRUE (સાચું): લખાણ એ જ વાત કહે છે (ઘણી વાર જુદા શબ્દોમાં).\n• FALSE (ખોટું): લખાણ ઊલટી કે જુદી માહિતી આપે છે. વાક્ય અને લખાણ બંને એકસાથે સાચાં ન હોઈ શકે.\n• NOT GIVEN (આપેલ નથી): લખાણમાં આ વિશે કોઈ માહિતી જ નથી. એટલે આપણે કહી શકતા નથી કે તે સાચું છે કે ખોટું.\n\nFALSE અને NOT GIVEN વચ્ચેનો ફરક\nઆ સૌથી અઘરો ભાગ છે, પણ ગભરાશો નહીં. પોતાને પૂછો: \"શું લખાણ કંઈક જુદું કહે છે?\"\n• હા → FALSE. ઉદાહરણ: લખાણ કહે છે \"દસ વિદ્યાર્થીઓએ મદદ કરી\"; વાક્ય કહે છે \"શરૂઆતમાં એંસી વિદ્યાર્થીઓએ મદદ કરી\". આંકડો જુદો છે → FALSE.\n• લખાણમાં એ વિશે કંઈ જ લખ્યું ન હોય → NOT GIVEN. ઉદાહરણ: વાક્ય કહે છે \"ટામેટાં વિદ્યાર્થીઓનું સૌથી પ્રિય શાક છે\". લખાણમાં ટામેટાંનું નામ છે, પણ કયું શાક સૌથી વધુ ગમે છે તે ક્યાંય લખ્યું નથી → NOT GIVEN.\n\nએક સહેલી રીત: FALSE એટલે \"લખાણ ના પાડે છે\"; NOT GIVEN એટલે \"લખાણ ચૂપ છે\".\n\nમહત્ત્વના નિયમો:\n• ફક્ત લખાણનો જ ઉપયોગ કરો. તમારું પોતાનું જ્ઞાન કે અનુમાન ન વાપરો.\n• નાના શબ્દો પર ધ્યાન આપો: all (બધા), only (ફક્ત), always (હંમેશાં), never (ક્યારેય નહીં), some (કેટલાક), first (પહેલું).\n• જવાબો લખાણના ક્રમમાં જ આવે છે.\n• ધ્યાનથી શોધ્યા પછી પણ કોઈ માહિતી ન મળે, તો જવાબ મોટે ભાગે NOT GIVEN હોય છે. તમે આ જરૂર શીખી જશો — પ્રેક્ટિસ કરતા રહો!",
+      "examples": [
+        {
+          "en": "Passage: \"The shop opens at 9 a.m.\" Statement: \"The shop opens in the morning.\" → TRUE",
+          "gu": "લખાણ: \"દુકાન સવારે 9 વાગ્યે ખૂલે છે.\" વાક્ય: \"દુકાન સવારે ખૂલે છે.\" → TRUE"
+        },
+        {
+          "en": "Passage: \"The shop opens at 9 a.m.\" Statement: \"The shop opens at 11 a.m.\" → FALSE",
+          "gu": "લખાણ: \"દુકાન સવારે 9 વાગ્યે ખૂલે છે.\" વાક્ય: \"દુકાન 11 વાગ્યે ખૂલે છે.\" → FALSE"
+        },
+        {
+          "en": "Passage: \"The shop opens at 9 a.m.\" Statement: \"The shop is very busy in the morning.\" → NOT GIVEN",
+          "gu": "લખાણ: \"દુકાન સવારે 9 વાગ્યે ખૂલે છે.\" વાક્ય: \"સવારે દુકાનમાં ખૂબ ભીડ હોય છે.\" → NOT GIVEN (ભીડ વિશે કંઈ લખ્યું નથી)"
+        }
+      ],
+      "passageTitle": "The School Vegetable Garden",
+      "passage": "Shantiniketan Primary School is in a small village near Junagadh. Three years ago, the headteacher, Mrs Desai, started a vegetable garden behind the school. At first, only ten students helped. Today, more than eighty students work in the garden.\n\nThe students grow tomatoes, spinach, brinjals and chillies. They water the plants every morning before class. During the summer holidays, local farmers look after the garden. The students do not use chemical fertilisers. Instead, they make compost from kitchen waste and dry leaves.\n\nThe vegetables go to the school kitchen, where cooks use them for the free midday meal. Mrs Desai says the children now eat more green vegetables than before. Some parents have also started small gardens at home.\n\nLast year, the garden won a prize from the district education office. The school used the prize money to buy a water tank. Next year, Mrs Desai hopes to plant fruit trees, such as mango and guava.",
+      "passageGu": "શાંતિનિકેતન પ્રાથમિક શાળા જૂનાગઢ પાસેના એક નાના ગામમાં આવેલી છે. ત્રણ વર્ષ પહેલાં આચાર્યા, શ્રીમતી દેસાઈએ શાળાની પાછળ શાકભાજીનો બગીચો શરૂ કર્યો. શરૂઆતમાં ફક્ત દસ વિદ્યાર્થીઓએ મદદ કરી. આજે એંસીથી વધુ વિદ્યાર્થીઓ બગીચામાં કામ કરે છે.\n\nવિદ્યાર્થીઓ ટામેટાં, પાલક, રીંગણ અને મરચાં ઉગાડે છે. તેઓ દરરોજ સવારે વર્ગ શરૂ થાય તે પહેલાં છોડને પાણી પાય છે. ઉનાળાની રજાઓમાં ગામના ખેડૂતો બગીચાની સંભાળ રાખે છે. વિદ્યાર્થીઓ રાસાયણિક ખાતર વાપરતા નથી. તેના બદલે તેઓ રસોડાના કચરા અને સૂકાં પાંદડાંમાંથી કમ્પોસ્ટ (સેન્દ્રિય ખાતર) બનાવે છે.\n\nશાકભાજી શાળાના રસોડામાં જાય છે, જ્યાં રસોઇયાઓ મફત મધ્યાહ્ન ભોજન માટે તેનો ઉપયોગ કરે છે. શ્રીમતી દેસાઈ કહે છે કે બાળકો હવે પહેલાં કરતાં વધુ લીલાં શાકભાજી ખાય છે. કેટલાંક માતા-પિતાએ પણ ઘરે નાના બગીચા શરૂ કર્યા છે.\n\nગયા વર્ષે બગીચાને જિલ્લા શિક્ષણ કચેરી તરફથી ઇનામ મળ્યું. શાળાએ ઇનામની રકમમાંથી પાણીની ટાંકી ખરીદી. આવતા વર્ષે શ્રીમતી દેસાઈ કેરી અને જામફળ જેવાં ફળનાં વૃક્ષો વાવવાની આશા રાખે છે.",
+      "vocabulary": [
+        {
+          "word": "headteacher",
+          "pos": "noun",
+          "meaningGu": "આચાર્ય, મુખ્ય શિક્ષક",
+          "meaningEn": "the teacher who is in charge of a school",
+          "example": "The headteacher spoke to all the parents.",
+          "exampleGu": "આચાર્યે બધાં માતા-પિતા સાથે વાત કરી."
+        },
+        {
+          "word": "spinach",
+          "pos": "noun",
+          "meaningGu": "પાલક",
+          "meaningEn": "a vegetable with dark green leaves",
+          "example": "Mother made spinach with paneer.",
+          "exampleGu": "મમ્મીએ પાલક પનીર બનાવ્યું."
+        },
+        {
+          "word": "holidays",
+          "pos": "noun",
+          "meaningGu": "રજાઓ",
+          "meaningEn": "days when there is no school or work",
+          "example": "We went to Saputara in the holidays.",
+          "exampleGu": "રજાઓમાં અમે સાપુતારા ગયા."
+        },
+        {
+          "word": "fertilisers",
+          "pos": "noun",
+          "meaningGu": "ખાતર",
+          "meaningEn": "things added to soil to help plants grow",
+          "example": "Some fertilisers are made in factories.",
+          "exampleGu": "કેટલાંક ખાતર કારખાનામાં બને છે."
+        },
+        {
+          "word": "compost",
+          "pos": "noun",
+          "meaningGu": "કમ્પોસ્ટ, સેન્દ્રિય ખાતર",
+          "meaningEn": "natural fertiliser made from old leaves and food waste",
+          "example": "We make compost in a pit.",
+          "exampleGu": "અમે ખાડામાં કમ્પોસ્ટ બનાવીએ છીએ."
+        },
+        {
+          "word": "waste",
+          "pos": "noun",
+          "meaningGu": "કચરો",
+          "meaningEn": "things that are not needed and are thrown away",
+          "example": "Do not throw waste on the road.",
+          "exampleGu": "રસ્તા પર કચરો ન ફેંકો."
+        },
+        {
+          "word": "meal",
+          "pos": "noun",
+          "meaningGu": "ભોજન, જમણ",
+          "meaningEn": "food eaten at one time, like lunch or dinner",
+          "example": "Lunch is my favourite meal.",
+          "exampleGu": "બપોરનું જમણ મારું પ્રિય ભોજન છે."
+        },
+        {
+          "word": "prize",
+          "pos": "noun",
+          "meaningGu": "ઇનામ",
+          "meaningEn": "something given to the winner",
+          "example": "She won first prize in the drawing competition.",
+          "exampleGu": "તેણે ચિત્રસ્પર્ધામાં પહેલું ઇનામ જીત્યું."
+        }
+      ],
+      "questions": [
+        {
+          "type": "TFNG",
+          "prompt": "The school garden was started three years ago.",
+          "promptGu": "શાળાનો બગીચો ત્રણ વર્ષ પહેલાં શરૂ થયો હતો.",
+          "answer": "TRUE",
+          "explanation": "TRUE. Paragraph 1: \"Three years ago, the headteacher, Mrs Desai, started a vegetable garden.\" Same information.",
+          "explanationGu": "TRUE (સાચું). ફકરો 1: \"Three years ago, the headteacher, Mrs Desai, started a vegetable garden.\" લખાણ અને વાક્ય એક જ વાત કહે છે."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "At first, eighty students helped in the garden.",
+          "promptGu": "શરૂઆતમાં એંસી વિદ્યાર્થીઓએ બગીચામાં મદદ કરી.",
+          "answer": "FALSE",
+          "explanation": "FALSE. The passage says: \"At first, only ten students helped.\" Eighty is the number today, not at first. The passage gives different information.",
+          "explanationGu": "FALSE (ખોટું). લખાણ કહે છે: \"At first, only ten students helped.\" એંસી તો આજની સંખ્યા છે, શરૂઆતની નહીં. લખાણ જુદી માહિતી આપે છે, એટલે FALSE."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "The students water the plants in the evening.",
+          "promptGu": "વિદ્યાર્થીઓ સાંજે છોડને પાણી પાય છે.",
+          "answer": "FALSE",
+          "explanation": "FALSE. The passage says: \"They water the plants every morning before class.\" Morning, not evening.",
+          "explanationGu": "FALSE (ખોટું). લખાણ કહે છે: \"They water the plants every morning before class.\" સવારે, સાંજે નહીં. લખાણ \"ના\" પાડે છે."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Tomatoes are the students' favourite vegetable.",
+          "promptGu": "ટામેટાં વિદ્યાર્થીઓનું સૌથી પ્રિય શાક છે.",
+          "answer": "NOT GIVEN",
+          "explanation": "NOT GIVEN. The passage says the students grow tomatoes, but it does not say which vegetable they like best. There is no information about their favourite.",
+          "explanationGu": "NOT GIVEN (આપેલ નથી). લખાણ કહે છે કે વિદ્યાર્થીઓ ટામેટાં ઉગાડે છે, પણ કયું શાક તેમને સૌથી વધુ ગમે છે તે ક્યાંય લખ્યું નથી. \"tomatoes\" શબ્દ દેખાય છે એટલે TRUE ન માની લેશો — લખાણ આ વિશે ચૂપ છે."
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Farmers from the village take care of the garden in the summer holidays.",
+          "promptGu": "ઉનાળાની રજાઓમાં ગામના ખેડૂતો બગીચાની સંભાળ રાખે છે.",
+          "answer": "TRUE",
+          "explanation": "TRUE. The passage says: \"During the summer holidays, local farmers look after the garden.\" Look after = take care of; local = from the village. A paraphrase!",
+          "explanationGu": "TRUE (સાચું). લખાણમાં છે: \"During the summer holidays, local farmers look after the garden.\" look after = take care of (સંભાળ રાખવી), local = ગામના. શબ્દો જુદા, અર્થ એક — paraphrase!"
+        },
+        {
+          "type": "TFNG",
+          "prompt": "The school sells some of its vegetables in the village market.",
+          "promptGu": "શાળા પોતાનાં કેટલાંક શાકભાજી ગામના બજારમાં વેચે છે.",
+          "answer": "NOT GIVEN",
+          "explanation": "NOT GIVEN. The passage says the vegetables go to the school kitchen. It says nothing about selling vegetables or about a market.",
+          "explanationGu": "NOT GIVEN (આપેલ નથી). લખાણ કહે છે કે શાકભાજી શાળાના રસોડામાં જાય છે. શાકભાજી વેચવા કે બજાર વિશે લખાણમાં કંઈ જ નથી. તમે અનુમાન કરી શકો, પણ IELTSમાં અનુમાન નહીં — ફક્ત લખાણ!"
+        },
+        {
+          "type": "TFNG",
+          "prompt": "The school spent the prize money on new books.",
+          "promptGu": "શાળાએ ઇનામની રકમ નવાં પુસ્તકો પાછળ ખર્ચી.",
+          "answer": "FALSE",
+          "explanation": "FALSE. The passage says: \"The school used the prize money to buy a water tank.\" The passage tells us exactly what they bought, and it was not books, so this is FALSE (not NOT GIVEN).",
+          "explanationGu": "FALSE (ખોટું). લખાણ કહે છે: \"The school used the prize money to buy a water tank.\" લખાણ સ્પષ્ટ કહે છે કે રકમમાંથી શું ખરીદ્યું — પાણીની ટાંકી, પુસ્તકો નહીં. માહિતી આપેલી છે અને તે જુદી છે, એટલે NOT GIVEN નહીં પણ FALSE."
+        }
+      ]
+    }
+  ]
+}

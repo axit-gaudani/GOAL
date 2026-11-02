@@ -1,0 +1,769 @@
+{
+  "id": "L0",
+  "order": 0,
+  "title": "Foundation",
+  "titleGu": "પાયો",
+  "band": "Pre-A1 · Start here",
+  "description": "Start from zero. Learn English word order, am/is/are, everyday words and question words by reading very short texts.",
+  "descriptionGu": "શૂન્યથી શરૂઆત કરો. ખૂબ નાનાં લખાણો વાંચીને અંગ્રેજી શબ્દક્રમ, am/is/are, રોજના શબ્દો અને પ્રશ્નવાચક શબ્દો શીખો.",
+  "lessons": [
+    {
+      "id": "L0-01",
+      "order": 1,
+      "title": "Your First Sentences: Subject + Verb + Object",
+      "titleGu": "તમારાં પહેલાં વાક્યો: કર્તા + ક્રિયાપદ + કર્મ",
+      "skill": "Grammar",
+      "minutes": 10,
+      "explanation": "Welcome! Reading English starts with one simple idea: word order.\n\nIn Gujarati, we usually put the verb at the end of the sentence: \"Ravi milk drinks.\" English is different. English uses this order: Subject + Verb + Object.\n\n• Subject = who does the action (Ravi)\n• Verb = the action (drinks)\n• Object = what or who receives the action (milk)\n\nSo in English we say: \"Ravi drinks milk.\" We do not say \"Ravi milk drinks.\"\n\nWhen you read an English sentence, first find the subject. The verb usually comes right after the subject. After the verb, look for the object. Ask three small questions: Who? Does what? To what?\n\nSome sentences have no object. For example: \"Ravi goes to school.\" Here, \"to school\" tells us where he goes. That is fine.\n\nTip: Do not translate word by word from left to right. First find the three parts. Then the meaning becomes clear.\n\nIn the IELTS test, long sentences also follow this pattern. If you can find the subject and the verb, you can understand even difficult sentences. Let us start with short ones today!",
+      "explanationGu": "સ્વાગત છે! અંગ્રેજી વાંચવાની શરૂઆત એક સરળ વાતથી થાય છે: શબ્દોનો ક્રમ (word order).\n\nગુજરાતીમાં આપણે ક્રિયાપદ (verb) સામાન્ય રીતે વાક્યના છેલ્લે મૂકીએ છીએ: \"રવિ દૂધ પીએ છે.\" પણ અંગ્રેજીમાં ક્રમ જુદો છે. અંગ્રેજીમાં ક્રમ છે: કર્તા + ક્રિયાપદ + કર્મ (Subject + Verb + Object).\n\n• Subject (કર્તા) = કોણ કામ કરે છે? (Ravi)\n• Verb (ક્રિયાપદ) = શું કામ થાય છે? (drinks)\n• Object (કર્મ) = કામ કોના પર થાય છે? (milk)\n\nએટલે અંગ્રેજીમાં આપણે કહીએ: \"Ravi drinks milk.\" — \"Ravi milk drinks.\" એમ નહીં.\n\nઅંગ્રેજી વાક્ય વાંચો ત્યારે પહેલાં કર્તા શોધો. ક્રિયાપદ મોટે ભાગે કર્તાની તરત પછી આવે છે. પછી કર્મ શોધો. મનમાં ત્રણ નાના પ્રશ્નો પૂછો: કોણ? શું કરે છે? શાને કે કોને?\n\nકેટલાંક વાક્યોમાં કર્મ હોતું નથી, જેમ કે \"Ravi goes to school.\" અહીં \"to school\" બતાવે છે કે તે ક્યાં જાય છે. એ પણ બિલકુલ બરાબર છે.\n\nટીપ: દરેક શબ્દનું ગુજરાતી કરતાં કરતાં ડાબેથી જમણે ન વાંચો. પહેલાં વાક્યના ત્રણ ભાગ ઓળખો, અર્થ આપોઆપ સમજાઈ જશે.\n\nIELTSનાં લાંબાં વાક્યો પણ આ જ નિયમ પાળે છે. કર્તા અને ક્રિયાપદ મળી જાય તો અઘરું વાક્ય પણ સમજાઈ જાય. ચાલો, આજે નાનાં વાક્યોથી શરૂઆત કરીએ — તમે ચોક્કસ કરી શકશો!",
+      "examples": [
+        {
+          "en": "Ravi drinks milk.",
+          "gu": "રવિ દૂધ પીએ છે."
+        },
+        {
+          "en": "My mother makes tea.",
+          "gu": "મારી મમ્મી ચા બનાવે છે."
+        },
+        {
+          "en": "The girl reads a book.",
+          "gu": "છોકરી પુસ્તક વાંચે છે."
+        },
+        {
+          "en": "The farmer sells vegetables.",
+          "gu": "ખેડૂત શાકભાજી વેચે છે."
+        }
+      ],
+      "passageTitle": "Ravi's Morning",
+      "passage": "Ravi drinks milk. His mother makes tea. Ravi eats bread. His sister reads a book. The dog sees a cat.\n\nRavi takes his bag. He rides a bicycle. Ravi goes to school. He likes school. His teacher writes on the board. Ravi loves his teacher.",
+      "passageGu": "રવિ દૂધ પીએ છે. તેની મમ્મી ચા બનાવે છે. રવિ બ્રેડ ખાય છે. તેની બહેન પુસ્તક વાંચે છે. કૂતરો એક બિલાડી જુએ છે.\n\nરવિ પોતાની બેગ લે છે. તે સાઇકલ ચલાવે છે. રવિ શાળાએ જાય છે. તેને શાળા ગમે છે. તેના શિક્ષક બોર્ડ પર લખે છે. રવિ પોતાના શિક્ષકને ખૂબ ચાહે છે.",
+      "vocabulary": [
+        {
+          "word": "drinks",
+          "pos": "verb",
+          "meaningGu": "પીએ છે",
+          "meaningEn": "takes a liquid like water or milk into the mouth",
+          "example": "She drinks water.",
+          "exampleGu": "તે પાણી પીએ છે."
+        },
+        {
+          "word": "milk",
+          "pos": "noun",
+          "meaningGu": "દૂધ",
+          "meaningEn": "a white drink that comes from cows or buffaloes",
+          "example": "The baby drinks milk.",
+          "exampleGu": "બાળક દૂધ પીએ છે."
+        },
+        {
+          "word": "mother",
+          "pos": "noun",
+          "meaningGu": "માતા, મમ્મી",
+          "meaningEn": "a woman who has a child",
+          "example": "My mother cooks food.",
+          "exampleGu": "મારી માતા રસોઈ બનાવે છે."
+        },
+        {
+          "word": "bread",
+          "pos": "noun",
+          "meaningGu": "બ્રેડ, પાઉં",
+          "meaningEn": "a food made from flour and baked",
+          "example": "I eat bread in the morning.",
+          "exampleGu": "હું સવારે બ્રેડ ખાઉં છું."
+        },
+        {
+          "word": "sister",
+          "pos": "noun",
+          "meaningGu": "બહેન",
+          "meaningEn": "a girl who has the same parents as you",
+          "example": "My sister reads a book.",
+          "exampleGu": "મારી બહેન પુસ્તક વાંચે છે."
+        },
+        {
+          "word": "bicycle",
+          "pos": "noun",
+          "meaningGu": "સાઇકલ",
+          "meaningEn": "a vehicle with two wheels that you move with your feet",
+          "example": "He rides a bicycle.",
+          "exampleGu": "તે સાઇકલ ચલાવે છે."
+        },
+        {
+          "word": "school",
+          "pos": "noun",
+          "meaningGu": "શાળા, નિશાળ",
+          "meaningEn": "a place where children learn",
+          "example": "The school is near my house.",
+          "exampleGu": "શાળા મારા ઘરની નજીક છે."
+        },
+        {
+          "word": "teacher",
+          "pos": "noun",
+          "meaningGu": "શિક્ષક",
+          "meaningEn": "a person who teaches students",
+          "example": "The teacher writes on the board.",
+          "exampleGu": "શિક્ષક બોર્ડ પર લખે છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "What does Ravi drink?",
+          "promptGu": "રવિ શું પીએ છે?",
+          "options": [
+            "tea",
+            "milk",
+            "water",
+            "juice"
+          ],
+          "answer": "milk",
+          "explanation": "The first sentence says: \"Ravi drinks milk.\" Subject = Ravi, verb = drinks, object = milk.",
+          "explanationGu": "પહેલું જ વાક્ય છે: \"Ravi drinks milk.\" કર્તા = Ravi, ક્રિયાપદ = drinks, કર્મ = milk. એટલે રવિ દૂધ પીએ છે. ચા તો મમ્મી બનાવે છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Who makes tea?",
+          "promptGu": "ચા કોણ બનાવે છે?",
+          "options": [
+            "Ravi",
+            "His mother",
+            "His sister",
+            "His teacher"
+          ],
+          "answer": "His mother",
+          "explanation": "The text says: \"His mother makes tea.\" The subject (who does the action) is \"His mother\".",
+          "explanationGu": "લખાણમાં છે: \"His mother makes tea.\" કામ કરનાર એટલે કે કર્તા \"His mother\" છે. એટલે ચા રવિની મમ્મી બનાવે છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "In the sentence \"His sister reads a book\", which word is the verb?",
+          "promptGu": "\"His sister reads a book\" વાક્યમાં ક્રિયાપદ (verb) કયો શબ્દ છે?",
+          "options": [
+            "His",
+            "sister",
+            "reads",
+            "book"
+          ],
+          "answer": "reads",
+          "explanation": "The verb is the action word. \"His sister\" is the subject, \"reads\" is the action, \"a book\" is the object.",
+          "explanationGu": "ક્રિયાપદ એટલે ક્રિયા બતાવતો શબ્દ. \"His sister\" કર્તા છે, \"reads\" (વાંચે છે) ક્રિયા છે, અને \"a book\" કર્મ છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which sentence has the correct English word order?",
+          "promptGu": "કયા વાક્યમાં અંગ્રેજીનો સાચો શબ્દક્રમ છે?",
+          "options": [
+            "Ravi bread eats.",
+            "Ravi eats bread.",
+            "Eats Ravi bread.",
+            "Bread Ravi eats."
+          ],
+          "answer": "Ravi eats bread.",
+          "explanation": "English order is Subject + Verb + Object: Ravi (subject) + eats (verb) + bread (object). This sentence is in the passage.",
+          "explanationGu": "અંગ્રેજીમાં ક્રમ કર્તા + ક્રિયાપદ + કર્મ હોય છે: Ravi + eats + bread. \"Ravi bread eats\" ગુજરાતી ક્રમ જેવું છે, અંગ્રેજીમાં ખોટું છે."
+        },
+        {
+          "type": "FILL",
+          "prompt": "Ravi rides a ____.",
+          "promptGu": "રવિ ____ ચલાવે છે.",
+          "answer": "bicycle",
+          "alternatives": [],
+          "explanation": "The passage says: \"He rides a bicycle.\" \"He\" means Ravi.",
+          "explanationGu": "લખાણમાં છે: \"He rides a bicycle.\" અહીં \"He\" એટલે રવિ. જવાબ: bicycle (સાઇકલ).",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "The dog sees a ____.",
+          "promptGu": "કૂતરો એક ____ જુએ છે.",
+          "answer": "cat",
+          "alternatives": [],
+          "explanation": "The passage says: \"The dog sees a cat.\" The object after the verb \"sees\" is \"a cat\".",
+          "explanationGu": "લખાણમાં છે: \"The dog sees a cat.\" ક્રિયાપદ \"sees\" પછી આવતું કર્મ \"cat\" (બિલાડી) છે.",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "His teacher writes on the ____.",
+          "promptGu": "તેના શિક્ષક ____ પર લખે છે.",
+          "answer": "board",
+          "alternatives": [],
+          "explanation": "The passage says: \"His teacher writes on the board.\"",
+          "explanationGu": "લખાણમાં છે: \"His teacher writes on the board.\" એટલે શિક્ષક બોર્ડ પર લખે છે. જવાબ: board.",
+          "wordLimit": "ONE WORD ONLY"
+        }
+      ]
+    },
+    {
+      "id": "L0-02",
+      "order": 2,
+      "title": "am / is / are: Describing People and Things",
+      "titleGu": "am / is / are: લોકો અને વસ્તુઓનું વર્ણન",
+      "skill": "Grammar",
+      "minutes": 10,
+      "explanation": "The words am, is and are are very small, but they are everywhere in English. They are all forms of the verb \"be\". We use them to say who someone is, or what someone or something is like.\n\n• I → am: \"I am Anil.\" \"I am ten years old.\"\n• he / she / it / one person / one thing → is: \"She is tall.\" \"The school is big.\"\n• we / you / they / many people / many things → are: \"We are friends.\" \"The children are happy.\"\n\nAfter am / is / are, we often find a describing word (an adjective): tall, happy, clean, kind, big. Sometimes we find a noun: \"She is a teacher.\"\n\nIn Gujarati, we say \"છે\" or \"છું\" at the end. In English, am / is / are comes in the middle, right after the subject: \"The classroom is clean.\" (Subject + is + describing word).\n\nReading tip: When you see is or are, the words after it usually describe the subject. So if you read \"Our teacher is kind\", you learn something about the teacher.\n\nShort forms: I'm = I am, she's = she is, they're = they are. You will see these in many texts.",
+      "explanationGu": "am, is અને are બહુ નાના શબ્દો છે, પણ અંગ્રેજીમાં દરેક જગ્યાએ આવે છે. ત્રણેય \"be\" ક્રિયાપદનાં રૂપ છે. કોઈ કોણ છે, અથવા કોઈ વ્યક્તિ કે વસ્તુ કેવી છે — તે કહેવા માટે આપણે તેનો ઉપયોગ કરીએ છીએ.\n\n• I (હું) સાથે → am: \"I am Anil.\" (હું અનિલ છું.)\n• he / she / it અથવા એક વ્યક્તિ કે એક વસ્તુ સાથે → is: \"She is tall.\" (તે ઊંચી છે.)\n• we / you / they અથવા ઘણા લોકો કે ઘણી વસ્તુઓ સાથે → are: \"The children are happy.\" (બાળકો ખુશ છે.)\n\nam / is / are પછી મોટે ભાગે વર્ણન કરતો શબ્દ (વિશેષણ) આવે છે: tall (ઊંચું), happy (ખુશ), clean (સ્વચ્છ), kind (દયાળુ). ક્યારેક નામ પણ આવે: \"She is a teacher.\" (તે શિક્ષિકા છે.)\n\nગુજરાતીમાં \"છે\" કે \"છું\" વાક્યના છેલ્લે આવે છે. પણ અંગ્રેજીમાં am / is / are વચ્ચે, કર્તાની તરત પછી આવે છે: \"The classroom is clean.\" (વર્ગખંડ સ્વચ્છ છે.)\n\nવાંચવાની ટીપ: is કે are દેખાય ત્યારે તેની પછીના શબ્દો મોટે ભાગે કર્તાનું વર્ણન કરે છે. \"Our teacher is kind\" વાંચીને તમને શિક્ષક વિશે જાણકારી મળે છે.\n\nટૂંકાં રૂપ પણ યાદ રાખો: I'm = I am, she's = she is, they're = they are. ઘણાં લખાણોમાં આ દેખાશે. શાબાશ, આગળ વધીએ!",
+      "examples": [
+        {
+          "en": "I am a student.",
+          "gu": "હું વિદ્યાર્થી છું."
+        },
+        {
+          "en": "She is my friend.",
+          "gu": "તે મારી મિત્ર છે."
+        },
+        {
+          "en": "The mango is sweet.",
+          "gu": "કેરી મીઠી છે."
+        },
+        {
+          "en": "They are in the garden.",
+          "gu": "તેઓ બગીચામાં છે."
+        },
+        {
+          "en": "We are happy today.",
+          "gu": "આજે અમે ખુશ છીએ."
+        }
+      ],
+      "passageTitle": "My Friend Meera",
+      "passage": "I am Anil. I am ten years old. This is my friend Meera. She is tall. Her hair is long and black.\n\nMeera and I are in the same class. Our school is big. The classroom is clean. The children are happy. Our teacher is kind. We are good friends.",
+      "passageGu": "હું અનિલ છું. હું દસ વર્ષનો છું. આ મારી મિત્ર મીરા છે. તે ઊંચી છે. તેના વાળ લાંબા અને કાળા છે.\n\nમીરા અને હું એક જ વર્ગમાં છીએ. અમારી શાળા મોટી છે. વર્ગખંડ સ્વચ્છ છે. બાળકો ખુશ છે. અમારા શિક્ષક દયાળુ છે. અમે સારા મિત્રો છીએ.",
+      "vocabulary": [
+        {
+          "word": "friend",
+          "pos": "noun",
+          "meaningGu": "મિત્ર, દોસ્ત",
+          "meaningEn": "a person you like and know well",
+          "example": "Meera is my friend.",
+          "exampleGu": "મીરા મારી મિત્ર છે."
+        },
+        {
+          "word": "tall",
+          "pos": "adjective",
+          "meaningGu": "ઊંચું",
+          "meaningEn": "high; not short",
+          "example": "My father is tall.",
+          "exampleGu": "મારા પપ્પા ઊંચા છે."
+        },
+        {
+          "word": "hair",
+          "pos": "noun",
+          "meaningGu": "વાળ",
+          "meaningEn": "the thin things that grow on your head",
+          "example": "Her hair is black.",
+          "exampleGu": "તેના વાળ કાળા છે."
+        },
+        {
+          "word": "long",
+          "pos": "adjective",
+          "meaningGu": "લાંબું",
+          "meaningEn": "big from one end to the other end",
+          "example": "The train is long.",
+          "exampleGu": "ટ્રેન લાંબી છે."
+        },
+        {
+          "word": "class",
+          "pos": "noun",
+          "meaningGu": "વર્ગ",
+          "meaningEn": "a group of students who learn together",
+          "example": "We are in the same class.",
+          "exampleGu": "અમે એક જ વર્ગમાં છીએ."
+        },
+        {
+          "word": "clean",
+          "pos": "adjective",
+          "meaningGu": "સ્વચ્છ, ચોખ્ખું",
+          "meaningEn": "not dirty",
+          "example": "The kitchen is clean.",
+          "exampleGu": "રસોડું ચોખ્ખું છે."
+        },
+        {
+          "word": "happy",
+          "pos": "adjective",
+          "meaningGu": "ખુશ, આનંદિત",
+          "meaningEn": "feeling good",
+          "example": "The children are happy.",
+          "exampleGu": "બાળકો ખુશ છે."
+        },
+        {
+          "word": "kind",
+          "pos": "adjective",
+          "meaningGu": "દયાળુ, માયાળુ",
+          "meaningEn": "nice and helpful to other people",
+          "example": "Our teacher is kind.",
+          "exampleGu": "અમારા શિક્ષક દયાળુ છે."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "How old is Anil?",
+          "promptGu": "અનિલ કેટલા વર્ષનો છે?",
+          "options": [
+            "eight",
+            "nine",
+            "ten",
+            "eleven"
+          ],
+          "answer": "ten",
+          "explanation": "The text says: \"I am ten years old.\" \"I\" is Anil, because the first sentence is \"I am Anil.\"",
+          "explanationGu": "લખાણમાં છે: \"I am ten years old.\" અહીં \"I\" એટલે અનિલ, કારણ કે પહેલું વાક્ય \"I am Anil.\" છે. તેથી તે દસ વર્ષનો છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What is Meera like?",
+          "promptGu": "મીરા કેવી છે?",
+          "options": [
+            "short",
+            "tall",
+            "old",
+            "angry"
+          ],
+          "answer": "tall",
+          "explanation": "The text says: \"She is tall.\" The word after \"is\" describes Meera.",
+          "explanationGu": "લખાણમાં છે: \"She is tall.\" \"is\" પછીનો શબ્દ મીરાનું વર્ણન કરે છે: tall એટલે ઊંચી."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Choose the correct word: \"The children ____ happy.\"",
+          "promptGu": "સાચો શબ્દ પસંદ કરો: \"The children ____ happy.\"",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "answer": "are",
+          "explanation": "\"The children\" means many people, so we use \"are\". The passage says: \"The children are happy.\"",
+          "explanationGu": "\"The children\" એટલે ઘણાં બાળકો (બહુવચન), એટલે \"are\" વપરાય. લખાણમાં પણ છે: \"The children are happy.\""
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Choose the correct word: \"Our teacher ____ kind.\"",
+          "promptGu": "સાચો શબ્દ પસંદ કરો: \"Our teacher ____ kind.\"",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "answer": "is",
+          "explanation": "\"Our teacher\" is one person, so we use \"is\". The passage says: \"Our teacher is kind.\"",
+          "explanationGu": "\"Our teacher\" એક જ વ્યક્તિ છે (એકવચન), એટલે \"is\" વપરાય. લખાણમાં છે: \"Our teacher is kind.\""
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Where are Meera and Anil?",
+          "promptGu": "મીરા અને અનિલ ક્યાં છે?",
+          "options": [
+            "in different schools",
+            "in the same class",
+            "in a park",
+            "at home"
+          ],
+          "answer": "in the same class",
+          "explanation": "The text says: \"Meera and I are in the same class.\" \"I\" is Anil.",
+          "explanationGu": "લખાણમાં છે: \"Meera and I are in the same class.\" એટલે બંને એક જ વર્ગમાં છે. બે વ્યક્તિ છે એટલે \"are\" વપરાયું છે."
+        },
+        {
+          "type": "FILL",
+          "prompt": "Meera's hair is long and ____.",
+          "promptGu": "મીરાના વાળ લાંબા અને ____ છે.",
+          "answer": "black",
+          "alternatives": [],
+          "explanation": "The text says: \"Her hair is long and black.\" \"Her\" means Meera.",
+          "explanationGu": "લખાણમાં છે: \"Her hair is long and black.\" અહીં \"Her\" એટલે મીરા. જવાબ: black (કાળા).",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "The classroom is ____.",
+          "promptGu": "વર્ગખંડ ____ છે.",
+          "answer": "clean",
+          "alternatives": [],
+          "explanation": "The text says: \"The classroom is clean.\" The describing word comes after \"is\".",
+          "explanationGu": "લખાણમાં છે: \"The classroom is clean.\" \"is\" પછી વર્ણન કરતો શબ્દ આવે છે: clean (સ્વચ્છ).",
+          "wordLimit": "ONE WORD ONLY"
+        }
+      ]
+    },
+    {
+      "id": "L0-03",
+      "order": 3,
+      "title": "Everyday Words: Family, Home and Food",
+      "titleGu": "રોજના શબ્દો: કુટુંબ, ઘર અને ખોરાક",
+      "skill": "Vocabulary",
+      "minutes": 12,
+      "explanation": "To read well, you need words. The best words to learn first are the words of everyday life: family, home and food. These words appear again and again in simple texts.\n\nFamily words:\n• father, mother, parents, brother, sister, grandmother, grandfather, children\n\nHome words:\n• house, room, kitchen, door, window, bed\n\nFood words:\n• rice, dal, bread, milk, vegetables, fruit, breakfast, lunch, dinner\n\nHow to learn new words:\n• Learn words in groups (all family words together). Your brain remembers groups better.\n• Learn a word inside a sentence, not alone. \"Mother cooks rice\" is easier to remember than \"rice\".\n• Say the word aloud and write it once.\n• Review the words again tomorrow.\n\nReading tip: When you read a text, first look for words you already know. If a text has \"father\", \"kitchen\" and \"dinner\", you can guess the text is about a family at home. Known words help you understand unknown words around them.",
+      "explanationGu": "સારું વાંચવા માટે શબ્દો જોઈએ. સૌથી પહેલાં રોજિંદા જીવનના શબ્દો શીખવા જોઈએ: કુટુંબ, ઘર અને ખોરાક. સરળ લખાણોમાં આ શબ્દો વારંવાર આવે છે.\n\nકુટુંબના શબ્દો:\n• father (પિતા), mother (માતા), parents (માતા-પિતા), brother (ભાઈ), sister (બહેન), grandmother (દાદી/નાની), grandfather (દાદા/નાના), children (બાળકો)\n\nઘરના શબ્દો:\n• house (ઘર), room (ઓરડો), kitchen (રસોડું), door (બારણું), window (બારી), bed (પલંગ)\n\nખોરાકના શબ્દો:\n• rice (ભાત), dal (દાળ), bread (રોટલી/બ્રેડ), milk (દૂધ), vegetables (શાકભાજી), fruit (ફળ), breakfast (નાસ્તો), lunch (બપોરનું જમણ), dinner (રાતનું જમણ)\n\nનવા શબ્દો કેવી રીતે શીખવા:\n• શબ્દો જૂથમાં શીખો (બધા કુટુંબના શબ્દો સાથે). મગજ જૂથ વધુ સારી રીતે યાદ રાખે છે.\n• શબ્દ એકલો નહીં, વાક્યમાં શીખો. \"Mother cooks rice\" યાદ રાખવું \"rice\" કરતાં સહેલું છે.\n• શબ્દ મોટેથી બોલો અને એક વાર લખો.\n• બીજા દિવસે ફરીથી પુનરાવર્તન કરો.\n\nવાંચવાની ટીપ: લખાણ વાંચો ત્યારે પહેલાં જાણીતા શબ્દો શોધો. જો લખાણમાં \"father\", \"kitchen\" અને \"dinner\" હોય, તો સમજી જાઓ કે વાત ઘરમાં રહેતા કુટુંબની છે. જાણીતા શબ્દો આસપાસના અજાણ્યા શબ્દો સમજવામાં મદદ કરે છે. રોજ થોડા શબ્દો — અને તમારું અંગ્રેજી ઝડપથી વધશે!",
+      "examples": [
+        {
+          "en": "My grandmother lives with us.",
+          "gu": "મારાં દાદી અમારી સાથે રહે છે."
+        },
+        {
+          "en": "Our house has a small kitchen.",
+          "gu": "અમારા ઘરમાં નાનું રસોડું છે."
+        },
+        {
+          "en": "We eat rice and dal for lunch.",
+          "gu": "અમે બપોરે દાળ-ભાત ખાઈએ છીએ."
+        },
+        {
+          "en": "My brother drinks milk at breakfast.",
+          "gu": "મારો ભાઈ નાસ્તામાં દૂધ પીએ છે."
+        }
+      ],
+      "passageTitle": "The Patel Family",
+      "passage": "The Patel family lives in a small house in Anand. There are five people in the family. Father is a farmer. Mother cooks dal, rice and rotli. Grandmother tells stories at night.\n\nThe two children, Jay and Riya, go to school. The house has two rooms and a kitchen. In the evening, the family eats dinner together. They are happy.",
+      "passageGu": "પટેલ કુટુંબ આણંદમાં એક નાના ઘરમાં રહે છે. કુટુંબમાં પાંચ લોકો છે. પિતા ખેડૂત છે. માતા દાળ, ભાત અને રોટલી બનાવે છે. દાદી રાત્રે વાર્તાઓ કહે છે.\n\nબે બાળકો, જય અને રિયા, શાળાએ જાય છે. ઘરમાં બે ઓરડા અને એક રસોડું છે. સાંજે આખું કુટુંબ સાથે મળીને રાતનું જમણ જમે છે. તેઓ ખુશ છે.",
+      "vocabulary": [
+        {
+          "word": "family",
+          "pos": "noun",
+          "meaningGu": "કુટુંબ, પરિવાર",
+          "meaningEn": "a group of people like parents and their children",
+          "example": "My family is big.",
+          "exampleGu": "મારું કુટુંબ મોટું છે."
+        },
+        {
+          "word": "house",
+          "pos": "noun",
+          "meaningGu": "ઘર, મકાન",
+          "meaningEn": "a building where people live",
+          "example": "We live in a small house.",
+          "exampleGu": "અમે નાના ઘરમાં રહીએ છીએ."
+        },
+        {
+          "word": "farmer",
+          "pos": "noun",
+          "meaningGu": "ખેડૂત",
+          "meaningEn": "a person who grows crops or keeps animals",
+          "example": "The farmer works in the field.",
+          "exampleGu": "ખેડૂત ખેતરમાં કામ કરે છે."
+        },
+        {
+          "word": "cooks",
+          "pos": "verb",
+          "meaningGu": "રાંધે છે, રસોઈ બનાવે છે",
+          "meaningEn": "makes food hot and ready to eat",
+          "example": "My father cooks on Sundays.",
+          "exampleGu": "મારા પપ્પા રવિવારે રસોઈ બનાવે છે."
+        },
+        {
+          "word": "rice",
+          "pos": "noun",
+          "meaningGu": "ભાત, ચોખા",
+          "meaningEn": "small white grains that we cook and eat",
+          "example": "We eat rice every day.",
+          "exampleGu": "અમે રોજ ભાત ખાઈએ છીએ."
+        },
+        {
+          "word": "grandmother",
+          "pos": "noun",
+          "meaningGu": "દાદી, નાની",
+          "meaningEn": "the mother of your father or mother",
+          "example": "My grandmother tells stories.",
+          "exampleGu": "મારાં દાદી વાર્તાઓ કહે છે."
+        },
+        {
+          "word": "kitchen",
+          "pos": "noun",
+          "meaningGu": "રસોડું",
+          "meaningEn": "the room where we cook food",
+          "example": "Mother is in the kitchen.",
+          "exampleGu": "મમ્મી રસોડામાં છે."
+        },
+        {
+          "word": "dinner",
+          "pos": "noun",
+          "meaningGu": "રાતનું જમણ, વાળુ",
+          "meaningEn": "the main meal in the evening",
+          "example": "We eat dinner at eight.",
+          "exampleGu": "અમે આઠ વાગ્યે જમીએ છીએ."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "How many people are in the Patel family?",
+          "promptGu": "પટેલ કુટુંબમાં કેટલા લોકો છે?",
+          "options": [
+            "three",
+            "four",
+            "five",
+            "six"
+          ],
+          "answer": "five",
+          "explanation": "The text says: \"There are five people in the family.\" (Father, Mother, Grandmother, Jay and Riya.)",
+          "explanationGu": "લખાણમાં સીધું લખ્યું છે: \"There are five people in the family.\" ગણી પણ શકો: પિતા, માતા, દાદી, જય અને રિયા = પાંચ."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "What is the father's job?",
+          "promptGu": "પિતા શું કામ કરે છે?",
+          "options": [
+            "teacher",
+            "farmer",
+            "doctor",
+            "driver"
+          ],
+          "answer": "farmer",
+          "explanation": "The text says: \"Father is a farmer.\"",
+          "explanationGu": "લખાણમાં છે: \"Father is a farmer.\" એટલે પિતા ખેડૂત છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Who tells stories at night?",
+          "promptGu": "રાત્રે વાર્તાઓ કોણ કહે છે?",
+          "options": [
+            "Mother",
+            "Grandmother",
+            "Jay",
+            "Riya"
+          ],
+          "answer": "Grandmother",
+          "explanation": "The text says: \"Grandmother tells stories at night.\"",
+          "explanationGu": "લખાણમાં છે: \"Grandmother tells stories at night.\" એટલે દાદી વાર્તાઓ કહે છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Where does the Patel family live?",
+          "promptGu": "પટેલ કુટુંબ ક્યાં રહે છે?",
+          "options": [
+            "Surat",
+            "Anand",
+            "Rajkot",
+            "Vadodara"
+          ],
+          "answer": "Anand",
+          "explanation": "The first sentence says: \"The Patel family lives in a small house in Anand.\"",
+          "explanationGu": "પહેલું જ વાક્ય કહે છે: \"The Patel family lives in a small house in Anand.\" એટલે તેઓ આણંદમાં રહે છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Which food does Mother cook?",
+          "promptGu": "માતા કયો ખોરાક બનાવે છે?",
+          "options": [
+            "dal, rice and rotli",
+            "bread and milk",
+            "fruit and vegetables",
+            "pizza"
+          ],
+          "answer": "dal, rice and rotli",
+          "explanation": "The text says: \"Mother cooks dal, rice and rotli.\"",
+          "explanationGu": "લખાણમાં છે: \"Mother cooks dal, rice and rotli.\" એટલે મમ્મી દાળ, ભાત અને રોટલી બનાવે છે."
+        },
+        {
+          "type": "FILL",
+          "prompt": "The house has two rooms and a ____.",
+          "promptGu": "ઘરમાં બે ઓરડા અને એક ____ છે.",
+          "answer": "kitchen",
+          "alternatives": [],
+          "explanation": "The text says: \"The house has two rooms and a kitchen.\"",
+          "explanationGu": "લખાણમાં છે: \"The house has two rooms and a kitchen.\" જવાબ: kitchen (રસોડું).",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "FILL",
+          "prompt": "In the evening, the family eats ____ together.",
+          "promptGu": "સાંજે કુટુંબ સાથે મળીને ____ જમે છે.",
+          "answer": "dinner",
+          "alternatives": [],
+          "explanation": "The text says: \"In the evening, the family eats dinner together.\" Dinner is the evening meal.",
+          "explanationGu": "લખાણમાં છે: \"In the evening, the family eats dinner together.\" dinner એટલે સાંજનું/રાતનું જમણ.",
+          "wordLimit": "ONE WORD ONLY"
+        }
+      ]
+    },
+    {
+      "id": "L0-04",
+      "order": 4,
+      "title": "Question Words: Who, What, Where, When, Why, How",
+      "titleGu": "પ્રશ્નવાચક શબ્દો: Who, What, Where, When, Why, How",
+      "skill": "Reading",
+      "minutes": 12,
+      "explanation": "In a reading test, the question word tells you what kind of answer to look for. If you know the question word, you know what to search for in the text.\n\n• Who? → a person: Kiran, her cousin, the teacher\n• What? → a thing or an action: sweets, a rangoli\n• Where? → a place: in Bhuj, at school, in the kitchen\n• When? → a time: in November, at night, every year\n• Why? → a reason. Look for the word \"because\".\n• How? → the way something happens: by bus, by train, quickly\n\nExample: \"When does Kiran go?\" You need a time, so look for words like a month, a day or a clock time.\n\nTRUE or FALSE?\nSometimes you read a sentence (a statement) and decide if it agrees with the text.\n• TRUE = the text says the same thing.\n• FALSE = the text says something different.\nExample: the text says \"Kiran travels by bus.\" The statement \"Kiran travels by bus\" is TRUE. The statement \"Kiran travels by train\" is FALSE.\n\nTip: Always find the answer in the text. Do not guess from your own ideas.",
+      "explanationGu": "વાંચનની કસોટીમાં પ્રશ્નવાચક શબ્દ તમને કહે છે કે કયા પ્રકારનો જવાબ શોધવાનો છે. પ્રશ્નવાચક શબ્દ સમજાઈ જાય, તો લખાણમાં શું શોધવું તે પણ સમજાઈ જાય.\n\n• Who? (કોણ?) → વ્યક્તિ: Kiran, her cousin, the teacher\n• What? (શું?) → વસ્તુ કે કામ: sweets (મીઠાઈ), a rangoli\n• Where? (ક્યાં?) → જગ્યા: in Bhuj, at school, in the kitchen\n• When? (ક્યારે?) → સમય: in November, at night, every year\n• Why? (કેમ? શા માટે?) → કારણ. લખાણમાં \"because\" (કારણ કે) શબ્દ શોધો.\n• How? (કેવી રીતે?) → રીત: by bus (બસમાં), by train (ટ્રેનમાં), quickly (ઝડપથી)\n\nઉદાહરણ: \"When does Kiran go?\" — અહીં સમય જોઈએ છે, એટલે લખાણમાં મહિનો, દિવસ કે વાગ્યાનો સમય શોધો.\n\nTRUE કે FALSE?\nક્યારેક તમને એક વાક્ય (statement) આપવામાં આવે છે અને નક્કી કરવાનું હોય છે કે તે લખાણ સાથે મેળ ખાય છે કે નહીં.\n• TRUE (સાચું) = લખાણ પણ એ જ વાત કહે છે.\n• FALSE (ખોટું) = લખાણ જુદી, ઊલટી વાત કહે છે.\nઉદાહરણ: લખાણમાં છે \"Kiran travels by bus.\" તો \"Kiran travels by bus\" TRUE છે, અને \"Kiran travels by train\" FALSE છે.\n\nટીપ: જવાબ હંમેશાં લખાણમાંથી જ શોધો. તમારા પોતાના અનુમાનથી જવાબ ન આપો. ધીમે ધીમે, શાંતિથી — તમે સરસ કરી રહ્યા છો!",
+      "examples": [
+        {
+          "en": "Who is your teacher? — Mrs Shah is my teacher.",
+          "gu": "તમારા શિક્ષક કોણ છે? — શાહ મેડમ મારાં શિક્ષિકા છે."
+        },
+        {
+          "en": "Where is the market? — It is near the station.",
+          "gu": "બજાર ક્યાં છે? — તે સ્ટેશનની નજીક છે."
+        },
+        {
+          "en": "When is Diwali? — It is in October or November.",
+          "gu": "દિવાળી ક્યારે છે? — તે ઓક્ટોબર કે નવેમ્બરમાં હોય છે."
+        },
+        {
+          "en": "Why are you happy? — Because it is a holiday.",
+          "gu": "તમે કેમ ખુશ છો? — કારણ કે આજે રજા છે."
+        },
+        {
+          "en": "How do you go to school? — I go by bicycle.",
+          "gu": "તમે શાળાએ કેવી રીતે જાઓ છો? — હું સાઇકલ પર જાઉં છું."
+        }
+      ],
+      "passageTitle": "Diwali in Bhuj",
+      "passage": "Every year, Kiran visits her grandmother in Bhuj. She goes in November for Diwali. She travels by bus because the bus is cheap. The trip takes six hours.\n\nAt Diwali, Kiran makes a rangoli with her cousin Mona. In the evening, they light diyas. Grandmother makes sweets in the kitchen. Kiran loves this holiday.",
+      "passageGu": "દર વર્ષે કિરણ ભુજમાં પોતાનાં દાદીને મળવા જાય છે. તે નવેમ્બરમાં દિવાળી માટે જાય છે. તે બસમાં મુસાફરી કરે છે કારણ કે બસ સસ્તી છે. મુસાફરીમાં છ કલાક લાગે છે.\n\nદિવાળીએ કિરણ પોતાની પિતરાઈ બહેન મોના સાથે રંગોળી બનાવે છે. સાંજે તેઓ દીવા પ્રગટાવે છે. દાદી રસોડામાં મીઠાઈ બનાવે છે. કિરણને આ તહેવાર ખૂબ ગમે છે.",
+      "vocabulary": [
+        {
+          "word": "visits",
+          "pos": "verb",
+          "meaningGu": "મળવા જાય છે, મુલાકાત લે છે",
+          "meaningEn": "goes to see a person or a place",
+          "example": "He visits his uncle every summer.",
+          "exampleGu": "તે દર ઉનાળે કાકાને મળવા જાય છે."
+        },
+        {
+          "word": "grandmother",
+          "pos": "noun",
+          "meaningGu": "દાદી, નાની",
+          "meaningEn": "the mother of your father or mother",
+          "example": "My grandmother makes sweets.",
+          "exampleGu": "મારાં દાદી મીઠાઈ બનાવે છે."
+        },
+        {
+          "word": "November",
+          "pos": "noun",
+          "meaningGu": "નવેમ્બર",
+          "meaningEn": "the eleventh month of the year",
+          "example": "My birthday is in November.",
+          "exampleGu": "મારો જન્મદિવસ નવેમ્બરમાં છે."
+        },
+        {
+          "word": "travels",
+          "pos": "verb",
+          "meaningGu": "મુસાફરી કરે છે",
+          "meaningEn": "goes from one place to another place",
+          "example": "She travels by train.",
+          "exampleGu": "તે ટ્રેનમાં મુસાફરી કરે છે."
+        },
+        {
+          "word": "cheap",
+          "pos": "adjective",
+          "meaningGu": "સસ્તું",
+          "meaningEn": "not costing much money",
+          "example": "The bus is cheap.",
+          "exampleGu": "બસ સસ્તી છે."
+        },
+        {
+          "word": "cousin",
+          "pos": "noun",
+          "meaningGu": "પિતરાઈ/મામાનાં-માસીનાં ભાઈ-બહેન",
+          "meaningEn": "the child of your uncle or aunt",
+          "example": "My cousin lives in Surat.",
+          "exampleGu": "મારો પિતરાઈ ભાઈ સુરતમાં રહે છે."
+        },
+        {
+          "word": "light",
+          "pos": "verb",
+          "meaningGu": "પ્રગટાવવું, સળગાવવું",
+          "meaningEn": "to start a fire or a lamp",
+          "example": "We light diyas at Diwali.",
+          "exampleGu": "અમે દિવાળીએ દીવા પ્રગટાવીએ છીએ."
+        },
+        {
+          "word": "sweets",
+          "pos": "noun",
+          "meaningGu": "મીઠાઈ",
+          "meaningEn": "sweet food like ladoo or jalebi",
+          "example": "We buy sweets for the festival.",
+          "exampleGu": "અમે તહેવાર માટે મીઠાઈ ખરીદીએ છીએ."
+        }
+      ],
+      "questions": [
+        {
+          "type": "MCQ",
+          "prompt": "Who does Kiran visit every year?",
+          "promptGu": "કિરણ દર વર્ષે કોને મળવા જાય છે?",
+          "options": [
+            "her grandmother",
+            "her teacher",
+            "her friend",
+            "her uncle"
+          ],
+          "answer": "her grandmother",
+          "explanation": "\"Who\" asks about a person. The text says: \"Kiran visits her grandmother in Bhuj.\"",
+          "explanationGu": "\"Who\" વ્યક્તિ વિશે પૂછે છે. લખાણમાં છે: \"Kiran visits her grandmother in Bhuj.\" એટલે તે દાદીને મળવા જાય છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Where does her grandmother live?",
+          "promptGu": "તેનાં દાદી ક્યાં રહે છે?",
+          "options": [
+            "Anand",
+            "Bhuj",
+            "Surat",
+            "Rajkot"
+          ],
+          "answer": "Bhuj",
+          "explanation": "\"Where\" asks about a place. Look for \"in + place\": \"...her grandmother in Bhuj.\"",
+          "explanationGu": "\"Where\" જગ્યા વિશે પૂછે છે. \"in\" પછી જગ્યાનું નામ શોધો: \"her grandmother in Bhuj\". જવાબ: ભુજ."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "When does Kiran go to Bhuj?",
+          "promptGu": "કિરણ ભુજ ક્યારે જાય છે?",
+          "options": [
+            "in June",
+            "in November",
+            "in March",
+            "in January"
+          ],
+          "answer": "in November",
+          "explanation": "\"When\" asks about time. The text says: \"She goes in November for Diwali.\"",
+          "explanationGu": "\"When\" સમય વિશે પૂછે છે. લખાણમાં છે: \"She goes in November for Diwali.\" એટલે નવેમ્બરમાં."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "Why does Kiran travel by bus?",
+          "promptGu": "કિરણ બસમાં કેમ મુસાફરી કરે છે?",
+          "options": [
+            "because the bus is fast",
+            "because the bus is cheap",
+            "because she likes buses",
+            "because the train is late"
+          ],
+          "answer": "because the bus is cheap",
+          "explanation": "\"Why\" asks for a reason. Look for \"because\": \"She travels by bus because the bus is cheap.\"",
+          "explanationGu": "\"Why\" કારણ પૂછે છે. \"because\" શબ્દ શોધો: \"She travels by bus because the bus is cheap.\" એટલે કારણ — બસ સસ્તી છે."
+        },
+        {
+          "type": "MCQ",
+          "prompt": "How does Kiran travel to Bhuj?",
+          "promptGu": "કિરણ ભુજ કેવી રીતે જાય છે?",
+          "options": [
+            "by train",
+            "by bus",
+            "by car",
+            "by plane"
+          ],
+          "answer": "by bus",
+          "explanation": "\"How\" asks about the way. The text says: \"She travels by bus.\"",
+          "explanationGu": "\"How\" રીત પૂછે છે. લખાણમાં છે: \"She travels by bus.\" એટલે બસમાં."
+        },
+        {
+          "type": "FILL",
+          "prompt": "What does Grandmother make in the kitchen? Grandmother makes ____.",
+          "promptGu": "દાદી રસોડામાં શું બનાવે છે? દાદી ____ બનાવે છે.",
+          "answer": "sweets",
+          "alternatives": [],
+          "explanation": "\"What\" asks about a thing. The text says: \"Grandmother makes sweets in the kitchen.\"",
+          "explanationGu": "\"What\" વસ્તુ વિશે પૂછે છે. લખાણમાં છે: \"Grandmother makes sweets in the kitchen.\" જવાબ: sweets (મીઠાઈ).",
+          "wordLimit": "ONE WORD ONLY"
+        },
+        {
+          "type": "TFNG",
+          "prompt": "Kiran makes a rangoli with her mother.",
+          "promptGu": "કિરણ પોતાની મમ્મી સાથે રંગોળી બનાવે છે.",
+          "answer": "FALSE",
+          "explanation": "FALSE. The text says: \"Kiran makes a rangoli with her cousin Mona.\" It is her cousin, not her mother. The text says something different, so the answer is FALSE.",
+          "explanationGu": "FALSE (ખોટું). લખાણમાં છે: \"Kiran makes a rangoli with her cousin Mona.\" એટલે તે પિતરાઈ બહેન મોના સાથે રંગોળી બનાવે છે, મમ્મી સાથે નહીં. લખાણ જુદી વાત કહે છે, એટલે જવાબ FALSE."
+        }
+      ]
+    }
+  ]
+}
