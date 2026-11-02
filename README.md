@@ -29,7 +29,7 @@ Then there are **5 timed IELTS-style practice tests** (Band 5 → Band 8+, 13 qu
 test unlocks when the student reaches the right level, and finishes with an **estimated band score**
 (official 40-question conversion table) and a full answer review in English and Gujarati.
 
-Total built-in content: 31 lessons (including 4 ABC lessons), 5 tests, 254 questions and 215 vocabulary words with Gujarati meanings.
+Total built-in content: 31 lessons (including 4 ABC lessons), 5 tests, 282 lesson questions and 247 vocabulary words with Gujarati meanings.
 All passages are original.
 
 ## 2. Each lesson in 4 steps
