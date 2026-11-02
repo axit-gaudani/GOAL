@@ -124,6 +124,9 @@ class SentenceRoundFragment : Fragment() {
         // Feedback
         binding.cardFeedback.visibleIf(s.checked)
         if (s.checked) {
+            binding.cardFeedback.setCardBackgroundColor(
+                ContextCompat.getColor(requireContext(), if (s.correct) R.color.success_container else R.color.error_container)
+            )
             val color = ContextCompat.getColor(requireContext(), if (s.correct) R.color.success else R.color.error)
             binding.textFeedbackTitle.setText(if (s.correct) R.string.feedback_correct else R.string.feedback_wrong)
             binding.textFeedbackTitle.setTextColor(color)

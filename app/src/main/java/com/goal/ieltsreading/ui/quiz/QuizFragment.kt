@@ -107,6 +107,10 @@ class QuizFragment : Fragment() {
         // Feedback
         binding.cardFeedback.visibleIf(s.checked)
         if (s.checked) {
+            // Green panel when right, red panel when wrong (as in the design).
+            binding.cardFeedback.setCardBackgroundColor(
+                ContextCompat.getColor(requireContext(), if (s.correct) R.color.success_container else R.color.error_container)
+            )
             binding.textFeedbackTitle.setText(if (s.correct) R.string.feedback_correct else R.string.feedback_wrong)
             binding.textFeedbackTitle.setTextColor(
                 ContextCompat.getColor(requireContext(), if (s.correct) R.color.success else R.color.error)

@@ -130,7 +130,7 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnShow"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="68dp"
             android:layout_marginTop="16dp"
             android:text="@string/btn_show_meaning" />
 
@@ -145,7 +145,7 @@
                 android:id="@+id/btnDidNotKnow"
                 style="@style/Widget.App.Button.Outlined"
                 android:layout_width="0dp"
-                android:layout_height="60dp"
+                android:layout_height="68dp"
                 android:layout_marginEnd="6dp"
                 android:layout_weight="1"
                 android:text="@string/btn_did_not_know"
@@ -155,7 +155,7 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnKnew"
                 android:layout_width="0dp"
-                android:layout_height="60dp"
+                android:layout_height="68dp"
                 android:layout_marginStart="6dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/success"

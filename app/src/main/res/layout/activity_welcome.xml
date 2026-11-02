@@ -110,23 +110,17 @@
 
             <RadioButton
                 android:id="@+id/radioAbc"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="48dp"
+                style="@style/Widget.App.OptionCard"
                 android:text="@string/start_abc" />
 
             <RadioButton
                 android:id="@+id/radioKnowAbc"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="48dp"
+                style="@style/Widget.App.OptionCard"
                 android:text="@string/start_know_abc" />
 
             <RadioButton
                 android:id="@+id/radioKnowBasics"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="48dp"
+                style="@style/Widget.App.OptionCard"
                 android:text="@string/start_know_basics" />
         </RadioGroup>
 

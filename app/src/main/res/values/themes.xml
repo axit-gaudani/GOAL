@@ -263,4 +263,21 @@
         <item name="android:layout_weight">1</item>
         <item name="android:textAppearance">@style/Text.Body</item>
     </style>
+
+    <!-- Big card-like radio choice (welcome screen "Where do you start?") -->
+    <style name="Widget.App.OptionCard" parent="Widget.Material3.CompoundButton.RadioButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="android:background">@drawable/bg_option_card</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+    </style>
 </resources>

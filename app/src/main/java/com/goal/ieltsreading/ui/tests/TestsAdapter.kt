@@ -22,7 +22,9 @@ class TestsAdapter(private val onClick: (TestItem) -> Unit) : ListAdapter<TestIt
         val item = getItem(position)
         val b = holder.binding
         val ctx = b.root.context
-        b.textBand.text = item.test.targetBand
+        // Badge shows just the band number ("Band 5.5–6" → "5.5–6").
+        b.textBand.text = item.test.targetBand.removePrefix("Band").trim()
+        b.textBand.textSize = if (b.textBand.text.length > 4) 13f else 17f
         b.textTitle.text = item.test.title
         b.textTitleGu.text = item.test.titleGu
         b.textMeta.text = ctx.getString(R.string.test_meta_format, item.test.minutes)
@@ -31,7 +33,12 @@ class TestsAdapter(private val onClick: (TestItem) -> Unit) : ListAdapter<TestIt
         b.textLocked.text = ctx.getString(R.string.test_locked_format, item.requiredLevelTitle)
         b.textLocked.visibleIf(!item.unlocked)
         b.iconLock.visibleIf(!item.unlocked)
-        b.root.alpha = if (item.unlocked) 1f else 0.6f
+        b.iconChevron.visibleIf(item.unlocked)
+        b.textBest.visibleIf(item.unlocked)
+        (b.root as com.google.android.material.card.MaterialCardView).setCardBackgroundColor(
+            androidx.core.content.ContextCompat.getColor(ctx, if (item.unlocked) R.color.surface else R.color.surface_variant)
+        )
+        b.root.alpha = if (item.unlocked) 1f else 0.8f
         b.root.setOnClickListener { onClick(item) }
     }
 
