@@ -62,7 +62,7 @@
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnSlow"
-                    style="@style/Widget.Material3.Button.TonalButton"
+                    style="@style/Widget.App.Button.Tonal"
                     android:layout_width="0dp"
                     android:layout_height="64dp"
                     android:layout_marginStart="6dp"
@@ -164,7 +164,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnDone"
-                style="@style/Widget.Material3.Button.TonalButton"
+                style="@style/Widget.App.Button.Tonal"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginTop="8dp"

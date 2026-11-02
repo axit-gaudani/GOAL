@@ -118,7 +118,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnTeacher"
-                        style="@style/Widget.Material3.Button.TonalButton"
+                        style="@style/Widget.App.Button.Tonal"
                         android:layout_width="0dp"
                         android:layout_height="52dp"
                         android:layout_marginEnd="4dp"
@@ -128,7 +128,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnSlow"
-                        style="@style/Widget.Material3.Button.TonalButton"
+                        style="@style/Widget.App.Button.Tonal"
                         android:layout_width="0dp"
                         android:layout_height="52dp"
                         android:layout_marginHorizontal="4dp"
@@ -137,7 +137,7 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnMyVoice"
-                        style="@style/Widget.Material3.Button.TonalButton"
+                        style="@style/Widget.App.Button.Tonal"
                         android:layout_width="0dp"
                         android:layout_height="52dp"
                         android:layout_marginStart="4dp"
@@ -207,7 +207,7 @@
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnRecord"
-                    style="@style/Widget.Material3.Button.TonalButton"
+                    style="@style/Widget.App.Button.Tonal"
                     android:layout_width="0dp"
                     android:layout_height="60dp"
                     android:layout_marginEnd="6dp"
@@ -228,7 +228,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnNext"
-                style="@style/Widget.Material3.Button.OutlinedButton"
+                style="@style/Widget.App.Button.Outlined"
                 android:layout_width="match_parent"
                 android:layout_height="52dp"
                 android:layout_marginTop="8dp"

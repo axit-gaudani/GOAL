@@ -36,7 +36,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnPassage"
-            style="@style/Widget.Material3.Button.TonalButton"
+            style="@style/Widget.App.Button.Tonal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
@@ -107,7 +107,7 @@
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnListenSlow"
-                    style="@style/Widget.Material3.Button.TonalButton"
+                    style="@style/Widget.App.Button.Tonal"
                     android:layout_width="0dp"
                     android:layout_height="64dp"
                     android:layout_marginStart="6dp"

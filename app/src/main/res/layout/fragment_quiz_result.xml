@@ -77,7 +77,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnRetry"
-            style="@style/Widget.Material3.Button.TonalButton"
+            style="@style/Widget.App.Button.Tonal"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_marginTop="8dp"
@@ -85,7 +85,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnBack"
-            style="@style/Widget.Material3.Button.TextButton"
+            style="@style/Widget.App.Button.Text"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_marginTop="4dp"

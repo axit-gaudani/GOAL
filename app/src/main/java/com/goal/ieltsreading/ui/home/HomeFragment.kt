@@ -2,20 +2,16 @@ package com.goal.ieltsreading.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
-import androidx.core.view.MenuProvider
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.Lifecycle
 import androidx.navigation.fragment.findNavController
 import com.goal.ieltsreading.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.goal.ieltsreading.databinding.FragmentHomeBinding
+import com.goal.ieltsreading.ui.common.speak
 import com.goal.ieltsreading.ui.common.visibleIf
 import com.goal.ieltsreading.ui.vocab.WordSheet
 import java.util.Calendar
@@ -32,15 +28,7 @@ class HomeFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        requireActivity().addMenuProvider(object : MenuProvider {
-            override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) = menuInflater.inflate(R.menu.menu_home, menu)
-            override fun onMenuItemSelected(item: MenuItem): Boolean {
-                if (item.itemId == R.id.action_settings) {
-                    findNavController().navigate(R.id.settingsFragment); return true
-                }
-                return false
-            }
-        }, viewLifecycleOwner, Lifecycle.State.RESUMED)
+        binding.btnSettings.setOnClickListener { findNavController().navigate(R.id.settingsFragment) }
 
         binding.cardLearningPath.setOnClickListener { findNavController().navigate(R.id.levelsFragment) }
         binding.btnReview.setOnClickListener { findNavController().navigate(R.id.flashcardFragment) }
@@ -105,6 +93,7 @@ class HomeFragment : Fragment() {
                 binding.textWodPos.text = w.pos
                 binding.textWodMeaning.text = w.meaningGu
                 binding.textWodExample.text = w.example
+                binding.btnWodPlay.setOnClickListener { speak(w.word) }
                 binding.cardWordOfDay.setOnClickListener {
                     WordSheet.newInstance(w.id, w.word, w.pos, w.meaningGu, w.meaningEn, w.example, w.exampleGu)
                         .show(childFragmentManager, "word")

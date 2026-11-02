@@ -6,7 +6,17 @@
         <item name="colorPrimaryContainer">@color/brand_primary_container</item>
         <item name="colorOnPrimaryContainer">@color/brand_on_primary_container</item>
         <item name="colorSecondary">@color/brand_secondary</item>
-        <item name="colorSecondaryContainer">@color/brand_secondary_container</item>
+        <!-- Material uses the "secondary container" colour for selected chips, tonal buttons and the
+             bottom-bar pill. The design uses soft blue there, so it is set to the primary container. -->
+        <item name="colorSecondaryContainer">@color/brand_primary_container</item>
+        <item name="colorOnSecondaryContainer">@color/brand_on_primary_container</item>
+        <item name="colorSurfaceContainerLowest">@color/surface</item>
+        <item name="colorSurfaceContainerLow">@color/surface</item>
+        <item name="colorSurfaceContainer">@color/surface</item>
+        <item name="colorSurfaceContainerHigh">@color/surface_variant</item>
+        <item name="colorSurfaceContainerHighest">@color/surface_variant</item>
+        <item name="colorOutline">@color/option_stroke</item>
+        <item name="colorOutlineVariant">@color/track</item>
         <item name="colorTertiary">@color/brand_tertiary</item>
         <item name="colorError">@color/error</item>
         <item name="android:colorBackground">@color/background</item>
@@ -17,12 +27,109 @@
         <item name="android:statusBarColor">@color/background</item>
         <item name="android:navigationBarColor">@color/surface</item>
         <item name="materialCardViewStyle">@style/Widget.App.Card</item>
+        <!-- Inter everywhere (Gujarati falls back to the phone's Gujarati font). -->
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="fontFamily">@font/inter</item>
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+        <item name="toolbarStyle">@style/Widget.App.Toolbar</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNav</item>
+        <item name="tabStyle">@style/Widget.App.Tabs</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.App.TitleLarge</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.App.Button</item>
     </style>
 
-    <style name="Widget.App.Card" parent="Widget.Material3.CardView.Elevated">
+    <!-- Buttons: rounded rectangles (16dp) with bold, normal-case text, as in the design -->
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+        <item name="android:insetTop">2dp</item>
+        <item name="android:insetBottom">2dp</item>
+    </style>
+    <style name="Widget.App.Button.Tonal" parent="Widget.Material3.Button.TonalButton">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+        <item name="backgroundTint">@color/brand_primary_container</item>
+        <item name="android:textColor">@color/brand_on_primary_container</item>
+        <item name="iconTint">@color/brand_on_primary_container</item>
+        <item name="android:insetTop">2dp</item>
+        <item name="android:insetBottom">2dp</item>
+    </style>
+    <style name="Widget.App.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+        <item name="strokeColor">@color/option_stroke</item>
+        <item name="android:insetTop">2dp</item>
+        <item name="android:insetBottom">2dp</item>
+    </style>
+    <style name="Widget.App.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+    </style>
+    <style name="TextAppearance.App.Button" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="TextAppearance.App.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/inter_extrabold</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
+
+    <!-- Top bar: same colour as the page, big bold title, no shadow -->
+    <style name="Widget.App.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.App.ToolbarTitle</item>
+        <item name="android:background">@color/background</item>
+    </style>
+    <style name="TextAppearance.App.ToolbarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/inter_extrabold</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Bottom bar: white, soft-blue pill on the selected tab -->
+    <style name="Widget.App.BottomNav" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/surface</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.App.BottomNav.Indicator</item>
+        <item name="itemIconTint">@color/nav_item</item>
+        <item name="itemTextColor">@color/nav_item</item>
+        <item name="itemTextAppearanceActive">@style/TextAppearance.App.NavLabel</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.App.NavLabel</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+    <style name="Widget.App.BottomNav.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/brand_primary_container</item>
+    </style>
+    <style name="TextAppearance.App.NavLabel" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Lesson step tabs drawn as blue pills -->
+    <style name="Widget.App.Tabs" parent="Widget.Material3.TabLayout">
+        <item name="tabIndicator">@drawable/bg_tab_pill</item>
+        <item name="tabIndicatorColor">@color/brand_primary</item>
+        <item name="tabIndicatorGravity">stretch</item>
+        <item name="tabIndicatorFullWidth">true</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabTextColor">@color/text_secondary</item>
+        <item name="tabTextAppearance">@style/TextAppearance.App.NavLabel</item>
+        <item name="tabRippleColor">@null</item>
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <!-- Cards: flat white with big rounded corners (no shadow), as in the design -->
+    <style name="Widget.App.Card" parent="Widget.Material3.CardView.Filled">
         <item name="cardCornerRadius">@dimen/card_radius</item>
         <item name="cardBackgroundColor">@color/surface</item>
-        <item name="cardElevation">1dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">0dp</item>
     </style>
 
     <style name="Widget.App.Card.Tinted" parent="Widget.Material3.CardView.Filled">
@@ -30,7 +137,7 @@
         <item name="cardBackgroundColor">@color/brand_primary_container</item>
     </style>
 
-    <style name="Widget.App.OptionButton" parent="Widget.Material3.Button.OutlinedButton">
+    <style name="Widget.App.OptionButton" parent="Widget.App.Button.Outlined">
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:minHeight">56dp</item>
         <item name="android:gravity">start|center_vertical</item>
@@ -46,7 +153,8 @@
     <!-- Text styles -->
     <style name="Text.Title" parent="TextAppearance.Material3.TitleLarge">
         <item name="android:textColor">@color/text_primary</item>
-        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/inter_extrabold</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
     </style>
     <style name="Text.Subtitle" parent="TextAppearance.Material3.TitleMedium">
         <item name="android:textColor">@color/text_primary</item>
@@ -73,7 +181,8 @@
     </style>
     <style name="Text.StatValue" parent="TextAppearance.Material3.HeadlineSmall">
         <item name="android:textColor">@color/text_primary</item>
-        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/inter_extrabold</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
     </style>
 
     <!-- Small statistic cell: big number + label -->

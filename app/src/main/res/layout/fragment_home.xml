@@ -10,20 +10,46 @@
         android:orientation="vertical"
         android:padding="@dimen/screen_padding">
 
-        <TextView
-            android:id="@+id/textGreeting"
+        <!-- Greeting + settings (the top bar is hidden on Home, as in the design) -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
-            android:textColor="@color/text_primary"
-            android:textStyle="bold" />
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:text="@string/home_subtitle"
-            android:textAppearance="@style/Text.Secondary" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textGreeting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_extrabold"
+                    android:textColor="@color/text_primary"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/home_subtitle"
+                    android:textAppearance="@style/Text.Gujarati"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSettings"
+                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/action_settings"
+                app:backgroundTint="@color/surface"
+                app:icon="@drawable/ic_settings"
+                app:iconTint="@color/text_primary" />
+        </LinearLayout>
 
         <!-- Daily goal -->
         <LinearLayout
@@ -94,11 +120,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:background="@drawable/bg_pill"
+                    android:background="@drawable/bg_pill_amber"
                     android:paddingHorizontal="10dp"
-                    android:paddingVertical="3dp"
-                    android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
-                    android:textColor="@color/brand_on_primary_container" />
+                    android:paddingVertical="4dp"
+                    android:fontFamily="@font/inter_bold"
+                    android:textColor="#6B4500"
+                    android:textSize="13sp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -227,7 +254,7 @@
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnReview"
-                    style="@style/Widget.Material3.Button.TonalButton"
+                    style="@style/Widget.App.Button.Tonal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/btn_review" />
@@ -327,6 +354,16 @@
                         android:textAppearance="@style/Text.Secondary"
                         android:textStyle="italic" />
                 </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnWodPlay"
+                    style="@style/Widget.Material3.Button.IconButton.Filled"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="-52dp"
+                    android:contentDescription="@string/cd_play"
+                    app:icon="@drawable/ic_volume" />
 
                 <TextView
                     android:id="@+id/textWodMeaning"

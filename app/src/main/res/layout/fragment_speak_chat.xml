@@ -162,7 +162,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnHint"
-            style="@style/Widget.Material3.Button.TonalButton"
+            style="@style/Widget.App.Button.Tonal"
             android:layout_width="56dp"
             android:layout_height="56dp"
             android:contentDescription="@string/cd_gujarati_hint"

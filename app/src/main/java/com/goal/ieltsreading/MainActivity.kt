@@ -40,6 +40,8 @@ class MainActivity : AppCompatActivity() {
         // Hide the bottom bar on focused learning screens (lesson, quiz, test...).
         navController.addOnDestinationChangedListener { _, destination, _ ->
             binding.bottomNav.visibleIf(destination.id in topLevelScreens)
+            // Home shows its own greeting instead of a top bar (as in the design).
+            binding.toolbar.visibleIf(destination.id != R.id.homeFragment)
         }
     }
 

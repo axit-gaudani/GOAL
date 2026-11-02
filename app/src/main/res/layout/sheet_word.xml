@@ -88,7 +88,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnAddToDeck"
-        style="@style/Widget.Material3.Button.TonalButton"
+        style="@style/Widget.App.Button.Tonal"
         android:layout_width="match_parent"
         android:layout_height="52dp"
         android:layout_marginTop="16dp"

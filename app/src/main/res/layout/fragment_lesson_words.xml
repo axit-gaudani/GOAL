@@ -25,7 +25,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnAddAll"
-            style="@style/Widget.Material3.Button.TonalButton"
+            style="@style/Widget.App.Button.Tonal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
