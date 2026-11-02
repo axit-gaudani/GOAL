@@ -41,10 +41,21 @@ All passages are original.
    summary completion). After each answer the app shows why it is right or wrong, in English and Gujarati. The
    passage stays one tap away.
 
-## 3. Other features
+## 3. Daily practice: sentences, vocabulary, speaking
+
+| Feature | Where | What the learner does |
+|---|---|---|
+| **Sentence practice** | Home card, or Learn → Sentence practice | A round of 10 sentences a day, plus unlimited "10 more". Five exercise types: build the sentence, fill the gap, fix the mistake, listen and write, translate from Gujarati. Wrong sentences come back tomorrow, then after 3, 7, 15 and 30 days. Mastery is shown per grammar pattern (past simple, a/an, passive...). 250 sentences, Level 0 to Level 6. |
+| **Vocabulary builder** | Words tab | 5 new words a day from a topic pack: sound in Gujarati letters, audio, word family, same/opposite meaning, collocations, IELTS tip. Review with spaced-repetition flashcards, plus Match pairs and Spelling games. 10 packs, 200 words (everyday packs first, IELTS and Academic Word List packs later). |
+| **Basic speaking** | Speak tab | 7 units (introduce yourself → IELTS Speaking Part 1). Step 1: hear each phrase, see the stressed words, record your voice and compare, and let the phone's speech recognition check it. Step 2: a short conversation with Priya: choose an answer and say it. |
+
+Audio uses the phone's built-in text-to-speech (works offline when an English voice is installed). The speech check
+uses Android's speech recognition; on phones without it, learners can still record and compare their voice.
+
+## 4. Other features
 
 - **Home**: daily goal ring (minutes), streak 🔥, "continue learning" card, word of the day.
-- **Vocabulary**: spaced-repetition flashcards (Leitner boxes 1–5), plus search in English or Gujarati.
+- **All my words**: search every word in English or Gujarati.
 - **Progress**: streak, lessons, words mastered, best band, study time, a 7-day chart, progress per level and
   test history.
 - **Settings**: name, daily goal, show Gujarati by default, "open all levels" for students who already know the
@@ -53,7 +64,7 @@ All passages are original.
 
 ---
 
-## 4. How to run the app (step by step)
+## 5. How to run the app (step by step)
 
 1. Install **Android Studio** (Koala 2024.1 or newer). It includes JDK 17.
 2. `File → Open…` and choose this folder (`GOAL`).
@@ -76,13 +87,16 @@ The APK is created at `app/build/outputs/apk/debug/app-debug.apk`.
 
 ---
 
-## 5. Project structure
+## 6. Project structure
 
 ```
 app/src/main/
 ├── assets/content/            ← ALL learning content (JSON)
 │   ├── level_0.json … level_6.json
-│   └── tests.json
+│   ├── tests.json
+│   ├── sentences.json         ← Sentence practice
+│   ├── wordpacks.json         ← Vocabulary builder packs
+│   └── speaking.json          ← Basic speaking units
 ├── java/com/goal/ieltsreading/
 │   ├── IeltsApp.kt            ← creates the database + repository once
 │   ├── MainActivity.kt        ← toolbar + bottom navigation + NavHost
@@ -92,9 +106,10 @@ app/src/main/
 │   │   ├── prefs/UserPrefs.kt ← settings (SharedPreferences)
 │   │   └── repo/              ← LearningRepository: the only place screens get data from
 │   ├── domain/                ← pure logic: answer checking, band score, spaced repetition, dates
+│   ├── audio/                 ← text-to-speech (Speaker) and voice recording
 │   ├── reminder/              ← WorkManager daily reminder
 │   └── ui/                    ← one package per screen (Fragment + ViewModel + Adapter)
-│       ├── welcome/ home/ learn/ lesson/ quiz/ vocab/ tests/ progress/ settings/ common/
+│       ├── welcome/ home/ learn/ lesson/ quiz/ sentence/ vocab/ speak/ tests/ progress/ settings/ common/
 └── res/
     ├── layout/                ← XML layouts (ViewBinding classes are generated from these)
     ├── navigation/nav_graph.xml
@@ -121,7 +136,7 @@ Fragment (XML + ViewBinding)  ──observes LiveData──▶  ViewModel  ─�
 
 ---
 
-## 6. Adding your own content (for example from your PDFs)
+## 7. Adding your own content (for example from your PDFs)
 
 All lessons live in `app/src/main/assets/content/`. You don't need to change any Kotlin code to add content.
 

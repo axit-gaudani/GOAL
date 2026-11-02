@@ -44,6 +44,8 @@ class HomeFragment : Fragment() {
         binding.cardLearningPath.setOnClickListener { findNavController().navigate(R.id.levelsFragment) }
         binding.btnReview.setOnClickListener { findNavController().navigate(R.id.flashcardFragment) }
         binding.cardTests.setOnClickListener { findNavController().navigate(R.id.testsFragment) }
+        binding.cardSentences.setOnClickListener { findNavController().navigate(R.id.sentenceHubFragment) }
+        binding.cardSpeaking.setOnClickListener { findNavController().navigate(R.id.speakHubFragment) }
 
         viewModel.state.observe(viewLifecycleOwner) { s ->
             binding.textGreeting.text = greeting(s.userName)
@@ -83,6 +85,9 @@ class HomeFragment : Fragment() {
             }
             binding.progressCourse.setProgressCompat(s.coursePercent, true)
             binding.textCoursePercent.text = getString(R.string.course_progress_format, s.coursePercent)
+
+            binding.textSentencesSub.text = if (s.dueSentences > 0)
+                getString(R.string.sentences_due_format, s.dueSentences) else getString(R.string.sentences_card_sub)
 
             // Vocabulary review
             binding.textDueWords.text = resources.getQuantityString(R.plurals.due_words, s.dueWords, s.dueWords)

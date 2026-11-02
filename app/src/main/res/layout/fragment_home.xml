@@ -234,6 +234,56 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
+        <!-- Daily practice: sentences and speaking -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/card_gap"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardSentences"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true">
+
+                <LinearLayout style="@style/HubTile">
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_article"
+                        app:tint="@color/brand_primary" />
+                    <TextView style="@style/HubTile.Title" android:layout_marginTop="6dp" android:text="@string/title_sentence_practice" />
+                    <TextView android:id="@+id/textSentencesSub" style="@style/HubTile.Sub" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardSpeaking"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true">
+
+                <LinearLayout style="@style/HubTile">
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_mic"
+                        app:tint="@color/brand_tertiary" />
+                    <TextView style="@style/HubTile.Title" android:layout_marginTop="6dp" android:text="@string/title_speaking" />
+                    <TextView style="@style/HubTile.Sub" android:text="@string/speaking_card_sub" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
         <!-- Word of the day -->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardWordOfDay"

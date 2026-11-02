@@ -51,7 +51,50 @@ data class VocabEntity(
     val meaningGu: String,
     val meaningEn: String,
     val example: String,
-    val exampleGu: String
+    val exampleGu: String,
+    /** How the word sounds, written in Gujarati letters (e.g. market → માર્કેટ). */
+    val pronunciationGu: String = "",
+    /** Other forms of the word: protect, protection, protective. */
+    val family: List<WordForm> = emptyList(),
+    val synonyms: List<String> = emptyList(),
+    val opposites: List<String> = emptyList(),
+    val collocations: List<String> = emptyList(),
+    val ieltsTip: String = "",
+    /** Order inside a word pack. */
+    val sortOrder: Int = 0
+)
+
+data class WordForm(val word: String, val pos: String, val gu: String)
+
+/** A topic pack in the Vocabulary builder (Daily life, Environment...). Its words are in [VocabEntity] with ownerId = pack id. */
+@Entity(tableName = "word_packs")
+data class WordPackEntity(
+    @PrimaryKey val id: String,
+    val sortOrder: Int,
+    val title: String,
+    val titleGu: String,
+    val ielts: Boolean,
+    /** Level order the learner must reach before the pack opens. */
+    val minLevel: Int
+)
+
+/** One practice sentence for Sentence practice. */
+@Entity(tableName = "sentences", indices = [Index("level")])
+data class SentenceEntity(
+    @PrimaryKey val id: String,
+    val level: Int,
+    /** Grammar pattern, e.g. "past simple"; used for mastery per pattern. */
+    val pattern: String,
+    val en: String,
+    val gu: String,
+    val alternatives: List<String>,
+    val tip: String,
+    val tipGu: String,
+    /** The grammar word the sentence practises (e.g. "went"). */
+    val focusWord: String,
+    /** A typical mistake for that word (e.g. "go"). */
+    val focusWrong: String,
+    val focusOptions: List<String>
 )
 
 @Entity(tableName = "questions", indices = [Index("ownerId")])
@@ -127,6 +170,30 @@ data class DailyActivityEntity(
     val wordsReviewed: Int = 0,
     val questionsAnswered: Int = 0
 )
+
+@Entity(tableName = "sentence_progress")
+data class SentenceProgressEntity(
+    @PrimaryKey val sentenceId: String,
+    val box: Int,
+    val nextReviewDay: Long,
+    val timesCorrect: Int,
+    val timesWrong: Int,
+    val lastCorrect: Boolean
+)
+
+@Entity(tableName = "speaking_progress")
+data class SpeakingProgressEntity(
+    @PrimaryKey val unitId: String,
+    /** Phrases the speech check heard clearly (best attempt). */
+    val phrasesClear: Int,
+    /** Phrases the learner practised at least once. */
+    val phrasesPracticed: Int,
+    val conversationDone: Boolean,
+    val completed: Boolean
+)
+
+/** Correct / wrong answers per grammar pattern, for the mastery bars. */
+data class PatternStat(val pattern: String, val correct: Int, val wrong: Int)
 
 /** Vocabulary joined with its review progress (progress columns are null when the word is not in the deck yet). */
 data class WordWithProgress(

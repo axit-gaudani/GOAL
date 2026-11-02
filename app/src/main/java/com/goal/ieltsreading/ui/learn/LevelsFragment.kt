@@ -27,6 +27,11 @@ class LevelsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.textHeader.text = getString(R.string.levels_header)
         binding.textSubHeader.text = getString(R.string.levels_subheader)
+        binding.groupHeaderActions.visibility = View.VISIBLE
+        binding.btnHeaderAction.text = getString(R.string.title_sentence_practice)
+        binding.btnHeaderAction.setOnClickListener { findNavController().navigate(R.id.sentenceHubFragment) }
+        binding.btnHeaderAction2.text = getString(R.string.nav_tests)
+        binding.btnHeaderAction2.setOnClickListener { findNavController().navigate(R.id.testsFragment) }
         val adapter = LevelsAdapter { item ->
             if (item.unlocked) {
                 findNavController().navigate(R.id.levelDetailFragment, bundleOf("levelId" to item.level.id))

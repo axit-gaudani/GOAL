@@ -6,6 +6,9 @@ import com.goal.ieltsreading.data.db.Example
 import com.goal.ieltsreading.data.db.LessonEntity
 import com.goal.ieltsreading.data.db.LevelEntity
 import com.goal.ieltsreading.data.db.QuestionEntity
+import com.goal.ieltsreading.data.db.SentenceEntity
+import com.goal.ieltsreading.data.db.WordForm
+import com.goal.ieltsreading.data.db.WordPackEntity
 import com.goal.ieltsreading.data.db.TestEntity
 import com.goal.ieltsreading.data.db.VocabEntity
 import com.goal.ieltsreading.data.prefs.UserPrefs
@@ -23,9 +26,10 @@ class ContentSeeder(
 ) {
     companion object {
         /** Increase this number every time you edit the JSON content. */
-        const val CONTENT_VERSION = 1
+        const val CONTENT_VERSION = 2
         private const val CONTENT_DIR = "content"
         const val TEST_LEVEL_ID = "TEST"
+        const val PACK_LEVEL_ID = "PACK"
     }
 
     private val gson = Gson()
@@ -81,7 +85,30 @@ class ContentSeeder(
             }
         }
 
-        db.contentDao().replaceAll(levels, lessons, vocab.distinctBy { it.id }, questions, tests)
+        val packs = mutableListOf<WordPackEntity>()
+        if ("wordpacks.json" in files) {
+            val file = gson.fromJson(readAsset("$CONTENT_DIR/wordpacks.json"), WordPacksFileJson::class.java)
+            for (p in file.packs) {
+                packs += WordPackEntity(p.id, p.order, p.title, p.titleGu, p.ielts, p.minLevel)
+                vocab += p.words.orEmpty().mapIndexed { i, w -> w.toEntity(p.id, i) }
+            }
+        }
+
+        val sentences = mutableListOf<SentenceEntity>()
+        if ("sentences.json" in files) {
+            val file = gson.fromJson(readAsset("$CONTENT_DIR/sentences.json"), SentencesFileJson::class.java)
+            sentences += file.sentences.filter { it.focus != null && it.en.isNotBlank() }.map { s ->
+                val focus = s.focus!!
+                SentenceEntity(
+                    id = s.id, level = s.level, pattern = s.pattern, en = s.en.trim(), gu = s.gu,
+                    alternatives = s.alternatives.orEmpty(), tip = s.tip.orEmpty(), tipGu = s.tipGu.orEmpty(),
+                    focusWord = focus.word, focusWrong = focus.wrong,
+                    focusOptions = (focus.options.orEmpty() + focus.word + focus.wrong).distinct()
+                )
+            }
+        }
+
+        db.contentDao().replaceAll(levels, lessons, vocab.distinctBy { it.id }, questions, tests, packs, sentences)
     }
 
     private fun readAsset(path: String): String =
@@ -97,6 +124,25 @@ class ContentSeeder(
         meaningEn = meaningEn.orEmpty(),
         example = example.orEmpty(),
         exampleGu = exampleGu.orEmpty()
+    )
+
+    private fun PackWordJson.toEntity(packId: String, index: Int) = VocabEntity(
+        id = "$packId:${word.trim().lowercase()}",
+        ownerId = packId,
+        levelId = PACK_LEVEL_ID,
+        word = word.trim(),
+        pos = pos.orEmpty(),
+        meaningGu = meaningGu,
+        meaningEn = meaningEn.orEmpty(),
+        example = example.orEmpty(),
+        exampleGu = exampleGu.orEmpty(),
+        pronunciationGu = pronGu.orEmpty(),
+        family = family.orEmpty().map { WordForm(it.word, it.pos, it.gu) },
+        synonyms = synonyms.orEmpty(),
+        opposites = opposites.orEmpty(),
+        collocations = collocations.orEmpty(),
+        ieltsTip = ieltsTip.orEmpty(),
+        sortOrder = index
     )
 
     private fun QuestionJson.toEntity(ownerId: String, index: Int) = QuestionEntity(

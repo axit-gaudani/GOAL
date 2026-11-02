@@ -1,0 +1,4856 @@
+{
+ "sentences": [
+  {
+   "id": "S0-001",
+   "level": 0,
+   "pattern": "am/is/are",
+   "en": "I am a student.",
+   "gu": "હું વિદ્યાર્થી છું.",
+   "alternatives": [
+    "I'm a student."
+   ],
+   "tip": "Use am only with I.",
+   "tipGu": "I સાથે હંમેશા am વપરાય છે.",
+   "focus": {
+    "word": "am",
+    "wrong": "is",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S0-002",
+   "level": 0,
+   "pattern": "am/is/are",
+   "en": "She is my sister.",
+   "gu": "તે મારી બહેન છે.",
+   "alternatives": [
+    "She's my sister."
+   ],
+   "tip": "Use is with he, she and it.",
+   "tipGu": "he, she, it સાથે is વપરાય છે.",
+   "focus": {
+    "word": "is",
+    "wrong": "are",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S0-003",
+   "level": 0,
+   "pattern": "am/is/are",
+   "en": "They are my friends.",
+   "gu": "તેઓ મારા મિત્રો છે.",
+   "alternatives": [
+    "They're my friends."
+   ],
+   "tip": "Use are with we, you and they.",
+   "tipGu": "we, you, they સાથે are વપરાય છે.",
+   "focus": {
+    "word": "are",
+    "wrong": "is",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S0-004",
+   "level": 0,
+   "pattern": "am/is/are",
+   "en": "We are from Gujarat.",
+   "gu": "અમે ગુજરાતથી છીએ.",
+   "alternatives": [
+    "We're from Gujarat."
+   ],
+   "tip": "Use are with we.",
+   "tipGu": "we સાથે are વપરાય છે.",
+   "focus": {
+    "word": "are",
+    "wrong": "am",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S0-005",
+   "level": 0,
+   "pattern": "am/is/are",
+   "en": "My father is a farmer.",
+   "gu": "મારા પિતા ખેડૂત છે.",
+   "alternatives": [],
+   "tip": "One person takes is.",
+   "tipGu": "એક વ્યક્તિ માટે is વપરાય છે.",
+   "focus": {
+    "word": "is",
+    "wrong": "are",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S0-006",
+   "level": 0,
+   "pattern": "am/is/are",
+   "en": "The tea is very hot.",
+   "gu": "ચા ખૂબ ગરમ છે.",
+   "alternatives": [],
+   "tip": "One thing takes is.",
+   "tipGu": "એક વસ્તુ માટે is વપરાય છે.",
+   "focus": {
+    "word": "is",
+    "wrong": "am",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S0-007",
+   "level": 0,
+   "pattern": "am/is/are",
+   "en": "You are a good teacher.",
+   "gu": "તમે સારા શિક્ષક છો.",
+   "alternatives": [
+    "You're a good teacher."
+   ],
+   "tip": "Use are with you, even for one person.",
+   "tipGu": "you સાથે, એક વ્યક્તિ હોય તો પણ, are વપરાય છે.",
+   "focus": {
+    "word": "are",
+    "wrong": "is",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S0-008",
+   "level": 0,
+   "pattern": "am/is/are",
+   "en": "I am happy today.",
+   "gu": "હું આજે ખુશ છું.",
+   "alternatives": [
+    "I'm happy today."
+   ],
+   "tip": "I always takes am.",
+   "tipGu": "I સાથે હંમેશા am આવે છે.",
+   "focus": {
+    "word": "am",
+    "wrong": "are",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S0-009",
+   "level": 0,
+   "pattern": "am/is/are",
+   "en": "The shops are open now.",
+   "gu": "દુકાનો હવે ખુલ્લી છે.",
+   "alternatives": [],
+   "tip": "Many things take are.",
+   "tipGu": "ઘણી વસ્તુઓ (બહુવચન) માટે are વપરાય છે.",
+   "focus": {
+    "word": "are",
+    "wrong": "is",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S0-010",
+   "level": 0,
+   "pattern": "have/has",
+   "en": "I have two brothers.",
+   "gu": "મારે બે ભાઈઓ છે.",
+   "alternatives": [],
+   "tip": "Use have with I, you, we and they.",
+   "tipGu": "I, you, we, they સાથે have વપરાય છે.",
+   "focus": {
+    "word": "have",
+    "wrong": "has",
+    "options": [
+     "have",
+     "has",
+     "is"
+    ]
+   }
+  },
+  {
+   "id": "S0-011",
+   "level": 0,
+   "pattern": "have/has",
+   "en": "She has a red bag.",
+   "gu": "તેની પાસે લાલ થેલી છે.",
+   "alternatives": [],
+   "tip": "Use has with he, she and it.",
+   "tipGu": "he, she, it સાથે has વપરાય છે.",
+   "focus": {
+    "word": "has",
+    "wrong": "have",
+    "options": [
+     "have",
+     "has",
+     "is"
+    ]
+   }
+  },
+  {
+   "id": "S0-012",
+   "level": 0,
+   "pattern": "have/has",
+   "en": "We have a small house.",
+   "gu": "અમારી પાસે નાનું ઘર છે.",
+   "alternatives": [],
+   "tip": "Use have with we.",
+   "tipGu": "we સાથે have વપરાય છે.",
+   "focus": {
+    "word": "have",
+    "wrong": "has",
+    "options": [
+     "have",
+     "has",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S0-013",
+   "level": 0,
+   "pattern": "have/has",
+   "en": "My mother has long hair.",
+   "gu": "મારી માતાના વાળ લાંબા છે.",
+   "alternatives": [],
+   "tip": "One person (my mother) takes has.",
+   "tipGu": "એક વ્યક્તિ (my mother) માટે has વપરાય છે.",
+   "focus": {
+    "word": "has",
+    "wrong": "have",
+    "options": [
+     "have",
+     "has",
+     "is"
+    ]
+   }
+  },
+  {
+   "id": "S0-014",
+   "level": 0,
+   "pattern": "have/has",
+   "en": "They have a new car.",
+   "gu": "તેમની પાસે નવી ગાડી છે.",
+   "alternatives": [],
+   "tip": "Use have with they.",
+   "tipGu": "they સાથે have વપરાય છે.",
+   "focus": {
+    "word": "have",
+    "wrong": "has",
+    "options": [
+     "have",
+     "has",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S0-015",
+   "level": 0,
+   "pattern": "have/has",
+   "en": "He has a headache today.",
+   "gu": "તેને આજે માથું દુખે છે.",
+   "alternatives": [],
+   "tip": "We say has a headache for pain.",
+   "tipGu": "દુખાવા માટે has a headache કહેવાય છે.",
+   "focus": {
+    "word": "has",
+    "wrong": "have",
+    "options": [
+     "have",
+     "has",
+     "is"
+    ]
+   }
+  },
+  {
+   "id": "S0-016",
+   "level": 0,
+   "pattern": "have/has",
+   "en": "You have a nice smile.",
+   "gu": "તમારું સ્મિત સુંદર છે.",
+   "alternatives": [],
+   "tip": "Use have with you.",
+   "tipGu": "you સાથે have વપરાય છે.",
+   "focus": {
+    "word": "have",
+    "wrong": "has",
+    "options": [
+     "have",
+     "has",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S0-017",
+   "level": 0,
+   "pattern": "have/has",
+   "en": "Our village has a big temple.",
+   "gu": "અમારા ગામમાં મોટું મંદિર છે.",
+   "alternatives": [],
+   "tip": "One place (our village) takes has.",
+   "tipGu": "એક સ્થળ (our village) માટે has વપરાય છે.",
+   "focus": {
+    "word": "has",
+    "wrong": "have",
+    "options": [
+     "have",
+     "has",
+     "is"
+    ]
+   }
+  },
+  {
+   "id": "S0-018",
+   "level": 0,
+   "pattern": "have/has",
+   "en": "Ravi has a new phone.",
+   "gu": "રવિ પાસે નવો ફોન છે.",
+   "alternatives": [],
+   "tip": "A name of one person takes has.",
+   "tipGu": "એક વ્યક્તિના નામ સાથે has વપરાય છે.",
+   "focus": {
+    "word": "has",
+    "wrong": "have",
+    "options": [
+     "have",
+     "has",
+     "is"
+    ]
+   }
+  },
+  {
+   "id": "S0-019",
+   "level": 0,
+   "pattern": "this/that/these/those",
+   "en": "This is my book.",
+   "gu": "આ મારી ચોપડી છે.",
+   "alternatives": [],
+   "tip": "Use this for one thing near you.",
+   "tipGu": "નજીકની એક વસ્તુ માટે this વપરાય છે.",
+   "focus": {
+    "word": "This",
+    "wrong": "These",
+    "options": [
+     "This",
+     "These",
+     "Those"
+    ]
+   }
+  },
+  {
+   "id": "S0-020",
+   "level": 0,
+   "pattern": "this/that/these/those",
+   "en": "That is our school.",
+   "gu": "પેલી અમારી શાળા છે.",
+   "alternatives": [
+    "That's our school."
+   ],
+   "tip": "Use that for one thing far away.",
+   "tipGu": "દૂરની એક વસ્તુ માટે that વપરાય છે.",
+   "focus": {
+    "word": "That",
+    "wrong": "Those",
+    "options": [
+     "This",
+     "That",
+     "Those"
+    ]
+   }
+  },
+  {
+   "id": "S0-021",
+   "level": 0,
+   "pattern": "this/that/these/those",
+   "en": "These apples are sweet.",
+   "gu": "આ સફરજન મીઠાં છે.",
+   "alternatives": [],
+   "tip": "Use these for many things near you.",
+   "tipGu": "નજીકની ઘણી વસ્તુઓ માટે these વપરાય છે.",
+   "focus": {
+    "word": "These",
+    "wrong": "This",
+    "options": [
+     "This",
+     "These",
+     "That"
+    ]
+   }
+  },
+  {
+   "id": "S0-022",
+   "level": 0,
+   "pattern": "this/that/these/those",
+   "en": "Those boys are my cousins.",
+   "gu": "પેલા છોકરાઓ મારા પિતરાઈ ભાઈઓ છે.",
+   "alternatives": [],
+   "tip": "Use those for many things far away.",
+   "tipGu": "દૂરની ઘણી વસ્તુઓ માટે those વપરાય છે.",
+   "focus": {
+    "word": "Those",
+    "wrong": "That",
+    "options": [
+     "This",
+     "That",
+     "Those"
+    ]
+   }
+  },
+  {
+   "id": "S0-023",
+   "level": 0,
+   "pattern": "this/that/these/those",
+   "en": "Is this your pen?",
+   "gu": "શું આ તમારી પેન છે?",
+   "alternatives": [],
+   "tip": "One pen near you takes this.",
+   "tipGu": "નજીકની એક પેન માટે this વપરાય છે.",
+   "focus": {
+    "word": "this",
+    "wrong": "these",
+    "options": [
+     "this",
+     "these",
+     "those"
+    ]
+   }
+  },
+  {
+   "id": "S0-024",
+   "level": 0,
+   "pattern": "this/that/these/those",
+   "en": "I like that red shirt.",
+   "gu": "મને પેલું લાલ શર્ટ ગમે છે.",
+   "alternatives": [],
+   "tip": "One shirt far away takes that.",
+   "tipGu": "દૂરના એક શર્ટ માટે that વપરાય છે.",
+   "focus": {
+    "word": "that",
+    "wrong": "those",
+    "options": [
+     "this",
+     "that",
+     "those"
+    ]
+   }
+  },
+  {
+   "id": "S0-025",
+   "level": 0,
+   "pattern": "this/that/these/those",
+   "en": "These shoes are too small.",
+   "gu": "આ જૂતાં ખૂબ નાનાં છે.",
+   "alternatives": [],
+   "tip": "Shoes are plural, so use these.",
+   "tipGu": "shoes બહુવચન છે, એટલે these વપરાય છે.",
+   "focus": {
+    "word": "These",
+    "wrong": "This",
+    "options": [
+     "This",
+     "These",
+     "That"
+    ]
+   }
+  },
+  {
+   "id": "S0-026",
+   "level": 0,
+   "pattern": "this/that/these/those",
+   "en": "Look at those stars.",
+   "gu": "પેલા તારાઓ જુઓ.",
+   "alternatives": [],
+   "tip": "Many things far away take those.",
+   "tipGu": "દૂરની ઘણી વસ્તુઓ માટે those વપરાય છે.",
+   "focus": {
+    "word": "those",
+    "wrong": "that",
+    "options": [
+     "this",
+     "that",
+     "those"
+    ]
+   }
+  },
+  {
+   "id": "S0-027",
+   "level": 0,
+   "pattern": "a/an",
+   "en": "I eat an apple.",
+   "gu": "હું સફરજન ખાઉં છું.",
+   "alternatives": [],
+   "tip": "Use an before a vowel sound.",
+   "tipGu": "સ્વર અવાજ (a, e, i, o, u) પહેલાં an વપરાય છે.",
+   "focus": {
+    "word": "an",
+    "wrong": "a",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ]
+   }
+  },
+  {
+   "id": "S0-028",
+   "level": 0,
+   "pattern": "a/an",
+   "en": "He is a doctor.",
+   "gu": "તે ડૉક્ટર છે.",
+   "alternatives": [
+    "He's a doctor."
+   ],
+   "tip": "Use a before a consonant sound.",
+   "tipGu": "વ્યંજન અવાજ પહેલાં a વપરાય છે.",
+   "focus": {
+    "word": "a",
+    "wrong": "an",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ]
+   }
+  },
+  {
+   "id": "S0-029",
+   "level": 0,
+   "pattern": "a/an",
+   "en": "She has an umbrella.",
+   "gu": "તેની પાસે છત્રી છે.",
+   "alternatives": [],
+   "tip": "Umbrella starts with a vowel sound, so use an.",
+   "tipGu": "umbrella સ્વર અવાજથી શરૂ થાય છે, એટલે an.",
+   "focus": {
+    "word": "an",
+    "wrong": "a",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ]
+   }
+  },
+  {
+   "id": "S0-030",
+   "level": 0,
+   "pattern": "a/an",
+   "en": "We have a cow.",
+   "gu": "અમારી પાસે એક ગાય છે.",
+   "alternatives": [],
+   "tip": "Cow starts with a consonant sound, so use a.",
+   "tipGu": "cow વ્યંજન અવાજથી શરૂ થાય છે, એટલે a.",
+   "focus": {
+    "word": "a",
+    "wrong": "an",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ]
+   }
+  },
+  {
+   "id": "S0-031",
+   "level": 0,
+   "pattern": "a/an",
+   "en": "This is an egg.",
+   "gu": "આ ઈંડું છે.",
+   "alternatives": [],
+   "tip": "Egg starts with a vowel sound, so use an.",
+   "tipGu": "egg સ્વર અવાજથી શરૂ થાય છે, એટલે an.",
+   "focus": {
+    "word": "an",
+    "wrong": "a",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ]
+   }
+  },
+  {
+   "id": "S0-032",
+   "level": 0,
+   "pattern": "a/an",
+   "en": "My uncle is an engineer.",
+   "gu": "મારા કાકા એન્જિનિયર છે.",
+   "alternatives": [],
+   "tip": "Use a or an before a job.",
+   "tipGu": "વ્યવસાય પહેલાં a કે an વપરાય છે; engineer પહેલાં an.",
+   "focus": {
+    "word": "an",
+    "wrong": "a",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ]
+   }
+  },
+  {
+   "id": "S0-033",
+   "level": 0,
+   "pattern": "a/an",
+   "en": "It is an old house.",
+   "gu": "તે જૂનું ઘર છે.",
+   "alternatives": [
+    "It's an old house."
+   ],
+   "tip": "Look at the next word: old starts with a vowel sound.",
+   "tipGu": "પછીનો શબ્દ જુઓ: old સ્વર અવાજથી શરૂ થાય છે.",
+   "focus": {
+    "word": "an",
+    "wrong": "a",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ]
+   }
+  },
+  {
+   "id": "S0-034",
+   "level": 0,
+   "pattern": "a/an",
+   "en": "I need a pencil.",
+   "gu": "મારે પેન્સિલ જોઈએ છે.",
+   "alternatives": [],
+   "tip": "Pencil starts with a consonant sound, so use a.",
+   "tipGu": "pencil વ્યંજન અવાજથી શરૂ થાય છે, એટલે a.",
+   "focus": {
+    "word": "a",
+    "wrong": "an",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ]
+   }
+  },
+  {
+   "id": "S0-035",
+   "level": 0,
+   "pattern": "subject + verb + object",
+   "en": "I drink milk every morning.",
+   "gu": "હું દરરોજ સવારે દૂધ પીઉં છું.",
+   "alternatives": [],
+   "tip": "In English, the verb comes before the object.",
+   "tipGu": "અંગ્રેજીમાં ક્રિયાપદ કર્મ પહેલાં આવે છે.",
+   "focus": {
+    "word": "drink",
+    "wrong": "drinks",
+    "options": [
+     "drink",
+     "drinks",
+     "drinking"
+    ]
+   }
+  },
+  {
+   "id": "S0-036",
+   "level": 0,
+   "pattern": "subject + verb + object",
+   "en": "She cooks dal and rice.",
+   "gu": "તે દાળ-ભાત રાંધે છે.",
+   "alternatives": [],
+   "tip": "With she, add -s to the verb.",
+   "tipGu": "she સાથે ક્રિયાપદને -s લાગે છે.",
+   "focus": {
+    "word": "cooks",
+    "wrong": "cook",
+    "options": [
+     "cook",
+     "cooks",
+     "cooking"
+    ]
+   }
+  },
+  {
+   "id": "S0-037",
+   "level": 0,
+   "pattern": "subject + verb + object",
+   "en": "Ravi plays cricket every day.",
+   "gu": "રવિ દરરોજ ક્રિકેટ રમે છે.",
+   "alternatives": [],
+   "tip": "Subject + verb + object: Ravi + plays + cricket.",
+   "tipGu": "કર્તા + ક્રિયાપદ + કર્મ: Ravi + plays + cricket.",
+   "focus": {
+    "word": "plays",
+    "wrong": "play",
+    "options": [
+     "play",
+     "plays",
+     "playing"
+    ]
+   }
+  },
+  {
+   "id": "S0-038",
+   "level": 0,
+   "pattern": "subject + verb + object",
+   "en": "We watch TV at night.",
+   "gu": "અમે રાત્રે ટીવી જોઈએ છીએ.",
+   "alternatives": [],
+   "tip": "With we, the verb has no -s.",
+   "tipGu": "we સાથે ક્રિયાપદને -s લાગતો નથી.",
+   "focus": {
+    "word": "watch",
+    "wrong": "watches",
+    "options": [
+     "watch",
+     "watches",
+     "watching"
+    ]
+   }
+  },
+  {
+   "id": "S0-039",
+   "level": 0,
+   "pattern": "subject + verb + object",
+   "en": "My brother reads the newspaper.",
+   "gu": "મારો ભાઈ છાપું વાંચે છે.",
+   "alternatives": [],
+   "tip": "One person (my brother) takes verb + -s.",
+   "tipGu": "એક વ્યક્તિ (my brother) સાથે ક્રિયાપદને -s લાગે છે.",
+   "focus": {
+    "word": "reads",
+    "wrong": "read",
+    "options": [
+     "read",
+     "reads",
+     "reading"
+    ]
+   }
+  },
+  {
+   "id": "S0-040",
+   "level": 0,
+   "pattern": "subject + verb + object",
+   "en": "They sell fresh vegetables.",
+   "gu": "તેઓ તાજી શાકભાજી વેચે છે.",
+   "alternatives": [],
+   "tip": "With they, the verb has no -s.",
+   "tipGu": "they સાથે ક્રિયાપદને -s લાગતો નથી.",
+   "focus": {
+    "word": "sell",
+    "wrong": "sells",
+    "options": [
+     "sell",
+     "sells",
+     "selling"
+    ]
+   }
+  },
+  {
+   "id": "S0-041",
+   "level": 0,
+   "pattern": "subject + verb + object",
+   "en": "Meera writes a letter.",
+   "gu": "મીરા પત્ર લખે છે.",
+   "alternatives": [],
+   "tip": "The verb comes right after the subject.",
+   "tipGu": "ક્રિયાપદ કર્તા પછી તરત આવે છે.",
+   "focus": {
+    "word": "writes",
+    "wrong": "write",
+    "options": [
+     "write",
+     "writes",
+     "writing"
+    ]
+   }
+  },
+  {
+   "id": "S0-042",
+   "level": 0,
+   "pattern": "subject + verb + object",
+   "en": "I love my family.",
+   "gu": "હું મારા પરિવારને પ્રેમ કરું છું.",
+   "alternatives": [],
+   "tip": "With I, the verb has no -s.",
+   "tipGu": "I સાથે ક્રિયાપદને -s લાગતો નથી.",
+   "focus": {
+    "word": "love",
+    "wrong": "loves",
+    "options": [
+     "love",
+     "loves",
+     "loving"
+    ]
+   }
+  },
+  {
+   "id": "S0-043",
+   "level": 0,
+   "pattern": "plural nouns",
+   "en": "I have three books.",
+   "gu": "મારી પાસે ત્રણ ચોપડીઓ છે.",
+   "alternatives": [],
+   "tip": "Add -s for more than one.",
+   "tipGu": "એકથી વધુ માટે નામને -s લાગે છે.",
+   "focus": {
+    "word": "books",
+    "wrong": "book",
+    "options": [
+     "book",
+     "books",
+     "a"
+    ]
+   }
+  },
+  {
+   "id": "S0-044",
+   "level": 0,
+   "pattern": "plural nouns",
+   "en": "The children are in the garden.",
+   "gu": "બાળકો બગીચામાં છે.",
+   "alternatives": [],
+   "tip": "Child becomes children, not childs.",
+   "tipGu": "child નું બહુવચન children છે, childs નહીં.",
+   "focus": {
+    "word": "children",
+    "wrong": "child",
+    "options": [
+     "child",
+     "children",
+     "childs"
+    ]
+   }
+  },
+  {
+   "id": "S0-045",
+   "level": 0,
+   "pattern": "plural nouns",
+   "en": "Two men are at the door.",
+   "gu": "બે માણસો દરવાજે છે.",
+   "alternatives": [],
+   "tip": "Man becomes men.",
+   "tipGu": "man નું બહુવચન men છે.",
+   "focus": {
+    "word": "men",
+    "wrong": "man",
+    "options": [
+     "man",
+     "men",
+     "mans"
+    ]
+   }
+  },
+  {
+   "id": "S0-046",
+   "level": 0,
+   "pattern": "plural nouns",
+   "en": "She has five boxes.",
+   "gu": "તેની પાસે પાંચ ડબ્બા છે.",
+   "alternatives": [],
+   "tip": "Add -es after x, s, ch and sh.",
+   "tipGu": "x, s, ch, sh પછી -es લાગે છે.",
+   "focus": {
+    "word": "boxes",
+    "wrong": "box",
+    "options": [
+     "box",
+     "boxes",
+     "boxs"
+    ]
+   }
+  },
+  {
+   "id": "S0-047",
+   "level": 0,
+   "pattern": "plural nouns",
+   "en": "My teeth are white.",
+   "gu": "મારા દાંત સફેદ છે.",
+   "alternatives": [],
+   "tip": "Tooth becomes teeth.",
+   "tipGu": "tooth નું બહુવચન teeth છે.",
+   "focus": {
+    "word": "teeth",
+    "wrong": "tooth",
+    "options": [
+     "tooth",
+     "teeth",
+     "tooths"
+    ]
+   }
+  },
+  {
+   "id": "S0-048",
+   "level": 0,
+   "pattern": "plural nouns",
+   "en": "We buy ten bananas.",
+   "gu": "અમે દસ કેળાં ખરીદીએ છીએ.",
+   "alternatives": [],
+   "tip": "After a number like ten, add -s.",
+   "tipGu": "ten જેવી સંખ્યા પછી નામને -s લાગે છે.",
+   "focus": {
+    "word": "bananas",
+    "wrong": "banana",
+    "options": [
+     "banana",
+     "bananas",
+     "a"
+    ]
+   }
+  },
+  {
+   "id": "S0-049",
+   "level": 0,
+   "pattern": "plural nouns",
+   "en": "These women are teachers.",
+   "gu": "આ સ્ત્રીઓ શિક્ષિકાઓ છે.",
+   "alternatives": [],
+   "tip": "Woman becomes women.",
+   "tipGu": "woman નું બહુવચન women છે.",
+   "focus": {
+    "word": "women",
+    "wrong": "woman",
+    "options": [
+     "woman",
+     "women",
+     "womans"
+    ]
+   }
+  },
+  {
+   "id": "S0-050",
+   "level": 0,
+   "pattern": "plural nouns",
+   "en": "The city has many buses.",
+   "gu": "શહેરમાં ઘણી બસો છે.",
+   "alternatives": [],
+   "tip": "Add -es to bus.",
+   "tipGu": "bus ને -es લાગીને buses થાય છે.",
+   "focus": {
+    "word": "buses",
+    "wrong": "bus",
+    "options": [
+     "bus",
+     "buses",
+     "a"
+    ]
+   }
+  },
+  {
+   "id": "S1-001",
+   "level": 1,
+   "pattern": "present simple",
+   "en": "My father goes to work by bus.",
+   "gu": "મારા પિતા બસમાં કામે જાય છે.",
+   "alternatives": [],
+   "tip": "Go becomes goes with he, she and it.",
+   "tipGu": "he, she, it સાથે go નું goes થાય છે.",
+   "focus": {
+    "word": "goes",
+    "wrong": "go",
+    "options": [
+     "go",
+     "goes",
+     "going"
+    ]
+   }
+  },
+  {
+   "id": "S1-002",
+   "level": 1,
+   "pattern": "present simple",
+   "en": "We usually eat dinner at eight.",
+   "gu": "અમે સામાન્ય રીતે આઠ વાગ્યે જમીએ છીએ.",
+   "alternatives": [],
+   "tip": "Use present simple for habits.",
+   "tipGu": "ટેવ કે રોજિંદી ક્રિયા માટે present simple વપરાય છે.",
+   "focus": {
+    "word": "eat",
+    "wrong": "eats",
+    "options": [
+     "eat",
+     "eats",
+     "eating"
+    ]
+   }
+  },
+  {
+   "id": "S1-003",
+   "level": 1,
+   "pattern": "present simple",
+   "en": "She does not drink coffee in the evening.",
+   "gu": "તે સાંજે કોફી પીતી નથી.",
+   "alternatives": [
+    "She doesn't drink coffee in the evening."
+   ],
+   "tip": "Use does not with he, she and it.",
+   "tipGu": "he, she, it સાથે નકાર માટે does not વપરાય છે.",
+   "focus": {
+    "word": "does",
+    "wrong": "do",
+    "options": [
+     "do",
+     "does",
+     "is"
+    ]
+   }
+  },
+  {
+   "id": "S1-004",
+   "level": 1,
+   "pattern": "present simple",
+   "en": "Do you speak English at home?",
+   "gu": "શું તમે ઘરે અંગ્રેજી બોલો છો?",
+   "alternatives": [],
+   "tip": "Start questions with Do for I, you, we and they.",
+   "tipGu": "I, you, we, they ના પ્રશ્ન Do થી શરૂ થાય છે.",
+   "focus": {
+    "word": "Do",
+    "wrong": "Does",
+    "options": [
+     "Do",
+     "Does",
+     "Are"
+    ]
+   }
+  },
+  {
+   "id": "S1-005",
+   "level": 1,
+   "pattern": "present simple",
+   "en": "The sun rises in the east.",
+   "gu": "સૂર્ય પૂર્વમાં ઊગે છે.",
+   "alternatives": [],
+   "tip": "Use present simple for facts.",
+   "tipGu": "હકીકતો માટે present simple વપરાય છે.",
+   "focus": {
+    "word": "rises",
+    "wrong": "rise",
+    "options": [
+     "rise",
+     "rises",
+     "rising"
+    ]
+   }
+  },
+  {
+   "id": "S1-006",
+   "level": 1,
+   "pattern": "present simple",
+   "en": "My grandmother prays every morning at the temple.",
+   "gu": "મારાં દાદી દરરોજ સવારે મંદિરે પ્રાર્થના કરે છે.",
+   "alternatives": [],
+   "tip": "Every morning shows a habit, so use present simple.",
+   "tipGu": "every morning ટેવ બતાવે છે, એટલે present simple.",
+   "focus": {
+    "word": "prays",
+    "wrong": "pray",
+    "options": [
+     "pray",
+     "prays",
+     "praying"
+    ]
+   }
+  },
+  {
+   "id": "S1-007",
+   "level": 1,
+   "pattern": "present simple",
+   "en": "Water boils at one hundred degrees.",
+   "gu": "પાણી સો ડિગ્રીએ ઊકળે છે.",
+   "alternatives": [],
+   "tip": "Scientific facts use present simple.",
+   "tipGu": "વૈજ્ઞાનિક હકીકતો માટે present simple વપરાય છે.",
+   "focus": {
+    "word": "boils",
+    "wrong": "boil",
+    "options": [
+     "boil",
+     "boils",
+     "boiling"
+    ]
+   }
+  },
+  {
+   "id": "S1-008",
+   "level": 1,
+   "pattern": "present simple",
+   "en": "My children walk to school every day.",
+   "gu": "મારાં બાળકો દરરોજ ચાલીને શાળાએ જાય છે.",
+   "alternatives": [],
+   "tip": "Plural subjects take the verb without -s.",
+   "tipGu": "બહુવચન કર્તા સાથે ક્રિયાપદને -s લાગતો નથી.",
+   "focus": {
+    "word": "walk",
+    "wrong": "walks",
+    "options": [
+     "walk",
+     "walks",
+     "walking"
+    ]
+   }
+  },
+  {
+   "id": "S1-009",
+   "level": 1,
+   "pattern": "present simple",
+   "en": "Does your brother live in Ahmedabad?",
+   "gu": "શું તમારો ભાઈ અમદાવાદમાં રહે છે?",
+   "alternatives": [],
+   "tip": "Start questions with Does for he, she and it.",
+   "tipGu": "he, she, it ના પ્રશ્ન Does થી શરૂ થાય છે.",
+   "focus": {
+    "word": "Does",
+    "wrong": "Do",
+    "options": [
+     "Do",
+     "Does",
+     "Is"
+    ]
+   }
+  },
+  {
+   "id": "S1-010",
+   "level": 1,
+   "pattern": "past simple",
+   "en": "I went to the market yesterday.",
+   "gu": "હું ગઈકાલે બજારમાં ગયો.",
+   "alternatives": [],
+   "tip": "Go becomes went in the past.",
+   "tipGu": "go નો ભૂતકાળ went છે.",
+   "focus": {
+    "word": "went",
+    "wrong": "go",
+    "options": [
+     "go",
+     "went",
+     "gone"
+    ]
+   }
+  },
+  {
+   "id": "S1-011",
+   "level": 1,
+   "pattern": "past simple",
+   "en": "She watched a movie last night.",
+   "gu": "તેણે ગઈ રાત્રે ફિલ્મ જોઈ.",
+   "alternatives": [],
+   "tip": "Add -ed to regular verbs for the past.",
+   "tipGu": "નિયમિત ક્રિયાપદને ભૂતકાળ માટે -ed લાગે છે.",
+   "focus": {
+    "word": "watched",
+    "wrong": "watch",
+    "options": [
+     "watch",
+     "watched",
+     "watches"
+    ]
+   }
+  },
+  {
+   "id": "S1-012",
+   "level": 1,
+   "pattern": "past simple",
+   "en": "We visited our grandparents in the village.",
+   "gu": "અમે ગામમાં અમારાં દાદા-દાદીને મળવા ગયા.",
+   "alternatives": [],
+   "tip": "Visit becomes visited in the past.",
+   "tipGu": "visit નો ભૂતકાળ visited છે.",
+   "focus": {
+    "word": "visited",
+    "wrong": "visit",
+    "options": [
+     "visit",
+     "visited",
+     "visits"
+    ]
+   }
+  },
+  {
+   "id": "S1-013",
+   "level": 1,
+   "pattern": "past simple",
+   "en": "My mother made dhokla on Sunday.",
+   "gu": "મારી માતાએ રવિવારે ઢોકળાં બનાવ્યાં.",
+   "alternatives": [],
+   "tip": "Make becomes made in the past.",
+   "tipGu": "make નો ભૂતકાળ made છે.",
+   "focus": {
+    "word": "made",
+    "wrong": "make",
+    "options": [
+     "make",
+     "made",
+     "maked"
+    ]
+   }
+  },
+  {
+   "id": "S1-014",
+   "level": 1,
+   "pattern": "past simple",
+   "en": "Did you finish your homework last night?",
+   "gu": "શું તમે ગઈ રાત્રે ગૃહકાર્ય પૂરું કર્યું?",
+   "alternatives": [],
+   "tip": "Use Did for questions about the past.",
+   "tipGu": "ભૂતકાળના પ્રશ્ન માટે Did વપરાય છે.",
+   "focus": {
+    "word": "Did",
+    "wrong": "Do",
+    "options": [
+     "Do",
+     "Did",
+     "Does"
+    ]
+   }
+  },
+  {
+   "id": "S1-015",
+   "level": 1,
+   "pattern": "past simple",
+   "en": "He did not come to school today.",
+   "gu": "તે આજે શાળાએ આવ્યો નહીં.",
+   "alternatives": [
+    "He didn't come to school today."
+   ],
+   "tip": "After did not, use the base verb.",
+   "tipGu": "did not પછી ક્રિયાપદનું મૂળ રૂપ આવે છે.",
+   "focus": {
+    "word": "come",
+    "wrong": "came",
+    "options": [
+     "come",
+     "came",
+     "comes"
+    ]
+   }
+  },
+  {
+   "id": "S1-016",
+   "level": 1,
+   "pattern": "past simple",
+   "en": "The train arrived two hours late.",
+   "gu": "ટ્રેન બે કલાક મોડી આવી.",
+   "alternatives": [],
+   "tip": "Add -d to verbs ending in e.",
+   "tipGu": "e થી પૂરા થતા ક્રિયાપદને -d લાગે છે.",
+   "focus": {
+    "word": "arrived",
+    "wrong": "arrive",
+    "options": [
+     "arrive",
+     "arrived",
+     "arrives"
+    ]
+   }
+  },
+  {
+   "id": "S1-017",
+   "level": 1,
+   "pattern": "past simple",
+   "en": "I bought a new phone last month.",
+   "gu": "મેં ગયા મહિને નવો ફોન ખરીદ્યો.",
+   "alternatives": [],
+   "tip": "Buy becomes bought; brought comes from bring.",
+   "tipGu": "buy નો ભૂતકાળ bought છે; brought તો bring નો છે.",
+   "focus": {
+    "word": "bought",
+    "wrong": "brought",
+    "options": [
+     "buy",
+     "bought",
+     "brought"
+    ]
+   }
+  },
+  {
+   "id": "S1-018",
+   "level": 1,
+   "pattern": "past simple",
+   "en": "They were very tired after the wedding.",
+   "gu": "લગ્ન પછી તેઓ ખૂબ થાકેલા હતા.",
+   "alternatives": [],
+   "tip": "Use were with they in the past.",
+   "tipGu": "ભૂતકાળમાં they સાથે were વપરાય છે.",
+   "focus": {
+    "word": "were",
+    "wrong": "was",
+    "options": [
+     "was",
+     "were",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S1-019",
+   "level": 1,
+   "pattern": "and/but/because/so",
+   "en": "I like tea, but my wife likes coffee.",
+   "gu": "મને ચા ગમે છે, પણ મારી પત્નીને કોફી ગમે છે.",
+   "alternatives": [],
+   "tip": "Use but to show a contrast.",
+   "tipGu": "વિરોધ બતાવવા but (પણ) વપરાય છે.",
+   "focus": {
+    "word": "but",
+    "wrong": "and",
+    "options": [
+     "and",
+     "but",
+     "so"
+    ]
+   }
+  },
+  {
+   "id": "S1-020",
+   "level": 1,
+   "pattern": "and/but/because/so",
+   "en": "It was raining, so we stayed at home.",
+   "gu": "વરસાદ પડતો હતો, એટલે અમે ઘરે રહ્યા.",
+   "alternatives": [],
+   "tip": "Use so to show a result.",
+   "tipGu": "પરિણામ બતાવવા so (એટલે) વપરાય છે.",
+   "focus": {
+    "word": "so",
+    "wrong": "because",
+    "options": [
+     "and",
+     "but",
+     "because",
+     "so"
+    ]
+   }
+  },
+  {
+   "id": "S1-021",
+   "level": 1,
+   "pattern": "and/but/because/so",
+   "en": "She is happy because she passed the exam.",
+   "gu": "તે ખુશ છે કારણ કે તે પરીક્ષામાં પાસ થઈ.",
+   "alternatives": [],
+   "tip": "Use because to give a reason.",
+   "tipGu": "કારણ આપવા because (કારણ કે) વપરાય છે.",
+   "focus": {
+    "word": "because",
+    "wrong": "so",
+    "options": [
+     "because",
+     "so",
+     "but"
+    ]
+   }
+  },
+  {
+   "id": "S1-022",
+   "level": 1,
+   "pattern": "and/but/because/so",
+   "en": "My brother and I play cricket together.",
+   "gu": "મારો ભાઈ અને હું સાથે ક્રિકેટ રમીએ છીએ.",
+   "alternatives": [],
+   "tip": "Use and to join two similar things.",
+   "tipGu": "બે સરખી વાતો જોડવા and (અને) વપરાય છે.",
+   "focus": {
+    "word": "and",
+    "wrong": "but",
+    "options": [
+     "and",
+     "but",
+     "so"
+    ]
+   }
+  },
+  {
+   "id": "S1-023",
+   "level": 1,
+   "pattern": "and/but/because/so",
+   "en": "I was hungry, so I ate a samosa.",
+   "gu": "મને ભૂખ લાગી હતી, એટલે મેં સમોસું ખાધું.",
+   "alternatives": [],
+   "tip": "Hunger is the reason; eating is the result, so use so.",
+   "tipGu": "ભૂખ કારણ છે અને ખાવું પરિણામ છે, એટલે so.",
+   "focus": {
+    "word": "so",
+    "wrong": "but",
+    "options": [
+     "but",
+     "so",
+     "because"
+    ]
+   }
+  },
+  {
+   "id": "S1-024",
+   "level": 1,
+   "pattern": "and/but/because/so",
+   "en": "He is poor, but he is very honest.",
+   "gu": "તે ગરીબ છે, પણ તે ખૂબ પ્રામાણિક છે.",
+   "alternatives": [],
+   "tip": "Use but when the second idea is surprising.",
+   "tipGu": "બીજી વાત અણધારી હોય ત્યારે but વપરાય છે.",
+   "focus": {
+    "word": "but",
+    "wrong": "so",
+    "options": [
+     "and",
+     "but",
+     "so"
+    ]
+   }
+  },
+  {
+   "id": "S1-025",
+   "level": 1,
+   "pattern": "and/but/because/so",
+   "en": "We went home early because I felt sick.",
+   "gu": "અમે વહેલા ઘરે ગયા કારણ કે મને બીમાર જેવું લાગતું હતું.",
+   "alternatives": [],
+   "tip": "Because answers the question why.",
+   "tipGu": "because 'કેમ?' નો જવાબ આપે છે.",
+   "focus": {
+    "word": "because",
+    "wrong": "but",
+    "options": [
+     "because",
+     "but",
+     "so"
+    ]
+   }
+  },
+  {
+   "id": "S1-026",
+   "level": 1,
+   "pattern": "and/but/because/so",
+   "en": "She bought rice, dal and some vegetables.",
+   "gu": "તેણે ચોખા, દાળ અને થોડી શાકભાજી ખરીદી.",
+   "alternatives": [],
+   "tip": "In a list, put and before the last item.",
+   "tipGu": "યાદીમાં છેલ્લી વસ્તુ પહેલાં and આવે છે.",
+   "focus": {
+    "word": "and",
+    "wrong": "but",
+    "options": [
+     "and",
+     "but",
+     "so"
+    ]
+   }
+  },
+  {
+   "id": "S1-027",
+   "level": 1,
+   "pattern": "pronouns",
+   "en": "My sister helps me with my homework.",
+   "gu": "મારી બહેન મારા ગૃહકાર્યમાં મને મદદ કરે છે.",
+   "alternatives": [],
+   "tip": "After a verb, use me, not I.",
+   "tipGu": "ક્રિયાપદ પછી I નહીં, me વપરાય છે.",
+   "focus": {
+    "word": "me",
+    "wrong": "I",
+    "options": [
+     "I",
+     "me",
+     "my"
+    ]
+   }
+  },
+  {
+   "id": "S1-028",
+   "level": 1,
+   "pattern": "pronouns",
+   "en": "This blue bag is not mine.",
+   "gu": "આ વાદળી થેલી મારી નથી.",
+   "alternatives": [
+    "This blue bag isn't mine."
+   ],
+   "tip": "Use mine when no noun comes after it.",
+   "tipGu": "પાછળ નામ ન હોય ત્યારે mine વપરાય છે.",
+   "focus": {
+    "word": "mine",
+    "wrong": "my",
+    "options": [
+     "my",
+     "mine",
+     "me"
+    ]
+   }
+  },
+  {
+   "id": "S1-029",
+   "level": 1,
+   "pattern": "pronouns",
+   "en": "Please give them some cold water.",
+   "gu": "કૃપા કરીને તેમને થોડું ઠંડું પાણી આપો.",
+   "alternatives": [],
+   "tip": "After a verb, use them, not they.",
+   "tipGu": "ક્રિયાપદ પછી they નહીં, them વપરાય છે.",
+   "focus": {
+    "word": "them",
+    "wrong": "they",
+    "options": [
+     "they",
+     "them",
+     "their"
+    ]
+   }
+  },
+  {
+   "id": "S1-030",
+   "level": 1,
+   "pattern": "pronouns",
+   "en": "He loves his mother very much.",
+   "gu": "તે તેની માતાને ખૂબ પ્રેમ કરે છે.",
+   "alternatives": [],
+   "tip": "Use his before a noun to show it belongs to him.",
+   "tipGu": "કોઈ વસ્તુ તેની છે તે બતાવવા નામ પહેલાં his વપરાય છે.",
+   "focus": {
+    "word": "his",
+    "wrong": "him",
+    "options": [
+     "he",
+     "him",
+     "his"
+    ]
+   }
+  },
+  {
+   "id": "S1-031",
+   "level": 1,
+   "pattern": "pronouns",
+   "en": "We cleaned our house before Diwali.",
+   "gu": "અમે દિવાળી પહેલાં અમારું ઘર સાફ કર્યું.",
+   "alternatives": [],
+   "tip": "Use our before a noun.",
+   "tipGu": "નામ પહેલાં our (અમારું) વપરાય છે.",
+   "focus": {
+    "word": "our",
+    "wrong": "us",
+    "options": [
+     "we",
+     "us",
+     "our"
+    ]
+   }
+  },
+  {
+   "id": "S1-032",
+   "level": 1,
+   "pattern": "pronouns",
+   "en": "Please tell her the good news.",
+   "gu": "કૃપા કરીને તેને સારા સમાચાર કહો.",
+   "alternatives": [],
+   "tip": "After a verb, use her, not she.",
+   "tipGu": "ક્રિયાપદ પછી she નહીં, her વપરાય છે.",
+   "focus": {
+    "word": "her",
+    "wrong": "she",
+    "options": [
+     "she",
+     "her",
+     "hers"
+    ]
+   }
+  },
+  {
+   "id": "S1-033",
+   "level": 1,
+   "pattern": "pronouns",
+   "en": "The dog wagged its tail happily.",
+   "gu": "કૂતરાએ ખુશીથી તેની પૂંછડી હલાવી.",
+   "alternatives": [],
+   "tip": "Its (no apostrophe) shows ownership; it's means it is.",
+   "tipGu": "its માલિકી બતાવે છે; it's નો અર્થ it is છે.",
+   "focus": {
+    "word": "its",
+    "wrong": "it's",
+    "options": [
+     "its",
+     "it's",
+     "his"
+    ]
+   }
+  },
+  {
+   "id": "S1-034",
+   "level": 1,
+   "pattern": "pronouns",
+   "en": "They invited us to their wedding.",
+   "gu": "તેમણે અમને તેમનાં લગ્નમાં બોલાવ્યા.",
+   "alternatives": [],
+   "tip": "After a verb, use us, not we.",
+   "tipGu": "ક્રિયાપદ પછી we નહીં, us વપરાય છે.",
+   "focus": {
+    "word": "us",
+    "wrong": "we",
+    "options": [
+     "we",
+     "us",
+     "our"
+    ]
+   }
+  },
+  {
+   "id": "S1-035",
+   "level": 1,
+   "pattern": "prepositions of time",
+   "en": "My sister's birthday is in March.",
+   "gu": "મારી બહેનનો જન્મદિવસ માર્ચમાં છે.",
+   "alternatives": [],
+   "tip": "Use in with months.",
+   "tipGu": "મહિના સાથે in વપરાય છે.",
+   "focus": {
+    "word": "in",
+    "wrong": "on",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ]
+   }
+  },
+  {
+   "id": "S1-036",
+   "level": 1,
+   "pattern": "prepositions of time",
+   "en": "The shop opens at nine o'clock.",
+   "gu": "દુકાન નવ વાગ્યે ખૂલે છે.",
+   "alternatives": [],
+   "tip": "Use at with clock times.",
+   "tipGu": "ઘડિયાળના સમય સાથે at વપરાય છે.",
+   "focus": {
+    "word": "at",
+    "wrong": "on",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ]
+   }
+  },
+  {
+   "id": "S1-037",
+   "level": 1,
+   "pattern": "prepositions of time",
+   "en": "We go to the temple on Monday.",
+   "gu": "અમે સોમવારે મંદિરે જઈએ છીએ.",
+   "alternatives": [],
+   "tip": "Use on with days.",
+   "tipGu": "વાર (દિવસ) સાથે on વપરાય છે.",
+   "focus": {
+    "word": "on",
+    "wrong": "in",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ]
+   }
+  },
+  {
+   "id": "S1-038",
+   "level": 1,
+   "pattern": "prepositions of time",
+   "en": "My younger brother was born in 2005.",
+   "gu": "મારો નાનો ભાઈ 2005માં જન્મ્યો હતો.",
+   "alternatives": [],
+   "tip": "Use in with years.",
+   "tipGu": "વર્ષ સાથે in વપરાય છે.",
+   "focus": {
+    "word": "in",
+    "wrong": "on",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ]
+   }
+  },
+  {
+   "id": "S1-039",
+   "level": 1,
+   "pattern": "prepositions of time",
+   "en": "We celebrate Diwali in October or November.",
+   "gu": "અમે ઑક્ટોબર કે નવેમ્બરમાં દિવાળી ઊજવીએ છીએ.",
+   "alternatives": [],
+   "tip": "Months take in.",
+   "tipGu": "મહિનાઓ સાથે in આવે છે.",
+   "focus": {
+    "word": "in",
+    "wrong": "at",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ]
+   }
+  },
+  {
+   "id": "S1-040",
+   "level": 1,
+   "pattern": "prepositions of time",
+   "en": "The class starts at ten in the morning.",
+   "gu": "વર્ગ સવારે દસ વાગ્યે શરૂ થાય છે.",
+   "alternatives": [],
+   "tip": "Use at for the exact time, in for the part of the day.",
+   "tipGu": "ચોક્કસ સમય માટે at, દિવસના ભાગ માટે in.",
+   "focus": {
+    "word": "at",
+    "wrong": "in",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ]
+   }
+  },
+  {
+   "id": "S1-041",
+   "level": 1,
+   "pattern": "prepositions of time",
+   "en": "Independence Day is on the fifteenth of August.",
+   "gu": "સ્વતંત્રતા દિવસ પંદરમી ઑગસ્ટે છે.",
+   "alternatives": [],
+   "tip": "Use on with dates.",
+   "tipGu": "તારીખ સાથે on વપરાય છે.",
+   "focus": {
+    "word": "on",
+    "wrong": "in",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ]
+   }
+  },
+  {
+   "id": "S1-042",
+   "level": 1,
+   "pattern": "prepositions of time",
+   "en": "I study for two hours every evening.",
+   "gu": "હું દરરોજ સાંજે બે કલાક ભણું છું.",
+   "alternatives": [],
+   "tip": "Use for with a length of time.",
+   "tipGu": "સમયગાળો બતાવવા for વપરાય છે.",
+   "focus": {
+    "word": "for",
+    "wrong": "since",
+    "options": [
+     "for",
+     "since",
+     "from"
+    ]
+   }
+  },
+  {
+   "id": "S1-043",
+   "level": 1,
+   "pattern": "prepositions of place",
+   "en": "The keys are on the table.",
+   "gu": "ચાવીઓ ટેબલ પર છે.",
+   "alternatives": [],
+   "tip": "Use on for a surface.",
+   "tipGu": "કોઈ સપાટી ઉપર હોય ત્યારે on વપરાય છે.",
+   "focus": {
+    "word": "on",
+    "wrong": "in",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ]
+   }
+  },
+  {
+   "id": "S1-044",
+   "level": 1,
+   "pattern": "prepositions of place",
+   "en": "My cousin lives in Surat with his family.",
+   "gu": "મારો પિતરાઈ ભાઈ તેના પરિવાર સાથે સુરતમાં રહે છે.",
+   "alternatives": [],
+   "tip": "Use in with cities and countries.",
+   "tipGu": "શહેર અને દેશ સાથે in વપરાય છે.",
+   "focus": {
+    "word": "in",
+    "wrong": "at",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ]
+   }
+  },
+  {
+   "id": "S1-045",
+   "level": 1,
+   "pattern": "prepositions of place",
+   "en": "Wait for me at the bus stop.",
+   "gu": "બસ સ્ટોપ પર મારી રાહ જુઓ.",
+   "alternatives": [],
+   "tip": "Use at for a point or meeting place.",
+   "tipGu": "કોઈ ચોક્કસ જગ્યા કે મળવાના સ્થળ માટે at વપરાય છે.",
+   "focus": {
+    "word": "at",
+    "wrong": "in",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ]
+   }
+  },
+  {
+   "id": "S1-046",
+   "level": 1,
+   "pattern": "prepositions of place",
+   "en": "The cat is under the bed.",
+   "gu": "બિલાડી પલંગ નીચે છે.",
+   "alternatives": [],
+   "tip": "Under means below something.",
+   "tipGu": "under નો અર્થ 'નીચે' થાય છે.",
+   "focus": {
+    "word": "under",
+    "wrong": "on",
+    "options": [
+     "in",
+     "on",
+     "under"
+    ]
+   }
+  },
+  {
+   "id": "S1-047",
+   "level": 1,
+   "pattern": "prepositions of place",
+   "en": "The bank is between the school and the hospital.",
+   "gu": "બેંક શાળા અને હૉસ્પિટલની વચ્ચે છે.",
+   "alternatives": [],
+   "tip": "Use between for two things.",
+   "tipGu": "બે વસ્તુઓની વચ્ચે માટે between વપરાય છે.",
+   "focus": {
+    "word": "between",
+    "wrong": "among",
+    "options": [
+     "between",
+     "among",
+     "behind"
+    ]
+   }
+  },
+  {
+   "id": "S1-048",
+   "level": 1,
+   "pattern": "prepositions of place",
+   "en": "My bag is behind the door.",
+   "gu": "મારી થેલી દરવાજા પાછળ છે.",
+   "alternatives": [],
+   "tip": "For place, use behind, not after.",
+   "tipGu": "સ્થાન માટે behind (પાછળ) વપરાય, after નહીં.",
+   "focus": {
+    "word": "behind",
+    "wrong": "after",
+    "options": [
+     "behind",
+     "after",
+     "under"
+    ]
+   }
+  },
+  {
+   "id": "S1-049",
+   "level": 1,
+   "pattern": "prepositions of place",
+   "en": "Put the milk in the fridge, please.",
+   "gu": "કૃપા કરીને દૂધ ફ્રિજમાં મૂકો.",
+   "alternatives": [
+    "Please put the milk in the fridge."
+   ],
+   "tip": "Use in for inside something.",
+   "tipGu": "કોઈ વસ્તુની અંદર માટે in વપરાય છે.",
+   "focus": {
+    "word": "in",
+    "wrong": "on",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ]
+   }
+  },
+  {
+   "id": "S1-050",
+   "level": 1,
+   "pattern": "prepositions of place",
+   "en": "The hospital is near the railway station.",
+   "gu": "હૉસ્પિટલ રેલવે સ્ટેશનની નજીક છે.",
+   "alternatives": [],
+   "tip": "Near is followed directly by a place.",
+   "tipGu": "near પછી સીધું સ્થળનું નામ આવે છે.",
+   "focus": {
+    "word": "near",
+    "wrong": "nearby",
+    "options": [
+     "near",
+     "nearby",
+     "at"
+    ]
+   }
+  },
+  {
+   "id": "S2-001",
+   "level": 2,
+   "pattern": "comparatives",
+   "en": "Mumbai is much bigger and busier than Ahmedabad.",
+   "gu": "મુંબઈ અમદાવાદ કરતાં ઘણું મોટું અને વધુ વ્યસ્ત છે.",
+   "alternatives": [],
+   "tip": "Use than after a comparative, not then.",
+   "tipGu": "સરખામણીમાં than વપરાય છે, then નહીં.",
+   "focus": {
+    "word": "than",
+    "wrong": "then",
+    "options": [
+     "than",
+     "then",
+     "that"
+    ]
+   }
+  },
+  {
+   "id": "S2-002",
+   "level": 2,
+   "pattern": "comparatives",
+   "en": "My new phone is better than my old one.",
+   "gu": "મારો નવો ફોન મારા જૂના ફોન કરતાં સારો છે.",
+   "alternatives": [],
+   "tip": "Good becomes better when we compare two things.",
+   "tipGu": "બે વસ્તુની સરખામણીમાં good નું better થાય છે.",
+   "focus": {
+    "word": "better",
+    "wrong": "best",
+    "options": [
+     "good",
+     "better",
+     "best"
+    ]
+   }
+  },
+  {
+   "id": "S2-003",
+   "level": 2,
+   "pattern": "comparatives",
+   "en": "Train travel is cheaper than air travel in India.",
+   "gu": "ભારતમાં વિમાન કરતાં ટ્રેનની મુસાફરી સસ્તી છે.",
+   "alternatives": [],
+   "tip": "Add -er to short adjectives to compare.",
+   "tipGu": "ટૂંકા વિશેષણને સરખામણી માટે -er લાગે છે.",
+   "focus": {
+    "word": "cheaper",
+    "wrong": "cheap",
+    "options": [
+     "cheap",
+     "cheaper",
+     "cheapest"
+    ]
+   }
+  },
+  {
+   "id": "S2-004",
+   "level": 2,
+   "pattern": "comparatives",
+   "en": "This is the most beautiful temple in our city.",
+   "gu": "આ અમારા શહેરનું સૌથી સુંદર મંદિર છે.",
+   "alternatives": [],
+   "tip": "Use the most for the top one in a group.",
+   "tipGu": "ઘણામાંથી 'સૌથી' બતાવવા the most વપરાય છે.",
+   "focus": {
+    "word": "most",
+    "wrong": "more",
+    "options": [
+     "more",
+     "most",
+     "much"
+    ]
+   }
+  },
+  {
+   "id": "S2-005",
+   "level": 2,
+   "pattern": "comparatives",
+   "en": "Ahmedabad is hotter than Shimla in the summer.",
+   "gu": "ઉનાળામાં અમદાવાદ શિમલા કરતાં વધુ ગરમ હોય છે.",
+   "alternatives": [],
+   "tip": "Hot doubles the t: hotter.",
+   "tipGu": "hot માં t બેવડાઈને hotter બને છે.",
+   "focus": {
+    "word": "hotter",
+    "wrong": "hot",
+    "options": [
+     "hot",
+     "hotter",
+     "hottest"
+    ]
+   }
+  },
+  {
+   "id": "S2-006",
+   "level": 2,
+   "pattern": "comparatives",
+   "en": "My sister is the tallest girl in her class.",
+   "gu": "મારી બહેન તેના વર્ગની સૌથી ઊંચી છોકરી છે.",
+   "alternatives": [],
+   "tip": "Use the + -est for the top one in a group.",
+   "tipGu": "જૂથમાં 'સૌથી' માટે the + -est વપરાય છે.",
+   "focus": {
+    "word": "tallest",
+    "wrong": "taller",
+    "options": [
+     "tall",
+     "taller",
+     "tallest"
+    ]
+   }
+  },
+  {
+   "id": "S2-007",
+   "level": 2,
+   "pattern": "comparatives",
+   "en": "Reading books is more interesting than watching TV.",
+   "gu": "ટીવી જોવા કરતાં પુસ્તકો વાંચવું વધુ રસપ્રદ છે.",
+   "alternatives": [],
+   "tip": "Use more with long adjectives.",
+   "tipGu": "લાંબા વિશેષણ સાથે more વપરાય છે.",
+   "focus": {
+    "word": "more",
+    "wrong": "most",
+    "options": [
+     "more",
+     "most",
+     "much"
+    ]
+   }
+  },
+  {
+   "id": "S2-008",
+   "level": 2,
+   "pattern": "can/must/should",
+   "en": "You should drink more water in the hot summer.",
+   "gu": "ગરમ ઉનાળામાં તમારે વધુ પાણી પીવું જોઈએ.",
+   "alternatives": [],
+   "tip": "Use should to give advice.",
+   "tipGu": "સલાહ આપવા should (જોઈએ) વપરાય છે.",
+   "focus": {
+    "word": "should",
+    "wrong": "can",
+    "options": [
+     "should",
+     "can",
+     "must"
+    ]
+   }
+  },
+  {
+   "id": "S2-009",
+   "level": 2,
+   "pattern": "can/must/should",
+   "en": "I can speak Gujarati, Hindi and a little English.",
+   "gu": "હું ગુજરાતી, હિન્દી અને થોડું અંગ્રેજી બોલી શકું છું.",
+   "alternatives": [],
+   "tip": "After can, use the base verb.",
+   "tipGu": "can પછી ક્રિયાપદનું મૂળ રૂપ આવે છે.",
+   "focus": {
+    "word": "speak",
+    "wrong": "speaks",
+    "options": [
+     "speak",
+     "speaks",
+     "speaking"
+    ]
+   }
+  },
+  {
+   "id": "S2-010",
+   "level": 2,
+   "pattern": "can/must/should",
+   "en": "Students must wear a uniform at our school.",
+   "gu": "અમારી શાળામાં વિદ્યાર્થીઓએ ગણવેશ પહેરવો ફરજિયાત છે.",
+   "alternatives": [],
+   "tip": "Use must for a rule.",
+   "tipGu": "નિયમ કે ફરજ માટે must વપરાય છે.",
+   "focus": {
+    "word": "must",
+    "wrong": "can",
+    "options": [
+     "must",
+     "can",
+     "should"
+    ]
+   }
+  },
+  {
+   "id": "S2-011",
+   "level": 2,
+   "pattern": "can/must/should",
+   "en": "You should not use your phone while driving.",
+   "gu": "વાહન ચલાવતી વખતે તમારે ફોન ન વાપરવો જોઈએ.",
+   "alternatives": [
+    "You shouldn't use your phone while driving."
+   ],
+   "tip": "After should not, use the base verb.",
+   "tipGu": "should not પછી ક્રિયાપદનું મૂળ રૂપ આવે છે.",
+   "focus": {
+    "word": "use",
+    "wrong": "using",
+    "options": [
+     "use",
+     "using",
+     "uses"
+    ]
+   }
+  },
+  {
+   "id": "S2-012",
+   "level": 2,
+   "pattern": "can/must/should",
+   "en": "Can you help me carry this heavy bag?",
+   "gu": "શું તમે મને આ ભારે થેલી ઉપાડવામાં મદદ કરી શકો?",
+   "alternatives": [],
+   "tip": "Use Can you to ask for help politely.",
+   "tipGu": "વિનંતીથી મદદ માગવા Can you વપરાય છે.",
+   "focus": {
+    "word": "Can",
+    "wrong": "Must",
+    "options": [
+     "Can",
+     "Must",
+     "Should"
+    ]
+   }
+  },
+  {
+   "id": "S2-013",
+   "level": 2,
+   "pattern": "can/must/should",
+   "en": "My grandfather cannot walk without his stick now.",
+   "gu": "મારા દાદા હવે લાકડી વિના ચાલી શકતા નથી.",
+   "alternatives": [
+    "My grandfather can't walk without his stick now."
+   ],
+   "tip": "Cannot means not able to.",
+   "tipGu": "cannot નો અર્થ 'કરી શકતું નથી' થાય છે.",
+   "focus": {
+    "word": "cannot",
+    "wrong": "can",
+    "options": [
+     "can",
+     "cannot",
+     "must"
+    ]
+   }
+  },
+  {
+   "id": "S2-014",
+   "level": 2,
+   "pattern": "can/must/should",
+   "en": "We must leave now or we will miss the bus.",
+   "gu": "આપણે હમણાં નીકળવું જ પડશે, નહીંતર બસ ચૂકી જઈશું.",
+   "alternatives": [],
+   "tip": "Use must for something very necessary.",
+   "tipGu": "ખૂબ જરૂરી વાત માટે must વપરાય છે.",
+   "focus": {
+    "word": "must",
+    "wrong": "can",
+    "options": [
+     "must",
+     "can",
+     "may"
+    ]
+   }
+  },
+  {
+   "id": "S2-015",
+   "level": 2,
+   "pattern": "present continuous",
+   "en": "My mother is cooking lunch in the kitchen right now.",
+   "gu": "મારી માતા અત્યારે રસોડામાં બપોરનું ભોજન બનાવી રહી છે.",
+   "alternatives": [],
+   "tip": "Use is/are + verb-ing for actions happening now.",
+   "tipGu": "અત્યારે ચાલતી ક્રિયા માટે is/are + ક્રિયાપદ-ing વપરાય છે.",
+   "focus": {
+    "word": "cooking",
+    "wrong": "cook",
+    "options": [
+     "cook",
+     "cooks",
+     "cooking"
+    ]
+   }
+  },
+  {
+   "id": "S2-016",
+   "level": 2,
+   "pattern": "present continuous",
+   "en": "The children are playing cricket in the park.",
+   "gu": "બાળકો બગીચામાં ક્રિકેટ રમી રહ્યાં છે.",
+   "alternatives": [],
+   "tip": "Children is plural, so use are + -ing.",
+   "tipGu": "children બહુવચન છે, એટલે are + -ing.",
+   "focus": {
+    "word": "are",
+    "wrong": "is",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S2-017",
+   "level": 2,
+   "pattern": "present continuous",
+   "en": "I am studying for my English exam this week.",
+   "gu": "આ અઠવાડિયે હું મારી અંગ્રેજીની પરીક્ષા માટે ભણી રહ્યો છું.",
+   "alternatives": [
+    "I'm studying for my English exam this week."
+   ],
+   "tip": "Use am + -ing with I.",
+   "tipGu": "I સાથે am + -ing વપરાય છે.",
+   "focus": {
+    "word": "am",
+    "wrong": "is",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S2-018",
+   "level": 2,
+   "pattern": "present continuous",
+   "en": "Look, it is raining very heavily outside now.",
+   "gu": "જુઓ, અત્યારે બહાર ખૂબ જોરથી વરસાદ પડી રહ્યો છે.",
+   "alternatives": [
+    "Look, it's raining very heavily outside now."
+   ],
+   "tip": "Look and now show an action in progress.",
+   "tipGu": "look અને now ચાલુ ક્રિયા બતાવે છે.",
+   "focus": {
+    "word": "raining",
+    "wrong": "rain",
+    "options": [
+     "rain",
+     "rains",
+     "raining"
+    ]
+   }
+  },
+  {
+   "id": "S2-019",
+   "level": 2,
+   "pattern": "present continuous",
+   "en": "Why are you laughing at my new haircut?",
+   "gu": "તમે મારા નવા હેરકટ પર કેમ હસી રહ્યા છો?",
+   "alternatives": [],
+   "tip": "In questions, put are before the subject.",
+   "tipGu": "પ્રશ્નમાં are કર્તા પહેલાં આવે છે.",
+   "focus": {
+    "word": "laughing",
+    "wrong": "laugh",
+    "options": [
+     "laugh",
+     "laughs",
+     "laughing"
+    ]
+   }
+  },
+  {
+   "id": "S2-020",
+   "level": 2,
+   "pattern": "present continuous",
+   "en": "My father is not working today because it is Sunday.",
+   "gu": "આજે રવિવાર છે, એટલે મારા પિતા આજે કામ કરી રહ્યા નથી.",
+   "alternatives": [
+    "My father isn't working today because it's Sunday."
+   ],
+   "tip": "For the negative, use is not + -ing.",
+   "tipGu": "નકાર માટે is not + -ing વપરાય છે.",
+   "focus": {
+    "word": "working",
+    "wrong": "work",
+    "options": [
+     "work",
+     "works",
+     "working"
+    ]
+   }
+  },
+  {
+   "id": "S2-021",
+   "level": 2,
+   "pattern": "present continuous",
+   "en": "We are planning a trip to Kutch next month.",
+   "gu": "અમે આવતા મહિને કચ્છની યાત્રાનું આયોજન કરી રહ્યા છીએ.",
+   "alternatives": [
+    "We're planning a trip to Kutch next month."
+   ],
+   "tip": "Present continuous can also show future plans.",
+   "tipGu": "present continuous ભવિષ્યનાં આયોજનો પણ બતાવી શકે છે.",
+   "focus": {
+    "word": "planning",
+    "wrong": "plan",
+    "options": [
+     "plan",
+     "planned",
+     "planning"
+    ]
+   }
+  },
+  {
+   "id": "S2-022",
+   "level": 2,
+   "pattern": "there is/there are",
+   "en": "There is a big banyan tree near our house.",
+   "gu": "અમારા ઘર પાસે એક મોટું વડનું ઝાડ છે.",
+   "alternatives": [
+    "There's a big banyan tree near our house."
+   ],
+   "tip": "Use there is with one thing.",
+   "tipGu": "એક વસ્તુ માટે there is વપરાય છે.",
+   "focus": {
+    "word": "is",
+    "wrong": "are",
+    "options": [
+     "is",
+     "are",
+     "has"
+    ]
+   }
+  },
+  {
+   "id": "S2-023",
+   "level": 2,
+   "pattern": "there is/there are",
+   "en": "There are thirty-five students in my English class.",
+   "gu": "મારા અંગ્રેજી વર્ગમાં પાંત્રીસ વિદ્યાર્થીઓ છે.",
+   "alternatives": [],
+   "tip": "Use there are with many things.",
+   "tipGu": "ઘણી વસ્તુઓ માટે there are વપરાય છે.",
+   "focus": {
+    "word": "are",
+    "wrong": "is",
+    "options": [
+     "is",
+     "are",
+     "have"
+    ]
+   }
+  },
+  {
+   "id": "S2-024",
+   "level": 2,
+   "pattern": "there is/there are",
+   "en": "Is there a bank near the railway station?",
+   "gu": "શું રેલવે સ્ટેશન પાસે કોઈ બેંક છે?",
+   "alternatives": [],
+   "tip": "In questions, put is before there.",
+   "tipGu": "પ્રશ્નમાં is, there ની પહેલાં આવે છે.",
+   "focus": {
+    "word": "there",
+    "wrong": "their",
+    "options": [
+     "there",
+     "their",
+     "it"
+    ]
+   }
+  },
+  {
+   "id": "S2-025",
+   "level": 2,
+   "pattern": "there is/there are",
+   "en": "There are no clean glasses in the kitchen.",
+   "gu": "રસોડામાં એક પણ સ્વચ્છ ગ્લાસ નથી.",
+   "alternatives": [],
+   "tip": "Glasses is plural, so use there are.",
+   "tipGu": "glasses બહુવચન છે, એટલે there are.",
+   "focus": {
+    "word": "are",
+    "wrong": "is",
+    "options": [
+     "is",
+     "are",
+     "has"
+    ]
+   }
+  },
+  {
+   "id": "S2-026",
+   "level": 2,
+   "pattern": "there is/there are",
+   "en": "There is some milk in the fridge for your tea.",
+   "gu": "તમારી ચા માટે ફ્રિજમાં થોડું દૂધ છે.",
+   "alternatives": [
+    "There's some milk in the fridge for your tea."
+   ],
+   "tip": "Uncountable nouns like milk take there is.",
+   "tipGu": "milk જેવાં ન ગણી શકાય તેવાં નામ સાથે there is.",
+   "focus": {
+    "word": "is",
+    "wrong": "are",
+    "options": [
+     "is",
+     "are",
+     "have"
+    ]
+   }
+  },
+  {
+   "id": "S2-027",
+   "level": 2,
+   "pattern": "there is/there are",
+   "en": "There were many people at the wedding last night.",
+   "gu": "ગઈ રાત્રે લગ્નમાં ઘણા લોકો હતા.",
+   "alternatives": [],
+   "tip": "In the past, use there were for many.",
+   "tipGu": "ભૂતકાળમાં ઘણા માટે there were વપરાય છે.",
+   "focus": {
+    "word": "were",
+    "wrong": "was",
+    "options": [
+     "was",
+     "were",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S2-028",
+   "level": 2,
+   "pattern": "there is/there are",
+   "en": "How many rooms are there in your new flat?",
+   "gu": "તમારા નવા ફ્લેટમાં કેટલા રૂમ છે?",
+   "alternatives": [],
+   "tip": "Rooms is plural, so ask are there.",
+   "tipGu": "rooms બહુવચન છે, એટલે are there પૂછાય છે.",
+   "focus": {
+    "word": "are",
+    "wrong": "is",
+    "options": [
+     "is",
+     "are",
+     "have"
+    ]
+   }
+  },
+  {
+   "id": "S2-029",
+   "level": 2,
+   "pattern": "future: will/going to",
+   "en": "I will call you after the meeting tonight.",
+   "gu": "આજે રાત્રે મીટિંગ પછી હું તમને ફોન કરીશ.",
+   "alternatives": [
+    "I'll call you after the meeting tonight."
+   ],
+   "tip": "Use will for promises and quick decisions.",
+   "tipGu": "વચન કે તરત લીધેલા નિર્ણય માટે will વપરાય છે.",
+   "focus": {
+    "word": "will",
+    "wrong": "would",
+    "options": [
+     "will",
+     "would",
+     "am"
+    ]
+   }
+  },
+  {
+   "id": "S2-030",
+   "level": 2,
+   "pattern": "future: will/going to",
+   "en": "We are going to visit Somnath next weekend.",
+   "gu": "અમે આવતા સપ્તાહના અંતે સોમનાથની મુલાકાત લેવાના છીએ.",
+   "alternatives": [
+    "We're going to visit Somnath next weekend."
+   ],
+   "tip": "Use be going to for plans.",
+   "tipGu": "પહેલેથી નક્કી કરેલી યોજના માટે be going to વપરાય છે.",
+   "focus": {
+    "word": "going",
+    "wrong": "go",
+    "options": [
+     "go",
+     "going",
+     "gone"
+    ]
+   }
+  },
+  {
+   "id": "S2-031",
+   "level": 2,
+   "pattern": "future: will/going to",
+   "en": "Look at those dark clouds; it is going to rain.",
+   "gu": "પેલાં કાળાં વાદળ જુઓ; વરસાદ પડવાનો છે.",
+   "alternatives": [
+    "Look at those dark clouds; it's going to rain."
+   ],
+   "tip": "After going to, use the base verb.",
+   "tipGu": "going to પછી ક્રિયાપદનું મૂળ રૂપ આવે છે.",
+   "focus": {
+    "word": "rain",
+    "wrong": "raining",
+    "options": [
+     "rain",
+     "rains",
+     "raining"
+    ]
+   }
+  },
+  {
+   "id": "S2-032",
+   "level": 2,
+   "pattern": "future: will/going to",
+   "en": "Don't worry, I will help you with your project.",
+   "gu": "ચિંતા ન કરો, હું તમારા પ્રોજેક્ટમાં તમારી મદદ કરીશ.",
+   "alternatives": [
+    "Don't worry, I'll help you with your project."
+   ],
+   "tip": "After will, use the base verb.",
+   "tipGu": "will પછી ક્રિયાપદનું મૂળ રૂપ આવે છે.",
+   "focus": {
+    "word": "help",
+    "wrong": "helping",
+    "options": [
+     "help",
+     "helps",
+     "helping"
+    ]
+   }
+  },
+  {
+   "id": "S2-033",
+   "level": 2,
+   "pattern": "future: will/going to",
+   "en": "My sister will finish her degree next year.",
+   "gu": "મારી બહેન આવતા વર્ષે તેની ડિગ્રી પૂરી કરશે.",
+   "alternatives": [],
+   "tip": "Use will + verb for the future.",
+   "tipGu": "ભવિષ્ય માટે will + ક્રિયાપદ વપરાય છે.",
+   "focus": {
+    "word": "will",
+    "wrong": "is",
+    "options": [
+     "will",
+     "is",
+     "going"
+    ]
+   }
+  },
+  {
+   "id": "S2-034",
+   "level": 2,
+   "pattern": "future: will/going to",
+   "en": "Are you going to watch the match tonight?",
+   "gu": "શું તમે આજે રાત્રે મેચ જોવાના છો?",
+   "alternatives": [],
+   "tip": "In going to questions, start with Are or Is.",
+   "tipGu": "going to ના પ્રશ્ન Are કે Is થી શરૂ થાય છે.",
+   "focus": {
+    "word": "Are",
+    "wrong": "Do",
+    "options": [
+     "Are",
+     "Do",
+     "Will"
+    ]
+   }
+  },
+  {
+   "id": "S2-035",
+   "level": 2,
+   "pattern": "question forms",
+   "en": "Where do you live in Ahmedabad these days?",
+   "gu": "આજકાલ તમે અમદાવાદમાં ક્યાં રહો છો?",
+   "alternatives": [],
+   "tip": "Wh- word + do + subject + verb.",
+   "tipGu": "Wh- શબ્દ + do + કર્તા + ક્રિયાપદ.",
+   "focus": {
+    "word": "do",
+    "wrong": "are",
+    "options": [
+     "do",
+     "does",
+     "are"
+    ]
+   }
+  },
+  {
+   "id": "S2-036",
+   "level": 2,
+   "pattern": "question forms",
+   "en": "What time does the train leave for Mumbai?",
+   "gu": "મુંબઈ માટે ટ્રેન કેટલા વાગ્યે ઊપડે છે?",
+   "alternatives": [],
+   "tip": "Use does with one thing like the train.",
+   "tipGu": "train જેવી એક વસ્તુ સાથે does વપરાય છે.",
+   "focus": {
+    "word": "does",
+    "wrong": "do",
+    "options": [
+     "do",
+     "does",
+     "is"
+    ]
+   }
+  },
+  {
+   "id": "S2-037",
+   "level": 2,
+   "pattern": "question forms",
+   "en": "Why did you come late to class today?",
+   "gu": "આજે તમે વર્ગમાં કેમ મોડા આવ્યા?",
+   "alternatives": [],
+   "tip": "Use did for questions about the past.",
+   "tipGu": "ભૂતકાળના પ્રશ્ન માટે did વપરાય છે.",
+   "focus": {
+    "word": "did",
+    "wrong": "do",
+    "options": [
+     "do",
+     "did",
+     "were"
+    ]
+   }
+  },
+  {
+   "id": "S2-038",
+   "level": 2,
+   "pattern": "question forms",
+   "en": "How often do you visit your grandparents in the village?",
+   "gu": "તમે ગામમાં તમારાં દાદા-દાદીને કેટલી વાર મળવા જાઓ છો?",
+   "alternatives": [],
+   "tip": "Ask How often to talk about frequency.",
+   "tipGu": "કેટલી વાર તે પૂછવા How often વપરાય છે.",
+   "focus": {
+    "word": "often",
+    "wrong": "much",
+    "options": [
+     "often",
+     "much",
+     "many"
+    ]
+   }
+  },
+  {
+   "id": "S2-039",
+   "level": 2,
+   "pattern": "question forms",
+   "en": "Who is your favourite teacher in your school?",
+   "gu": "તમારી શાળામાં તમારા પ્રિય શિક્ષક કોણ છે?",
+   "alternatives": [],
+   "tip": "Use Who to ask about a person.",
+   "tipGu": "વ્યક્તિ વિશે પૂછવા Who વપરાય છે.",
+   "focus": {
+    "word": "Who",
+    "wrong": "Whose",
+    "options": [
+     "Who",
+     "Whose",
+     "Where"
+    ]
+   }
+  },
+  {
+   "id": "S2-040",
+   "level": 2,
+   "pattern": "question forms",
+   "en": "How much does this new mobile phone cost?",
+   "gu": "આ નવો મોબાઇલ ફોન કેટલાનો છે?",
+   "alternatives": [],
+   "tip": "Use How much to ask about price.",
+   "tipGu": "કિંમત પૂછવા How much વપરાય છે.",
+   "focus": {
+    "word": "much",
+    "wrong": "many",
+    "options": [
+     "much",
+     "many",
+     "often"
+    ]
+   }
+  },
+  {
+   "id": "S3-001",
+   "level": 3,
+   "pattern": "present perfect",
+   "en": "The government has built several new schools in rural areas over the past five years.",
+   "gu": "છેલ્લાં પાંચ વર્ષમાં સરકારે ગ્રામીણ વિસ્તારોમાં ઘણી નવી શાળાઓ બાંધી છે.",
+   "alternatives": [],
+   "tip": "Use has + past participle for a past action with a result now.",
+   "tipGu": "ભૂતકાળની ક્રિયા જેનું પરિણામ આજે દેખાય, તેના માટે has + ભૂતકૃદંત.",
+   "focus": {
+    "word": "has",
+    "wrong": "have",
+    "options": [
+     "has",
+     "have",
+     "had"
+    ]
+   }
+  },
+  {
+   "id": "S3-002",
+   "level": 3,
+   "pattern": "present perfect",
+   "en": "Air pollution in Indian cities has increased sharply since the early 2000s.",
+   "gu": "2000ના દાયકાની શરૂઆતથી ભારતીય શહેરોમાં હવાનું પ્રદૂષણ ઝડપથી વધ્યું છે.",
+   "alternatives": [],
+   "tip": "Use since with a starting point in time.",
+   "tipGu": "સમયના શરૂઆતના બિંદુ સાથે since વપરાય છે.",
+   "focus": {
+    "word": "since",
+    "wrong": "for",
+    "options": [
+     "since",
+     "for",
+     "from"
+    ]
+   }
+  },
+  {
+   "id": "S3-003",
+   "level": 3,
+   "pattern": "present perfect",
+   "en": "Many students have started using online courses to improve their English skills.",
+   "gu": "ઘણા વિદ્યાર્થીઓએ પોતાનું અંગ્રેજી સુધારવા ઑનલાઇન અભ્યાસક્રમોનો ઉપયોગ શરૂ કર્યો છે.",
+   "alternatives": [],
+   "tip": "After have or has, use the past participle.",
+   "tipGu": "have કે has પછી ભૂતકૃદંત (past participle) આવે છે.",
+   "focus": {
+    "word": "started",
+    "wrong": "start",
+    "options": [
+     "start",
+     "started",
+     "starting"
+    ]
+   }
+  },
+  {
+   "id": "S3-004",
+   "level": 3,
+   "pattern": "present perfect",
+   "en": "Scientists have known about the dangers of smoking for more than sixty years.",
+   "gu": "વૈજ્ઞાનિકો સાઠ કરતાં વધુ વર્ષોથી ધૂમ્રપાનના જોખમો વિશે જાણે છે.",
+   "alternatives": [],
+   "tip": "Use for with a period of time.",
+   "tipGu": "સમયગાળા સાથે for વપરાય છે.",
+   "focus": {
+    "word": "for",
+    "wrong": "since",
+    "options": [
+     "for",
+     "since",
+     "from"
+    ]
+   }
+  },
+  {
+   "id": "S3-005",
+   "level": 3,
+   "pattern": "present perfect",
+   "en": "I have never seen such heavy rain in our city in my whole life.",
+   "gu": "મેં મારા આખા જીવનમાં અમારા શહેરમાં આટલો ભારે વરસાદ ક્યારેય જોયો નથી.",
+   "alternatives": [
+    "I've never seen such heavy rain in our city in my whole life."
+   ],
+   "tip": "Use the past participle seen, not saw, after have.",
+   "tipGu": "have પછી saw નહીં, seen વપરાય છે.",
+   "focus": {
+    "word": "seen",
+    "wrong": "saw",
+    "options": [
+     "see",
+     "saw",
+     "seen"
+    ]
+   }
+  },
+  {
+   "id": "S3-006",
+   "level": 3,
+   "pattern": "present perfect",
+   "en": "Have you ever visited a science museum with your friends from school?",
+   "gu": "શું તમે ક્યારેય શાળાના મિત્રો સાથે વિજ્ઞાન સંગ્રહાલયની મુલાકાત લીધી છે?",
+   "alternatives": [],
+   "tip": "Use ever in questions about life experience.",
+   "tipGu": "જીવનના અનુભવ વિશેના પ્રશ્નમાં ever વપરાય છે.",
+   "focus": {
+    "word": "ever",
+    "wrong": "never",
+    "options": [
+     "ever",
+     "never",
+     "yet"
+    ]
+   }
+  },
+  {
+   "id": "S3-007",
+   "level": 3,
+   "pattern": "relative clauses",
+   "en": "A doctor is a person who treats sick people and helps them to recover.",
+   "gu": "ડૉક્ટર એવી વ્યક્તિ છે જે બીમાર લોકોની સારવાર કરે છે અને તેમને સાજા થવામાં મદદ કરે છે.",
+   "alternatives": [],
+   "tip": "Use who for people.",
+   "tipGu": "વ્યક્તિ માટે who વપરાય છે.",
+   "focus": {
+    "word": "who",
+    "wrong": "which",
+    "options": [
+     "who",
+     "which",
+     "where"
+    ]
+   }
+  },
+  {
+   "id": "S3-008",
+   "level": 3,
+   "pattern": "relative clauses",
+   "en": "The city which hosted the event last year has excellent public transport.",
+   "gu": "ગયા વર્ષે જે શહેરે કાર્યક્રમનું આયોજન કર્યું હતું ત્યાં ઉત્તમ જાહેર પરિવહન છે.",
+   "alternatives": [
+    "The city that hosted the event last year has excellent public transport."
+   ],
+   "tip": "Use which for things and places.",
+   "tipGu": "વસ્તુ અને સ્થળ માટે which વપરાય છે.",
+   "focus": {
+    "word": "which",
+    "wrong": "who",
+    "options": [
+     "who",
+     "which",
+     "where"
+    ]
+   }
+  },
+  {
+   "id": "S3-009",
+   "level": 3,
+   "pattern": "relative clauses",
+   "en": "Students who sleep well usually perform better in their exams than tired students.",
+   "gu": "જે વિદ્યાર્થીઓ સારી ઊંઘ લે છે તેઓ સામાન્ય રીતે થાકેલા વિદ્યાર્થીઓ કરતાં પરીક્ષામાં વધુ સારું પ્રદર્શન કરે છે.",
+   "alternatives": [
+    "Students that sleep well usually perform better in their exams than tired students."
+   ],
+   "tip": "Who adds information about people.",
+   "tipGu": "લોકો વિશે વધુ માહિતી આપવા who વપરાય છે.",
+   "focus": {
+    "word": "who",
+    "wrong": "which",
+    "options": [
+     "who",
+     "which",
+     "whose"
+    ]
+   }
+  },
+  {
+   "id": "S3-010",
+   "level": 3,
+   "pattern": "relative clauses",
+   "en": "The village where my grandparents live has no hospital or proper school.",
+   "gu": "જે ગામમાં મારાં દાદા-દાદી રહે છે ત્યાં કોઈ હૉસ્પિટલ કે યોગ્ય શાળા નથી.",
+   "alternatives": [],
+   "tip": "Use where for places when a full clause follows.",
+   "tipGu": "સ્થળ પછી આખું વાક્યાંશ આવે ત્યારે where વપરાય છે.",
+   "focus": {
+    "word": "where",
+    "wrong": "which",
+    "options": [
+     "where",
+     "which",
+     "who"
+    ]
+   }
+  },
+  {
+   "id": "S3-011",
+   "level": 3,
+   "pattern": "relative clauses",
+   "en": "The teacher whose lessons I enjoyed most has now retired from the school.",
+   "gu": "જેમના પાઠ મને સૌથી વધુ ગમતા હતા તે શિક્ષક હવે શાળામાંથી નિવૃત્ત થયા છે.",
+   "alternatives": [],
+   "tip": "Use whose to show possession.",
+   "tipGu": "માલિકી કે સંબંધ બતાવવા whose (જેનું/જેમના) વપરાય છે.",
+   "focus": {
+    "word": "whose",
+    "wrong": "who's",
+    "options": [
+     "who",
+     "whose",
+     "who's"
+    ]
+   }
+  },
+  {
+   "id": "S3-012",
+   "level": 3,
+   "pattern": "relative clauses",
+   "en": "Plastic bags that end up in rivers can harm fish and other wildlife.",
+   "gu": "નદીઓમાં પહોંચતી પ્લાસ્ટિકની થેલીઓ માછલીઓ અને અન્ય વન્યજીવોને નુકસાન પહોંચાડી શકે છે.",
+   "alternatives": [
+    "Plastic bags which end up in rivers can harm fish and other wildlife."
+   ],
+   "tip": "That can be used for things.",
+   "tipGu": "વસ્તુઓ માટે that વાપરી શકાય છે.",
+   "focus": {
+    "word": "that",
+    "wrong": "who",
+    "options": [
+     "that",
+     "who",
+     "where"
+    ]
+   }
+  },
+  {
+   "id": "S3-013",
+   "level": 3,
+   "pattern": "passive voice",
+   "en": "English is spoken as a second language in many parts of the world.",
+   "gu": "વિશ્વના ઘણા ભાગોમાં અંગ્રેજી બીજી ભાષા તરીકે બોલાય છે.",
+   "alternatives": [],
+   "tip": "Passive = be + past participle.",
+   "tipGu": "કર્મણિ પ્રયોગ = be + ભૂતકૃદંત (past participle).",
+   "focus": {
+    "word": "spoken",
+    "wrong": "spoke",
+    "options": [
+     "speak",
+     "spoke",
+     "spoken"
+    ]
+   }
+  },
+  {
+   "id": "S3-014",
+   "level": 3,
+   "pattern": "passive voice",
+   "en": "The Statue of Unity was built on the Narmada River in Gujarat.",
+   "gu": "સ્ટેચ્યુ ઑફ યુનિટી ગુજરાતમાં નર્મદા નદી પર બાંધવામાં આવી હતી.",
+   "alternatives": [],
+   "tip": "Use was + past participle for the past passive.",
+   "tipGu": "ભૂતકાળના કર્મણિ માટે was + ભૂતકૃદંત વપરાય છે.",
+   "focus": {
+    "word": "built",
+    "wrong": "build",
+    "options": [
+     "build",
+     "built",
+     "building"
+    ]
+   }
+  },
+  {
+   "id": "S3-015",
+   "level": 3,
+   "pattern": "passive voice",
+   "en": "Millions of tonnes of plastic are thrown away every year around the world.",
+   "gu": "દુનિયાભરમાં દર વર્ષે કરોડો ટન પ્લાસ્ટિક ફેંકી દેવામાં આવે છે.",
+   "alternatives": [],
+   "tip": "A plural subject takes are in the passive.",
+   "tipGu": "બહુવચન કર્તા સાથે કર્મણિમાં are વપરાય છે.",
+   "focus": {
+    "word": "are",
+    "wrong": "is",
+    "options": [
+     "is",
+     "are",
+     "was"
+    ]
+   }
+  },
+  {
+   "id": "S3-016",
+   "level": 3,
+   "pattern": "passive voice",
+   "en": "The exam results will be announced on the college website next Monday.",
+   "gu": "પરીક્ષાનાં પરિણામો આવતા સોમવારે કૉલેજની વેબસાઇટ પર જાહેર કરવામાં આવશે.",
+   "alternatives": [],
+   "tip": "Future passive = will be + past participle.",
+   "tipGu": "ભવિષ્યકાળ કર્મણિ = will be + ભૂતકૃદંત.",
+   "focus": {
+    "word": "be",
+    "wrong": "being",
+    "options": [
+     "be",
+     "been",
+     "being"
+    ]
+   }
+  },
+  {
+   "id": "S3-017",
+   "level": 3,
+   "pattern": "passive voice",
+   "en": "Rice is grown in areas that receive a lot of rainfall each year.",
+   "gu": "જે વિસ્તારોમાં દર વર્ષે ઘણો વરસાદ પડે છે ત્યાં ચોખા ઉગાડવામાં આવે છે.",
+   "alternatives": [],
+   "tip": "Present passive = is/are + past participle.",
+   "tipGu": "વર્તમાનકાળ કર્મણિ = is/are + ભૂતકૃદંત.",
+   "focus": {
+    "word": "grown",
+    "wrong": "grew",
+    "options": [
+     "grew",
+     "grown",
+     "grows"
+    ]
+   }
+  },
+  {
+   "id": "S3-018",
+   "level": 3,
+   "pattern": "passive voice",
+   "en": "The old bridge was badly damaged by the heavy floods last monsoon.",
+   "gu": "ગયા ચોમાસામાં ભારે પૂરથી જૂના પુલને ખરાબ રીતે નુકસાન થયું હતું.",
+   "alternatives": [],
+   "tip": "Use by to show who or what did the action.",
+   "tipGu": "ક્રિયા કોણે કે શાનાથી થઈ તે બતાવવા by વપરાય છે.",
+   "focus": {
+    "word": "by",
+    "wrong": "from",
+    "options": [
+     "by",
+     "from",
+     "with"
+    ]
+   }
+  },
+  {
+   "id": "S3-019",
+   "level": 3,
+   "pattern": "although/however",
+   "en": "Although the city is crowded, many people enjoy living there because of the jobs.",
+   "gu": "શહેર ભીડવાળું હોવા છતાં, નોકરીઓના કારણે ઘણા લોકોને ત્યાં રહેવું ગમે છે.",
+   "alternatives": [],
+   "tip": "Although joins two opposite ideas in one sentence.",
+   "tipGu": "Although એક જ વાક્યમાં બે વિરોધી વિચારો જોડે છે.",
+   "focus": {
+    "word": "Although",
+    "wrong": "However",
+    "options": [
+     "Although",
+     "However",
+     "Because"
+    ]
+   }
+  },
+  {
+   "id": "S3-020",
+   "level": 3,
+   "pattern": "although/however",
+   "en": "Online learning is flexible. However, many students miss face-to-face contact with teachers.",
+   "gu": "ઑનલાઇન શિક્ષણ લવચીક છે. જો કે, ઘણા વિદ્યાર્થીઓને શિક્ષકો સાથેનો રૂબરૂ સંપર્ક યાદ આવે છે.",
+   "alternatives": [],
+   "tip": "However starts a new sentence and is followed by a comma.",
+   "tipGu": "However નવું વાક્ય શરૂ કરે છે અને પછી અલ્પવિરામ આવે છે.",
+   "focus": {
+    "word": "However",
+    "wrong": "Although",
+    "options": [
+     "However",
+     "Although",
+     "Because"
+    ]
+   }
+  },
+  {
+   "id": "S3-021",
+   "level": 3,
+   "pattern": "although/however",
+   "en": "Although she studied very hard, she did not get the score she wanted.",
+   "gu": "તેણે ખૂબ મહેનતથી અભ્યાસ કર્યો હોવા છતાં તેને જોઈતો સ્કોર મળ્યો નહીં.",
+   "alternatives": [
+    "Although she studied very hard, she didn't get the score she wanted."
+   ],
+   "tip": "Do not use although and but together in one sentence.",
+   "tipGu": "એક જ વાક્યમાં although અને but બંને સાથે ન વાપરો.",
+   "focus": {
+    "word": "Although",
+    "wrong": "But",
+    "options": [
+     "Although",
+     "But",
+     "However"
+    ]
+   }
+  },
+  {
+   "id": "S3-022",
+   "level": 3,
+   "pattern": "although/however",
+   "en": "Cars are convenient for families. However, they produce a large amount of pollution in cities.",
+   "gu": "ગાડીઓ પરિવારો માટે અનુકૂળ છે. જો કે, તે શહેરોમાં મોટા પ્રમાણમાં પ્રદૂષણ ફેલાવે છે.",
+   "alternatives": [],
+   "tip": "Use However to begin a contrasting sentence.",
+   "tipGu": "વિરોધી વાત કહેતું નવું વાક્ય However થી શરૂ કરો.",
+   "focus": {
+    "word": "However",
+    "wrong": "Although",
+    "options": [
+     "However",
+     "Although",
+     "So"
+    ]
+   }
+  },
+  {
+   "id": "S3-023",
+   "level": 3,
+   "pattern": "although/however",
+   "en": "The medicine is very effective, although it can cause some side effects.",
+   "gu": "આ દવા ખૂબ અસરકારક છે, જો કે તેની કેટલીક આડઅસરો થઈ શકે છે.",
+   "alternatives": [],
+   "tip": "Although can also come in the middle of a sentence.",
+   "tipGu": "although વાક્યની વચ્ચે પણ આવી શકે છે.",
+   "focus": {
+    "word": "although",
+    "wrong": "however",
+    "options": [
+     "although",
+     "however",
+     "because"
+    ]
+   }
+  },
+  {
+   "id": "S3-024",
+   "level": 3,
+   "pattern": "although/however",
+   "en": "Many people know that exercise is important. However, few people exercise regularly.",
+   "gu": "ઘણા લોકો જાણે છે કે વ્યાયામ મહત્ત્વનો છે. જો કે, બહુ ઓછા લોકો નિયમિત વ્યાયામ કરે છે.",
+   "alternatives": [],
+   "tip": "However links two sentences that contrast.",
+   "tipGu": "However બે વિરોધી વાક્યોને જોડે છે.",
+   "focus": {
+    "word": "However",
+    "wrong": "Although",
+    "options": [
+     "However",
+     "Although",
+     "Because"
+    ]
+   }
+  },
+  {
+   "id": "S3-025",
+   "level": 3,
+   "pattern": "articles: a/an/the",
+   "en": "The sun gives light and energy to all living things on our planet.",
+   "gu": "સૂર્ય આપણા ગ્રહ પરનાં તમામ જીવોને પ્રકાશ અને ઊર્જા આપે છે.",
+   "alternatives": [],
+   "tip": "Use the for unique things like the sun.",
+   "tipGu": "સૂર્ય જેવી એકમાત્ર વસ્તુ માટે the વપરાય છે.",
+   "focus": {
+    "word": "The",
+    "wrong": "A",
+    "options": [
+     "The",
+     "A",
+     "An"
+    ]
+   }
+  },
+  {
+   "id": "S3-026",
+   "level": 3,
+   "pattern": "articles: a/an/the",
+   "en": "My cousin wants to become an architect after finishing his degree in Pune.",
+   "gu": "મારો પિતરાઈ ભાઈ પુણેમાં ડિગ્રી પૂરી કર્યા પછી આર્કિટેક્ટ બનવા માંગે છે.",
+   "alternatives": [],
+   "tip": "Use a or an before a job; architect starts with a vowel sound.",
+   "tipGu": "વ્યવસાય પહેલાં a/an આવે; architect સ્વર અવાજથી શરૂ થાય છે.",
+   "focus": {
+    "word": "an",
+    "wrong": "the",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ]
+   }
+  },
+  {
+   "id": "S3-027",
+   "level": 3,
+   "pattern": "articles: a/an/the",
+   "en": "Education is a powerful tool for reducing poverty in many developing countries.",
+   "gu": "ઘણા વિકાસશીલ દેશોમાં ગરીબી ઘટાડવા માટે શિક્ષણ એક શક્તિશાળી સાધન છે.",
+   "alternatives": [],
+   "tip": "Use a for one of many; general ideas like education need no article.",
+   "tipGu": "ઘણામાંથી એક માટે a; education જેવા સામાન્ય વિચાર પહેલાં article નથી.",
+   "focus": {
+    "word": "a",
+    "wrong": "the",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ]
+   }
+  },
+  {
+   "id": "S3-028",
+   "level": 3,
+   "pattern": "articles: a/an/the",
+   "en": "I read an interesting article about climate change in the newspaper yesterday.",
+   "gu": "મેં ગઈકાલે છાપામાં આબોહવા પરિવર્તન વિશે એક રસપ્રદ લેખ વાંચ્યો.",
+   "alternatives": [],
+   "tip": "Use an before an adjective starting with a vowel sound.",
+   "tipGu": "સ્વર અવાજથી શરૂ થતા વિશેષણ પહેલાં an વપરાય છે.",
+   "focus": {
+    "word": "an",
+    "wrong": "a",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ]
+   }
+  },
+  {
+   "id": "S3-029",
+   "level": 3,
+   "pattern": "articles: a/an/the",
+   "en": "The Ganges is one of India's most important and sacred rivers for Hindus.",
+   "gu": "ગંગા હિંદુઓ માટે ભારતની સૌથી મહત્ત્વની અને પવિત્ર નદીઓમાંની એક છે.",
+   "alternatives": [],
+   "tip": "Use the with names of rivers.",
+   "tipGu": "નદીઓનાં નામ સાથે the વપરાય છે.",
+   "focus": {
+    "word": "The",
+    "wrong": "A",
+    "options": [
+     "The",
+     "A",
+     "An"
+    ]
+   }
+  },
+  {
+   "id": "S3-030",
+   "level": 3,
+   "pattern": "articles: a/an/the",
+   "en": "We stayed in a small hotel near Gir, and the owner was very friendly.",
+   "gu": "અમે ગીર પાસે એક નાની હોટલમાં રોકાયા, અને તેના માલિક ખૂબ મળતાવડા હતા.",
+   "alternatives": [],
+   "tip": "Use the when it is clear which one we mean.",
+   "tipGu": "કઈ વસ્તુની વાત છે તે સ્પષ્ટ હોય ત્યારે the વપરાય છે.",
+   "focus": {
+    "word": "the",
+    "wrong": "a",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ]
+   }
+  },
+  {
+   "id": "S4-001",
+   "level": 4,
+   "pattern": "passive voice",
+   "en": "A new metro line is being constructed to reduce traffic in the city centre.",
+   "gu": "શહેરના કેન્દ્રમાં ટ્રાફિક ઘટાડવા નવી મેટ્રો લાઇન બાંધવામાં આવી રહી છે.",
+   "alternatives": [],
+   "tip": "Present continuous passive = is being + past participle.",
+   "tipGu": "ચાલુ વર્તમાનકાળ કર્મણિ = is being + ભૂતકૃદંત.",
+   "focus": {
+    "word": "being",
+    "wrong": "been",
+    "options": [
+     "be",
+     "been",
+     "being"
+    ]
+   }
+  },
+  {
+   "id": "S4-002",
+   "level": 4,
+   "pattern": "passive voice",
+   "en": "Several species of birds have been affected by the loss of their natural habitat.",
+   "gu": "કુદરતી રહેઠાણ ગુમાવવાથી પક્ષીઓની ઘણી પ્રજાતિઓ પ્રભાવિત થઈ છે.",
+   "alternatives": [],
+   "tip": "Present perfect passive = have been + past participle.",
+   "tipGu": "પૂર્ણ વર્તમાનકાળ કર્મણિ = have been + ભૂતકૃદંત.",
+   "focus": {
+    "word": "been",
+    "wrong": "being",
+    "options": [
+     "be",
+     "been",
+     "being"
+    ]
+   }
+  },
+  {
+   "id": "S4-003",
+   "level": 4,
+   "pattern": "passive voice",
+   "en": "It is widely believed that regular exercise reduces the risk of heart disease.",
+   "gu": "એવું વ્યાપકપણે માનવામાં આવે છે કે નિયમિત વ્યાયામ હૃદયરોગનું જોખમ ઘટાડે છે.",
+   "alternatives": [],
+   "tip": "It is believed that... reports a general opinion.",
+   "tipGu": "It is believed that... સામાન્ય માન્યતા રજૂ કરે છે.",
+   "focus": {
+    "word": "believed",
+    "wrong": "believe",
+    "options": [
+     "believe",
+     "believed",
+     "believing"
+    ]
+   }
+  },
+  {
+   "id": "S4-004",
+   "level": 4,
+   "pattern": "passive voice",
+   "en": "The survey was carried out among two thousand university students across the country.",
+   "gu": "આ સર્વે દેશભરના બે હજાર યુનિવર્સિટી વિદ્યાર્થીઓમાં હાથ ધરવામાં આવ્યો હતો.",
+   "alternatives": [],
+   "tip": "One survey takes was in the past passive.",
+   "tipGu": "એક સર્વે માટે ભૂતકાળના કર્મણિમાં was વપરાય છે.",
+   "focus": {
+    "word": "was",
+    "wrong": "were",
+    "options": [
+     "was",
+     "were",
+     "has"
+    ]
+   }
+  },
+  {
+   "id": "S4-005",
+   "level": 4,
+   "pattern": "passive voice",
+   "en": "Smartphones should not be given to very young children without any adult supervision.",
+   "gu": "કોઈ પુખ્ત વ્યક્તિની દેખરેખ વિના ખૂબ નાનાં બાળકોને સ્માર્ટફોન આપવા જોઈએ નહીં.",
+   "alternatives": [
+    "Smartphones shouldn't be given to very young children without any adult supervision."
+   ],
+   "tip": "Modal passive = should be + past participle.",
+   "tipGu": "modal સાથે કર્મણિ = should be + ભૂતકૃદંત.",
+   "focus": {
+    "word": "given",
+    "wrong": "gave",
+    "options": [
+     "give",
+     "gave",
+     "given"
+    ]
+   }
+  },
+  {
+   "id": "S4-006",
+   "level": 4,
+   "pattern": "passive voice",
+   "en": "Most of the electricity in this region is generated from coal and solar power.",
+   "gu": "આ પ્રદેશની મોટાભાગની વીજળી કોલસા અને સૌર ઊર્જામાંથી ઉત્પન્ન થાય છે.",
+   "alternatives": [],
+   "tip": "Use the passive when the process matters more than the doer.",
+   "tipGu": "કરનાર કરતાં પ્રક્રિયા વધુ મહત્ત્વની હોય ત્યારે કર્મણિ વપરાય છે.",
+   "focus": {
+    "word": "generated",
+    "wrong": "generating",
+    "options": [
+     "generate",
+     "generated",
+     "generating"
+    ]
+   }
+  },
+  {
+   "id": "S4-007",
+   "level": 4,
+   "pattern": "relative clauses",
+   "en": "Children who spend too much time on screens often have difficulty sleeping at night.",
+   "gu": "જે બાળકો સ્ક્રીન પર વધુ પડતો સમય વિતાવે છે તેમને ઘણી વાર રાત્રે ઊંઘવામાં મુશ્કેલી પડે છે.",
+   "alternatives": [
+    "Children that spend too much time on screens often have difficulty sleeping at night."
+   ],
+   "tip": "Use who to define which people we mean.",
+   "tipGu": "કયા લોકોની વાત છે તે સ્પષ્ટ કરવા who વપરાય છે.",
+   "focus": {
+    "word": "who",
+    "wrong": "which",
+    "options": [
+     "who",
+     "which",
+     "whose"
+    ]
+   }
+  },
+  {
+   "id": "S4-008",
+   "level": 4,
+   "pattern": "relative clauses",
+   "en": "The factory, which was built in 1985, will be closed down next year.",
+   "gu": "1985માં બંધાયેલું આ કારખાનું આવતા વર્ષે બંધ કરી દેવામાં આવશે.",
+   "alternatives": [],
+   "tip": "Between commas, use which, not that.",
+   "tipGu": "અલ્પવિરામ વચ્ચેના વાક્યાંશમાં that નહીં, which વપરાય છે.",
+   "focus": {
+    "word": "which",
+    "wrong": "that",
+    "options": [
+     "which",
+     "that",
+     "who"
+    ]
+   }
+  },
+  {
+   "id": "S4-009",
+   "level": 4,
+   "pattern": "relative clauses",
+   "en": "Mahatma Gandhi, who was born in Porbandar, led India's struggle for independence.",
+   "gu": "પોરબંદરમાં જન્મેલા મહાત્મા ગાંધીએ ભારતના સ્વતંત્રતા સંગ્રામનું નેતૃત્વ કર્યું.",
+   "alternatives": [],
+   "tip": "Use who with commas to add extra information about a person.",
+   "tipGu": "વ્યક્તિ વિશે વધારાની માહિતી અલ્પવિરામ સાથે who થી અપાય છે.",
+   "focus": {
+    "word": "who",
+    "wrong": "which",
+    "options": [
+     "who",
+     "which",
+     "that"
+    ]
+   }
+  },
+  {
+   "id": "S4-010",
+   "level": 4,
+   "pattern": "relative clauses",
+   "en": "The decade when the internet became popular changed the way people communicate.",
+   "gu": "જે દાયકામાં ઇન્ટરનેટ લોકપ્રિય બન્યું તેણે લોકોની વાતચીત કરવાની રીત બદલી નાખી.",
+   "alternatives": [],
+   "tip": "Use when after a time noun.",
+   "tipGu": "સમય દર્શાવતા નામ પછી when વપરાય છે.",
+   "focus": {
+    "word": "when",
+    "wrong": "where",
+    "options": [
+     "when",
+     "where",
+     "which"
+    ]
+   }
+  },
+  {
+   "id": "S4-011",
+   "level": 4,
+   "pattern": "relative clauses",
+   "en": "Countries whose economies depend heavily on tourism suffered badly during the pandemic.",
+   "gu": "જે દેશોનાં અર્થતંત્રો પ્રવાસન પર ઘણો આધાર રાખે છે તેમને મહામારી દરમિયાન ભારે નુકસાન થયું.",
+   "alternatives": [],
+   "tip": "Whose shows that something belongs to the noun before it.",
+   "tipGu": "whose બતાવે છે કે વસ્તુ આગળના નામની છે.",
+   "focus": {
+    "word": "whose",
+    "wrong": "which",
+    "options": [
+     "whose",
+     "which",
+     "who"
+    ]
+   }
+  },
+  {
+   "id": "S4-012",
+   "level": 4,
+   "pattern": "relative clauses",
+   "en": "The hospital where my aunt works has introduced a new online booking system.",
+   "gu": "મારાં માસી જ્યાં કામ કરે છે તે હૉસ્પિટલે નવી ઑનલાઇન બુકિંગ પ્રણાલી શરૂ કરી છે.",
+   "alternatives": [],
+   "tip": "Use where for a place followed by subject + verb.",
+   "tipGu": "સ્થળ પછી કર્તા + ક્રિયાપદ આવે ત્યારે where વપરાય છે.",
+   "focus": {
+    "word": "where",
+    "wrong": "which",
+    "options": [
+     "where",
+     "which",
+     "who"
+    ]
+   }
+  },
+  {
+   "id": "S4-013",
+   "level": 4,
+   "pattern": "conditionals",
+   "en": "If people used public transport more often, there would be less traffic in cities.",
+   "gu": "જો લોકો જાહેર પરિવહનનો વધુ ઉપયોગ કરે, તો શહેરોમાં ઓછો ટ્રાફિક થાય.",
+   "alternatives": [],
+   "tip": "Second conditional: If + past, would + verb.",
+   "tipGu": "બીજો conditional: If + ભૂતકાળ, would + ક્રિયાપદ.",
+   "focus": {
+    "word": "would",
+    "wrong": "will",
+    "options": [
+     "would",
+     "will",
+     "can"
+    ]
+   }
+  },
+  {
+   "id": "S4-014",
+   "level": 4,
+   "pattern": "conditionals",
+   "en": "If water is heated to one hundred degrees Celsius, it starts to boil.",
+   "gu": "જો પાણીને સો ડિગ્રી સેલ્સિયસ સુધી ગરમ કરવામાં આવે, તો તે ઊકળવા લાગે છે.",
+   "alternatives": [],
+   "tip": "Zero conditional for facts: If + present, present.",
+   "tipGu": "હકીકત માટે zero conditional: If + વર્તમાન, વર્તમાન.",
+   "focus": {
+    "word": "starts",
+    "wrong": "started",
+    "options": [
+     "starts",
+     "started",
+     "starting"
+    ]
+   }
+  },
+  {
+   "id": "S4-015",
+   "level": 4,
+   "pattern": "conditionals",
+   "en": "If the government invests in solar energy, the country will depend less on coal.",
+   "gu": "જો સરકાર સૌર ઊર્જામાં રોકાણ કરશે, તો દેશ કોલસા પર ઓછો આધાર રાખશે.",
+   "alternatives": [],
+   "tip": "First conditional: If + present, will + verb.",
+   "tipGu": "પહેલો conditional: If + વર્તમાન, will + ક્રિયાપદ.",
+   "focus": {
+    "word": "invests",
+    "wrong": "invested",
+    "options": [
+     "invest",
+     "invests",
+     "invested"
+    ]
+   }
+  },
+  {
+   "id": "S4-016",
+   "level": 4,
+   "pattern": "conditionals",
+   "en": "If I had studied harder, I would have passed the exam last year.",
+   "gu": "જો મેં વધુ મહેનતથી અભ્યાસ કર્યો હોત, તો હું ગયા વર્ષે પરીક્ષામાં પાસ થઈ ગયો હોત.",
+   "alternatives": [
+    "If I'd studied harder, I'd have passed the exam last year."
+   ],
+   "tip": "Third conditional: If + had + past participle.",
+   "tipGu": "ત્રીજો conditional: If + had + ભૂતકૃદંત.",
+   "focus": {
+    "word": "had",
+    "wrong": "have",
+    "options": [
+     "had",
+     "have",
+     "has"
+    ]
+   }
+  },
+  {
+   "id": "S4-017",
+   "level": 4,
+   "pattern": "conditionals",
+   "en": "Unless we reduce plastic waste, our rivers and oceans will become seriously polluted.",
+   "gu": "જો આપણે પ્લાસ્ટિકનો કચરો ઘટાડીએ નહીં, તો આપણી નદીઓ અને મહાસાગરો ગંભીર રીતે પ્રદૂષિત થઈ જશે.",
+   "alternatives": [
+    "If we do not reduce plastic waste, our rivers and oceans will become seriously polluted.",
+    "If we don't reduce plastic waste, our rivers and oceans will become seriously polluted."
+   ],
+   "tip": "Unless means if not.",
+   "tipGu": "Unless નો અર્થ 'જો ... નહીં' થાય છે.",
+   "focus": {
+    "word": "Unless",
+    "wrong": "If",
+    "options": [
+     "Unless",
+     "If",
+     "Although"
+    ]
+   }
+  },
+  {
+   "id": "S4-018",
+   "level": 4,
+   "pattern": "conditionals",
+   "en": "If students had access to better libraries, they would read more books.",
+   "gu": "જો વિદ્યાર્થીઓને સારાં પુસ્તકાલયોની સુવિધા મળે, તો તેઓ વધુ પુસ્તકો વાંચે.",
+   "alternatives": [],
+   "tip": "In the second conditional, the if-part uses the past.",
+   "tipGu": "બીજા conditional માં if વાળા ભાગમાં ભૂતકાળ આવે છે.",
+   "focus": {
+    "word": "had",
+    "wrong": "have",
+    "options": [
+     "had",
+     "have",
+     "has"
+    ]
+   }
+  },
+  {
+   "id": "S4-019",
+   "level": 4,
+   "pattern": "linking: whereas/despite/therefore",
+   "en": "Despite the heavy rain, thousands of people attended the festival in Ahmedabad.",
+   "gu": "ભારે વરસાદ હોવા છતાં, હજારો લોકો અમદાવાદના ઉત્સવમાં હાજર રહ્યા.",
+   "alternatives": [],
+   "tip": "Despite is followed by a noun, not a clause.",
+   "tipGu": "Despite પછી નામ આવે છે, આખું વાક્ય નહીં.",
+   "focus": {
+    "word": "Despite",
+    "wrong": "Although",
+    "options": [
+     "Despite",
+     "Although",
+     "However"
+    ]
+   }
+  },
+  {
+   "id": "S4-020",
+   "level": 4,
+   "pattern": "linking: whereas/despite/therefore",
+   "en": "Urban areas offer more jobs, whereas rural areas often provide a calmer lifestyle.",
+   "gu": "શહેરી વિસ્તારો વધુ નોકરીઓ આપે છે, જ્યારે ગ્રામીણ વિસ્તારો ઘણી વાર વધુ શાંત જીવનશૈલી આપે છે.",
+   "alternatives": [],
+   "tip": "Whereas compares two different facts.",
+   "tipGu": "whereas બે જુદી હકીકતોની સરખામણી કરે છે.",
+   "focus": {
+    "word": "whereas",
+    "wrong": "despite",
+    "options": [
+     "whereas",
+     "despite",
+     "therefore"
+    ]
+   }
+  },
+  {
+   "id": "S4-021",
+   "level": 4,
+   "pattern": "linking: whereas/despite/therefore",
+   "en": "The population is growing rapidly; therefore, the city needs more schools and hospitals.",
+   "gu": "વસ્તી ઝડપથી વધી રહી છે; તેથી, શહેરને વધુ શાળાઓ અને હૉસ્પિટલોની જરૂર છે.",
+   "alternatives": [],
+   "tip": "Therefore introduces a result.",
+   "tipGu": "therefore પરિણામ રજૂ કરે છે.",
+   "focus": {
+    "word": "therefore",
+    "wrong": "whereas",
+    "options": [
+     "therefore",
+     "whereas",
+     "despite"
+    ]
+   }
+  },
+  {
+   "id": "S4-022",
+   "level": 4,
+   "pattern": "linking: whereas/despite/therefore",
+   "en": "Despite being expensive, electric cars are becoming increasingly popular among young professionals.",
+   "gu": "મોંઘી હોવા છતાં, ઇલેક્ટ્રિક ગાડીઓ યુવા વ્યાવસાયિકોમાં વધુને વધુ લોકપ્રિય બની રહી છે.",
+   "alternatives": [
+    "Although they are expensive, electric cars are becoming increasingly popular among young professionals."
+   ],
+   "tip": "Despite can be followed by verb-ing.",
+   "tipGu": "Despite પછી ક્રિયાપદ-ing આવી શકે છે.",
+   "focus": {
+    "word": "Despite",
+    "wrong": "Although",
+    "options": [
+     "Despite",
+     "Although",
+     "Therefore"
+    ]
+   }
+  },
+  {
+   "id": "S4-023",
+   "level": 4,
+   "pattern": "linking: whereas/despite/therefore",
+   "en": "My brother prefers science subjects, whereas I am more interested in literature and history.",
+   "gu": "મારા ભાઈને વિજ્ઞાનના વિષયો વધુ ગમે છે, જ્યારે મને સાહિત્ય અને ઇતિહાસમાં વધુ રસ છે.",
+   "alternatives": [],
+   "tip": "Use whereas to show a clear difference between two people.",
+   "tipGu": "બે વ્યક્તિઓ વચ્ચેનો સ્પષ્ટ તફાવત બતાવવા whereas વપરાય છે.",
+   "focus": {
+    "word": "whereas",
+    "wrong": "therefore",
+    "options": [
+     "whereas",
+     "therefore",
+     "despite"
+    ]
+   }
+  },
+  {
+   "id": "S4-024",
+   "level": 4,
+   "pattern": "linking: whereas/despite/therefore",
+   "en": "Fast food is high in fat and salt. Therefore, it should be eaten only occasionally.",
+   "gu": "ફાસ્ટ ફૂડમાં ચરબી અને મીઠું વધુ હોય છે. તેથી, તે ક્યારેક જ ખાવું જોઈએ.",
+   "alternatives": [],
+   "tip": "Therefore at the start of a sentence is followed by a comma.",
+   "tipGu": "વાક્યની શરૂઆતમાં Therefore પછી અલ્પવિરામ આવે છે.",
+   "focus": {
+    "word": "Therefore",
+    "wrong": "Despite",
+    "options": [
+     "Therefore",
+     "Despite",
+     "Whereas"
+    ]
+   }
+  },
+  {
+   "id": "S4-025",
+   "level": 4,
+   "pattern": "word forms",
+   "en": "The development of technology has changed the way people work and learn.",
+   "gu": "ટેક્નોલોજીના વિકાસે લોકોની કામ કરવાની અને શીખવાની રીત બદલી નાખી છે.",
+   "alternatives": [],
+   "tip": "After the, use a noun.",
+   "tipGu": "the પછી નામ (noun) આવે છે.",
+   "focus": {
+    "word": "development",
+    "wrong": "develop",
+    "options": [
+     "develop",
+     "development",
+     "developed"
+    ]
+   }
+  },
+  {
+   "id": "S4-026",
+   "level": 4,
+   "pattern": "word forms",
+   "en": "Regular exercise is extremely beneficial for both physical and mental health in older people.",
+   "gu": "નિયમિત વ્યાયામ વૃદ્ધ લોકોના શારીરિક અને માનસિક સ્વાસ્થ્ય માટે અત્યંત ફાયદાકારક છે.",
+   "alternatives": [],
+   "tip": "After is extremely, use an adjective.",
+   "tipGu": "is extremely પછી વિશેષણ (adjective) આવે છે.",
+   "focus": {
+    "word": "beneficial",
+    "wrong": "benefit",
+    "options": [
+     "benefit",
+     "beneficial",
+     "benefits"
+    ]
+   }
+  },
+  {
+   "id": "S4-027",
+   "level": 4,
+   "pattern": "word forms",
+   "en": "Many young people are unable to find employment after finishing their university education.",
+   "gu": "ઘણા યુવાનો યુનિવર્સિટીનું શિક્ષણ પૂરું કર્યા પછી રોજગાર શોધી શકતા નથી.",
+   "alternatives": [],
+   "tip": "After find, we need a noun here.",
+   "tipGu": "અહીં find પછી નામ (noun) જોઈએ.",
+   "focus": {
+    "word": "employment",
+    "wrong": "employ",
+    "options": [
+     "employ",
+     "employment",
+     "employed"
+    ]
+   }
+  },
+  {
+   "id": "S4-028",
+   "level": 4,
+   "pattern": "word forms",
+   "en": "The new policy will significantly reduce the amount of waste produced by households.",
+   "gu": "નવી નીતિ ઘરોમાંથી ઉત્પન્ન થતા કચરાના પ્રમાણમાં નોંધપાત્ર ઘટાડો કરશે.",
+   "alternatives": [],
+   "tip": "Use an adverb (-ly) to describe a verb.",
+   "tipGu": "ક્રિયાપદનું વર્ણન કરવા ક્રિયાવિશેષણ (-ly) વપરાય છે.",
+   "focus": {
+    "word": "significantly",
+    "wrong": "significant",
+    "options": [
+     "significant",
+     "significantly",
+     "significance"
+    ]
+   }
+  },
+  {
+   "id": "S4-029",
+   "level": 4,
+   "pattern": "word forms",
+   "en": "It is important for every citizen to protect the environment for future generations.",
+   "gu": "ભવિષ્યની પેઢીઓ માટે પર્યાવરણનું રક્ષણ કરવું દરેક નાગરિક માટે મહત્ત્વનું છે.",
+   "alternatives": [],
+   "tip": "After It is, use an adjective.",
+   "tipGu": "It is પછી વિશેષણ (adjective) આવે છે.",
+   "focus": {
+    "word": "important",
+    "wrong": "importance",
+    "options": [
+     "important",
+     "importance",
+     "importantly"
+    ]
+   }
+  },
+  {
+   "id": "S4-030",
+   "level": 4,
+   "pattern": "word forms",
+   "en": "Doctors warn that a lack of sleep can seriously affect a person's concentration.",
+   "gu": "ડૉક્ટરો ચેતવણી આપે છે કે ઊંઘનો અભાવ વ્યક્તિની એકાગ્રતાને ગંભીર રીતે અસર કરી શકે છે.",
+   "alternatives": [],
+   "tip": "After a possessive like person's, use a noun.",
+   "tipGu": "person's જેવા માલિકીવાચક પછી નામ (noun) આવે છે.",
+   "focus": {
+    "word": "concentration",
+    "wrong": "concentrate",
+    "options": [
+     "concentrate",
+     "concentration",
+     "concentrated"
+    ]
+   }
+  },
+  {
+   "id": "S5-001",
+   "level": 5,
+   "pattern": "hedging: may/might/suggest",
+   "en": "Research suggests that children who read regularly may develop stronger vocabulary skills than those who do not.",
+   "gu": "સંશોધન સૂચવે છે કે નિયમિત વાંચતાં બાળકોની શબ્દભંડોળ કુશળતા ન વાંચતાં બાળકો કરતાં વધુ મજબૂત બની શકે છે.",
+   "alternatives": [],
+   "tip": "Use may to make a careful claim, not a certain one.",
+   "tipGu": "ચોક્કસ નહીં પણ સાવચેત દાવો કરવા may વપરાય છે.",
+   "focus": {
+    "word": "may",
+    "wrong": "must",
+    "options": [
+     "may",
+     "must",
+     "will"
+    ]
+   }
+  },
+  {
+   "id": "S5-002",
+   "level": 5,
+   "pattern": "hedging: may/might/suggest",
+   "en": "The rise in global temperatures might lead to more frequent droughts in western India over the coming decades.",
+   "gu": "વૈશ્વિક તાપમાનમાં વધારો આગામી દાયકાઓમાં પશ્ચિમ ભારતમાં વારંવાર દુકાળ તરફ દોરી શકે છે.",
+   "alternatives": [
+    "The rise in global temperatures may lead to more frequent droughts in western India over the coming decades."
+   ],
+   "tip": "Might shows a possible future result, not a certain one.",
+   "tipGu": "might ભવિષ્યનું શક્ય પરિણામ બતાવે છે, ચોક્કસ નહીં.",
+   "focus": {
+    "word": "might",
+    "wrong": "will",
+    "options": [
+     "might",
+     "will",
+     "must"
+    ]
+   }
+  },
+  {
+   "id": "S5-003",
+   "level": 5,
+   "pattern": "hedging: may/might/suggest",
+   "en": "Recent studies suggest that working from home can improve productivity and job satisfaction for some employees.",
+   "gu": "તાજેતરના અભ્યાસો સૂચવે છે કે ઘરેથી કામ કરવાથી કેટલાક કર્મચારીઓની ઉત્પાદકતા અને નોકરીનો સંતોષ વધી શકે છે.",
+   "alternatives": [],
+   "tip": "Plural studies take suggest without -s.",
+   "tipGu": "studies બહુવચન છે, એટલે suggest (-s વગર).",
+   "focus": {
+    "word": "suggest",
+    "wrong": "suggests",
+    "options": [
+     "suggest",
+     "suggests",
+     "prove"
+    ]
+   }
+  },
+  {
+   "id": "S5-004",
+   "level": 5,
+   "pattern": "hedging: may/might/suggest",
+   "en": "The evidence suggests that air pollution is a major cause of breathing problems among city residents.",
+   "gu": "પુરાવા સૂચવે છે કે શહેરના રહેવાસીઓમાં શ્વાસની સમસ્યાઓનું મુખ્ય કારણ હવાનું પ્રદૂષણ છે.",
+   "alternatives": [],
+   "tip": "Suggests is more careful than proves in academic writing.",
+   "tipGu": "શૈક્ષણિક લખાણમાં proves કરતાં suggests વધુ સાવચેત શબ્દ છે.",
+   "focus": {
+    "word": "suggests",
+    "wrong": "proves",
+    "options": [
+     "suggests",
+     "proves",
+     "suggest"
+    ]
+   }
+  },
+  {
+   "id": "S5-005",
+   "level": 5,
+   "pattern": "hedging: may/might/suggest",
+   "en": "Higher taxes on sugary drinks may help to reduce obesity rates, although more research is needed.",
+   "gu": "ખાંડવાળાં પીણાં પર વધુ કર મેદસ્વિતાનો દર ઘટાડવામાં મદદ કરી શકે, જો કે વધુ સંશોધનની જરૂર છે.",
+   "alternatives": [
+    "Higher taxes on sugary drinks might help to reduce obesity rates, although more research is needed."
+   ],
+   "tip": "Use may when the evidence is not complete.",
+   "tipGu": "પુરાવા પૂરા ન હોય ત્યારે may વપરાય છે.",
+   "focus": {
+    "word": "may",
+    "wrong": "will",
+    "options": [
+     "may",
+     "will",
+     "must"
+    ]
+   }
+  },
+  {
+   "id": "S5-006",
+   "level": 5,
+   "pattern": "academic linking",
+   "en": "Furthermore, public libraries provide free internet access to people who cannot afford it at home.",
+   "gu": "વધુમાં, જાહેર પુસ્તકાલયો એવા લોકોને મફત ઇન્ટરનેટ સુવિધા આપે છે જેઓ ઘરે તે પરવડી શકતા નથી.",
+   "alternatives": [
+    "Moreover, public libraries provide free internet access to people who cannot afford it at home."
+   ],
+   "tip": "Furthermore adds another supporting point.",
+   "tipGu": "Furthermore વધુ એક સમર્થક મુદ્દો ઉમેરે છે.",
+   "focus": {
+    "word": "Furthermore",
+    "wrong": "However",
+    "options": [
+     "Furthermore",
+     "However",
+     "Therefore"
+    ]
+   }
+  },
+  {
+   "id": "S5-007",
+   "level": 5,
+   "pattern": "academic linking",
+   "en": "In contrast to rural schools, urban schools often have better facilities and more qualified teachers.",
+   "gu": "ગ્રામીણ શાળાઓથી વિપરીત, શહેરી શાળાઓમાં ઘણી વાર વધુ સારી સુવિધાઓ અને વધુ લાયક શિક્ષકો હોય છે.",
+   "alternatives": [],
+   "tip": "The phrase is in contrast to, not in contrary to.",
+   "tipGu": "સાચો શબ્દસમૂહ in contrast to છે, in contrary to નહીં.",
+   "focus": {
+    "word": "contrast",
+    "wrong": "contrary",
+    "options": [
+     "contrast",
+     "contrary",
+     "addition"
+    ]
+   }
+  },
+  {
+   "id": "S5-008",
+   "level": 5,
+   "pattern": "academic linking",
+   "en": "Online shopping saves time; as a result, many traditional shops have lost customers in recent years.",
+   "gu": "ઑનલાઇન ખરીદી સમય બચાવે છે; પરિણામે, તાજેતરનાં વર્ષોમાં ઘણી પરંપરાગત દુકાનોએ ગ્રાહકો ગુમાવ્યા છે.",
+   "alternatives": [],
+   "tip": "As a result (singular) introduces a consequence.",
+   "tipGu": "as a result (એકવચન) પરિણામ રજૂ કરે છે.",
+   "focus": {
+    "word": "result",
+    "wrong": "results",
+    "options": [
+     "result",
+     "results",
+     "effect"
+    ]
+   }
+  },
+  {
+   "id": "S5-009",
+   "level": 5,
+   "pattern": "academic linking",
+   "en": "Many cities are investing in cycle lanes; nevertheless, most commuters still prefer to travel by car.",
+   "gu": "ઘણાં શહેરો સાઇકલ માર્ગોમાં રોકાણ કરી રહ્યાં છે; તેમ છતાં, મોટાભાગના મુસાફરો હજુ પણ કારથી મુસાફરી કરવાનું પસંદ કરે છે.",
+   "alternatives": [],
+   "tip": "Nevertheless introduces a surprising contrast.",
+   "tipGu": "nevertheless અણધાર્યો વિરોધ રજૂ કરે છે.",
+   "focus": {
+    "word": "nevertheless",
+    "wrong": "moreover",
+    "options": [
+     "nevertheless",
+     "moreover",
+     "therefore"
+    ]
+   }
+  },
+  {
+   "id": "S5-010",
+   "level": 5,
+   "pattern": "conditionals",
+   "en": "If governments invested more in early childhood education, fewer students would drop out of school later.",
+   "gu": "જો સરકારો પ્રારંભિક બાળ શિક્ષણમાં વધુ રોકાણ કરે, તો પછીથી ઓછા વિદ્યાર્થીઓ શાળા છોડી દે.",
+   "alternatives": [],
+   "tip": "Hypothetical result: If + past, would + verb.",
+   "tipGu": "કાલ્પનિક પરિણામ: If + ભૂતકાળ, would + ક્રિયાપદ.",
+   "focus": {
+    "word": "would",
+    "wrong": "will",
+    "options": [
+     "would",
+     "will",
+     "can"
+    ]
+   }
+  },
+  {
+   "id": "S5-011",
+   "level": 5,
+   "pattern": "conditionals",
+   "en": "Had the warning been issued earlier, many lives could have been saved during the cyclone.",
+   "gu": "જો ચેતવણી વહેલી આપવામાં આવી હોત, તો વાવાઝોડા દરમિયાન ઘણા જીવ બચાવી શકાયા હોત.",
+   "alternatives": [
+    "If the warning had been issued earlier, many lives could have been saved during the cyclone."
+   ],
+   "tip": "In formal English, Had + subject can replace If in the third conditional.",
+   "tipGu": "ઔપચારિક અંગ્રેજીમાં ત્રીજા conditional માં If ને બદલે Had + કર્તા આવી શકે છે.",
+   "focus": {
+    "word": "Had",
+    "wrong": "If",
+    "options": [
+     "Had",
+     "If",
+     "Has"
+    ]
+   }
+  },
+  {
+   "id": "S5-012",
+   "level": 5,
+   "pattern": "conditionals",
+   "en": "If cities do not improve their waste management systems, landfill sites will soon run out of space.",
+   "gu": "જો શહેરો તેમની કચરા વ્યવસ્થાપન પ્રણાલીઓ સુધારશે નહીં, તો લેન્ડફિલ સ્થળોમાં ટૂંક સમયમાં જગ્યા ખૂટી જશે.",
+   "alternatives": [
+    "If cities don't improve their waste management systems, landfill sites will soon run out of space."
+   ],
+   "tip": "A real future risk uses If + present, will + verb.",
+   "tipGu": "વાસ્તવિક ભવિષ્યના જોખમ માટે If + વર્તમાન, will + ક્રિયાપદ.",
+   "focus": {
+    "word": "will",
+    "wrong": "would",
+    "options": [
+     "will",
+     "would",
+     "had"
+    ]
+   }
+  },
+  {
+   "id": "S5-013",
+   "level": 5,
+   "pattern": "conditionals",
+   "en": "Provided that students receive proper guidance, online courses can be just as effective as classroom teaching.",
+   "gu": "જો વિદ્યાર્થીઓને યોગ્ય માર્ગદર્શન મળે, તો ઑનલાઇન અભ્યાસક્રમો વર્ગખંડના શિક્ષણ જેટલા જ અસરકારક હોઈ શકે છે.",
+   "alternatives": [
+    "As long as students receive proper guidance, online courses can be just as effective as classroom teaching."
+   ],
+   "tip": "Provided that means only if.",
+   "tipGu": "Provided that નો અર્થ 'ફક્ત જો' થાય છે.",
+   "focus": {
+    "word": "Provided",
+    "wrong": "Unless",
+    "options": [
+     "Provided",
+     "Unless",
+     "Despite"
+    ]
+   }
+  },
+  {
+   "id": "S5-014",
+   "level": 5,
+   "pattern": "noun phrases",
+   "en": "The rapid growth of social media has significantly changed the way young people form and maintain friendships.",
+   "gu": "સોશિયલ મીડિયાના ઝડપી વિકાસે યુવાનો જે રીતે મિત્રતા બાંધે છે અને જાળવે છે તેમાં નોંધપાત્ર ફેરફાર કર્યો છે.",
+   "alternatives": [],
+   "tip": "After an adjective like rapid, use a noun.",
+   "tipGu": "rapid જેવા વિશેષણ પછી નામ (noun) આવે છે.",
+   "focus": {
+    "word": "growth",
+    "wrong": "grow",
+    "options": [
+     "grow",
+     "growth",
+     "growing"
+    ]
+   }
+  },
+  {
+   "id": "S5-015",
+   "level": 5,
+   "pattern": "noun phrases",
+   "en": "A lack of affordable housing is one of the most serious problems facing large cities today.",
+   "gu": "પરવડે તેવાં મકાનોનો અભાવ આજે મોટાં શહેરો સામેની સૌથી ગંભીર સમસ્યાઓમાંની એક છે.",
+   "alternatives": [],
+   "tip": "A lack of + noun is a common academic noun phrase.",
+   "tipGu": "A lack of + નામ એ સામાન્ય શૈક્ષણિક noun phrase છે.",
+   "focus": {
+    "word": "lack",
+    "wrong": "lacking",
+    "options": [
+     "lack",
+     "lacks",
+     "lacking"
+    ]
+   }
+  },
+  {
+   "id": "S5-016",
+   "level": 5,
+   "pattern": "noun phrases",
+   "en": "The increasing number of private vehicles on the roads is a major cause of air pollution.",
+   "gu": "રસ્તાઓ પર ખાનગી વાહનોની વધતી સંખ્યા હવાના પ્રદૂષણનું મુખ્ય કારણ છે.",
+   "alternatives": [],
+   "tip": "Use number with countable nouns like vehicles.",
+   "tipGu": "vehicles જેવાં ગણી શકાય તેવાં નામ સાથે number વપરાય છે.",
+   "focus": {
+    "word": "number",
+    "wrong": "amount",
+    "options": [
+     "number",
+     "amount",
+     "deal"
+    ]
+   }
+  },
+  {
+   "id": "S5-017",
+   "level": 5,
+   "pattern": "noun phrases",
+   "en": "The government's recent decision to ban single-use plastics received strong support from environmental groups across the country.",
+   "gu": "એકલ-ઉપયોગના પ્લાસ્ટિક પર પ્રતિબંધ મૂકવાના સરકારના તાજેતરના નિર્ણયને દેશભરનાં પર્યાવરણીય જૂથોનો મજબૂત ટેકો મળ્યો.",
+   "alternatives": [],
+   "tip": "After a possessive and an adjective, use a noun.",
+   "tipGu": "માલિકીવાચક અને વિશેષણ પછી નામ (noun) આવે છે.",
+   "focus": {
+    "word": "decision",
+    "wrong": "decide",
+    "options": [
+     "decide",
+     "decision",
+     "decided"
+    ]
+   }
+  },
+  {
+   "id": "S5-018",
+   "level": 5,
+   "pattern": "passive voice",
+   "en": "It has been estimated that around forty percent of food produced in India is wasted every year.",
+   "gu": "એવો અંદાજ છે કે ભારતમાં ઉત્પન્ન થતા ખોરાકમાંથી લગભગ ચાલીસ ટકા ખોરાક દર વર્ષે વેડફાય છે.",
+   "alternatives": [],
+   "tip": "It has been estimated that... is a formal way to report data.",
+   "tipGu": "It has been estimated that... માહિતી રજૂ કરવાની ઔપચારિક રીત છે.",
+   "focus": {
+    "word": "estimated",
+    "wrong": "estimate",
+    "options": [
+     "estimate",
+     "estimated",
+     "estimating"
+    ]
+   }
+  },
+  {
+   "id": "S5-019",
+   "level": 5,
+   "pattern": "passive voice",
+   "en": "New vaccines are being developed to protect people against diseases that spread rapidly in crowded areas.",
+   "gu": "ભીડવાળા વિસ્તારોમાં ઝડપથી ફેલાતા રોગો સામે લોકોનું રક્ષણ કરવા નવી રસીઓ વિકસાવવામાં આવી રહી છે.",
+   "alternatives": [],
+   "tip": "After are being, use the past participle.",
+   "tipGu": "are being પછી ભૂતકૃદંત (past participle) આવે છે.",
+   "focus": {
+    "word": "developed",
+    "wrong": "developing",
+    "options": [
+     "develop",
+     "developed",
+     "developing"
+    ]
+   }
+  },
+  {
+   "id": "S5-020",
+   "level": 5,
+   "pattern": "passive voice",
+   "en": "The results of the experiment were published in an international science journal last month after careful review.",
+   "gu": "પ્રયોગનાં પરિણામો કાળજીપૂર્વકની સમીક્ષા પછી ગયા મહિને એક આંતરરાષ્ટ્રીય વિજ્ઞાન જર્નલમાં પ્રકાશિત થયાં હતાં.",
+   "alternatives": [],
+   "tip": "The subject is results (plural), so use were.",
+   "tipGu": "કર્તા results (બહુવચન) છે, એટલે were વપરાય છે.",
+   "focus": {
+    "word": "were",
+    "wrong": "was",
+    "options": [
+     "was",
+     "were",
+     "is"
+    ]
+   }
+  },
+  {
+   "id": "S5-021",
+   "level": 5,
+   "pattern": "passive voice",
+   "en": "Students should be encouraged to think critically rather than simply memorise facts for their final examinations.",
+   "gu": "વિદ્યાર્થીઓને અંતિમ પરીક્ષાઓ માટે માત્ર હકીકતો ગોખવાને બદલે વિવેચનાત્મક રીતે વિચારવા પ્રોત્સાહિત કરવા જોઈએ.",
+   "alternatives": [],
+   "tip": "After should be, use the past participle.",
+   "tipGu": "should be પછી ભૂતકૃદંત (past participle) આવે છે.",
+   "focus": {
+    "word": "encouraged",
+    "wrong": "encourage",
+    "options": [
+     "encourage",
+     "encouraged",
+     "encouraging"
+    ]
+   }
+  },
+  {
+   "id": "S5-022",
+   "level": 5,
+   "pattern": "relative clauses",
+   "en": "People who live near busy roads are more likely to suffer from asthma and other breathing problems.",
+   "gu": "જે લોકો વ્યસ્ત રસ્તાઓ પાસે રહે છે તેમને અસ્થમા અને શ્વાસની અન્ય સમસ્યાઓ થવાની શક્યતા વધુ હોય છે.",
+   "alternatives": [
+    "People that live near busy roads are more likely to suffer from asthma and other breathing problems."
+   ],
+   "tip": "Who identifies which people we mean.",
+   "tipGu": "who બતાવે છે કે કયા લોકોની વાત છે.",
+   "focus": {
+    "word": "who",
+    "wrong": "which",
+    "options": [
+     "who",
+     "which",
+     "whose"
+    ]
+   }
+  },
+  {
+   "id": "S5-023",
+   "level": 5,
+   "pattern": "relative clauses",
+   "en": "Solar panels, which convert sunlight into electricity, are becoming cheaper and more efficient every year.",
+   "gu": "સૂર્યપ્રકાશને વીજળીમાં ફેરવતી સૌર પેનલો દર વર્ષે સસ્તી અને વધુ કાર્યક્ષમ બની રહી છે.",
+   "alternatives": [],
+   "tip": "Use which between commas to add information about things.",
+   "tipGu": "વસ્તુ વિશે વધારાની માહિતી અલ્પવિરામ વચ્ચે which થી અપાય છે.",
+   "focus": {
+    "word": "which",
+    "wrong": "who",
+    "options": [
+     "which",
+     "who",
+     "what"
+    ]
+   }
+  },
+  {
+   "id": "S5-024",
+   "level": 5,
+   "pattern": "relative clauses",
+   "en": "The town where I grew up has changed completely since the new highway was built nearby.",
+   "gu": "હું જે નગરમાં મોટો થયો તે નજીકમાં નવો હાઇવે બન્યો ત્યારથી સંપૂર્ણપણે બદલાઈ ગયું છે.",
+   "alternatives": [
+    "The town in which I grew up has changed completely since the new highway was built nearby."
+   ],
+   "tip": "Where replaces in which for places.",
+   "tipGu": "સ્થળ માટે in which ને બદલે where વપરાય છે.",
+   "focus": {
+    "word": "where",
+    "wrong": "which",
+    "options": [
+     "where",
+     "which",
+     "when"
+    ]
+   }
+  },
+  {
+   "id": "S5-025",
+   "level": 5,
+   "pattern": "relative clauses",
+   "en": "Employees whose working hours are flexible generally tend to report higher levels of job satisfaction and loyalty.",
+   "gu": "જે કર્મચારીઓના કામના કલાકો લવચીક હોય છે તેઓ સામાન્ય રીતે નોકરીમાં વધુ સંતોષ અને વફાદારી દર્શાવે છે.",
+   "alternatives": [],
+   "tip": "Whose shows possession; who's means who is.",
+   "tipGu": "whose માલિકી બતાવે છે; who's નો અર્થ who is છે.",
+   "focus": {
+    "word": "whose",
+    "wrong": "who's",
+    "options": [
+     "whose",
+     "who's",
+     "which"
+    ]
+   }
+  },
+  {
+   "id": "S6-001",
+   "level": 6,
+   "pattern": "hedging: may/might/suggest",
+   "en": "These findings suggest that the link between diet and mental health may be stronger than previously thought.",
+   "gu": "આ તારણો સૂચવે છે કે આહાર અને માનસિક સ્વાસ્થ્ય વચ્ચેનો સંબંધ અગાઉ ધાર્યા કરતાં વધુ મજબૂત હોઈ શકે છે.",
+   "alternatives": [],
+   "tip": "Findings is plural, so use suggest.",
+   "tipGu": "findings બહુવચન છે, એટલે suggest વપરાય છે.",
+   "focus": {
+    "word": "suggest",
+    "wrong": "suggests",
+    "options": [
+     "suggest",
+     "suggests",
+     "prove"
+    ]
+   }
+  },
+  {
+   "id": "S6-002",
+   "level": 6,
+   "pattern": "hedging: may/might/suggest",
+   "en": "Automation might eliminate many routine jobs, although it is also likely to create new types of employment.",
+   "gu": "ઑટોમેશન ઘણી નિયમિત નોકરીઓ ખતમ કરી શકે છે, જો કે તે નવા પ્રકારના રોજગાર પણ ઊભા કરે તેવી શક્યતા છે.",
+   "alternatives": [
+    "Automation may eliminate many routine jobs, although it is also likely to create new types of employment."
+   ],
+   "tip": "Might softens a prediction about the future.",
+   "tipGu": "might ભવિષ્યની આગાહીને નરમ બનાવે છે.",
+   "focus": {
+    "word": "might",
+    "wrong": "must",
+    "options": [
+     "might",
+     "must",
+     "will"
+    ]
+   }
+  },
+  {
+   "id": "S6-003",
+   "level": 6,
+   "pattern": "hedging: may/might/suggest",
+   "en": "The data may not fully reflect the situation in remote villages, where internet access remains limited.",
+   "gu": "આ માહિતી કદાચ દૂરનાં ગામોની સ્થિતિને પૂરેપૂરી દર્શાવતી નથી, જ્યાં ઇન્ટરનેટ સુવિધા હજુ મર્યાદિત છે.",
+   "alternatives": [
+    "The data might not fully reflect the situation in remote villages, where internet access remains limited."
+   ],
+   "tip": "May not shows a possible limitation of the data.",
+   "tipGu": "may not માહિતીની શક્ય મર્યાદા બતાવે છે.",
+   "focus": {
+    "word": "may",
+    "wrong": "must",
+    "options": [
+     "may",
+     "must",
+     "will"
+    ]
+   }
+  },
+  {
+   "id": "S6-004",
+   "level": 6,
+   "pattern": "hedging: may/might/suggest",
+   "en": "Some experts suggest that a shorter working week could improve both productivity and employee well-being.",
+   "gu": "કેટલાક નિષ્ણાતો સૂચવે છે કે ટૂંકું કાર્ય-સપ્તાહ ઉત્પાદકતા અને કર્મચારીઓની સુખાકારી બંનેમાં સુધારો કરી શકે છે.",
+   "alternatives": [],
+   "tip": "Experts is plural, so use suggest without -s.",
+   "tipGu": "experts બહુવચન છે, એટલે suggest (-s વગર).",
+   "focus": {
+    "word": "suggest",
+    "wrong": "suggests",
+    "options": [
+     "suggest",
+     "suggests",
+     "prove"
+    ]
+   }
+  },
+  {
+   "id": "S6-005",
+   "level": 6,
+   "pattern": "academic linking",
+   "en": "Consequently, many developing nations now face a difficult choice between rapid industrial growth and long-term environmental protection.",
+   "gu": "પરિણામે, ઘણા વિકાસશીલ દેશો હવે ઝડપી ઔદ્યોગિક વિકાસ અને લાંબા ગાળાના પર્યાવરણીય રક્ષણ વચ્ચે મુશ્કેલ પસંદગીનો સામનો કરે છે.",
+   "alternatives": [
+    "As a result, many developing nations now face a difficult choice between rapid industrial growth and long-term environmental protection."
+   ],
+   "tip": "Consequently introduces a result of the previous idea.",
+   "tipGu": "Consequently આગળના વિચારનું પરિણામ રજૂ કરે છે.",
+   "focus": {
+    "word": "Consequently",
+    "wrong": "Nevertheless",
+    "options": [
+     "Consequently",
+     "Nevertheless",
+     "Moreover"
+    ]
+   }
+  },
+  {
+   "id": "S6-006",
+   "level": 6,
+   "pattern": "academic linking",
+   "en": "While technology has made communication faster, it has arguably reduced the quality of face-to-face interaction.",
+   "gu": "ટેક્નોલોજીએ સંદેશાવ્યવહારને ઝડપી બનાવ્યો છે, છતાં દલીલપૂર્વક કહી શકાય કે તેણે રૂબરૂ વાતચીતની ગુણવત્તા ઘટાડી છે.",
+   "alternatives": [
+    "Although technology has made communication faster, it has arguably reduced the quality of face-to-face interaction."
+   ],
+   "tip": "While can introduce a contrast, like although.",
+   "tipGu": "while, although ની જેમ વિરોધ રજૂ કરી શકે છે.",
+   "focus": {
+    "word": "While",
+    "wrong": "During",
+    "options": [
+     "While",
+     "During",
+     "Despite"
+    ]
+   }
+  },
+  {
+   "id": "S6-007",
+   "level": 6,
+   "pattern": "academic linking",
+   "en": "On the one hand, tourism creates jobs; on the other hand, it can damage fragile ecosystems.",
+   "gu": "એક તરફ, પ્રવાસન રોજગાર ઊભો કરે છે; બીજી તરફ, તે નાજુક પરિસ્થિતિતંત્રોને નુકસાન પહોંચાડી શકે છે.",
+   "alternatives": [],
+   "tip": "The fixed phrase is on the other hand.",
+   "tipGu": "નિશ્ચિત શબ્દસમૂહ on the other hand છે.",
+   "focus": {
+    "word": "other",
+    "wrong": "another",
+    "options": [
+     "other",
+     "another",
+     "next"
+    ]
+   }
+  },
+  {
+   "id": "S6-008",
+   "level": 6,
+   "pattern": "academic linking",
+   "en": "In addition to reducing emissions, planting trees helps to prevent soil erosion and supports local wildlife.",
+   "gu": "ઉત્સર્જન ઘટાડવા ઉપરાંત, વૃક્ષો વાવવાથી જમીનનું ધોવાણ અટકે છે અને સ્થાનિક વન્યજીવોને ટેકો મળે છે.",
+   "alternatives": [],
+   "tip": "After in addition to, use verb-ing.",
+   "tipGu": "in addition to પછી ક્રિયાપદ-ing આવે છે.",
+   "focus": {
+    "word": "reducing",
+    "wrong": "reduce",
+    "options": [
+     "reduce",
+     "reducing",
+     "reduced"
+    ]
+   }
+  },
+  {
+   "id": "S6-009",
+   "level": 6,
+   "pattern": "conditionals",
+   "en": "Were governments to impose stricter limits on emissions, air quality in major cities would improve considerably.",
+   "gu": "જો સરકારો ઉત્સર્જન પર વધુ કડક મર્યાદાઓ લાદે, તો મોટાં શહેરોમાં હવાની ગુણવત્તામાં નોંધપાત્ર સુધારો થાય.",
+   "alternatives": [
+    "If governments imposed stricter limits on emissions, air quality in major cities would improve considerably."
+   ],
+   "tip": "Formal inversion: Were + subject + to-verb replaces If.",
+   "tipGu": "ઔપચારિક રચના: If ને બદલે Were + કર્તા + to-ક્રિયાપદ.",
+   "focus": {
+    "word": "Were",
+    "wrong": "If",
+    "options": [
+     "Were",
+     "If",
+     "Did"
+    ]
+   }
+  },
+  {
+   "id": "S6-010",
+   "level": 6,
+   "pattern": "conditionals",
+   "en": "If the city had invested in flood defences earlier, the damage caused by last year's monsoon would have been far less severe.",
+   "gu": "જો શહેરે પૂરથી બચાવની વ્યવસ્થામાં વહેલું રોકાણ કર્યું હોત, તો ગયા વર્ષના ચોમાસાથી થયેલું નુકસાન ઘણું ઓછું ગંભીર હોત.",
+   "alternatives": [],
+   "tip": "Third conditional for past regrets: If + had + past participle.",
+   "tipGu": "ભૂતકાળના અફસોસ માટે: If + had + ભૂતકૃદંત.",
+   "focus": {
+    "word": "had",
+    "wrong": "has",
+    "options": [
+     "had",
+     "has",
+     "would"
+    ]
+   }
+  },
+  {
+   "id": "S6-011",
+   "level": 6,
+   "pattern": "conditionals",
+   "en": "Should the trial prove successful, the new treatment will be made available to patients across the country.",
+   "gu": "જો પરીક્ષણ સફળ સાબિત થાય, તો નવી સારવાર દેશભરના દર્દીઓ માટે ઉપલબ્ધ કરાવવામાં આવશે.",
+   "alternatives": [
+    "If the trial proves successful, the new treatment will be made available to patients across the country."
+   ],
+   "tip": "Formal Should + subject means if.",
+   "tipGu": "ઔપચારિક અંગ્રેજીમાં Should + કર્તા નો અર્થ 'જો' થાય છે.",
+   "focus": {
+    "word": "Should",
+    "wrong": "Would",
+    "options": [
+     "Should",
+     "Would",
+     "Could"
+    ]
+   }
+  },
+  {
+   "id": "S6-012",
+   "level": 6,
+   "pattern": "conditionals",
+   "en": "If young people were taught financial skills at school, they would be less likely to fall into debt later.",
+   "gu": "જો યુવાનોને શાળામાં નાણાકીય કુશળતાઓ શીખવવામાં આવે, તો પછીથી તેઓ દેવામાં ફસાય તેવી શક્યતા ઓછી રહે.",
+   "alternatives": [],
+   "tip": "Second conditional passive: If + were + past participle.",
+   "tipGu": "બીજો conditional કર્મણિ: If + were + ભૂતકૃદંત.",
+   "focus": {
+    "word": "were",
+    "wrong": "are",
+    "options": [
+     "were",
+     "are",
+     "had"
+    ]
+   }
+  },
+  {
+   "id": "S6-013",
+   "level": 6,
+   "pattern": "noun phrases",
+   "en": "The widespread use of antibiotics in farming has contributed to the growing problem of drug-resistant bacteria.",
+   "gu": "ખેતીમાં એન્ટિબાયોટિક્સના વ્યાપક ઉપયોગે દવા-પ્રતિરોધક બેક્ટેરિયાની વધતી સમસ્યામાં ફાળો આપ્યો છે.",
+   "alternatives": [],
+   "tip": "The + adjective + noun + of is a key academic pattern.",
+   "tipGu": "The + વિશેષણ + નામ + of એ મહત્ત્વની શૈક્ષણિક રચના છે.",
+   "focus": {
+    "word": "use",
+    "wrong": "using",
+    "options": [
+     "use",
+     "using",
+     "used"
+    ]
+   }
+  },
+  {
+   "id": "S6-014",
+   "level": 6,
+   "pattern": "noun phrases",
+   "en": "The ability to communicate effectively in English is a significant advantage in the global job market.",
+   "gu": "અંગ્રેજીમાં અસરકારક રીતે વાતચીત કરવાની ક્ષમતા વૈશ્વિક નોકરી બજારમાં એક નોંધપાત્ર લાભ છે.",
+   "alternatives": [],
+   "tip": "The subject needs a noun: the ability to...",
+   "tipGu": "કર્તા તરીકે નામ જોઈએ: the ability to...",
+   "focus": {
+    "word": "ability",
+    "wrong": "able",
+    "options": [
+     "able",
+     "ability",
+     "capable"
+    ]
+   }
+  },
+  {
+   "id": "S6-015",
+   "level": 6,
+   "pattern": "noun phrases",
+   "en": "A significant reduction in the number of road accidents was recorded after the new speed limits were introduced.",
+   "gu": "નવી ગતિ મર્યાદાઓ લાગુ થયા પછી માર્ગ અકસ્માતોની સંખ્યામાં નોંધપાત્ર ઘટાડો નોંધાયો હતો.",
+   "alternatives": [],
+   "tip": "A + adjective + noun forms a strong noun phrase.",
+   "tipGu": "A + વિશેષણ + નામ મળીને મજબૂત noun phrase બને છે.",
+   "focus": {
+    "word": "reduction",
+    "wrong": "reduce",
+    "options": [
+     "reduce",
+     "reduction",
+     "reduced"
+    ]
+   }
+  },
+  {
+   "id": "S6-016",
+   "level": 6,
+   "pattern": "noun phrases",
+   "en": "The long-term effects of climate change on agricultural production remain difficult to predict with any certainty.",
+   "gu": "કૃષિ ઉત્પાદન પર આબોહવા પરિવર્તનની લાંબા ગાળાની અસરો કોઈ પણ નિશ્ચિતતા સાથે આગાહી કરવી મુશ્કેલ રહે છે.",
+   "alternatives": [],
+   "tip": "Effect is the noun; affect is usually the verb.",
+   "tipGu": "effect નામ છે; affect સામાન્ય રીતે ક્રિયાપદ છે.",
+   "focus": {
+    "word": "effects",
+    "wrong": "affects",
+    "options": [
+     "effects",
+     "affects",
+     "effect"
+    ]
+   }
+  },
+  {
+   "id": "S6-017",
+   "level": 6,
+   "pattern": "passive voice",
+   "en": "It is often assumed that economic growth automatically leads to higher living standards for everyone.",
+   "gu": "ઘણી વાર એવું માની લેવામાં આવે છે કે આર્થિક વિકાસ આપોઆપ દરેક માટે ઊંચા જીવનધોરણ તરફ દોરી જાય છે.",
+   "alternatives": [],
+   "tip": "It is assumed that... presents a common belief impersonally.",
+   "tipGu": "It is assumed that... સામાન્ય માન્યતાને વ્યક્તિ વગર રજૂ કરે છે.",
+   "focus": {
+    "word": "assumed",
+    "wrong": "assume",
+    "options": [
+     "assume",
+     "assumed",
+     "assuming"
+    ]
+   }
+  },
+  {
+   "id": "S6-018",
+   "level": 6,
+   "pattern": "passive voice",
+   "en": "Thousands of hectares of forest have been cleared to make way for new roads and housing projects.",
+   "gu": "નવા રસ્તાઓ અને આવાસ પ્રોજેક્ટો માટે જગ્યા કરવા હજારો હેક્ટર જંગલ સાફ કરી નાખવામાં આવ્યું છે.",
+   "alternatives": [],
+   "tip": "Present perfect passive = have been + past participle.",
+   "tipGu": "પૂર્ણ વર્તમાનકાળ કર્મણિ = have been + ભૂતકૃદંત.",
+   "focus": {
+    "word": "been",
+    "wrong": "being",
+    "options": [
+     "be",
+     "been",
+     "being"
+    ]
+   }
+  },
+  {
+   "id": "S6-019",
+   "level": 6,
+   "pattern": "passive voice",
+   "en": "Participants in the study were asked to record their daily screen time over a period of six months.",
+   "gu": "અભ્યાસમાં ભાગ લેનારાઓને છ મહિનાના સમયગાળા દરમિયાન તેમનો દૈનિક સ્ક્રીન સમય નોંધવા કહેવામાં આવ્યું હતું.",
+   "alternatives": [],
+   "tip": "Research reports often use the past passive: were asked.",
+   "tipGu": "સંશોધન અહેવાલોમાં ઘણી વાર ભૂતકાળ કર્મણિ વપરાય છે: were asked.",
+   "focus": {
+    "word": "asked",
+    "wrong": "ask",
+    "options": [
+     "ask",
+     "asked",
+     "asking"
+    ]
+   }
+  },
+  {
+   "id": "S6-020",
+   "level": 6,
+   "pattern": "passive voice",
+   "en": "The new curriculum is expected to be introduced in all government schools by the end of next year.",
+   "gu": "નવો અભ્યાસક્રમ આવતા વર્ષના અંત સુધીમાં તમામ સરકારી શાળાઓમાં દાખલ કરવામાં આવે તેવી અપેક્ષા છે.",
+   "alternatives": [],
+   "tip": "After to be, use the past participle.",
+   "tipGu": "to be પછી ભૂતકૃદંત (past participle) આવે છે.",
+   "focus": {
+    "word": "introduced",
+    "wrong": "introducing",
+    "options": [
+     "introduce",
+     "introduced",
+     "introducing"
+    ]
+   }
+  },
+  {
+   "id": "S6-021",
+   "level": 6,
+   "pattern": "relative clauses",
+   "en": "The scientists, most of whom had worked on the project for over a decade, celebrated the successful launch.",
+   "gu": "વૈજ્ઞાનિકો, જેમાંના મોટાભાગના એક દાયકાથી વધુ સમયથી આ પ્રોજેક્ટ પર કામ કરતા હતા, તેમણે સફળ પ્રક્ષેપણની ઉજવણી કરી.",
+   "alternatives": [],
+   "tip": "After a preposition like of, use whom for people.",
+   "tipGu": "of જેવા નામયોગી પછી વ્યક્તિ માટે whom વપરાય છે.",
+   "focus": {
+    "word": "whom",
+    "wrong": "who",
+    "options": [
+     "whom",
+     "who",
+     "which"
+    ]
+   }
+  },
+  {
+   "id": "S6-022",
+   "level": 6,
+   "pattern": "relative clauses",
+   "en": "Cities in which green spaces are limited tend to experience higher temperatures during the summer months.",
+   "gu": "જે શહેરોમાં હરિયાળી જગ્યાઓ મર્યાદિત હોય છે ત્યાં ઉનાળાના મહિનાઓમાં તાપમાન વધુ રહે છે.",
+   "alternatives": [
+    "Cities where green spaces are limited tend to experience higher temperatures during the summer months."
+   ],
+   "tip": "After a preposition, use which, not that.",
+   "tipGu": "નામયોગી (in, of) પછી that નહીં, which વપરાય છે.",
+   "focus": {
+    "word": "which",
+    "wrong": "that",
+    "options": [
+     "which",
+     "that",
+     "where"
+    ]
+   }
+  },
+  {
+   "id": "S6-023",
+   "level": 6,
+   "pattern": "relative clauses",
+   "en": "The report highlights several factors, the most important of which is the lack of trained teachers.",
+   "gu": "અહેવાલ અનેક પરિબળો પર ભાર મૂકે છે, જેમાંથી સૌથી મહત્ત્વનું પરિબળ પ્રશિક્ષિત શિક્ષકોનો અભાવ છે.",
+   "alternatives": [],
+   "tip": "Use of which for things in this formal pattern.",
+   "tipGu": "આ ઔપચારિક રચનામાં વસ્તુ માટે of which વપરાય છે.",
+   "focus": {
+    "word": "which",
+    "wrong": "whom",
+    "options": [
+     "which",
+     "whom",
+     "what"
+    ]
+   }
+  },
+  {
+   "id": "S6-024",
+   "level": 6,
+   "pattern": "relative clauses",
+   "en": "Patients whose symptoms are detected early usually respond much better to treatment than those diagnosed later.",
+   "gu": "જે દર્દીઓનાં લક્ષણો વહેલાં પકડાઈ જાય છે તેઓ સામાન્ય રીતે પછીથી નિદાન થયેલા દર્દીઓ કરતાં સારવારને ઘણો સારો પ્રતિસાદ આપે છે.",
+   "alternatives": [],
+   "tip": "Whose links a person to something they have.",
+   "tipGu": "whose વ્યક્તિને તેની કોઈ વસ્તુ સાથે જોડે છે.",
+   "focus": {
+    "word": "whose",
+    "wrong": "who",
+    "options": [
+     "whose",
+     "who",
+     "which"
+    ]
+   }
+  },
+  {
+   "id": "S6-025",
+   "level": 6,
+   "pattern": "relative clauses",
+   "en": "Renewable energy, which was once considered too expensive, is now cheaper than coal in many countries.",
+   "gu": "એક સમયે ખૂબ મોંઘી ગણાતી પુનઃપ્રાપ્ય ઊર્જા હવે ઘણા દેશોમાં કોલસા કરતાં સસ્તી છે.",
+   "alternatives": [],
+   "tip": "Do not use what as a relative pronoun after a noun.",
+   "tipGu": "નામ પછી relative pronoun તરીકે what ન વપરાય; which વપરાય.",
+   "focus": {
+    "word": "which",
+    "wrong": "what",
+    "options": [
+     "which",
+     "what",
+     "who"
+    ]
+   }
+  }
+ ]
+}

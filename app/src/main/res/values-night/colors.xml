@@ -18,4 +18,6 @@
     <color name="error_container">#4A1616</color>
     <color name="option_stroke">#3A445A</color>
     <color name="track">#2A3245</color>
+    <color name="speak_dark">#0B5C52</color>
+    <color name="bubble_you">#2A56B8</color>
 </resources>

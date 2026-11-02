@@ -72,3 +72,82 @@ data class TestJson(
     val vocabulary: List<VocabJson>? = null,
     val questions: List<QuestionJson>? = null
 )
+
+// ---------------- Vocabulary builder: assets/content/wordpacks.json ----------------
+
+data class WordPacksFileJson(val packs: List<WordPackJson> = emptyList())
+
+data class WordPackJson(
+    val id: String = "",
+    val order: Int = 0,
+    val title: String = "",
+    val titleGu: String = "",
+    val ielts: Boolean = false,
+    val minLevel: Int = 0,
+    val words: List<PackWordJson>? = null
+)
+
+data class PackWordJson(
+    val word: String = "",
+    val pos: String? = null,
+    val pronGu: String? = null,
+    val meaningGu: String = "",
+    val meaningEn: String? = null,
+    val example: String? = null,
+    val exampleGu: String? = null,
+    val family: List<WordFormJson>? = null,
+    val synonyms: List<String>? = null,
+    val opposites: List<String>? = null,
+    val collocations: List<String>? = null,
+    val ieltsTip: String? = null
+)
+
+data class WordFormJson(val word: String = "", val pos: String = "", val gu: String = "")
+
+// ---------------- Sentence practice: assets/content/sentences.json ----------------
+
+data class SentencesFileJson(val sentences: List<SentenceJson> = emptyList())
+
+data class SentenceJson(
+    val id: String = "",
+    val level: Int = 0,
+    val pattern: String = "",
+    val en: String = "",
+    val gu: String = "",
+    val alternatives: List<String>? = null,
+    val tip: String? = null,
+    val tipGu: String? = null,
+    val focus: SentenceFocusJson? = null
+)
+
+data class SentenceFocusJson(val word: String = "", val wrong: String = "", val options: List<String>? = null)
+
+// ---------------- Basic speaking: assets/content/speaking.json (read directly, not stored in Room) ----------------
+
+data class SpeakingFileJson(val partnerName: String = "Priya", val units: List<SpeakingUnit> = emptyList())
+
+data class SpeakingUnit(
+    val id: String = "",
+    val order: Int = 0,
+    val title: String = "",
+    val titleGu: String = "",
+    val phrases: List<SpeakingPhrase> = emptyList(),
+    val conversation: List<ConversationTurn> = emptyList()
+)
+
+data class SpeakingPhrase(
+    val en: String = "",
+    val gu: String = "",
+    val pronGu: String = "",
+    val stress: List<String> = emptyList()
+)
+
+/** who = "partner" (has en/gu) or "you" (has options). */
+data class ConversationTurn(
+    val who: String = "partner",
+    val en: String = "",
+    val gu: String = "",
+    val options: List<ConversationOption> = emptyList()
+)
+
+data class ConversationOption(val en: String = "", val gu: String = "")

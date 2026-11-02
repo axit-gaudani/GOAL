@@ -55,3 +55,38 @@ data class OverallStats(
     val levels: List<LevelItem>,
     val recentAttempts: List<Pair<TestAttemptEntity, String>>
 )
+
+// ---------------- Sentence practice ----------------
+
+enum class SentenceExercise(val title: String, val titleGu: String, val minLevel: Int) {
+    BUILD("Build the sentence", "શબ્દો ગોઠવો", 0),
+    FILL("Fill the gap", "ખાલી જગ્યા ભરો", 0),
+    FIX("Fix the mistake", "ભૂલ સુધારો", 1),
+    DICTATION("Listen and write", "સાંભળીને લખો", 1),
+    TRANSLATE("Translate", "ગુજરાતી → અંગ્રેજી", 2)
+}
+
+data class RoundItem(val sentence: com.goal.ieltsreading.data.db.SentenceEntity, val exercise: SentenceExercise, val isRepeat: Boolean)
+
+data class PatternMastery(val pattern: String, val percent: Int, val attempts: Int)
+
+// ---------------- Vocabulary builder ----------------
+
+data class PackItem(
+    val pack: com.goal.ieltsreading.data.db.WordPackEntity,
+    val total: Int,
+    val learned: Int,
+    val unlocked: Boolean
+) {
+    val percent: Int get() = if (total == 0) 0 else learned * 100 / total
+}
+
+// ---------------- Basic speaking ----------------
+
+data class SpeakingUnitItem(
+    val unit: com.goal.ieltsreading.data.content.SpeakingUnit,
+    val progress: com.goal.ieltsreading.data.db.SpeakingProgressEntity?,
+    val unlocked: Boolean
+) {
+    val completed: Boolean get() = progress?.completed == true
+}

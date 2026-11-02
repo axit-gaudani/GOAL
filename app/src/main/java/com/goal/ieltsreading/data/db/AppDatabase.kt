@@ -9,9 +9,11 @@ import androidx.room.TypeConverters
 @Database(
     entities = [
         LevelEntity::class, LessonEntity::class, VocabEntity::class, QuestionEntity::class, TestEntity::class,
-        LessonProgressEntity::class, VocabProgressEntity::class, TestAttemptEntity::class, DailyActivityEntity::class
+        WordPackEntity::class, SentenceEntity::class,
+        LessonProgressEntity::class, VocabProgressEntity::class, TestAttemptEntity::class, DailyActivityEntity::class,
+        SentenceProgressEntity::class, SpeakingProgressEntity::class
     ],
-    version = 1,
+    version = 2,
     exportSchema = true
 )
 @TypeConverters(Converters::class)
@@ -22,8 +24,9 @@ abstract class AppDatabase : RoomDatabase() {
     companion object {
         fun create(context: Context): AppDatabase =
             Room.databaseBuilder(context.applicationContext, AppDatabase::class.java, "ielts_reading.db")
-                // When you change the database version later, add a Migration here
-                // so that the student's progress is kept.
+                // Version 1 was only used for testing before release, so it is simply rebuilt.
+                // From now on, every version change needs a real Migration so students keep their progress.
+                .fallbackToDestructiveMigrationFrom(1)
                 .build()
     }
 }

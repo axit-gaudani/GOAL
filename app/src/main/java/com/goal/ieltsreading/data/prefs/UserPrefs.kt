@@ -42,6 +42,16 @@ class UserPrefs(context: Context) {
         get() = sp.getInt("reminder_minute", 0)
         set(v) = sp.edit { putInt("reminder_minute", v) }
 
+    /** Word pack chosen in the Vocabulary builder. */
+    var currentPackId: String
+        get() = sp.getString("current_pack", "") ?: ""
+        set(v) = sp.edit { putString("current_pack", v) }
+
+    /** Speak words automatically when a word card opens. */
+    var autoSpeak: Boolean
+        get() = sp.getBoolean("auto_speak", true)
+        set(v) = sp.edit { putBoolean("auto_speak", v) }
+
     var contentVersion: Int
         get() = sp.getInt("content_version", 0)
         set(v) = sp.edit { putInt("content_version", v) }

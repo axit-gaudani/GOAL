@@ -213,4 +213,135 @@
     <string name="reset_done">Progress reset</string>
     <string name="reminder_title">Time for your English reading 📖</string>
     <string name="reminder_text">Today: %1$d of %2$d minutes. %3$d words are waiting for review. ચાલો, થોડું વાંચીએ!</string>
+
+    <!-- Navigation (new) -->
+    <string name="nav_speak">Speak</string>
+    <string name="title_vocab_builder">Vocabulary builder</string>
+    <string name="title_new_words">New words</string>
+    <string name="title_sentence_practice">Sentence practice</string>
+    <string name="title_speaking">Basic speaking</string>
+    <string name="title_say_phrase">Say the phrase</string>
+    <string name="title_conversation">Practice conversation</string>
+
+    <!-- Common audio -->
+    <string name="cd_play">Play sound</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_replay">Hear again</string>
+    <string name="cd_gujarati_hint">Show Gujarati</string>
+    <string name="btn_listen">Listen</string>
+    <string name="btn_slow">Slow · ધીમે</string>
+    <string name="btn_done_today">Done for today</string>
+    <string name="btn_play_again">Play again</string>
+    <string name="btn_finish">Finish</string>
+    <string name="status_done">Done ✓</string>
+
+    <!-- Home (new) -->
+    <string name="sentences_card_sub">10 sentences a day · રોજ 10 વાક્યો</string>
+    <string name="sentences_due_format">%d to repeat today</string>
+    <string name="speaking_card_sub">Say everyday English · બોલતા શીખો</string>
+
+    <!-- Sentence practice -->
+    <string name="sentence_hub_subtitle">Practise many short sentences to make English automatic. · વધુ ને વધુ વાક્યો, દરરોજ.</string>
+    <string name="sentence_round_level">TODAY\'S ROUND · %s</string>
+    <string name="sentence_round_title">10 sentences · about 5 minutes</string>
+    <string name="sentence_repeat_format">%d sentences to repeat</string>
+    <string name="btn_start_round">Start · શરૂ કરો</string>
+    <string name="grammar_patterns">Your grammar patterns (weakest first)</string>
+    <string name="no_patterns_yet">Finish a round to see which grammar you know best.</string>
+    <string name="practise_one_skill">Practise one skill</string>
+    <string name="opens_at_level">Level %d</string>
+    <string name="exercise_label_format">%1$s · %2$s</string>
+    <string name="repeat_label">REPEAT</string>
+    <string name="your_answer">Your answer</string>
+    <string name="choose_right_word">Choose the right word</string>
+    <string name="type_english_sentence">Type the English sentence</string>
+    <string name="btn_next_sentence">Next sentence</string>
+    <string name="round_complete">Round complete! · આજના વાક્યો પૂરા</string>
+    <string name="no_sentences_yet">No sentences found for your level yet.</string>
+    <string name="practise_again_tomorrow">Practise again tomorrow</string>
+    <string name="btn_ten_more">10 more sentences · વધુ 10</string>
+    <string name="you_wrote_format">You wrote: %s</string>
+    <string name="ex_build">Make the English sentence</string>
+    <string name="ex_build_gu">શબ્દો સાચા ક્રમમાં ગોઠવો</string>
+    <string name="ex_fill">Fill the gap</string>
+    <string name="ex_fill_gu">ખાલી જગ્યા માટે સાચો શબ્દ પસંદ કરો</string>
+    <string name="ex_fix">Tap the wrong word, then fix it</string>
+    <string name="ex_fix_gu">ખોટો શબ્દ શોધો અને સુધારો</string>
+    <string name="ex_dictation">Listen and write the sentence</string>
+    <string name="ex_dictation_gu">સાંભળો અને વાક્ય લખો</string>
+    <string name="ex_translate">Write this in English</string>
+    <string name="ex_translate_gu">આ વાક્ય અંગ્રેજીમાં લખો</string>
+
+    <!-- Vocabulary builder -->
+    <string name="vocab_hub_subtitle">5 new words a day · રોજ નવા શબ્દો, શબ્દભંડોળ વધારો</string>
+    <string name="words_you_know">WORDS YOU ARE LEARNING</string>
+    <string name="mastered_format">%d mastered</string>
+    <string name="word_level_marks">A1 500 · A2 1,000 · B1 2,000 · B2 3,000 · Band 7 ≈ 4,000</string>
+    <string name="new_words">New words</string>
+    <string name="no_pack">Choose a pack</string>
+    <string name="review_words">Review</string>
+    <string name="review_words_gu">પુનરાવર્તન</string>
+    <string name="game_match">Match pairs</string>
+    <string name="game_match_gu">જોડી બનાવો</string>
+    <string name="game_spelling">Spelling</string>
+    <string name="game_spelling_gu">સાંભળીને લખો</string>
+    <string name="topic_packs">Topic packs</string>
+    <string name="topic_packs_hint">Tap a pack to choose where your new words come from.</string>
+    <string name="all_my_words">All my words</string>
+    <string name="ielts_tag">IELTS</string>
+    <string name="pack_count_format">%1$d/%2$d</string>
+    <string name="pack_locked_format">This pack opens at Level %d.</string>
+    <string name="new_word_counter">New word %1$d of %2$d</string>
+    <string name="words_learned_today">%d new words added to your review deck. They come back tomorrow. 🎉</string>
+    <string name="word_family">Word family · શબ્દ પરિવાર</string>
+    <string name="same_meaning">Same meaning</string>
+    <string name="opposite">Opposite</string>
+    <string name="goes_with">Goes with</string>
+    <string name="btn_i_know_this">I know this</string>
+    <string name="btn_learn_word">Learn it · next</string>
+    <string name="match_title">Match English and Gujarati</string>
+    <string name="match_title_gu">અંગ્રેજી શબ્દને તેના અર્થ સાથે જોડો</string>
+    <string name="match_status">%1$d of %2$d matched · %3$d mistakes</string>
+    <string name="match_last_format">%1$s = %2$s</string>
+    <string name="match_finished">All matched in %1$d s with %2$d mistakes!</string>
+    <string name="game_needs_words">Learn a few new words first, then play. · પહેલાં થોડા નવા શબ્દો શીખો.</string>
+    <string name="spelling_title">Listen and type the word</string>
+    <string name="spelling_title_gu">શબ્દ સાંભળો અને તેનો સ્પેલિંગ લખો</string>
+    <string name="spelling_hint">Meaning: %1$s · %2$d letters</string>
+    <string name="type_the_word">Type the word</string>
+    <string name="spelling_finished">You spelled %1$d of %2$d words correctly.</string>
+
+    <!-- Basic speaking -->
+    <string name="speak_hub_subtitle">Everyday spoken English in 7 short units · રોજિંદું અંગ્રેજી બોલતા શીખો</string>
+    <string name="phrase_of_day">PHRASE OF THE DAY</string>
+    <string name="speaking_units">Speaking units</string>
+    <string name="speak_progress_format">%1$d/%2$d clear</string>
+    <string name="speak_unit_locked">Finish the previous unit first. · પહેલાંનું યુનિટ પૂરું કરો.</string>
+    <string name="speak_step_phrases">1 · Say the phrases</string>
+    <string name="speak_step_chat">2 · Practice conversation</string>
+    <string name="listen_then_say">Listen, then say it · સાંભળો, પછી બોલો</string>
+    <string name="stress_hint">Underlined words are said stronger · રેખાવાળા શબ્દો ભારથી બોલો</string>
+    <string name="btn_teacher">Teacher</string>
+    <string name="btn_my_voice">My voice</string>
+    <string name="btn_record">Record</string>
+    <string name="btn_stop_recording">Stop</string>
+    <string name="btn_say_check">Say &amp; check</string>
+    <string name="btn_next_phrase">Next phrase</string>
+    <string name="no_speech_check">Speech check is not available on this phone. Record your voice and compare it with the teacher.</string>
+    <string name="speech_prompt_format">Say: %s</string>
+    <string name="speech_not_heard">Nothing was heard. Try again in a quiet place.</string>
+    <string name="mic_permission_needed">Microphone permission is needed to record your voice.</string>
+    <string name="speech_clear">Clear! ✓ · સ્પષ્ટ</string>
+    <string name="speech_try_again">Try again · ફરી બોલો</string>
+    <string name="speech_words_clear">%1$d of %2$d words heard clearly. Yellow words need practice.</string>
+    <string name="speak_phrases_done">Phrases done: %1$d of %2$d clear. Now try the conversation!</string>
+    <string name="speak_phrases_done_nocheck">You practised all %d phrases. Now try the conversation!</string>
+    <string name="btn_to_conversation">Practice conversation</string>
+    <string name="choose_answer">Choose an answer · જવાબ પસંદ કરો</string>
+    <string name="now_say_it">NOW SAY IT · હવે બોલો</string>
+    <string name="btn_say_it">Say it</string>
+    <string name="gu_short">ગુ</string>
+    <string name="speech_clear_short">✓ Clear</string>
+    <string name="speech_try_next_time">Practise this one again</string>
+    <string name="conversation_done">Conversation complete! 🎉</string>
 </resources>

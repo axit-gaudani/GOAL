@@ -1,0 +1,6450 @@
+{
+ "packs": [
+  {
+   "id": "P01",
+   "order": 1,
+   "title": "Daily life",
+   "titleGu": "રોજિંદું જીવન",
+   "ielts": false,
+   "minLevel": 0,
+   "words": [
+    {
+     "word": "breakfast",
+     "pos": "noun",
+     "pronGu": "બ્રેકફાસ્ટ",
+     "meaningGu": "સવારનો નાસ્તો",
+     "meaningEn": "the first meal of the day",
+     "example": "I eat breakfast at seven.",
+     "exampleGu": "હું સાત વાગ્યે નાસ્તો કરું છું.",
+     "family": [
+      {
+       "word": "breakfast",
+       "pos": "noun",
+       "gu": "સવારનો નાસ્તો"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "have breakfast",
+      "eat breakfast"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "wake",
+     "pos": "verb",
+     "pronGu": "વેક",
+     "meaningGu": "જાગવું",
+     "meaningEn": "to stop sleeping",
+     "example": "I wake up at six every day.",
+     "exampleGu": "હું દરરોજ છ વાગ્યે જાગું છું.",
+     "family": [
+      {
+       "word": "wake",
+       "pos": "verb",
+       "gu": "જાગવું"
+      },
+      {
+       "word": "awake",
+       "pos": "adjective",
+       "gu": "જાગતું"
+      }
+     ],
+     "synonyms": [
+      "get up"
+     ],
+     "opposites": [
+      "sleep"
+     ],
+     "collocations": [
+      "wake up",
+      "wake up early"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "sleep",
+     "pos": "verb",
+     "pronGu": "સ્લીપ",
+     "meaningGu": "ઊંઘવું",
+     "meaningEn": "to rest with your eyes closed",
+     "example": "I sleep for eight hours.",
+     "exampleGu": "હું આઠ કલાક ઊંઘું છું.",
+     "family": [
+      {
+       "word": "sleep",
+       "pos": "verb",
+       "gu": "ઊંઘવું"
+      },
+      {
+       "word": "sleep",
+       "pos": "noun",
+       "gu": "ઊંઘ"
+      },
+      {
+       "word": "sleepy",
+       "pos": "adjective",
+       "gu": "ઊંઘરેટું"
+      },
+      {
+       "word": "asleep",
+       "pos": "adjective",
+       "gu": "ઊંઘમાં"
+      }
+     ],
+     "synonyms": [
+      "rest"
+     ],
+     "opposites": [
+      "wake"
+     ],
+     "collocations": [
+      "go to sleep",
+      "sleep well"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "morning",
+     "pos": "noun",
+     "pronGu": "મોર્નિંગ",
+     "meaningGu": "સવાર",
+     "meaningEn": "the early part of the day",
+     "example": "I go for a walk in the morning.",
+     "exampleGu": "હું સવારે ફરવા જાઉં છું.",
+     "family": [
+      {
+       "word": "morning",
+       "pos": "noun",
+       "gu": "સવાર"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [
+      "evening",
+      "night"
+     ],
+     "collocations": [
+      "in the morning",
+      "good morning"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "evening",
+     "pos": "noun",
+     "pronGu": "ઇવનિંગ",
+     "meaningGu": "સાંજ",
+     "meaningEn": "the time between afternoon and night",
+     "example": "We watch TV in the evening.",
+     "exampleGu": "અમે સાંજે ટીવી જોઈએ છીએ.",
+     "family": [
+      {
+       "word": "evening",
+       "pos": "noun",
+       "gu": "સાંજ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [
+      "morning"
+     ],
+     "collocations": [
+      "in the evening",
+      "good evening"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "wash",
+     "pos": "verb",
+     "pronGu": "વૉશ",
+     "meaningGu": "ધોવું",
+     "meaningEn": "to clean with water",
+     "example": "Wash your hands before lunch.",
+     "exampleGu": "બપોરે જમતાં પહેલાં તમારા હાથ ધોઈ લો.",
+     "family": [
+      {
+       "word": "wash",
+       "pos": "verb",
+       "gu": "ધોવું"
+      },
+      {
+       "word": "washing",
+       "pos": "noun",
+       "gu": "કપડાં ધોવાનું કામ"
+      }
+     ],
+     "synonyms": [
+      "clean"
+     ],
+     "opposites": [],
+     "collocations": [
+      "wash your hands",
+      "wash clothes"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "clean",
+     "pos": "adjective",
+     "pronGu": "ક્લીન",
+     "meaningGu": "સાફ, ચોખ્ખું",
+     "meaningEn": "not dirty",
+     "example": "My room is clean.",
+     "exampleGu": "મારો રૂમ સાફ છે.",
+     "family": [
+      {
+       "word": "clean",
+       "pos": "adjective",
+       "gu": "સાફ"
+      },
+      {
+       "word": "clean",
+       "pos": "verb",
+       "gu": "સાફ કરવું"
+      },
+      {
+       "word": "cleaner",
+       "pos": "noun",
+       "gu": "સફાઈ કરનાર"
+      }
+     ],
+     "synonyms": [
+      "tidy"
+     ],
+     "opposites": [
+      "dirty"
+     ],
+     "collocations": [
+      "clean room",
+      "clean water"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "clock",
+     "pos": "noun",
+     "pronGu": "ક્લૉક",
+     "meaningGu": "ઘડિયાળ",
+     "meaningEn": "a machine that shows the time",
+     "example": "The clock on the wall is slow.",
+     "exampleGu": "દીવાલ પરની ઘડિયાળ ધીમી ચાલે છે.",
+     "family": [
+      {
+       "word": "clock",
+       "pos": "noun",
+       "gu": "ઘડિયાળ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "wall clock",
+      "alarm clock"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "busy",
+     "pos": "adjective",
+     "pronGu": "બિઝી",
+     "meaningGu": "વ્યસ્ત",
+     "meaningEn": "having a lot to do",
+     "example": "I am busy today.",
+     "exampleGu": "હું આજે વ્યસ્ત છું.",
+     "family": [
+      {
+       "word": "busy",
+       "pos": "adjective",
+       "gu": "વ્યસ્ત"
+      },
+      {
+       "word": "busily",
+       "pos": "adverb",
+       "gu": "વ્યસ્તતાથી"
+      }
+     ],
+     "synonyms": [
+      "occupied"
+     ],
+     "opposites": [
+      "free"
+     ],
+     "collocations": [
+      "very busy",
+      "busy day"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "tired",
+     "pos": "adjective",
+     "pronGu": "ટાયર્ડ",
+     "meaningGu": "થાકેલું",
+     "meaningEn": "needing rest",
+     "example": "I feel tired after work.",
+     "exampleGu": "કામ પછી મને થાક લાગે છે.",
+     "family": [
+      {
+       "word": "tired",
+       "pos": "adjective",
+       "gu": "થાકેલું"
+      },
+      {
+       "word": "tire",
+       "pos": "verb",
+       "gu": "થાકવું"
+      },
+      {
+       "word": "tiring",
+       "pos": "adjective",
+       "gu": "થકવી નાખે તેવું"
+      }
+     ],
+     "synonyms": [
+      "exhausted"
+     ],
+     "opposites": [
+      "fresh",
+      "energetic"
+     ],
+     "collocations": [
+      "feel tired",
+      "very tired"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "early",
+     "pos": "adverb",
+     "pronGu": "અર્લી",
+     "meaningGu": "વહેલું",
+     "meaningEn": "before the usual time",
+     "example": "She gets up early.",
+     "exampleGu": "તે વહેલી ઊઠે છે.",
+     "family": [
+      {
+       "word": "early",
+       "pos": "adverb",
+       "gu": "વહેલું"
+      },
+      {
+       "word": "early",
+       "pos": "adjective",
+       "gu": "શરૂઆતનું"
+      }
+     ],
+     "synonyms": [
+      "soon"
+     ],
+     "opposites": [
+      "late"
+     ],
+     "collocations": [
+      "early morning",
+      "get up early"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "late",
+     "pos": "adjective",
+     "pronGu": "લેટ",
+     "meaningGu": "મોડું",
+     "meaningEn": "after the usual or expected time",
+     "example": "Sorry, I am late.",
+     "exampleGu": "માફ કરજો, મને મોડું થયું.",
+     "family": [
+      {
+       "word": "late",
+       "pos": "adjective",
+       "gu": "મોડું"
+      },
+      {
+       "word": "lately",
+       "pos": "adverb",
+       "gu": "હમણાં હમણાં"
+      }
+     ],
+     "synonyms": [
+      "delayed"
+     ],
+     "opposites": [
+      "early"
+     ],
+     "collocations": [
+      "be late",
+      "late at night"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "shower",
+     "pos": "noun",
+     "pronGu": "શાવર",
+     "meaningGu": "ફુવારાથી સ્નાન",
+     "meaningEn": "washing your body under running water",
+     "example": "I take a shower every morning.",
+     "exampleGu": "હું દરરોજ સવારે નહાઉં છું.",
+     "family": [
+      {
+       "word": "shower",
+       "pos": "noun",
+       "gu": "ફુવારાથી સ્નાન"
+      },
+      {
+       "word": "shower",
+       "pos": "verb",
+       "gu": "નહાવું"
+      }
+     ],
+     "synonyms": [
+      "bath"
+     ],
+     "opposites": [],
+     "collocations": [
+      "take a shower",
+      "cold shower"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "dinner",
+     "pos": "noun",
+     "pronGu": "ડિનર",
+     "meaningGu": "રાતનું જમણ",
+     "meaningEn": "the main meal in the evening",
+     "example": "We have dinner at eight.",
+     "exampleGu": "અમે રાત્રે આઠ વાગ્યે જમીએ છીએ.",
+     "family": [
+      {
+       "word": "dinner",
+       "pos": "noun",
+       "gu": "રાતનું જમણ"
+      }
+     ],
+     "synonyms": [
+      "supper"
+     ],
+     "opposites": [],
+     "collocations": [
+      "have dinner",
+      "family dinner"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "rest",
+     "pos": "noun",
+     "pronGu": "રેસ્ટ",
+     "meaningGu": "આરામ",
+     "meaningEn": "a time of relaxing or sleeping",
+     "example": "I need some rest.",
+     "exampleGu": "મારે થોડો આરામ જોઈએ છે.",
+     "family": [
+      {
+       "word": "rest",
+       "pos": "noun",
+       "gu": "આરામ"
+      },
+      {
+       "word": "rest",
+       "pos": "verb",
+       "gu": "આરામ કરવો"
+      },
+      {
+       "word": "restful",
+       "pos": "adjective",
+       "gu": "આરામદાયક"
+      }
+     ],
+     "synonyms": [
+      "break",
+      "relaxation"
+     ],
+     "opposites": [
+      "work"
+     ],
+     "collocations": [
+      "take a rest",
+      "need rest"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "routine",
+     "pos": "noun",
+     "pronGu": "રૂટીન",
+     "meaningGu": "રોજનો ક્રમ, દિનચર્યા",
+     "meaningEn": "the usual things you do every day",
+     "example": "My daily routine is simple.",
+     "exampleGu": "મારી દિનચર્યા સાદી છે.",
+     "family": [
+      {
+       "word": "routine",
+       "pos": "noun",
+       "gu": "દિનચર્યા"
+      },
+      {
+       "word": "routine",
+       "pos": "adjective",
+       "gu": "રોજિંદું"
+      }
+     ],
+     "synonyms": [
+      "habit",
+      "schedule"
+     ],
+     "opposites": [],
+     "collocations": [
+      "daily routine",
+      "morning routine"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "brush",
+     "pos": "verb",
+     "pronGu": "બ્રશ",
+     "meaningGu": "બ્રશ કરવું",
+     "meaningEn": "to clean with a brush",
+     "example": "I brush my teeth twice a day.",
+     "exampleGu": "હું દિવસમાં બે વાર દાંત સાફ કરું છું.",
+     "family": [
+      {
+       "word": "brush",
+       "pos": "verb",
+       "gu": "બ્રશ કરવું"
+      },
+      {
+       "word": "brush",
+       "pos": "noun",
+       "gu": "બ્રશ"
+      }
+     ],
+     "synonyms": [
+      "clean"
+     ],
+     "opposites": [],
+     "collocations": [
+      "brush your teeth",
+      "brush your hair"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "weekend",
+     "pos": "noun",
+     "pronGu": "વીકએન્ડ",
+     "meaningGu": "શનિ-રવિ, અઠવાડિયાનો અંત",
+     "meaningEn": "Saturday and Sunday",
+     "example": "I visit my friends at the weekend.",
+     "exampleGu": "હું શનિ-રવિમાં મારા મિત્રોને મળવા જાઉં છું.",
+     "family": [
+      {
+       "word": "weekend",
+       "pos": "noun",
+       "gu": "શનિ-રવિ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [
+      "weekday"
+     ],
+     "collocations": [
+      "at the weekend",
+      "this weekend"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "alarm",
+     "pos": "noun",
+     "pronGu": "અલાર્મ",
+     "meaningGu": "એલાર્મ, જગાડવાની ઘંટડી",
+     "meaningEn": "a sound that wakes you or warns you",
+     "example": "My alarm rings at six.",
+     "exampleGu": "મારું એલાર્મ છ વાગ્યે વાગે છે.",
+     "family": [
+      {
+       "word": "alarm",
+       "pos": "noun",
+       "gu": "એલાર્મ"
+      },
+      {
+       "word": "alarmed",
+       "pos": "adjective",
+       "gu": "ગભરાયેલું"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "set an alarm",
+      "fire alarm"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "habit",
+     "pos": "noun",
+     "pronGu": "હેબિટ",
+     "meaningGu": "ટેવ, આદત",
+     "meaningEn": "something you do often",
+     "example": "Reading is a good habit.",
+     "exampleGu": "વાંચન એક સારી ટેવ છે.",
+     "family": [
+      {
+       "word": "habit",
+       "pos": "noun",
+       "gu": "ટેવ"
+      },
+      {
+       "word": "habitual",
+       "pos": "adjective",
+       "gu": "ટેવરૂપ"
+      }
+     ],
+     "synonyms": [
+      "custom",
+      "practice"
+     ],
+     "opposites": [],
+     "collocations": [
+      "good habit",
+      "bad habit",
+      "break a habit"
+     ],
+     "ieltsTip": ""
+    }
+   ]
+  },
+  {
+   "id": "P02",
+   "order": 2,
+   "title": "Food and cooking",
+   "titleGu": "ખોરાક અને રસોઈ",
+   "ielts": false,
+   "minLevel": 0,
+   "words": [
+    {
+     "word": "rice",
+     "pos": "noun",
+     "pronGu": "રાઇસ",
+     "meaningGu": "ભાત, ચોખા",
+     "meaningEn": "small white grains that we cook and eat",
+     "example": "We eat rice and dal for lunch.",
+     "exampleGu": "અમે બપોરે દાળ-ભાત ખાઈએ છીએ.",
+     "family": [
+      {
+       "word": "rice",
+       "pos": "noun",
+       "gu": "ભાત, ચોખા"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "boiled rice",
+      "cook rice"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "vegetable",
+     "pos": "noun",
+     "pronGu": "વેજિટેબલ",
+     "meaningGu": "શાકભાજી",
+     "meaningEn": "a plant that we eat, like potato or carrot",
+     "example": "My mother buys fresh vegetables.",
+     "exampleGu": "મારી મમ્મી તાજી શાકભાજી ખરીદે છે.",
+     "family": [
+      {
+       "word": "vegetable",
+       "pos": "noun",
+       "gu": "શાકભાજી"
+      },
+      {
+       "word": "vegetarian",
+       "pos": "noun",
+       "gu": "શાકાહારી"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "green vegetables",
+      "fresh vegetables"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "fruit",
+     "pos": "noun",
+     "pronGu": "ફ્રૂટ",
+     "meaningGu": "ફળ",
+     "meaningEn": "food like an apple or a mango that grows on trees",
+     "example": "Mango is my favourite fruit.",
+     "exampleGu": "કેરી મારું મનપસંદ ફળ છે.",
+     "family": [
+      {
+       "word": "fruit",
+       "pos": "noun",
+       "gu": "ફળ"
+      },
+      {
+       "word": "fruity",
+       "pos": "adjective",
+       "gu": "ફળ જેવું"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "fresh fruit",
+      "fruit juice"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "cook",
+     "pos": "verb",
+     "pronGu": "કુક",
+     "meaningGu": "રાંધવું",
+     "meaningEn": "to make food hot and ready to eat",
+     "example": "My father can cook very well.",
+     "exampleGu": "મારા પપ્પા બહુ સારું રાંધી શકે છે.",
+     "family": [
+      {
+       "word": "cook",
+       "pos": "verb",
+       "gu": "રાંધવું"
+      },
+      {
+       "word": "cook",
+       "pos": "noun",
+       "gu": "રસોઇયો"
+      },
+      {
+       "word": "cooking",
+       "pos": "noun",
+       "gu": "રસોઈ"
+      },
+      {
+       "word": "cooked",
+       "pos": "adjective",
+       "gu": "રાંધેલું"
+      }
+     ],
+     "synonyms": [
+      "make",
+      "prepare"
+     ],
+     "opposites": [],
+     "collocations": [
+      "cook food",
+      "cook lunch"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "boil",
+     "pos": "verb",
+     "pronGu": "બૉઇલ",
+     "meaningGu": "ઉકાળવું, બાફવું",
+     "meaningEn": "to heat water until it bubbles",
+     "example": "Boil the milk before you drink it.",
+     "exampleGu": "દૂધ પીતાં પહેલાં તેને ઉકાળો.",
+     "family": [
+      {
+       "word": "boil",
+       "pos": "verb",
+       "gu": "ઉકાળવું"
+      },
+      {
+       "word": "boiled",
+       "pos": "adjective",
+       "gu": "બાફેલું"
+      },
+      {
+       "word": "boiling",
+       "pos": "adjective",
+       "gu": "ઊકળતું"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "boil water",
+      "boil eggs"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "fry",
+     "pos": "verb",
+     "pronGu": "ફ્રાય",
+     "meaningGu": "તળવું",
+     "meaningEn": "to cook in hot oil",
+     "example": "We fry pakoras when it rains.",
+     "exampleGu": "વરસાદ પડે ત્યારે અમે ભજિયાં તળીએ છીએ.",
+     "family": [
+      {
+       "word": "fry",
+       "pos": "verb",
+       "gu": "તળવું"
+      },
+      {
+       "word": "fried",
+       "pos": "adjective",
+       "gu": "તળેલું"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "fry in oil",
+      "deep fry"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "spicy",
+     "pos": "adjective",
+     "pronGu": "સ્પાઇસી",
+     "meaningGu": "તીખું, મસાલેદાર",
+     "meaningEn": "having a hot taste",
+     "example": "This curry is very spicy.",
+     "exampleGu": "આ શાક બહુ તીખું છે.",
+     "family": [
+      {
+       "word": "spicy",
+       "pos": "adjective",
+       "gu": "તીખું"
+      },
+      {
+       "word": "spice",
+       "pos": "noun",
+       "gu": "મસાલો"
+      }
+     ],
+     "synonyms": [
+      "hot"
+     ],
+     "opposites": [
+      "mild"
+     ],
+     "collocations": [
+      "spicy food",
+      "too spicy"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "sweet",
+     "pos": "adjective",
+     "pronGu": "સ્વીટ",
+     "meaningGu": "ગળ્યું, મીઠું",
+     "meaningEn": "tasting like sugar",
+     "example": "Gujarati dal is a little sweet.",
+     "exampleGu": "ગુજરાતી દાળ થોડી ગળી હોય છે.",
+     "family": [
+      {
+       "word": "sweet",
+       "pos": "adjective",
+       "gu": "ગળ્યું"
+      },
+      {
+       "word": "sweet",
+       "pos": "noun",
+       "gu": "મીઠાઈ"
+      },
+      {
+       "word": "sweetness",
+       "pos": "noun",
+       "gu": "મીઠાશ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [
+      "bitter",
+      "sour"
+     ],
+     "collocations": [
+      "sweet tea",
+      "very sweet"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "salt",
+     "pos": "noun",
+     "pronGu": "સૉલ્ટ",
+     "meaningGu": "મીઠું, નમક",
+     "meaningEn": "white powder that gives food taste",
+     "example": "Please add some salt.",
+     "exampleGu": "મહેરબાની કરીને થોડું મીઠું ઉમેરો.",
+     "family": [
+      {
+       "word": "salt",
+       "pos": "noun",
+       "gu": "મીઠું"
+      },
+      {
+       "word": "salty",
+       "pos": "adjective",
+       "gu": "ખારું"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "add salt",
+      "a pinch of salt"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "sugar",
+     "pos": "noun",
+     "pronGu": "શુગર",
+     "meaningGu": "ખાંડ",
+     "meaningEn": "sweet white powder",
+     "example": "I don't take sugar in my tea.",
+     "exampleGu": "હું ચામાં ખાંડ નથી લેતો.",
+     "family": [
+      {
+       "word": "sugar",
+       "pos": "noun",
+       "gu": "ખાંડ"
+      },
+      {
+       "word": "sugary",
+       "pos": "adjective",
+       "gu": "ખાંડવાળું"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "no sugar",
+      "add sugar"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "milk",
+     "pos": "noun",
+     "pronGu": "મિલ્ક",
+     "meaningGu": "દૂધ",
+     "meaningEn": "white drink from cows or buffaloes",
+     "example": "Children should drink milk every day.",
+     "exampleGu": "બાળકોએ દરરોજ દૂધ પીવું જોઈએ.",
+     "family": [
+      {
+       "word": "milk",
+       "pos": "noun",
+       "gu": "દૂધ"
+      },
+      {
+       "word": "milky",
+       "pos": "adjective",
+       "gu": "દૂધિયું"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "a glass of milk",
+      "hot milk"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "bread",
+     "pos": "noun",
+     "pronGu": "બ્રેડ",
+     "meaningGu": "બ્રેડ, પાંઉ",
+     "meaningEn": "food made from flour and baked",
+     "example": "I buy bread from the bakery.",
+     "exampleGu": "હું બેકરીમાંથી બ્રેડ ખરીદું છું.",
+     "family": [
+      {
+       "word": "bread",
+       "pos": "noun",
+       "gu": "બ્રેડ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "a slice of bread",
+      "fresh bread"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "kitchen",
+     "pos": "noun",
+     "pronGu": "કિચન",
+     "meaningGu": "રસોડું",
+     "meaningEn": "the room where you cook",
+     "example": "My mother is in the kitchen.",
+     "exampleGu": "મારી મમ્મી રસોડામાં છે.",
+     "family": [
+      {
+       "word": "kitchen",
+       "pos": "noun",
+       "gu": "રસોડું"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "in the kitchen",
+      "kitchen table"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "taste",
+     "pos": "noun",
+     "pronGu": "ટેસ્ટ",
+     "meaningGu": "સ્વાદ",
+     "meaningEn": "the flavour of food",
+     "example": "I love the taste of mango.",
+     "exampleGu": "મને કેરીનો સ્વાદ ખૂબ ગમે છે.",
+     "family": [
+      {
+       "word": "taste",
+       "pos": "noun",
+       "gu": "સ્વાદ"
+      },
+      {
+       "word": "taste",
+       "pos": "verb",
+       "gu": "ચાખવું"
+      },
+      {
+       "word": "tasty",
+       "pos": "adjective",
+       "gu": "સ્વાદિષ્ટ"
+      }
+     ],
+     "synonyms": [
+      "flavour"
+     ],
+     "opposites": [],
+     "collocations": [
+      "good taste",
+      "sweet taste"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "hungry",
+     "pos": "adjective",
+     "pronGu": "હંગ્રી",
+     "meaningGu": "ભૂખ્યું",
+     "meaningEn": "wanting to eat",
+     "example": "I am very hungry.",
+     "exampleGu": "મને બહુ ભૂખ લાગી છે.",
+     "family": [
+      {
+       "word": "hungry",
+       "pos": "adjective",
+       "gu": "ભૂખ્યું"
+      },
+      {
+       "word": "hunger",
+       "pos": "noun",
+       "gu": "ભૂખ"
+      }
+     ],
+     "synonyms": [
+      "starving"
+     ],
+     "opposites": [
+      "full"
+     ],
+     "collocations": [
+      "feel hungry",
+      "very hungry"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "recipe",
+     "pos": "noun",
+     "pronGu": "રેસિપી",
+     "meaningGu": "વાનગી બનાવવાની રીત",
+     "meaningEn": "instructions for cooking a dish",
+     "example": "This is my grandmother's recipe.",
+     "exampleGu": "આ મારાં દાદીની રેસિપી છે.",
+     "family": [
+      {
+       "word": "recipe",
+       "pos": "noun",
+       "gu": "વાનગી બનાવવાની રીત"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "follow a recipe",
+      "easy recipe"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "delicious",
+     "pos": "adjective",
+     "pronGu": "ડિલિશિયસ",
+     "meaningGu": "સ્વાદિષ્ટ",
+     "meaningEn": "having a very good taste",
+     "example": "The food is delicious.",
+     "exampleGu": "ખાવાનું ખૂબ સ્વાદિષ્ટ છે.",
+     "family": [
+      {
+       "word": "delicious",
+       "pos": "adjective",
+       "gu": "સ્વાદિષ્ટ"
+      }
+     ],
+     "synonyms": [
+      "tasty"
+     ],
+     "opposites": [
+      "tasteless"
+     ],
+     "collocations": [
+      "delicious food",
+      "look delicious"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "fresh",
+     "pos": "adjective",
+     "pronGu": "ફ્રેશ",
+     "meaningGu": "તાજું",
+     "meaningEn": "recently made or picked",
+     "example": "Buy fresh fruit from the market.",
+     "exampleGu": "બજારમાંથી તાજાં ફળ ખરીદો.",
+     "family": [
+      {
+       "word": "fresh",
+       "pos": "adjective",
+       "gu": "તાજું"
+      },
+      {
+       "word": "freshly",
+       "pos": "adverb",
+       "gu": "તાજેતાજું"
+      },
+      {
+       "word": "freshness",
+       "pos": "noun",
+       "gu": "તાજગી"
+      }
+     ],
+     "synonyms": [
+      "new"
+     ],
+     "opposites": [
+      "stale"
+     ],
+     "collocations": [
+      "fresh food",
+      "fresh air"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "plate",
+     "pos": "noun",
+     "pronGu": "પ્લેટ",
+     "meaningGu": "થાળી, ડિશ",
+     "meaningEn": "a flat dish for food",
+     "example": "Put the rotis on the plate.",
+     "exampleGu": "રોટલીઓ થાળીમાં મૂકો.",
+     "family": [
+      {
+       "word": "plate",
+       "pos": "noun",
+       "gu": "થાળી"
+      }
+     ],
+     "synonyms": [
+      "dish"
+     ],
+     "opposites": [],
+     "collocations": [
+      "a plate of rice",
+      "paper plate"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "cut",
+     "pos": "verb",
+     "pronGu": "કટ",
+     "meaningGu": "કાપવું",
+     "meaningEn": "to divide with a knife",
+     "example": "Cut the onions into small pieces.",
+     "exampleGu": "ડુંગળીને નાના ટુકડામાં કાપો.",
+     "family": [
+      {
+       "word": "cut",
+       "pos": "verb",
+       "gu": "કાપવું"
+      },
+      {
+       "word": "cut",
+       "pos": "noun",
+       "gu": "કાપો"
+      },
+      {
+       "word": "cutting",
+       "pos": "noun",
+       "gu": "કાપણી"
+      }
+     ],
+     "synonyms": [
+      "chop",
+      "slice"
+     ],
+     "opposites": [],
+     "collocations": [
+      "cut vegetables",
+      "cut into pieces"
+     ],
+     "ieltsTip": ""
+    }
+   ]
+  },
+  {
+   "id": "P03",
+   "order": 3,
+   "title": "Family and home",
+   "titleGu": "પરિવાર અને ઘર",
+   "ielts": false,
+   "minLevel": 0,
+   "words": [
+    {
+     "word": "mother",
+     "pos": "noun",
+     "pronGu": "મધર",
+     "meaningGu": "માતા, મા",
+     "meaningEn": "a female parent",
+     "example": "My mother is a teacher.",
+     "exampleGu": "મારી માતા શિક્ષિકા છે.",
+     "family": [
+      {
+       "word": "mother",
+       "pos": "noun",
+       "gu": "માતા"
+      },
+      {
+       "word": "motherly",
+       "pos": "adjective",
+       "gu": "માતા જેવું"
+      }
+     ],
+     "synonyms": [
+      "mom",
+      "mum"
+     ],
+     "opposites": [
+      "father"
+     ],
+     "collocations": [
+      "my mother",
+      "mother tongue"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "father",
+     "pos": "noun",
+     "pronGu": "ફાધર",
+     "meaningGu": "પિતા",
+     "meaningEn": "a male parent",
+     "example": "My father works in a bank.",
+     "exampleGu": "મારા પિતા બેંકમાં કામ કરે છે.",
+     "family": [
+      {
+       "word": "father",
+       "pos": "noun",
+       "gu": "પિતા"
+      },
+      {
+       "word": "fatherly",
+       "pos": "adjective",
+       "gu": "પિતા જેવું"
+      }
+     ],
+     "synonyms": [
+      "dad"
+     ],
+     "opposites": [
+      "mother"
+     ],
+     "collocations": [
+      "my father",
+      "father and son"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "brother",
+     "pos": "noun",
+     "pronGu": "બ્રધર",
+     "meaningGu": "ભાઈ",
+     "meaningEn": "a boy with the same parents as you",
+     "example": "I have one younger brother.",
+     "exampleGu": "મારે એક નાનો ભાઈ છે.",
+     "family": [
+      {
+       "word": "brother",
+       "pos": "noun",
+       "gu": "ભાઈ"
+      },
+      {
+       "word": "brotherhood",
+       "pos": "noun",
+       "gu": "ભાઈચારો"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [
+      "sister"
+     ],
+     "collocations": [
+      "elder brother",
+      "younger brother"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "sister",
+     "pos": "noun",
+     "pronGu": "સિસ્ટર",
+     "meaningGu": "બહેન",
+     "meaningEn": "a girl with the same parents as you",
+     "example": "My sister lives in Surat.",
+     "exampleGu": "મારી બહેન સુરતમાં રહે છે.",
+     "family": [
+      {
+       "word": "sister",
+       "pos": "noun",
+       "gu": "બહેન"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [
+      "brother"
+     ],
+     "collocations": [
+      "elder sister",
+      "younger sister"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "parents",
+     "pos": "noun",
+     "pronGu": "પેરન્ટ્સ",
+     "meaningGu": "માતા-પિતા",
+     "meaningEn": "your mother and father",
+     "example": "My parents live with me.",
+     "exampleGu": "મારાં માતા-પિતા મારી સાથે રહે છે.",
+     "family": [
+      {
+       "word": "parents",
+       "pos": "noun",
+       "gu": "માતા-પિતા"
+      },
+      {
+       "word": "parent",
+       "pos": "noun",
+       "gu": "વાલી"
+      },
+      {
+       "word": "parental",
+       "pos": "adjective",
+       "gu": "માતા-પિતાનું"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "my parents",
+      "visit your parents"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "grandmother",
+     "pos": "noun",
+     "pronGu": "ગ્રાન્ડમધર",
+     "meaningGu": "દાદી, નાની",
+     "meaningEn": "the mother of your father or mother",
+     "example": "My grandmother tells us stories.",
+     "exampleGu": "મારાં દાદી અમને વાર્તાઓ કહે છે.",
+     "family": [
+      {
+       "word": "grandmother",
+       "pos": "noun",
+       "gu": "દાદી, નાની"
+      }
+     ],
+     "synonyms": [
+      "grandma",
+      "granny"
+     ],
+     "opposites": [
+      "grandfather"
+     ],
+     "collocations": [
+      "my grandmother",
+      "visit grandmother"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "uncle",
+     "pos": "noun",
+     "pronGu": "અંકલ",
+     "meaningGu": "કાકા, મામા, માસા, ફુઆ",
+     "meaningEn": "the brother of your father or mother, or your aunt's husband",
+     "example": "My uncle has a shop.",
+     "exampleGu": "મારા કાકાની એક દુકાન છે.",
+     "family": [
+      {
+       "word": "uncle",
+       "pos": "noun",
+       "gu": "કાકા, મામા"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [
+      "aunt"
+     ],
+     "collocations": [
+      "my uncle",
+      "aunt and uncle"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "aunt",
+     "pos": "noun",
+     "pronGu": "આન્ટ",
+     "meaningGu": "કાકી, માસી, ફઈ, મામી",
+     "meaningEn": "the sister of your father or mother, or your uncle's wife",
+     "example": "My aunt makes good dhokla.",
+     "exampleGu": "મારાં માસી સરસ ઢોકળાં બનાવે છે.",
+     "family": [
+      {
+       "word": "aunt",
+       "pos": "noun",
+       "gu": "કાકી, માસી, ફઈ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [
+      "uncle"
+     ],
+     "collocations": [
+      "my aunt",
+      "visit my aunt"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "cousin",
+     "pos": "noun",
+     "pronGu": "કઝિન",
+     "meaningGu": "પિતરાઈ ભાઈ-બહેન",
+     "meaningEn": "the child of your uncle or aunt",
+     "example": "My cousin studies in Ahmedabad.",
+     "exampleGu": "મારો પિતરાઈ ભાઈ અમદાવાદમાં ભણે છે.",
+     "family": [
+      {
+       "word": "cousin",
+       "pos": "noun",
+       "gu": "પિતરાઈ ભાઈ-બહેન"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "my cousin",
+      "first cousin"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "husband",
+     "pos": "noun",
+     "pronGu": "હસબન્ડ",
+     "meaningGu": "પતિ",
+     "meaningEn": "the man a woman is married to",
+     "example": "Her husband is a doctor.",
+     "exampleGu": "તેના પતિ ડૉક્ટર છે.",
+     "family": [
+      {
+       "word": "husband",
+       "pos": "noun",
+       "gu": "પતિ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [
+      "wife"
+     ],
+     "collocations": [
+      "my husband",
+      "husband and wife"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "wife",
+     "pos": "noun",
+     "pronGu": "વાઇફ",
+     "meaningGu": "પત્ની",
+     "meaningEn": "the woman a man is married to",
+     "example": "His wife works in an office.",
+     "exampleGu": "તેની પત્ની ઓફિસમાં કામ કરે છે.",
+     "family": [
+      {
+       "word": "wife",
+       "pos": "noun",
+       "gu": "પત્ની"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [
+      "husband"
+     ],
+     "collocations": [
+      "my wife",
+      "his wife"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "child",
+     "pos": "noun",
+     "pronGu": "ચાઇલ્ડ",
+     "meaningGu": "બાળક",
+     "meaningEn": "a young boy or girl",
+     "example": "They have two children.",
+     "exampleGu": "તેમને બે બાળકો છે.",
+     "family": [
+      {
+       "word": "child",
+       "pos": "noun",
+       "gu": "બાળક"
+      },
+      {
+       "word": "children",
+       "pos": "noun",
+       "gu": "બાળકો"
+      },
+      {
+       "word": "childhood",
+       "pos": "noun",
+       "gu": "બાળપણ"
+      },
+      {
+       "word": "childish",
+       "pos": "adjective",
+       "gu": "બાલિશ"
+      }
+     ],
+     "synonyms": [
+      "kid"
+     ],
+     "opposites": [
+      "adult"
+     ],
+     "collocations": [
+      "only child",
+      "young child"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "house",
+     "pos": "noun",
+     "pronGu": "હાઉસ",
+     "meaningGu": "ઘર",
+     "meaningEn": "a building where people live",
+     "example": "We live in a small house.",
+     "exampleGu": "અમે એક નાના ઘરમાં રહીએ છીએ.",
+     "family": [
+      {
+       "word": "house",
+       "pos": "noun",
+       "gu": "ઘર"
+      },
+      {
+       "word": "housing",
+       "pos": "noun",
+       "gu": "રહેઠાણ"
+      }
+     ],
+     "synonyms": [
+      "home"
+     ],
+     "opposites": [],
+     "collocations": [
+      "big house",
+      "my house"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "room",
+     "pos": "noun",
+     "pronGu": "રૂમ",
+     "meaningGu": "ઓરડો, રૂમ",
+     "meaningEn": "a part of a house with walls",
+     "example": "My room is on the first floor.",
+     "exampleGu": "મારો રૂમ પહેલા માળે છે.",
+     "family": [
+      {
+       "word": "room",
+       "pos": "noun",
+       "gu": "ઓરડો"
+      },
+      {
+       "word": "roomy",
+       "pos": "adjective",
+       "gu": "મોકળાશવાળું"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "living room",
+      "my room"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "door",
+     "pos": "noun",
+     "pronGu": "ડોર",
+     "meaningGu": "દરવાજો, બારણું",
+     "meaningEn": "the thing you open to enter a room",
+     "example": "Please close the door.",
+     "exampleGu": "મહેરબાની કરીને દરવાજો બંધ કરો.",
+     "family": [
+      {
+       "word": "door",
+       "pos": "noun",
+       "gu": "દરવાજો"
+      },
+      {
+       "word": "doorbell",
+       "pos": "noun",
+       "gu": "દરવાજાની ઘંટડી"
+      }
+     ],
+     "synonyms": [
+      "gate"
+     ],
+     "opposites": [],
+     "collocations": [
+      "open the door",
+      "close the door"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "window",
+     "pos": "noun",
+     "pronGu": "વિન્ડો",
+     "meaningGu": "બારી",
+     "meaningEn": "an opening in a wall with glass",
+     "example": "Open the window, please.",
+     "exampleGu": "મહેરબાની કરીને બારી ખોલો.",
+     "family": [
+      {
+       "word": "window",
+       "pos": "noun",
+       "gu": "બારી"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "open the window",
+      "window seat"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "garden",
+     "pos": "noun",
+     "pronGu": "ગાર્ડન",
+     "meaningGu": "બગીચો",
+     "meaningEn": "land near a house where flowers grow",
+     "example": "We have a small garden.",
+     "exampleGu": "અમારે એક નાનો બગીચો છે.",
+     "family": [
+      {
+       "word": "garden",
+       "pos": "noun",
+       "gu": "બગીચો"
+      },
+      {
+       "word": "gardener",
+       "pos": "noun",
+       "gu": "માળી"
+      },
+      {
+       "word": "gardening",
+       "pos": "noun",
+       "gu": "બાગકામ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "small garden",
+      "in the garden"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "neighbour",
+     "pos": "noun",
+     "pronGu": "નેબર",
+     "meaningGu": "પડોશી",
+     "meaningEn": "a person who lives next to you",
+     "example": "Our neighbour is very kind.",
+     "exampleGu": "અમારા પડોશી બહુ માયાળુ છે.",
+     "family": [
+      {
+       "word": "neighbour",
+       "pos": "noun",
+       "gu": "પડોશી"
+      },
+      {
+       "word": "neighbourhood",
+       "pos": "noun",
+       "gu": "પડોશ, વિસ્તાર"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "next-door neighbour",
+      "friendly neighbour"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "live",
+     "pos": "verb",
+     "pronGu": "લિવ",
+     "meaningGu": "રહેવું",
+     "meaningEn": "to have your home in a place",
+     "example": "I live in Rajkot.",
+     "exampleGu": "હું રાજકોટમાં રહું છું.",
+     "family": [
+      {
+       "word": "live",
+       "pos": "verb",
+       "gu": "રહેવું"
+      },
+      {
+       "word": "living",
+       "pos": "noun",
+       "gu": "ગુજરાન"
+      },
+      {
+       "word": "life",
+       "pos": "noun",
+       "gu": "જીવન"
+      }
+     ],
+     "synonyms": [
+      "stay"
+     ],
+     "opposites": [],
+     "collocations": [
+      "live in",
+      "live with"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "share",
+     "pos": "verb",
+     "pronGu": "શેર",
+     "meaningGu": "વહેંચવું",
+     "meaningEn": "to use or have something with others",
+     "example": "I share a room with my brother.",
+     "exampleGu": "હું મારા ભાઈ સાથે એક જ રૂમમાં રહું છું.",
+     "family": [
+      {
+       "word": "share",
+       "pos": "verb",
+       "gu": "વહેંચવું"
+      },
+      {
+       "word": "share",
+       "pos": "noun",
+       "gu": "ભાગ, હિસ્સો"
+      }
+     ],
+     "synonyms": [
+      "divide"
+     ],
+     "opposites": [],
+     "collocations": [
+      "share a room",
+      "share food"
+     ],
+     "ieltsTip": ""
+    }
+   ]
+  },
+  {
+   "id": "P04",
+   "order": 4,
+   "title": "Travel and transport",
+   "titleGu": "મુસાફરી અને વાહનવ્યવહાર",
+   "ielts": false,
+   "minLevel": 1,
+   "words": [
+    {
+     "word": "bus",
+     "pos": "noun",
+     "pronGu": "બસ",
+     "meaningGu": "બસ",
+     "meaningEn": "a big vehicle that carries many people",
+     "example": "I go to work by bus.",
+     "exampleGu": "હું બસમાં કામ પર જાઉં છું.",
+     "family": [
+      {
+       "word": "bus",
+       "pos": "noun",
+       "gu": "બસ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "by bus",
+      "bus stop",
+      "catch a bus"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "train",
+     "pos": "noun",
+     "pronGu": "ટ્રેન",
+     "meaningGu": "ટ્રેન, રેલગાડી",
+     "meaningEn": "a vehicle that runs on a railway",
+     "example": "The train to Mumbai is late.",
+     "exampleGu": "મુંબઈની ટ્રેન મોડી છે.",
+     "family": [
+      {
+       "word": "train",
+       "pos": "noun",
+       "gu": "ટ્રેન"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "by train",
+      "catch a train"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "ticket",
+     "pos": "noun",
+     "pronGu": "ટિકિટ",
+     "meaningGu": "ટિકિટ",
+     "meaningEn": "a paper that lets you travel or enter",
+     "example": "I bought a ticket online.",
+     "exampleGu": "મેં ઓનલાઇન ટિકિટ ખરીદી.",
+     "family": [
+      {
+       "word": "ticket",
+       "pos": "noun",
+       "gu": "ટિકિટ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "buy a ticket",
+      "book a ticket",
+      "return ticket"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "station",
+     "pos": "noun",
+     "pronGu": "સ્ટેશન",
+     "meaningGu": "સ્ટેશન",
+     "meaningEn": "a place where trains or buses stop",
+     "example": "The station is near my house.",
+     "exampleGu": "સ્ટેશન મારા ઘરની નજીક છે.",
+     "family": [
+      {
+       "word": "station",
+       "pos": "noun",
+       "gu": "સ્ટેશન"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "railway station",
+      "bus station"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "airport",
+     "pos": "noun",
+     "pronGu": "એરપોર્ટ",
+     "meaningGu": "હવાઈ મથક, એરપોર્ટ",
+     "meaningEn": "a place where planes land and take off",
+     "example": "We reached the airport at five.",
+     "exampleGu": "અમે પાંચ વાગ્યે એરપોર્ટ પહોંચ્યા.",
+     "family": [
+      {
+       "word": "airport",
+       "pos": "noun",
+       "gu": "હવાઈ મથક"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "at the airport",
+      "to the airport"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "journey",
+     "pos": "noun",
+     "pronGu": "જર્ની",
+     "meaningGu": "મુસાફરી, પ્રવાસ",
+     "meaningEn": "travelling from one place to another",
+     "example": "The journey takes three hours.",
+     "exampleGu": "મુસાફરીમાં ત્રણ કલાક લાગે છે.",
+     "family": [
+      {
+       "word": "journey",
+       "pos": "noun",
+       "gu": "મુસાફરી"
+      }
+     ],
+     "synonyms": [
+      "trip"
+     ],
+     "opposites": [],
+     "collocations": [
+      "long journey",
+      "safe journey"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "travel",
+     "pos": "verb",
+     "pronGu": "ટ્રાવેલ",
+     "meaningGu": "મુસાફરી કરવી",
+     "meaningEn": "to go from one place to another",
+     "example": "I love to travel by train.",
+     "exampleGu": "મને ટ્રેનમાં મુસાફરી કરવી ગમે છે.",
+     "family": [
+      {
+       "word": "travel",
+       "pos": "verb",
+       "gu": "મુસાફરી કરવી"
+      },
+      {
+       "word": "travel",
+       "pos": "noun",
+       "gu": "પ્રવાસ"
+      },
+      {
+       "word": "traveller",
+       "pos": "noun",
+       "gu": "મુસાફર"
+      }
+     ],
+     "synonyms": [
+      "go",
+      "tour"
+     ],
+     "opposites": [],
+     "collocations": [
+      "travel abroad",
+      "travel by train"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "road",
+     "pos": "noun",
+     "pronGu": "રોડ",
+     "meaningGu": "રસ્તો",
+     "meaningEn": "a way for cars and buses",
+     "example": "This road goes to the market.",
+     "exampleGu": "આ રસ્તો બજાર તરફ જાય છે.",
+     "family": [
+      {
+       "word": "road",
+       "pos": "noun",
+       "gu": "રસ્તો"
+      }
+     ],
+     "synonyms": [
+      "street",
+      "way"
+     ],
+     "opposites": [],
+     "collocations": [
+      "main road",
+      "cross the road"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "drive",
+     "pos": "verb",
+     "pronGu": "ડ્રાઇવ",
+     "meaningGu": "વાહન ચલાવવું",
+     "meaningEn": "to control a car",
+     "example": "Can you drive a car?",
+     "exampleGu": "શું તમે ગાડી ચલાવી શકો છો?",
+     "family": [
+      {
+       "word": "drive",
+       "pos": "verb",
+       "gu": "ચલાવવું"
+      },
+      {
+       "word": "driver",
+       "pos": "noun",
+       "gu": "ડ્રાઇવર"
+      },
+      {
+       "word": "driving",
+       "pos": "noun",
+       "gu": "ડ્રાઇવિંગ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "drive a car",
+      "drive carefully"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "passenger",
+     "pos": "noun",
+     "pronGu": "પેસેન્જર",
+     "meaningGu": "મુસાફર",
+     "meaningEn": "a person travelling in a vehicle",
+     "example": "The bus has forty passengers.",
+     "exampleGu": "બસમાં ચાલીસ મુસાફરો છે.",
+     "family": [
+      {
+       "word": "passenger",
+       "pos": "noun",
+       "gu": "મુસાફર"
+      }
+     ],
+     "synonyms": [
+      "traveller"
+     ],
+     "opposites": [
+      "driver"
+     ],
+     "collocations": [
+      "passenger seat",
+      "train passenger"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "luggage",
+     "pos": "noun",
+     "pronGu": "લગેજ",
+     "meaningGu": "સામાન",
+     "meaningEn": "bags you carry when you travel",
+     "example": "My luggage is very heavy.",
+     "exampleGu": "મારો સામાન બહુ ભારે છે.",
+     "family": [
+      {
+       "word": "luggage",
+       "pos": "noun",
+       "gu": "સામાન"
+      }
+     ],
+     "synonyms": [
+      "baggage",
+      "bags"
+     ],
+     "opposites": [],
+     "collocations": [
+      "heavy luggage",
+      "carry luggage"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "map",
+     "pos": "noun",
+     "pronGu": "મૅપ",
+     "meaningGu": "નકશો",
+     "meaningEn": "a picture of an area showing roads and places",
+     "example": "Let's check the map on my phone.",
+     "exampleGu": "ચાલો મારા ફોનમાં નકશો જોઈએ.",
+     "family": [
+      {
+       "word": "map",
+       "pos": "noun",
+       "gu": "નકશો"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "check the map",
+      "road map"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "hotel",
+     "pos": "noun",
+     "pronGu": "હોટેલ",
+     "meaningGu": "હોટેલ",
+     "meaningEn": "a building where you pay to stay",
+     "example": "We stayed in a hotel in Goa.",
+     "exampleGu": "અમે ગોવામાં એક હોટેલમાં રોકાયા.",
+     "family": [
+      {
+       "word": "hotel",
+       "pos": "noun",
+       "gu": "હોટેલ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "book a hotel",
+      "stay in a hotel"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "arrive",
+     "pos": "verb",
+     "pronGu": "અરાઇવ",
+     "meaningGu": "પહોંચવું",
+     "meaningEn": "to reach a place",
+     "example": "The train arrives at ten.",
+     "exampleGu": "ટ્રેન દસ વાગ્યે પહોંચે છે.",
+     "family": [
+      {
+       "word": "arrive",
+       "pos": "verb",
+       "gu": "પહોંચવું"
+      },
+      {
+       "word": "arrival",
+       "pos": "noun",
+       "gu": "આગમન"
+      }
+     ],
+     "synonyms": [
+      "reach",
+      "come"
+     ],
+     "opposites": [
+      "leave",
+      "depart"
+     ],
+     "collocations": [
+      "arrive at",
+      "arrive on time"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "leave",
+     "pos": "verb",
+     "pronGu": "લીવ",
+     "meaningGu": "નીકળવું, છોડવું",
+     "meaningEn": "to go away from a place",
+     "example": "The bus leaves at nine.",
+     "exampleGu": "બસ નવ વાગ્યે ઊપડે છે.",
+     "family": [
+      {
+       "word": "leave",
+       "pos": "verb",
+       "gu": "નીકળવું"
+      },
+      {
+       "word": "leave",
+       "pos": "noun",
+       "gu": "રજા"
+      }
+     ],
+     "synonyms": [
+      "go",
+      "depart"
+     ],
+     "opposites": [
+      "arrive"
+     ],
+     "collocations": [
+      "leave home",
+      "leave early"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "distance",
+     "pos": "noun",
+     "pronGu": "ડિસ્ટન્સ",
+     "meaningGu": "અંતર",
+     "meaningEn": "how far one place is from another",
+     "example": "The distance from here to Vadodara is 100 km.",
+     "exampleGu": "અહીંથી વડોદરાનું અંતર ૧૦૦ કિમી છે.",
+     "family": [
+      {
+       "word": "distance",
+       "pos": "noun",
+       "gu": "અંતર"
+      },
+      {
+       "word": "distant",
+       "pos": "adjective",
+       "gu": "દૂરનું"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "long distance",
+      "short distance"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "fast",
+     "pos": "adjective",
+     "pronGu": "ફાસ્ટ",
+     "meaningGu": "ઝડપી",
+     "meaningEn": "moving quickly",
+     "example": "The Rajdhani is a fast train.",
+     "exampleGu": "રાજધાની એક ઝડપી ટ્રેન છે.",
+     "family": [
+      {
+       "word": "fast",
+       "pos": "adjective",
+       "gu": "ઝડપી"
+      },
+      {
+       "word": "fast",
+       "pos": "adverb",
+       "gu": "ઝડપથી"
+      }
+     ],
+     "synonyms": [
+      "quick"
+     ],
+     "opposites": [
+      "slow"
+     ],
+     "collocations": [
+      "fast train",
+      "very fast"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "slow",
+     "pos": "adjective",
+     "pronGu": "સ્લો",
+     "meaningGu": "ધીમું",
+     "meaningEn": "not fast",
+     "example": "The traffic is very slow today.",
+     "exampleGu": "આજે ટ્રાફિક બહુ ધીમો છે.",
+     "family": [
+      {
+       "word": "slow",
+       "pos": "adjective",
+       "gu": "ધીમું"
+      },
+      {
+       "word": "slowly",
+       "pos": "adverb",
+       "gu": "ધીમેથી"
+      },
+      {
+       "word": "slow down",
+       "pos": "phrasal verb",
+       "gu": "ધીમું પડવું"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [
+      "fast",
+      "quick"
+     ],
+     "collocations": [
+      "slow down",
+      "slow traffic"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "traffic",
+     "pos": "noun",
+     "pronGu": "ટ્રાફિક",
+     "meaningGu": "વાહનોની અવરજવર, ટ્રાફિક",
+     "meaningEn": "cars and buses on the road",
+     "example": "There is a lot of traffic in the evening.",
+     "exampleGu": "સાંજે બહુ ટ્રાફિક હોય છે.",
+     "family": [
+      {
+       "word": "traffic",
+       "pos": "noun",
+       "gu": "ટ્રાફિક"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "heavy traffic",
+      "traffic jam",
+      "traffic light"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "platform",
+     "pos": "noun",
+     "pronGu": "પ્લેટફોર્મ",
+     "meaningGu": "પ્લેટફોર્મ",
+     "meaningEn": "the area where you get on a train",
+     "example": "The train is on platform two.",
+     "exampleGu": "ટ્રેન પ્લેટફોર્મ નંબર બે પર છે.",
+     "family": [
+      {
+       "word": "platform",
+       "pos": "noun",
+       "gu": "પ્લેટફોર્મ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "platform number",
+      "on the platform"
+     ],
+     "ieltsTip": ""
+    }
+   ]
+  },
+  {
+   "id": "P05",
+   "order": 5,
+   "title": "Work and jobs",
+   "titleGu": "કામ અને નોકરી",
+   "ielts": false,
+   "minLevel": 1,
+   "words": [
+    {
+     "word": "job",
+     "pos": "noun",
+     "pronGu": "જૉબ",
+     "meaningGu": "નોકરી",
+     "meaningEn": "work that you do for money",
+     "example": "She has a good job.",
+     "exampleGu": "તેની પાસે સારી નોકરી છે.",
+     "family": [
+      {
+       "word": "job",
+       "pos": "noun",
+       "gu": "નોકરી"
+      },
+      {
+       "word": "jobless",
+       "pos": "adjective",
+       "gu": "બેરોજગાર"
+      }
+     ],
+     "synonyms": [
+      "work",
+      "post"
+     ],
+     "opposites": [],
+     "collocations": [
+      "get a job",
+      "full-time job"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "office",
+     "pos": "noun",
+     "pronGu": "ઑફિસ",
+     "meaningGu": "કાર્યાલય, ઓફિસ",
+     "meaningEn": "a place where people work at desks",
+     "example": "I reach the office at ten.",
+     "exampleGu": "હું દસ વાગ્યે ઓફિસ પહોંચું છું.",
+     "family": [
+      {
+       "word": "office",
+       "pos": "noun",
+       "gu": "ઓફિસ"
+      },
+      {
+       "word": "officer",
+       "pos": "noun",
+       "gu": "અધિકારી"
+      },
+      {
+       "word": "official",
+       "pos": "adjective",
+       "gu": "સત્તાવાર"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "go to the office",
+      "head office"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "manager",
+     "pos": "noun",
+     "pronGu": "મેનેજર",
+     "meaningGu": "વ્યવસ્થાપક, મેનેજર",
+     "meaningEn": "a person who controls a team or business",
+     "example": "My manager is very helpful.",
+     "exampleGu": "મારા મેનેજર બહુ મદદરૂપ છે.",
+     "family": [
+      {
+       "word": "manager",
+       "pos": "noun",
+       "gu": "મેનેજર"
+      },
+      {
+       "word": "manage",
+       "pos": "verb",
+       "gu": "સંભાળવું"
+      },
+      {
+       "word": "management",
+       "pos": "noun",
+       "gu": "વ્યવસ્થાપન"
+      }
+     ],
+     "synonyms": [
+      "boss"
+     ],
+     "opposites": [],
+     "collocations": [
+      "team manager",
+      "sales manager"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "salary",
+     "pos": "noun",
+     "pronGu": "સૅલરી",
+     "meaningGu": "પગાર",
+     "meaningEn": "money you get every month for work",
+     "example": "My salary comes on the first of the month.",
+     "exampleGu": "મારો પગાર મહિનાની પહેલી તારીખે આવે છે.",
+     "family": [
+      {
+       "word": "salary",
+       "pos": "noun",
+       "gu": "પગાર"
+      }
+     ],
+     "synonyms": [
+      "pay",
+      "income"
+     ],
+     "opposites": [],
+     "collocations": [
+      "monthly salary",
+      "good salary"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "meeting",
+     "pos": "noun",
+     "pronGu": "મીટિંગ",
+     "meaningGu": "બેઠક, મીટિંગ",
+     "meaningEn": "when people come together to talk",
+     "example": "We have a meeting at eleven.",
+     "exampleGu": "અગિયાર વાગ્યે અમારી મીટિંગ છે.",
+     "family": [
+      {
+       "word": "meeting",
+       "pos": "noun",
+       "gu": "મીટિંગ"
+      },
+      {
+       "word": "meet",
+       "pos": "verb",
+       "gu": "મળવું"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "have a meeting",
+      "team meeting"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "customer",
+     "pos": "noun",
+     "pronGu": "કસ્ટમર",
+     "meaningGu": "ગ્રાહક",
+     "meaningEn": "a person who buys things from a shop or business",
+     "example": "The customer wants a new phone.",
+     "exampleGu": "ગ્રાહકને નવો ફોન જોઈએ છે.",
+     "family": [
+      {
+       "word": "customer",
+       "pos": "noun",
+       "gu": "ગ્રાહક"
+      }
+     ],
+     "synonyms": [
+      "client",
+      "buyer"
+     ],
+     "opposites": [
+      "seller"
+     ],
+     "collocations": [
+      "happy customer",
+      "customer service"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "work",
+     "pos": "verb",
+     "pronGu": "વર્ક",
+     "meaningGu": "કામ કરવું",
+     "meaningEn": "to do a job",
+     "example": "I work in a bank.",
+     "exampleGu": "હું બેંકમાં કામ કરું છું.",
+     "family": [
+      {
+       "word": "work",
+       "pos": "verb",
+       "gu": "કામ કરવું"
+      },
+      {
+       "word": "work",
+       "pos": "noun",
+       "gu": "કામ"
+      },
+      {
+       "word": "worker",
+       "pos": "noun",
+       "gu": "કામદાર"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "work hard",
+      "work from home"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "team",
+     "pos": "noun",
+     "pronGu": "ટીમ",
+     "meaningGu": "ટુકડી, ટીમ",
+     "meaningEn": "a group of people who work together",
+     "example": "Our team has six people.",
+     "exampleGu": "અમારી ટીમમાં છ લોકો છે.",
+     "family": [
+      {
+       "word": "team",
+       "pos": "noun",
+       "gu": "ટીમ"
+      },
+      {
+       "word": "teamwork",
+       "pos": "noun",
+       "gu": "સાથે મળીને કામ"
+      }
+     ],
+     "synonyms": [
+      "group"
+     ],
+     "opposites": [],
+     "collocations": [
+      "team leader",
+      "work in a team"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "boss",
+     "pos": "noun",
+     "pronGu": "બૉસ",
+     "meaningGu": "સાહેબ, ઉપરી",
+     "meaningEn": "the person in charge of you at work",
+     "example": "My boss gave me a day off.",
+     "exampleGu": "મારા સાહેબે મને એક દિવસની રજા આપી.",
+     "family": [
+      {
+       "word": "boss",
+       "pos": "noun",
+       "gu": "સાહેબ"
+      },
+      {
+       "word": "bossy",
+       "pos": "adjective",
+       "gu": "હુકમ ચલાવનારું"
+      }
+     ],
+     "synonyms": [
+      "manager"
+     ],
+     "opposites": [
+      "employee"
+     ],
+     "collocations": [
+      "my boss",
+      "new boss"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "interview",
+     "pos": "noun",
+     "pronGu": "ઇન્ટરવ્યૂ",
+     "meaningGu": "મુલાકાત, ઇન્ટરવ્યૂ",
+     "meaningEn": "a meeting where someone asks you questions for a job",
+     "example": "I have a job interview tomorrow.",
+     "exampleGu": "કાલે મારો નોકરી માટેનો ઇન્ટરવ્યૂ છે.",
+     "family": [
+      {
+       "word": "interview",
+       "pos": "noun",
+       "gu": "ઇન્ટરવ્યૂ"
+      },
+      {
+       "word": "interview",
+       "pos": "verb",
+       "gu": "ઇન્ટરવ્યૂ લેવો"
+      },
+      {
+       "word": "interviewer",
+       "pos": "noun",
+       "gu": "ઇન્ટરવ્યૂ લેનાર"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "job interview",
+      "pass an interview"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "experience",
+     "pos": "noun",
+     "pronGu": "એક્સપીરિયન્સ",
+     "meaningGu": "અનુભવ",
+     "meaningEn": "knowledge you get from doing something",
+     "example": "She has five years of experience.",
+     "exampleGu": "તેને પાંચ વર્ષનો અનુભવ છે.",
+     "family": [
+      {
+       "word": "experience",
+       "pos": "noun",
+       "gu": "અનુભવ"
+      },
+      {
+       "word": "experienced",
+       "pos": "adjective",
+       "gu": "અનુભવી"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "work experience",
+      "gain experience"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "skill",
+     "pos": "noun",
+     "pronGu": "સ્કિલ",
+     "meaningGu": "કૌશલ્ય, આવડત",
+     "meaningEn": "the ability to do something well",
+     "example": "Computer skills are useful.",
+     "exampleGu": "કમ્પ્યુટરની આવડત ઉપયોગી છે.",
+     "family": [
+      {
+       "word": "skill",
+       "pos": "noun",
+       "gu": "કૌશલ્ય"
+      },
+      {
+       "word": "skilled",
+       "pos": "adjective",
+       "gu": "કુશળ"
+      },
+      {
+       "word": "skilful",
+       "pos": "adjective",
+       "gu": "હોશિયાર"
+      }
+     ],
+     "synonyms": [
+      "ability"
+     ],
+     "opposites": [],
+     "collocations": [
+      "learn a skill",
+      "communication skills"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "earn",
+     "pos": "verb",
+     "pronGu": "અર્ન",
+     "meaningGu": "કમાવું",
+     "meaningEn": "to get money for work",
+     "example": "He earns twenty thousand rupees a month.",
+     "exampleGu": "તે મહિને વીસ હજાર રૂપિયા કમાય છે.",
+     "family": [
+      {
+       "word": "earn",
+       "pos": "verb",
+       "gu": "કમાવું"
+      },
+      {
+       "word": "earnings",
+       "pos": "noun",
+       "gu": "કમાણી"
+      }
+     ],
+     "synonyms": [
+      "make",
+      "get"
+     ],
+     "opposites": [
+      "spend"
+     ],
+     "collocations": [
+      "earn money",
+      "earn a living"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "career",
+     "pos": "noun",
+     "pronGu": "કરિયર",
+     "meaningGu": "કારકિર્દી",
+     "meaningEn": "the jobs you do in your working life",
+     "example": "I want a career in IT.",
+     "exampleGu": "મારે IT ક્ષેત્રમાં કારકિર્દી બનાવવી છે.",
+     "family": [
+      {
+       "word": "career",
+       "pos": "noun",
+       "gu": "કારકિર્દી"
+      }
+     ],
+     "synonyms": [
+      "profession"
+     ],
+     "opposites": [],
+     "collocations": [
+      "career goal",
+      "start a career"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "colleague",
+     "pos": "noun",
+     "pronGu": "કૉલીગ",
+     "meaningGu": "સહકર્મચારી",
+     "meaningEn": "a person you work with",
+     "example": "My colleagues are friendly.",
+     "exampleGu": "મારા સહકર્મચારીઓ મિલનસાર છે.",
+     "family": [
+      {
+       "word": "colleague",
+       "pos": "noun",
+       "gu": "સહકર્મચારી"
+      }
+     ],
+     "synonyms": [
+      "co-worker"
+     ],
+     "opposites": [],
+     "collocations": [
+      "new colleague",
+      "work colleague"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "shop",
+     "pos": "noun",
+     "pronGu": "શૉપ",
+     "meaningGu": "દુકાન",
+     "meaningEn": "a place where you buy things",
+     "example": "My uncle runs a small shop.",
+     "exampleGu": "મારા કાકા એક નાની દુકાન ચલાવે છે.",
+     "family": [
+      {
+       "word": "shop",
+       "pos": "noun",
+       "gu": "દુકાન"
+      },
+      {
+       "word": "shop",
+       "pos": "verb",
+       "gu": "ખરીદી કરવી"
+      },
+      {
+       "word": "shopkeeper",
+       "pos": "noun",
+       "gu": "દુકાનદાર"
+      },
+      {
+       "word": "shopping",
+       "pos": "noun",
+       "gu": "ખરીદી"
+      }
+     ],
+     "synonyms": [
+      "store"
+     ],
+     "opposites": [],
+     "collocations": [
+      "run a shop",
+      "go to the shop"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "factory",
+     "pos": "noun",
+     "pronGu": "ફૅક્ટરી",
+     "meaningGu": "કારખાનું",
+     "meaningEn": "a building where things are made by machines",
+     "example": "He works in a textile factory.",
+     "exampleGu": "તે કાપડના કારખાનામાં કામ કરે છે.",
+     "family": [
+      {
+       "word": "factory",
+       "pos": "noun",
+       "gu": "કારખાનું"
+      }
+     ],
+     "synonyms": [
+      "plant",
+      "mill"
+     ],
+     "opposites": [],
+     "collocations": [
+      "factory worker",
+      "car factory"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "holiday",
+     "pos": "noun",
+     "pronGu": "હોલિડે",
+     "meaningGu": "રજા",
+     "meaningEn": "a day or time when you don't work",
+     "example": "Diwali is a long holiday.",
+     "exampleGu": "દિવાળીમાં લાંબી રજા હોય છે.",
+     "family": [
+      {
+       "word": "holiday",
+       "pos": "noun",
+       "gu": "રજા"
+      }
+     ],
+     "synonyms": [
+      "vacation",
+      "leave"
+     ],
+     "opposites": [],
+     "collocations": [
+      "on holiday",
+      "public holiday"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "task",
+     "pos": "noun",
+     "pronGu": "ટાસ્ક",
+     "meaningGu": "કામ, કાર્ય",
+     "meaningEn": "a piece of work you must do",
+     "example": "I finished all my tasks today.",
+     "exampleGu": "મેં આજે મારાં બધાં કામ પૂરાં કર્યાં.",
+     "family": [
+      {
+       "word": "task",
+       "pos": "noun",
+       "gu": "કાર્ય"
+      }
+     ],
+     "synonyms": [
+      "job",
+      "duty"
+     ],
+     "opposites": [],
+     "collocations": [
+      "finish a task",
+      "daily task"
+     ],
+     "ieltsTip": ""
+    },
+    {
+     "word": "deadline",
+     "pos": "noun",
+     "pronGu": "ડેડલાઇન",
+     "meaningGu": "છેલ્લી તારીખ, સમયમર્યાદા",
+     "meaningEn": "the time by which work must be finished",
+     "example": "The deadline is Friday.",
+     "exampleGu": "છેલ્લી તારીખ શુક્રવાર છે.",
+     "family": [
+      {
+       "word": "deadline",
+       "pos": "noun",
+       "gu": "સમયમર્યાદા"
+      }
+     ],
+     "synonyms": [
+      "time limit"
+     ],
+     "opposites": [],
+     "collocations": [
+      "meet a deadline",
+      "miss a deadline"
+     ],
+     "ieltsTip": ""
+    }
+   ]
+  },
+  {
+   "id": "P06",
+   "order": 6,
+   "title": "Education",
+   "titleGu": "શિક્ષણ",
+   "ielts": true,
+   "minLevel": 2,
+   "words": [
+    {
+     "word": "education",
+     "pos": "noun",
+     "pronGu": "એજ્યુકેશન",
+     "meaningGu": "શિક્ષણ",
+     "meaningEn": "the process of teaching and learning",
+     "example": "Education is important for every child.",
+     "exampleGu": "દરેક બાળક માટે શિક્ષણ મહત્ત્વનું છે.",
+     "family": [
+      {
+       "word": "education",
+       "pos": "noun",
+       "gu": "શિક્ષણ"
+      },
+      {
+       "word": "educate",
+       "pos": "verb",
+       "gu": "શિક્ષણ આપવું"
+      },
+      {
+       "word": "educational",
+       "pos": "adjective",
+       "gu": "શૈક્ષણિક"
+      },
+      {
+       "word": "educated",
+       "pos": "adjective",
+       "gu": "ભણેલું"
+      }
+     ],
+     "synonyms": [
+      "schooling",
+      "learning"
+     ],
+     "opposites": [],
+     "collocations": [
+      "higher education",
+      "quality education"
+     ],
+     "ieltsTip": "A text may say \"schooling\" or \"learning\" instead of \"education\"."
+    },
+    {
+     "word": "knowledge",
+     "pos": "noun",
+     "pronGu": "નૉલેજ",
+     "meaningGu": "જ્ઞાન",
+     "meaningEn": "information and understanding you have",
+     "example": "Reading increases your knowledge.",
+     "exampleGu": "વાંચનથી તમારું જ્ઞાન વધે છે.",
+     "family": [
+      {
+       "word": "knowledge",
+       "pos": "noun",
+       "gu": "જ્ઞાન"
+      },
+      {
+       "word": "know",
+       "pos": "verb",
+       "gu": "જાણવું"
+      },
+      {
+       "word": "knowledgeable",
+       "pos": "adjective",
+       "gu": "જાણકાર"
+      }
+     ],
+     "synonyms": [
+      "understanding",
+      "information"
+     ],
+     "opposites": [
+      "ignorance"
+     ],
+     "collocations": [
+      "general knowledge",
+      "gain knowledge"
+     ],
+     "ieltsTip": "A question may say \"understanding\" or \"what people know\" for \"knowledge\"."
+    },
+    {
+     "word": "curriculum",
+     "pos": "noun",
+     "pronGu": "કરિક્યુલમ",
+     "meaningGu": "અભ્યાસક્રમ",
+     "meaningEn": "all the subjects taught in a school or course",
+     "example": "The school curriculum includes music.",
+     "exampleGu": "શાળાના અભ્યાસક્રમમાં સંગીતનો સમાવેશ થાય છે.",
+     "family": [
+      {
+       "word": "curriculum",
+       "pos": "noun",
+       "gu": "અભ્યાસક્રમ"
+      },
+      {
+       "word": "curricular",
+       "pos": "adjective",
+       "gu": "અભ્યાસક્રમ સંબંધી"
+      }
+     ],
+     "synonyms": [
+      "syllabus",
+      "course"
+     ],
+     "opposites": [],
+     "collocations": [
+      "school curriculum",
+      "national curriculum"
+     ],
+     "ieltsTip": "A passage may say \"syllabus\" or \"what is taught\" for \"curriculum\"."
+    },
+    {
+     "word": "lecture",
+     "pos": "noun",
+     "pronGu": "લેક્ચર",
+     "meaningGu": "વ્યાખ્યાન",
+     "meaningEn": "a talk given to students",
+     "example": "The lecture starts at nine.",
+     "exampleGu": "વ્યાખ્યાન નવ વાગ્યે શરૂ થાય છે.",
+     "family": [
+      {
+       "word": "lecture",
+       "pos": "noun",
+       "gu": "વ્યાખ્યાન"
+      },
+      {
+       "word": "lecture",
+       "pos": "verb",
+       "gu": "વ્યાખ્યાન આપવું"
+      },
+      {
+       "word": "lecturer",
+       "pos": "noun",
+       "gu": "વ્યાખ્યાતા"
+      }
+     ],
+     "synonyms": [
+      "talk",
+      "class"
+     ],
+     "opposites": [],
+     "collocations": [
+      "attend a lecture",
+      "give a lecture"
+     ],
+     "ieltsTip": "A recording may say \"talk\" or \"class\" instead of \"lecture\"."
+    },
+    {
+     "word": "graduate",
+     "pos": "verb",
+     "pronGu": "ગ્રેજ્યુએટ",
+     "meaningGu": "સ્નાતક થવું",
+     "meaningEn": "to finish a university degree",
+     "example": "She graduated in 2020.",
+     "exampleGu": "તે ૨૦૨૦માં સ્નાતક થઈ.",
+     "family": [
+      {
+       "word": "graduate",
+       "pos": "verb",
+       "gu": "સ્નાતક થવું"
+      },
+      {
+       "word": "graduate",
+       "pos": "noun",
+       "gu": "સ્નાતક"
+      },
+      {
+       "word": "graduation",
+       "pos": "noun",
+       "gu": "પદવીદાન, સ્નાતક થવું"
+      }
+     ],
+     "synonyms": [
+      "complete a degree"
+     ],
+     "opposites": [
+      "drop out"
+     ],
+     "collocations": [
+      "graduate from university",
+      "recent graduate"
+     ],
+     "ieltsTip": "A question may say \"finish university\" for \"graduate\"."
+    },
+    {
+     "word": "assignment",
+     "pos": "noun",
+     "pronGu": "અસાઇનમેન્ટ",
+     "meaningGu": "સોંપેલું કામ, ગૃહકાર્ય",
+     "meaningEn": "a piece of work given to students",
+     "example": "I must submit my assignment today.",
+     "exampleGu": "મારે આજે મારું અસાઇનમેન્ટ જમા કરાવવાનું છે.",
+     "family": [
+      {
+       "word": "assignment",
+       "pos": "noun",
+       "gu": "સોંપેલું કામ"
+      },
+      {
+       "word": "assign",
+       "pos": "verb",
+       "gu": "સોંપવું"
+      }
+     ],
+     "synonyms": [
+      "task",
+      "homework",
+      "project"
+     ],
+     "opposites": [],
+     "collocations": [
+      "submit an assignment",
+      "written assignment"
+     ],
+     "ieltsTip": "A text may say \"task\" or \"piece of coursework\" for \"assignment\"."
+    },
+    {
+     "word": "discipline",
+     "pos": "noun",
+     "pronGu": "ડિસિપ્લિન",
+     "meaningGu": "શિસ્ત",
+     "meaningEn": "control of behaviour by following rules",
+     "example": "Good schools teach discipline.",
+     "exampleGu": "સારી શાળાઓ શિસ્ત શીખવે છે.",
+     "family": [
+      {
+       "word": "discipline",
+       "pos": "noun",
+       "gu": "શિસ્ત"
+      },
+      {
+       "word": "disciplined",
+       "pos": "adjective",
+       "gu": "શિસ્તબદ્ધ"
+      },
+      {
+       "word": "disciplinary",
+       "pos": "adjective",
+       "gu": "શિસ્ત સંબંધી"
+      }
+     ],
+     "synonyms": [
+      "self-control",
+      "order"
+     ],
+     "opposites": [],
+     "collocations": [
+      "strict discipline",
+      "self-discipline"
+     ],
+     "ieltsTip": "A question may say \"rules and order\" or \"self-control\" for \"discipline\"."
+    },
+    {
+     "word": "literacy",
+     "pos": "noun",
+     "pronGu": "લિટરસી",
+     "meaningGu": "સાક્ષરતા",
+     "meaningEn": "the ability to read and write",
+     "example": "Literacy rates have improved in India.",
+     "exampleGu": "ભારતમાં સાક્ષરતાનો દર સુધર્યો છે.",
+     "family": [
+      {
+       "word": "literacy",
+       "pos": "noun",
+       "gu": "સાક્ષરતા"
+      },
+      {
+       "word": "literate",
+       "pos": "adjective",
+       "gu": "સાક્ષર"
+      },
+      {
+       "word": "illiterate",
+       "pos": "adjective",
+       "gu": "નિરક્ષર"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [
+      "illiteracy"
+     ],
+     "collocations": [
+      "literacy rate",
+      "digital literacy"
+     ],
+     "ieltsTip": "A passage may say \"the ability to read and write\" instead of \"literacy\"."
+    },
+    {
+     "word": "tuition",
+     "pos": "noun",
+     "pronGu": "ટ્યૂશન",
+     "meaningGu": "ટ્યૂશન, શિક્ષણ ફી",
+     "meaningEn": "teaching, or money paid for a course",
+     "example": "Many students take private tuition.",
+     "exampleGu": "ઘણા વિદ્યાર્થીઓ ખાનગી ટ્યૂશન લે છે.",
+     "family": [
+      {
+       "word": "tuition",
+       "pos": "noun",
+       "gu": "ટ્યૂશન"
+      }
+     ],
+     "synonyms": [
+      "coaching",
+      "teaching"
+     ],
+     "opposites": [],
+     "collocations": [
+      "private tuition",
+      "tuition fees"
+     ],
+     "ieltsTip": "A text may say \"course fees\" for \"tuition fees\" or \"coaching\" for \"tuition\"."
+    },
+    {
+     "word": "qualification",
+     "pos": "noun",
+     "pronGu": "ક્વૉલિફિકેશન",
+     "meaningGu": "લાયકાત",
+     "meaningEn": "a degree or certificate you get after study",
+     "example": "You need a qualification for this job.",
+     "exampleGu": "આ નોકરી માટે તમારી પાસે લાયકાત હોવી જોઈએ.",
+     "family": [
+      {
+       "word": "qualification",
+       "pos": "noun",
+       "gu": "લાયકાત"
+      },
+      {
+       "word": "qualify",
+       "pos": "verb",
+       "gu": "લાયક ઠરવું"
+      },
+      {
+       "word": "qualified",
+       "pos": "adjective",
+       "gu": "લાયક"
+      }
+     ],
+     "synonyms": [
+      "certificate",
+      "degree"
+     ],
+     "opposites": [],
+     "collocations": [
+      "academic qualification",
+      "professional qualification"
+     ],
+     "ieltsTip": "A question may say \"certificate\" or \"degree\" for \"qualification\"."
+    },
+    {
+     "word": "attend",
+     "pos": "verb",
+     "pronGu": "અટેન્ડ",
+     "meaningGu": "હાજરી આપવી",
+     "meaningEn": "to go to a class or event",
+     "example": "All students must attend the class.",
+     "exampleGu": "બધા વિદ્યાર્થીઓએ વર્ગમાં હાજરી આપવી જ જોઈએ.",
+     "family": [
+      {
+       "word": "attend",
+       "pos": "verb",
+       "gu": "હાજરી આપવી"
+      },
+      {
+       "word": "attendance",
+       "pos": "noun",
+       "gu": "હાજરી"
+      }
+     ],
+     "synonyms": [
+      "go to",
+      "be present"
+     ],
+     "opposites": [
+      "miss"
+     ],
+     "collocations": [
+      "attend school",
+      "attend a class"
+     ],
+     "ieltsTip": "A question may say \"go to\" or \"be present at\" for \"attend\"."
+    },
+    {
+     "word": "encourage",
+     "pos": "verb",
+     "pronGu": "એન્કરેજ",
+     "meaningGu": "પ્રોત્સાહન આપવું",
+     "meaningEn": "to give someone support and confidence",
+     "example": "Teachers should encourage students to ask questions.",
+     "exampleGu": "શિક્ષકોએ વિદ્યાર્થીઓને પ્રશ્નો પૂછવા પ્રોત્સાહન આપવું જોઈએ.",
+     "family": [
+      {
+       "word": "encourage",
+       "pos": "verb",
+       "gu": "પ્રોત્સાહન આપવું"
+      },
+      {
+       "word": "encouragement",
+       "pos": "noun",
+       "gu": "પ્રોત્સાહન"
+      },
+      {
+       "word": "encouraging",
+       "pos": "adjective",
+       "gu": "પ્રોત્સાહક"
+      }
+     ],
+     "synonyms": [
+      "support",
+      "inspire"
+     ],
+     "opposites": [
+      "discourage"
+     ],
+     "collocations": [
+      "encourage students",
+      "strongly encourage"
+     ],
+     "ieltsTip": "A text may say \"support\" or \"inspire\" for \"encourage\"."
+    },
+    {
+     "word": "improve",
+     "pos": "verb",
+     "pronGu": "ઇમ્પ્રૂવ",
+     "meaningGu": "સુધારવું",
+     "meaningEn": "to make or become better",
+     "example": "I want to improve my English.",
+     "exampleGu": "મારે મારું અંગ્રેજી સુધારવું છે.",
+     "family": [
+      {
+       "word": "improve",
+       "pos": "verb",
+       "gu": "સુધારવું"
+      },
+      {
+       "word": "improvement",
+       "pos": "noun",
+       "gu": "સુધારો"
+      },
+      {
+       "word": "improved",
+       "pos": "adjective",
+       "gu": "સુધરેલું"
+      }
+     ],
+     "synonyms": [
+      "get better",
+      "develop"
+     ],
+     "opposites": [
+      "worsen"
+     ],
+     "collocations": [
+      "improve skills",
+      "greatly improve"
+     ],
+     "ieltsTip": "A question may say \"get better\" or \"develop\" for \"improve\"."
+    },
+    {
+     "word": "achieve",
+     "pos": "verb",
+     "pronGu": "અચીવ",
+     "meaningGu": "હાંસલ કરવું, પ્રાપ્ત કરવું",
+     "meaningEn": "to succeed in getting something by effort",
+     "example": "She achieved a high score.",
+     "exampleGu": "તેણે ઊંચો સ્કોર હાંસલ કર્યો.",
+     "family": [
+      {
+       "word": "achieve",
+       "pos": "verb",
+       "gu": "હાંસલ કરવું"
+      },
+      {
+       "word": "achievement",
+       "pos": "noun",
+       "gu": "સિદ્ધિ"
+      },
+      {
+       "word": "achiever",
+       "pos": "noun",
+       "gu": "સિદ્ધિ મેળવનાર"
+      }
+     ],
+     "synonyms": [
+      "reach",
+      "gain"
+     ],
+     "opposites": [
+      "fail"
+     ],
+     "collocations": [
+      "achieve a goal",
+      "achieve success"
+     ],
+     "ieltsTip": "A question may say \"reach\" or \"gain\" for \"achieve\"."
+    },
+    {
+     "word": "motivate",
+     "pos": "verb",
+     "pronGu": "મોટિવેટ",
+     "meaningGu": "પ્રેરણા આપવી",
+     "meaningEn": "to make someone want to do something",
+     "example": "Good teachers motivate their students.",
+     "exampleGu": "સારા શિક્ષકો તેમના વિદ્યાર્થીઓને પ્રેરણા આપે છે.",
+     "family": [
+      {
+       "word": "motivate",
+       "pos": "verb",
+       "gu": "પ્રેરણા આપવી"
+      },
+      {
+       "word": "motivation",
+       "pos": "noun",
+       "gu": "પ્રેરણા"
+      },
+      {
+       "word": "motivated",
+       "pos": "adjective",
+       "gu": "પ્રેરિત"
+      }
+     ],
+     "synonyms": [
+      "inspire",
+      "drive"
+     ],
+     "opposites": [
+      "discourage"
+     ],
+     "collocations": [
+      "motivate students",
+      "highly motivated"
+     ],
+     "ieltsTip": "A text may say \"inspire\" or \"make people want to\" for \"motivate\"."
+    },
+    {
+     "word": "compulsory",
+     "pos": "adjective",
+     "pronGu": "કમ્પલ્સરી",
+     "meaningGu": "ફરજિયાત",
+     "meaningEn": "that must be done because of a rule",
+     "example": "English is a compulsory subject.",
+     "exampleGu": "અંગ્રેજી ફરજિયાત વિષય છે.",
+     "family": [
+      {
+       "word": "compulsory",
+       "pos": "adjective",
+       "gu": "ફરજિયાત"
+      }
+     ],
+     "synonyms": [
+      "required",
+      "mandatory"
+     ],
+     "opposites": [
+      "optional",
+      "voluntary"
+     ],
+     "collocations": [
+      "compulsory subject",
+      "compulsory education"
+     ],
+     "ieltsTip": "A question may say \"required\" or \"must\" for \"compulsory\"."
+    },
+    {
+     "word": "primary",
+     "pos": "adjective",
+     "pronGu": "પ્રાઇમરી",
+     "meaningGu": "પ્રાથમિક",
+     "meaningEn": "first or most basic",
+     "example": "My son is in primary school.",
+     "exampleGu": "મારો દીકરો પ્રાથમિક શાળામાં છે.",
+     "family": [
+      {
+       "word": "primary",
+       "pos": "adjective",
+       "gu": "પ્રાથમિક"
+      },
+      {
+       "word": "primarily",
+       "pos": "adverb",
+       "gu": "મુખ્યત્વે"
+      }
+     ],
+     "synonyms": [
+      "main",
+      "basic"
+     ],
+     "opposites": [
+      "secondary"
+     ],
+     "collocations": [
+      "primary school",
+      "primary reason"
+     ],
+     "ieltsTip": "A text may say \"main\" for \"primary\", as in \"the main reason\"."
+    },
+    {
+     "word": "secondary",
+     "pos": "adjective",
+     "pronGu": "સેકન્ડરી",
+     "meaningGu": "માધ્યમિક, ગૌણ",
+     "meaningEn": "coming after the first stage; less important",
+     "example": "She teaches at a secondary school.",
+     "exampleGu": "તે માધ્યમિક શાળામાં ભણાવે છે.",
+     "family": [
+      {
+       "word": "secondary",
+       "pos": "adjective",
+       "gu": "માધ્યમિક"
+      }
+     ],
+     "synonyms": [
+      "less important"
+     ],
+     "opposites": [
+      "primary"
+     ],
+     "collocations": [
+      "secondary school",
+      "secondary education"
+     ],
+     "ieltsTip": "A question may say \"high school\" for \"secondary school\"."
+    },
+    {
+     "word": "scholarship",
+     "pos": "noun",
+     "pronGu": "સ્કૉલરશિપ",
+     "meaningGu": "શિષ્યવૃત્તિ",
+     "meaningEn": "money given to a good student to pay for study",
+     "example": "He got a scholarship to study in Canada.",
+     "exampleGu": "તેને કેનેડામાં ભણવા માટે શિષ્યવૃત્તિ મળી.",
+     "family": [
+      {
+       "word": "scholarship",
+       "pos": "noun",
+       "gu": "શિષ્યવૃત્તિ"
+      },
+      {
+       "word": "scholar",
+       "pos": "noun",
+       "gu": "વિદ્વાન"
+      }
+     ],
+     "synonyms": [
+      "grant"
+     ],
+     "opposites": [],
+     "collocations": [
+      "win a scholarship",
+      "full scholarship"
+     ],
+     "ieltsTip": "A passage may say \"financial support\" or \"grant\" for \"scholarship\"."
+    },
+    {
+     "word": "campus",
+     "pos": "noun",
+     "pronGu": "કેમ્પસ",
+     "meaningGu": "પરિસર, કેમ્પસ",
+     "meaningEn": "the land and buildings of a university",
+     "example": "The library is in the middle of the campus.",
+     "exampleGu": "પુસ્તકાલય કેમ્પસની વચ્ચે આવેલું છે.",
+     "family": [
+      {
+       "word": "campus",
+       "pos": "noun",
+       "gu": "પરિસર"
+      }
+     ],
+     "synonyms": [
+      "grounds"
+     ],
+     "opposites": [],
+     "collocations": [
+      "on campus",
+      "university campus"
+     ],
+     "ieltsTip": "A recording may say \"university grounds\" for \"campus\"."
+    }
+   ]
+  },
+  {
+   "id": "P07",
+   "order": 7,
+   "title": "Environment",
+   "titleGu": "પર્યાવરણ",
+   "ielts": true,
+   "minLevel": 2,
+   "words": [
+    {
+     "word": "environment",
+     "pos": "noun",
+     "pronGu": "એન્વાયરમેન્ટ",
+     "meaningGu": "પર્યાવરણ",
+     "meaningEn": "the natural world around us",
+     "example": "We must protect the environment.",
+     "exampleGu": "આપણે પર્યાવરણનું રક્ષણ કરવું જોઈએ.",
+     "family": [
+      {
+       "word": "environment",
+       "pos": "noun",
+       "gu": "પર્યાવરણ"
+      },
+      {
+       "word": "environmental",
+       "pos": "adjective",
+       "gu": "પર્યાવરણીય"
+      },
+      {
+       "word": "environmentally",
+       "pos": "adverb",
+       "gu": "પર્યાવરણની દૃષ્ટિએ"
+      }
+     ],
+     "synonyms": [
+      "nature",
+      "surroundings"
+     ],
+     "opposites": [],
+     "collocations": [
+      "protect the environment",
+      "natural environment"
+     ],
+     "ieltsTip": "A text may say \"nature\" or \"the natural world\" for \"environment\"."
+    },
+    {
+     "word": "pollution",
+     "pos": "noun",
+     "pronGu": "પૉલ્યૂશન",
+     "meaningGu": "પ્રદૂષણ",
+     "meaningEn": "dirty or harmful things in air, water or land",
+     "example": "Air pollution is a big problem in cities.",
+     "exampleGu": "શહેરોમાં હવાનું પ્રદૂષણ એક મોટી સમસ્યા છે.",
+     "family": [
+      {
+       "word": "pollution",
+       "pos": "noun",
+       "gu": "પ્રદૂષણ"
+      },
+      {
+       "word": "pollute",
+       "pos": "verb",
+       "gu": "પ્રદૂષિત કરવું"
+      },
+      {
+       "word": "polluted",
+       "pos": "adjective",
+       "gu": "પ્રદૂષિત"
+      },
+      {
+       "word": "pollutant",
+       "pos": "noun",
+       "gu": "પ્રદૂષક"
+      }
+     ],
+     "synonyms": [
+      "contamination"
+     ],
+     "opposites": [],
+     "collocations": [
+      "air pollution",
+      "reduce pollution"
+     ],
+     "ieltsTip": "A passage may say \"dirty air\" or \"contamination\" for \"pollution\"."
+    },
+    {
+     "word": "climate",
+     "pos": "noun",
+     "pronGu": "ક્લાઇમેટ",
+     "meaningGu": "આબોહવા",
+     "meaningEn": "the usual weather of a place over a long time",
+     "example": "The climate in Gujarat is hot and dry.",
+     "exampleGu": "ગુજરાતની આબોહવા ગરમ અને સૂકી છે.",
+     "family": [
+      {
+       "word": "climate",
+       "pos": "noun",
+       "gu": "આબોહવા"
+      },
+      {
+       "word": "climatic",
+       "pos": "adjective",
+       "gu": "આબોહવા સંબંધી"
+      }
+     ],
+     "synonyms": [
+      "weather"
+     ],
+     "opposites": [],
+     "collocations": [
+      "climate change",
+      "hot climate"
+     ],
+     "ieltsTip": "A question may say \"global warming\" when the text says \"climate change\"."
+    },
+    {
+     "word": "protect",
+     "pos": "verb",
+     "pronGu": "પ્રોટેક્ટ",
+     "meaningGu": "રક્ષણ કરવું",
+     "meaningEn": "to keep safe from harm",
+     "example": "Trees protect the soil.",
+     "exampleGu": "વૃક્ષો જમીનનું રક્ષણ કરે છે.",
+     "family": [
+      {
+       "word": "protect",
+       "pos": "verb",
+       "gu": "રક્ષણ કરવું"
+      },
+      {
+       "word": "protection",
+       "pos": "noun",
+       "gu": "રક્ષણ"
+      },
+      {
+       "word": "protective",
+       "pos": "adjective",
+       "gu": "રક્ષણાત્મક"
+      },
+      {
+       "word": "protected",
+       "pos": "adjective",
+       "gu": "સુરક્ષિત"
+      }
+     ],
+     "synonyms": [
+      "keep safe",
+      "save",
+      "guard"
+     ],
+     "opposites": [
+      "harm",
+      "damage"
+     ],
+     "collocations": [
+      "protect the environment",
+      "protect wildlife"
+     ],
+     "ieltsTip": "A question may say \"keep safe\" for \"protect\"."
+    },
+    {
+     "word": "recycle",
+     "pos": "verb",
+     "pronGu": "રિસાયકલ",
+     "meaningGu": "ફરી વાપરવા યોગ્ય બનાવવું",
+     "meaningEn": "to change waste into something new",
+     "example": "We recycle paper and plastic.",
+     "exampleGu": "અમે કાગળ અને પ્લાસ્ટિકને રિસાયકલ કરીએ છીએ.",
+     "family": [
+      {
+       "word": "recycle",
+       "pos": "verb",
+       "gu": "રિસાયકલ કરવું"
+      },
+      {
+       "word": "recycling",
+       "pos": "noun",
+       "gu": "પુનઃઉપયોગ પ્રક્રિયા"
+      },
+      {
+       "word": "recycled",
+       "pos": "adjective",
+       "gu": "રિસાયકલ કરેલું"
+      }
+     ],
+     "synonyms": [
+      "reuse"
+     ],
+     "opposites": [
+      "throw away"
+     ],
+     "collocations": [
+      "recycle plastic",
+      "recycling bin"
+     ],
+     "ieltsTip": "A text may say \"reuse\" or \"process again\" for \"recycle\"."
+    },
+    {
+     "word": "waste",
+     "pos": "noun",
+     "pronGu": "વેસ્ટ",
+     "meaningGu": "કચરો; બગાડ",
+     "meaningEn": "things that are thrown away; bad use of something",
+     "example": "Factories produce a lot of waste.",
+     "exampleGu": "કારખાનાં ઘણો કચરો પેદા કરે છે.",
+     "family": [
+      {
+       "word": "waste",
+       "pos": "noun",
+       "gu": "કચરો"
+      },
+      {
+       "word": "waste",
+       "pos": "verb",
+       "gu": "બગાડવું"
+      },
+      {
+       "word": "wasteful",
+       "pos": "adjective",
+       "gu": "બગાડ કરનારું"
+      }
+     ],
+     "synonyms": [
+      "rubbish",
+      "garbage"
+     ],
+     "opposites": [],
+     "collocations": [
+      "plastic waste",
+      "waste of time"
+     ],
+     "ieltsTip": "A passage may say \"rubbish\" or \"garbage\" for \"waste\"."
+    },
+    {
+     "word": "energy",
+     "pos": "noun",
+     "pronGu": "એનર્જી",
+     "meaningGu": "ઊર્જા",
+     "meaningEn": "power used for light, heat and machines",
+     "example": "Solar energy is clean.",
+     "exampleGu": "સૌર ઊર્જા સ્વચ્છ છે.",
+     "family": [
+      {
+       "word": "energy",
+       "pos": "noun",
+       "gu": "ઊર્જા"
+      },
+      {
+       "word": "energetic",
+       "pos": "adjective",
+       "gu": "ઉત્સાહી"
+      }
+     ],
+     "synonyms": [
+      "power"
+     ],
+     "opposites": [],
+     "collocations": [
+      "solar energy",
+      "save energy"
+     ],
+     "ieltsTip": "A question may say \"power\" or \"electricity\" for \"energy\"."
+    },
+    {
+     "word": "renewable",
+     "pos": "adjective",
+     "pronGu": "રિન્યૂએબલ",
+     "meaningGu": "પુનઃપ્રાપ્ય",
+     "meaningEn": "that does not run out, like sun and wind",
+     "example": "Wind is a renewable source of energy.",
+     "exampleGu": "પવન ઊર્જાનો પુનઃપ્રાપ્ય સ્ત્રોત છે.",
+     "family": [
+      {
+       "word": "renewable",
+       "pos": "adjective",
+       "gu": "પુનઃપ્રાપ્ય"
+      },
+      {
+       "word": "renew",
+       "pos": "verb",
+       "gu": "નવીકરણ કરવું"
+      }
+     ],
+     "synonyms": [
+      "clean",
+      "green"
+     ],
+     "opposites": [
+      "non-renewable"
+     ],
+     "collocations": [
+      "renewable energy",
+      "renewable resources"
+     ],
+     "ieltsTip": "A text may say \"clean energy\" or \"green energy\" for \"renewable energy\"."
+    },
+    {
+     "word": "forest",
+     "pos": "noun",
+     "pronGu": "ફૉરેસ્ટ",
+     "meaningGu": "જંગલ",
+     "meaningEn": "a large area full of trees",
+     "example": "Lions live in the Gir forest.",
+     "exampleGu": "સિંહો ગીરના જંગલમાં રહે છે.",
+     "family": [
+      {
+       "word": "forest",
+       "pos": "noun",
+       "gu": "જંગલ"
+      },
+      {
+       "word": "deforestation",
+       "pos": "noun",
+       "gu": "જંગલોનો નાશ"
+      }
+     ],
+     "synonyms": [
+      "woods",
+      "jungle"
+     ],
+     "opposites": [],
+     "collocations": [
+      "rain forest",
+      "cut down forests"
+     ],
+     "ieltsTip": "A passage may say \"woodland\" for \"forest\" or \"loss of trees\" for \"deforestation\"."
+    },
+    {
+     "word": "species",
+     "pos": "noun",
+     "pronGu": "સ્પીશીઝ",
+     "meaningGu": "પ્રજાતિ",
+     "meaningEn": "a group of animals or plants of the same type",
+     "example": "Many species of birds live here.",
+     "exampleGu": "અહીં પક્ષીઓની ઘણી પ્રજાતિઓ રહે છે.",
+     "family": [
+      {
+       "word": "species",
+       "pos": "noun",
+       "gu": "પ્રજાતિ"
+      }
+     ],
+     "synonyms": [
+      "type",
+      "kind"
+     ],
+     "opposites": [],
+     "collocations": [
+      "animal species",
+      "endangered species"
+     ],
+     "ieltsTip": "A question may say \"types of animals\" for \"species\"."
+    },
+    {
+     "word": "extinct",
+     "pos": "adjective",
+     "pronGu": "એક્સટિંક્ટ",
+     "meaningGu": "લુપ્ત",
+     "meaningEn": "no longer existing",
+     "example": "Dinosaurs are extinct.",
+     "exampleGu": "ડાયનાસોર લુપ્ત થઈ ગયા છે.",
+     "family": [
+      {
+       "word": "extinct",
+       "pos": "adjective",
+       "gu": "લુપ્ત"
+      },
+      {
+       "word": "extinction",
+       "pos": "noun",
+       "gu": "લુપ્ત થવું"
+      }
+     ],
+     "synonyms": [
+      "died out",
+      "gone"
+     ],
+     "opposites": [
+      "living",
+      "existing"
+     ],
+     "collocations": [
+      "become extinct",
+      "extinct species"
+     ],
+     "ieltsTip": "A text may say \"died out\" or \"no longer exist\" for \"extinct\"."
+    },
+    {
+     "word": "global",
+     "pos": "adjective",
+     "pronGu": "ગ્લોબલ",
+     "meaningGu": "વૈશ્વિક",
+     "meaningEn": "about the whole world",
+     "example": "Plastic is a global problem.",
+     "exampleGu": "પ્લાસ્ટિક એક વૈશ્વિક સમસ્યા છે.",
+     "family": [
+      {
+       "word": "global",
+       "pos": "adjective",
+       "gu": "વૈશ્વિક"
+      },
+      {
+       "word": "globe",
+       "pos": "noun",
+       "gu": "પૃથ્વી, ગોળો"
+      },
+      {
+       "word": "globally",
+       "pos": "adverb",
+       "gu": "વિશ્વભરમાં"
+      }
+     ],
+     "synonyms": [
+      "worldwide",
+      "international"
+     ],
+     "opposites": [
+      "local"
+     ],
+     "collocations": [
+      "global warming",
+      "global problem"
+     ],
+     "ieltsTip": "A question may say \"worldwide\" or \"around the world\" for \"global\"."
+    },
+    {
+     "word": "temperature",
+     "pos": "noun",
+     "pronGu": "ટેમ્પરેચર",
+     "meaningGu": "તાપમાન",
+     "meaningEn": "how hot or cold something is",
+     "example": "The temperature reached 45 degrees.",
+     "exampleGu": "તાપમાન ૪૫ ડિગ્રી સુધી પહોંચ્યું.",
+     "family": [
+      {
+       "word": "temperature",
+       "pos": "noun",
+       "gu": "તાપમાન"
+      }
+     ],
+     "synonyms": [
+      "heat"
+     ],
+     "opposites": [],
+     "collocations": [
+      "high temperature",
+      "rising temperatures"
+     ],
+     "ieltsTip": "A passage may say \"it is getting hotter\" for \"temperatures are rising\"."
+    },
+    {
+     "word": "flood",
+     "pos": "noun",
+     "pronGu": "ફ્લડ",
+     "meaningGu": "પૂર",
+     "meaningEn": "a lot of water covering land that is usually dry",
+     "example": "The flood damaged many homes.",
+     "exampleGu": "પૂરે ઘણાં ઘરોને નુકસાન પહોંચાડ્યું.",
+     "family": [
+      {
+       "word": "flood",
+       "pos": "noun",
+       "gu": "પૂર"
+      },
+      {
+       "word": "flood",
+       "pos": "verb",
+       "gu": "છલકાઈ જવું"
+      },
+      {
+       "word": "flooding",
+       "pos": "noun",
+       "gu": "પૂરની સ્થિતિ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [
+      "drought"
+     ],
+     "collocations": [
+      "heavy floods",
+      "flood water"
+     ],
+     "ieltsTip": "A text may say \"rising water\" or \"flooding\" for \"flood\"."
+    },
+    {
+     "word": "drought",
+     "pos": "noun",
+     "pronGu": "ડ્રાઉટ",
+     "meaningGu": "દુકાળ",
+     "meaningEn": "a long time with no rain",
+     "example": "The farmers suffered because of the drought.",
+     "exampleGu": "દુકાળને કારણે ખેડૂતોએ ઘણી મુશ્કેલી વેઠી.",
+     "family": [
+      {
+       "word": "drought",
+       "pos": "noun",
+       "gu": "દુકાળ"
+      }
+     ],
+     "synonyms": [
+      "dry spell"
+     ],
+     "opposites": [
+      "flood"
+     ],
+     "collocations": [
+      "severe drought",
+      "long drought"
+     ],
+     "ieltsTip": "A question may say \"a long period without rain\" for \"drought\"."
+    },
+    {
+     "word": "resource",
+     "pos": "noun",
+     "pronGu": "રિસોર્સ",
+     "meaningGu": "સંસાધન",
+     "meaningEn": "something useful like water, oil or wood",
+     "example": "Water is a precious resource.",
+     "exampleGu": "પાણી એક કીમતી સંસાધન છે.",
+     "family": [
+      {
+       "word": "resource",
+       "pos": "noun",
+       "gu": "સંસાધન"
+      },
+      {
+       "word": "resourceful",
+       "pos": "adjective",
+       "gu": "કોઠાસૂઝવાળું"
+      }
+     ],
+     "synonyms": [
+      "supply",
+      "material"
+     ],
+     "opposites": [],
+     "collocations": [
+      "natural resources",
+      "limited resources"
+     ],
+     "ieltsTip": "A passage may say \"supplies\" or \"materials\" for \"resources\"."
+    },
+    {
+     "word": "reduce",
+     "pos": "verb",
+     "pronGu": "રિડ્યૂસ",
+     "meaningGu": "ઘટાડવું",
+     "meaningEn": "to make smaller or less",
+     "example": "We should reduce plastic use.",
+     "exampleGu": "આપણે પ્લાસ્ટિકનો ઉપયોગ ઘટાડવો જોઈએ.",
+     "family": [
+      {
+       "word": "reduce",
+       "pos": "verb",
+       "gu": "ઘટાડવું"
+      },
+      {
+       "word": "reduction",
+       "pos": "noun",
+       "gu": "ઘટાડો"
+      },
+      {
+       "word": "reduced",
+       "pos": "adjective",
+       "gu": "ઘટાડેલું"
+      }
+     ],
+     "synonyms": [
+      "cut",
+      "lower",
+      "decrease"
+     ],
+     "opposites": [
+      "increase"
+     ],
+     "collocations": [
+      "reduce waste",
+      "reduce pollution"
+     ],
+     "ieltsTip": "A question may say \"cut down on\" or \"lower\" for \"reduce\"."
+    },
+    {
+     "word": "damage",
+     "pos": "verb",
+     "pronGu": "ડૅમેજ",
+     "meaningGu": "નુકસાન કરવું",
+     "meaningEn": "to harm or break something",
+     "example": "Plastic damages the soil.",
+     "exampleGu": "પ્લાસ્ટિક જમીનને નુકસાન પહોંચાડે છે.",
+     "family": [
+      {
+       "word": "damage",
+       "pos": "verb",
+       "gu": "નુકસાન કરવું"
+      },
+      {
+       "word": "damage",
+       "pos": "noun",
+       "gu": "નુકસાન"
+      },
+      {
+       "word": "damaging",
+       "pos": "adjective",
+       "gu": "નુકસાનકારક"
+      }
+     ],
+     "synonyms": [
+      "harm",
+      "hurt"
+     ],
+     "opposites": [
+      "protect",
+      "repair"
+     ],
+     "collocations": [
+      "cause damage",
+      "serious damage"
+     ],
+     "ieltsTip": "A text may say \"harm\" or \"hurt\" for \"damage\"."
+    },
+    {
+     "word": "sustainable",
+     "pos": "adjective",
+     "pronGu": "સસ્ટેનેબલ",
+     "meaningGu": "ટકાઉ",
+     "meaningEn": "able to continue without harming nature",
+     "example": "We need sustainable ways to grow food.",
+     "exampleGu": "આપણને ખોરાક ઉગાડવાની ટકાઉ રીતોની જરૂર છે.",
+     "family": [
+      {
+       "word": "sustainable",
+       "pos": "adjective",
+       "gu": "ટકાઉ"
+      },
+      {
+       "word": "sustainability",
+       "pos": "noun",
+       "gu": "ટકાઉપણું"
+      },
+      {
+       "word": "sustain",
+       "pos": "verb",
+       "gu": "ટકાવી રાખવું"
+      }
+     ],
+     "synonyms": [
+      "eco-friendly",
+      "green"
+     ],
+     "opposites": [
+      "harmful",
+      "wasteful"
+     ],
+     "collocations": [
+      "sustainable development",
+      "sustainable living"
+     ],
+     "ieltsTip": "A passage may say \"eco-friendly\" or \"can continue for a long time\" for \"sustainable\"."
+    },
+    {
+     "word": "wildlife",
+     "pos": "noun",
+     "pronGu": "વાઇલ્ડલાઇફ",
+     "meaningGu": "વન્યજીવન",
+     "meaningEn": "wild animals and plants",
+     "example": "India has rich wildlife.",
+     "exampleGu": "ભારતમાં સમૃદ્ધ વન્યજીવન છે.",
+     "family": [
+      {
+       "word": "wildlife",
+       "pos": "noun",
+       "gu": "વન્યજીવન"
+      },
+      {
+       "word": "wild",
+       "pos": "adjective",
+       "gu": "જંગલી"
+      }
+     ],
+     "synonyms": [
+      "wild animals"
+     ],
+     "opposites": [],
+     "collocations": [
+      "protect wildlife",
+      "wildlife park"
+     ],
+     "ieltsTip": "A question may say \"wild animals\" or \"nature\" for \"wildlife\"."
+    }
+   ]
+  },
+  {
+   "id": "P08",
+   "order": 8,
+   "title": "Health",
+   "titleGu": "આરોગ્ય",
+   "ielts": true,
+   "minLevel": 3,
+   "words": [
+    {
+     "word": "health",
+     "pos": "noun",
+     "pronGu": "હેલ્થ",
+     "meaningGu": "આરોગ્ય, તંદુરસ્તી",
+     "meaningEn": "the condition of your body and mind",
+     "example": "Smoking is bad for your health.",
+     "exampleGu": "ધૂમ્રપાન તમારા આરોગ્ય માટે ખરાબ છે.",
+     "family": [
+      {
+       "word": "health",
+       "pos": "noun",
+       "gu": "આરોગ્ય"
+      },
+      {
+       "word": "healthy",
+       "pos": "adjective",
+       "gu": "તંદુરસ્ત"
+      },
+      {
+       "word": "healthily",
+       "pos": "adverb",
+       "gu": "તંદુરસ્ત રીતે"
+      }
+     ],
+     "synonyms": [
+      "well-being",
+      "fitness"
+     ],
+     "opposites": [
+      "illness"
+     ],
+     "collocations": [
+      "good health",
+      "health care"
+     ],
+     "ieltsTip": "A text may say \"well-being\" for \"health\"."
+    },
+    {
+     "word": "disease",
+     "pos": "noun",
+     "pronGu": "ડિઝીઝ",
+     "meaningGu": "રોગ",
+     "meaningEn": "an illness of the body",
+     "example": "Diabetes is a common disease.",
+     "exampleGu": "ડાયાબિટીસ એક સામાન્ય રોગ છે.",
+     "family": [
+      {
+       "word": "disease",
+       "pos": "noun",
+       "gu": "રોગ"
+      },
+      {
+       "word": "diseased",
+       "pos": "adjective",
+       "gu": "રોગગ્રસ્ત"
+      }
+     ],
+     "synonyms": [
+      "illness",
+      "sickness"
+     ],
+     "opposites": [
+      "health"
+     ],
+     "collocations": [
+      "heart disease",
+      "spread disease"
+     ],
+     "ieltsTip": "A question may say \"illness\" or \"condition\" for \"disease\"."
+    },
+    {
+     "word": "exercise",
+     "pos": "noun",
+     "pronGu": "એક્સરસાઇઝ",
+     "meaningGu": "કસરત",
+     "meaningEn": "physical activity to keep the body fit",
+     "example": "Daily exercise keeps you fit.",
+     "exampleGu": "રોજની કસરત તમને તંદુરસ્ત રાખે છે.",
+     "family": [
+      {
+       "word": "exercise",
+       "pos": "noun",
+       "gu": "કસરત"
+      },
+      {
+       "word": "exercise",
+       "pos": "verb",
+       "gu": "કસરત કરવી"
+      }
+     ],
+     "synonyms": [
+      "workout",
+      "physical activity"
+     ],
+     "opposites": [],
+     "collocations": [
+      "regular exercise",
+      "do exercise"
+     ],
+     "ieltsTip": "A text may say \"physical activity\" or \"working out\" for \"exercise\"."
+    },
+    {
+     "word": "diet",
+     "pos": "noun",
+     "pronGu": "ડાયટ",
+     "meaningGu": "આહાર",
+     "meaningEn": "the food you usually eat",
+     "example": "A healthy diet includes fruit and vegetables.",
+     "exampleGu": "તંદુરસ્ત આહારમાં ફળ અને શાકભાજીનો સમાવેશ થાય છે.",
+     "family": [
+      {
+       "word": "diet",
+       "pos": "noun",
+       "gu": "આહાર"
+      },
+      {
+       "word": "diet",
+       "pos": "verb",
+       "gu": "પરેજી પાળવી"
+      },
+      {
+       "word": "dietary",
+       "pos": "adjective",
+       "gu": "આહાર સંબંધી"
+      }
+     ],
+     "synonyms": [
+      "food",
+      "eating habits"
+     ],
+     "opposites": [],
+     "collocations": [
+      "balanced diet",
+      "healthy diet"
+     ],
+     "ieltsTip": "A question may say \"eating habits\" or \"what people eat\" for \"diet\"."
+    },
+    {
+     "word": "obesity",
+     "pos": "noun",
+     "pronGu": "ઓબીસિટી",
+     "meaningGu": "મેદસ્વિતા, સ્થૂળતા",
+     "meaningEn": "being very overweight in an unhealthy way",
+     "example": "Obesity is rising among children.",
+     "exampleGu": "બાળકોમાં મેદસ્વિતા વધી રહી છે.",
+     "family": [
+      {
+       "word": "obesity",
+       "pos": "noun",
+       "gu": "મેદસ્વિતા"
+      },
+      {
+       "word": "obese",
+       "pos": "adjective",
+       "gu": "મેદસ્વી"
+      }
+     ],
+     "synonyms": [
+      "overweight"
+     ],
+     "opposites": [],
+     "collocations": [
+      "childhood obesity",
+      "rising obesity"
+     ],
+     "ieltsTip": "A passage may say \"being overweight\" for \"obesity\"."
+    },
+    {
+     "word": "symptom",
+     "pos": "noun",
+     "pronGu": "સિમ્પ્ટમ",
+     "meaningGu": "લક્ષણ",
+     "meaningEn": "a sign of an illness",
+     "example": "Fever is a symptom of flu.",
+     "exampleGu": "તાવ ફ્લૂનું એક લક્ષણ છે.",
+     "family": [
+      {
+       "word": "symptom",
+       "pos": "noun",
+       "gu": "લક્ષણ"
+      },
+      {
+       "word": "symptomatic",
+       "pos": "adjective",
+       "gu": "લક્ષણ દેખાડતું"
+      }
+     ],
+     "synonyms": [
+      "sign"
+     ],
+     "opposites": [],
+     "collocations": [
+      "common symptoms",
+      "show symptoms"
+     ],
+     "ieltsTip": "A question may say \"sign\" or \"warning sign\" for \"symptom\"."
+    },
+    {
+     "word": "treatment",
+     "pos": "noun",
+     "pronGu": "ટ્રીટમેન્ટ",
+     "meaningGu": "સારવાર",
+     "meaningEn": "medical care for an illness or injury",
+     "example": "He is getting treatment in hospital.",
+     "exampleGu": "તે હોસ્પિટલમાં સારવાર લઈ રહ્યો છે.",
+     "family": [
+      {
+       "word": "treatment",
+       "pos": "noun",
+       "gu": "સારવાર"
+      },
+      {
+       "word": "treat",
+       "pos": "verb",
+       "gu": "સારવાર કરવી"
+      }
+     ],
+     "synonyms": [
+      "care",
+      "therapy"
+     ],
+     "opposites": [],
+     "collocations": [
+      "medical treatment",
+      "receive treatment"
+     ],
+     "ieltsTip": "A text may say \"care\" or \"therapy\" for \"treatment\"."
+    },
+    {
+     "word": "medicine",
+     "pos": "noun",
+     "pronGu": "મેડિસિન",
+     "meaningGu": "દવા",
+     "meaningEn": "something you take to get better",
+     "example": "Take this medicine after food.",
+     "exampleGu": "આ દવા જમ્યા પછી લો.",
+     "family": [
+      {
+       "word": "medicine",
+       "pos": "noun",
+       "gu": "દવા"
+      },
+      {
+       "word": "medical",
+       "pos": "adjective",
+       "gu": "તબીબી"
+      },
+      {
+       "word": "medication",
+       "pos": "noun",
+       "gu": "દવા"
+      }
+     ],
+     "synonyms": [
+      "drug",
+      "tablet"
+     ],
+     "opposites": [],
+     "collocations": [
+      "take medicine",
+      "modern medicine"
+     ],
+     "ieltsTip": "A question may say \"drugs\" or \"medication\" for \"medicine\"."
+    },
+    {
+     "word": "prevent",
+     "pos": "verb",
+     "pronGu": "પ્રિવેન્ટ",
+     "meaningGu": "અટકાવવું",
+     "meaningEn": "to stop something before it happens",
+     "example": "Washing hands helps prevent disease.",
+     "exampleGu": "હાથ ધોવાથી રોગ અટકાવવામાં મદદ મળે છે.",
+     "family": [
+      {
+       "word": "prevent",
+       "pos": "verb",
+       "gu": "અટકાવવું"
+      },
+      {
+       "word": "prevention",
+       "pos": "noun",
+       "gu": "નિવારણ"
+      },
+      {
+       "word": "preventive",
+       "pos": "adjective",
+       "gu": "નિવારક"
+      }
+     ],
+     "synonyms": [
+      "stop",
+      "avoid"
+     ],
+     "opposites": [
+      "cause"
+     ],
+     "collocations": [
+      "prevent disease",
+      "help prevent"
+     ],
+     "ieltsTip": "A question may say \"stop\" or \"avoid\" for \"prevent\"."
+    },
+    {
+     "word": "injury",
+     "pos": "noun",
+     "pronGu": "ઇન્જરી",
+     "meaningGu": "ઈજા",
+     "meaningEn": "harm to the body, often from an accident",
+     "example": "He has a leg injury.",
+     "exampleGu": "તેને પગમાં ઈજા થઈ છે.",
+     "family": [
+      {
+       "word": "injury",
+       "pos": "noun",
+       "gu": "ઈજા"
+      },
+      {
+       "word": "injure",
+       "pos": "verb",
+       "gu": "ઈજા પહોંચાડવી"
+      },
+      {
+       "word": "injured",
+       "pos": "adjective",
+       "gu": "ઘાયલ"
+      }
+     ],
+     "synonyms": [
+      "wound",
+      "hurt"
+     ],
+     "opposites": [],
+     "collocations": [
+      "serious injury",
+      "sports injury"
+     ],
+     "ieltsTip": "A text may say \"being hurt\" or \"wound\" for \"injury\"."
+    },
+    {
+     "word": "mental",
+     "pos": "adjective",
+     "pronGu": "મેન્ટલ",
+     "meaningGu": "માનસિક",
+     "meaningEn": "about the mind",
+     "example": "Mental health is as important as physical health.",
+     "exampleGu": "માનસિક આરોગ્ય શારીરિક આરોગ્ય જેટલું જ મહત્ત્વનું છે.",
+     "family": [
+      {
+       "word": "mental",
+       "pos": "adjective",
+       "gu": "માનસિક"
+      },
+      {
+       "word": "mentally",
+       "pos": "adverb",
+       "gu": "માનસિક રીતે"
+      },
+      {
+       "word": "mentality",
+       "pos": "noun",
+       "gu": "માનસિકતા"
+      }
+     ],
+     "synonyms": [
+      "psychological"
+     ],
+     "opposites": [
+      "physical"
+     ],
+     "collocations": [
+      "mental health",
+      "mental pressure"
+     ],
+     "ieltsTip": "A question may say \"psychological\" or \"of the mind\" for \"mental\"."
+    },
+    {
+     "word": "stress",
+     "pos": "noun",
+     "pronGu": "સ્ટ્રેસ",
+     "meaningGu": "તણાવ",
+     "meaningEn": "worry caused by problems or too much work",
+     "example": "Exams cause a lot of stress.",
+     "exampleGu": "પરીક્ષાઓ ઘણો તણાવ ઊભો કરે છે.",
+     "family": [
+      {
+       "word": "stress",
+       "pos": "noun",
+       "gu": "તણાવ"
+      },
+      {
+       "word": "stressful",
+       "pos": "adjective",
+       "gu": "તણાવભર્યું"
+      },
+      {
+       "word": "stressed",
+       "pos": "adjective",
+       "gu": "તણાવગ્રસ્ત"
+      }
+     ],
+     "synonyms": [
+      "pressure",
+      "tension"
+     ],
+     "opposites": [
+      "relaxation"
+     ],
+     "collocations": [
+      "reduce stress",
+      "under stress"
+     ],
+     "ieltsTip": "A text may say \"pressure\" or \"tension\" for \"stress\"."
+    },
+    {
+     "word": "nutrition",
+     "pos": "noun",
+     "pronGu": "ન્યૂટ્રિશન",
+     "meaningGu": "પોષણ",
+     "meaningEn": "getting the right food for good health",
+     "example": "Good nutrition helps children grow.",
+     "exampleGu": "સારું પોષણ બાળકોના વિકાસમાં મદદ કરે છે.",
+     "family": [
+      {
+       "word": "nutrition",
+       "pos": "noun",
+       "gu": "પોષણ"
+      },
+      {
+       "word": "nutritious",
+       "pos": "adjective",
+       "gu": "પૌષ્ટિક"
+      },
+      {
+       "word": "nutrient",
+       "pos": "noun",
+       "gu": "પોષક તત્ત્વ"
+      }
+     ],
+     "synonyms": [
+      "nourishment"
+     ],
+     "opposites": [
+      "malnutrition"
+     ],
+     "collocations": [
+      "good nutrition",
+      "poor nutrition"
+     ],
+     "ieltsTip": "A question may say \"healthy food\" or \"nourishment\" for \"nutrition\"."
+    },
+    {
+     "word": "recover",
+     "pos": "verb",
+     "pronGu": "રિકવર",
+     "meaningGu": "સાજા થવું",
+     "meaningEn": "to become healthy again",
+     "example": "She recovered quickly after the operation.",
+     "exampleGu": "ઑપરેશન પછી તે ઝડપથી સાજી થઈ ગઈ.",
+     "family": [
+      {
+       "word": "recover",
+       "pos": "verb",
+       "gu": "સાજા થવું"
+      },
+      {
+       "word": "recovery",
+       "pos": "noun",
+       "gu": "સાજા થવું"
+      }
+     ],
+     "synonyms": [
+      "get better",
+      "heal"
+     ],
+     "opposites": [
+      "get worse"
+     ],
+     "collocations": [
+      "recover from",
+      "fully recover"
+     ],
+     "ieltsTip": "A text may say \"get better\" or \"heal\" for \"recover\"."
+    },
+    {
+     "word": "patient",
+     "pos": "noun",
+     "pronGu": "પેશન્ટ",
+     "meaningGu": "દર્દી",
+     "meaningEn": "a person who gets medical care",
+     "example": "The doctor is checking a patient.",
+     "exampleGu": "ડૉક્ટર એક દર્દીને તપાસી રહ્યા છે.",
+     "family": [
+      {
+       "word": "patient",
+       "pos": "noun",
+       "gu": "દર્દી"
+      },
+      {
+       "word": "patient",
+       "pos": "adjective",
+       "gu": "ધીરજવાળું"
+      },
+      {
+       "word": "patience",
+       "pos": "noun",
+       "gu": "ધીરજ"
+      }
+     ],
+     "synonyms": [],
+     "opposites": [],
+     "collocations": [
+      "hospital patient",
+      "treat a patient"
+     ],
+     "ieltsTip": "A recording may say \"the sick person\" for \"patient\"."
+    },
+    {
+     "word": "infection",
+     "pos": "noun",
+     "pronGu": "ઇન્ફેક્શન",
+     "meaningGu": "ચેપ",
+     "meaningEn": "an illness caused by germs",
+     "example": "Clean water reduces the risk of infection.",
+     "exampleGu": "ચોખ્ખું પાણી ચેપનું જોખમ ઘટાડે છે.",
+     "family": [
+      {
+       "word": "infection",
+       "pos": "noun",
+       "gu": "ચેપ"
+      },
+      {
+       "word": "infect",
+       "pos": "verb",
+       "gu": "ચેપ લગાડવો"
+      },
+      {
+       "word": "infectious",
+       "pos": "adjective",
+       "gu": "ચેપી"
+      }
+     ],
+     "synonyms": [
+      "disease"
+     ],
+     "opposites": [],
+     "collocations": [
+      "risk of infection",
+      "eye infection"
+     ],
+     "ieltsTip": "A passage may say \"catching a disease\" or \"germs\" when it talks about \"infection\"."
+    },
+    {
+     "word": "hospital",
+     "pos": "noun",
+     "pronGu": "હૉસ્પિટલ",
+     "meaningGu": "દવાખાનું, હોસ્પિટલ",
+     "meaningEn": "a building where sick people get treatment",
+     "example": "My uncle is in hospital.",
+     "exampleGu": "મારા કાકા હોસ્પિટલમાં દાખલ છે.",
+     "family": [
+      {
+       "word": "hospital",
+       "pos": "noun",
+       "gu": "હોસ્પિટલ"
+      },
+      {
+       "word": "hospitalise",
+       "pos": "verb",
+       "gu": "હોસ્પિટલમાં દાખલ કરવું"
+      }
+     ],
+     "synonyms": [
+      "clinic"
+     ],
+     "opposites": [],
+     "collocations": [
+      "go to hospital",
+      "in hospital"
+     ],
+     "ieltsTip": "A question may say \"medical centre\" or \"clinic\" for \"hospital\"."
+    },
+    {
+     "word": "fitness",
+     "pos": "noun",
+     "pronGu": "ફિટનેસ",
+     "meaningGu": "શારીરિક તંદુરસ્તી",
+     "meaningEn": "being healthy and strong",
+     "example": "Yoga improves fitness.",
+     "exampleGu": "યોગ શારીરિક તંદુરસ્તી સુધારે છે.",
+     "family": [
+      {
+       "word": "fitness",
+       "pos": "noun",
+       "gu": "તંદુરસ્તી"
+      },
+      {
+       "word": "fit",
+       "pos": "adjective",
+       "gu": "તંદુરસ્ત"
+      }
+     ],
+     "synonyms": [
+      "health",
+      "strength"
+     ],
+     "opposites": [],
+     "collocations": [
+      "physical fitness",
+      "fitness centre"
+     ],
+     "ieltsTip": "A text may say \"being in good shape\" for \"fitness\"."
+    },
+    {
+     "word": "harmful",
+     "pos": "adjective",
+     "pronGu": "હાર્મફુલ",
+     "meaningGu": "નુકસાનકારક",
+     "meaningEn": "causing damage or injury",
+     "example": "Junk food is harmful to health.",
+     "exampleGu": "જંક ફૂડ આરોગ્ય માટે નુકસાનકારક છે.",
+     "family": [
+      {
+       "word": "harmful",
+       "pos": "adjective",
+       "gu": "નુકસાનકારક"
+      },
+      {
+       "word": "harm",
+       "pos": "noun",
+       "gu": "નુકસાન"
+      },
+      {
+       "word": "harm",
+       "pos": "verb",
+       "gu": "નુકસાન કરવું"
+      },
+      {
+       "word": "harmless",
+       "pos": "adjective",
+       "gu": "હાનિરહિત"
+      }
+     ],
+     "synonyms": [
+      "damaging",
+      "dangerous"
+     ],
+     "opposites": [
+      "harmless",
+      "safe"
+     ],
+     "collocations": [
+      "harmful effects",
+      "harmful to health"
+     ],
+     "ieltsTip": "A question may say \"bad for\" or \"damaging\" for \"harmful\"."
+    },
+    {
+     "word": "cure",
+     "pos": "noun",
+     "pronGu": "ક્યોર",
+     "meaningGu": "ઇલાજ",
+     "meaningEn": "a medicine or treatment that ends an illness",
+     "example": "There is no cure for the common cold.",
+     "exampleGu": "સામાન્ય શરદીનો કોઈ ઇલાજ નથી.",
+     "family": [
+      {
+       "word": "cure",
+       "pos": "noun",
+       "gu": "ઇલાજ"
+      },
+      {
+       "word": "cure",
+       "pos": "verb",
+       "gu": "મટાડવું"
+      },
+      {
+       "word": "curable",
+       "pos": "adjective",
+       "gu": "મટી શકે તેવું"
+      }
+     ],
+     "synonyms": [
+      "remedy",
+      "treatment"
+     ],
+     "opposites": [],
+     "collocations": [
+      "find a cure",
+      "no cure"
+     ],
+     "ieltsTip": "A text may say \"remedy\" or \"treatment\" for \"cure\"."
+    }
+   ]
+  },
+  {
+   "id": "P09",
+   "order": 9,
+   "title": "Technology",
+   "titleGu": "ટેક્નોલોજી",
+   "ielts": true,
+   "minLevel": 3,
+   "words": [
+    {
+     "word": "technology",
+     "pos": "noun",
+     "pronGu": "ટેક્નોલૉજી",
+     "meaningGu": "ટેક્નોલોજી, પ્રૌદ્યોગિકી",
+     "meaningEn": "scientific knowledge used to make machines and tools",
+     "example": "Technology has changed our lives.",
+     "exampleGu": "ટેક્નોલોજીએ આપણું જીવન બદલી નાખ્યું છે.",
+     "family": [
+      {
+       "word": "technology",
+       "pos": "noun",
+       "gu": "ટેક્નોલોજી"
+      },
+      {
+       "word": "technological",
+       "pos": "adjective",
+       "gu": "તકનીકી"
+      },
+      {
+       "word": "technical",
+       "pos": "adjective",
+       "gu": "ટેક્નિકલ"
+      }
+     ],
+     "synonyms": [
+      "tech"
+     ],
+     "opposites": [],
+     "collocations": [
+      "modern technology",
+      "new technology"
+     ],
+     "ieltsTip": "A text may say \"modern tools\" or \"tech\" for \"technology\"."
+    },
+    {
+     "word": "device",
+     "pos": "noun",
+     "pronGu": "ડિવાઇસ",
+     "meaningGu": "ઉપકરણ, સાધન",
+     "meaningEn": "a small machine like a phone or tablet",
+     "example": "Children use many devices today.",
+     "exampleGu": "આજે બાળકો ઘણાં ઉપકરણો વાપરે છે.",
+     "family": [
+      {
+       "word": "device",
+       "pos": "noun",
+       "gu": "ઉપકરણ"
+      }
+     ],
+     "synonyms": [
+      "gadget",
+      "tool",
+      "machine"
+     ],
+     "opposites": [],
+     "collocations": [
+      "electronic device",
+      "mobile device"
+     ],
+     "ieltsTip": "A question may say \"gadget\" for \"device\"."
+    },
+    {
+     "word": "internet",
+     "pos": "noun",
+     "pronGu": "ઇન્ટરનેટ",
+     "meaningGu": "ઇન્ટરનેટ",
+     "meaningEn": "the worldwide computer network",
+     "example": "I use the internet to study.",
+     "exampleGu": "હું અભ્યાસ માટે ઇન્ટરનેટનો ઉપયોગ કરું છું.",
+     "family": [
+      {
+       "word": "internet",
+       "pos": "noun",
+       "gu": "ઇન્ટરનેટ"
+      }
+     ],
+     "synonyms": [
+      "the web"
+     ],
+     "opposites": [],
+     "collocations": [
+      "use the internet",
+      "internet access"
+     ],
+     "ieltsTip": "A text may say \"the web\" or \"online\" for \"the internet\"."
+    },
+    {
+     "word": "software",
+     "pos": "noun",
+     "pronGu": "સૉફ્ટવેર",
+     "meaningGu": "સૉફ્ટવેર",
+     "meaningEn": "programs that run on a computer",
+     "example": "This software is easy to use.",
+     "exampleGu": "આ સૉફ્ટવેર વાપરવું સહેલું છે.",
+     "family": [
+      {
+       "word": "software",
+       "pos": "noun",
+       "gu": "સૉફ્ટવેર"
+      }
+     ],
+     "synonyms": [
+      "program",
+      "app"
+     ],
+     "opposites": [
+      "hardware"
+     ],
+     "collocations": [
+      "install software",
+      "software engineer"
+     ],
+     "ieltsTip": "A question may say \"program\" or \"app\" for \"software\"."
+    },
+    {
+     "word": "digital",
+     "pos": "adjective",
+     "pronGu": "ડિજિટલ",
+     "meaningGu": "ડિજિટલ, અંકીય",
+     "meaningEn": "using computers and electronic data",
+     "example": "Many people now use digital payments like UPI.",
+     "exampleGu": "હવે ઘણા લોકો UPI જેવી ડિજિટલ ચુકવણી વાપરે છે.",
+     "family": [
+      {
+       "word": "digital",
+       "pos": "adjective",
+       "gu": "ડિજિટલ"
+      },
+      {
+       "word": "digitally",
+       "pos": "adverb",
+       "gu": "ડિજિટલ રીતે"
+      },
+      {
+       "word": "digitise",
+       "pos": "verb",
+       "gu": "ડિજિટલ સ્વરૂપમાં ફેરવવું"
+      }
+     ],
+     "synonyms": [
+      "electronic",
+      "online"
+     ],
+     "opposites": [
+      "paper-based"
+     ],
+     "collocations": [
+      "digital payment",
+      "digital world"
+     ],
+     "ieltsTip": "A text may say \"electronic\" or \"online\" for \"digital\"."
+    },
+    {
+     "word": "innovation",
+     "pos": "noun",
+     "pronGu": "ઇનોવેશન",
+     "meaningGu": "નવીનતા, નવી શોધ",
+     "meaningEn": "a new idea, method or product",
+     "example": "Smartphones are a great innovation.",
+     "exampleGu": "સ્માર્ટફોન એક મહાન નવીનતા છે.",
+     "family": [
+      {
+       "word": "innovation",
+       "pos": "noun",
+       "gu": "નવીનતા"
+      },
+      {
+       "word": "innovate",
+       "pos": "verb",
+       "gu": "નવું સર્જન કરવું"
+      },
+      {
+       "word": "innovative",
+       "pos": "adjective",
+       "gu": "નવીન"
+      }
+     ],
+     "synonyms": [
+      "new idea",
+      "invention"
+     ],
+     "opposites": [],
+     "collocations": [
+      "technological innovation",
+      "encourage innovation"
+     ],
+     "ieltsTip": "A question may say \"new ideas\" or \"invention\" for \"innovation\"."
+    },
+    {
+     "word": "invent",
+     "pos": "verb",
+     "pronGu": "ઇન્વેન્ટ",
+     "meaningGu": "શોધ કરવી",
+     "meaningEn": "to make something new for the first time",
+     "example": "Who invented the telephone?",
+     "exampleGu": "ટેલિફોનની શોધ કોણે કરી?",
+     "family": [
+      {
+       "word": "invent",
+       "pos": "verb",
+       "gu": "શોધ કરવી"
+      },
+      {
+       "word": "invention",
+       "pos": "noun",
+       "gu": "શોધ"
+      },
+      {
+       "word": "inventor",
+       "pos": "noun",
+       "gu": "શોધક"
+      }
+     ],
+     "synonyms": [
+      "create",
+      "design"
+     ],
+     "opposites": [],
+     "collocations": [
+      "invent a machine",
+      "newly invented"
+     ],
+     "ieltsTip": "A text may say \"create\" or \"come up with\" for \"invent\"."
+    },
+    {
+     "word": "artificial",
+     "pos": "adjective",
+     "pronGu": "આર્ટિફિશિયલ",
+     "meaningGu": "કૃત્રિમ",
+     "meaningEn": "made by people, not natural",
+     "example": "Artificial intelligence is growing fast.",
+     "exampleGu": "કૃત્રિમ બુદ્ધિ ઝડપથી વિકસી રહી છે.",
+     "family": [
+      {
+       "word": "artificial",
+       "pos": "adjective",
+       "gu": "કૃત્રિમ"
+      },
+      {
+       "word": "artificially",
+       "pos": "adverb",
+       "gu": "કૃત્રિમ રીતે"
+      }
+     ],
+     "synonyms": [
+      "man-made",
+      "fake"
+     ],
+     "opposites": [
+      "natural",
+      "real"
+     ],
+     "collocations": [
+      "artificial intelligence",
+      "artificial light"
+     ],
+     "ieltsTip": "A question may say \"man-made\" for \"artificial\", or \"AI\" for \"artificial intelligence\"."
+    },
+    {
+     "word": "data",
+     "pos": "noun",
+     "pronGu": "ડેટા",
+     "meaningGu": "માહિતી, ડેટા",
+     "meaningEn": "facts and numbers stored or used by computers",
+     "example": "Companies collect data about their customers.",
+     "exampleGu": "કંપનીઓ તેમના ગ્રાહકો વિશે માહિતી એકઠી કરે છે.",
+     "family": [
+      {
+       "word": "data",
+       "pos": "noun",
+       "gu": "માહિતી"
+      },
+      {
+       "word": "database",
+       "pos": "noun",
+       "gu": "માહિતીસંગ્રહ"
+      }
+     ],
+     "synonyms": [
+      "information",
+      "facts"
+     ],
+     "opposites": [],
+     "collocations": [
+      "collect data",
+      "personal data"
+     ],
+     "ieltsTip": "A text may say \"information\" or \"figures\" for \"data\"."
+    },
+    {
+     "word": "online",
+     "pos": "adverb",
+     "pronGu": "ઑનલાઇન",
+     "meaningGu": "ઓનલાઇન",
+     "meaningEn": "connected to or using the internet",
+     "example": "I pay my bills online.",
+     "exampleGu": "હું મારાં બિલ ઓનલાઇન ભરું છું.",
+     "family": [
+      {
+       "word": "online",
+       "pos": "adverb",
+       "gu": "ઓનલાઇન"
+      },
+      {
+       "word": "online",
+       "pos": "adjective",
+       "gu": "ઓનલાઇન"
+      }
+     ],
+     "synonyms": [
+      "on the internet"
+     ],
+     "opposites": [
+      "offline"
+     ],
+     "collocations": [
+      "shop online",
+      "online classes"
+     ],
+     "ieltsTip": "A question may say \"on the internet\" or \"virtual\" for \"online\"."
+    },
+    {
+     "word": "network",
+     "pos": "noun",
+     "pronGu": "નેટવર્ક",
+     "meaningGu": "નેટવર્ક, જાળું",
+     "meaningEn": "a group of connected computers, phones or people",
+     "example": "The mobile network is weak here.",
+     "exampleGu": "અહીં મોબાઇલ નેટવર્ક નબળું છે.",
+     "family": [
+      {
+       "word": "network",
+       "pos": "noun",
+       "gu": "નેટવર્ક"
+      },
+      {
+       "word": "network",
+       "pos": "verb",
+       "gu": "સંપર્કો બનાવવા"
+      },
+      {
+       "word": "networking",
+       "pos": "noun",
+       "gu": "સંપર્કો બનાવવાનું કામ"
+      }
+     ],
+     "synonyms": [
+      "system",
+      "connection"
+     ],
+     "opposites": [],
+     "collocations": [
+      "mobile network",
+      "social network"
+     ],
+     "ieltsTip": "A text may say \"system\" or \"connections\" for \"network\"."
+    },
+    {
+     "word": "communicate",
+     "pos": "verb",
+     "pronGu": "કમ્યુનિકેટ",
+     "meaningGu": "વાતચીત કરવી, સંપર્ક કરવો",
+     "meaningEn": "to share information or ideas with others",
+     "example": "We communicate with friends by phone.",
+     "exampleGu": "અમે ફોન દ્વારા મિત્રો સાથે વાતચીત કરીએ છીએ.",
+     "family": [
+      {
+       "word": "communicate",
+       "pos": "verb",
+       "gu": "વાતચીત કરવી"
+      },
+      {
+       "word": "communication",
+       "pos": "noun",
+       "gu": "સંદેશવ્યવહાર"
+      },
+      {
+       "word": "communicative",
+       "pos": "adjective",
+       "gu": "વાતચીતમાં કુશળ"
+      }
+     ],
+     "synonyms": [
+      "talk",
+      "contact"
+     ],
+     "opposites": [],
+     "collocations": [
+      "communicate with",
+      "communicate clearly"
+     ],
+     "ieltsTip": "A question may say \"keep in touch\" or \"contact\" for \"communicate\"."
+    },
+    {
+     "word": "screen",
+     "pos": "noun",
+     "pronGu": "સ્ક્રીન",
+     "meaningGu": "સ્ક્રીન, પડદો",
+     "meaningEn": "the flat part of a TV, phone or computer that shows pictures",
+     "example": "Children spend too much time in front of a screen.",
+     "exampleGu": "બાળકો સ્ક્રીન સામે ખૂબ વધારે સમય વિતાવે છે.",
+     "family": [
+      {
+       "word": "screen",
+       "pos": "noun",
+       "gu": "સ્ક્રીન"
+      }
+     ],
+     "synonyms": [
+      "display"
+     ],
+     "opposites": [],
+     "collocations": [
+      "screen time",
+      "phone screen"
+     ],
+     "ieltsTip": "A text may say \"time on devices\" for \"screen time\"."
+    },
+    {
+     "word": "download",
+     "pos": "verb",
+     "pronGu": "ડાઉનલોડ",
+     "meaningGu": "ડાઉનલોડ કરવું",
+     "meaningEn": "to copy files from the internet to your device",
+     "example": "I downloaded the app yesterday.",
+     "exampleGu": "મેં ગઈકાલે એપ ડાઉનલોડ કરી.",
+     "family": [
+      {
+       "word": "download",
+       "pos": "verb",
+       "gu": "ડાઉનલોડ કરવું"
+      },
+      {
+       "word": "download",
+       "pos": "noun",
+       "gu": "ડાઉનલોડ"
+      },
+      {
+       "word": "downloadable",
+       "pos": "adjective",
+       "gu": "ડાઉનલોડ થઈ શકે તેવું"
+      }
+     ],
+     "synonyms": [
+      "get",
+      "save"
+     ],
+     "opposites": [
+      "upload"
+     ],
+     "collocations": [
+      "download an app",
+      "free download"
+     ],
+     "ieltsTip": "A question may say \"save from the internet\" for \"download\"."
+    },
+    {
+     "word": "automatic",
+     "pos": "adjective",
+     "pronGu": "ઑટોમેટિક",
+     "meaningGu": "સ્વયંસંચાલિત",
+     "meaningEn": "working by itself without people",
+     "example": "The doors are automatic.",
+     "exampleGu": "દરવાજા સ્વયંસંચાલિત છે.",
+     "family": [
+      {
+       "word": "automatic",
+       "pos": "adjective",
+       "gu": "સ્વયંસંચાલિત"
+      },
+      {
+       "word": "automatically",
+       "pos": "adverb",
+       "gu": "આપમેળે"
+      },
+      {
+       "word": "automation",
+       "pos": "noun",
+       "gu": "સ્વયંસંચાલન"
+      }
+     ],
+     "synonyms": [
+      "self-operating"
+     ],
+     "opposites": [
+      "manual"
+     ],
+     "collocations": [
+      "automatic machine",
+      "fully automatic"
+     ],
+     "ieltsTip": "A text may say \"done by machines\" or \"without human help\" for \"automatic\"."
+    },
+    {
+     "word": "robot",
+     "pos": "noun",
+     "pronGu": "રોબોટ",
+     "meaningGu": "યંત્રમાનવ, રોબોટ",
+     "meaningEn": "a machine that can do work like a person",
+     "example": "Robots work in many car factories.",
+     "exampleGu": "ઘણાં કાર કારખાનાંમાં રોબોટ કામ કરે છે.",
+     "family": [
+      {
+       "word": "robot",
+       "pos": "noun",
+       "gu": "રોબોટ"
+      },
+      {
+       "word": "robotic",
+       "pos": "adjective",
+       "gu": "રોબોટ જેવું"
+      },
+      {
+       "word": "robotics",
+       "pos": "noun",
+       "gu": "રોબોટ વિજ્ઞાન"
+      }
+     ],
+     "synonyms": [
+      "machine"
+     ],
+     "opposites": [],
+     "collocations": [
+      "industrial robot",
+      "use robots"
+     ],
+     "ieltsTip": "A question may say \"machines\" or \"automation\" for \"robots\"."
+    },
+    {
+     "word": "virtual",
+     "pos": "adjective",
+     "pronGu": "વર્ચ્યુઅલ",
+     "meaningGu": "આભાસી, વર્ચ્યુઅલ",
+     "meaningEn": "existing on a computer, not in the real world",
+     "example": "We had a virtual meeting yesterday.",
+     "exampleGu": "અમે ગઈકાલે વર્ચ્યુઅલ મીટિંગ કરી.",
+     "family": [
+      {
+       "word": "virtual",
+       "pos": "adjective",
+       "gu": "આભાસી"
+      },
+      {
+       "word": "virtually",
+       "pos": "adverb",
+       "gu": "લગભગ"
+      }
+     ],
+     "synonyms": [
+      "online",
+      "digital"
+     ],
+     "opposites": [
+      "real",
+      "physical"
+     ],
+     "collocations": [
+      "virtual reality",
+      "virtual class"
+     ],
+     "ieltsTip": "A text may say \"online\" for \"virtual\", as in \"online lessons\"."
+    },
+    {
+     "word": "secure",
+     "pos": "adjective",
+     "pronGu": "સિક્યોર",
+     "meaningGu": "સુરક્ષિત",
+     "meaningEn": "safe from danger or attack",
+     "example": "Keep your password secure.",
+     "exampleGu": "તમારો પાસવર્ડ સુરક્ષિત રાખો.",
+     "family": [
+      {
+       "word": "secure",
+       "pos": "adjective",
+       "gu": "સુરક્ષિત"
+      },
+      {
+       "word": "security",
+       "pos": "noun",
+       "gu": "સુરક્ષા"
+      },
+      {
+       "word": "securely",
+       "pos": "adverb",
+       "gu": "સુરક્ષિત રીતે"
+      }
+     ],
+     "synonyms": [
+      "safe",
+      "protected"
+     ],
+     "opposites": [
+      "unsafe",
+      "risky"
+     ],
+     "collocations": [
+      "secure password",
+      "feel secure"
+     ],
+     "ieltsTip": "A question may say \"safe\" or \"protected\" for \"secure\"."
+    },
+    {
+     "word": "upgrade",
+     "pos": "verb",
+     "pronGu": "અપગ્રેડ",
+     "meaningGu": "સુધારીને નવું કરવું",
+     "meaningEn": "to make a machine or system newer and better",
+     "example": "I need to upgrade my phone.",
+     "exampleGu": "મારે મારો ફોન અપગ્રેડ કરવો છે.",
+     "family": [
+      {
+       "word": "upgrade",
+       "pos": "verb",
+       "gu": "અપગ્રેડ કરવું"
+      },
+      {
+       "word": "upgrade",
+       "pos": "noun",
+       "gu": "સુધારો"
+      }
+     ],
+     "synonyms": [
+      "update",
+      "improve"
+     ],
+     "opposites": [
+      "downgrade"
+     ],
+     "collocations": [
+      "upgrade software",
+      "system upgrade"
+     ],
+     "ieltsTip": "A text may say \"update\" or \"improve\" for \"upgrade\"."
+    },
+    {
+     "word": "replace",
+     "pos": "verb",
+     "pronGu": "રિપ્લેસ",
+     "meaningGu": "ની જગ્યા લેવી, બદલવું",
+     "meaningEn": "to take the place of something",
+     "example": "Will computers replace teachers?",
+     "exampleGu": "શું કમ્પ્યુટર શિક્ષકોનું સ્થાન લઈ લેશે?",
+     "family": [
+      {
+       "word": "replace",
+       "pos": "verb",
+       "gu": "સ્થાન લેવું"
+      },
+      {
+       "word": "replacement",
+       "pos": "noun",
+       "gu": "અવેજી"
+      }
+     ],
+     "synonyms": [
+      "substitute",
+      "take the place of"
+     ],
+     "opposites": [],
+     "collocations": [
+      "replace workers",
+      "replace old parts"
+     ],
+     "ieltsTip": "A question may say \"take the place of\" or \"substitute\" for \"replace\"."
+    }
+   ]
+  },
+  {
+   "id": "P10",
+   "order": 10,
+   "title": "Academic words",
+   "titleGu": "શૈક્ષણિક શબ્દો",
+   "ielts": true,
+   "minLevel": 4,
+   "words": [
+    {
+     "word": "analyse",
+     "pos": "verb",
+     "pronGu": "એનાલાઇઝ",
+     "meaningGu": "વિશ્લેષણ કરવું",
+     "meaningEn": "to study something in detail",
+     "example": "Scientists analyse the data carefully.",
+     "exampleGu": "વૈજ્ઞાનિકો માહિતીનું કાળજીપૂર્વક વિશ્લેષણ કરે છે.",
+     "family": [
+      {
+       "word": "analyse",
+       "pos": "verb",
+       "gu": "વિશ્લેષણ કરવું"
+      },
+      {
+       "word": "analysis",
+       "pos": "noun",
+       "gu": "વિશ્લેષણ"
+      },
+      {
+       "word": "analyst",
+       "pos": "noun",
+       "gu": "વિશ્લેષક"
+      },
+      {
+       "word": "analytical",
+       "pos": "adjective",
+       "gu": "વિશ્લેષણાત્મક"
+      }
+     ],
+     "synonyms": [
+      "examine",
+      "study"
+     ],
+     "opposites": [],
+     "collocations": [
+      "analyse data",
+      "analyse results"
+     ],
+     "ieltsTip": "A question may say \"examine\" or \"study closely\" for \"analyse\"."
+    },
+    {
+     "word": "significant",
+     "pos": "adjective",
+     "pronGu": "સિગ્નિફિકન્ટ",
+     "meaningGu": "નોંધપાત્ર, મહત્ત્વપૂર્ણ",
+     "meaningEn": "large or important enough to notice",
+     "example": "There was a significant increase in prices.",
+     "exampleGu": "ભાવમાં નોંધપાત્ર વધારો થયો.",
+     "family": [
+      {
+       "word": "significant",
+       "pos": "adjective",
+       "gu": "નોંધપાત્ર"
+      },
+      {
+       "word": "significance",
+       "pos": "noun",
+       "gu": "મહત્ત્વ"
+      },
+      {
+       "word": "significantly",
+       "pos": "adverb",
+       "gu": "નોંધપાત્ર રીતે"
+      }
+     ],
+     "synonyms": [
+      "important",
+      "considerable",
+      "major"
+     ],
+     "opposites": [
+      "minor",
+      "insignificant"
+     ],
+     "collocations": [
+      "significant change",
+      "significant role"
+     ],
+     "ieltsTip": "A question may say \"considerable\" or \"major\" for \"significant\"."
+    },
+    {
+     "word": "evidence",
+     "pos": "noun",
+     "pronGu": "એવિડન્સ",
+     "meaningGu": "પુરાવો",
+     "meaningEn": "facts that show something is true",
+     "example": "There is clear evidence that smoking causes cancer.",
+     "exampleGu": "ધૂમ્રપાનથી કેન્સર થાય છે તેનો સ્પષ્ટ પુરાવો છે.",
+     "family": [
+      {
+       "word": "evidence",
+       "pos": "noun",
+       "gu": "પુરાવો"
+      },
+      {
+       "word": "evident",
+       "pos": "adjective",
+       "gu": "સ્પષ્ટ"
+      },
+      {
+       "word": "evidently",
+       "pos": "adverb",
+       "gu": "દેખીતી રીતે"
+      }
+     ],
+     "synonyms": [
+      "proof"
+     ],
+     "opposites": [],
+     "collocations": [
+      "strong evidence",
+      "scientific evidence"
+     ],
+     "ieltsTip": "A question may say \"proof\" or \"data shows\" for \"evidence\"."
+    },
+    {
+     "word": "approach",
+     "pos": "noun",
+     "pronGu": "અપ્રોચ",
+     "meaningGu": "અભિગમ",
+     "meaningEn": "a way of dealing with something",
+     "example": "We need a new approach to this problem.",
+     "exampleGu": "આ સમસ્યા માટે આપણને નવા અભિગમની જરૂર છે.",
+     "family": [
+      {
+       "word": "approach",
+       "pos": "noun",
+       "gu": "અભિગમ"
+      },
+      {
+       "word": "approach",
+       "pos": "verb",
+       "gu": "નજીક જવું"
+      },
+      {
+       "word": "approachable",
+       "pos": "adjective",
+       "gu": "સહેલાઈથી મળી શકાય તેવું"
+      }
+     ],
+     "synonyms": [
+      "method",
+      "way"
+     ],
+     "opposites": [],
+     "collocations": [
+      "new approach",
+      "different approach"
+     ],
+     "ieltsTip": "A text may say \"method\" or \"way of doing\" for \"approach\"."
+    },
+    {
+     "word": "factor",
+     "pos": "noun",
+     "pronGu": "ફૅક્ટર",
+     "meaningGu": "પરિબળ",
+     "meaningEn": "one of the things that cause a result",
+     "example": "Cost is an important factor.",
+     "exampleGu": "ખર્ચ એક મહત્ત્વનું પરિબળ છે.",
+     "family": [
+      {
+       "word": "factor",
+       "pos": "noun",
+       "gu": "પરિબળ"
+      }
+     ],
+     "synonyms": [
+      "cause",
+      "element",
+      "reason"
+     ],
+     "opposites": [],
+     "collocations": [
+      "key factor",
+      "main factor"
+     ],
+     "ieltsTip": "A question may say \"reason\" or \"element\" for \"factor\"."
+    },
+    {
+     "word": "research",
+     "pos": "noun",
+     "pronGu": "રિસર્ચ",
+     "meaningGu": "સંશોધન",
+     "meaningEn": "careful study to find new facts",
+     "example": "Research shows that sleep improves memory.",
+     "exampleGu": "સંશોધન બતાવે છે કે ઊંઘ યાદશક્તિ સુધારે છે.",
+     "family": [
+      {
+       "word": "research",
+       "pos": "noun",
+       "gu": "સંશોધન"
+      },
+      {
+       "word": "research",
+       "pos": "verb",
+       "gu": "સંશોધન કરવું"
+      },
+      {
+       "word": "researcher",
+       "pos": "noun",
+       "gu": "સંશોધક"
+      }
+     ],
+     "synonyms": [
+      "study",
+      "investigation"
+     ],
+     "opposites": [],
+     "collocations": [
+      "carry out research",
+      "research shows"
+     ],
+     "ieltsTip": "A text may say \"studies\" or \"scientists found\" for \"research\"."
+    },
+    {
+     "word": "establish",
+     "pos": "verb",
+     "pronGu": "એસ્ટાબ્લિશ",
+     "meaningGu": "સ્થાપવું",
+     "meaningEn": "to start something that will last; to prove",
+     "example": "The company was established in 1990.",
+     "exampleGu": "કંપનીની સ્થાપના ૧૯૯૦માં થઈ હતી.",
+     "family": [
+      {
+       "word": "establish",
+       "pos": "verb",
+       "gu": "સ્થાપવું"
+      },
+      {
+       "word": "establishment",
+       "pos": "noun",
+       "gu": "સ્થાપના"
+      },
+      {
+       "word": "established",
+       "pos": "adjective",
+       "gu": "સ્થાપિત"
+      }
+     ],
+     "synonyms": [
+      "set up",
+      "found",
+      "start"
+     ],
+     "opposites": [
+      "close"
+     ],
+     "collocations": [
+      "establish a company",
+      "well established"
+     ],
+     "ieltsTip": "A question may say \"set up\" or \"found\" for \"establish\"."
+    },
+    {
+     "word": "indicate",
+     "pos": "verb",
+     "pronGu": "ઇન્ડિકેટ",
+     "meaningGu": "સૂચવવું, દર્શાવવું",
+     "meaningEn": "to show or point to something",
+     "example": "The results indicate a clear trend.",
+     "exampleGu": "પરિણામો એક સ્પષ્ટ વલણ દર્શાવે છે.",
+     "family": [
+      {
+       "word": "indicate",
+       "pos": "verb",
+       "gu": "સૂચવવું"
+      },
+      {
+       "word": "indication",
+       "pos": "noun",
+       "gu": "સંકેત"
+      },
+      {
+       "word": "indicator",
+       "pos": "noun",
+       "gu": "સૂચક"
+      }
+     ],
+     "synonyms": [
+      "show",
+      "suggest",
+      "point to"
+     ],
+     "opposites": [],
+     "collocations": [
+      "results indicate",
+      "clearly indicate"
+     ],
+     "ieltsTip": "A question may say \"show\" or \"suggest\" for \"indicate\"."
+    },
+    {
+     "word": "require",
+     "pos": "verb",
+     "pronGu": "રિક્વાયર",
+     "meaningGu": "જરૂર હોવી",
+     "meaningEn": "to need something",
+     "example": "This job requires good English.",
+     "exampleGu": "આ નોકરી માટે સારું અંગ્રેજી જરૂરી છે.",
+     "family": [
+      {
+       "word": "require",
+       "pos": "verb",
+       "gu": "જરૂર હોવી"
+      },
+      {
+       "word": "requirement",
+       "pos": "noun",
+       "gu": "જરૂરિયાત"
+      },
+      {
+       "word": "required",
+       "pos": "adjective",
+       "gu": "જરૂરી"
+      }
+     ],
+     "synonyms": [
+      "need",
+      "demand"
+     ],
+     "opposites": [],
+     "collocations": [
+      "require help",
+      "be required to"
+     ],
+     "ieltsTip": "A question may say \"need\" or \"must have\" for \"require\"."
+    },
+    {
+     "word": "consequence",
+     "pos": "noun",
+     "pronGu": "કૉન્સિક્વન્સ",
+     "meaningGu": "પરિણામ",
+     "meaningEn": "a result of an action, often a bad one",
+     "example": "Pollution has serious consequences for health.",
+     "exampleGu": "પ્રદૂષણનાં આરોગ્ય પર ગંભીર પરિણામો આવે છે.",
+     "family": [
+      {
+       "word": "consequence",
+       "pos": "noun",
+       "gu": "પરિણામ"
+      },
+      {
+       "word": "consequently",
+       "pos": "adverb",
+       "gu": "પરિણામે"
+      }
+     ],
+     "synonyms": [
+      "result",
+      "effect"
+     ],
+     "opposites": [
+      "cause"
+     ],
+     "collocations": [
+      "serious consequences",
+      "as a consequence"
+     ],
+     "ieltsTip": "A question may say \"result\" or \"effect\" for \"consequence\"."
+    },
+    {
+     "word": "benefit",
+     "pos": "noun",
+     "pronGu": "બેનિફિટ",
+     "meaningGu": "ફાયદો, લાભ",
+     "meaningEn": "a good effect or advantage",
+     "example": "Exercise has many benefits.",
+     "exampleGu": "કસરતના ઘણા ફાયદા છે.",
+     "family": [
+      {
+       "word": "benefit",
+       "pos": "noun",
+       "gu": "ફાયદો"
+      },
+      {
+       "word": "benefit",
+       "pos": "verb",
+       "gu": "ફાયદો થવો"
+      },
+      {
+       "word": "beneficial",
+       "pos": "adjective",
+       "gu": "ફાયદાકારક"
+      }
+     ],
+     "synonyms": [
+      "advantage",
+      "gain"
+     ],
+     "opposites": [
+      "drawback",
+      "disadvantage"
+     ],
+     "collocations": [
+      "health benefits",
+      "benefit from"
+     ],
+     "ieltsTip": "A question may say \"advantage\" or \"positive effect\" for \"benefit\"."
+    },
+    {
+     "word": "concept",
+     "pos": "noun",
+     "pronGu": "કૉન્સેપ્ટ",
+     "meaningGu": "ખ્યાલ, વિભાવના",
+     "meaningEn": "an idea",
+     "example": "The concept of money is easy to understand.",
+     "exampleGu": "પૈસાનો ખ્યાલ સમજવો સહેલો છે.",
+     "family": [
+      {
+       "word": "concept",
+       "pos": "noun",
+       "gu": "ખ્યાલ"
+      },
+      {
+       "word": "conceptual",
+       "pos": "adjective",
+       "gu": "વૈચારિક"
+      }
+     ],
+     "synonyms": [
+      "idea",
+      "notion"
+     ],
+     "opposites": [],
+     "collocations": [
+      "basic concept",
+      "key concept"
+     ],
+     "ieltsTip": "A text may say \"idea\" or \"notion\" for \"concept\"."
+    },
+    {
+     "word": "method",
+     "pos": "noun",
+     "pronGu": "મેથડ",
+     "meaningGu": "પદ્ધતિ, રીત",
+     "meaningEn": "a way of doing something",
+     "example": "This is a simple method to learn new words.",
+     "exampleGu": "નવા શબ્દો શીખવાની આ એક સરળ પદ્ધતિ છે.",
+     "family": [
+      {
+       "word": "method",
+       "pos": "noun",
+       "gu": "પદ્ધતિ"
+      },
+      {
+       "word": "methodical",
+       "pos": "adjective",
+       "gu": "પદ્ધતિસરનું"
+      },
+      {
+       "word": "methodology",
+       "pos": "noun",
+       "gu": "કાર્યપદ્ધતિ"
+      }
+     ],
+     "synonyms": [
+      "way",
+      "technique"
+     ],
+     "opposites": [],
+     "collocations": [
+      "teaching method",
+      "new method"
+     ],
+     "ieltsTip": "A question may say \"technique\" or \"way\" for \"method\"."
+    },
+    {
+     "word": "assess",
+     "pos": "verb",
+     "pronGu": "અસેસ",
+     "meaningGu": "મૂલ્યાંકન કરવું",
+     "meaningEn": "to judge the quality or value of something",
+     "example": "Teachers assess students every term.",
+     "exampleGu": "શિક્ષકો દરેક સત્રમાં વિદ્યાર્થીઓનું મૂલ્યાંકન કરે છે.",
+     "family": [
+      {
+       "word": "assess",
+       "pos": "verb",
+       "gu": "મૂલ્યાંકન કરવું"
+      },
+      {
+       "word": "assessment",
+       "pos": "noun",
+       "gu": "મૂલ્યાંકન"
+      },
+      {
+       "word": "assessor",
+       "pos": "noun",
+       "gu": "મૂલ્યાંકનકર્તા"
+      }
+     ],
+     "synonyms": [
+      "evaluate",
+      "judge",
+      "measure"
+     ],
+     "opposites": [],
+     "collocations": [
+      "assess the risk",
+      "assess students"
+     ],
+     "ieltsTip": "A question may say \"evaluate\" or \"judge\" for \"assess\"."
+    },
+    {
+     "word": "contribute",
+     "pos": "verb",
+     "pronGu": "કન્ટ્રિબ્યૂટ",
+     "meaningGu": "ફાળો આપવો",
+     "meaningEn": "to help cause something or to give something",
+     "example": "Cars contribute to air pollution.",
+     "exampleGu": "કાર હવાના પ્રદૂષણમાં ફાળો આપે છે.",
+     "family": [
+      {
+       "word": "contribute",
+       "pos": "verb",
+       "gu": "ફાળો આપવો"
+      },
+      {
+       "word": "contribution",
+       "pos": "noun",
+       "gu": "ફાળો"
+      },
+      {
+       "word": "contributor",
+       "pos": "noun",
+       "gu": "ફાળો આપનાર"
+      }
+     ],
+     "synonyms": [
+      "add to",
+      "help",
+      "give"
+     ],
+     "opposites": [],
+     "collocations": [
+      "contribute to",
+      "contribute money"
+     ],
+     "ieltsTip": "A question may say \"play a part in\" or \"add to\" for \"contribute to\"."
+    },
+    {
+     "word": "period",
+     "pos": "noun",
+     "pronGu": "પીરિયડ",
+     "meaningGu": "સમયગાળો",
+     "meaningEn": "a length of time",
+     "example": "Prices rose over a period of ten years.",
+     "exampleGu": "દસ વર્ષના સમયગાળામાં ભાવ વધ્યા.",
+     "family": [
+      {
+       "word": "period",
+       "pos": "noun",
+       "gu": "સમયગાળો"
+      },
+      {
+       "word": "periodic",
+       "pos": "adjective",
+       "gu": "સમયાંતરે થતું"
+      }
+     ],
+     "synonyms": [
+      "time",
+      "stage",
+      "phase"
+     ],
+     "opposites": [],
+     "collocations": [
+      "over a period",
+      "short period"
+     ],
+     "ieltsTip": "A question may say \"time span\" or \"phase\" for \"period\"."
+    },
+    {
+     "word": "policy",
+     "pos": "noun",
+     "pronGu": "પૉલિસી",
+     "meaningGu": "નીતિ",
+     "meaningEn": "a plan of action by a government or company",
+     "example": "The government has a new education policy.",
+     "exampleGu": "સરકારે નવી શિક્ષણ નીતિ બનાવી છે.",
+     "family": [
+      {
+       "word": "policy",
+       "pos": "noun",
+       "gu": "નીતિ"
+      },
+      {
+       "word": "policymaker",
+       "pos": "noun",
+       "gu": "નીતિ ઘડનાર"
+      }
+     ],
+     "synonyms": [
+      "plan",
+      "rule"
+     ],
+     "opposites": [],
+     "collocations": [
+      "government policy",
+      "new policy"
+     ],
+     "ieltsTip": "A text may say \"plan\" or \"rules\" for \"policy\"."
+    },
+    {
+     "word": "issue",
+     "pos": "noun",
+     "pronGu": "ઇશ્યૂ",
+     "meaningGu": "મુદ્દો, સમસ્યા",
+     "meaningEn": "an important problem or topic",
+     "example": "Water shortage is a serious issue.",
+     "exampleGu": "પાણીની અછત એક ગંભીર મુદ્દો છે.",
+     "family": [
+      {
+       "word": "issue",
+       "pos": "noun",
+       "gu": "મુદ્દો"
+      },
+      {
+       "word": "issue",
+       "pos": "verb",
+       "gu": "જાહેર કરવું"
+      }
+     ],
+     "synonyms": [
+      "problem",
+      "matter",
+      "topic"
+     ],
+     "opposites": [],
+     "collocations": [
+      "serious issue",
+      "deal with an issue"
+     ],
+     "ieltsTip": "A question may say \"problem\" or \"matter\" for \"issue\"."
+    },
+    {
+     "word": "trend",
+     "pos": "noun",
+     "pronGu": "ટ્રેન્ડ",
+     "meaningGu": "વલણ",
+     "meaningEn": "a general change in one direction",
+     "example": "There is a trend towards online shopping.",
+     "exampleGu": "ઓનલાઇન ખરીદી તરફનું વલણ જોવા મળે છે.",
+     "family": [
+      {
+       "word": "trend",
+       "pos": "noun",
+       "gu": "વલણ"
+      },
+      {
+       "word": "trendy",
+       "pos": "adjective",
+       "gu": "ફેશનેબલ"
+      }
+     ],
+     "synonyms": [
+      "pattern",
+      "tendency"
+     ],
+     "opposites": [],
+     "collocations": [
+      "upward trend",
+      "current trend"
+     ],
+     "ieltsTip": "A question may say \"pattern\" or \"tendency\" for \"trend\"."
+    },
+    {
+     "word": "demonstrate",
+     "pos": "verb",
+     "pronGu": "ડેમોન્સ્ટ્રેટ",
+     "meaningGu": "દર્શાવવું, સાબિત કરવું",
+     "meaningEn": "to show clearly that something is true",
+     "example": "The study demonstrates the value of sleep.",
+     "exampleGu": "આ અભ્યાસ ઊંઘનું મહત્ત્વ દર્શાવે છે.",
+     "family": [
+      {
+       "word": "demonstrate",
+       "pos": "verb",
+       "gu": "દર્શાવવું"
+      },
+      {
+       "word": "demonstration",
+       "pos": "noun",
+       "gu": "નિદર્શન"
+      }
+     ],
+     "synonyms": [
+      "show",
+      "prove"
+     ],
+     "opposites": [],
+     "collocations": [
+      "clearly demonstrate",
+      "demonstrate how"
+     ],
+     "ieltsTip": "A question may say \"show\" or \"prove\" for \"demonstrate\"."
+    }
+   ]
+  }
+ ]
+}

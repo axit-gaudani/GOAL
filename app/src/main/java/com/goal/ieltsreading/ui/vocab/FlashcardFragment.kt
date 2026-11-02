@@ -11,6 +11,7 @@ import com.goal.ieltsreading.R
 import com.goal.ieltsreading.databinding.FragmentFlashcardBinding
 import com.goal.ieltsreading.ui.common.StudyTimeTracker
 import com.goal.ieltsreading.ui.common.app
+import com.goal.ieltsreading.ui.common.speak
 import com.goal.ieltsreading.ui.common.visibleIf
 
 class FlashcardFragment : Fragment() {
@@ -48,6 +49,7 @@ class FlashcardFragment : Fragment() {
             binding.progress.setProgressCompat(s.position - 1, true)
             binding.textCounter.text = getString(R.string.counter_format, s.position, s.total)
             binding.textWord.text = w.word
+            binding.btnPlay.setOnClickListener { speak(w.word) }
             binding.textPos.text = w.pos
             binding.textExample.text = w.example
             binding.groupAnswer.visibleIf(s.revealed)

@@ -1,6 +1,12 @@
 package com.goal.ieltsreading.data.repo
 
+import android.content.Context
 import com.goal.ieltsreading.data.content.ContentSeeder
+import com.goal.ieltsreading.data.content.SpeakingFileJson
+import com.goal.ieltsreading.data.db.SentenceEntity
+import com.goal.ieltsreading.data.db.SentenceProgressEntity
+import com.goal.ieltsreading.data.db.SpeakingProgressEntity
+import com.goal.ieltsreading.data.db.VocabProgressEntity
 import com.goal.ieltsreading.data.db.AppDatabase
 import com.goal.ieltsreading.data.db.DailyActivityEntity
 import com.goal.ieltsreading.data.db.LessonEntity
@@ -23,6 +29,7 @@ import kotlinx.coroutines.sync.withLock
  * functions; Room runs the queries on a background thread.
  */
 class LearningRepository(
+    private val context: Context,
     private val db: AppDatabase,
     private val seeder: ContentSeeder,
     val prefs: UserPrefs
@@ -140,7 +147,8 @@ class LearningRepository(
     suspend fun availableWords(): List<WordWithProgress> {
         val lessonIds = lessonItems().filter { it.unlocked }.map { it.lesson.id }
         val testIds = tests().filter { it.unlocked }.map { it.test.id }
-        val owners = lessonIds + testIds
+        val packIds = packs().filter { it.unlocked }.map { it.pack.id }
+        val owners = lessonIds + testIds + packIds
         if (owners.isEmpty()) return emptyList()
         return progress.wordsFor(owners)
     }
@@ -170,7 +178,7 @@ class LearningRepository(
 
     // ---------------------------------------------------------------- Practice tests
 
-    private suspend fun highestUnlockedLevelOrder(): Int =
+    suspend fun highestUnlockedLevelOrder(): Int =
         levels().filter { it.unlocked }.maxOfOrNull { it.level.sortOrder } ?: 0
 
     suspend fun tests(): List<TestItem> {
@@ -280,4 +288,184 @@ class LearningRepository(
     }
 
     suspend fun resetProgress() = progress.resetAll()
+
+    // ---------------------------------------------------------------- Sentence practice
+
+    /** Level used for sentences and word packs: the highest level the learner has opened. */
+    private suspend fun practiceLevel(): Int = if (prefs.unlockAll) 6 else highestUnlockedLevelOrder()
+
+    /**
+     * Builds a round of [size] sentences: up to 4 the learner got wrong or that are due again,
+     * then new sentences (current level first). [only] limits the round to one exercise type.
+     */
+    suspend fun sentenceRound(only: SentenceExercise?, size: Int = 10): List<RoundItem> {
+        ready()
+        val level = practiceLevel()
+        val today = Dates.today()
+        val dueIds = progress.dueSentences(today, 4).map { it.sentenceId }
+        val due = content.sentences(dueIds)
+        val practised = progress.practisedSentenceIds().toSet()
+        val all = content.sentencesUpTo(level)
+        // Shuffle first, then a stable sort keeps the newest level first in random order.
+        val fresh = all.filter { it.id !in practised }.shuffled().sortedByDescending { it.level }
+        val chosen = (due + fresh).distinctBy { it.id }.take(size).toMutableList()
+        if (chosen.size < size) {
+            chosen += all.filter { s -> chosen.none { it.id == s.id } }.shuffled().take(size - chosen.size)
+        }
+        val dueSet = dueIds.toSet()
+        var last: SentenceExercise? = null
+        return chosen.shuffled().map { s ->
+            val allowed = SentenceExercise.entries.filter { it.minLevel <= maxOf(s.level, level.coerceAtMost(2)) }
+            val type = if (only != null && only.minLevel <= level) only
+            else allowed.filter { it != last }.randomOrNull() ?: SentenceExercise.BUILD
+            last = type
+            RoundItem(s, type, s.id in dueSet)
+        }
+    }
+
+    /** Saves one answer: right answers wait longer before coming back, wrong ones return tomorrow. */
+    suspend fun recordSentence(sentenceId: String, correct: Boolean) {
+        val today = Dates.today()
+        val old = progress.sentenceProgress(sentenceId)
+        val box = if (correct) ((old?.box ?: 0) + 1).coerceAtMost(5) else 1
+        val interval = if (correct) listOf(0, 1, 3, 7, 15, 30)[box] else 1
+        progress.upsertSentenceProgress(
+            SentenceProgressEntity(
+                sentenceId = sentenceId,
+                box = box,
+                nextReviewDay = today + interval,
+                timesCorrect = (old?.timesCorrect ?: 0) + if (correct) 1 else 0,
+                timesWrong = (old?.timesWrong ?: 0) + if (correct) 0 else 1,
+                lastCorrect = correct
+            )
+        )
+        updateToday { it.copy(questionsAnswered = it.questionsAnswered + 1) }
+    }
+
+    suspend fun dueSentenceCount(): Int { ready(); return progress.dueSentenceCount(Dates.today()) }
+
+    /** Grammar patterns, weakest first. */
+    suspend fun patternMastery(): List<PatternMastery> =
+        progress.patternStats().map {
+            val attempts = it.correct + it.wrong
+            PatternMastery(it.pattern, if (attempts == 0) 0 else it.correct * 100 / attempts, attempts)
+        }.sortedBy { it.percent }
+
+    suspend fun currentLevelName(): String {
+        val order = practiceLevel()
+        val level = content.levels().firstOrNull { it.sortOrder == order }
+        return "Level $order" + (level?.let { " · ${it.title}" } ?: "")
+    }
+
+    // ---------------------------------------------------------------- Vocabulary builder
+
+    suspend fun packs(): List<PackItem> {
+        ready()
+        val level = practiceLevel()
+        val deck = progress.deckWordIds().toSet()
+        return content.packs().map { p ->
+            val words = content.packWords(p.id)
+            PackItem(p, words.size, words.count { it.id in deck }, prefs.unlockAll || p.minLevel <= level)
+        }
+    }
+
+    /** The pack the learner is working on: the chosen one, else the first open pack with words left. */
+    suspend fun currentPack(): PackItem? {
+        val packs = packs()
+        return packs.firstOrNull { it.pack.id == prefs.currentPackId && it.unlocked }
+            ?: packs.firstOrNull { it.unlocked && it.learned < it.total }
+            ?: packs.firstOrNull { it.unlocked }
+    }
+
+    /** The next [count] words of a pack that are not in the learner's deck yet. */
+    suspend fun newWords(packId: String, count: Int = 5): List<VocabEntity> {
+        val deck = progress.deckWordIds().toSet()
+        return content.packWords(packId).filter { it.id !in deck }.take(count)
+    }
+
+    suspend fun word(id: String): VocabEntity? = content.word(id)
+
+    /** Adds a word to the review deck. A word the learner already knows starts in a higher box. */
+    suspend fun learnWord(wordId: String, alreadyKnown: Boolean) {
+        val today = Dates.today()
+        val item = if (alreadyKnown) VocabProgressEntity(wordId, box = 3, nextReviewDay = today + 4, timesCorrect = 1, timesWrong = 0)
+        else SpacedRepetition.newWord(wordId, today + 1)
+        progress.insertVocabProgressIfMissing(listOf(item))
+        updateToday { it.copy(wordsReviewed = it.wordsReviewed + 1) }
+    }
+
+    /** Words for a game: from the deck, topped up with words of the current pack. */
+    suspend fun gameWords(count: Int): List<VocabEntity> {
+        ready()
+        val fromDeck = progress.randomDeckWords(count).mapNotNull { content.word(it.id) }
+        if (fromDeck.size >= count) return fromDeck
+        val packId = currentPack()?.pack?.id ?: return fromDeck
+        return (fromDeck + content.packWords(packId).shuffled()).distinctBy { it.id }.take(count)
+    }
+
+    // ---------------------------------------------------------------- Basic speaking
+
+    private var speakingCache: SpeakingFileJson? = null
+
+    private fun speakingFile(): SpeakingFileJson {
+        speakingCache?.let { return it }
+        val file = try {
+            context.assets.open("content/speaking.json").bufferedReader(Charsets.UTF_8).use {
+                gson.fromJson(it.readText(), SpeakingFileJson::class.java)
+            }
+        } catch (e: Exception) {
+            SpeakingFileJson()
+        }
+        speakingCache = file
+        return file
+    }
+
+    val partnerName: String get() = speakingFile().partnerName
+
+    /** Units unlock one after another. */
+    suspend fun speakingUnits(): List<SpeakingUnitItem> {
+        val map = progress.speakingProgress().associateBy { it.unitId }
+        var previousDone = true
+        return speakingFile().units.sortedBy { it.order }.map { u ->
+            val p = map[u.id]
+            val item = SpeakingUnitItem(u, p, prefs.unlockAll || previousDone)
+            previousDone = p?.completed == true
+            item
+        }
+    }
+
+    fun speakingUnit(unitId: String) = speakingFile().units.firstOrNull { it.id == unitId }
+
+    /** A different phrase every day from the units the learner can open. */
+    suspend fun phraseOfTheDay(): com.goal.ieltsreading.data.content.SpeakingPhrase? {
+        val phrases = speakingUnits().filter { it.unlocked }.flatMap { it.unit.phrases }
+        if (phrases.isEmpty()) return null
+        return phrases[(Dates.today() % phrases.size).toInt()]
+    }
+
+    /**
+     * Saves the phrase step. [clear] = phrases the speech check heard clearly; when the phone
+     * has no speech check, practising every phrase counts instead.
+     */
+    suspend fun savePhraseStep(unitId: String, clear: Int, practised: Int, total: Int, checkAvailable: Boolean) {
+        val old = progress.speakingProgress(unitId)
+        val bestClear = maxOf(clear, old?.phrasesClear ?: 0)
+        val bestPractised = maxOf(practised, old?.phrasesPracticed ?: 0)
+        val phrasesPassed = if (checkAvailable) bestClear >= minOf(6, total) else bestPractised >= total
+        val conversation = old?.conversationDone == true
+        progress.upsertSpeakingProgress(
+            SpeakingProgressEntity(unitId, bestClear, bestPractised, conversation, phrasesPassed && conversation)
+        )
+    }
+
+    suspend fun saveConversationDone(unitId: String, checkAvailable: Boolean) {
+        val old = progress.speakingProgress(unitId)
+        val total = speakingUnit(unitId)?.phrases?.size ?: 8
+        val phrasesPassed = if (checkAvailable) (old?.phrasesClear ?: 0) >= minOf(6, total)
+        else (old?.phrasesPracticed ?: 0) >= total
+        progress.upsertSpeakingProgress(
+            SpeakingProgressEntity(unitId, old?.phrasesClear ?: 0, old?.phrasesPracticed ?: 0, true, phrasesPassed)
+        )
+        updateToday { it.copy(lessonsCompleted = it.lessonsCompleted + if (phrasesPassed && old?.completed != true) 1 else 0) }
+    }
 }

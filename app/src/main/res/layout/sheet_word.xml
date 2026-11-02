@@ -27,6 +27,19 @@
             android:layout_marginStart="8dp"
             android:textAppearance="@style/Text.Secondary"
             android:textStyle="italic" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPlay"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:contentDescription="@string/cd_play"
+            app:icon="@drawable/ic_volume" />
     </LinearLayout>
 
     <TextView

@@ -28,7 +28,7 @@
         <argument android:name="total" app:argType="integer"/>
     </fragment>
     <fragment android:id="@+id/vocabFragment" android:name="com.goal.ieltsreading.ui.vocab.VocabFragment"
-        android:label="@string/nav_words"/>
+        android:label="@string/all_my_words"/>
     <fragment android:id="@+id/flashcardFragment" android:name="com.goal.ieltsreading.ui.vocab.FlashcardFragment"
         android:label="@string/title_review"/>
     <fragment android:id="@+id/testsFragment" android:name="com.goal.ieltsreading.ui.tests.TestsFragment"
@@ -45,4 +45,30 @@
         android:label="@string/nav_progress"/>
     <fragment android:id="@+id/settingsFragment" android:name="com.goal.ieltsreading.ui.settings.SettingsFragment"
         android:label="@string/title_settings"/>
+    <fragment android:id="@+id/vocabHubFragment" android:name="com.goal.ieltsreading.ui.vocab.VocabHubFragment"
+        android:label="@string/title_vocab_builder"/>
+    <fragment android:id="@+id/wordLearnFragment" android:name="com.goal.ieltsreading.ui.vocab.WordLearnFragment"
+        android:label="@string/title_new_words">
+        <argument android:name="packId" app:argType="string"/>
+    </fragment>
+    <fragment android:id="@+id/matchGameFragment" android:name="com.goal.ieltsreading.ui.vocab.MatchGameFragment"
+        android:label="@string/game_match"/>
+    <fragment android:id="@+id/spellingFragment" android:name="com.goal.ieltsreading.ui.vocab.SpellingFragment"
+        android:label="@string/game_spelling"/>
+    <fragment android:id="@+id/sentenceHubFragment" android:name="com.goal.ieltsreading.ui.sentence.SentenceHubFragment"
+        android:label="@string/title_sentence_practice"/>
+    <fragment android:id="@+id/sentenceRoundFragment" android:name="com.goal.ieltsreading.ui.sentence.SentenceRoundFragment"
+        android:label="@string/title_sentence_practice">
+        <argument android:name="mode" app:argType="string" android:defaultValue=""/>
+    </fragment>
+    <fragment android:id="@+id/speakHubFragment" android:name="com.goal.ieltsreading.ui.speak.SpeakHubFragment"
+        android:label="@string/title_speaking"/>
+    <fragment android:id="@+id/speakPhraseFragment" android:name="com.goal.ieltsreading.ui.speak.SpeakPhraseFragment"
+        android:label="@string/title_say_phrase">
+        <argument android:name="unitId" app:argType="string"/>
+    </fragment>
+    <fragment android:id="@+id/speakChatFragment" android:name="com.goal.ieltsreading.ui.speak.SpeakChatFragment"
+        android:label="@string/title_conversation">
+        <argument android:name="unitId" app:argType="string"/>
+    </fragment>
 </navigation>

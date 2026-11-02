@@ -1,0 +1,1117 @@
+{
+ "partnerName": "Priya",
+ "units": [
+  {
+   "id": "U1",
+   "order": 1,
+   "title": "Hello and introduce yourself",
+   "titleGu": "નમસ્તે અને પોતાનો પરિચય",
+   "phrases": [
+    {
+     "en": "My name is Ravi.",
+     "gu": "મારું નામ રવિ છે.",
+     "pronGu": "માય નેમ ઇઝ રવિ.",
+     "stress": [
+      "name",
+      "Ravi"
+     ]
+    },
+    {
+     "en": "Nice to meet you.",
+     "gu": "તમને મળીને આનંદ થયો.",
+     "pronGu": "નાઇસ ટુ મીટ યૂ.",
+     "stress": [
+      "Nice",
+      "meet"
+     ]
+    },
+    {
+     "en": "I'm from Gujarat.",
+     "gu": "હું ગુજરાતથી છું.",
+     "pronGu": "આઇમ ફ્રોમ ગુજરાત.",
+     "stress": [
+      "Gujarat"
+     ]
+    },
+    {
+     "en": "I live in Ahmedabad.",
+     "gu": "હું અમદાવાદમાં રહું છું.",
+     "pronGu": "આઇ લિવ ઇન અમદાવાદ.",
+     "stress": [
+      "live",
+      "Ahmedabad"
+     ]
+    },
+    {
+     "en": "How are you?",
+     "gu": "તમે કેમ છો?",
+     "pronGu": "હાઉ આર યૂ?",
+     "stress": [
+      "How",
+      "you"
+     ]
+    },
+    {
+     "en": "I'm fine, thank you.",
+     "gu": "હું મજામાં છું, આભાર.",
+     "pronGu": "આઇમ ફાઇન, થેન્ક યૂ.",
+     "stress": [
+      "fine",
+      "thank"
+     ]
+    },
+    {
+     "en": "I am a student.",
+     "gu": "હું વિદ્યાર્થી છું.",
+     "pronGu": "આઇ એમ અ સ્ટુડન્ટ.",
+     "stress": [
+      "student"
+     ]
+    },
+    {
+     "en": "I'm learning English.",
+     "gu": "હું અંગ્રેજી શીખી રહ્યો છું.",
+     "pronGu": "આઇમ લર્નિંગ ઇંગ્લિશ.",
+     "stress": [
+      "learning",
+      "English"
+     ]
+    }
+   ],
+   "conversation": [
+    {
+     "who": "partner",
+     "en": "Hi! What's your name?",
+     "gu": "હાય! તમારું નામ શું છે?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "My name is Ravi.",
+       "gu": "મારું નામ રવિ છે."
+      },
+      {
+       "en": "I'm Meera. Nice to meet you.",
+       "gu": "હું મીરા છું. તમને મળીને આનંદ થયો."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Nice to meet you too. I'm Priya. Where are you from?",
+     "gu": "તમને મળીને મને પણ આનંદ થયો. હું પ્રિયા છું. તમે ક્યાંથી છો?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "I'm from Gujarat.",
+       "gu": "હું ગુજરાતથી છું."
+      },
+      {
+       "en": "I'm from Surat, in Gujarat.",
+       "gu": "હું ગુજરાતના સુરતથી છું."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Oh, nice! What do you do?",
+     "gu": "અરે, સરસ! તમે શું કરો છો?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "I am a student.",
+       "gu": "હું વિદ્યાર્થી છું."
+      },
+      {
+       "en": "I work in an office.",
+       "gu": "હું ઓફિસમાં કામ કરું છું."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Great! Why are you learning English?",
+     "gu": "સરસ! તમે અંગ્રેજી કેમ શીખો છો?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "I want a better job.",
+       "gu": "મારે વધુ સારી નોકરી જોઈએ છે."
+      },
+      {
+       "en": "I want to study abroad.",
+       "gu": "મારે વિદેશમાં ભણવું છે."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "That's a great goal. It was nice talking to you. See you soon!",
+     "gu": "એ સરસ ધ્યેય છે. તમારી સાથે વાત કરીને આનંદ થયો. ફરી મળીશું!"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "order": 2,
+   "title": "Family and home",
+   "titleGu": "પરિવાર અને ઘર",
+   "phrases": [
+    {
+     "en": "I have one brother and one sister.",
+     "gu": "મારે એક ભાઈ અને એક બહેન છે.",
+     "pronGu": "આઇ હેવ વન બ્રધર એન્ડ વન સિસ્ટર.",
+     "stress": [
+      "brother",
+      "sister"
+     ]
+    },
+    {
+     "en": "There are five people in my family.",
+     "gu": "મારા પરિવારમાં પાંચ લોકો છે.",
+     "pronGu": "ધેર આર ફાઇવ પીપલ ઇન માય ફેમિલી.",
+     "stress": [
+      "five",
+      "family"
+     ]
+    },
+    {
+     "en": "I live with my parents.",
+     "gu": "હું મારાં માતા-પિતા સાથે રહું છું.",
+     "pronGu": "આઇ લિવ વિથ માય પેરન્ટ્સ.",
+     "stress": [
+      "live",
+      "parents"
+     ]
+    },
+    {
+     "en": "My father is a farmer.",
+     "gu": "મારા પપ્પા ખેડૂત છે.",
+     "pronGu": "માય ફાધર ઇઝ અ ફાર્મર.",
+     "stress": [
+      "father",
+      "farmer"
+     ]
+    },
+    {
+     "en": "My mother is a housewife.",
+     "gu": "મારી મમ્મી ગૃહિણી છે.",
+     "pronGu": "માય મધર ઇઝ અ હાઉસવાઇફ.",
+     "stress": [
+      "mother",
+      "housewife"
+     ]
+    },
+    {
+     "en": "We live in a flat.",
+     "gu": "અમે એક ફ્લેટમાં રહીએ છીએ.",
+     "pronGu": "વી લિવ ઇન અ ફ્લેટ.",
+     "stress": [
+      "flat"
+     ]
+    },
+    {
+     "en": "Our house has two bedrooms.",
+     "gu": "અમારા ઘરમાં બે બેડરૂમ છે.",
+     "pronGu": "અવર હાઉસ હેઝ ટૂ બેડરૂમ્સ.",
+     "stress": [
+      "two",
+      "bedrooms"
+     ]
+    },
+    {
+     "en": "I love spending time with my family.",
+     "gu": "મને મારા પરિવાર સાથે સમય વિતાવવો ખૂબ ગમે છે.",
+     "pronGu": "આઇ લવ સ્પેન્ડિંગ ટાઇમ વિથ માય ફેમિલી.",
+     "stress": [
+      "love",
+      "family"
+     ]
+    }
+   ],
+   "conversation": [
+    {
+     "who": "partner",
+     "en": "Tell me about your family. Is it big or small?",
+     "gu": "મને તમારા પરિવાર વિશે કહો. તે મોટો છે કે નાનો?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "It's small. There are four of us.",
+       "gu": "તે નાનો છે. અમે ચાર જણ છીએ."
+      },
+      {
+       "en": "It's big. There are eight people in my family.",
+       "gu": "તે મોટો છે. મારા પરિવારમાં આઠ લોકો છે."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Do you have any brothers or sisters?",
+     "gu": "તમારે કોઈ ભાઈ-બહેન છે?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "Yes, I have one brother and one sister.",
+       "gu": "હા, મારે એક ભાઈ અને એક બહેન છે."
+      },
+      {
+       "en": "No, I'm an only child.",
+       "gu": "ના, હું માતા-પિતાનું એકમાત્ર સંતાન છું."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "What do your parents do?",
+     "gu": "તમારાં માતા-પિતા શું કરે છે?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "My father is a farmer and my mother is a housewife.",
+       "gu": "મારા પપ્પા ખેડૂત છે અને મમ્મી ગૃહિણી છે."
+      },
+      {
+       "en": "They both work in a bank.",
+       "gu": "તેઓ બંને બેંકમાં કામ કરે છે."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Do you live in a house or a flat?",
+     "gu": "તમે ઘરમાં રહો છો કે ફ્લેટમાં?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "We live in a flat. It has two bedrooms.",
+       "gu": "અમે ફ્લેટમાં રહીએ છીએ. તેમાં બે બેડરૂમ છે."
+      },
+      {
+       "en": "We live in a house with a small garden.",
+       "gu": "અમે નાના બગીચાવાળા ઘરમાં રહીએ છીએ."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "That sounds lovely. Say hello to your family from me!",
+     "gu": "એ તો ખૂબ સરસ લાગે છે. તમારા પરિવારને મારા તરફથી નમસ્તે કહેજો!"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "order": 3,
+   "title": "Daily routine",
+   "titleGu": "રોજની દિનચર્યા",
+   "phrases": [
+    {
+     "en": "I get up at six o'clock.",
+     "gu": "હું છ વાગ્યે ઊઠું છું.",
+     "pronGu": "આઇ ગેટ અપ એટ સિક્સ ઓક્લૉક.",
+     "stress": [
+      "six"
+     ]
+    },
+    {
+     "en": "I have tea and breakfast at seven.",
+     "gu": "હું સાત વાગ્યે ચા-નાસ્તો કરું છું.",
+     "pronGu": "આઇ હેવ ટી એન્ડ બ્રેકફાસ્ટ એટ સેવન.",
+     "stress": [
+      "tea",
+      "breakfast",
+      "seven"
+     ]
+    },
+    {
+     "en": "I go to work by bus.",
+     "gu": "હું બસમાં કામ પર જાઉં છું.",
+     "pronGu": "આઇ ગો ટુ વર્ક બાય બસ.",
+     "stress": [
+      "work",
+      "bus"
+     ]
+    },
+    {
+     "en": "I usually have lunch at one.",
+     "gu": "હું સામાન્ય રીતે એક વાગ્યે બપોરનું જમું છું.",
+     "pronGu": "આઇ યૂઝ્યુઅલી હેવ લંચ એટ વન.",
+     "stress": [
+      "lunch",
+      "one"
+     ]
+    },
+    {
+     "en": "I come home at six in the evening.",
+     "gu": "હું સાંજે છ વાગ્યે ઘરે આવું છું.",
+     "pronGu": "આઇ કમ હોમ એટ સિક્સ ઇન ધ ઇવનિંગ.",
+     "stress": [
+      "home",
+      "six",
+      "evening"
+     ]
+    },
+    {
+     "en": "After dinner, I watch TV.",
+     "gu": "રાત્રે જમ્યા પછી હું ટીવી જોઉં છું.",
+     "pronGu": "આફ્ટર ડિનર, આઇ વૉચ ટીવી.",
+     "stress": [
+      "dinner",
+      "TV"
+     ]
+    },
+    {
+     "en": "I go to bed at eleven.",
+     "gu": "હું અગિયાર વાગ્યે સૂઈ જાઉં છું.",
+     "pronGu": "આઇ ગો ટુ બેડ એટ ઇલેવન.",
+     "stress": [
+      "bed",
+      "eleven"
+     ]
+    },
+    {
+     "en": "On Sundays, I relax at home.",
+     "gu": "રવિવારે હું ઘરે આરામ કરું છું.",
+     "pronGu": "ઓન સન્ડેઝ, આઇ રિલેક્સ એટ હોમ.",
+     "stress": [
+      "Sundays",
+      "relax"
+     ]
+    }
+   ],
+   "conversation": [
+    {
+     "who": "partner",
+     "en": "What time do you get up in the morning?",
+     "gu": "તમે સવારે કેટલા વાગ્યે ઊઠો છો?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "I get up at six o'clock.",
+       "gu": "હું છ વાગ્યે ઊઠું છું."
+      },
+      {
+       "en": "Usually at seven, but on Sundays I get up late.",
+       "gu": "સામાન્ય રીતે સાત વાગ્યે, પણ રવિવારે હું મોડો ઊઠું છું."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "What do you do after that?",
+     "gu": "પછી તમે શું કરો છો?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "I take a shower and have breakfast.",
+       "gu": "હું નહાઉં છું અને નાસ્તો કરું છું."
+      },
+      {
+       "en": "I do yoga for twenty minutes.",
+       "gu": "હું વીસ મિનિટ યોગ કરું છું."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "How do you go to work or college?",
+     "gu": "તમે કામ પર કે કૉલેજ કેવી રીતે જાઓ છો?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "I go by bus.",
+       "gu": "હું બસમાં જાઉં છું."
+      },
+      {
+       "en": "I ride my scooter.",
+       "gu": "હું મારું સ્કૂટર લઈને જાઉં છું."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "What do you do in the evening?",
+     "gu": "તમે સાંજે શું કરો છો?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "I go for a walk with my friends.",
+       "gu": "હું મારા મિત્રો સાથે ફરવા જાઉં છું."
+      },
+      {
+       "en": "After dinner, I watch TV with my family.",
+       "gu": "રાત્રે જમ્યા પછી હું મારા પરિવાર સાથે ટીવી જોઉં છું."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "That's a nice routine. Have a good day!",
+     "gu": "એ સરસ દિનચર્યા છે. તમારો દિવસ શુભ રહે!"
+    }
+   ]
+  },
+  {
+   "id": "U4",
+   "order": 4,
+   "title": "Shopping and money",
+   "titleGu": "ખરીદી અને પૈસા",
+   "phrases": [
+    {
+     "en": "How much is this?",
+     "gu": "આ કેટલાનું છે?",
+     "pronGu": "હાઉ મચ ઇઝ ધિસ?",
+     "stress": [
+      "much",
+      "this"
+     ]
+    },
+    {
+     "en": "It's too expensive.",
+     "gu": "આ બહુ મોંઘું છે.",
+     "pronGu": "ઇટ્સ ટૂ એક્સપેન્સિવ.",
+     "stress": [
+      "too",
+      "expensive"
+     ]
+    },
+    {
+     "en": "Can you give me a discount?",
+     "gu": "તમે થોડું ઓછું કરી આપશો?",
+     "pronGu": "કેન યૂ ગિવ મી અ ડિસ્કાઉન્ટ?",
+     "stress": [
+      "discount"
+     ]
+    },
+    {
+     "en": "I'll take two kilos of tomatoes.",
+     "gu": "મને બે કિલો ટામેટાં આપો.",
+     "pronGu": "આઇલ ટેક ટૂ કિલોઝ ઓફ ટમેટોઝ.",
+     "stress": [
+      "two",
+      "tomatoes"
+     ]
+    },
+    {
+     "en": "Do you have this in a bigger size?",
+     "gu": "આમાં મોટી સાઇઝ છે?",
+     "pronGu": "ડૂ યૂ હેવ ધિસ ઇન અ બિગર સાઇઝ?",
+     "stress": [
+      "bigger",
+      "size"
+     ]
+    },
+    {
+     "en": "Can I pay by UPI?",
+     "gu": "હું UPIથી ચુકવણી કરી શકું?",
+     "pronGu": "કેન આઇ પે બાય યૂપીઆઇ?",
+     "stress": [
+      "pay",
+      "UPI"
+     ]
+    },
+    {
+     "en": "Here are five hundred rupees.",
+     "gu": "આ લો પાંચસો રૂપિયા.",
+     "pronGu": "હિયર આર ફાઇવ હન્ડ્રેડ રૂપીઝ.",
+     "stress": [
+      "five",
+      "hundred"
+     ]
+    },
+    {
+     "en": "Can I have a bag, please?",
+     "gu": "મને એક થેલી મળશે?",
+     "pronGu": "કેન આઇ હેવ અ બેગ, પ્લીઝ?",
+     "stress": [
+      "bag"
+     ]
+    }
+   ],
+   "conversation": [
+    {
+     "who": "partner",
+     "en": "Hello! Can I help you?",
+     "gu": "નમસ્તે! હું તમારી શું મદદ કરી શકું?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "Yes, I'm looking for a shirt.",
+       "gu": "હા, હું એક શર્ટ શોધું છું."
+      },
+      {
+       "en": "I'm just looking, thank you.",
+       "gu": "હું ખાલી જોઉં છું, આભાર."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Sure. This blue shirt is very popular.",
+     "gu": "ચોક્કસ. આ વાદળી શર્ટ બહુ લોકપ્રિય છે."
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "How much is it?",
+       "gu": "તે કેટલાનું છે?"
+      },
+      {
+       "en": "Do you have it in a bigger size?",
+       "gu": "આમાં મોટી સાઇઝ છે?"
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "It's eight hundred rupees, and we have all sizes.",
+     "gu": "તે આઠસો રૂપિયાનું છે, અને અમારી પાસે બધી સાઇઝ છે."
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "It's too expensive. Can you give me a discount?",
+       "gu": "આ બહુ મોંઘું છે. થોડું ઓછું કરી આપશો?"
+      },
+      {
+       "en": "OK, I'll take it in large.",
+       "gu": "બરાબર, હું લાર્જ સાઇઝમાં લઈશ."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "I can give it to you for seven hundred. How would you like to pay?",
+     "gu": "હું તમને સાતસોમાં આપી શકું. તમે કેવી રીતે ચુકવણી કરશો?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "Can I pay by UPI?",
+       "gu": "હું UPIથી ચુકવણી કરી શકું?"
+      },
+      {
+       "en": "I'll pay in cash. Here you are.",
+       "gu": "હું રોકડા આપીશ. આ લો."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "No problem. Thank you for shopping with us. Have a nice day!",
+     "gu": "કોઈ વાંધો નહીં. અમારે ત્યાંથી ખરીદી કરવા બદલ આભાર. તમારો દિવસ શુભ રહે!"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "order": 5,
+   "title": "Asking the way",
+   "titleGu": "રસ્તો પૂછવો",
+   "phrases": [
+    {
+     "en": "Excuse me, where is the bus stand?",
+     "gu": "માફ કરજો, બસ સ્ટેન્ડ ક્યાં છે?",
+     "pronGu": "એક્સક્યૂઝ મી, વેર ઇઝ ધ બસ સ્ટેન્ડ?",
+     "stress": [
+      "where",
+      "bus",
+      "stand"
+     ]
+    },
+    {
+     "en": "Is it far from here?",
+     "gu": "શું તે અહીંથી દૂર છે?",
+     "pronGu": "ઇઝ ઇટ ફાર ફ્રોમ હિયર?",
+     "stress": [
+      "far",
+      "here"
+     ]
+    },
+    {
+     "en": "Go straight and turn left.",
+     "gu": "સીધા જાઓ અને ડાબી બાજુ વળો.",
+     "pronGu": "ગો સ્ટ્રેટ એન્ડ ટર્ન લેફ્ટ.",
+     "stress": [
+      "straight",
+      "left"
+     ]
+    },
+    {
+     "en": "Turn right at the signal.",
+     "gu": "સિગ્નલ પાસે જમણી બાજુ વળો.",
+     "pronGu": "ટર્ન રાઇટ એટ ધ સિગ્નલ.",
+     "stress": [
+      "right",
+      "signal"
+     ]
+    },
+    {
+     "en": "It's next to the bank.",
+     "gu": "તે બેંકની બાજુમાં છે.",
+     "pronGu": "ઇટ્સ નેક્સ્ટ ટુ ધ બેંક.",
+     "stress": [
+      "next",
+      "bank"
+     ]
+    },
+    {
+     "en": "It's opposite the temple.",
+     "gu": "તે મંદિરની સામે છે.",
+     "pronGu": "ઇટ્સ ઓપોઝિટ ધ ટેમ્પલ.",
+     "stress": [
+      "opposite",
+      "temple"
+     ]
+    },
+    {
+     "en": "Can you show me on the map?",
+     "gu": "તમે મને નકશામાં બતાવી શકો?",
+     "pronGu": "કેન યૂ શો મી ઓન ધ મૅપ?",
+     "stress": [
+      "show",
+      "map"
+     ]
+    },
+    {
+     "en": "Sorry, could you say that again?",
+     "gu": "માફ કરજો, તમે ફરીથી કહી શકો?",
+     "pronGu": "સૉરી, કુડ યૂ સે ધેટ અગેન?",
+     "stress": [
+      "say",
+      "again"
+     ]
+    }
+   ],
+   "conversation": [
+    {
+     "who": "partner",
+     "en": "Hi! You look lost. Can I help you?",
+     "gu": "હાય! તમે રસ્તો ભૂલી ગયા હો એવું લાગે છે. હું મદદ કરું?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "Yes, please. Where is the railway station?",
+       "gu": "હા, મહેરબાની કરીને. રેલવે સ્ટેશન ક્યાં છે?"
+      },
+      {
+       "en": "Excuse me, how do I get to the station?",
+       "gu": "માફ કરજો, હું સ્ટેશન કેવી રીતે પહોંચું?"
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Go straight and turn left at the signal.",
+     "gu": "સીધા જાઓ અને સિગ્નલ પાસે ડાબી બાજુ વળો."
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "Is it far from here?",
+       "gu": "શું તે અહીંથી દૂર છે?"
+      },
+      {
+       "en": "Sorry, could you say that again?",
+       "gu": "માફ કરજો, તમે ફરીથી કહી શકો?"
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Sure. Straight, then left at the signal. It's about ten minutes on foot.",
+     "gu": "ચોક્કસ. સીધા, પછી સિગ્નલ પાસે ડાબી બાજુ. ચાલીને લગભગ દસ મિનિટ થાય."
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "Can I take an auto?",
+       "gu": "શું હું રિક્ષા લઈ શકું?"
+      },
+      {
+       "en": "OK. Is there a landmark near it?",
+       "gu": "બરાબર. તેની નજીક કોઈ જાણીતી જગ્યા છે?"
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Yes, it's opposite a big temple. You can also take an auto.",
+     "gu": "હા, તે એક મોટા મંદિરની સામે છે. તમે રિક્ષા પણ લઈ શકો."
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "Thank you so much!",
+       "gu": "ખૂબ ખૂબ આભાર!"
+      },
+      {
+       "en": "Great, thanks for your help.",
+       "gu": "સરસ, મદદ કરવા બદલ આભાર."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "You're welcome. Have a safe journey!",
+     "gu": "કોઈ વાત નહીં. તમારી મુસાફરી સલામત રહે!"
+    }
+   ]
+  },
+  {
+   "id": "U6",
+   "order": 6,
+   "title": "At the doctor",
+   "titleGu": "ડૉક્ટર પાસે",
+   "phrases": [
+    {
+     "en": "I don't feel well.",
+     "gu": "મારી તબિયત સારી નથી.",
+     "pronGu": "આઇ ડોન્ટ ફીલ વેલ.",
+     "stress": [
+      "don't",
+      "well"
+     ]
+    },
+    {
+     "en": "I have a fever.",
+     "gu": "મને તાવ છે.",
+     "pronGu": "આઇ હેવ અ ફીવર.",
+     "stress": [
+      "fever"
+     ]
+    },
+    {
+     "en": "I have a headache.",
+     "gu": "મારું માથું દુખે છે.",
+     "pronGu": "આઇ હેવ અ હેડેક.",
+     "stress": [
+      "headache"
+     ]
+    },
+    {
+     "en": "My stomach hurts.",
+     "gu": "મારું પેટ દુખે છે.",
+     "pronGu": "માય સ્ટમક હર્ટ્સ.",
+     "stress": [
+      "stomach",
+      "hurts"
+     ]
+    },
+    {
+     "en": "It started two days ago.",
+     "gu": "તે બે દિવસ પહેલાં શરૂ થયું.",
+     "pronGu": "ઇટ સ્ટાર્ટેડ ટૂ ડેઝ અગો.",
+     "stress": [
+      "two",
+      "days"
+     ]
+    },
+    {
+     "en": "I have a cough and a cold.",
+     "gu": "મને ઉધરસ અને શરદી છે.",
+     "pronGu": "આઇ હેવ અ કફ એન્ડ અ કોલ્ડ.",
+     "stress": [
+      "cough",
+      "cold"
+     ]
+    },
+    {
+     "en": "How often should I take this medicine?",
+     "gu": "આ દવા મારે કેટલી વાર લેવી જોઈએ?",
+     "pronGu": "હાઉ ઓફન શુડ આઇ ટેક ધિસ મેડિસિન?",
+     "stress": [
+      "often",
+      "medicine"
+     ]
+    },
+    {
+     "en": "Do I need a blood test?",
+     "gu": "શું મારે લોહીની તપાસ કરાવવી પડશે?",
+     "pronGu": "ડૂ આઇ નીડ અ બ્લડ ટેસ્ટ?",
+     "stress": [
+      "blood",
+      "test"
+     ]
+    }
+   ],
+   "conversation": [
+    {
+     "who": "partner",
+     "en": "Good morning. What's the problem?",
+     "gu": "સુપ્રભાત. શું તકલીફ છે?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "I don't feel well. I have a fever.",
+       "gu": "મારી તબિયત સારી નથી. મને તાવ છે."
+      },
+      {
+       "en": "I have a bad headache and a cough.",
+       "gu": "મારું માથું ખૂબ દુખે છે અને ઉધરસ છે."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "I'm sorry to hear that. When did it start?",
+     "gu": "એ સાંભળીને દુઃખ થયું. તે ક્યારે શરૂ થયું?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "It started two days ago.",
+       "gu": "તે બે દિવસ પહેલાં શરૂ થયું."
+      },
+      {
+       "en": "Since yesterday morning.",
+       "gu": "ગઈકાલ સવારથી."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Do you have any other problems?",
+     "gu": "તમને બીજી કોઈ તકલીફ છે?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "Yes, my body hurts and I feel tired.",
+       "gu": "હા, મારું શરીર દુખે છે અને થાક લાગે છે."
+      },
+      {
+       "en": "No, that's all.",
+       "gu": "ના, બસ આટલું જ."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "OK. It looks like a viral fever. Take this medicine twice a day after food.",
+     "gu": "બરાબર. વાયરલ તાવ લાગે છે. આ દવા દિવસમાં બે વાર જમ્યા પછી લેજો."
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "Do I need a blood test?",
+       "gu": "શું મારે લોહીની તપાસ કરાવવી પડશે?"
+      },
+      {
+       "en": "Should I stay at home and rest?",
+       "gu": "શું મારે ઘરે રહીને આરામ કરવો જોઈએ?"
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Rest at home for two days and drink lots of water. If you don't feel better, come back for a blood test. Get well soon!",
+     "gu": "બે દિવસ ઘરે આરામ કરો અને ખૂબ પાણી પીઓ. સારું ન લાગે તો લોહીની તપાસ માટે પાછા આવજો. જલદી સાજા થઈ જાઓ!"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "order": 7,
+   "title": "IELTS Speaking Part 1",
+   "titleGu": "IELTS સ્પીકિંગ ભાગ ૧",
+   "phrases": [
+    {
+     "en": "I come from Vadodara, a city in Gujarat.",
+     "gu": "હું ગુજરાતના એક શહેર વડોદરાથી આવું છું.",
+     "pronGu": "આઇ કમ ફ્રોમ વડોદરા, અ સિટી ઇન ગુજરાત.",
+     "stress": [
+      "Vadodara",
+      "Gujarat"
+     ]
+    },
+    {
+     "en": "It's famous for its Navratri festival and beautiful palaces.",
+     "gu": "તે તેના નવરાત્રિ ઉત્સવ અને સુંદર મહેલો માટે પ્રખ્યાત છે.",
+     "pronGu": "ઇટ્સ ફેમસ ફોર ઇટ્સ નવરાત્રિ ફેસ્ટિવલ એન્ડ બ્યૂટિફુલ પેલેસિઝ.",
+     "stress": [
+      "famous",
+      "Navratri",
+      "palaces"
+     ]
+    },
+    {
+     "en": "I'm currently studying engineering at a local college.",
+     "gu": "હું હાલમાં એક સ્થાનિક કૉલેજમાં એન્જિનિયરિંગ ભણું છું.",
+     "pronGu": "આઇમ કરન્ટલી સ્ટડીઇંગ એન્જિનિયરિંગ એટ અ લોકલ કૉલેજ.",
+     "stress": [
+      "currently",
+      "engineering"
+     ]
+    },
+    {
+     "en": "I work as an accountant in a small company.",
+     "gu": "હું એક નાની કંપનીમાં એકાઉન્ટન્ટ તરીકે કામ કરું છું.",
+     "pronGu": "આઇ વર્ક એઝ એન અકાઉન્ટન્ટ ઇન અ સ્મૉલ કંપની.",
+     "stress": [
+      "accountant",
+      "small"
+     ]
+    },
+    {
+     "en": "In my free time, I enjoy playing cricket with my friends.",
+     "gu": "નવરાશના સમયમાં મને મારા મિત્રો સાથે ક્રિકેટ રમવાનું ગમે છે.",
+     "pronGu": "ઇન માય ફ્રી ટાઇમ, આઇ એન્જૉય પ્લેઇંગ ક્રિકેટ વિથ માય ફ્રેન્ડ્ઝ.",
+     "stress": [
+      "free",
+      "cricket",
+      "friends"
+     ]
+    },
+    {
+     "en": "I really like reading because it helps me relax.",
+     "gu": "મને વાંચવું ખરેખર ગમે છે કારણ કે તેનાથી મને આરામ મળે છે.",
+     "pronGu": "આઇ રિયલી લાઇક રીડિંગ બિકૉઝ ઇટ હેલ્પ્સ મી રિલેક્સ.",
+     "stress": [
+      "really",
+      "reading",
+      "relax"
+     ]
+    },
+    {
+     "en": "I prefer the morning because I feel fresh and active.",
+     "gu": "મને સવાર વધુ ગમે છે કારણ કે ત્યારે હું તાજગી અને સ્ફૂર્તિ અનુભવું છું.",
+     "pronGu": "આઇ પ્રિફર ધ મોર્નિંગ બિકૉઝ આઇ ફીલ ફ્રેશ એન્ડ એક્ટિવ.",
+     "stress": [
+      "prefer",
+      "morning",
+      "active"
+     ]
+    },
+    {
+     "en": "That's an interesting question. Let me think for a moment.",
+     "gu": "એ રસપ્રદ પ્રશ્ન છે. મને એક પળ વિચારવા દો.",
+     "pronGu": "ધેટ્સ એન ઇન્ટરેસ્ટિંગ ક્વેશ્ચન. લેટ મી થિંક ફોર અ મોમેન્ટ.",
+     "stress": [
+      "interesting",
+      "think"
+     ]
+    }
+   ],
+   "conversation": [
+    {
+     "who": "partner",
+     "en": "Let's talk about your hometown. Where are you from?",
+     "gu": "ચાલો તમારા વતન વિશે વાત કરીએ. તમે ક્યાંથી છો?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "I come from Vadodara, a city in Gujarat. It's famous for its Navratri festival.",
+       "gu": "હું ગુજરાતના શહેર વડોદરાથી આવું છું. તે તેના નવરાત્રિ ઉત્સવ માટે પ્રખ્યાત છે."
+      },
+      {
+       "en": "I'm from a small village near Anand. It's quiet and very green.",
+       "gu": "હું આણંદ નજીકના એક નાના ગામથી છું. તે શાંત અને ખૂબ હરિયાળું છે."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Do you work or are you a student?",
+     "gu": "તમે કામ કરો છો કે વિદ્યાર્થી છો?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "I'm a student. I'm currently studying engineering at a local college.",
+       "gu": "હું વિદ્યાર્થી છું. હાલમાં હું એક સ્થાનિક કૉલેજમાં એન્જિનિયરિંગ ભણું છું."
+      },
+      {
+       "en": "I work as an accountant in a small company. I enjoy it because I like numbers.",
+       "gu": "હું એક નાની કંપનીમાં એકાઉન્ટન્ટ તરીકે કામ કરું છું. મને તે ગમે છે કારણ કે મને આંકડા ગમે છે."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "What do you usually do in your free time?",
+     "gu": "નવરાશના સમયમાં તમે સામાન્ય રીતે શું કરો છો?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "I enjoy playing cricket with my friends because it keeps me fit.",
+       "gu": "મને મારા મિત્રો સાથે ક્રિકેટ રમવાનું ગમે છે કારણ કે તેનાથી હું તંદુરસ્ત રહું છું."
+      },
+      {
+       "en": "I like reading novels because it helps me relax after a busy day.",
+       "gu": "મને નવલકથાઓ વાંચવી ગમે છે કારણ કે વ્યસ્ત દિવસ પછી તેનાથી મને આરામ મળે છે."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Do you prefer mornings or evenings? Why?",
+     "gu": "તમને સવાર વધુ ગમે છે કે સાંજ? શા માટે?"
+    },
+    {
+     "who": "you",
+     "options": [
+      {
+       "en": "I prefer mornings because I feel fresh and I can study better.",
+       "gu": "મને સવાર વધુ ગમે છે કારણ કે હું તાજગી અનુભવું છું અને વધુ સારી રીતે ભણી શકું છું."
+      },
+      {
+       "en": "I think evenings, because I can relax and spend time with my family.",
+       "gu": "મને લાગે છે કે સાંજ, કારણ કે ત્યારે હું આરામ કરી શકું છું અને પરિવાર સાથે સમય વિતાવી શકું છું."
+      }
+     ]
+    },
+    {
+     "who": "partner",
+     "en": "Thank you. That's the end of Part 1. You did very well!",
+     "gu": "આભાર. ભાગ ૧ અહીં પૂરો થાય છે. તમે ખૂબ સરસ કર્યું!"
+    }
+   ]
+  }
+ ]
+}

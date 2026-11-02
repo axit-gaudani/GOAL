@@ -1,6 +1,7 @@
 package com.goal.ieltsreading
 
 import android.app.Application
+import com.goal.ieltsreading.audio.Speaker
 import com.goal.ieltsreading.data.content.ContentSeeder
 import com.goal.ieltsreading.data.db.AppDatabase
 import com.goal.ieltsreading.data.prefs.UserPrefs
@@ -22,6 +23,9 @@ class IeltsApp : Application() {
     lateinit var repository: LearningRepository
         private set
 
+    /** Text-to-speech for words, sentences and phrases (created when first used). */
+    val speaker: Speaker by lazy { Speaker(this) }
+
     /** For work that must finish even if the screen closes (e.g. saving study time). */
     val appScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
 
@@ -29,7 +33,7 @@ class IeltsApp : Application() {
         super.onCreate()
         prefs = UserPrefs(this)
         val db = AppDatabase.create(this)
-        repository = LearningRepository(db, ContentSeeder(this, db, prefs), prefs)
+        repository = LearningRepository(this, db, ContentSeeder(this, db, prefs), prefs)
         ReminderScheduler.createChannel(this)
         // Load the lessons into the database in the background on first launch.
         appScope.launch { repository.todaySummary() }

@@ -35,6 +35,10 @@ class WordSheet : BottomSheetDialogFragment() {
         binding.textExampleGu.text = args.getString(ARG_EXAMPLE_GU)
         binding.groupExample.visibleIf(example.isNotBlank())
 
+        val word = args.getString(ARG_WORD).orEmpty()
+        binding.btnPlay.setOnClickListener { app.speaker.speak(word) }
+        if (app.prefs.autoSpeak) app.speaker.speak(word)
+
         binding.btnAddToDeck.setOnClickListener {
             val id = args.getString(ARG_ID) ?: return@setOnClickListener
             val appRef = app

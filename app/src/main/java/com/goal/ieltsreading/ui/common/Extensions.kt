@@ -16,3 +16,6 @@ fun View.visibleIf(condition: Boolean) {
 
 /** Splits text into paragraphs on blank lines. */
 fun String.paragraphs(): List<String> = split(Regex("\\n\\s*\\n")).map { it.trim() }.filter { it.isNotEmpty() }
+
+/** Speaks English text with the app's text-to-speech. */
+fun Fragment.speak(text: String, slow: Boolean = false) = app.speaker.speak(text, slow)

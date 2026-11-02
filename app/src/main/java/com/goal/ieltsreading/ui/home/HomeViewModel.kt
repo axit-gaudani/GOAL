@@ -18,7 +18,8 @@ data class HomeState(
     val nextLessonLevelTitle: String,
     val dueWords: Int,
     val wordOfDay: WordWithProgress?,
-    val coursePercent: Int
+    val coursePercent: Int,
+    val dueSentences: Int
 )
 
 class HomeViewModel(app: Application) : AndroidViewModel(app) {
@@ -40,7 +41,8 @@ class HomeViewModel(app: Application) : AndroidViewModel(app) {
             nextLessonLevelTitle = level?.let { "Level ${it.level.sortOrder} · ${it.level.title}" }.orEmpty(),
             dueWords = repo.dueCount(),
             wordOfDay = repo.wordOfTheDay(),
-            coursePercent = if (total == 0) 0 else done * 100 / total
+            coursePercent = if (total == 0) 0 else done * 100 / total,
+            dueSentences = repo.dueSentenceCount()
         )
     }
 }

@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     private val topLevelScreens = setOf(
-        R.id.homeFragment, R.id.levelsFragment, R.id.vocabFragment, R.id.testsFragment, R.id.progressFragment
+        R.id.homeFragment, R.id.levelsFragment, R.id.vocabHubFragment, R.id.speakHubFragment, R.id.progressFragment
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

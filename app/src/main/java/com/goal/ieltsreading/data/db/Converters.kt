@@ -19,6 +19,13 @@ class Converters {
     fun exampleListToJson(value: List<Example>): String = gson.toJson(value)
 
     @TypeConverter
+    fun wordFormListToJson(value: List<WordForm>): String = gson.toJson(value)
+
+    @TypeConverter
+    fun jsonToWordFormList(value: String): List<WordForm> =
+        gson.fromJson(value, object : TypeToken<List<WordForm>>() {}.type) ?: emptyList()
+
+    @TypeConverter
     fun jsonToExampleList(value: String): List<Example> =
         gson.fromJson(value, object : TypeToken<List<Example>>() {}.type) ?: emptyList()
 }

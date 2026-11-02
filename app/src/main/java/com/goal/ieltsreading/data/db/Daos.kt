@@ -39,6 +39,26 @@ abstract class ContentDao {
     @Query("SELECT COUNT(*) FROM lessons")
     abstract suspend fun lessonCount(): Int
 
+    @Query("SELECT * FROM vocabulary WHERE ownerId = :packId ORDER BY sortOrder")
+    abstract suspend fun packWords(packId: String): List<VocabEntity>
+
+    @Query("SELECT * FROM vocabulary WHERE id = :id")
+    abstract suspend fun word(id: String): VocabEntity?
+
+    @Query("SELECT * FROM word_packs ORDER BY sortOrder")
+    abstract suspend fun packs(): List<WordPackEntity>
+
+    @Query("SELECT * FROM sentences WHERE level <= :maxLevel")
+    abstract suspend fun sentencesUpTo(maxLevel: Int): List<SentenceEntity>
+
+    @Query("SELECT * FROM sentences WHERE id IN (:ids)")
+    abstract suspend fun sentences(ids: List<String>): List<SentenceEntity>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE) abstract suspend fun insertPacks(items: List<WordPackEntity>)
+    @Insert(onConflict = OnConflictStrategy.REPLACE) abstract suspend fun insertSentences(items: List<SentenceEntity>)
+    @Query("DELETE FROM word_packs") abstract suspend fun clearPacks()
+    @Query("DELETE FROM sentences") abstract suspend fun clearSentences()
+
     @Insert(onConflict = OnConflictStrategy.REPLACE) abstract suspend fun insertLevels(items: List<LevelEntity>)
     @Insert(onConflict = OnConflictStrategy.REPLACE) abstract suspend fun insertLessons(items: List<LessonEntity>)
     @Insert(onConflict = OnConflictStrategy.REPLACE) abstract suspend fun insertVocab(items: List<VocabEntity>)
@@ -58,11 +78,13 @@ abstract class ContentDao {
         lessons: List<LessonEntity>,
         vocab: List<VocabEntity>,
         questions: List<QuestionEntity>,
-        tests: List<TestEntity>
+        tests: List<TestEntity>,
+        packs: List<WordPackEntity>,
+        sentences: List<SentenceEntity>
     ) {
-        clearLevels(); clearLessons(); clearVocab(); clearQuestions(); clearTests()
+        clearLevels(); clearLessons(); clearVocab(); clearQuestions(); clearTests(); clearPacks(); clearSentences()
         insertLevels(levels); insertLessons(lessons); insertVocab(vocab)
-        insertQuestions(questions); insertTests(tests)
+        insertQuestions(questions); insertTests(tests); insertPacks(packs); insertSentences(sentences)
     }
 }
 
@@ -139,14 +161,62 @@ abstract class ProgressDao {
     @Upsert
     abstract suspend fun upsertActivity(item: DailyActivityEntity)
 
+    // Sentence practice
+    @Query("SELECT * FROM sentence_progress WHERE nextReviewDay <= :today ORDER BY lastCorrect, nextReviewDay LIMIT :limit")
+    abstract suspend fun dueSentences(today: Long, limit: Int): List<SentenceProgressEntity>
+
+    @Query("SELECT COUNT(*) FROM sentence_progress p INNER JOIN sentences s ON s.id = p.sentenceId WHERE p.nextReviewDay <= :today")
+    abstract suspend fun dueSentenceCount(today: Long): Int
+
+    @Query("SELECT sentenceId FROM sentence_progress")
+    abstract suspend fun practisedSentenceIds(): List<String>
+
+    @Query("SELECT * FROM sentence_progress WHERE sentenceId = :id")
+    abstract suspend fun sentenceProgress(id: String): SentenceProgressEntity?
+
+    @Upsert
+    abstract suspend fun upsertSentenceProgress(item: SentenceProgressEntity)
+
+    @Query(
+        """SELECT s.pattern AS pattern, SUM(p.timesCorrect) AS correct, SUM(p.timesWrong) AS wrong
+           FROM sentence_progress p INNER JOIN sentences s ON s.id = p.sentenceId
+           GROUP BY s.pattern"""
+    )
+    abstract suspend fun patternStats(): List<PatternStat>
+
+    // Vocabulary builder
+    @Query("SELECT wordId FROM vocab_progress")
+    abstract suspend fun deckWordIds(): List<String>
+
+    @Query(
+        """SELECT v.id, v.ownerId, v.levelId, v.word, v.pos, v.meaningGu, v.meaningEn, v.example, v.exampleGu,
+                  p.box AS box, p.nextReviewDay AS nextReviewDay
+           FROM vocabulary v INNER JOIN vocab_progress p ON p.wordId = v.id
+           ORDER BY RANDOM() LIMIT :limit"""
+    )
+    abstract suspend fun randomDeckWords(limit: Int): List<WordWithProgress>
+
+    // Speaking
+    @Query("SELECT * FROM speaking_progress")
+    abstract suspend fun speakingProgress(): List<SpeakingProgressEntity>
+
+    @Query("SELECT * FROM speaking_progress WHERE unitId = :unitId")
+    abstract suspend fun speakingProgress(unitId: String): SpeakingProgressEntity?
+
+    @Upsert
+    abstract suspend fun upsertSpeakingProgress(item: SpeakingProgressEntity)
+
     // Reset
     @Query("DELETE FROM lesson_progress") abstract suspend fun clearLessonProgress()
     @Query("DELETE FROM vocab_progress") abstract suspend fun clearVocabProgress()
     @Query("DELETE FROM test_attempts") abstract suspend fun clearAttempts()
     @Query("DELETE FROM daily_activity") abstract suspend fun clearActivity()
+    @Query("DELETE FROM sentence_progress") abstract suspend fun clearSentenceProgress()
+    @Query("DELETE FROM speaking_progress") abstract suspend fun clearSpeakingProgress()
 
     @Transaction
     open suspend fun resetAll() {
         clearLessonProgress(); clearVocabProgress(); clearAttempts(); clearActivity()
+        clearSentenceProgress(); clearSpeakingProgress()
     }
 }
