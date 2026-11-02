@@ -1,52 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- One step of the learning path, drawn as a vertical timeline (dot + line + card), as in the design. -->
+<!-- One step of the learning path, drawn as a vertical timeline (dot + line + card), as in the Path artboard:
+     40dp dot (green = done, blue with a 5dp soft-blue halo = current, grey = locked), 3dp line, compact 18dp card. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-    <LinearLayout
-        android:layout_width="48dp"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal"
-        android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/textLevelNumber"
-            android:layout_width="44dp"
-            android:layout_height="44dp"
-            android:background="@drawable/bg_circle_primary"
-            android:fontFamily="@font/inter_extrabold"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:textSize="15sp" />
+        <!-- Line above the dot (coloured by the previous level) -->
+        <View
+            android:id="@+id/lineUp"
+            android:layout_width="3dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@color/track" />
 
+        <!-- Line below the dot (green when this level is done) -->
         <View
             android:id="@+id/lineDown"
             android:layout_width="3dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
             android:background="@color/track" />
-    </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/dotHalo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|center_horizontal">
+
+            <TextView
+                android:id="@+id/textLevelNumber"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_circle_primary"
+                android:fontFamily="@font/inter_extrabold"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </FrameLayout>
+    </FrameLayout>
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="7dp"
         android:layout_weight="1"
         android:clickable="true"
         android:focusable="true"
-        app:strokeColor="@color/brand_primary">
+        app:cardCornerRadius="18dp"
+        app:strokeColor="@color/track"
+        app:strokeWidth="1dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:minHeight="44dp"
             android:orientation="vertical"
             android:paddingHorizontal="14dp"
-            android:paddingVertical="12dp">
+            android:paddingVertical="9dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -63,33 +85,37 @@
                     android:textColor="@color/text_primary"
                     android:textSize="16sp" />
 
+                <!-- Kept for older code paths; the dot shows the state, as in the design. -->
                 <ImageView
                     android:id="@+id/iconLock"
-                    android:layout_width="18dp"
-                    android:layout_height="18dp"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
                     android:layout_marginEnd="6dp"
                     android:contentDescription="@string/status_locked"
                     android:src="@drawable/ic_lock"
+                    android:visibility="gone"
                     app:tint="@color/text_secondary" />
 
                 <ImageView
                     android:id="@+id/iconDone"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
                     android:layout_marginEnd="6dp"
                     android:contentDescription="@null"
                     android:src="@drawable/ic_check_circle"
-                    app:tint="@color/success" />
+                    android:visibility="gone"
+                    app:tint="@color/g2_correct" />
 
                 <TextView
                     android:id="@+id/textLevelBand"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
                     android:background="@drawable/bg_pill"
+                    android:ellipsize="end"
                     android:fontFamily="@font/inter_bold"
                     android:maxWidth="150dp"
                     android:maxLines="1"
-                    android:ellipsize="end"
                     android:paddingHorizontal="9dp"
                     android:paddingVertical="3dp"
                     android:textColor="@color/brand_on_primary_container"
@@ -100,22 +126,25 @@
                 android:id="@+id/textLevelTitleGu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAppearance="@style/Text.Gujarati"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/gujarati_text"
                 android:textSize="14sp" />
 
+            <!-- Not shown in the design's compact rows; kept for the id. -->
             <TextView
                 android:id="@+id/textLevelDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:textAppearance="@style/Text.Secondary"
-                android:textSize="13sp" />
+                android:textSize="13sp"
+                android:visibility="gone" />
 
             <LinearLayout
                 android:id="@+id/groupProgress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="6dp"
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
@@ -125,6 +154,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:max="100"
+                    app:indicatorColor="@color/brand_primary"
                     app:trackColor="@color/track"
                     app:trackCornerRadius="3dp"
                     app:trackThickness="6dp" />
@@ -134,7 +164,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:textAppearance="@style/Text.Secondary"
+                    android:textColor="@color/text_secondary"
                     android:textSize="12sp" />
             </LinearLayout>
         </LinearLayout>

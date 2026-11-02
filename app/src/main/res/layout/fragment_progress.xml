@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Progress (design: Progress.dc.html): title, 3x2 stat tiles, this week chart, levels, test history. -->
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -7,119 +9,187 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="@dimen/screen_padding">
+        android:paddingStart="20dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="24dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/progress_header"
-            android:textAppearance="@style/Text.Title" />
+            android:fontFamily="@font/inter_extrabold"
+            android:text="@string/g3_progress_title"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/g3_progress_title_gu"
+            android:textColor="@color/gujarati_text"
+            android:textSize="15sp" />
+
+        <!-- 3 x 2 stat tiles (8dp gaps) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-4dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="-4dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView style="@style/g3_StatCard">
+                <LinearLayout style="@style/g3_StatInner">
+                    <TextView android:id="@+id/textStreak" style="@style/g3_StatValue" android:textColor="@color/g3_streak" />
+                    <TextView style="@style/g3_StatLabel" android:text="@string/stat_streak" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView style="@style/g3_StatCard">
+                <LinearLayout style="@style/g3_StatInner">
+                    <TextView android:id="@+id/textLessons" style="@style/g3_StatValue" />
+                    <TextView style="@style/g3_StatLabel" android:text="@string/stat_lessons" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView style="@style/g3_StatCard">
+                <LinearLayout style="@style/g3_StatInner">
+                    <TextView android:id="@+id/textBestBand" style="@style/g3_StatValue" android:textColor="@color/brand_primary" />
+                    <TextView style="@style/g3_StatLabel" android:text="@string/stat_band" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="-4dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView style="@style/g3_StatCard">
+                <LinearLayout style="@style/g3_StatInner">
+                    <TextView android:id="@+id/textWords" style="@style/g3_StatValue" android:textColor="@color/g3_success_dark" />
+                    <TextView style="@style/g3_StatLabel" android:text="@string/stat_words" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView style="@style/g3_StatCard">
+                <LinearLayout style="@style/g3_StatInner">
+                    <TextView android:id="@+id/textTotalTime" style="@style/g3_StatValue" />
+                    <TextView style="@style/g3_StatLabel" android:text="@string/stat_time" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView style="@style/g3_StatCard">
+                <LinearLayout style="@style/g3_StatInner">
+                    <TextView android:id="@+id/textAvgScore" style="@style/g3_StatValue" />
+                    <TextView style="@style/g3_StatLabel" android:text="@string/stat_avg" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <!-- This week -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp">
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="20dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="8dp">
+                android:paddingStart="16dp"
+                android:paddingTop="14dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="14dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:baselineAligned="true"
                     android:orientation="horizontal">
 
-                    <LinearLayout style="@style/StatCell">
-                        <TextView android:id="@+id/textStreak" style="@style/StatCell.Value" android:textColor="@color/brand_secondary" />
-                        <TextView style="@style/StatCell.Label" android:text="@string/stat_streak" />
-                    </LinearLayout>
+                    <TextView
+                        style="@style/g3_CardTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/this_week" />
 
-                    <LinearLayout style="@style/StatCell">
-                        <TextView android:id="@+id/textLessons" style="@style/StatCell.Value" />
-                        <TextView style="@style/StatCell.Label" android:text="@string/stat_lessons" />
-                    </LinearLayout>
-
-                    <LinearLayout style="@style/StatCell">
-                        <TextView android:id="@+id/textBestBand" style="@style/StatCell.Value" android:textColor="@color/brand_primary" />
-                        <TextView style="@style/StatCell.Label" android:text="@string/stat_band" />
-                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/textWeekGoal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="12sp" />
                 </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <LinearLayout style="@style/StatCell">
-                        <TextView android:id="@+id/textWords" style="@style/StatCell.Value" android:textColor="@color/success" />
-                        <TextView style="@style/StatCell.Label" android:text="@string/stat_words" />
-                    </LinearLayout>
-
-                    <LinearLayout style="@style/StatCell">
-                        <TextView android:id="@+id/textTotalTime" style="@style/StatCell.Value" />
-                        <TextView style="@style/StatCell.Label" android:text="@string/stat_time" />
-                    </LinearLayout>
-
-                    <LinearLayout style="@style/StatCell">
-                        <TextView android:id="@+id/textAvgScore" style="@style/StatCell.Value" />
-                        <TextView style="@style/StatCell.Label" android:text="@string/stat_avg" />
-                    </LinearLayout>
-                </LinearLayout>
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/card_gap">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/this_week"
-                    android:textAppearance="@style/Text.Subtitle"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textWeekGoal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="@style/Text.Secondary" />
 
                 <com.goal.ieltsreading.ui.progress.WeeklyChartView
                     android:id="@+id/chartWeek"
                     android:layout_width="match_parent"
-                    android:layout_height="160dp"
-                    android:layout_marginTop="12dp"
-                    android:paddingTop="4dp" />
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/g3_bg_legend_goal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:text="@string/g3_legend_goal"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="12sp" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="14dp"
+                        android:background="@drawable/g3_bg_legend_studied" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:text="@string/g3_legend_studied"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="12sp" />
+                </LinearLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
+        <!-- Levels -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/card_gap">
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="20dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:paddingStart="16dp"
+                android:paddingTop="14dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="14dp">
 
                 <TextView
+                    style="@style/g3_CardTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/levels_progress"
-                    android:textAppearance="@style/Text.Subtitle"
-                    android:textStyle="bold" />
+                    android:text="@string/levels_progress" />
 
                 <LinearLayout
                     android:id="@+id/levelsContainer"
@@ -129,31 +199,37 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
+        <!-- Test history -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/card_gap">
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="20dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:paddingStart="16dp"
+                android:paddingTop="14dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp">
 
                 <TextView
+                    style="@style/g3_CardTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/test_history"
-                    android:textAppearance="@style/Text.Subtitle"
-                    android:textStyle="bold" />
+                    android:text="@string/test_history" />
 
                 <TextView
                     android:id="@+id/textNoAttempts"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
+                    android:layout_marginBottom="6dp"
                     android:text="@string/no_attempts"
-                    android:textAppearance="@style/Text.Secondary" />
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp" />
 
                 <LinearLayout
                     android:id="@+id/attemptsContainer"

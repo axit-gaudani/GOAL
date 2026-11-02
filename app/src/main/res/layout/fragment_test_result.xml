@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Test result (design: TestResult.dc.html): band card, score by question type, advice, answer review. -->
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -7,77 +9,130 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="@dimen/screen_padding">
+        android:paddingStart="20dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="24dp">
 
-        <LinearLayout
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_header"
-            android:gravity="center_horizontal"
-            android:orientation="vertical"
-            android:padding="24dp">
+            app:cardBackgroundColor="@color/g3_blue_card"
+            app:cardCornerRadius="28dp">
 
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/estimated_band"
-                android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
-                android:textColor="@color/white" />
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="24dp">
 
-            <TextView
-                android:id="@+id/textBand"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.Material3.DisplayLarge"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="@string/g3_estimated_band"
+                    android:textColor="@color/g3_on_blue_soft"
+                    android:textSize="14sp" />
 
-            <TextView
-                android:id="@+id/textTestTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
-                android:textColor="@color/white" />
+                <TextView
+                    android:id="@+id/textBand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/inter_extrabold"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/white"
+                    android:textSize="72sp" />
 
-            <TextView
-                android:id="@+id/textScore"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
-                android:textColor="@color/white" />
+                <TextView
+                    android:id="@+id/textTestTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
 
-            <TextView
-                android:id="@+id/textTime"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
-                android:textColor="@color/white" />
-        </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textScore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="16dp"
+                        android:text="@string/g3_dot"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
             android:text="@string/band_note"
-            android:textAppearance="@style/Text.Secondary" />
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp" />
+
+        <!-- Score by question type: one bar per type, filled in code -->
+        <LinearLayout
+            android:id="@+id/groupTypeScores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/g3_CardTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/g3_score_by_type" />
+
+            <LinearLayout
+                android:id="@+id/typeScoresContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textAdvice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:background="@drawable/bg_gujarati"
-            android:padding="14dp"
-            android:textAppearance="@style/Text.Body" />
+            android:layout_marginTop="14dp"
+            android:background="@drawable/g3_bg_amber18"
+            android:lineSpacingExtra="6sp"
+            android:paddingHorizontal="14dp"
+            android:paddingVertical="12dp"
+            android:textColor="@color/g3_amber_text"
+            android:textSize="14sp" />
 
         <TextView
+            style="@style/g3_CardTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/answer_review"
-            android:textAppearance="@style/Text.Title" />
+            android:layout_marginTop="14dp"
+            android:text="@string/answer_review" />
 
         <LinearLayout
             android:id="@+id/reviewContainer"
@@ -87,11 +142,11 @@
 
         <TextView
             android:id="@+id/textGlossaryHeader"
+            style="@style/g3_CardTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/glossary"
-            android:textAppearance="@style/Text.Title" />
+            android:layout_marginTop="18dp"
+            android:text="@string/glossary" />
 
         <LinearLayout
             android:id="@+id/glossaryContainer"
@@ -103,15 +158,21 @@
             android:id="@+id/btnAddGlossary"
             style="@style/Widget.App.Button.Tonal"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="54dp"
             android:layout_marginTop="12dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
             android:text="@string/btn_add_glossary" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnDone"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/btn_done" />
+            android:layout_height="54dp"
+            android:layout_marginTop="14dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btn_done"
+            android:textSize="17sp"
+            app:cornerRadius="16dp" />
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

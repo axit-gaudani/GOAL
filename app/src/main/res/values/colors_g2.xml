@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colours used by the Path, Lesson, Practice and Result screens (group g2). -->
+<resources>
+    <color name="g2_correct">#15803D</color>
+    <color name="g2_correct_soft">#DCF5E6</color>
+    <color name="g2_correct_text">#0F5A2C</color>
+    <color name="g2_wrong_text">#991B1B</color>
+    <color name="g2_teal_dark">#0E7C6B</color>
+    <color name="g2_teal_soft">#D7F3EE</color>
+    <color name="g2_teal_text">#0B5C52</color>
+    <color name="g2_teal_value">#0B7A6C</color>
+    <color name="g2_amber_text">#8A5A00</color>
+</resources>

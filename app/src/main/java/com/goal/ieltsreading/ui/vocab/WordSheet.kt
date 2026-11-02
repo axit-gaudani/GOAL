@@ -34,6 +34,10 @@ class WordSheet : BottomSheetDialogFragment() {
         binding.textExample.text = example
         binding.textExampleGu.text = args.getString(ARG_EXAMPLE_GU)
         binding.groupExample.visibleIf(example.isNotBlank())
+        val pronunciation = args.getString(ARG_PRONUNCIATION_GU).orEmpty()
+        binding.textPronunciation.text = pronunciation
+        binding.textPronunciation.visibleIf(pronunciation.isNotBlank())
+        binding.textPos.visibleIf(!args.getString(ARG_POS).isNullOrBlank())
 
         val word = args.getString(ARG_WORD).orEmpty()
         binding.btnPlay.setOnClickListener { app.speaker.speak(word) }
@@ -61,13 +65,15 @@ class WordSheet : BottomSheetDialogFragment() {
         private const val ARG_EN = "en"
         private const val ARG_EXAMPLE = "example"
         private const val ARG_EXAMPLE_GU = "exampleGu"
+        private const val ARG_PRONUNCIATION_GU = "pronunciationGu"
 
         fun newInstance(
-            id: String, word: String, pos: String, meaningGu: String, meaningEn: String, example: String, exampleGu: String
+            id: String, word: String, pos: String, meaningGu: String, meaningEn: String, example: String, exampleGu: String,
+            pronunciationGu: String = ""
         ) = WordSheet().apply {
             arguments = bundleOf(
                 ARG_ID to id, ARG_WORD to word, ARG_POS to pos, ARG_GU to meaningGu, ARG_EN to meaningEn,
-                ARG_EXAMPLE to example, ARG_EXAMPLE_GU to exampleGu
+                ARG_EXAMPLE to example, ARG_EXAMPLE_GU to exampleGu, ARG_PRONUNCIATION_GU to pronunciationGu
             )
         }
     }

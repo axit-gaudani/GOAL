@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="g2_correct">#22A55A</color>
+    <color name="g2_correct_soft">#123D24</color>
+    <color name="g2_correct_text">#A7F3C0</color>
+    <color name="g2_wrong_text">#FCA5A5</color>
+    <color name="g2_teal_dark">#0B5C52</color>
+    <color name="g2_teal_soft">#133F39</color>
+    <color name="g2_teal_text">#7FE0D0</color>
+    <color name="g2_teal_value">#4FD1BD</color>
+    <color name="g2_amber_text">#FBBF24</color>
+</resources>

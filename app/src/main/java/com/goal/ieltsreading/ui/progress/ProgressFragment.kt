@@ -5,6 +5,7 @@ import android.text.format.DateFormat
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.goal.ieltsreading.R
@@ -35,7 +36,7 @@ class ProgressFragment : Fragment() {
             binding.textTotalTime.text = getString(R.string.total_time_format, s.totalMinutes / 60, s.totalMinutes % 60)
             binding.textAvgScore.text = getString(R.string.percent_format, s.averageLessonScore)
             binding.chartWeek.setData(s.week, viewModel.goalMinutes)
-            binding.textWeekGoal.text = getString(R.string.week_goal_format, s.week.count { it.reachedGoal })
+            binding.textWeekGoal.text = getString(R.string.g3_week_goal_format, s.week.count { it.reachedGoal })
 
             binding.levelsContainer.removeAllViews()
             for (l in s.levels) {
@@ -43,6 +44,10 @@ class ProgressFragment : Fragment() {
                 item.textName.text = getString(R.string.level_title_format, l.level.sortOrder, l.level.title)
                 item.textCount.text = getString(R.string.fraction_format, l.completedLessons, l.totalLessons)
                 item.progress.setProgressCompat(l.percent, false)
+                // Finished levels get a green bar, the others blue (as in the design).
+                item.progress.setIndicatorColor(
+                    ContextCompat.getColor(requireContext(), if (l.finished) R.color.g3_success_dark else R.color.brand_primary)
+                )
                 binding.levelsContainer.addView(item.root)
             }
 

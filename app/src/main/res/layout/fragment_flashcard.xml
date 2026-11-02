@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Word review (design: Flashcard.dc.html). The toolbar gives the close/back arrow. -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/screen_padding">
+    android:paddingStart="20dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="24dp">
 
     <LinearLayout
         android:id="@+id/groupCard"
@@ -11,56 +15,102 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.google.android.material.progressindicator.LinearProgressIndicator
-            android:id="@+id/progress"
+        <!-- Title + amber progress bar + counter -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:trackColor="@color/track"
-            app:trackCornerRadius="4dp"
-            app:trackThickness="8dp" />
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textCounter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:layout_marginTop="4dp"
-            android:textAppearance="@style/Text.Secondary" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="@string/g3_review_title_gu"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp" />
+
+                <com.google.android.material.progressindicator.LinearProgressIndicator
+                    android:id="@+id/progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    app:indicatorColor="@color/brand_secondary"
+                    app:trackColor="@color/track"
+                    app:trackCornerRadius="4dp"
+                    app:trackThickness="8dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp" />
+        </LinearLayout>
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardWord"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="14dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:focusable="true">
+            android:focusable="true"
+            app:cardCornerRadius="28dp">
 
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:fillViewport="true">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:orientation="vertical"
-                    android:padding="24dp">
+                    android:paddingStart="22dp"
+                    android:paddingTop="26dp"
+                    android:paddingEnd="22dp"
+                    android:paddingBottom="22dp">
+
+                    <TextView
+                        android:id="@+id/textBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:background="@drawable/bg_pill_amber"
+                        android:fontFamily="@font/inter_bold"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:textColor="@color/g3_amber_text"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
 
                     <TextView
                         android:id="@+id/textWord"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="24dp"
-                        android:textAppearance="@style/TextAppearance.Material3.DisplaySmall"
+                        android:layout_marginTop="22dp"
+                        android:fontFamily="@font/inter_extrabold"
+                        android:gravity="center"
                         android:textColor="@color/brand_primary"
-                        android:textStyle="bold" />
+                        android:textSize="42sp" />
 
                     <TextView
                         android:id="@+id/textPos"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textAppearance="@style/Text.Secondary"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="15sp"
                         android:textStyle="italic" />
 
                     <com.google.android.material.button.MaterialButton
@@ -68,60 +118,81 @@
                         style="@style/Widget.Material3.Button.IconButton.Filled"
                         android:layout_width="56dp"
                         android:layout_height="56dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginTop="14dp"
                         android:contentDescription="@string/cd_play"
-                        app:icon="@drawable/ic_volume" />
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:padding="15dp"
+                        app:backgroundTint="@color/speak_dark"
+                        app:cornerRadius="28dp"
+                        app:icon="@drawable/ic_volume"
+                        app:iconSize="26dp"
+                        app:iconTint="@color/white" />
 
                     <TextView
                         android:id="@+id/textExample"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="16dp"
                         android:gravity="center"
-                        android:textAppearance="@style/Text.Reading"
+                        android:lineSpacingExtra="7sp"
+                        android:textColor="@color/text_primary"
+                        android:textSize="17sp"
                         android:textStyle="italic" />
 
                     <TextView
+                        android:id="@+id/textHint"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:gravity="center"
                         android:text="@string/tap_to_reveal"
-                        android:textAppearance="@style/Text.Secondary" />
+                        android:textColor="@color/text_secondary"
+                        android:textSize="14sp" />
+
+                    <!-- Pushes the meaning box to the bottom of the card -->
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:minHeight="16dp" />
 
                     <LinearLayout
                         android:id="@+id/groupAnswer"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/bg_gujarati"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/g3_bg_soft20"
                         android:gravity="center_horizontal"
                         android:orientation="vertical"
-                        android:padding="16dp">
+                        android:padding="18dp">
 
                         <TextView
                             android:id="@+id/textMeaningGu"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/inter_extrabold"
                             android:gravity="center"
-                            android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
-                            android:textColor="@color/gujarati_text" />
+                            android:textColor="@color/gujarati_text"
+                            android:textSize="30sp" />
 
                         <TextView
                             android:id="@+id/textMeaningEn"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
+                            android:layout_marginTop="6dp"
                             android:gravity="center"
-                            android:textAppearance="@style/Text.Body" />
+                            android:textColor="@color/text_secondary"
+                            android:textSize="15sp" />
 
                         <TextView
                             android:id="@+id/textExampleGu"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
+                            android:layout_marginTop="6dp"
                             android:gravity="center"
-                            android:textAppearance="@style/Text.Gujarati" />
+                            android:textColor="@color/gujarati_text"
+                            android:textSize="15sp" />
                     </LinearLayout>
                 </LinearLayout>
             </ScrollView>
@@ -130,36 +201,51 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnShow"
             android:layout_width="match_parent"
-            android:layout_height="68dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/btn_show_meaning" />
+            android:layout_height="62dp"
+            android:layout_marginTop="14dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btn_show_meaning"
+            app:cornerRadius="18dp" />
 
         <LinearLayout
             android:id="@+id/groupButtons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="14dp"
             android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnDidNotKnow"
                 style="@style/Widget.App.Button.Outlined"
                 android:layout_width="0dp"
-                android:layout_height="68dp"
+                android:layout_height="62dp"
                 android:layout_marginEnd="6dp"
                 android:layout_weight="1"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:lineSpacingExtra="0dp"
+                android:padding="4dp"
                 android:text="@string/btn_did_not_know"
-                android:textColor="@color/error"
-                app:strokeColor="@color/error" />
+                android:textColor="@color/g3_error_dark"
+                app:backgroundTint="@color/surface"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/error"
+                app:strokeWidth="2dp" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnKnew"
                 android:layout_width="0dp"
-                android:layout_height="68dp"
+                android:layout_height="62dp"
                 android:layout_marginStart="6dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/success"
-                android:text="@string/btn_knew" />
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:padding="4dp"
+                android:text="@string/btn_knew"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/g3_green_fill"
+                app:cornerRadius="18dp" />
         </LinearLayout>
     </LinearLayout>
 
@@ -177,7 +263,7 @@
             android:layout_height="72dp"
             android:contentDescription="@null"
             android:src="@drawable/ic_check_circle"
-            app:tint="@color/success" />
+            app:tint="@color/g3_success_dark" />
 
         <TextView
             android:id="@+id/textFinishedTitle"

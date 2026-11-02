@@ -5,7 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.core.os.bundleOf
+import androidx.core.text.buildSpannedString
+import androidx.core.text.color
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
@@ -38,7 +41,15 @@ class LevelDetailFragment : Fragment() {
             if (level == null) return@observe
             (activity as? AppCompatActivity)?.supportActionBar?.title = getString(R.string.level_title_format, level.sortOrder, level.title)
             binding.textHeader.text = level.band
-            binding.textSubHeader.text = "${level.description}\n${level.descriptionGu}"
+            // English description, then the Gujarati line in the Gujarati colour (as on the Path screen).
+            val guColor = ContextCompat.getColor(requireContext(), R.color.gujarati_text)
+            binding.textSubHeader.text = buildSpannedString {
+                append(level.description)
+                if (level.descriptionGu.isNotBlank()) {
+                    if (level.description.isNotBlank()) append("\n")
+                    color(guColor) { append(level.descriptionGu) }
+                }
+            }
         }
         viewModel.lessons.observe(viewLifecycleOwner) { adapter.submitList(it) }
     }

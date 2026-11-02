@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Practice as in the Practice artboard: counter + progress + "Passage" button, question type chip,
+     Gujarati instruction, big question, options; after checking, a coloured bottom panel
+     (green = right, red = wrong) with the explanation and the Next button inside it. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -10,7 +13,8 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:paddingHorizontal="@dimen/screen_padding">
+        android:paddingHorizontal="20dp"
+        android:paddingTop="4dp">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -22,13 +26,16 @@
                 android:id="@+id/textCounter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="@style/Text.Label" />
+                android:fontFamily="@font/inter_bold"
+                android:textColor="@color/brand_primary"
+                android:textSize="13sp" />
 
             <com.google.android.material.progressindicator.LinearProgressIndicator
                 android:id="@+id/progress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
+                app:indicatorColor="@color/brand_primary"
                 app:trackColor="@color/track"
                 app:trackCornerRadius="4dp"
                 app:trackThickness="8dp" />
@@ -38,10 +45,17 @@
             android:id="@+id/btnPassage"
             style="@style/Widget.App.Button.Tonal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="10dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:paddingHorizontal="12dp"
             android:text="@string/btn_view_passage"
-            app:icon="@drawable/ic_article" />
+            android:textSize="14sp"
+            app:cornerRadius="14dp"
+            app:icon="@drawable/ic_article"
+            app:iconPadding="6dp"
+            app:iconSize="18dp" />
     </LinearLayout>
 
     <androidx.core.widget.NestedScrollView
@@ -54,39 +68,42 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="@dimen/screen_padding">
+            android:paddingHorizontal="20dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="14dp">
 
             <TextView
                 android:id="@+id/textType"
+                style="@style/Text.G2.Chip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_pill"
-                android:paddingHorizontal="12dp"
-                android:paddingVertical="3dp"
-                android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
-                android:textColor="@color/brand_on_primary_container" />
+                android:textAllCaps="true" />
 
             <TextView
                 android:id="@+id/textTypeGu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:textAppearance="@style/Text.Secondary" />
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp" />
 
             <TextView
                 android:id="@+id/textPrompt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
-                android:textColor="@color/text_primary" />
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_bold"
+                android:lineSpacingExtra="4dp"
+                android:textColor="@color/text_primary"
+                android:textSize="22sp" />
 
             <TextView
                 android:id="@+id/textPromptGu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:textAppearance="@style/Text.Gujarati" />
+                android:layout_marginTop="10dp"
+                android:textColor="@color/gujarati_text"
+                android:textSize="16sp" />
 
             <LinearLayout
                 android:id="@+id/groupListen"
@@ -103,7 +120,8 @@
                     android:layout_marginEnd="6dp"
                     android:layout_weight="1"
                     android:text="@string/btn_listen"
-                    app:icon="@drawable/ic_volume" />
+                    app:backgroundTint="@color/g2_teal_dark"
+                    app:icon="@drawable/ic_g2_speaker" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnListenSlow"
@@ -112,22 +130,25 @@
                     android:layout_height="64dp"
                     android:layout_marginStart="6dp"
                     android:layout_weight="1"
-                    android:text="@string/btn_slow" />
+                    android:text="@string/btn_slow"
+                    android:textColor="@color/g2_teal_text"
+                    app:backgroundTint="@color/g2_teal_soft" />
             </LinearLayout>
 
             <TextView
                 android:id="@+id/textWordLimit"
+                style="@style/Text.G2.Chip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textAppearance="@style/Text.Label"
-                android:textColor="@color/brand_secondary" />
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_pill_amber"
+                android:textColor="@color/g2_amber_text" />
 
             <LinearLayout
                 android:id="@+id/optionsContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="6dp"
                 android:orientation="vertical" />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -136,7 +157,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                android:hint="@string/answer_hint">
+                android:hint="@string/answer_hint"
+                app:boxBackgroundColor="@color/surface"
+                app:boxCornerRadiusBottomEnd="16dp"
+                app:boxCornerRadiusBottomStart="16dp"
+                app:boxCornerRadiusTopEnd="16dp"
+                app:boxCornerRadiusTopStart="16dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/inputAnswer"
@@ -144,59 +170,77 @@
                     android:layout_height="wrap_content"
                     android:imeOptions="actionDone"
                     android:inputType="text|textNoSuggestions"
-                    android:maxLines="1" />
+                    android:maxLines="1"
+                    android:textSize="17sp" />
             </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cardFeedback"
-                style="@style/Widget.App.Card.Tinted"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
-
-                    <TextView
-                        android:id="@+id/textFeedbackTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/textCorrectAnswer"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
-                        android:textAppearance="@style/Text.Subtitle"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/textExplanation"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:textAppearance="@style/Text.Body" />
-
-                    <TextView
-                        android:id="@+id/textExplanationGu"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:textAppearance="@style/Text.Gujarati" />
-                </LinearLayout>
-            </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnAction"
+    <!-- Bottom area: just the Check button before checking; a red/green panel with 28dp top corners after. -->
+    <LinearLayout
+        android:id="@+id/panelFeedback"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_margin="@dimen/screen_padding"
-        android:text="@string/btn_check" />
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_g2_panel"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:id="@+id/cardFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="6dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textFeedbackTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:accessibilityLiveRegion="polite"
+                android:fontFamily="@font/inter_extrabold"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textCorrectAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/inter_bold"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textExplanation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="4dp"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textExplanationGu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_g2_card_14"
+                android:lineSpacingExtra="5dp"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="10dp"
+                android:textColor="@color/gujarati_text"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAction"
+            style="@style/Widget.G2.Button.Big"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/btn_check"
+            app:cornerRadius="16dp" />
+    </LinearLayout>
 </LinearLayout>

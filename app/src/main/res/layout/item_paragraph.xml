@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- One passage paragraph (18sp / 30 line height) with its Gujarati translation in a soft box. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="14dp"
+    android:layout_marginTop="12dp"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/textEnglish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/Text.Reading" />
+        android:lineSpacingExtra="8dp"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textGujarati"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:background="@drawable/bg_gujarati"
-        android:padding="12dp"
-        android:textAppearance="@style/Text.Gujarati" />
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_g2_gu_box"
+        android:lineSpacingExtra="5dp"
+        android:paddingHorizontal="14dp"
+        android:paddingVertical="10dp"
+        android:textColor="@color/gujarati_text"
+        android:textSize="15sp" />
 </LinearLayout>

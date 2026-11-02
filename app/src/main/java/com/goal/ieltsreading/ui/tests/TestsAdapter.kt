@@ -2,6 +2,7 @@ package com.goal.ieltsreading.ui.tests
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -27,18 +28,22 @@ class TestsAdapter(private val onClick: (TestItem) -> Unit) : ListAdapter<TestIt
         b.textBand.textSize = if (b.textBand.text.length > 4) 13f else 17f
         b.textTitle.text = item.test.title
         b.textTitleGu.text = item.test.titleGu
-        b.textMeta.text = ctx.getString(R.string.test_meta_format, item.test.minutes)
         b.textBest.text = item.bestBand?.let { ctx.getString(R.string.best_band_format, BandCalculator.format(it), item.attempts) }
-            ?: ctx.getString(R.string.not_attempted)
+            ?: ctx.getString(R.string.g3_not_tried_format, item.test.minutes)
         b.textLocked.text = ctx.getString(R.string.test_locked_format, item.requiredLevelTitle)
         b.textLocked.visibleIf(!item.unlocked)
         b.iconLock.visibleIf(!item.unlocked)
         b.iconChevron.visibleIf(item.unlocked)
         b.textBest.visibleIf(item.unlocked)
-        (b.root as com.google.android.material.card.MaterialCardView).setCardBackgroundColor(
-            androidx.core.content.ContextCompat.getColor(ctx, if (item.unlocked) R.color.surface else R.color.surface_variant)
+        // Locked tests: grey card and white badge, as in the design.
+        b.root.setCardBackgroundColor(ContextCompat.getColor(ctx, if (item.unlocked) R.color.surface else R.color.surface_variant))
+        b.textBand.background.mutate().setTint(
+            ContextCompat.getColor(ctx, if (item.unlocked) R.color.brand_primary_container else R.color.surface)
         )
-        b.root.alpha = if (item.unlocked) 1f else 0.8f
+        b.textBand.setTextColor(
+            ContextCompat.getColor(ctx, if (item.unlocked) R.color.brand_on_primary_container else R.color.text_secondary)
+        )
+        b.root.alpha = if (item.unlocked) 1f else 0.85f
         b.root.setOnClickListener { onClick(item) }
     }
 

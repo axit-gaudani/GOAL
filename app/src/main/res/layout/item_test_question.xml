@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- One test question (design: TimedTest.dc.html). TFNG/YNNG = 3 pills, MCQ = radios, FILL = small box. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:paddingBottom="12dp">
+    android:paddingBottom="6dp">
 
     <TextView
         android:id="@+id/textGroupHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="4dp"
-        android:background="@drawable/bg_gujarati"
-        android:padding="10dp"
-        android:textAppearance="@style/Text.Label" />
+        android:background="@drawable/g3_bg_soft12"
+        android:fontFamily="@font/inter_bold"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="10dp"
+        android:textColor="@color/brand_on_primary_container"
+        android:textSize="13sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textNumber"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
             android:background="@drawable/bg_circle_soft"
+            android:fontFamily="@font/inter_extrabold"
             android:gravity="center"
-            android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
             android:textColor="@color/brand_on_primary_container"
-            android:textStyle="bold" />
+            android:textSize="13sp" />
 
         <TextView
             android:id="@+id/textPrompt"
@@ -37,39 +41,58 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_weight="1"
-            android:textAppearance="@style/Text.Body" />
+            android:lineSpacingExtra="4sp"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/textWordLimit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="38dp"
         android:layout_marginTop="4dp"
-        android:textAppearance="@style/Text.Label"
-        android:textColor="@color/brand_secondary" />
+        android:fontFamily="@font/inter_bold"
+        android:textColor="@color/g3_amber_text"
+        android:textSize="12sp" />
 
+    <!-- TRUE / FALSE / NOT GIVEN (or YES / NO / NOT GIVEN) pills, added in code -->
+    <LinearLayout
+        android:id="@+id/groupPills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal" />
+
+    <!-- Multiple choice options, added in code -->
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="4dp" />
 
-    <com.google.android.material.textfield.TextInputLayout
+    <!-- Fill-in answer box -->
+    <FrameLayout
         android:id="@+id/inputLayout"
-        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.Dense"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="6dp"
-        android:hint="@string/answer_hint">
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="8dp">
 
-        <com.google.android.material.textfield.TextInputEditText
+        <EditText
             android:id="@+id/inputAnswer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="44dp"
+            android:background="@drawable/g3_bg_input"
+            android:hint="@string/answer_hint"
+            android:importantForAutofill="no"
             android:inputType="text|textNoSuggestions"
-            android:maxLines="1" />
-    </com.google.android.material.textfield.TextInputLayout>
+            android:maxLines="1"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_secondary"
+            android:textSize="15sp" />
+    </FrameLayout>
 </LinearLayout>

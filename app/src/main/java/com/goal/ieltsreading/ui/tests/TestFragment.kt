@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.RadioButton
 import androidx.activity.OnBackPressedCallback
 import androidx.core.content.ContextCompat
 import androidx.core.os.bundleOf
@@ -21,10 +20,12 @@ import com.goal.ieltsreading.domain.QuestionType
 import com.goal.ieltsreading.ui.common.StudyTimeTracker
 import com.goal.ieltsreading.ui.common.app
 import com.goal.ieltsreading.ui.common.visibleIf
+import com.google.android.material.button.MaterialButton
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import com.google.android.material.radiobutton.MaterialRadioButton
 
 /**
- * Timed practice test. A toggle switches between the passage and the questions,
+ * Timed practice test. Two buttons switch between the passage and the questions,
  * like moving between the text and the answer sheet in the real exam.
  */
 class TestFragment : Fragment() {
@@ -55,12 +56,9 @@ class TestFragment : Fragment() {
             }
         })
 
-        binding.toggleView.addOnButtonCheckedListener { _, checkedId, isChecked ->
-            if (!isChecked) return@addOnButtonCheckedListener
-            binding.scrollPassage.visibleIf(checkedId == R.id.btnShowPassage)
-            binding.scrollQuestions.visibleIf(checkedId == R.id.btnShowQuestions)
-        }
-        binding.toggleView.check(R.id.btnShowPassage)
+        binding.btnShowPassage.setOnClickListener { showPassage(true) }
+        binding.btnShowQuestions.setOnClickListener { showPassage(false) }
+        showPassage(true)
 
         binding.btnSubmit.setOnClickListener {
             val total = viewModel.questions.value.orEmpty().size
@@ -81,12 +79,12 @@ class TestFragment : Fragment() {
         viewModel.questions.observe(viewLifecycleOwner) { renderQuestions(it) }
         viewModel.secondsLeft.observe(viewLifecycleOwner) { s ->
             binding.textTimer.text = getString(R.string.timer_format, s / 60, s % 60)
-            binding.textTimer.setTextColor(
-                ContextCompat.getColor(requireContext(), if (s <= 120) R.color.error else R.color.brand_primary)
-            )
+            val color = ContextCompat.getColor(requireContext(), if (s <= 120) R.color.error else R.color.g3_amber_text)
+            binding.textTimer.setTextColor(color)
+            binding.iconTimer.setColorFilter(color)
         }
         viewModel.answeredCount.observe(viewLifecycleOwner) { n ->
-            binding.textAnswered.text = getString(R.string.answered_format, n, viewModel.questions.value.orEmpty().size)
+            binding.textAnswered.text = getString(R.string.g3_answered_format, n, viewModel.questions.value.orEmpty().size)
         }
         viewModel.submittedAttemptId.observe(viewLifecycleOwner) { id ->
             if (id == null) return@observe
@@ -98,41 +96,81 @@ class TestFragment : Fragment() {
         }
     }
 
+    /** Passage / Questions switch: exactly one of the two buttons is selected. */
+    private fun showPassage(passage: Boolean) {
+        binding.btnShowPassage.isChecked = passage
+        binding.btnShowQuestions.isChecked = !passage
+        binding.scrollPassage.visibleIf(passage)
+        binding.scrollQuestions.visibleIf(!passage)
+    }
+
     private fun renderQuestions(questions: List<QuestionEntity>) {
         binding.questionsContainer.removeAllViews()
-        var lastType = ""
+        val gap = (8 * resources.displayMetrics.density).toInt()
         questions.forEachIndexed { index, q ->
             val item = ItemTestQuestionBinding.inflate(layoutInflater, binding.questionsContainer, false)
-            // Show an instruction header when a new question group starts (like the real exam).
-            item.textGroupHeader.visibleIf(q.type != lastType)
-            item.textGroupHeader.text = QuestionType.label(q.type)
-            lastType = q.type
+            // Show an instruction header when a new question group starts (like the real exam),
+            // with the question numbers it covers: "Questions 1–5 · True / False / Not Given".
+            val startsGroup = index == 0 || questions[index - 1].type != q.type
+            item.textGroupHeader.visibleIf(startsGroup)
+            if (startsGroup) {
+                var end = index
+                while (end + 1 < questions.size && questions[end + 1].type == q.type) end++
+                val label = QuestionType.label(q.type)
+                item.textGroupHeader.text = if (end == index) getString(R.string.g3_question_single, index + 1, label)
+                else getString(R.string.g3_questions_range, index + 1, end + 1, label)
+            }
             item.textNumber.text = (index + 1).toString()
             item.textPrompt.text = q.prompt
             item.textWordLimit.text = q.wordLimit
             item.textWordLimit.visibleIf(q.type == QuestionType.FILL && q.wordLimit.isNotBlank())
 
             val saved = viewModel.answers[q.id]
-            if (q.type == QuestionType.FILL) {
-                item.radioGroup.visibleIf(false)
-                item.inputLayout.visibleIf(true)
-                item.inputAnswer.setText(saved.orEmpty())
-                item.inputAnswer.doAfterTextChanged { viewModel.setAnswer(q.id, it?.toString().orEmpty()) }
-            } else {
-                item.inputLayout.visibleIf(false)
-                item.radioGroup.visibleIf(true)
-                for (option in QuestionType.optionsFor(q)) {
-                    val radio = RadioButton(requireContext())
-                    radio.id = View.generateViewId()
-                    radio.text = option
-                    radio.isChecked = option == saved
-                    radio.setOnCheckedChangeListener { _, checked -> if (checked) viewModel.setAnswer(q.id, option) }
-                    item.radioGroup.addView(radio)
+            val isPills = q.type == QuestionType.TFNG || q.type == QuestionType.YNNG
+            item.inputLayout.visibleIf(q.type == QuestionType.FILL)
+            item.groupPills.visibleIf(isPills)
+            item.radioGroup.visibleIf(!isPills && q.type != QuestionType.FILL)
+            when {
+                q.type == QuestionType.FILL -> {
+                    item.inputAnswer.setText(saved.orEmpty())
+                    item.inputAnswer.doAfterTextChanged { viewModel.setAnswer(q.id, it?.toString().orEmpty()) }
+                }
+                isPills -> {
+                    val options = QuestionType.optionsFor(q)
+                    val pills = options.mapIndexed { i, option ->
+                        val pill = layoutInflater.inflate(R.layout.g3_item_pill_option, item.groupPills, false) as MaterialButton
+                        pill.text = option
+                        pill.isChecked = option == saved
+                        if (i < options.lastIndex) {
+                            (pill.layoutParams as ViewGroup.MarginLayoutParams).marginEnd = gap
+                        }
+                        item.groupPills.addView(pill)
+                        pill
+                    }
+                    pills.forEachIndexed { i, pill ->
+                        pill.setOnClickListener {
+                            pills.forEach { it.isChecked = it === pill }
+                            viewModel.setAnswer(q.id, options[i])
+                        }
+                    }
+                }
+                else -> {
+                    for (option in QuestionType.optionsFor(q)) {
+                        val radio = MaterialRadioButton(requireContext())
+                        radio.id = View.generateViewId()
+                        radio.text = option
+                        radio.textSize = 15f
+                        radio.minHeight = (44 * resources.displayMetrics.density).toInt()
+                        radio.buttonTintList = ContextCompat.getColorStateList(requireContext(), R.color.g3_pill_stroke)
+                        radio.isChecked = option == saved
+                        radio.setOnCheckedChangeListener { _, checked -> if (checked) viewModel.setAnswer(q.id, option) }
+                        item.radioGroup.addView(radio)
+                    }
                 }
             }
             binding.questionsContainer.addView(item.root)
         }
-        binding.textAnswered.text = getString(R.string.answered_format, viewModel.answers.size, questions.size)
+        binding.textAnswered.text = getString(R.string.g3_answered_format, viewModel.answers.size, questions.size)
     }
 
     override fun onDestroyView() {

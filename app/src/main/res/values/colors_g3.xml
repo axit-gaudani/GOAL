@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Group 3 colours (Word review, Tests, Timed test, Test result, Progress, Settings) -->
+    <color name="g3_amber_text">#6B4500</color>
+    <color name="g3_streak">#8A5A00</color>
+    <color name="g3_success_dark">#15803D</color>
+    <color name="g3_error_dark">#B91C1C</color>
+    <color name="g3_studied">#9DB4F0</color>
+    <color name="g3_blue_card">#1F5EDB</color>
+    <color name="g3_on_blue_soft">#E6FFFFFF</color>
+    <color name="g3_green_fill">#15803D</color>
+    <color name="g3_red_fill">#DC2626</color>
+</resources>

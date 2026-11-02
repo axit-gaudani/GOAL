@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -26,7 +27,9 @@ class LevelsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.textHeader.text = getString(R.string.levels_header)
-        binding.textSubHeader.text = getString(R.string.levels_subheader)
+        // Gujarati line under the title, as in the Path design.
+        binding.textSubHeader.text = getString(R.string.g2_levels_subheader)
+        binding.textSubHeader.setTextColor(ContextCompat.getColor(requireContext(), R.color.gujarati_text))
         binding.groupHeaderActions.visibility = View.VISIBLE
         binding.btnHeaderAction.text = getString(R.string.title_sentence_practice)
         binding.btnHeaderAction.setOnClickListener { findNavController().navigate(R.id.sentenceHubFragment) }

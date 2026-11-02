@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="g3_amber_text">#FFD58A</color>
+    <color name="g3_streak">#FBBF24</color>
+    <color name="g3_success_dark">#4ADE80</color>
+    <color name="g3_error_dark">#F87171</color>
+    <color name="g3_studied">#3D5A9E</color>
+    <color name="g3_blue_card">#2A56B8</color>
+    <color name="g3_on_blue_soft">#E6FFFFFF</color>
+    <color name="g3_green_fill">#15803D</color>
+    <color name="g3_red_fill">#B91C1C</color>
+</resources>

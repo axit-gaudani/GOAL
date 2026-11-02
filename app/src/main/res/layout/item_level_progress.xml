@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Name + count, thin bar underneath (Progress "Levels" card; also used by the Sentence hub). -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="12dp"
+    android:layout_marginTop="10dp"
     android:orientation="vertical">
 
     <LinearLayout
@@ -16,13 +17,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textAppearance="@style/Text.Body" />
+            android:textColor="@color/text_primary"
+            android:textSize="13sp" />
 
         <TextView
             android:id="@+id/textCount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/Text.Secondary" />
+            android:layout_marginStart="8dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp" />
     </LinearLayout>
 
     <com.google.android.material.progressindicator.LinearProgressIndicator
@@ -32,6 +36,6 @@
         android:layout_marginTop="4dp"
         android:max="100"
         app:trackColor="@color/track"
-        app:trackCornerRadius="4dp"
+        app:trackCornerRadius="3dp"
         app:trackThickness="6dp" />
 </LinearLayout>

@@ -1,7 +1,10 @@
 package com.goal.ieltsreading.ui.learn
 
+import android.content.res.ColorStateList
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
+import androidx.core.widget.ImageViewCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -32,14 +35,64 @@ class LessonsAdapter(private val onClick: (LessonItem) -> Unit) :
             else -> ctx.getString(R.string.status_ready)
         }
         b.textLessonStatus.text = status
+        fun color(res: Int) = ContextCompat.getColor(ctx, res)
+        val current = item.unlocked && !item.completed
+        val tried = (item.progress?.attempts ?: 0) > 0
+
+        // Same states as the learning path: done = green, next = blue with border, locked = grey.
+        b.textLessonNumber.setBackgroundResource(
+            when {
+                item.completed -> R.drawable.bg_g2_dot_done
+                current -> R.drawable.bg_circle_primary
+                else -> R.drawable.bg_circle_track
+            }
+        )
+        b.textLessonNumber.setTextColor(color(if (item.unlocked) R.color.white else R.color.text_secondary))
+        b.textLessonStatus.setBackgroundResource(
+            when {
+                item.completed -> R.drawable.bg_g2_pill_green
+                !item.unlocked -> R.drawable.bg_g2_chip_white
+                tried -> R.drawable.bg_pill_amber
+                else -> R.drawable.bg_pill
+            }
+        )
+        b.textLessonStatus.setTextColor(
+            color(
+                when {
+                    item.completed -> R.color.g2_correct_text
+                    !item.unlocked -> R.color.text_secondary
+                    tried -> R.color.g2_amber_text
+                    else -> R.color.brand_on_primary_container
+                }
+            )
+        )
         b.iconStatus.setImageResource(
             when {
                 item.completed -> R.drawable.ic_check_circle
                 !item.unlocked -> R.drawable.ic_lock
-                else -> R.drawable.ic_play
+                else -> R.drawable.ic_g2_play
             }
         )
-        b.root.alpha = if (item.unlocked) 1f else 0.55f
+        ImageViewCompat.setImageTintList(b.iconStatus, ColorStateList.valueOf(
+            color(
+                when {
+                    item.completed -> R.color.g2_correct
+                    !item.unlocked -> R.color.text_secondary
+                    else -> R.color.brand_primary
+                }
+            )
+        ))
+        val density = ctx.resources.displayMetrics.density
+        b.root.setCardBackgroundColor(color(if (item.unlocked) R.color.surface else R.color.surface_variant))
+        b.root.strokeColor = color(
+            when {
+                current -> R.color.brand_primary
+                item.unlocked -> R.color.track
+                else -> R.color.surface_variant
+            }
+        )
+        b.root.strokeWidth = ((if (current) 2 else 1) * density).toInt()
+        b.root.alpha = if (item.unlocked) 1f else 0.8f
         b.root.setOnClickListener { onClick(item) }
     }
 

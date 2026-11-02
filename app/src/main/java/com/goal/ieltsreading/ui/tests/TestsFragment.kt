@@ -9,23 +9,22 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.goal.ieltsreading.R
-import com.goal.ieltsreading.databinding.FragmentListBinding
+import com.goal.ieltsreading.databinding.FragmentTestsBinding
+import com.goal.ieltsreading.domain.BandCalculator
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 class TestsFragment : Fragment() {
 
-    private var _binding: FragmentListBinding? = null
+    private var _binding: FragmentTestsBinding? = null
     private val binding get() = _binding!!
     private val viewModel: TestsViewModel by viewModels()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
-        _binding = FragmentListBinding.inflate(inflater, container, false)
+        _binding = FragmentTestsBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding.textHeader.text = getString(R.string.tests_header)
-        binding.textSubHeader.text = getString(R.string.tests_subheader)
         val adapter = TestsAdapter { item ->
             if (!item.unlocked) {
                 MaterialAlertDialogBuilder(requireContext())
@@ -45,7 +44,13 @@ class TestsFragment : Fragment() {
                 .show()
         }
         binding.recycler.adapter = adapter
-        viewModel.tests.observe(viewLifecycleOwner) { adapter.submitList(it) }
+        viewModel.tests.observe(viewLifecycleOwner) { list ->
+            adapter.submitList(list)
+            // "Your best band" card: the best band over all practice tests taken.
+            val best = list.mapNotNull { it.bestBand }.maxOrNull()
+            binding.textBestBand.text = best?.let { BandCalculator.format(it) } ?: getString(R.string.g3_dash)
+            binding.textBestSub.setText(if (best != null) R.string.g3_best_band_sub else R.string.g3_best_band_none)
+        }
     }
 
     override fun onResume() {

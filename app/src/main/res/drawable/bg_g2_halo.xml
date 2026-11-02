@@ -1,0 +1,4 @@
+<!-- Soft blue ring around the current level's dot (5dp around a 40dp dot). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@color/brand_primary_container"/>
+</shape>

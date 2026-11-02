@@ -33,9 +33,10 @@ data class RoundState(
 /** A word tile; [id] keeps duplicates ("the", "the") apart. */
 data class Tile(val id: Int, val text: String)
 
-data class Missed(val en: String, val gu: String, val given: String, val tipGu: String)
+/** [focus] is the word the sentence practises; the result list shows it in green. */
+data class Missed(val en: String, val gu: String, val given: String, val tipGu: String, val focus: String = "")
 
-data class RoundResult(val correct: Int, val total: Int, val seconds: Int, val missed: List<Missed>)
+data class RoundResult(val correct: Int, val total: Int, val seconds: Int, val missed: List<Missed>, val streak: Int = 0)
 
 class SentenceRoundViewModel(app: Application, handle: SavedStateHandle) : AndroidViewModel(app) {
     private val mode: SentenceExercise? = (handle.get<String>("mode") ?: "").let { m ->
@@ -138,7 +139,7 @@ class SentenceRoundViewModel(app: Application, handle: SavedStateHandle) : Andro
             }
         }
         checked = true
-        if (correct) score++ else missed += Missed(s.en, s.gu, given, s.tipGu.ifBlank { s.tip })
+        if (correct) score++ else missed += Missed(s.en, s.gu, given, s.tipGu.ifBlank { s.tip }, s.focusWord)
         viewModelScope.launch { repository.recordSentence(s.id, correct) }
         publish()
     }
@@ -147,8 +148,14 @@ class SentenceRoundViewModel(app: Application, handle: SavedStateHandle) : Andro
         if (!checked) return
         if (index + 1 >= items.size) {
             val seconds = ((System.currentTimeMillis() - startedAt) / 1000).toInt()
+            val total = items.size
+            val finalScore = score
+            val missedNow = missed.toList()
             _state.value = null
-            _result.value = RoundResult(score, items.size, seconds, missed.toList())
+            viewModelScope.launch {
+                val streak = runCatching { repository.streak() }.getOrDefault(0)
+                _result.value = RoundResult(finalScore, total, seconds, missedNow, streak)
+            }
         } else {
             index++
             prepare()

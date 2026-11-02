@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Word review (flashcards) -->
+    <string name="g3_review_title_gu">શબ્દ પુનરાવર્તન</string>
+    <string name="g3_box_format">Box %1$d of 5</string>
+    <string name="g3_btn_knew">I knew it</string>
+    <string name="g3_btn_knew_gu">મને આવડતું હતું</string>
+    <string name="g3_btn_not_knew">Didn\'t know</string>
+    <string name="g3_btn_not_knew_gu">ખબર નહોતી</string>
+
+    <!-- Practice tests list -->
+    <string name="g3_tests_sub_gu">સાચી પરીક્ષા જેવો ટેસ્ટ · કોઈ મદદ નહીં</string>
+    <string name="g3_your_best_band">Your best band</string>
+    <string name="g3_best_band_sub">Best of all your tests · શ્રેષ્ઠ બેન્ડ</string>
+    <string name="g3_best_band_none">Take a test to get a band · ટેસ્ટ આપો</string>
+    <string name="g3_not_tried_format">Not tried yet · %d minutes</string>
+
+    <!-- Timed test -->
+    <string name="g3_btn_submit_test">Submit test</string>
+    <string name="g3_answered_format">%1$d / %2$d answered</string>
+    <string name="g3_questions_range">Questions %1$d–%2$d · %3$s</string>
+    <string name="g3_question_single">Question %1$d · %2$s</string>
+
+    <!-- Test result -->
+    <string name="g3_estimated_band">Estimated band · અંદાજિત બેન્ડ</string>
+    <string name="g3_time_format">%1$d min %2$d s</string>
+    <string name="g3_dot">·</string>
+    <string name="g3_dash">–</string>
+    <string name="g3_score_by_type">Score by question type</string>
+    <string name="g3_type_tfng">True/False/NG</string>
+    <string name="g3_type_ynng">Yes/No/NG</string>
+    <string name="g3_type_mcq">Choose</string>
+    <string name="g3_type_fill">Fill the gap</string>
+    <string name="g3_type_listen">Listen</string>
+    <string name="g3_cd_expand">Show explanation</string>
+
+    <!-- Progress -->
+    <string name="g3_progress_title">Your progress</string>
+    <string name="g3_progress_title_gu">તમારી પ્રગતિ</string>
+    <string name="g3_week_goal_format">Goal met %d of 7 days</string>
+    <string name="g3_legend_goal">Goal met</string>
+    <string name="g3_legend_studied">Studied</string>
+
+    <!-- Settings -->
+    <string name="g3_header_name">YOUR NAME · તમારું નામ</string>
+    <string name="g3_header_goal">DAILY GOAL · રોજનો લક્ષ્ય</string>
+    <string name="g3_header_learning">LEARNING · અભ્યાસ</string>
+    <string name="g3_header_reminder">REMINDER · યાદ</string>
+    <string name="g3_setting_gujarati">Show Gujarati help</string>
+    <string name="g3_setting_gujarati_gu">ગુજરાતી સમજૂતી બતાવો</string>
+    <string name="g3_setting_speak">Speak words aloud</string>
+    <string name="g3_setting_speak_gu">શબ્દ આપમેળે બોલાવો</string>
+    <string name="g3_setting_skip_abc_gu">ABC (Level −1) જરૂરી નથી</string>
+    <string name="g3_setting_unlock_all_gu">બધા લેવલ ખોલો · શરૂઆત કરનાર બંધ રાખે</string>
+    <string name="g3_setting_reminder">Daily reminder</string>
+    <string name="g3_setting_reminder_gu">રોજ યાદ અપાવો (લક્ષ્ય બાકી હોય ત્યારે)</string>
+    <string name="g3_setting_reminder_time_gu">યાદ અપાવવાનો સમય</string>
+</resources>

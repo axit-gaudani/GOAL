@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- One past test attempt in the Progress "Test history" card. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
     android:orientation="horizontal"
-    android:paddingVertical="10dp">
+    android:paddingVertical="8dp">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -16,29 +17,34 @@
             android:id="@+id/textTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/Text.Body"
-            android:textStyle="bold" />
+            android:fontFamily="@font/inter_semibold"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/textDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/Text.Secondary" />
+            android:layout_marginTop="2dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/textScore"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/Text.Secondary" />
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/textBand"
-        android:layout_width="52dp"
-        android:layout_height="52dp"
-        android:background="@drawable/bg_circle_primary"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/g3_bg_badge14"
+        android:fontFamily="@font/inter_extrabold"
         android:gravity="center"
-        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
-        android:textColor="@color/white"
-        android:textStyle="bold" />
+        android:textColor="@color/brand_on_primary_container"
+        android:textSize="17sp" />
 </LinearLayout>

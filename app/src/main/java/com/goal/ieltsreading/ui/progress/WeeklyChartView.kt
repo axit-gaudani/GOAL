@@ -20,13 +20,10 @@ class WeeklyChartView @JvmOverloads constructor(
     private var goal = 15
     private val density = resources.displayMetrics.density
 
-    private val barPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply { color = ContextCompat.getColor(context, R.color.brand_primary) }
-    private val goalBarPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply { color = ContextCompat.getColor(context, R.color.success) }
+    // Colours from the design: green = goal met, light blue = studied but goal not met.
+    private val barPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply { color = ContextCompat.getColor(context, R.color.g3_studied) }
+    private val goalBarPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply { color = ContextCompat.getColor(context, R.color.g3_success_dark) }
     private val emptyPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply { color = ContextCompat.getColor(context, R.color.track) }
-    private val goalLinePaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-        color = ContextCompat.getColor(context, R.color.brand_secondary)
-        strokeWidth = 1.5f * density
-    }
     private val labelPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         color = ContextCompat.getColor(context, R.color.text_secondary)
         textSize = 11 * resources.displayMetrics.scaledDensity
@@ -43,26 +40,27 @@ class WeeklyChartView @JvmOverloads constructor(
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
         if (days.isEmpty()) return
-        val labelSpace = 22 * density
+        val labelSpace = 20 * density
         val chartHeight = height - labelSpace - paddingTop
-        val maxValue = maxOf(goal * 1.25f, days.maxOf { it.minutes }.toFloat())
+        val maxValue = maxOf(goal.toFloat(), days.maxOf { it.minutes }.toFloat())
         val slot = width.toFloat() / days.size
-        val barWidth = slot * 0.5f
-        val radius = 6 * density
+        // Bars fill the column but are never wider than 26dp, with 8dp rounded corners.
+        val barWidth = minOf(slot - 8 * density, 26 * density)
+        val radius = 8 * density
+        val bottom = paddingTop + chartHeight
 
         days.forEachIndexed { i, d ->
             val cx = slot * i + slot / 2
-            val bottom = paddingTop + chartHeight
-            rect.set(cx - barWidth / 2, paddingTop.toFloat(), cx + barWidth / 2, bottom)
-            canvas.drawRoundRect(rect, radius, radius, emptyPaint)
             if (d.minutes > 0) {
-                val h = (d.minutes / maxValue) * chartHeight
+                val h = maxOf((d.minutes / maxValue) * chartHeight, 2 * radius)
                 rect.set(cx - barWidth / 2, bottom - h, cx + barWidth / 2, bottom)
                 canvas.drawRoundRect(rect, radius, radius, if (d.reachedGoal) goalBarPaint else barPaint)
+            } else {
+                // A small grey stub keeps empty days visible.
+                rect.set(cx - barWidth / 2, bottom - 4 * density, cx + barWidth / 2, bottom)
+                canvas.drawRoundRect(rect, 2 * density, 2 * density, emptyPaint)
             }
-            canvas.drawText(Dates.weekdayShort(d.day), cx, height - 6 * density, labelPaint)
+            canvas.drawText(Dates.weekdayShort(d.day), cx, height - 4 * density, labelPaint)
         }
-        val goalY = paddingTop + chartHeight - (goal / maxValue) * chartHeight
-        canvas.drawLine(0f, goalY, width.toFloat(), goalY, goalLinePaint)
     }
 }

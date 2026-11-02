@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Step 3 "Read" as in the LessonRead artboard: title + word count, audio bar (play, label, speed chip),
+     "Show Gujarati" switch row, then the passage paragraphs with tappable key words. -->
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -7,35 +10,105 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="@dimen/screen_padding">
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="12dp">
 
-        <TextView
-            android:id="@+id/textPassageTitle"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/Text.Title" />
+            android:baselineAligned="true"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textWordCount"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="@style/Text.Secondary" />
+            <TextView
+                android:id="@+id/textPassageTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/inter_extrabold"
+                android:textColor="@color/text_primary"
+                android:textSize="22sp" />
 
-        <TextView
+            <TextView
+                android:id="@+id/textWordCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- Audio bar: reads the passage aloud with the phone's voice -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/bg_gujarati"
-            android:padding="10dp"
-            android:text="@string/read_tip"
-            android:textAppearance="@style/Text.Secondary" />
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_g2_card_16"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="8dp">
 
-        <com.google.android.material.materialswitch.MaterialSwitch
-            android:id="@+id/switchTranslation"
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPlayPassage"
+                style="@style/Widget.G2.PlayButton.Dark"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:contentDescription="@string/g2_cd_play_passage"
+                app:icon="@drawable/ic_g2_play" />
+
+            <TextView
+                android:id="@+id/textListen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/g2_listen_passage"
+                android:textColor="@color/g2_teal_text"
+                android:textSize="14sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSpeed"
+                style="@style/Widget.App.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:contentDescription="@string/g2_cd_speed"
+                android:insetTop="6dp"
+                android:insetBottom="6dp"
+                android:minWidth="56dp"
+                android:paddingHorizontal="10dp"
+                android:text="@string/g2_speed_normal"
+                android:textColor="@color/g2_teal_text"
+                android:textSize="13sp"
+                app:backgroundTint="@color/g2_teal_soft"
+                app:cornerRadius="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/show_translation" />
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textTranslationLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/inter_semibold"
+                android:labelFor="@id/switchTranslation"
+                android:text="@string/g2_show_translation"
+                android:textColor="@color/gujarati_text"
+                android:textSize="14sp" />
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:id="@+id/switchTranslation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/show_translation"
+                android:minHeight="44dp" />
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/paragraphContainer"

@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Lesson: a row of rounded step buttons (1 Learn / 2 Words / 3 Read / 4 Practice; done = green-soft,
+     current = blue, others = white), the step pages, and the big "Next step" button. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabs"
+    <!-- Step buttons are added in code (ABC lessons have an extra step). -->
+    <LinearLayout
+        android:id="@+id/stepBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/screen_padding"
-        android:layout_marginVertical="8dp"
-        app:tabGravity="fill"
-        app:tabMode="fixed" />
+        android:orientation="horizontal"
+        android:paddingHorizontal="13dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="12dp" />
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/pager"
@@ -22,8 +24,11 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnNext"
+        style="@style/Widget.G2.Button.Big"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:layout_margin="@dimen/screen_padding"
-        android:text="@string/btn_next_step" />
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/g2_btn_next_step" />
 </LinearLayout>

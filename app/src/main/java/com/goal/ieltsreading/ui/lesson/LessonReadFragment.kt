@@ -14,7 +14,9 @@ import com.goal.ieltsreading.data.db.VocabEntity
 import com.goal.ieltsreading.databinding.FragmentLessonReadBinding
 import com.goal.ieltsreading.databinding.ItemParagraphBinding
 import com.goal.ieltsreading.ui.common.WordHighlighter
+import com.goal.ieltsreading.ui.common.app
 import com.goal.ieltsreading.ui.common.paragraphs
+import com.goal.ieltsreading.ui.common.speak
 import com.goal.ieltsreading.ui.common.visibleIf
 import com.goal.ieltsreading.ui.vocab.WordSheet
 
@@ -24,6 +26,7 @@ class LessonReadFragment : Fragment() {
     private var _binding: FragmentLessonReadBinding? = null
     private val binding get() = _binding!!
     private val viewModel: LessonViewModel by viewModels({ requireParentFragment() })
+    private var slow = false
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         _binding = FragmentLessonReadBinding.inflate(inflater, container, false)
@@ -34,6 +37,16 @@ class LessonReadFragment : Fragment() {
         // Reading English first is better practice, so translation starts hidden here.
         binding.switchTranslation.isChecked = false
         binding.switchTranslation.setOnCheckedChangeListener { _, _ -> render() }
+        // Audio bar: play reads the whole passage aloud; the chip switches normal / slow speed.
+        binding.btnPlayPassage.setOnClickListener {
+            val passage = viewModel.lesson.value?.passage ?: return@setOnClickListener
+            speak(passage, slow)
+        }
+        binding.btnSpeed.setOnClickListener {
+            slow = !slow
+            binding.btnSpeed.setText(if (slow) R.string.g2_speed_slow else R.string.g2_speed_normal)
+        }
+        binding.btnSpeed.setText(if (slow) R.string.g2_speed_slow else R.string.g2_speed_normal)
         viewModel.lesson.observe(viewLifecycleOwner) { render() }
         viewModel.words.observe(viewLifecycleOwner) { render() }
     }
@@ -54,7 +67,10 @@ class LessonReadFragment : Fragment() {
         en.forEachIndexed { index, paragraph ->
             val item = ItemParagraphBinding.inflate(layoutInflater, binding.paragraphContainer, false)
             item.textEnglish.text = WordHighlighter.highlight(paragraph, words, color) { word ->
-                WordSheet.newInstance(word.id, word.word, word.pos, word.meaningGu, word.meaningEn, word.example, word.exampleGu)
+                WordSheet.newInstance(
+                    word.id, word.word, word.pos, word.meaningGu, word.meaningEn, word.example, word.exampleGu,
+                    word.pronunciationGu
+                )
                     .show(childFragmentManager, "word")
             }
             item.textEnglish.movementMethod = LinkMovementMethod.getInstance()
@@ -64,6 +80,12 @@ class LessonReadFragment : Fragment() {
             item.textGujarati.visibleIf(showGu && guText.isNotBlank())
             binding.paragraphContainer.addView(item.root)
         }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        // Stop reading aloud when the learner leaves this step.
+        app.speaker.stop()
     }
 
     override fun onDestroyView() {

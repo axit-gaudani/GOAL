@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Group 4: sentence practice, vocabulary, speaking and ABC screens -->
+
+    <style name="G4.Text" parent="">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <!-- 20sp extra-bold exercise heading ("Tap the wrong word") -->
+    <style name="G4.Text.Instruction">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+        <item name="fontFamily">@font/inter_extrabold</item>
+    </style>
+
+    <!-- 15sp Gujarati line under a heading -->
+    <style name="G4.Text.Gu">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/gujarati_text</item>
+    </style>
+
+    <!-- 16sp bold section heading ("Your grammar patterns") -->
+    <style name="G4.Text.Section">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+    <!-- 13sp grey helper text at the right of a section heading -->
+    <style name="G4.Text.Caption">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!-- 12-13sp bold grey label ("GUJARATI", "YOUR ENGLISH") -->
+    <style name="G4.Text.Overline">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+    <!-- Soft-blue pill with dark-blue bold text ("FIX THE MISTAKE · Past simple") -->
+    <style name="G4.Text.Pill">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/brand_on_primary_container</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:background">@drawable/g4_bg_blue_pill</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <!-- Main button at the bottom of a screen: 56dp, 18dp corners -->
+    <style name="G4.Button.Big" parent="Widget.App.Button">
+        <item name="cornerRadius">18dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <!-- Flat coloured button (tint set per screen): 16dp corners, no shadow -->
+    <style name="G4.Button.Flat" parent="Widget.App.Button">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="elevation">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- Round icon-only button (size set per use) -->
+    <style name="G4.Button.Circle" parent="Widget.Material3.Button.IconButton.Filled">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="cornerRadius">100dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">0dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+</resources>

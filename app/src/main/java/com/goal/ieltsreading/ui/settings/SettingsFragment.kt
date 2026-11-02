@@ -65,6 +65,9 @@ class SettingsFragment : Fragment() {
         binding.switchGujarati.isChecked = prefs.showGujarati
         binding.switchGujarati.setOnCheckedChangeListener { _, c -> prefs.showGujarati = c }
 
+        binding.switchSpeak.isChecked = prefs.autoSpeak
+        binding.switchSpeak.setOnCheckedChangeListener { _, c -> prefs.autoSpeak = c }
+
         binding.switchSkipAbc.isChecked = prefs.skipAbc
         binding.switchSkipAbc.setOnCheckedChangeListener { _, c -> prefs.skipAbc = c }
 
@@ -86,6 +89,13 @@ class SettingsFragment : Fragment() {
                 enableReminder()
             }
         }
+        // Tapping anywhere on a row flips its switch (bigger touch target, as in the design).
+        binding.rowGujarati.setOnClickListener { binding.switchGujarati.toggle() }
+        binding.rowSpeak.setOnClickListener { binding.switchSpeak.toggle() }
+        binding.rowSkipAbc.setOnClickListener { binding.switchSkipAbc.toggle() }
+        binding.rowUnlockAll.setOnClickListener { binding.switchUnlockAll.toggle() }
+        binding.rowReminder.setOnClickListener { binding.switchReminder.toggle() }
+
         binding.rowReminderTime.setOnClickListener {
             val picker = MaterialTimePicker.Builder()
                 .setTimeFormat(TimeFormat.CLOCK_12H)

@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- One answer in the test review. Wrong answers are open; correct ones are folded (tap the row to open). -->
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="10dp">
+    android:layout_marginTop="8dp"
+    app:cardCornerRadius="18dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="14dp">
 
         <LinearLayout
+            android:id="@+id/rowHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="28dp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textNumber"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="top"
+                android:fontFamily="@font/inter_extrabold"
                 android:gravity="center"
-                android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
                 android:textColor="@color/white"
-                android:textStyle="bold" />
+                android:textSize="13sp" />
 
             <TextView
                 android:id="@+id/textPrompt"
@@ -30,48 +37,73 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
-                android:textAppearance="@style/Text.Body" />
+                android:lineSpacingExtra="7sp"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/iconExpand"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="8dp"
+                android:contentDescription="@string/g3_cd_expand"
+                android:src="@drawable/ic_g3_expand"
+                android:visibility="gone"
+                app:tint="@color/text_secondary" />
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/textPromptGu"
+        <LinearLayout
+            android:id="@+id/groupDetails"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:textAppearance="@style/Text.Gujarati" />
+            android:layout_marginStart="38dp"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textYourAnswer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="6dp"
-            android:textAppearance="@style/Text.Subtitle"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textPromptGu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/gujarati_text"
+                android:textSize="14sp" />
 
-        <TextView
-            android:id="@+id/textCorrectAnswer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:textAppearance="@style/Text.Subtitle"
-            android:textColor="@color/success"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textYourAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/inter_bold"
+                android:textSize="14sp" />
 
-        <TextView
-            android:id="@+id/textExplanation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:textAppearance="@style/Text.Body" />
+            <TextView
+                android:id="@+id/textCorrectAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/inter_bold"
+                android:textColor="@color/g3_success_dark"
+                android:textSize="14sp" />
 
-        <TextView
-            android:id="@+id/textExplanationGu"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
-            android:background="@drawable/bg_gujarati"
-            android:padding="10dp"
-            android:textAppearance="@style/Text.Gujarati" />
+            <TextView
+                android:id="@+id/textExplanation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:lineSpacingExtra="6sp"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textExplanationGu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/g3_bg_soft12"
+                android:lineSpacingExtra="6sp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="8dp"
+                android:textColor="@color/gujarati_text"
+                android:textSize="14sp" />
+        </LinearLayout>
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

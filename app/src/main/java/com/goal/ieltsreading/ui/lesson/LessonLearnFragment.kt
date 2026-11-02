@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.goal.ieltsreading.databinding.FragmentLessonLearnBinding
 import com.goal.ieltsreading.databinding.ItemExampleBinding
+import com.goal.ieltsreading.ui.common.speak
 import com.goal.ieltsreading.ui.common.visibleIf
 
 /** Step 1: the teaching explanation in simple English with Gujarati help. */
@@ -30,6 +31,7 @@ class LessonLearnFragment : Fragment() {
         viewModel.lesson.observe(viewLifecycleOwner) { lesson ->
             if (lesson == null) return@observe
             binding.textSkill.text = lesson.skill
+            binding.textSkill.visibleIf(lesson.skill.isNotBlank())
             binding.textTitle.text = lesson.title
             binding.textTitleGu.text = lesson.titleGu
             binding.textExplanation.text = lesson.explanation
@@ -41,6 +43,8 @@ class LessonLearnFragment : Fragment() {
                 val item = ItemExampleBinding.inflate(layoutInflater, binding.examplesContainer, false)
                 item.textEn.text = example.en
                 item.textGu.text = example.gu
+                item.textGu.visibleIf(example.gu.isNotBlank())
+                item.btnPlay.setOnClickListener { speak(example.en) }
                 binding.examplesContainer.addView(item.root)
             }
         }

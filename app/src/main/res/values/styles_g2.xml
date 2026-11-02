@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Styles for the Path, Lesson, Practice and Result screens (group g2). -->
+<resources>
+    <!-- Lesson step button: 44dp tall, 12dp corners, colour set in code -->
+    <style name="Widget.G2.StepButton" parent="Widget.App.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minHeight">44dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingStart">2dp</item>
+        <item name="android:paddingEnd">2dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">13sp</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMinTextSize">10sp</item>
+        <item name="autoSizeMaxTextSize">13sp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Main bottom button of the lesson / result screens: 56dp, 18dp corners, 17sp -->
+    <style name="Widget.G2.Button.Big" parent="Widget.App.Button">
+        <item name="cornerRadius">18dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <!-- White button with dark-blue text (result screen) -->
+    <style name="Widget.G2.Button.White" parent="Widget.App.Button">
+        <item name="cornerRadius">18dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="backgroundTint">@color/surface</item>
+        <item name="android:textColor">@color/brand_on_primary_container</item>
+        <item name="rippleColor">@color/brand_primary_container</item>
+    </style>
+
+    <!-- Round icon-only play button (44dp) -->
+    <style name="Widget.G2.PlayButton" parent="Widget.Material3.Button.IconButton.Filled">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:minWidth">44dp</item>
+        <item name="android:minHeight">44dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="cornerRadius">22dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">0dp</item>
+        <item name="iconSize">18dp</item>
+    </style>
+    <!-- Soft teal play button (example rows) -->
+    <style name="Widget.G2.PlayButton.Soft">
+        <item name="backgroundTint">@color/g2_teal_soft</item>
+        <item name="iconTint">@color/g2_teal_text</item>
+    </style>
+    <!-- Dark teal play button (audio bar, word sheet) -->
+    <style name="Widget.G2.PlayButton.Dark">
+        <item name="backgroundTint">@color/g2_teal_dark</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+
+    <!-- Small full-round chip text (band, skill, question type) -->
+    <style name="Text.G2.Chip" parent="">
+        <item name="android:background">@drawable/bg_pill</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/brand_on_primary_container</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <!-- Result screen stat tile -->
+    <style name="G2.StatTile" parent="">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:background">@drawable/bg_g2_tile</item>
+    </style>
+    <style name="G2.StatTile.Value" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+        <item name="fontFamily">@font/inter_extrabold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="G2.StatTile.Label" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+</resources>

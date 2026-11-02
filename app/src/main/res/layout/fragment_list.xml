@@ -9,30 +9,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingHorizontal="@dimen/screen_padding"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="12dp"
         android:paddingBottom="24dp">
 
         <TextView
             android:id="@+id/textHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:textAppearance="@style/Text.Title" />
+            android:textAppearance="@style/Text.Title"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/textSubHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:textAppearance="@style/Text.Secondary" />
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="12dp"
+            android:textAppearance="@style/Text.Secondary"
+            android:textSize="15sp" />
 
         <!-- Optional shortcut buttons (used on the Learn screen) -->
         <LinearLayout
             android:id="@+id/groupHeaderActions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="14dp"
             android:orientation="horizontal"
             android:visibility="gone">
 
@@ -40,17 +42,23 @@
                 android:id="@+id/btnHeaderAction"
                 style="@style/Widget.App.Button.Tonal"
                 android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_marginEnd="6dp"
-                android:layout_weight="1" />
+                android:layout_height="48dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:textSize="14sp" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnHeaderAction2"
                 style="@style/Widget.App.Button.Tonal"
                 android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_marginStart="6dp"
-                android:layout_weight="1" />
+                android:layout_height="48dp"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:textSize="14sp" />
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView

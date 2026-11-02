@@ -1,97 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Word bottom sheet as in the LessonRead artboard: handle, big blue word + part of speech, how it sounds
+     in Gujarati letters, round dark-teal play button, big Gujarati meaning, English meaning, example, add button. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="24dp">
+    android:paddingStart="22dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="22dp"
+    android:paddingBottom="24dp">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="5dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_g2_handle" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:baselineAligned="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
         android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textWord"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
-            android:textColor="@color/brand_primary"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textPos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:textAppearance="@style/Text.Secondary"
-            android:textStyle="italic" />
-
-        <Space
+        <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textWord"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_extrabold"
+                    android:textColor="@color/brand_primary"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/textPos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textPronunciation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_secondary"
+                android:textSize="15sp"
+                android:visibility="gone" />
+        </LinearLayout>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnPlay"
-            style="@style/Widget.Material3.Button.IconButton.Filled"
+            style="@style/Widget.G2.PlayButton.Dark"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:contentDescription="@string/cd_play"
-            app:icon="@drawable/ic_volume" />
+            android:layout_marginStart="12dp"
+            android:contentDescription="@string/g2_cd_play_word"
+            app:cornerRadius="26dp"
+            app:icon="@drawable/ic_g2_speaker"
+            app:iconSize="24dp" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/textMeaningGu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
-        android:textColor="@color/gujarati_text" />
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="@color/gujarati_text"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textMeaningEn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:textAppearance="@style/Text.Body" />
+        android:layout_marginTop="6dp"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp" />
 
     <LinearLayout
         android:id="@+id/groupExample"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/bg_gujarati"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_g2_gu_box"
         android:orientation="vertical"
-        android:padding="12dp">
+        android:paddingHorizontal="14dp"
+        android:paddingVertical="10dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_bold"
             android:text="@string/example"
-            android:textAppearance="@style/Text.Label" />
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp" />
 
         <TextView
             android:id="@+id/textExample"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/Text.Body"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp"
             android:textStyle="italic" />
 
         <TextView
             android:id="@+id/textExampleGu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/Text.Gujarati" />
+            android:layout_marginTop="2dp"
+            android:textColor="@color/gujarati_text"
+            android:textSize="15sp" />
     </LinearLayout>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnAddToDeck"
         style="@style/Widget.App.Button.Tonal"
         android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/btn_add_to_deck"
-        app:icon="@drawable/ic_translate" />
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/g2_btn_add_to_words"
+        android:textSize="15sp" />
 </LinearLayout>

@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Answer option (Practice artboard): white, 16dp corners, 1.5dp grey border, 17sp semibold.
+     States are coloured in code: selected = blue, correct = green + tick, wrong = red + cross. -->
 <com.google.android.material.button.MaterialButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/Widget.App.OptionButton"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:fontFamily="@font/inter_semibold"
+    android:insetTop="0dp"
+    android:insetBottom="0dp"
+    android:minHeight="58dp"
+    android:paddingStart="18dp"
+    android:paddingEnd="16dp"
+    android:textSize="17sp"
+    app:backgroundTint="@color/surface"
+    app:cornerRadius="16dp"
+    app:iconGravity="end"
+    app:iconSize="22dp"
+    app:strokeColor="@color/track" />

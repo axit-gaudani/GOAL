@@ -1,12 +1,15 @@
 package com.goal.ieltsreading.ui.quiz
 
 import android.content.res.ColorStateList
+import android.graphics.Color
+import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import androidx.core.content.ContextCompat
+import androidx.core.content.res.ResourcesCompat
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -27,6 +30,7 @@ class QuizFragment : Fragment() {
     private val binding get() = _binding!!
     private val viewModel: QuizViewModel by viewModels()
     private var renderedQuestionId: String? = null
+    private var defaultActionTint: ColorStateList? = null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         _binding = FragmentQuizBinding.inflate(inflater, container, false)
@@ -36,6 +40,7 @@ class QuizFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         viewLifecycleOwner.lifecycle.addObserver(StudyTimeTracker(app))
         renderedQuestionId = null
+        defaultActionTint = binding.btnAction.backgroundTintList
 
         binding.btnPassage.setOnClickListener {
             val lesson = viewModel.lesson.value ?: return@setOnClickListener
@@ -104,22 +109,26 @@ class QuizFragment : Fragment() {
         binding.inputAnswer.isEnabled = !s.checked
         styleOptions(s)
 
-        // Feedback
+        // Feedback: a coloured bottom panel (green when right, red when wrong) with the Next button inside.
+        val ctx = requireContext()
+        fun color(res: Int) = ContextCompat.getColor(ctx, res)
         binding.cardFeedback.visibleIf(s.checked)
+        (binding.panelFeedback.background.mutate() as? GradientDrawable)?.setColor(
+            if (!s.checked) Color.TRANSPARENT
+            else color(if (s.correct) R.color.g2_correct_soft else R.color.error_container)
+        )
         if (s.checked) {
-            // Green panel when right, red panel when wrong (as in the design).
-            binding.cardFeedback.setCardBackgroundColor(
-                ContextCompat.getColor(requireContext(), if (s.correct) R.color.success_container else R.color.error_container)
-            )
             binding.textFeedbackTitle.setText(if (s.correct) R.string.feedback_correct else R.string.feedback_wrong)
-            binding.textFeedbackTitle.setTextColor(
-                ContextCompat.getColor(requireContext(), if (s.correct) R.color.success else R.color.error)
-            )
+            binding.textFeedbackTitle.setTextColor(color(if (s.correct) R.color.g2_correct_text else R.color.g2_wrong_text))
             binding.textCorrectAnswer.text = getString(R.string.correct_answer_format, q.answer)
             binding.textExplanation.text = q.explanation
             binding.textExplanation.visibleIf(q.explanation.isNotBlank())
             binding.textExplanationGu.text = q.explanationGu
             binding.textExplanationGu.visibleIf(q.explanationGu.isNotBlank())
+            binding.btnAction.backgroundTintList =
+                ColorStateList.valueOf(color(if (s.correct) R.color.g2_correct else R.color.error))
+        } else {
+            binding.btnAction.backgroundTintList = defaultActionTint
         }
         binding.btnAction.setText(
             when {
@@ -131,24 +140,42 @@ class QuizFragment : Fragment() {
         binding.btnAction.isEnabled = s.checked || isFill || s.answer != null
     }
 
+    /** Option states as in the design: selected = blue, correct = green + tick, wrong = red + cross. */
     private fun styleOptions(s: QuizState) {
         val ctx = requireContext()
+        fun color(res: Int) = ContextCompat.getColor(ctx, res)
+        val density = resources.displayMetrics.density
         for (i in 0 until binding.optionsContainer.childCount) {
             val button = binding.optionsContainer.getChildAt(i) as MaterialButton
             val option = button.tag as String
             val isSelected = option == s.answer
             val isAnswer = option.equals(s.question.answer, ignoreCase = true)
-            val colorRes = when {
-                s.checked && isAnswer -> R.color.success
-                s.checked && isSelected -> R.color.error
-                isSelected -> R.color.brand_primary
-                else -> R.color.option_stroke
+            // Border, background and text colours for this option
+            val (stroke, bg, text) = when {
+                s.checked && isAnswer -> Triple(R.color.g2_correct, R.color.g2_correct_soft, R.color.g2_correct_text)
+                s.checked && isSelected -> Triple(R.color.error, R.color.error_container, R.color.g2_wrong_text)
+                s.checked -> Triple(R.color.track, R.color.surface, R.color.text_secondary)
+                isSelected -> Triple(R.color.brand_primary, R.color.brand_primary_container, R.color.brand_on_primary_container)
+                else -> Triple(R.color.track, R.color.surface, R.color.text_primary)
             }
-            val color = ContextCompat.getColor(ctx, colorRes)
-            button.strokeColor = ColorStateList.valueOf(color)
-            button.strokeWidth = resources.getDimensionPixelSize(if (isSelected || (s.checked && isAnswer)) R.dimen.stroke_selected else R.dimen.stroke_normal)
+            val strong = isSelected || (s.checked && isAnswer)
+            button.strokeColor = ColorStateList.valueOf(color(stroke))
+            button.strokeWidth = ((if (strong) 2.5f else 1.5f) * density).toInt()
+            button.backgroundTintList = ColorStateList.valueOf(color(bg))
+            button.setTextColor(color(text))
+            button.typeface = ResourcesCompat.getFont(ctx, if (strong) R.font.inter_bold else R.font.inter_semibold)
+            val icon = when {
+                s.checked && isAnswer -> R.drawable.ic_g2_check
+                s.checked && isSelected -> R.drawable.ic_g2_x
+                else -> 0
+            }
+            if (icon == 0) {
+                button.icon = null
+            } else {
+                button.setIconResource(icon)
+                button.iconTint = ColorStateList.valueOf(color(text))
+            }
             button.isEnabled = !s.checked
-            button.alpha = if (s.checked && !isAnswer && !isSelected) 0.6f else 1f
         }
     }
 

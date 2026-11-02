@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Settings (design: Settings.dc.html): section headers, goal chips, grouped white card with switches, reset. -->
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="@dimen/screen_padding">
+        android:paddingStart="20dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="24dp">
 
-        <TextView style="@style/SettingsHeader" android:text="@string/settings_profile" />
+        <TextView style="@style/g3_SectionHeader" android:text="@string/g3_header_name" />
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:hint="@string/welcome_name_hint">
+            android:hint="@string/welcome_name_hint"
+            app:boxBackgroundColor="@color/surface"
+            app:boxCornerRadiusBottomEnd="14dp"
+            app:boxCornerRadiusBottomStart="14dp"
+            app:boxCornerRadiusTopEnd="14dp"
+            app:boxCornerRadiusTopStart="14dp"
+            app:boxStrokeColor="@color/brand_primary">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/inputName"
@@ -26,88 +38,158 @@
                 android:maxLines="1" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <TextView style="@style/SettingsHeader" android:text="@string/settings_learning" />
-
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/welcome_goal"
-            android:textAppearance="@style/Text.Body" />
+            style="@style/g3_SectionHeader"
+            android:layout_marginTop="16dp"
+            android:text="@string/g3_header_goal" />
 
         <include
             android:id="@+id/goalChips"
             layout="@layout/view_goal_chips" />
 
-        <com.google.android.material.materialswitch.MaterialSwitch
-            android:id="@+id/switchGujarati"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:text="@string/setting_gujarati" />
+        <TextView
+            style="@style/g3_SectionHeader"
+            android:layout_marginTop="16dp"
+            android:text="@string/g3_header_learning" />
 
-        <TextView style="@style/SettingsDesc" android:text="@string/setting_gujarati_desc" />
-
-        <com.google.android.material.materialswitch.MaterialSwitch
-            android:id="@+id/switchSkipAbc"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:text="@string/setting_skip_abc" />
-
-        <TextView style="@style/SettingsDesc" android:text="@string/setting_skip_abc_desc" />
-
-        <com.google.android.material.materialswitch.MaterialSwitch
-            android:id="@+id/switchUnlockAll"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:text="@string/setting_unlock_all" />
-
-        <TextView style="@style/SettingsDesc" android:text="@string/setting_unlock_all_desc" />
-
-        <TextView style="@style/SettingsHeader" android:text="@string/settings_reminder" />
-
-        <com.google.android.material.materialswitch.MaterialSwitch
-            android:id="@+id/switchReminder"
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="@string/setting_reminder" />
+            app:cardCornerRadius="20dp">
 
-        <TextView style="@style/SettingsDesc" android:text="@string/setting_reminder_desc" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-        <LinearLayout
-            android:id="@+id/rowReminderTime"
+            <LinearLayout
+                android:id="@+id/rowGujarati"
+                style="@style/g3_SettingRow">
+
+                <LinearLayout style="@style/g3_SettingTexts">
+                    <TextView style="@style/g3_SettingTitle" android:text="@string/g3_setting_gujarati" />
+                    <TextView style="@style/g3_SettingSub" android:text="@string/g3_setting_gujarati_gu" />
+                </LinearLayout>
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:id="@+id/switchGujarati"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/g3_setting_gujarati" />
+            </LinearLayout>
+
+            <View style="@style/g3_Divider" />
+
+            <LinearLayout
+                android:id="@+id/rowSpeak"
+                style="@style/g3_SettingRow">
+
+                <LinearLayout style="@style/g3_SettingTexts">
+                    <TextView style="@style/g3_SettingTitle" android:text="@string/g3_setting_speak" />
+                    <TextView style="@style/g3_SettingSub" android:text="@string/g3_setting_speak_gu" />
+                </LinearLayout>
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:id="@+id/switchSpeak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/g3_setting_speak" />
+            </LinearLayout>
+
+            <View style="@style/g3_Divider" />
+
+            <LinearLayout
+                android:id="@+id/rowSkipAbc"
+                style="@style/g3_SettingRow">
+
+                <LinearLayout style="@style/g3_SettingTexts">
+                    <TextView style="@style/g3_SettingTitle" android:text="@string/setting_skip_abc" />
+                    <TextView style="@style/g3_SettingSub" android:text="@string/g3_setting_skip_abc_gu" />
+                </LinearLayout>
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:id="@+id/switchSkipAbc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/setting_skip_abc" />
+            </LinearLayout>
+
+            <View style="@style/g3_Divider" />
+
+            <LinearLayout
+                android:id="@+id/rowUnlockAll"
+                style="@style/g3_SettingRow">
+
+                <LinearLayout style="@style/g3_SettingTexts">
+                    <TextView style="@style/g3_SettingTitle" android:text="@string/setting_unlock_all" />
+                    <TextView style="@style/g3_SettingSub" android:text="@string/g3_setting_unlock_all_gu" />
+                </LinearLayout>
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:id="@+id/switchUnlockAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/setting_unlock_all" />
+            </LinearLayout>
+
+            <View style="@style/g3_Divider" />
+
+            <LinearLayout
+                android:id="@+id/rowReminder"
+                style="@style/g3_SettingRow">
+
+                <LinearLayout style="@style/g3_SettingTexts">
+                    <TextView style="@style/g3_SettingTitle" android:text="@string/g3_setting_reminder" />
+                    <TextView style="@style/g3_SettingSub" android:text="@string/g3_setting_reminder_gu" />
+                </LinearLayout>
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:id="@+id/switchReminder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/g3_setting_reminder" />
+            </LinearLayout>
+
+            <View style="@style/g3_Divider" />
+
+            <LinearLayout
+                android:id="@+id/rowReminderTime"
+                style="@style/g3_SettingRow">
+
+                <LinearLayout style="@style/g3_SettingTexts">
+                    <TextView style="@style/g3_SettingTitle" android:text="@string/reminder_time" />
+                    <TextView style="@style/g3_SettingSub" android:text="@string/g3_setting_reminder_time_gu" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textReminderTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_bold"
+                    android:textColor="@color/brand_primary"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:background="?attr/selectableItemBackground"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/reminder_time"
-                android:textAppearance="@style/Text.Body" />
-
-            <TextView
-                android:id="@+id/textReminderTime"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="@style/Text.Label" />
-        </LinearLayout>
-
-        <TextView style="@style/SettingsHeader" android:text="@string/settings_data" />
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:minHeight="20dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnReset"
             style="@style/Widget.App.Button.Outlined"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:layout_marginTop="8dp"
+            android:layout_height="52dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
             android:text="@string/btn_reset"
-            android:textColor="@color/error" />
+            android:textColor="@color/g3_error_dark"
+            app:backgroundTint="@color/surface"
+            app:strokeColor="@color/error"
+            app:strokeWidth="1.5dp" />
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

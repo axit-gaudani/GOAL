@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="g4_amber_text">#FCD58A</color>
+    <color name="g4_amber_dark">#FBBF24</color>
+    <color name="g4_amber_soft">#4A3708</color>
+    <color name="g4_green">#1F9D50</color>
+    <color name="g4_green_soft">#123D24</color>
+    <color name="g4_green_text">#A7F3C0</color>
+    <color name="g4_red">#E05252</color>
+    <color name="g4_red_soft">#4A1616</color>
+    <color name="g4_red_text">#FECACA</color>
+    <color name="g4_record">#E53935</color>
+    <color name="g4_record_halo">#4A1616</color>
+    <color name="g4_teal">#0E7C6B</color>
+    <color name="g4_teal_soft">#133F3A</color>
+    <color name="g4_teal_text">#7FE0D0</color>
+    <color name="g4_teal_label">#4FD1BD</color>
+    <color name="g4_dash">#3A5BA8</color>
+    <color name="g4_hero">#1D4FB8</color>
+    <color name="g4_hero_btn_bg">#FFFFFF</color>
+    <color name="g4_hero_btn_text">#0A2A6B</color>
+    <color name="g4_white_18">#2EFFFFFF</color>
+    <color name="g4_on_color">#FFFFFF</color>
+    <color name="g4_muted">#6B7488</color>
+    <color name="g4_divider">#2A3245</color>
+</resources>
